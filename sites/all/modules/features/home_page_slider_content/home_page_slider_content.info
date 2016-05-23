@@ -1,0 +1,14 @@
+name = Home page slider content
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = image
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_image_slide_show
+features[field_instance][] = node-slide_show-body
+features[field_instance][] = node-slide_show-field_image_slide_show
+features[node][] = slide_show
+project path = sites/all/modules/features
