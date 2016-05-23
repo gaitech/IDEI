@@ -1,0 +1,4 @@
+name = IDEI custom Module
+description = Display All custom function
+core = 7.x
+package = IDEI custom
