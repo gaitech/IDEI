@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Awards list content type feature.
+ */
+
+include_once 'awards_list_content_type.features.inc';

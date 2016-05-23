@@ -1,0 +1,14 @@
+name = Home page media
+core = 7.x
+package = IDEI Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = image
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_media_image
+features[field_instance][] = node-media-body
+features[field_instance][] = node-media-field_media_image
+features[node][] = media
+project path = sites/all/modules/features
