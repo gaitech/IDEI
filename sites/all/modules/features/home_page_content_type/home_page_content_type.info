@@ -1,0 +1,17 @@
+name = Home page content type
+core = 7.x
+package = IDEI Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = image
+dependencies[] = link
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_image_front
+features[field_base][] = field_more_links
+features[field_instance][] = node-front_page_content-body
+features[field_instance][] = node-front_page_content-field_image_front
+features[field_instance][] = node-front_page_content-field_more_links
+features[node][] = front_page_content
+project path = sites/all/modules/features
