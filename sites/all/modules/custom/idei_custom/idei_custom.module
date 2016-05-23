@@ -1,0 +1,60 @@
+<?php 
+/**
+* Implements hook_block_info().
+*/
+function idei_custom_block_info() {
+  $blocks = array();
+
+  $blocks['main_custom_menu'] = array(
+    'info' => t('main custom menu'),
+  );
+
+  return $blocks;
+}
+
+/**
+* Implements hook_block_view().
+*/
+function idei_custom_block_view($delta = '') {
+  $block = array();
+
+  switch ($delta) {
+    case 'main_custom_menu':
+      $block['subject'] = '';
+      $block['content'] = main_custom_navigation();
+      break;
+  }
+
+  return $block;
+}
+/*
+** Display custom main menubar on homepage top.
+*/
+function main_custom_navigation() {
+
+
+  $result = db_select('menu_links', 'n') 
+    ->fields('n',array('link_title','link_path')) 
+    ->condition('menu_name', 'main-menu','=') 
+    ->condition('plid', 0,'=') 
+    ->orderBy('weight', 'ASC') 
+    ->execute() 
+    ->fetchAll(); 
+  $output .='<ul class="custom-navigation">';
+    foreach ($result as $key => $value) {
+      if($value->link_path =='<front>'){ 
+        $path='';
+      }
+      else {
+        $path=$value->link_path;
+      }
+  $output .= '<li><span class="top-links-'.$key.'">'.$value->link_title.'</span></li>';
+    }
+  $output .='</ul>';
+
+return $output;
+
+}
+
+
+?>
