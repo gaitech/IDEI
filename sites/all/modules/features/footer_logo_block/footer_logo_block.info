@@ -1,0 +1,14 @@
+name = footer logo block
+description = display logo on footer
+core = 7.x
+package = IDEI Features
+version = 7.x-1.0
+dependencies[] = fe_block
+dependencies[] = menu
+features[fe_block_boxes][] = footer_facebook_block
+features[fe_block_settings][] = block-footer_facebook_block
+features[fe_block_settings][] = menu-menu-footer-about-us
+features[fe_block_settings][] = menu-menu-footer-get-involved
+features[fe_block_settings][] = menu-menu-footer-resources
+features[features_api][] = api:2
+project path = sites/all/modules/features
