@@ -48,7 +48,7 @@ function main_custom_navigation() {
       else {
         $path=$value->link_path;
       }
-  $output .= '<li><span class="top-links-'.$key.'">'.$value->link_title.'</span></li>';
+  $output .= '<li><span id="top-links-'.$key.'" class="paralax">'.$value->link_title.'</span></li>';
     }
   $output .='</ul>';
 
