@@ -1,5 +1,10 @@
 /*importing scss files*/
-/* line 1, ../sass/custom/_header.scss */
+@font-face {
+  font-family: myriad-pro;
+  src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+/* line 5, ../sass/custom/_header.scss */
 .navbar {
   margin: 0 auto !important;
   max-width: 100% !important;
@@ -8,66 +13,79 @@
   position: fixed;
   z-index: 1000;
 }
-/* line 8, ../sass/custom/_header.scss */
+/* line 12, ../sass/custom/_header.scss */
 .navbar .container {
   position: relative;
   width: 100% !important;
   margin: 0 auto !important;
   max-width: 1000px !important;
 }
-/* line 13, ../sass/custom/_header.scss */
+/* line 17, ../sass/custom/_header.scss */
 .navbar .container .navbar-header {
   width: 100% !important;
 }
-/* line 15, ../sass/custom/_header.scss */
+/* line 19, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .logo {
   margin: 0;
   padding: 0;
 }
-/* line 19, ../sass/custom/_header.scss */
+/* line 23, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links {
   float: right;
 }
-/* line 21, ../sass/custom/_header.scss */
+/* line 25, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links {
   float: left;
   margin-top: 8px;
   padding-right: 8	px;
 }
-/* line 28, ../sass/custom/_header.scss */
+/* line 32, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse {
   padding: 0;
 }
-/* line 31, ../sass/custom/_header.scss */
+/* line 35, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation {
   position: absolute;
   top: 47px;
   right: 0;
 }
-/* line 35, ../sass/custom/_header.scss */
+/* line 39, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
   float: left;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 14px;
+  font-family: myriad-pro;
 }
-/* line 42, ../sass/custom/_header.scss */
+/* line 47, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li:last-child {
   padding-right: 0 !important;
   border: none;
 }
-/* line 46, ../sass/custom/_header.scss */
+/* line 51, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a {
   color: #6a6a6a;
 }
-/* line 48, ../sass/custom/_header.scss */
+/* line 53, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a:hover {
   color: #2a569b;
 }
 
-/* line 56, ../sass/custom/_header.scss */
+/* line 61, ../sass/custom/_header.scss */
 .main-container {
   padding-top: 73px;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 1, ../sass/custom/_footer.scss */
+.footer.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1000px;
+  width: 100%;
 }

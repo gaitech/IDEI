@@ -1,3 +1,7 @@
+@font-face {
+  font-family:myriad-pro ;
+  src: url("../fonts/MyriadPro-Regular.otf");
+}
 .navbar {
 	margin: 0 auto !important;
 	max-width: 100% !important;
@@ -36,9 +40,10 @@
 				border-right: 1px solid #6a6a6a;
 				display: inline-block;
 				float: left;
-				padding-left: 10px;
-				padding-right: 10px;
-				font-size: 13px;
+				padding-left: 13px;
+				padding-right: 13px;
+				font-size: 14px;
+				font-family: myriad-pro;
  				&:last-child {
   				padding-right: 0 !important;
   				border: none;
@@ -55,4 +60,8 @@
 }
 .main-container {
   padding-top: 73px;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0;
+  width: 100%;
 }
