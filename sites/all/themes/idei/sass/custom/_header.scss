@@ -1,19 +1,34 @@
 @font-face {
-  font-family:myriad-pro ;
+  font-family:myriad-pro;
   src: url("../fonts/MyriadPro-Regular.otf");
 }
+body{
+	background: #ccc;
+}
+a{
+	font-family: myriad-pro;
+}
+p{
+	font-family: myriad-pro;
+}
+h2{
+	font-family: myriad-pro;
+}
 .navbar {
+	background: #fff none repeat scroll 0 0;
+	box-shadow: 0 -4px 11px #000;
 	margin: 0 auto !important;
 	max-width: 100% !important;
+	opacity: 0.9;
 	padding: 0;
-	width: 100% !important;
 	position: fixed;
+	width: 100% !important;
 	z-index: 1000;
 	.container{
 		position: relative;
 		width: 100% !important;
 		margin: 0 auto !important;
-		max-width: 1000px !important;
+		max-width: 1020px !important;
   	.navbar-header{
 			width: 100% !important;
 			.logo {
@@ -25,7 +40,7 @@
 				.header-social-links {
  					float: left;
   				margin-top: 8px;
-  				padding-right: 8	px;
+  				padding-right: 8px;
 				}
 			}
 		}
@@ -59,9 +74,9 @@
 	}
 }
 .main-container {
-  padding-top: 73px;
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 0;
-  width: 100%;
+background: #fff none repeat scroll 0 0;
+margin: 0 auto;
+max-width: 1020px;
+padding: 73px 0 0;
+width: 100%;
 }

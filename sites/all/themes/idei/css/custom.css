@@ -5,51 +5,74 @@
 }
 
 /* line 5, ../sass/custom/_header.scss */
+body {
+  background: #ccc;
+}
+
+/* line 8, ../sass/custom/_header.scss */
+a {
+  font-family: myriad-pro;
+}
+
+/* line 11, ../sass/custom/_header.scss */
+p {
+  font-family: myriad-pro;
+}
+
+/* line 14, ../sass/custom/_header.scss */
+h2 {
+  font-family: myriad-pro;
+}
+
+/* line 17, ../sass/custom/_header.scss */
 .navbar {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 -4px 11px #000;
   margin: 0 auto !important;
   max-width: 100% !important;
+  opacity: 0.9;
   padding: 0;
-  width: 100% !important;
   position: fixed;
+  width: 100% !important;
   z-index: 1000;
 }
-/* line 12, ../sass/custom/_header.scss */
+/* line 27, ../sass/custom/_header.scss */
 .navbar .container {
   position: relative;
   width: 100% !important;
   margin: 0 auto !important;
-  max-width: 1000px !important;
+  max-width: 1020px !important;
 }
-/* line 17, ../sass/custom/_header.scss */
+/* line 32, ../sass/custom/_header.scss */
 .navbar .container .navbar-header {
   width: 100% !important;
 }
-/* line 19, ../sass/custom/_header.scss */
+/* line 34, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .logo {
   margin: 0;
   padding: 0;
 }
-/* line 23, ../sass/custom/_header.scss */
+/* line 38, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links {
   float: right;
 }
-/* line 25, ../sass/custom/_header.scss */
+/* line 40, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links {
   float: left;
   margin-top: 8px;
-  padding-right: 8	px;
+  padding-right: 8px;
 }
-/* line 32, ../sass/custom/_header.scss */
+/* line 47, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse {
   padding: 0;
 }
-/* line 35, ../sass/custom/_header.scss */
+/* line 50, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation {
   position: absolute;
   top: 47px;
   right: 0;
 }
-/* line 39, ../sass/custom/_header.scss */
+/* line 54, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
@@ -59,33 +82,196 @@
   font-size: 14px;
   font-family: myriad-pro;
 }
-/* line 47, ../sass/custom/_header.scss */
+/* line 62, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li:last-child {
   padding-right: 0 !important;
   border: none;
 }
-/* line 51, ../sass/custom/_header.scss */
+/* line 66, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a {
   color: #6a6a6a;
 }
-/* line 53, ../sass/custom/_header.scss */
+/* line 68, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a:hover {
   color: #2a569b;
 }
 
-/* line 61, ../sass/custom/_header.scss */
+/* line 76, ../sass/custom/_header.scss */
 .main-container {
-  padding-top: 73px;
+  background: #fff none repeat scroll 0 0;
   margin: 0 auto;
-  max-width: 1000px;
-  padding: 0;
+  max-width: 1020px;
+  padding: 73px 0 0;
   width: 100%;
 }
 
-/* line 1, ../sass/custom/_footer.scss */
-.footer.container {
+/* line 2, ../sass/custom/_footer.scss */
+.footer {
   margin: 0 auto;
   padding: 0;
-  max-width: 1000px;
+  max-width: 1020px;
   width: 100%;
+  background: #333232;
+  min-height: 250px;
+}
+/* line 10, ../sass/custom/_footer.scss */
+.footer a:hover {
+  background: transparent !important;
+}
+/* line 14, ../sass/custom/_footer.scss */
+.footer .block-title {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 47px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+/* line 21, ../sass/custom/_footer.scss */
+.footer .menu {
+  margin-bottom: 10px;
+}
+/* line 23, ../sass/custom/_footer.scss */
+.footer .menu li {
+  margin-bottom: 10px;
+}
+/* line 25, ../sass/custom/_footer.scss */
+.footer .menu li a {
+  color: #71716C;
+  font-family: myriad-pro;
+  font-size: 14px;
+  padding: 0 !important;
+  font-weight: bold;
+}
+/* line 35, ../sass/custom/_footer.scss */
+.footer .facebook-block {
+  float: left;
+  width: 40%;
+  margin-left: 5.5%;
+}
+/* line 39, ../sass/custom/_footer.scss */
+.footer .facebook-block .facebook-wrapper {
+  float: left;
+  width: 50%;
+}
+/* line 44, ../sass/custom/_footer.scss */
+.footer .facebook-block .facebook-wrapper .footer-logo img {
+  height: 65px !important;
+  width: 72px !important;
+}
+/* line 49, ../sass/custom/_footer.scss */
+.footer .facebook-block .facebook-wrapper ul {
+  padding: 0;
+  margin-top: 10px;
+}
+/* line 53, ../sass/custom/_footer.scss */
+.footer .facebook-block .facebook-wrapper ul li {
+  padding-bottom: 8px;
+  list-style: none;
+}
+/* line 55, ../sass/custom/_footer.scss */
+.footer .facebook-block .facebook-wrapper ul li:nth-of-type(1) img {
+  height: 15px !important;
+  width: 12px !important;
+  margin-right: 7px;
+}
+/* line 62, ../sass/custom/_footer.scss */
+.footer .facebook-block .facebook-wrapper ul li:nth-of-type(2) img {
+  height: 15px !important;
+  width: 10px !important;
+  margin-right: 8px;
+}
+/* line 69, ../sass/custom/_footer.scss */
+.footer .facebook-block .facebook-wrapper ul li:nth-of-type(3) img {
+  height: 13px !important;
+  width: 13px !important;
+  margin-right: 6px;
+}
+/* line 77, ../sass/custom/_footer.scss */
+.footer .facebook-block .facebook-wrapper ul li a {
+  color: #71716C;
+  font-weight: bold;
+}
+/* line 85, ../sass/custom/_footer.scss */
+.footer .facebook-block .connect-wrapper {
+  float: left;
+  width: 50%;
+}
+/* line 89, ../sass/custom/_footer.scss */
+.footer .facebook-block .connect-wrapper h2 {
+  color: #fff;
+  font-size: 16px;
+  padding-top: 25px;
+  font-family: myriad-pro;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+/* line 97, ../sass/custom/_footer.scss */
+.footer .facebook-block .connect-wrapper ul {
+  padding: 0;
+  list-style: none;
+  color: #fff;
+}
+/* line 101, ../sass/custom/_footer.scss */
+.footer .facebook-block .connect-wrapper ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: myriad-pro;
+  color: #71716C;
+  font-weight: bold;
+}
+/* line 111, ../sass/custom/_footer.scss */
+.footer #block-menu-menu-footer-about-us {
+  float: left;
+  width: 20%;
+}
+/* line 116, ../sass/custom/_footer.scss */
+.footer #block-menu-menu-footer-resources {
+  float: left;
+  width: 20%;
+}
+/* line 121, ../sass/custom/_footer.scss */
+.footer #block-menu-menu-footer-get-involved {
+  float: left;
+  width: 12%;
+}
+
+/* line 128, ../sass/custom/_footer.scss */
+.copyright {
+  clear: both;
+  border-top: 1px solid  #71716C;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+/* line 135, ../sass/custom/_footer.scss */
+.copyright p:nth-of-type(1) {
+  color: #43bfef;
+  width: 62%;
+  font-family: myriad-pro;
+  font-size: 13px;
+  text-transform: uppercase;
+  float: left;
+}
+/* line 143, ../sass/custom/_footer.scss */
+.copyright p:nth-of-type(2) {
+  color: #fff;
+  width: 35%;
+  font-family: myriad-pro;
+  font-size: 11px;
+  float: right;
+}
+
+/* line 1, ../sass/custom/_project.scss */
+.slide-wrapper {
+  position: relative;
+}
+/* line 3, ../sass/custom/_project.scss */
+.slide-wrapper .slide-title {
+  position: absolute;
+  bottom: 35%;
+  color: #fff;
+  font-size: 40px;
+  font-family: myriad-pro;
+  left: 3%;
+  font-style: italic;
 }
