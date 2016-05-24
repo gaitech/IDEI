@@ -1,6 +1,151 @@
-.footer.container {
-  margin: 0 auto;
+
+.footer {
+	margin: 0 auto;
   padding: 0;
-  max-width: 1000px;
+  max-width: 1020px;
   width: 100%;
+  background: #333232;
+  min-height: 250px;
+a{
+	&:hover {
+ 		background: transparent !important;
+	}
+}
+.block-title {
+ 	color: #fff;
+ 	font-size: 15px;
+  margin-top: 47px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.menu{
+	margin-bottom: 10px;
+	li{
+		margin-bottom: 10px;
+		 a {
+	  	color: #71716C;
+	  	font-family: myriad-pro;
+	  	font-size: 14px;
+	  	padding: 0 !important;
+	  	font-weight: bold;
+		}
+	}
+}
+
+  .facebook-block {
+  	float: left;
+  	width: 40%;
+  	margin-left: 5.5%;
+  	.facebook-wrapper {
+ 		  float: left;
+  		width: 50%;
+  		.footer-logo {
+ 				
+ 				img {
+ 				  height: 65px !important;
+  			  width: 72px !important;
+				}
+			}
+			ul {
+  			
+  			padding: 0;
+  			margin-top: 10px;
+  			li {
+ 					&:nth-of-type(1){
+ 					 img {
+  					height: 15px !important;
+  					width: 12px !important;
+  					margin-right: 7px;
+					}
+				}
+				&:nth-of-type(2){
+ 					 img {
+  					height: 15px !important;
+  					width: 10px !important;
+  					margin-right: 8px;
+					}
+				}
+				&:nth-of-type(3){
+ 					 img {
+  					height: 13px !important;
+  					width: 13px !important;
+  					margin-right: 6px;
+					}
+				}
+ 				  padding-bottom: 8px;
+ 				  list-style: none;
+ 					a {
+			 			color: #71716C;
+			 			font-weight: bold;
+					
+					}
+				}
+			}
+  	}
+		.connect-wrapper {
+ 		  float: left;
+  		width: 50%;
+  		
+			h2 {
+ 		  	color: #fff;
+  			font-size: 16px;
+  			padding-top: 25px;
+  			font-family: myriad-pro;
+  			font-weight: bold;
+  			padding-bottom: 5px;
+			}
+			ul {
+  			padding: 0;
+  			list-style: none;
+				color: #fff;
+				li {
+					font-size: 14px;
+					margin-bottom: 10px;
+					font-family: myriad-pro;
+					color:#71716C;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	#block-menu-menu-footer-about-us {
+  	float: left;
+  	width: 20%;
+
+	}
+	#block-menu-menu-footer-resources {
+  	float: left;
+  	width: 20%;
+
+	}
+	#block-menu-menu-footer-get-involved {
+ 	  float: left;
+  	width: 12%;
+
+	}
+
+}
+.copyright {
+  clear: both;
+  border-top: 1px solid  #71716C;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 15px;
+  p {
+  	&:nth-of-type(1) {
+  		color: #43bfef;
+  		width: 62%;
+  		font-family: myriad-pro;
+  		font-size: 13px;
+  		text-transform: uppercase;
+  		float: left;
+		}
+		 &:nth-of-type(2) {
+  		color: #fff;
+  		width: 35%;
+  		font-family: myriad-pro;
+  		font-size: 11px;
+  		float: right;
+		}
+	}
 }
