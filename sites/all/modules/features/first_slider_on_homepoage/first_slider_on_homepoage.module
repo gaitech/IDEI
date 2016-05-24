@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the First slider on homepoage feature.
+ */
+
+include_once 'first_slider_on_homepoage.features.inc';
