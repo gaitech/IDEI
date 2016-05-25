@@ -28,7 +28,7 @@ h2{
 		position: relative;
 		width: 100% !important;
 		margin: 0 auto !important;
-		max-width: 1020px !important;
+		max-width: 1025px !important;
   	.navbar-header{
 			width: 100% !important;
 			.logo {
@@ -48,9 +48,10 @@ h2{
 		  padding: 0;
 		}
 		.custom-navigation {
-			position: absolute;
-			top: 47px;
-			right: 0;
+		position: absolute;
+		right: 0;
+		top: 23px;
+		width: 830px;
 		  li {
 				border-right: 1px solid #6a6a6a;
 				display: inline-block;
@@ -76,7 +77,19 @@ h2{
 .main-container {
 background: #fff none repeat scroll 0 0;
 margin: 0 auto;
-max-width: 1020px;
+max-width: 1025px;
 padding: 73px 0 0;
 width: 100%;
+}
+
+#home-block-block-2:before,
+#home-block-block-3:before,
+#home-block-block-4:before,
+#home-block-block-5:before,
+#home-block-block-8:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -73px; 
+  height: 73px; 
+  visibility: hidden; 
 }

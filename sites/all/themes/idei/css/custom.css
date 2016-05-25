@@ -41,7 +41,7 @@ h2 {
   position: relative;
   width: 100% !important;
   margin: 0 auto !important;
-  max-width: 1020px !important;
+  max-width: 1025px !important;
 }
 /* line 32, ../sass/custom/_header.scss */
 .navbar .container .navbar-header {
@@ -69,10 +69,11 @@ h2 {
 /* line 50, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation {
   position: absolute;
-  top: 47px;
   right: 0;
+  top: 23px;
+  width: 830px;
 }
-/* line 54, ../sass/custom/_header.scss */
+/* line 55, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
@@ -82,34 +83,47 @@ h2 {
   font-size: 14px;
   font-family: myriad-pro;
 }
-/* line 62, ../sass/custom/_header.scss */
+/* line 63, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li:last-child {
   padding-right: 0 !important;
   border: none;
 }
-/* line 66, ../sass/custom/_header.scss */
+/* line 67, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a {
   color: #6a6a6a;
 }
-/* line 68, ../sass/custom/_header.scss */
+/* line 69, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a:hover {
   color: #2a569b;
 }
 
-/* line 76, ../sass/custom/_header.scss */
+/* line 77, ../sass/custom/_header.scss */
 .main-container {
   background: #fff none repeat scroll 0 0;
   margin: 0 auto;
-  max-width: 1020px;
+  max-width: 1025px;
   padding: 73px 0 0;
   width: 100%;
+}
+
+/* line 89, ../sass/custom/_header.scss */
+#home-block-block-2:before,
+#home-block-block-3:before,
+#home-block-block-4:before,
+#home-block-block-5:before,
+#home-block-block-8:before {
+  display: block;
+  content: " ";
+  margin-top: -73px;
+  height: 73px;
+  visibility: hidden;
 }
 
 /* line 2, ../sass/custom/_footer.scss */
 .footer {
   margin: 0 auto;
   padding: 0;
-  max-width: 1020px;
+  max-width: 1025px;
   width: 100%;
   background: #333232;
   min-height: 250px;
