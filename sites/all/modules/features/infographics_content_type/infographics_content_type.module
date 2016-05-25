@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Infographics content type feature.
+ */
+
+include_once 'infographics_content_type.features.inc';
