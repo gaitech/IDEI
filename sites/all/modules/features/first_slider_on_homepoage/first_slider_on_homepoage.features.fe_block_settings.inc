@@ -19,6 +19,7 @@ function first_slider_on_homepoage_default_fe_block_settings() {
     'delta' => 'homepage_slideshow-block',
     'module' => 'views',
     'node_types' => array(),
+    'options' => NULL,
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
@@ -32,7 +33,7 @@ function first_slider_on_homepoage_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'idei',
-        'weight' => -13,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => '',

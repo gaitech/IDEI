@@ -92,14 +92,26 @@ function first_slider_on_homepoage_views_default_views() {
     'image_style' => 'homepage_slider',
     'image_link' => '',
   );
+  /* Field: Content: link */
+  $handler->display->display_options['fields']['field_link']['id'] = 'field_link';
+  $handler->display->display_options['fields']['field_link']['table'] = 'field_data_field_link';
+  $handler->display->display_options['fields']['field_link']['field'] = 'field_link';
+  $handler->display->display_options['fields']['field_link']['label'] = '';
+  $handler->display->display_options['fields']['field_link']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_link']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_link']['click_sort_column'] = 'url';
+  $handler->display->display_options['fields']['field_link']['type'] = 'link_plain';
+  $handler->display->display_options['fields']['field_link']['settings'] = array(
+    'strip_www' => 0,
+  );
   /* Field: Global: Custom text */
   $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['table'] = 'views';
   $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="slide-wrapper">
-<div class="slide-image">[field_image_slide_show]</div>
-<div class="slide-title">[title]</div>
+<div class="slide-image"><a href ="[field_link]">[field_image_slide_show]</a></div>
+<div class="slide-title"><a href ="[field_link]">[title]</a></div>
 </div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   /* Sort criterion: Content: Post date */
