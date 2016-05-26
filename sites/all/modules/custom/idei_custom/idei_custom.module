@@ -36,55 +36,20 @@ function idei_custom_block_view($delta = '') {
 
   return $block;
 }
-/*
-** Display custom main menubar on homepage top.
-*/
-/*function main_custom_navigation() {
 
-
-  $result = db_select('menu_links', 'n') 
-    ->fields('n',array('link_title','link_path')) 
-    ->condition('menu_name', 'main-menu','=') 
-    ->condition('plid', 0,'=') 
-    ->orderBy('weight', 'ASC') 
-    ->execute() 
-    ->fetchAll(); 
-  $output .='<ul class="custom-navigation">';
-    foreach ($result as $key => $value) {
-      if($value->link_path =='<front>'){ 
-        $path='';
-      }
-      else {
-        $path=$value->link_path;
-      }
-  $output .= '<li><span id="top-links-'.$key.'" class="paralax">'.$value->link_title.'</span></li>';
-    }
-  $output .='</ul>';
-
-return $output;
-
-}*/
 
 /*
  * Implementation of hook_theme().
  */
 function idei_custom_theme(){
-
   $templates = array(
-    'idei_custom_block' => array(
-      
+    'idei_custom_block' => array(     
       'template' => 'templates/idei-custom-menu-new',
     ),
   );
   return $templates;
 }
 
-
 function idei_main_custom_navigation() {
-  
   return theme('idei_custom_block'); 
-
 }
-
-
-?>
