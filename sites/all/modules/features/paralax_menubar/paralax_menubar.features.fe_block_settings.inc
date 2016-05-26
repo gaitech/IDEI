@@ -12,13 +12,14 @@ function paralax_menubar_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
-  $export['idei_custom-main_custom_menu'] = array(
-    'cache' => 1,
+  $export['system-main-menu'] = array(
+    'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 'main_custom_menu',
-    'module' => 'idei_custom',
+    'delta' => 'main-menu',
+    'module' => 'system',
     'node_types' => array(),
+    'options' => NULL,
     'pages' => '',
     'roles' => array(),
     'themes' => array(
@@ -29,10 +30,10 @@ function paralax_menubar_default_fe_block_settings() {
         'weight' => 0,
       ),
       'idei' => array(
-        'region' => 'navigation',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'idei',
-        'weight' => 0,
+        'weight' => -6,
       ),
       'seven' => array(
         'region' => '',
