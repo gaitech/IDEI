@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the homepage content block for paralax feature.
- */
-
-include_once 'homepage_content_block_for_paralax.features.inc';
