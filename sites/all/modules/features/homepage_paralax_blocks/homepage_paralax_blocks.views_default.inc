@@ -95,15 +95,12 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'front_page_content' => 'front_page_content',
   );
-  /* Filter criterion: Content: Has taxonomy term */
-  $handler->display->display_options['filters']['tid']['id'] = 'tid';
-  $handler->display->display_options['filters']['tid']['table'] = 'taxonomy_index';
-  $handler->display->display_options['filters']['tid']['field'] = 'tid';
-  $handler->display->display_options['filters']['tid']['value'] = array(
-    1 => '1',
-  );
-  $handler->display->display_options['filters']['tid']['type'] = 'select';
-  $handler->display->display_options['filters']['tid']['vocabulary'] = 'home_page_category';
+  /* Filter criterion: Taxonomy term: Name */
+  $handler->display->display_options['filters']['name']['id'] = 'name';
+  $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['filters']['name']['field'] = 'name';
+  $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
+  $handler->display->display_options['filters']['name']['value'] = 'its all about water';
 
   /* Display: Impact */
   $handler = $view->new_display('block', 'Impact', 'block_1');
@@ -175,15 +172,12 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'front_page_content' => 'front_page_content',
   );
-  /* Filter criterion: Content: Has taxonomy term */
-  $handler->display->display_options['filters']['tid']['id'] = 'tid';
-  $handler->display->display_options['filters']['tid']['table'] = 'taxonomy_index';
-  $handler->display->display_options['filters']['tid']['field'] = 'tid';
-  $handler->display->display_options['filters']['tid']['value'] = array(
-    2 => '2',
-  );
-  $handler->display->display_options['filters']['tid']['type'] = 'select';
-  $handler->display->display_options['filters']['tid']['vocabulary'] = 'home_page_category';
+  /* Filter criterion: Taxonomy term: Name */
+  $handler->display->display_options['filters']['name']['id'] = 'name';
+  $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['filters']['name']['field'] = 'name';
+  $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
+  $handler->display->display_options['filters']['name']['value'] = 'Impact';
 
   /* Display: Approach */
   $handler = $view->new_display('block', 'Approach', 'block_2');
@@ -245,15 +239,12 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'front_page_content' => 'front_page_content',
   );
-  /* Filter criterion: Content: Has taxonomy term */
-  $handler->display->display_options['filters']['tid']['id'] = 'tid';
-  $handler->display->display_options['filters']['tid']['table'] = 'taxonomy_index';
-  $handler->display->display_options['filters']['tid']['field'] = 'tid';
-  $handler->display->display_options['filters']['tid']['value'] = array(
-    3 => '3',
-  );
-  $handler->display->display_options['filters']['tid']['type'] = 'select';
-  $handler->display->display_options['filters']['tid']['vocabulary'] = 'home_page_category';
+  /* Filter criterion: Taxonomy term: Name */
+  $handler->display->display_options['filters']['name']['id'] = 'name';
+  $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['filters']['name']['field'] = 'name';
+  $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
+  $handler->display->display_options['filters']['name']['value'] = 'Approach';
 
   /* Display: Programs */
   $handler = $view->new_display('block', 'Programs', 'block_3');
@@ -325,24 +316,12 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'front_page_content' => 'front_page_content',
   );
-  /* Filter criterion: Content: Has taxonomy term */
-  $handler->display->display_options['filters']['tid']['id'] = 'tid';
-  $handler->display->display_options['filters']['tid']['table'] = 'taxonomy_index';
-  $handler->display->display_options['filters']['tid']['field'] = 'tid';
-  $handler->display->display_options['filters']['tid']['value'] = array(
-    0 => '4',
-  );
-  $handler->display->display_options['filters']['tid']['exposed'] = TRUE;
-  $handler->display->display_options['filters']['tid']['expose']['operator_id'] = 'tid_op';
-  $handler->display->display_options['filters']['tid']['expose']['label'] = 'Has taxonomy term';
-  $handler->display->display_options['filters']['tid']['expose']['operator'] = 'tid_op';
-  $handler->display->display_options['filters']['tid']['expose']['identifier'] = 'tid';
-  $handler->display->display_options['filters']['tid']['expose']['remember_roles'] = array(
-    2 => '2',
-    1 => 0,
-    3 => 0,
-  );
-  $handler->display->display_options['filters']['tid']['vocabulary'] = 'home_page_category';
+  /* Filter criterion: Taxonomy term: Name */
+  $handler->display->display_options['filters']['name']['id'] = 'name';
+  $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['filters']['name']['field'] = 'name';
+  $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
+  $handler->display->display_options['filters']['name']['value'] = 'programs';
 
   /* Display: Water */
   $handler = $view->new_display('block', 'Water', 'block_4');
@@ -414,14 +393,12 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'front_page_content' => 'front_page_content',
   );
-  /* Filter criterion: Content: Has taxonomy term */
-  $handler->display->display_options['filters']['tid']['id'] = 'tid';
-  $handler->display->display_options['filters']['tid']['table'] = 'taxonomy_index';
-  $handler->display->display_options['filters']['tid']['field'] = 'tid';
-  $handler->display->display_options['filters']['tid']['value'] = array(
-    0 => '5',
-  );
-  $handler->display->display_options['filters']['tid']['vocabulary'] = 'home_page_category';
+  /* Filter criterion: Taxonomy term: Name */
+  $handler->display->display_options['filters']['name']['id'] = 'name';
+  $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['filters']['name']['field'] = 'name';
+  $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
+  $handler->display->display_options['filters']['name']['value'] = 'Water';
 
   /* Display: Partners */
   $handler = $view->new_display('block', 'Partners', 'block_5');
@@ -471,14 +448,77 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'front_page_content' => 'front_page_content',
   );
-  /* Filter criterion: Content: Has taxonomy term */
-  $handler->display->display_options['filters']['tid']['id'] = 'tid';
-  $handler->display->display_options['filters']['tid']['table'] = 'taxonomy_index';
-  $handler->display->display_options['filters']['tid']['field'] = 'tid';
-  $handler->display->display_options['filters']['tid']['value'] = array(
-    0 => '6',
+  /* Filter criterion: Taxonomy term: Name */
+  $handler->display->display_options['filters']['name']['id'] = 'name';
+  $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['filters']['name']['field'] = 'name';
+  $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
+  $handler->display->display_options['filters']['name']['value'] = 'Partners';
+
+  /* Display: Krishak Bandhu */
+  $handler = $view->new_display('block', 'Krishak Bandhu', 'block_6');
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: image_front */
+  $handler->display->display_options['fields']['field_image_front']['id'] = 'field_image_front';
+  $handler->display->display_options['fields']['field_image_front']['table'] = 'field_data_field_image_front';
+  $handler->display->display_options['fields']['field_image_front']['field'] = 'field_image_front';
+  $handler->display->display_options['fields']['field_image_front']['label'] = '';
+  $handler->display->display_options['fields']['field_image_front']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_image_front']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_image_front']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_image_front']['settings'] = array(
+    'image_style' => 'krishak_bandhu_logo',
+    'image_link' => '',
   );
-  $handler->display->display_options['filters']['tid']['vocabulary'] = 'home_page_category';
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
+  /* Field: Content: Body */
+  $handler->display->display_options['fields']['body']['id'] = 'body';
+  $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
+  $handler->display->display_options['fields']['body']['field'] = 'body';
+  $handler->display->display_options['fields']['body']['label'] = '';
+  $handler->display->display_options['fields']['body']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
+  /* Field: Global: Custom text */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="main-krishak">
+<div class="krishak-logo">[field_image_front]</div>
+<div class="krishak-body"><div class="krishak-title">[title]</div>[body] </div>
+</div>';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'front_page_content' => 'front_page_content',
+  );
+  /* Filter criterion: Taxonomy term: Name */
+  $handler->display->display_options['filters']['name']['id'] = 'name';
+  $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
+  $handler->display->display_options['filters']['name']['field'] = 'name';
+  $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
+  $handler->display->display_options['filters']['name']['value'] = 'Krishak Bandhu';
   $export['homepage_content'] = $view;
 
   return $export;

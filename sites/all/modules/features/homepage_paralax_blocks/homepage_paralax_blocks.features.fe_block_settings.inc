@@ -216,6 +216,36 @@ function homepage_paralax_blocks_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-homepage_content-block_6'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'delta' => 'homepage_content-block_6',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'idei' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'idei',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+  );
+
   $export['views-homepage_slideshow-block'] = array(
     'cache' => -1,
     'css_class' => '',
