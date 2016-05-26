@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the blockqueue for homepage feature.
- */
-
-include_once 'blockqueue_for_homepage.features.inc';
