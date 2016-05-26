@@ -21,7 +21,7 @@ function homepage_paralax_blocks_image_default_styles() {
   $styles['krishak_bandhu_logo'] = array(
     'label' => 'krishak bandhu logo',
     'effects' => array(
-      5 => array(
+      3 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 60,

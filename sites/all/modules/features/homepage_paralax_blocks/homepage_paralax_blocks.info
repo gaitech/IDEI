@@ -15,7 +15,6 @@ features[fe_block_settings][] = views-homepage_content-block_3
 features[fe_block_settings][] = views-homepage_content-block_4
 features[fe_block_settings][] = views-homepage_content-block_5
 features[fe_block_settings][] = views-homepage_content-block_6
-features[fe_block_settings][] = views-homepage_slideshow-block
 features[features_api][] = api:2
 features[image][] = krishak_bandhu_logo
 features[views_view][] = homepage_content

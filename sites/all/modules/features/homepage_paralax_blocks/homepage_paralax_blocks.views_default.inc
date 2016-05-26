@@ -425,7 +425,6 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['field_video']['table'] = 'field_data_field_video';
   $handler->display->display_options['fields']['field_video']['field'] = 'field_video';
   $handler->display->display_options['fields']['field_video']['label'] = '';
-  $handler->display->display_options['fields']['field_video']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_video']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_video']['click_sort_column'] = 'video_url';
   $handler->display->display_options['fields']['field_video']['type'] = 'video_embed_field_thumbnail_colorbox';
@@ -441,7 +440,7 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="homepage-impact-wrapper">
 <div class="homepage-block-title">[title] </div>
 <div class="homepage-body">[body]</div>
-<div class="awards-video">[field_video] </div>
+<div class="awards-video">[field_video]</div>
 </div>
 ';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
@@ -466,7 +465,7 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
   $handler->display->display_options['filters']['name']['field'] = 'name';
   $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
-  $handler->display->display_options['filters']['name']['value'] = 'Partners';
+  $handler->display->display_options['filters']['name']['value'] = 'Awards';
 
   /* Display: Krishak Bandhu */
   $handler = $view->new_display('block', 'Krishak Bandhu', 'block_6');
