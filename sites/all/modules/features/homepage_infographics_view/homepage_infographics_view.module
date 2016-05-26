@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Homepage Infographics view feature.
+ */
+
+include_once 'homepage_infographics_view.features.inc';

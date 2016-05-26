@@ -1,0 +1,15 @@
+name = Homepage Infographics view
+description = Homepage Infographics view
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = fe_block
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[fe_block_settings][] = views-infographics-block
+features[fe_block_settings][] = views-infographics-block_1
+features[fe_block_settings][] = views-infographics-block_2
+features[features_api][] = api:2
+features[views_view][] = infographics
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules/features
