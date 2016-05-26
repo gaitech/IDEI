@@ -219,9 +219,11 @@ function homepage_paralax_blocks_default_fe_block_settings() {
   $export['views-homepage_content-block_6'] = array(
     'cache' => -1,
     'css_class' => '',
+    'custom' => 0,
     'delta' => 'homepage_content-block_6',
     'module' => 'views',
     'node_types' => array(),
+    'options' => NULL,
     'pages' => '',
     'roles' => array(),
     'themes' => array(
@@ -244,6 +246,8 @@ function homepage_paralax_blocks_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['views-homepage_slideshow-block'] = array(
