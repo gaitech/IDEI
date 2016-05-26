@@ -5,6 +5,15 @@
  */
 
 /**
+ * Implements hook_ctools_plugin_api().
+ */
+function homepage_paralax_blocks_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "video_embed_field" && $api == "default_video_embed_styles") {
+    return array("version" => "1");
+  }
+}
+
+/**
  * Implements hook_views_api().
  */
 function homepage_paralax_blocks_views_api($module = NULL, $api = NULL) {
