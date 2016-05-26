@@ -198,12 +198,61 @@ function home_page_content_type_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-front_page_content-field_video'.
+  $field_instances['node-front_page_content-field_video'] = array(
+    'bundle' => 'front_page_content',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'video_embed_field',
+        'settings' => array(
+          'description' => 1,
+          'description_position' => 'bottom',
+          'image_style' => 'thumbnail',
+          'video_style' => 'normal',
+        ),
+        'type' => 'video_embed_field_thumbnail_colorbox',
+        'weight' => 4,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_video',
+    'label' => 'video',
+    'required' => 0,
+    'settings' => array(
+      'allowed_providers' => array(
+        'vimeo' => 'vimeo',
+        'youtube' => 'youtube',
+      ),
+      'description_field' => 0,
+      'description_length' => 128,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'video_embed_field',
+      'settings' => array(),
+      'type' => 'video_embed_field_video',
+      'weight' => 0,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
   t('Category');
   t('More links');
   t('image_front');
+  t('video');
 
   return $field_instances;
 }
