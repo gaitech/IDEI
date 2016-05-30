@@ -5,7 +5,14 @@
 		   jQuery('#block-search-form').animate({
 		      width: "toggle"
 		    });
-		});  
+		}); 
+
+		/*js for footer change color of particular word*/
+		jQuery('.copyright p:nth-of-type(2):contains("GAI")').each(function(){
+      jQuery(this).html(
+        jQuery(this).html().replace(/GAI/g,'<span style="color:#43bfef">GAI</span>')
+      );
+    }); 
 
 })
 })(jQuery);

@@ -6,39 +6,43 @@
   width: 100%;
   background: #333232;
   min-height: 250px;
-a{
-	&:hover {
- 		background: transparent !important;
-	}
-}
-.block-title {
- 	color: #fff;
- 	font-size: 15px;
-  margin-top: 47px;
-  font-weight: bold;
-  padding-bottom: 5px;
-}
-.menu{
-	margin-bottom: 10px;
-	li{
-		margin-bottom: 10px;
-		 a {
-	  	color: #71716C;
-	  	font-family: myriad-pro;
-	  	font-size: 14px;
-	  	padding: 0 !important;
-	  	font-weight: bold;
-		}
-	}
-}
+  a{
+  	&:hover {
+   		background: transparent !important;
+  	}
+  }
+  .region-footer {
+    padding: 0 0 0 58px;
+  }
+  .block-title {
+   	color: #fff;
+   	font-size: 15px;
+    margin-top: 38px;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+  .menu{
+  	margin-bottom: 10px;
+    margin-top: 13px;
+  	li{
+  		margin-bottom: 5px;
+  		 a {
+  	  	color: #71716C;
+  	  	font-family: myriad-pro;
+  	  	font-size: 15px;
+  	  	padding: 0 !important;
+  	  	font-weight: bold;
+  		}
+  	}
+  }
 
   .facebook-block {
   	float: left;
   	width: 40%;
-  	margin-left: 5.5%;
+    margin-bottom: 20px;
   	.facebook-wrapper {
  		  float: left;
-  		width: 50%;
+  		width: 54%;
   		.footer-logo {
  				
  				img {
@@ -47,64 +51,66 @@ a{
 				}
 			}
 			ul {
-  			
   			padding: 0;
-  			margin-top: 10px;
+  			margin-top: 7px;
   			li {
+          padding-bottom: 5px;
+          list-style: none;
+          font-family: myriad-pro;
+          a {
+            color: #71716C;
+            font-weight: bold;
+            font-family: myriad-pro;
+            font-size: 15px;
+          }
  					&:nth-of-type(1){
- 					 img {
-  					height: 15px !important;
-  					width: 12px !important;
-  					margin-right: 7px;
+ 					  img {
+    					height: 15px !important;
+    					width: 12px !important;
+    					margin-right: 7px;
+            }
 					}
-				}
-				&:nth-of-type(2){
- 					 img {
-  					height: 15px !important;
-  					width: 10px !important;
-  					margin-right: 8px;
-					}
-				}
-				&:nth-of-type(3){
- 					 img {
-  					height: 13px !important;
-  					width: 13px !important;
-  					margin-right: 6px;
-					}
-				}
- 				  padding-bottom: 8px;
- 				  list-style: none;
- 					a {
-			 			color: #71716C;
-			 			font-weight: bold;
-					
-					}
-				}
-			}
-  	}
-		.connect-wrapper {
- 		  float: left;
-  		width: 50%;
-  		
-			h2 {
- 		  	color: #fff;
-  			font-size: 16px;
-  			padding-top: 25px;
-  			font-family: myriad-pro;
-  			font-weight: bold;
-  			padding-bottom: 5px;
-			}
-			ul {
-  			padding: 0;
-  			list-style: none;
-				color: #fff;
-				li {
-					font-size: 14px;
-					margin-bottom: 10px;
-					font-family: myriad-pro;
-					color:#71716C;
-					font-weight: bold;
-				}
+          &:nth-of-type(2){
+           img {
+              height: 15px !important;
+              width: 10px !important;
+              margin-right: 8px;
+            }
+          }
+          &:nth-of-type(3){
+            img {
+              height: 13px !important;
+              width: 13px !important;
+              margin-right: 6px;
+            }
+          }
+        }  
+			}		  
+		}
+	}
+	.connect-wrapper {
+		  float: left;
+		width: 46%;
+		
+		h2 {
+		  	color: #fff;
+			font-size: 15px;
+			padding-top: 18px;
+			font-family: myriad-pro;
+			font-weight: bold;
+			padding-bottom: 5px;
+		}
+		ul {
+			padding: 0;
+			list-style: none;
+			color: #fff;
+      margin-top: 13px;
+			li {
+				font-size: 14px;
+				margin-bottom: 5px;
+				font-family: myriad-pro;
+				color:#71716C;
+				font-weight: bold;
 			}
 		}
 	}
@@ -115,12 +121,12 @@ a{
 	}
 	#block-menu-menu-footer-resources {
   	float: left;
-  	width: 20%;
+  	width: 21.5%;
 
 	}
 	#block-menu-menu-footer-get-involved {
  	  float: left;
-  	width: 12%;
+  	width: 18%;
 
 	}
 
@@ -128,9 +134,8 @@ a{
 .copyright {
   clear: both;
   border-top: 1px solid  #71716C;
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 15px;
+  width: 90.3%;
+  padding-top: 8px;
   p {
   	&:nth-of-type(1) {
   		color: #43bfef;
@@ -142,9 +147,9 @@ a{
 		}
 		 &:nth-of-type(2) {
   		color: #fff;
-  		width: 35%;
+  		width: 36%;
   		font-family: myriad-pro;
-  		font-size: 11px;
+  		font-size: 10px;
   		float: right;
 		}
 	}
