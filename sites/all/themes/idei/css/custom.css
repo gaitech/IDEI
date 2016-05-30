@@ -64,36 +64,51 @@ h2 {
   max-width: 1025px !important;
 }
 /* line 16, ../sass/custom/_header.scss */
+.navbar .container .navbar-collapse.collapse {
+  position: absolute;
+  top: 46px;
+  right: 10px;
+}
+/* line 21, ../sass/custom/_header.scss */
 .navbar .container .navbar-header {
   width: 100% !important;
 }
-/* line 18, ../sass/custom/_header.scss */
+/* line 23, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .logo {
   margin: 0;
   padding: 0;
 }
-/* line 22, ../sass/custom/_header.scss */
+/* line 27, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links {
   float: right;
 }
-/* line 24, ../sass/custom/_header.scss */
+/* line 29, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links #block-search-form {
+  position: absolute;
+  right: 7px;
+  z-index: 19;
+  display: none;
+}
+/* line 36, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links #block-search-form .input-group-btn {
+  display: none !important;
+}
+/* line 40, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links .search-logo {
+  position: relative;
+  z-index: 20;
+}
+/* line 44, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links {
   float: left;
   margin-top: 8px;
   padding-right: 8px;
 }
-/* line 31, ../sass/custom/_header.scss */
+/* line 51, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse {
   padding: 0;
 }
-/* line 34, ../sass/custom/_header.scss */
-.navbar .container .custom-navigation {
-  position: absolute;
-  right: 0;
-  top: 23px;
-  width: 830px;
-}
-/* line 39, ../sass/custom/_header.scss */
+/* line 55, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
@@ -103,21 +118,21 @@ h2 {
   font-size: 14px;
   font-family: myriad-pro;
 }
-/* line 47, ../sass/custom/_header.scss */
+/* line 63, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li:last-child {
   padding-right: 0 !important;
   border: none;
 }
-/* line 51, ../sass/custom/_header.scss */
+/* line 67, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a {
   color: #6a6a6a;
 }
-/* line 53, ../sass/custom/_header.scss */
+/* line 69, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a:hover {
   color: #2a569b;
 }
 
-/* line 63, ../sass/custom/_header.scss */
+/* line 79, ../sass/custom/_header.scss */
 #home-block-block-2:before,
 #home-block-block-3:before,
 #home-block-block-4:before,

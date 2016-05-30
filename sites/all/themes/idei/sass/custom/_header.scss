@@ -13,16 +13,36 @@
 		width: 100% !important;
 		margin: 0 auto !important;
 		max-width: 1025px !important;
+		.navbar-collapse.collapse {
+ 			 position: absolute;
+  			top: 46px;
+  			right: 10px;
+		}
   	.navbar-header{
 			width: 100% !important;
 			.logo {
- 				margin: 0;
+ 			margin: 0;
   			padding: 0;
 			}
 			.social-links {
  				float: right;
+ 				#block-search-form {
+					position: absolute;
+					right: 7px;
+					z-index: 19;
+					display: none;
+				}
+ 				#block-search-form {
+	 				.input-group-btn {
+	 					display: none !important;
+					}
+			 	}
+			 	.search-logo{
+			 		position: relative;
+			 		z-index: 20;
+			 	}
 				.header-social-links {
- 					float: left;
+ 				float: left;
   				margin-top: 8px;
   				padding-right: 8px;
 				}
@@ -32,10 +52,6 @@
 		  padding: 0;
 		}
 		.custom-navigation {
-		position: absolute;
-		right: 0;
-		top: 23px;
-		width: 830px;
 		  li {
 				border-right: 1px solid #6a6a6a;
 				display: inline-block;
