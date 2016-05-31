@@ -354,17 +354,23 @@ h2 {
   float: right;
 }
 
-/* line 1, ../sass/custom/_project.scss */
+/*css for homepage-slider*/
+/* line 3, ../sass/custom/_project.scss */
 .slide-wrapper {
   position: relative;
 }
-/* line 3, ../sass/custom/_project.scss */
+/* line 5, ../sass/custom/_project.scss */
 .slide-wrapper .slide-title {
   position: absolute;
-  bottom: 35%;
+  bottom: 40%;
   color: #fff;
   font-size: 40px;
   font-family: myriad-pro;
-  left: 3%;
+  left: 5.4%;
   font-style: italic;
+}
+/* line 13, ../sass/custom/_project.scss */
+.slide-wrapper .slide-title a {
+  text-decoration: none;
+  color: #fff;
 }
