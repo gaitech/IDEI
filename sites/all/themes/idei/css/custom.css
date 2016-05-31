@@ -136,20 +136,23 @@ h2 {
 }
 /* line 72, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links .search-logo {
-  margin-right: 6px;
   cursor: pointer;
 }
-/* line 76, ../sass/custom/_header.scss */
+/* line 75, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links img {
   height: 25px !important;
   width: 25px !important;
-  margin-right: 3px;
+  margin-right: 6px;
 }
-/* line 84, ../sass/custom/_header.scss */
+/* line 82, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links .header-social-links p a:last-of-type img {
+  margin-right: 0;
+}
+/* line 90, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse {
   padding: 0;
 }
-/* line 88, ../sass/custom/_header.scss */
+/* line 94, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
@@ -159,22 +162,22 @@ h2 {
   font-size: 13px;
   font-family: myriad-pro;
 }
-/* line 96, ../sass/custom/_header.scss */
+/* line 102, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li:last-child {
   padding-right: 0 !important;
   border: none;
 }
-/* line 100, ../sass/custom/_header.scss */
+/* line 106, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a {
   color: #6a6a6a;
   text-decoration: none;
 }
-/* line 103, ../sass/custom/_header.scss */
+/* line 109, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a:hover {
   color: #43bfef;
 }
 
-/* line 113, ../sass/custom/_header.scss */
+/* line 119, ../sass/custom/_header.scss */
 #home-block-block-2:before,
 #home-block-block-3:before,
 #home-block-block-4:before,
