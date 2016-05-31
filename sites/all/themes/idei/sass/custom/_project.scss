@@ -1,12 +1,18 @@
+/*css for homepage-slider*/
+
 .slide-wrapper {
   position: relative;
-  .slide-title {
- 	position: absolute;
-  	bottom: 35%;
-  	color: #fff;
-  	font-size: 40px;
-  	font-family: myriad-pro;
-  	left: 3%;
-  	font-style: italic;
+  	.slide-title {
+	 	position: absolute;
+	  	bottom: 40%;
+	  	color: #fff;
+	  	font-size: 40px;
+	  	font-family: myriad-pro;
+	  	left: 5.4%;
+	  	font-style: italic;
+	  	a {
+	  		text-decoration: none;
+	  		color: #fff;
+	  	}
 	}
 }
