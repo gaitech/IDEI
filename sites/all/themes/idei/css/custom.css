@@ -86,13 +86,17 @@ h2 {
 .navbar .container .navbar-header .social-links #block-search-form {
   float: left;
 }
-/* line 33, ../sass/custom/_header.scss */
+/* line 32, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links #block-search-form {
+  display: none;
+}
+/* line 34, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group-btn {
   display: none !important;
 }
-/* line 37, ../sass/custom/_header.scss */
+/* line 38, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group .form-control {
-  height: 30px;
+  height: 25px;
   border-radius: 12px !important;
   -moz-box-shadow: 0px 0 10px #43bfef;
   -webkit-box-shadow: 0px 0 10px #43bfef;
@@ -101,49 +105,51 @@ h2 {
   color: #43bfef;
   font-size: 12px;
   font-family: myriad-pro;
+  margin-top: 3px;
 }
-/* line 48, ../sass/custom/_header.scss */
+/* line 50, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group ::-webkit-input-placeholder {
   color: #43bfef;
 }
-/* line 51, ../sass/custom/_header.scss */
+/* line 53, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group :-moz-placeholder {
   color: #43bfef;
 }
-/* line 54, ../sass/custom/_header.scss */
+/* line 56, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group ::-moz-placeholder {
   color: #43bfef;
 }
-/* line 57, ../sass/custom/_header.scss */
+/* line 59, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group :-ms-input-placeholder {
   color: #43bfef;
 }
-/* line 62, ../sass/custom/_header.scss */
+/* line 64, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .search-logo {
   position: relative;
   z-index: 20;
 }
-/* line 66, ../sass/custom/_header.scss */
+/* line 68, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links {
   float: left;
   margin-top: 8px;
   padding-right: 8px;
 }
-/* line 70, ../sass/custom/_header.scss */
+/* line 72, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links .search-logo {
   margin-right: 6px;
+  cursor: pointer;
 }
-/* line 73, ../sass/custom/_header.scss */
+/* line 76, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links img {
   height: 25px !important;
   width: 25px !important;
   margin-right: 3px;
 }
-/* line 81, ../sass/custom/_header.scss */
+/* line 84, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse {
   padding: 0;
 }
-/* line 85, ../sass/custom/_header.scss */
+/* line 88, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
@@ -153,22 +159,22 @@ h2 {
   font-size: 13px;
   font-family: myriad-pro;
 }
-/* line 93, ../sass/custom/_header.scss */
+/* line 96, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li:last-child {
   padding-right: 0 !important;
   border: none;
 }
-/* line 97, ../sass/custom/_header.scss */
+/* line 100, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a {
   color: #6a6a6a;
   text-decoration: none;
 }
-/* line 100, ../sass/custom/_header.scss */
+/* line 103, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a:hover {
   color: #43bfef;
 }
 
-/* line 110, ../sass/custom/_header.scss */
+/* line 113, ../sass/custom/_header.scss */
 #home-block-block-2:before,
 #home-block-block-3:before,
 #home-block-block-4:before,

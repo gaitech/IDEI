@@ -30,12 +30,13 @@
 					float: left;
 				}
  				#block-search-form {
+ 					display: none;
 	 				.input-group-btn {
 	 					display: none !important;
 					}
 					.input-group {
 						.form-control {
-							height: 30px;
+							height: 25px;
 							border-radius: 12px !important;
 							-moz-box-shadow:  0px 0 10px #43bfef;
 							-webkit-box-shadow:  0px 0 10px #43bfef;
@@ -44,6 +45,7 @@
 						    color: #43bfef;
 						    font-size: 12px;
 						    font-family: myriad-pro;
+						    margin-top: 3px;
 						}
 						::-webkit-input-placeholder {
    							color:#43bfef;
@@ -69,6 +71,7 @@
 	  				padding-right: 8px;
 	  				.search-logo {
 	  					margin-right: 6px;
+	  					cursor: pointer;
 	  				}
 	  				img {
 	  					height: 25px !important;
