@@ -11,8 +11,20 @@
     src: url("../fonts/helvetica.ttf");
 }
 @font-face {
+    font-family:helvetica;
+    src: url("../fonts/helvetica.woff");
+}
+@font-face {
   font-family:myriad-pro;
   src: url("../fonts/MyriadPro-Regular.otf");
+}
+@font-face {
+  font-family:myriad-pro-semibold;
+  src: url("../fonts/MyriadPro-Semibold.ttf");
+}
+@font-face {
+  font-family:myriad-pro-semibold;
+  src: url("../fonts/MyriadPro-Semibold.woff");
 }
 body{
 	background: #ccc;
