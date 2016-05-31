@@ -12,30 +12,42 @@
   src: url("../fonts/helvetica.ttf");
 }
 @font-face {
+  font-family: helvetica;
+  src: url("../fonts/helvetica.woff");
+}
+@font-face {
   font-family: myriad-pro;
   src: url("../fonts/MyriadPro-Regular.otf");
 }
-/* line 17, ../sass/custom/_global.scss */
+@font-face {
+  font-family: myriad-pro-semibold;
+  src: url("../fonts/MyriadPro-Semibold.ttf");
+}
+@font-face {
+  font-family: myriad-pro-semibold;
+  src: url("../fonts/MyriadPro-Semibold.woff");
+}
+/* line 29, ../sass/custom/_global.scss */
 body {
   background: #ccc;
 }
 
-/* line 20, ../sass/custom/_global.scss */
+/* line 32, ../sass/custom/_global.scss */
 a {
   font-family: myriad-pro;
 }
 
-/* line 23, ../sass/custom/_global.scss */
+/* line 35, ../sass/custom/_global.scss */
 p {
   font-family: myriad-pro;
 }
 
-/* line 26, ../sass/custom/_global.scss */
+/* line 38, ../sass/custom/_global.scss */
 h2 {
   font-family: myriad-pro;
 }
 
-/* line 29, ../sass/custom/_global.scss */
+/* line 41, ../sass/custom/_global.scss */
 .main-container {
   background: #fff none repeat scroll 0 0;
   margin: 0 auto;
@@ -373,4 +385,142 @@ h2 {
 .slide-wrapper .slide-title a {
   text-decoration: none;
   color: #fff;
+}
+
+/*css ends for homepage-slider*/
+/*css for ticker-section*/
+/* line 22, ../sass/custom/_project.scss */
+#block-views-ticker-block {
+  display: inline-block;
+  width: 100%;
+  border: 2px solid #22305b;
+  height: 28px;
+}
+/* line 27, ../sass/custom/_project.scss */
+#block-views-ticker-block h2 {
+  width: 20.8%;
+  word-spacing: 1.2px;
+  font-size: 16px;
+  background-color: #22305b;
+  margin: 0;
+  color: #fff;
+  padding: 4.3px 0px 4.5px 33px;
+  font-family: myriad-pro;
+  float: left;
+}
+/* line 38, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container {
+  width: 79.2%;
+}
+/* line 40, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container .mask {
+  width: 100%;
+  top: 5px;
+  position: relative;
+}
+/* line 44, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container .mask .views-liScroll-item {
+  border-left: 1px solid #31343e;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* line 48, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container .mask .views-liScroll-item a {
+  color: #31343e;
+  font-family: myraid-pro;
+  font-size: 12px;
+  margin: 0;
+  text-decoration: none;
+}
+/* line 55, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container .mask .views-liScroll-item:last-of-type {
+  border-right: 1px solid #31343e;
+}
+/* line 60, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container .mask ul.liScroll span {
+  margin: 0;
+}
+
+/*css ends for ticker-section*/
+/*css for water-block*/
+/* line 70, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water {
+  display: inline-block;
+  width: 100%;
+  padding: 36px 0 41px;
+}
+/* line 74, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water .view-homepage-content {
+  width: 55%;
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 78, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water .view-homepage-content .views-field-title {
+  font-size: 23px;
+  color: #43BFEF;
+  font-family: helvetica;
+  font-weight: bold;
+}
+/* line 84, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water .view-homepage-content .views-field-body {
+  font-size: 16px;
+  color: #6a6a6a;
+  font-family: myraid-pro;
+  margin-top: -5px;
+}
+/* line 91, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block {
+  width: 100%;
+  display: inline-block;
+  padding-top: 21px;
+}
+/* line 95, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 98, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul {
+  list-style: none;
+}
+/* line 100, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li {
+  float: left;
+  width: 22%;
+  background-image: url("../images/water.jpg");
+  height: 130px;
+  background-repeat: no-repeat;
+  margin-right: 3%;
+}
+/* line 107, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li:last-child {
+  margin-right: 0;
+}
+/* line 110, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content {
+  text-align: center;
+}
+/* line 114, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(1) {
+  font-size: 50px;
+  font-family: bebas-neue;
+  color: #45C0F0;
+  margin-top: 6px;
+}
+/* line 120, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(2) {
+  font-size: 25px;
+  font-family: bebas-neue;
+  color: #45C0F0;
+  margin-top: -17px;
+}
+/* line 126, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(3) {
+  font-size: 12px;
+  font-family: myriad-pro-semibold;
+  color: #6a6a6a;
+  width: 75px;
+  margin: -7px auto;
+  line-height: 12px;
 }

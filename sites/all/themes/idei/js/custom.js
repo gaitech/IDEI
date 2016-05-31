@@ -14,5 +14,12 @@
       );
     }); 
 
+    /*js for ticker to change particular word bold*/
+    jQuery('#block-views-ticker-block h2:contains("IDEI")').each(function(){
+      jQuery(this).html(
+          jQuery(this).html().replace(/IDEI/g,'<strong>IDEI</strong>')
+      );
+    });
+
 })
 })(jQuery);
