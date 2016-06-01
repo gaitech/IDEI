@@ -27,27 +27,35 @@
   font-family: myriad-pro-semibold;
   src: url("../fonts/MyriadPro-Semibold.woff");
 }
-/* line 29, ../sass/custom/_global.scss */
+@font-face {
+  font-family: rockwell;
+  src: url("../fonts/rockwell.ttf");
+}
+@font-face {
+  font-family: rockwell;
+  src: url("../fonts/rockwell.woff");
+}
+/* line 37, ../sass/custom/_global.scss */
 body {
   background: #ccc;
 }
 
-/* line 32, ../sass/custom/_global.scss */
+/* line 40, ../sass/custom/_global.scss */
 a {
   font-family: myriad-pro;
 }
 
-/* line 35, ../sass/custom/_global.scss */
+/* line 43, ../sass/custom/_global.scss */
 p {
   font-family: myriad-pro;
 }
 
-/* line 38, ../sass/custom/_global.scss */
+/* line 46, ../sass/custom/_global.scss */
 h2 {
   font-family: myriad-pro;
 }
 
-/* line 41, ../sass/custom/_global.scss */
+/* line 49, ../sass/custom/_global.scss */
 .main-container {
   background: #fff none repeat scroll 0 0;
   margin: 0 auto;
@@ -372,6 +380,14 @@ h2 {
   position: relative;
 }
 /* line 5, ../sass/custom/_project.scss */
+.slide-wrapper .slide-image {
+  width: 100%;
+}
+/* line 7, ../sass/custom/_project.scss */
+.slide-wrapper .slide-image img {
+  width: 100%;
+}
+/* line 11, ../sass/custom/_project.scss */
 .slide-wrapper .slide-title {
   position: absolute;
   bottom: 40%;
@@ -381,7 +397,7 @@ h2 {
   left: 5.4%;
   font-style: italic;
 }
-/* line 13, ../sass/custom/_project.scss */
+/* line 19, ../sass/custom/_project.scss */
 .slide-wrapper .slide-title a {
   text-decoration: none;
   color: #fff;
@@ -389,14 +405,14 @@ h2 {
 
 /*css ends for homepage-slider*/
 /*css for ticker-section*/
-/* line 22, ../sass/custom/_project.scss */
+/* line 28, ../sass/custom/_project.scss */
 #block-views-ticker-block {
   display: inline-block;
   width: 100%;
   border: 2px solid #22305b;
   height: 28px;
 }
-/* line 27, ../sass/custom/_project.scss */
+/* line 33, ../sass/custom/_project.scss */
 #block-views-ticker-block h2 {
   width: 20.8%;
   word-spacing: 1.2px;
@@ -408,23 +424,23 @@ h2 {
   font-family: myriad-pro;
   float: left;
 }
-/* line 38, ../sass/custom/_project.scss */
+/* line 44, ../sass/custom/_project.scss */
 #block-views-ticker-block .liScroll-container {
   width: 79.2%;
 }
-/* line 40, ../sass/custom/_project.scss */
+/* line 46, ../sass/custom/_project.scss */
 #block-views-ticker-block .liScroll-container .mask {
   width: 100%;
   top: 5px;
   position: relative;
 }
-/* line 44, ../sass/custom/_project.scss */
+/* line 50, ../sass/custom/_project.scss */
 #block-views-ticker-block .liScroll-container .mask .views-liScroll-item {
   border-left: 1px solid #31343e;
   padding-left: 8px;
   padding-right: 8px;
 }
-/* line 48, ../sass/custom/_project.scss */
+/* line 54, ../sass/custom/_project.scss */
 #block-views-ticker-block .liScroll-container .mask .views-liScroll-item a {
   color: #31343e;
   font-family: myraid-pro;
@@ -432,59 +448,59 @@ h2 {
   margin: 0;
   text-decoration: none;
 }
-/* line 55, ../sass/custom/_project.scss */
+/* line 61, ../sass/custom/_project.scss */
 #block-views-ticker-block .liScroll-container .mask .views-liScroll-item:last-of-type {
   border-right: 1px solid #31343e;
 }
-/* line 60, ../sass/custom/_project.scss */
+/* line 66, ../sass/custom/_project.scss */
 #block-views-ticker-block .liScroll-container .mask ul.liScroll span {
   margin: 0;
 }
 
 /*css ends for ticker-section*/
 /*css for water-block*/
-/* line 70, ../sass/custom/_project.scss */
+/* line 76, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water {
   display: inline-block;
   width: 100%;
   padding: 36px 0 41px;
 }
-/* line 74, ../sass/custom/_project.scss */
+/* line 80, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water .view-homepage-content {
   width: 55%;
   text-align: center;
   margin: 0 auto;
 }
-/* line 78, ../sass/custom/_project.scss */
+/* line 84, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water .view-homepage-content .views-field-title {
   font-size: 23px;
   color: #43BFEF;
   font-family: helvetica;
   font-weight: bold;
 }
-/* line 84, ../sass/custom/_project.scss */
+/* line 90, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water .view-homepage-content .views-field-body {
   font-size: 16px;
   color: #6a6a6a;
   font-family: myraid-pro;
   margin-top: -5px;
 }
-/* line 91, ../sass/custom/_project.scss */
+/* line 97, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block {
   width: 100%;
   display: inline-block;
   padding-top: 21px;
 }
-/* line 95, ../sass/custom/_project.scss */
+/* line 101, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics {
   width: 80%;
   margin: 0 auto;
 }
-/* line 98, ../sass/custom/_project.scss */
+/* line 104, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul {
   list-style: none;
 }
-/* line 100, ../sass/custom/_project.scss */
+/* line 106, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li {
   float: left;
   width: 22%;
@@ -493,30 +509,239 @@ h2 {
   background-repeat: no-repeat;
   margin-right: 3%;
 }
-/* line 107, ../sass/custom/_project.scss */
+/* line 113, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li:last-child {
   margin-right: 0;
 }
-/* line 110, ../sass/custom/_project.scss */
+/* line 116, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content {
   text-align: center;
 }
-/* line 114, ../sass/custom/_project.scss */
+/* line 120, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(1) {
   font-size: 50px;
   font-family: bebas-neue;
   color: #45C0F0;
   margin-top: 6px;
 }
-/* line 120, ../sass/custom/_project.scss */
+/* line 126, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(2) {
   font-size: 25px;
   font-family: bebas-neue;
   color: #45C0F0;
   margin-top: -17px;
 }
-/* line 126, ../sass/custom/_project.scss */
+/* line 132, ../sass/custom/_project.scss */
 #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(3) {
+  font-size: 12px;
+  font-family: myriad-pro-semibold;
+  color: #6a6a6a;
+  width: 75px;
+  margin: -7px auto;
+  line-height: 12px;
+}
+
+/*css ends for water-block*/
+/*css for impact-block*/
+/* line 152, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact {
+  display: inline-block;
+  width: 100%;
+}
+/* line 157, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .homepage-image img {
+  width: 100%;
+}
+/* line 161, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper {
+  padding: 11px 40px 0px;
+  display: inline-block;
+  width: 100%;
+}
+/* line 165, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
+  font-size: 36px;
+  font-family: myraid-pro;
+  text-transform: uppercase;
+  font-weight: bold;
+  float: left;
+  width: 20%;
+  margin-top: -8px;
+}
+/* line 173, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title a {
+  color: #43BFEF;
+  text-decoration: none;
+}
+/* line 178, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-body {
+  font-size: 16px;
+  font-family: myraid-pro;
+  color: #6a6a6a;
+  width: 66%;
+  float: left;
+}
+/* line 184, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-body a {
+  color: #43BFEF;
+  text-decoration: none;
+}
+/* line 189, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links {
+  width: 8%;
+  float: left;
+}
+/* line 192, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul {
+  list-style: none;
+  padding: 0;
+}
+/* line 195, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li {
+  border-bottom: 2px solid #43BFEF;
+}
+/* line 197, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a {
+  text-decoration: none;
+  color: #1C1C1B;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/* line 203, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child {
+  border-bottom: none;
+}
+/* line 211, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-1 {
+  display: inline-block;
+  width: 100%;
+  margin-top: -19px;
+}
+/* line 215, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-1 h2 {
+  font-size: 19px;
+  font-family: helvetica;
+  color: #7b7c7c;
+  font-weight: bold;
+  margin-top: 0;
+  width: 30%;
+  padding: 0 40px 0;
+  position: relative;
+}
+/* line 224, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-1 h2:before {
+  content: "";
+  position: absolute;
+  background-color: #aaacaf;
+  height: 16px;
+  width: 90px;
+  top: 42px;
+}
+/* line 233, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 236, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  margin-left: 49px;
+  margin-top: -9px;
+}
+/* line 243, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li {
+  float: left;
+  width: 22%;
+  margin-right: 3%;
+}
+/* line 247, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li:last-child {
+  margin-right: 0;
+}
+/* line 254, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(1) {
+  font-size: 14px;
+  font-family: myriad-pro;
+  color: #6a6a6a;
+}
+/* line 259, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) {
+  font-size: 31px;
+  font-family: bebas-neue;
+  color: #43BFEF;
+  float: left;
+  margin-top: -6px;
+  margin-right: 7px;
+}
+/* line 267, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) {
+  font-size: 21px;
+  font-family: bebas-neue;
+  color: #43BFEF;
+  float: left;
+  margin-top: 4px;
+  margin-right: 3px;
+}
+/* line 275, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(4) {
+  font-size: 10px;
+  font-family: rockwell;
+  color: #43BFEF;
+  float: left;
+  margin-top: 14.5px;
+}
+/* line 286, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-2 {
+  width: 100%;
+  display: inline-block;
+  margin-top: -25px;
+  padding-bottom: 34px;
+}
+/* line 291, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 294, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul {
+  list-style: none;
+}
+/* line 296, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li {
+  float: left;
+  width: 22%;
+  background-image: url("../images/water.jpg");
+  height: 130px;
+  background-repeat: no-repeat;
+  margin-right: 3%;
+}
+/* line 303, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li:last-child {
+  margin-right: 0;
+}
+/* line 306, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content {
+  text-align: center;
+}
+/* line 310, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(1) {
+  font-size: 50px;
+  font-family: bebas-neue;
+  color: #45C0F0;
+  margin-top: 6px;
+}
+/* line 316, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(2) {
+  font-size: 25px;
+  font-family: bebas-neue;
+  color: #45C0F0;
+  margin-top: -17px;
+}
+/* line 322, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(3) {
   font-size: 12px;
   font-family: myriad-pro-semibold;
   color: #6a6a6a;

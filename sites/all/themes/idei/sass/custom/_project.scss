@@ -2,6 +2,12 @@
 
 .slide-wrapper {
   position: relative;
+  	.slide-image {
+	  	width: 100%;
+	  	img {
+	  		width: 100%;
+	  	}
+  	}
   	.slide-title {
 	 	position: absolute;
 	  	bottom: 40%;
@@ -92,6 +98,196 @@
     	width: 100%;
     	display: inline-block;
     	padding-top: 21px;
+	    .view-infographics {
+	    	width: 80%;
+	        margin: 0 auto;
+	        ul {
+	        	list-style: none;
+	        	li {
+	        		float: left;
+	        		width: 22%;
+	        		background-image: url("../images/water.jpg");
+   					height: 130px;
+   					background-repeat: no-repeat;
+   					margin-right: 3%;
+   					&:last-child {
+   						margin-right: 0;
+   					}
+	        		.content {
+	        			text-align: center;
+	        			.field-items {
+	        				.field-item{
+	        					&:nth-child(1) {
+	        						font-size: 50px;
+								    font-family: bebas-neue;
+								    color: #45C0F0;
+								    margin-top: 6px;
+	        					}
+	        					&:nth-child(2) {
+	        						font-size: 25px;
+								    font-family: bebas-neue;
+								    color: #45C0F0;
+								    margin-top: -17px;
+								}
+								&:nth-child(3) {
+	        						font-size: 12px;
+								    font-family: myriad-pro-semibold;
+								    color: #6a6a6a;
+								    width: 75px;
+								    margin: -7px auto;
+								    line-height: 12px;
+								}
+	        				}
+	        			}
+	        		}
+	        	}
+	        }
+	    }
+	}
+}
+/*css ends for water-block*/
+
+/*css for impact-block*/
+
+.blockqueue-homepage-impact {
+	display: inline-block;
+    width: 100%;
+    .homepage-impact-wrapper {
+    	.homepage-image {
+    		img {
+    			width: 100%;
+    		}
+    	}
+    	.impact-content-wrapper {
+    		padding: 11px 40px 0px;
+    		display: inline-block;
+    		width: 100%;
+    		.homepage-block-title {
+    			font-size: 36px;
+			    font-family: myraid-pro;
+			    text-transform: uppercase;
+			    font-weight: bold;
+			    float: left;
+    			width: 20%;
+    			margin-top: -8px;
+			    a {
+			    	color: #43BFEF;
+			    	text-decoration: none;
+			    }
+    		}
+    		.homepage-body {
+			    font-size: 16px;
+			    font-family: myraid-pro;
+			    color: #6a6a6a;
+			    width: 66%;
+    			float: left;
+			    a {
+					color: #43BFEF;
+			    	text-decoration: none;
+			    }
+			}
+			.more-links {
+				width: 8%;
+    			float: left;
+				ul {
+					list-style: none;
+					padding: 0;
+					li {
+						border-bottom: 2px solid #43BFEF;
+						a {
+							text-decoration: none;
+						    color: #1C1C1B;
+						    font-size: 16px;
+						    text-transform: uppercase;
+						}
+						&:last-child {
+							border-bottom: none;
+						}
+					}	
+				}
+			}
+    	}
+    }
+    #block-views-infographics-block-1 {
+    	display: inline-block;
+	    width: 100%; 
+	    margin-top: -19px;  
+	    h2 {
+	    	font-size: 19px;
+		    font-family: helvetica;
+		    color: #7b7c7c;
+		    font-weight: bold;
+		    margin-top: 0;
+		    width: 30%;
+		    padding: 0 40px 0;
+		    position: relative;
+		    &:before {
+			    content: "";
+			    position: absolute;
+			    background-color: #aaacaf;
+			    height: 16px;
+			    width: 90px;
+			    top: 42px;
+		    }
+	    }
+	    .view-infographics {
+	    	width: 80%;
+    		margin: 0 auto;
+    		ul {
+    			list-style: none;
+			    padding: 0;
+			    display: inline-block;
+			    width: 100%;
+			    margin-left: 49px;
+    			margin-top: -9px;
+			    li {
+			    	float: left;
+    				width: 22%;
+    				margin-right: 3%;
+    				&:last-child {
+    					margin-right: 0;
+    				}
+			    }
+    		}
+    		.field-items {
+				.field-item{
+					&:nth-child(1) {
+						font-size: 14px;
+					    font-family: myriad-pro;
+					    color: #6a6a6a;
+					}
+					&:nth-child(2) {
+						font-size: 31px;
+					    font-family: bebas-neue;
+					    color: #43BFEF;
+					    float: left;
+					    margin-top: -6px;
+    					margin-right: 7px;
+					}
+					&:nth-child(3) {
+						font-size: 21px;
+					    font-family: bebas-neue;
+					    color: #43BFEF;
+					    float: left;
+					    margin-top: 4px;
+    					margin-right: 3px;
+					}
+					&:nth-child(4) {
+						font-size: 10px;
+					    font-family: rockwell;
+					    color: #43BFEF;
+					    float: left;
+					    margin-top: 14.5px;
+					}
+				}
+			}
+	    }
+    }
+    #block-views-infographics-block-2 {
+    	width: 100%;
+    	display: inline-block;
+    	margin-top: -25px;
+    	padding-bottom: 34px;
 	    .view-infographics {
 	    	width: 80%;
 	        margin: 0 auto;
