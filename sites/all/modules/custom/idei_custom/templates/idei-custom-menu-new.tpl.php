@@ -1,14 +1,22 @@
 
-
 	<ul class="custom-navigation">
 <?php $menuItems = menu_tree_all_data('main-menu');
-$i=1;
+global $base_url;
+$i=2;
 foreach($menuItems as $child) {
-
-    $title  = $child['link']['link_title'];
-	$a=$i+1;
-    print '<li><a href="#home-block-block-'.$a.'" rel="" id="anchor1" class="anchorLink">'.$title.'</a></li>';
+   $title  = $child['link']['link_title'];
+   $url_alias = drupal_get_path_alias($child['link']['link_path']);
+   $link = $child['link']['title'];
+   $link = trim(strtolower($link));
+   if( $link == 'about us')
+   {
+    print '<li><a href="'.$base_url.'/'.$url_alias.'" >'.$title.'</a></li>';
+   }
+   else {
+    print '<li><a href="#home-block-block-'.$i.'" rel="" id="anchor1" class="anchorLink">'.$title.'</a></li>';
     $i++;
+    }
+    
 }
   echo "</ul>";
   

@@ -29,6 +29,12 @@ function paralax_menubar_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'bootstrap' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bootstrap',
+        'weight' => 0,
+      ),
       'idei' => array(
         'region' => '',
         'status' => 0,
@@ -39,6 +45,12 @@ function paralax_menubar_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'stark' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'stark',
         'weight' => 0,
       ),
     ),
@@ -63,6 +75,12 @@ function paralax_menubar_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'bootstrap' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bootstrap',
+        'weight' => 0,
+      ),
       'idei' => array(
         'region' => '',
         'status' => 0,
@@ -73,6 +91,12 @@ function paralax_menubar_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'stark' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'stark',
         'weight' => 0,
       ),
     ),
@@ -97,6 +121,12 @@ function paralax_menubar_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'bootstrap' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bootstrap',
+        'weight' => 0,
+      ),
       'idei' => array(
         'region' => '',
         'status' => 0,
@@ -109,8 +139,14 @@ function paralax_menubar_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'stark' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'stark',
+        'weight' => 0,
+      ),
     ),
-    'title' => '',
+    'title' => 'IDEI\'s TECHNOLOGY',
     'visibility' => 0,
   );
 
@@ -131,6 +167,12 @@ function paralax_menubar_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'bootstrap' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bootstrap',
+        'weight' => 0,
+      ),
       'idei' => array(
         'region' => '',
         'status' => 0,
@@ -141,6 +183,12 @@ function paralax_menubar_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'stark' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'stark',
         'weight' => 0,
       ),
     ),

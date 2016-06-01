@@ -27,6 +27,5 @@
           jQuery(this).html().replace(/Farmer’s Friend/g,'<em>Farmer’s Friend</em>')
       );
     });
-
+  })
 })
-})(jQuery);
