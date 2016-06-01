@@ -159,6 +159,7 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['field_more_links']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_more_links']['click_sort_column'] = 'url';
   $handler->display->display_options['fields']['field_more_links']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_more_links']['multi_type'] = 'ul';
   /* Field: Global: Custom text */
   $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['table'] = 'views';
@@ -166,9 +167,11 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="homepage-impact-wrapper">
 <div class="homepage-image">[field_image_front]</div>
+<div class="impact-content-wrapper">
 <div class="homepage-block-title">[title] </div>
 <div class="homepage-body">[body]</div>
 <div class="more-links">[field_more_links] </div>
+</div>
 </div>
 ';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
@@ -233,9 +236,10 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="homepage-impact-wrapper">
 <div class="homepage-image">[field_image_front]</div>
+<div class="impact-content-wrapper">
 <div class="homepage-block-title">[title] </div>
 <div class="homepage-body">[body]</div>
-
+</div>
 </div>
 ';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
@@ -303,6 +307,7 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['field_more_links']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_more_links']['click_sort_column'] = 'url';
   $handler->display->display_options['fields']['field_more_links']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_more_links']['multi_type'] = 'ul';
   /* Field: Global: Custom text */
   $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['table'] = 'views';
@@ -310,10 +315,11 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="homepage-impact-wrapper">
 <div class="homepage-image">[field_image_front]</div>
+<div class="impact-content-wrapper">
 <div class="homepage-block-title">[title] </div>
 <div class="homepage-body">[body]</div>
 <div class="more-links">[field_more_links] </div>
-</div>
+</div></div>
 ';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
@@ -380,6 +386,7 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['field_more_links']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_more_links']['click_sort_column'] = 'url';
   $handler->display->display_options['fields']['field_more_links']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_more_links']['multi_type'] = 'ul';
   /* Field: Global: Custom text */
   $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['table'] = 'views';
@@ -387,11 +394,12 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="homepage-impact-wrapper">
 <div class="homepage-image">[field_image_front]</div>
+<div class="impact-content-wrapper">
 <div class="homepage-block-title">[title] </div>
 <div class="homepage-body">[body]</div>
 <div class="more-links">[field_more_links] </div>
 </div>
-';
+</div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
