@@ -16,6 +16,7 @@ features[menu_custom][] = main-menu
 features[menu_custom][] = menu-approach
 features[menu_custom][] = menu-programs
 features[menu_custom][] = menu-water
+features[menu_links][] = main-menu_about-us:node/21
 features[menu_links][] = main-menu_annual-reports:<front>
 features[menu_links][] = main-menu_approach:<front>
 features[menu_links][] = main-menu_archives:<front>
