@@ -565,7 +565,7 @@ h2 {
   text-transform: uppercase;
   font-weight: bold;
   float: left;
-  width: 20%;
+  width: 24.2%;
   margin-top: -8px;
 }
 /* line 173, ../sass/custom/_project.scss */
@@ -578,46 +578,51 @@ h2 {
   font-size: 16px;
   font-family: myraid-pro;
   color: #6a6a6a;
-  width: 66%;
+  width: 60%;
   float: left;
 }
 /* line 184, ../sass/custom/_project.scss */
+.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-body p {
+  padding: 0 15px;
+}
+/* line 187, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-body a {
   color: #43BFEF;
   text-decoration: none;
 }
-/* line 189, ../sass/custom/_project.scss */
+/* line 192, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links {
   width: 8%;
   float: left;
+  margin-left: 4%;
 }
-/* line 192, ../sass/custom/_project.scss */
+/* line 196, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul {
   list-style: none;
   padding: 0;
 }
-/* line 195, ../sass/custom/_project.scss */
+/* line 199, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li {
   border-bottom: 2px solid #43BFEF;
 }
-/* line 197, ../sass/custom/_project.scss */
+/* line 201, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a {
   text-decoration: none;
   color: #1C1C1B;
   font-size: 16px;
   text-transform: uppercase;
 }
-/* line 203, ../sass/custom/_project.scss */
+/* line 207, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child {
   border-bottom: none;
 }
-/* line 211, ../sass/custom/_project.scss */
+/* line 215, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 {
   display: inline-block;
   width: 100%;
   margin-top: -19px;
 }
-/* line 215, ../sass/custom/_project.scss */
+/* line 219, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 h2 {
   font-size: 19px;
   font-family: helvetica;
@@ -628,7 +633,7 @@ h2 {
   padding: 0 40px 0;
   position: relative;
 }
-/* line 224, ../sass/custom/_project.scss */
+/* line 228, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 h2:before {
   content: "";
   position: absolute;
@@ -637,12 +642,12 @@ h2 {
   width: 90px;
   top: 42px;
 }
-/* line 233, ../sass/custom/_project.scss */
+/* line 237, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics {
   width: 80%;
   margin: 0 auto;
 }
-/* line 236, ../sass/custom/_project.scss */
+/* line 240, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul {
   list-style: none;
   padding: 0;
@@ -651,23 +656,23 @@ h2 {
   margin-left: 49px;
   margin-top: -9px;
 }
-/* line 243, ../sass/custom/_project.scss */
+/* line 247, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li {
   float: left;
   width: 22%;
   margin-right: 3%;
 }
-/* line 247, ../sass/custom/_project.scss */
+/* line 251, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li:last-child {
   margin-right: 0;
 }
-/* line 254, ../sass/custom/_project.scss */
+/* line 258, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(1) {
   font-size: 14px;
   font-family: myriad-pro;
   color: #6a6a6a;
 }
-/* line 259, ../sass/custom/_project.scss */
+/* line 263, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) {
   font-size: 31px;
   font-family: bebas-neue;
@@ -676,7 +681,7 @@ h2 {
   margin-top: -6px;
   margin-right: 7px;
 }
-/* line 267, ../sass/custom/_project.scss */
+/* line 271, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) {
   font-size: 21px;
   font-family: bebas-neue;
@@ -685,7 +690,7 @@ h2 {
   margin-top: 4px;
   margin-right: 3px;
 }
-/* line 275, ../sass/custom/_project.scss */
+/* line 279, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(4) {
   font-size: 10px;
   font-family: rockwell;
@@ -693,23 +698,23 @@ h2 {
   float: left;
   margin-top: 14.5px;
 }
-/* line 286, ../sass/custom/_project.scss */
+/* line 290, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-2 {
   width: 100%;
   display: inline-block;
   margin-top: -25px;
   padding-bottom: 34px;
 }
-/* line 291, ../sass/custom/_project.scss */
+/* line 295, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics {
   width: 80%;
   margin: 0 auto;
 }
-/* line 294, ../sass/custom/_project.scss */
+/* line 298, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul {
   list-style: none;
 }
-/* line 296, ../sass/custom/_project.scss */
+/* line 300, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li {
   float: left;
   width: 22%;
@@ -718,29 +723,29 @@ h2 {
   background-repeat: no-repeat;
   margin-right: 3%;
 }
-/* line 303, ../sass/custom/_project.scss */
+/* line 307, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li:last-child {
   margin-right: 0;
 }
-/* line 306, ../sass/custom/_project.scss */
+/* line 310, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content {
   text-align: center;
 }
-/* line 310, ../sass/custom/_project.scss */
+/* line 314, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(1) {
   font-size: 50px;
   font-family: bebas-neue;
   color: #45C0F0;
   margin-top: 6px;
 }
-/* line 316, ../sass/custom/_project.scss */
+/* line 320, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(2) {
   font-size: 25px;
   font-family: bebas-neue;
   color: #45C0F0;
   margin-top: -17px;
 }
-/* line 322, ../sass/custom/_project.scss */
+/* line 326, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(3) {
   font-size: 12px;
   font-family: myriad-pro-semibold;
@@ -748,4 +753,108 @@ h2 {
   width: 75px;
   margin: -7px auto;
   line-height: 12px;
+}
+
+/*css ends for impact-block*/
+/*css for approach-block*/
+/* line 345, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach {
+  display: inline-block;
+  width: 100%;
+}
+/* line 350, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .homepage-image img {
+  width: 100%;
+}
+/* line 354, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper {
+  padding: 11px 40px 0px;
+  display: inline-block;
+  width: 100%;
+}
+/* line 358, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
+  font-size: 36px;
+  font-family: myraid-pro;
+  text-transform: uppercase;
+  font-weight: bold;
+  float: left;
+  width: 24.2%;
+  margin-top: -8px;
+}
+/* line 366, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title a {
+  color: #43BFEF;
+  text-decoration: none;
+}
+/* line 371, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body {
+  font-size: 16px;
+  font-family: myraid-pro;
+  color: #6a6a6a;
+  width: 60%;
+  float: left;
+}
+/* line 377, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body p {
+  padding: 0 15px;
+}
+/* line 380, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body a {
+  color: #43BFEF;
+  text-decoration: none;
+}
+/* line 387, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach {
+  padding: 0 40px 48px;
+  display: inline-block;
+  width: 100%;
+}
+/* line 391, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach h2 {
+  font-size: 19px;
+  font-family: helvetica;
+  color: #7b7c7c;
+  font-weight: bold;
+  width: 26%;
+  position: relative;
+  float: left;
+}
+/* line 399, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach h2:before {
+  content: "";
+  position: absolute;
+  background-color: #aaacaf;
+  height: 16px;
+  width: 205px;
+  top: 23px;
+}
+/* line 408, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach .content {
+  width: 74%;
+  float: left;
+  display: inline-block;
+  margin-top: 34px;
+}
+/* line 413, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach .content li {
+  float: left;
+  background-image: url("../images/approach-1.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 63%;
+  padding-right: 32px;
+}
+/* line 419, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach .content li a {
+  font-size: 21px;
+  font-family: bebas-neue;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #43BFEF;
+  margin-left: 60px;
+  padding: 0;
+}
+/* line 427, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach .content li a:hover {
+  background-color: transparent;
 }
