@@ -164,12 +164,13 @@
     		width: 100%;
     		.homepage-block-title {
     			font-size: 36px;
-			    font-family: myraid-pro;
+			    font-family: myriad-pro;
 			    text-transform: uppercase;
 			    font-weight: bold;
 			    float: left;
     			width: 24.2%;
     			margin-top: -8px;
+    			color: #43BFEF;
 			    a {
 			    	color: #43BFEF;
 			    	text-decoration: none;
@@ -198,11 +199,13 @@
 					padding: 0;
 					li {
 						border-bottom: 2px solid #43BFEF;
+						padding-top: 2px;
 						a {
 							text-decoration: none;
 						    color: #1C1C1B;
-						    font-size: 16px;
+						    font-size: 13px;
 						    text-transform: uppercase;
+						    font-family: helvetica;
 						}
 						&:last-child {
 							border-bottom: none;
@@ -432,3 +435,166 @@
 	    }
     }
 }
+/*css ends for approach-block*/
+
+/*css for program-block*/
+.blockqueue-homepage-programs {
+	display: inline-block;
+    width: 100%;
+    .homepage-impact-wrapper {
+    	.homepage-image {
+    		img {
+    			width: 100%;
+    		}
+    	}
+    	.impact-content-wrapper {
+    		padding: 11px 0px 0px 40px;
+    		display: inline-block;
+    		width: 100%;
+    		.homepage-block-title {
+    			font-size: 36px;
+			    font-family: myriad-pro;
+			    text-transform: uppercase;
+			    font-weight: bold;
+			    float: left;
+    			width: 24.2%;
+    			margin-top: -8px;
+    			color: #43BFEF;
+			    a {
+			    	color: #43BFEF;
+			    	text-decoration: none;
+			    }
+    		}
+    		.homepage-body {
+			    font-size: 16px;
+			    font-family: myraid-pro;
+			    color: #6a6a6a;
+			    width: 60%;
+    			float: left;
+    			p {
+    				padding: 0 15px;
+    			}
+			    a {
+					color: #43BFEF;
+			    	text-decoration: none;
+			    }
+			}
+			.more-links {
+				width: 12%;
+    			float: left;
+				ul {
+					list-style: none;
+					padding: 0;
+					li {
+						border-bottom: 2px solid #43BFEF;
+						padding-top: 2px;
+						a {
+							text-decoration: none;
+						    color: #1C1C1B;
+						    font-size: 13px;
+						    text-transform: uppercase;
+						    font-family: helvetica;
+						}
+						&:last-child {
+							border-bottom: none;
+						}
+					}	
+				}
+			}
+    	}
+    }
+    .main-krishak {
+    	display: inline-block;
+    	width: 100%;
+    	margin-top: -18px;
+    	.krishak-logo {
+    		width: 28.6%;
+    		float: left;
+    		img {
+    			float: right;
+			    margin-right: 66px;
+			    margin-top: -34px;
+    		}
+    	}
+    	.krishak-body {
+    		width: 50%;
+    		float: left;
+    		font-size: 16px;
+    		font-family: myriad-pro;
+    		color: #6a6a6a;
+    		.krishak-title {
+    			float: left;
+    			font-size: 21px;
+    			font-family: bebas-neue;
+    			color: #43BFEF;
+    			height: 20px;
+    			padding-right: 8px;
+    			margin-top: -4px;
+    		}
+    	}
+    }
+    #block-menu-menu-programs {
+    	padding: 0 0px 46px 40px;
+    	display: inline-block;
+    	width: 100%;
+    	h2 {
+	    	font-size: 19px;
+		    font-family: helvetica;
+		    color: #7b7c7c;
+		    font-weight: bold;
+		    width: 17%;
+		    position: relative;
+		    float: left;
+		    &:before {
+			    content: "";
+			    position: absolute;
+			    background-color: #aaacaf;
+			    height: 16px;
+			    width: 90px;
+			    top: 42px;
+		    }
+	    }
+	    .content {
+	    	width: 82%;
+	    	float: left;
+	    	display: inline-block;
+	    	margin-top: 48px;
+	    	position: relative;
+	    	left: 83px;
+	    	li {
+	    		float: left;
+	    		background-image: url("../images/programs-1.jpg");
+			    background-repeat: no-repeat;
+			    background-position: 0% 63%;
+			    height: 38px;
+			    padding-right: 24px;
+			    a {
+	    			font-size: 21px;
+				    font-family: bebas-neue;
+				    text-decoration: none;
+				    text-transform: uppercase;
+				    color: #43BFEF;
+				    margin-left: 35px;
+				    padding: 0;
+				    line-height: 1em;
+				    margin-top: 10px;
+				    &:hover, &:focus {
+				    	background-color: transparent;
+				    }
+	    		}
+	    		&:nth-child(4) {
+	    			width: 18%;
+	    			a {
+	    				width: 46%;
+	    			}
+	    		}
+	    		&:nth-child(5) {
+	    			a {
+	    				width: 46%;
+	    			}
+	    		}
+	    	}
+	    }
+    }
+}
+/*css ends for program-block*/
