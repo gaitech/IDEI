@@ -1,127 +1,195 @@
 /*importing scss files*/
 @font-face {
+  font-family: Bebas-Neue;
+  src: url("../fonts/BebasNeuewebfont.ttf");
+}
+@font-face {
+  font-family: helvetica-bold;
+  src: url("../fonts/Helvetica-Bold.ttf");
+}
+@font-face {
+  font-family: helvetica;
+  src: url("../fonts/helvetica.ttf");
+}
+@font-face {
+  font-family: helvetica;
+  src: url("../fonts/helvetica.woff");
+}
+@font-face {
   font-family: myriad-pro;
   src: url("../fonts/MyriadPro-Regular.otf");
 }
-
-/* line 5, ../sass/custom/_header.scss */
+@font-face {
+  font-family: myriad-pro-semibold;
+  src: url("../fonts/MyriadPro-Semibold.ttf");
+}
+@font-face {
+  font-family: myriad-pro-semibold;
+  src: url("../fonts/MyriadPro-Semibold.woff");
+}
+/* line 29, ../sass/custom/_global.scss */
 body {
   background: #ccc;
 }
 
-/* line 8, ../sass/custom/_header.scss */
+/* line 32, ../sass/custom/_global.scss */
 a {
   font-family: myriad-pro;
 }
 
-/* line 11, ../sass/custom/_header.scss */
+/* line 35, ../sass/custom/_global.scss */
 p {
   font-family: myriad-pro;
 }
 
-/* line 14, ../sass/custom/_header.scss */
+/* line 38, ../sass/custom/_global.scss */
 h2 {
   font-family: myriad-pro;
 }
 
-/* line 17, ../sass/custom/_header.scss */
+/* line 41, ../sass/custom/_global.scss */
+.main-container {
+  background: #fff none repeat scroll 0 0;
+  margin: 0 auto;
+  max-width: 1025px;
+  padding: 71px 0 0;
+  width: 100%;
+}
+
+/* line 1, ../sass/custom/_header.scss */
 .navbar {
   background: #fff none repeat scroll 0 0;
   box-shadow: 0 -4px 11px #000;
   margin: 0 auto !important;
   max-width: 100% !important;
-  opacity: 0.9;
   padding: 0;
   position: fixed;
   width: 100% !important;
   z-index: 1000;
+  height: 71.4px;
 }
-/* line 27, ../sass/custom/_header.scss */
+/* line 11, ../sass/custom/_header.scss */
 .navbar .container {
   position: relative;
   width: 100% !important;
   margin: 0 auto !important;
   max-width: 1025px !important;
 }
-/* line 32, ../sass/custom/_header.scss */
+/* line 16, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse.collapse {
   position: absolute;
   top: 46px;
   right: 10px;
 }
-/* line 37, ../sass/custom/_header.scss */
+/* line 21, ../sass/custom/_header.scss */
 .navbar .container .navbar-header {
   width: 100% !important;
 }
-/* line 39, ../sass/custom/_header.scss */
+/* line 23, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .logo {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 95px;
 }
-/* line 43, ../sass/custom/_header.scss */
+/* line 27, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links {
   float: right;
 }
-/* line 45, ../sass/custom/_header.scss */
+/* line 29, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form {
-  position: absolute;
-  right: 7px;
-  z-index: 19;
+  float: left;
+}
+/* line 32, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links #block-search-form {
   display: none;
 }
-/* line 52, ../sass/custom/_header.scss */
+/* line 34, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group-btn {
   display: none !important;
 }
+/* line 38, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links #block-search-form .input-group .form-control {
+  height: 25px;
+  border-radius: 12px !important;
+  -moz-box-shadow: 0px 0 10px #43bfef;
+  -webkit-box-shadow: 0px 0 10px #43bfef;
+  box-shadow: 0px 0 10px #43bfef;
+  border: 1px solid #43bfef;
+  color: #43bfef;
+  font-size: 12px;
+  font-family: myriad-pro;
+  margin-top: 3px;
+}
+/* line 50, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links #block-search-form .input-group ::-webkit-input-placeholder {
+  color: #43bfef;
+}
+/* line 53, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links #block-search-form .input-group :-moz-placeholder {
+  color: #43bfef;
+}
 /* line 56, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links #block-search-form .input-group ::-moz-placeholder {
+  color: #43bfef;
+}
+/* line 59, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links #block-search-form .input-group :-ms-input-placeholder {
+  color: #43bfef;
+}
+/* line 64, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .search-logo {
   position: relative;
   z-index: 20;
 }
-/* line 60, ../sass/custom/_header.scss */
+/* line 68, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links {
   float: left;
   margin-top: 8px;
   padding-right: 8px;
 }
-/* line 67, ../sass/custom/_header.scss */
+/* line 72, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links .header-social-links .search-logo {
+  cursor: pointer;
+}
+/* line 75, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links .header-social-links img {
+  height: 25px !important;
+  width: 25px !important;
+  margin-right: 6px;
+}
+/* line 82, ../sass/custom/_header.scss */
+.navbar .container .navbar-header .social-links .header-social-links p a:last-of-type img {
+  margin-right: 0;
+}
+/* line 90, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse {
   padding: 0;
 }
-/* line 71, ../sass/custom/_header.scss */
+/* line 94, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
   float: left;
-  padding-left: 13px;
-  padding-right: 13px;
-  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
   font-family: myriad-pro;
 }
-/* line 79, ../sass/custom/_header.scss */
+/* line 102, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li:last-child {
   padding-right: 0 !important;
   border: none;
 }
-/* line 83, ../sass/custom/_header.scss */
+/* line 106, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a {
   color: #6a6a6a;
+  text-decoration: none;
 }
-/* line 85, ../sass/custom/_header.scss */
+/* line 109, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a:hover {
-  color: #2a569b;
+  color: #43bfef;
 }
 
-/* line 93, ../sass/custom/_header.scss */
-.main-container {
-  background: #fff none repeat scroll 0 0;
-  margin: 0 auto;
-  max-width: 1025px;
-  padding: 73px 0 0;
-  width: 100%;
-}
-
-/* line 105, ../sass/custom/_header.scss */
+/* line 119, ../sass/custom/_header.scss */
 #home-block-block-2:before,
 #home-block-block-3:before,
 #home-block-block-4:before,
@@ -148,131 +216,139 @@ h2 {
   background: transparent !important;
 }
 /* line 14, ../sass/custom/_footer.scss */
+.footer .region-footer {
+  padding: 0 0 0 58px;
+}
+/* line 17, ../sass/custom/_footer.scss */
 .footer .block-title {
   color: #fff;
   font-size: 15px;
-  margin-top: 47px;
+  margin-top: 38px;
   font-weight: bold;
   padding-bottom: 5px;
 }
-/* line 21, ../sass/custom/_footer.scss */
+/* line 24, ../sass/custom/_footer.scss */
 .footer .menu {
   margin-bottom: 10px;
+  margin-top: 13px;
 }
-/* line 23, ../sass/custom/_footer.scss */
+/* line 27, ../sass/custom/_footer.scss */
 .footer .menu li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
-/* line 25, ../sass/custom/_footer.scss */
+/* line 29, ../sass/custom/_footer.scss */
 .footer .menu li a {
   color: #71716C;
   font-family: myriad-pro;
-  font-size: 14px;
+  font-size: 15px;
   padding: 0 !important;
   font-weight: bold;
 }
-/* line 35, ../sass/custom/_footer.scss */
+/* line 39, ../sass/custom/_footer.scss */
 .footer .facebook-block {
   float: left;
   width: 40%;
-  margin-left: 5.5%;
+  margin-bottom: 20px;
 }
-/* line 39, ../sass/custom/_footer.scss */
+/* line 43, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper {
   float: left;
-  width: 50%;
+  width: 54%;
 }
-/* line 44, ../sass/custom/_footer.scss */
+/* line 48, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper .footer-logo img {
   height: 65px !important;
   width: 72px !important;
 }
-/* line 49, ../sass/custom/_footer.scss */
+/* line 53, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul {
   padding: 0;
-  margin-top: 10px;
+  margin-top: 7px;
 }
-/* line 53, ../sass/custom/_footer.scss */
+/* line 56, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li {
-  padding-bottom: 8px;
+  padding-bottom: 5px;
   list-style: none;
+  font-family: myriad-pro;
 }
-/* line 55, ../sass/custom/_footer.scss */
+/* line 60, ../sass/custom/_footer.scss */
+.footer .facebook-block .facebook-wrapper ul li a {
+  color: #71716C;
+  font-weight: bold;
+  font-family: myriad-pro;
+  font-size: 15px;
+}
+/* line 67, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li:nth-of-type(1) img {
   height: 15px !important;
   width: 12px !important;
   margin-right: 7px;
 }
-/* line 62, ../sass/custom/_footer.scss */
+/* line 74, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li:nth-of-type(2) img {
   height: 15px !important;
   width: 10px !important;
   margin-right: 8px;
 }
-/* line 69, ../sass/custom/_footer.scss */
+/* line 81, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li:nth-of-type(3) img {
   height: 13px !important;
   width: 13px !important;
   margin-right: 6px;
 }
-/* line 77, ../sass/custom/_footer.scss */
-.footer .facebook-block .facebook-wrapper ul li a {
-  color: #71716C;
-  font-weight: bold;
-}
-/* line 85, ../sass/custom/_footer.scss */
-.footer .facebook-block .connect-wrapper {
+/* line 91, ../sass/custom/_footer.scss */
+.footer .connect-wrapper {
   float: left;
-  width: 50%;
+  width: 46%;
 }
-/* line 89, ../sass/custom/_footer.scss */
-.footer .facebook-block .connect-wrapper h2 {
+/* line 95, ../sass/custom/_footer.scss */
+.footer .connect-wrapper h2 {
   color: #fff;
-  font-size: 16px;
-  padding-top: 25px;
+  font-size: 15px;
+  padding-top: 18px;
   font-family: myriad-pro;
   font-weight: bold;
   padding-bottom: 5px;
 }
-/* line 97, ../sass/custom/_footer.scss */
-.footer .facebook-block .connect-wrapper ul {
+/* line 103, ../sass/custom/_footer.scss */
+.footer .connect-wrapper ul {
   padding: 0;
   list-style: none;
   color: #fff;
+  margin-top: 13px;
 }
-/* line 101, ../sass/custom/_footer.scss */
-.footer .facebook-block .connect-wrapper ul li {
+/* line 108, ../sass/custom/_footer.scss */
+.footer .connect-wrapper ul li {
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-family: myriad-pro;
   color: #71716C;
   font-weight: bold;
 }
-/* line 111, ../sass/custom/_footer.scss */
+/* line 117, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-about-us {
   float: left;
   width: 20%;
 }
-/* line 116, ../sass/custom/_footer.scss */
+/* line 122, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-resources {
   float: left;
-  width: 20%;
+  width: 21.5%;
 }
-/* line 121, ../sass/custom/_footer.scss */
+/* line 127, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-get-involved {
   float: left;
-  width: 12%;
+  width: 18%;
 }
 
-/* line 128, ../sass/custom/_footer.scss */
+/* line 134, ../sass/custom/_footer.scss */
 .copyright {
   clear: both;
   border-top: 1px solid  #71716C;
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 15px;
+  width: 90.3%;
+  padding-top: 8px;
 }
-/* line 135, ../sass/custom/_footer.scss */
+/* line 140, ../sass/custom/_footer.scss */
 .copyright p:nth-of-type(1) {
   color: #43bfef;
   width: 62%;
@@ -281,26 +357,170 @@ h2 {
   text-transform: uppercase;
   float: left;
 }
-/* line 143, ../sass/custom/_footer.scss */
+/* line 148, ../sass/custom/_footer.scss */
 .copyright p:nth-of-type(2) {
   color: #fff;
-  width: 35%;
+  width: 36%;
   font-family: myriad-pro;
-  font-size: 11px;
+  font-size: 10px;
   float: right;
 }
 
-/* line 1, ../sass/custom/_project.scss */
+/*css for homepage-slider*/
+/* line 3, ../sass/custom/_project.scss */
 .slide-wrapper {
   position: relative;
 }
-/* line 3, ../sass/custom/_project.scss */
+/* line 5, ../sass/custom/_project.scss */
 .slide-wrapper .slide-title {
   position: absolute;
-  bottom: 35%;
+  bottom: 40%;
   color: #fff;
   font-size: 40px;
   font-family: myriad-pro;
-  left: 3%;
+  left: 5.4%;
   font-style: italic;
+}
+/* line 13, ../sass/custom/_project.scss */
+.slide-wrapper .slide-title a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*css ends for homepage-slider*/
+/*css for ticker-section*/
+/* line 22, ../sass/custom/_project.scss */
+#block-views-ticker-block {
+  display: inline-block;
+  width: 100%;
+  border: 2px solid #22305b;
+  height: 28px;
+}
+/* line 27, ../sass/custom/_project.scss */
+#block-views-ticker-block h2 {
+  width: 20.8%;
+  word-spacing: 1.2px;
+  font-size: 16px;
+  background-color: #22305b;
+  margin: 0;
+  color: #fff;
+  padding: 4.3px 0px 4.5px 33px;
+  font-family: myriad-pro;
+  float: left;
+}
+/* line 38, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container {
+  width: 79.2%;
+}
+/* line 40, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container .mask {
+  width: 100%;
+  top: 5px;
+  position: relative;
+}
+/* line 44, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container .mask .views-liScroll-item {
+  border-left: 1px solid #31343e;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* line 48, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container .mask .views-liScroll-item a {
+  color: #31343e;
+  font-family: myraid-pro;
+  font-size: 12px;
+  margin: 0;
+  text-decoration: none;
+}
+/* line 55, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container .mask .views-liScroll-item:last-of-type {
+  border-right: 1px solid #31343e;
+}
+/* line 60, ../sass/custom/_project.scss */
+#block-views-ticker-block .liScroll-container .mask ul.liScroll span {
+  margin: 0;
+}
+
+/*css ends for ticker-section*/
+/*css for water-block*/
+/* line 70, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water {
+  display: inline-block;
+  width: 100%;
+  padding: 36px 0 41px;
+}
+/* line 74, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water .view-homepage-content {
+  width: 55%;
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 78, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water .view-homepage-content .views-field-title {
+  font-size: 23px;
+  color: #43BFEF;
+  font-family: helvetica;
+  font-weight: bold;
+}
+/* line 84, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water .view-homepage-content .views-field-body {
+  font-size: 16px;
+  color: #6a6a6a;
+  font-family: myraid-pro;
+  margin-top: -5px;
+}
+/* line 91, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block {
+  width: 100%;
+  display: inline-block;
+  padding-top: 21px;
+}
+/* line 95, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 98, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul {
+  list-style: none;
+}
+/* line 100, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li {
+  float: left;
+  width: 22%;
+  background-image: url("../images/water.jpg");
+  height: 130px;
+  background-repeat: no-repeat;
+  margin-right: 3%;
+}
+/* line 107, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li:last-child {
+  margin-right: 0;
+}
+/* line 110, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content {
+  text-align: center;
+}
+/* line 114, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(1) {
+  font-size: 50px;
+  font-family: bebas-neue;
+  color: #45C0F0;
+  margin-top: 6px;
+}
+/* line 120, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(2) {
+  font-size: 25px;
+  font-family: bebas-neue;
+  color: #45C0F0;
+  margin-top: -17px;
+}
+/* line 126, ../sass/custom/_project.scss */
+#block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(3) {
+  font-size: 12px;
+  font-family: myriad-pro-semibold;
+  color: #6a6a6a;
+  width: 75px;
+  margin: -7px auto;
+  line-height: 12px;
 }

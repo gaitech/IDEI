@@ -1,1 +1,48 @@
+@font-face {
+    font-family:Bebas-Neue;
+    src: url("../fonts/BebasNeuewebfont.ttf");
+}
+@font-face {
+    font-family:helvetica-bold;
+    src: url("../fonts/Helvetica-Bold.ttf");
+}
+@font-face {
+    font-family:helvetica;
+    src: url("../fonts/helvetica.ttf");
+}
+@font-face {
+    font-family:helvetica;
+    src: url("../fonts/helvetica.woff");
+}
+@font-face {
+  font-family:myriad-pro;
+  src: url("../fonts/MyriadPro-Regular.otf");
+}
+@font-face {
+  font-family:myriad-pro-semibold;
+  src: url("../fonts/MyriadPro-Semibold.ttf");
+}
+@font-face {
+  font-family:myriad-pro-semibold;
+  src: url("../fonts/MyriadPro-Semibold.woff");
+}
+body{
+	background: #ccc;
+}
+a{
+	font-family: myriad-pro;
+}
+p{
+	font-family: myriad-pro;
+}
+h2{
+	font-family: myriad-pro;
+}
+.main-container {
+	background: #fff none repeat scroll 0 0;
+	margin: 0 auto;
+	max-width: 1025px;
+	padding: 71px 0 0;
+	width: 100%;
+}
 

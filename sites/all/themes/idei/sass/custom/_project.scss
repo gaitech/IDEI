@@ -1,12 +1,141 @@
+/*css for homepage-slider*/
+
 .slide-wrapper {
   position: relative;
-  .slide-title {
- 	position: absolute;
-  	bottom: 35%;
-  	color: #fff;
-  	font-size: 40px;
-  	font-family: myriad-pro;
-  	left: 3%;
-  	font-style: italic;
+  	.slide-title {
+	 	position: absolute;
+	  	bottom: 40%;
+	  	color: #fff;
+	  	font-size: 40px;
+	  	font-family: myriad-pro;
+	  	left: 5.4%;
+	  	font-style: italic;
+	  	a {
+	  		text-decoration: none;
+	  		color: #fff;
+	  	}
+	}
+}
+/*css ends for homepage-slider*/
+
+/*css for ticker-section*/
+#block-views-ticker-block {
+	display: inline-block;
+	width: 100%;
+	border: 2px solid #22305b;
+    height: 28px;
+	h2 {
+		width: 20.8%;
+        word-spacing: 1.2px;
+	    font-size: 16px;
+	    background-color: #22305b;
+	    margin: 0;
+	    color: #fff;
+	    padding: 4.3px 0px 4.5px 33px;
+	    font-family: myriad-pro;
+	    float: left;
+	}
+	.liScroll-container {
+		width: 79.2%;
+		.mask {
+			width: 100%;
+			top: 5px;
+			position: relative;
+			.views-liScroll-item {
+				border-left: 1px solid #31343e;
+			    padding-left: 8px;
+			    padding-right: 8px;
+			    a {
+			    	color: #31343e;
+				    font-family: myraid-pro;
+				    font-size: 12px;
+				    margin: 0;
+				    text-decoration: none;
+			    }
+			    &:last-of-type {
+			    	border-right: 1px solid #31343e;
+			    }
+			}
+			ul.liScroll {
+				span {
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+/*css ends for ticker-section*/
+
+/*css for water-block*/
+#block-blockqueue-homepage-its-all-about-water {
+	display: inline-block;
+    width: 100%;
+    padding: 36px 0 41px;
+    .view-homepage-content {
+    	width: 55%;
+    	text-align: center;
+    	margin: 0 auto;
+    	.views-field-title {
+    		font-size: 23px;
+		    color: #43BFEF;
+		    font-family: helvetica;
+		    font-weight: bold;
+    	}
+    	.views-field-body {
+    		font-size: 16px;
+		    color: #6a6a6a;
+		    font-family: myraid-pro;
+		    margin-top: -5px;
+    	}
+    }
+    #block-views-infographics-block {
+    	width: 100%;
+    	display: inline-block;
+    	padding-top: 21px;
+	    .view-infographics {
+	    	width: 80%;
+	        margin: 0 auto;
+	        ul {
+	        	list-style: none;
+	        	li {
+	        		float: left;
+	        		width: 22%;
+	        		background-image: url("../images/water.jpg");
+   					height: 130px;
+   					background-repeat: no-repeat;
+   					margin-right: 3%;
+   					&:last-child {
+   						margin-right: 0;
+   					}
+	        		.content {
+	        			text-align: center;
+	        			.field-items {
+	        				.field-item{
+	        					&:nth-child(1) {
+	        						font-size: 50px;
+								    font-family: bebas-neue;
+								    color: #45C0F0;
+								    margin-top: 6px;
+	        					}
+	        					&:nth-child(2) {
+	        						font-size: 25px;
+								    font-family: bebas-neue;
+								    color: #45C0F0;
+								    margin-top: -17px;
+								}
+								&:nth-child(3) {
+	        						font-size: 12px;
+								    font-family: myriad-pro-semibold;
+								    color: #6a6a6a;
+								    width: 75px;
+								    margin: -7px auto;
+								    line-height: 12px;
+								}
+	        				}
+	        			}
+	        		}
+	        	}
+	        }
+	    }
 	}
 }
