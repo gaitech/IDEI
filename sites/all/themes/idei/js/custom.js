@@ -21,5 +21,12 @@
       );
     });
 
+    /*js for program-block to change particular word italic*/
+    jQuery('.krishak-body p:contains("Farmer’s Friend")').each(function(){
+      jQuery(this).html(
+          jQuery(this).html().replace(/Farmer’s Friend/g,'<em>Farmer’s Friend</em>')
+      );
+    });
+
 })
 })(jQuery);
