@@ -759,7 +759,7 @@ h2 {
 }
 
 /*css ends for impact-block*/
-/*css for approach-block*/
+/*css for approach-block   /*css for water-block*/
 /* line 348, ../sass/custom/_project.scss */
 .blockqueue-homepage-approach, .blockqueue-homepage-water {
   display: inline-block;
@@ -890,25 +890,30 @@ h2 {
 .blockqueue-homepage-approach #block-menu-menu-approach .content li a:hover, .blockqueue-homepage-approach #block-menu-menu-water .content li a:hover, .blockqueue-homepage-water #block-menu-menu-approach .content li a:hover, .blockqueue-homepage-water #block-menu-menu-water .content li a:hover {
   background-color: transparent;
 }
+/* line 463, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-water h2:before, .blockqueue-homepage-water #block-menu-menu-water h2:before {
+  width: 226px;
+}
 
 /*css ends for approach-block*/
+/*css ends for water-block*/
 /*css for program-block*/
-/* line 465, ../sass/custom/_project.scss */
+/* line 472, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs {
   display: inline-block;
   width: 100%;
 }
-/* line 470, ../sass/custom/_project.scss */
+/* line 477, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .homepage-image img {
   width: 100%;
 }
-/* line 474, ../sass/custom/_project.scss */
+/* line 481, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper {
-  padding: 11px 0px 0px 40px;
+  padding: 33px 0px 0px 40px;
   display: inline-block;
   width: 100%;
 }
-/* line 478, ../sass/custom/_project.scss */
+/* line 485, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
   font-size: 36px;
   font-family: myriad-pro;
@@ -919,44 +924,44 @@ h2 {
   margin-top: -8px;
   color: #43BFEF;
 }
-/* line 487, ../sass/custom/_project.scss */
+/* line 494, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title a {
   color: #43BFEF;
   text-decoration: none;
 }
-/* line 492, ../sass/custom/_project.scss */
+/* line 499, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-body {
   font-size: 16px;
-  font-family: myraid-pro;
+  font-family: myriad-pro;
   color: #6a6a6a;
   width: 60%;
   float: left;
 }
-/* line 498, ../sass/custom/_project.scss */
+/* line 505, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-body p {
   padding: 0 15px;
 }
-/* line 501, ../sass/custom/_project.scss */
+/* line 508, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-body a {
   color: #43BFEF;
   text-decoration: none;
 }
-/* line 506, ../sass/custom/_project.scss */
+/* line 513, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links {
   width: 12%;
   float: left;
 }
-/* line 509, ../sass/custom/_project.scss */
+/* line 516, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul {
   list-style: none;
   padding: 0;
 }
-/* line 512, ../sass/custom/_project.scss */
+/* line 519, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li {
   border-bottom: 2px solid #43BFEF;
   padding-top: 2px;
 }
-/* line 515, ../sass/custom/_project.scss */
+/* line 522, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a {
   text-decoration: none;
   color: #1C1C1B;
@@ -964,28 +969,28 @@ h2 {
   text-transform: uppercase;
   font-family: helvetica;
 }
-/* line 522, ../sass/custom/_project.scss */
+/* line 529, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child {
   border-bottom: none;
 }
-/* line 530, ../sass/custom/_project.scss */
+/* line 537, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .main-krishak {
   display: inline-block;
   width: 100%;
   margin-top: -18px;
 }
-/* line 534, ../sass/custom/_project.scss */
+/* line 541, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .main-krishak .krishak-logo {
   width: 28.6%;
   float: left;
 }
-/* line 537, ../sass/custom/_project.scss */
+/* line 544, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .main-krishak .krishak-logo img {
   float: right;
   margin-right: 66px;
   margin-top: -34px;
 }
-/* line 543, ../sass/custom/_project.scss */
+/* line 550, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .main-krishak .krishak-body {
   width: 50%;
   float: left;
@@ -993,7 +998,7 @@ h2 {
   font-family: myriad-pro;
   color: #6a6a6a;
 }
-/* line 549, ../sass/custom/_project.scss */
+/* line 556, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .main-krishak .krishak-body .krishak-title {
   float: left;
   font-size: 21px;
@@ -1003,13 +1008,13 @@ h2 {
   padding-right: 8px;
   margin-top: -4px;
 }
-/* line 560, ../sass/custom/_project.scss */
+/* line 567, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs {
   padding: 0 0px 46px 40px;
   display: inline-block;
   width: 100%;
 }
-/* line 564, ../sass/custom/_project.scss */
+/* line 571, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs h2 {
   font-size: 19px;
   font-family: helvetica;
@@ -1019,16 +1024,16 @@ h2 {
   position: relative;
   float: left;
 }
-/* line 572, ../sass/custom/_project.scss */
+/* line 579, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs h2:before {
   content: "";
   position: absolute;
   background-color: #aaacaf;
   height: 16px;
-  width: 90px;
+  width: 82px;
   top: 42px;
 }
-/* line 581, ../sass/custom/_project.scss */
+/* line 588, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content {
   width: 82%;
   float: left;
@@ -1037,7 +1042,7 @@ h2 {
   position: relative;
   left: 83px;
 }
-/* line 588, ../sass/custom/_project.scss */
+/* line 595, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li {
   float: left;
   background-image: url("../images/programs-1.jpg");
@@ -1046,7 +1051,7 @@ h2 {
   height: 38px;
   padding-right: 24px;
 }
-/* line 595, ../sass/custom/_project.scss */
+/* line 602, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li a {
   font-size: 21px;
   font-family: bebas-neue;
@@ -1058,21 +1063,193 @@ h2 {
   line-height: 1em;
   margin-top: 10px;
 }
-/* line 605, ../sass/custom/_project.scss */
+/* line 612, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li a:hover, .blockqueue-homepage-programs #block-menu-menu-programs .content li a:focus {
   background-color: transparent;
 }
-/* line 609, ../sass/custom/_project.scss */
+/* line 616, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li:nth-child(4) {
   width: 18%;
 }
-/* line 611, ../sass/custom/_project.scss */
+/* line 618, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li:nth-child(4) a {
   width: 46%;
 }
-/* line 616, ../sass/custom/_project.scss */
+/* line 623, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li:nth-child(5) a {
   width: 46%;
 }
 
 /*css ends for program-block*/
+/*css for logo-slider-block*/
+/* line 635, ../sass/custom/_project.scss */
+#block-views-awards-slider-block {
+  width: 100%;
+  display: inline-block;
+}
+/* line 639, ../sass/custom/_project.scss */
+#block-views-awards-slider-block .jcarousel-skin-default .jcarousel-container-horizontal {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+/* line 645, ../sass/custom/_project.scss */
+#block-views-awards-slider-block .jcarousel-skin-default .jcarousel-clip-horizontal {
+  width: 100% !important;
+  border: 2px solid #aaacaf;
+}
+/* line 650, ../sass/custom/_project.scss */
+#block-views-awards-slider-block .jcarousel-skin-default .jcarousel-item {
+  width: 205px;
+  height: 191px;
+  margin: 0;
+  border: none;
+  border-right: 4px solid #22305b;
+}
+/* line 657, ../sass/custom/_project.scss */
+#block-views-awards-slider-block .jcarousel-skin-default .jcarousel-prev-horizontal {
+  top: 103%;
+  position: absolute;
+  left: 47%;
+  background-image: url("../images/non-active.jpg");
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+/* line 664, ../sass/custom/_project.scss */
+#block-views-awards-slider-block .jcarousel-skin-default .jcarousel-prev-horizontal:hover {
+  background-image: url("../images/active.jpg") !important;
+  background-position: 0 0;
+}
+/* line 669, ../sass/custom/_project.scss */
+#block-views-awards-slider-block .jcarousel-skin-default .jcarousel-next-horizontal {
+  top: 103%;
+  position: absolute;
+  left: 50%;
+  background-image: url("../images/non-active.jpg");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 34px;
+  background-position: 2px 0;
+  z-index: 9;
+}
+/* line 679, ../sass/custom/_project.scss */
+#block-views-awards-slider-block .jcarousel-skin-default .jcarousel-next-horizontal:hover {
+  background-image: url("../images/active.jpg") !important;
+}
+
+/*css ends for logo-slider-block*/
+/*css for awards-block*/
+/* line 690, ../sass/custom/_project.scss */
+.blockqueue-partners .view-homepage-content .homepage-impact-wrapper {
+  padding: 32px 0px 0px 40px;
+  display: inline-block;
+  width: 100%;
+}
+/* line 694, ../sass/custom/_project.scss */
+.blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-block-title {
+  font-size: 36px;
+  font-family: myriad-pro;
+  text-transform: uppercase;
+  font-weight: bold;
+  float: left;
+  width: 24.2%;
+  margin-top: -8px;
+  color: #43BFEF;
+}
+/* line 703, ../sass/custom/_project.scss */
+.blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-block-title a {
+  color: #43BFEF;
+  text-decoration: none;
+}
+/* line 708, ../sass/custom/_project.scss */
+.blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-body {
+  font-size: 16px;
+  font-family: myriad-pro;
+  color: #6a6a6a;
+  width: 55%;
+  float: left;
+}
+/* line 714, ../sass/custom/_project.scss */
+.blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-body p {
+  padding: 0 40px 0 9px;
+}
+/* line 717, ../sass/custom/_project.scss */
+.blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-body a {
+  color: #43BFEF;
+  text-decoration: none;
+}
+/* line 722, ../sass/custom/_project.scss */
+.blockqueue-partners .view-homepage-content .homepage-impact-wrapper .awards-video {
+  display: inline-block;
+  position: relative;
+}
+/* line 725, ../sass/custom/_project.scss */
+.blockqueue-partners .view-homepage-content .homepage-impact-wrapper .awards-video a {
+  display: inline-block;
+}
+/* line 728, ../sass/custom/_project.scss */
+.blockqueue-partners .view-homepage-content .homepage-impact-wrapper .awards-video a:before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/youicon.png");
+  height: 100%;
+  width: 100%;
+  background-position: 35px 9px;
+  background-repeat: no-repeat;
+}
+/* line 742, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 {
+  padding: 14px 40px 40px;
+  display: inline-block;
+  width: 100%;
+}
+/* line 746, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 h2 {
+  font-size: 19px;
+  font-family: helvetica;
+  color: #7b7c7c;
+  font-weight: bold;
+  width: 26%;
+  position: relative;
+  float: left;
+}
+/* line 754, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 h2:before {
+  content: "";
+  position: absolute;
+  background-color: #aaacaf;
+  height: 16px;
+  width: 157px;
+  top: 23px;
+}
+/* line 763, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 .content {
+  width: 74%;
+  float: left;
+  display: inline-block;
+  margin-top: 10px;
+}
+/* line 769, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row {
+  float: left;
+  padding-right: 3.5%;
+}
+/* line 772, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row:nth-child(2) {
+  margin-top: 9px;
+}
+/* line 775, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row:nth-child(3) {
+  margin-top: 19px;
+}
+/* line 778, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row:nth-child(4) {
+  margin-top: -4px;
+}
+/* line 781, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row:nth-child(5) {
+  margin-top: 11px;
+}
+
+/*css ends for awards-block*/
