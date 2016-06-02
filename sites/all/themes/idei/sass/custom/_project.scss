@@ -344,7 +344,7 @@
 }
 /*css ends for impact-block*/
 
-/*css for approach-block*/
+/*css for approach-block   /*css for water-block*/
 .blockqueue-homepage-approach, .blockqueue-homepage-water {
 	display: inline-block;
     width: 100%;
@@ -458,8 +458,15 @@
 	    	}
 	    }
     }
+    #block-menu-menu-water {
+    	h2 {
+    		&:before {
+    			 width: 226px;
+    		}
+    	}
+    }
 }
-/*css ends for approach-block*/
+/*css ends for approach-block*/   /*css ends for water-block*/
 
 /*css for program-block*/
 .blockqueue-homepage-programs {
@@ -472,7 +479,7 @@
     		}
     	}
     	.impact-content-wrapper {
-    		padding: 11px 0px 0px 40px;
+    		padding: 33px 0px 0px 40px;
     		display: inline-block;
     		width: 100%;
     		.homepage-block-title {
@@ -491,7 +498,7 @@
     		}
     		.homepage-body {
 			    font-size: 16px;
-			    font-family: myraid-pro;
+			    font-family: myriad-pro;
 			    color: #6a6a6a;
 			    width: 60%;
     			float: left;
@@ -574,7 +581,7 @@
 			    position: absolute;
 			    background-color: #aaacaf;
 			    height: 16px;
-			    width: 90px;
+			    width: 82px;
 			    top: 42px;
 		    }
 	    }
@@ -622,3 +629,161 @@
     }
 }
 /*css ends for program-block*/
+
+/*css for logo-slider-block*/
+
+#block-views-awards-slider-block {
+	width: 100%;
+	display: inline-block;
+	.jcarousel-skin-default {
+		.jcarousel-container-horizontal {
+		    width: 100% !important;
+		    margin: 0;
+		    padding: 0;
+		    height: auto;
+		}	
+		.jcarousel-clip-horizontal {
+			width: 100% !important;
+			border: 2px solid #aaacaf;
+	
+		}
+	 	.jcarousel-item {
+		 	width: 205px;
+	    	height: 191px;
+			margin:0;
+			border: none;	
+			border-right: 4px solid #22305b;
+	 	}
+	 	.jcarousel-prev-horizontal {
+	 		top: 103%;
+	 		position: absolute;
+	 		left: 47%;
+	 		background-image: url("../images/non-active.jpg");
+	 		background-repeat:no-repeat;
+	 		z-index: 9;
+	 		&:hover {
+	 			background-image: url("../images/active.jpg") !important;
+	 			background-position: 0 0;
+	 		}
+	 	} 
+	 	.jcarousel-next-horizontal {
+		    top: 103%;
+		    position: absolute;
+		    left: 50%;
+		    background-image: url("../images/non-active.jpg");
+		    background-repeat: no-repeat;
+		    height: 30px;
+		    width: 34px;
+		    background-position: 2px 0;
+		    z-index: 9;
+		    &:hover {
+		    	background-image: url("../images/active.jpg") !important;
+		    }
+	 	}
+	}
+}
+/*css ends for logo-slider-block*/
+
+/*css for awards-block*/
+.blockqueue-partners {
+	.view-homepage-content {
+		.homepage-impact-wrapper {
+			padding: 32px 0px 0px 40px;
+    		display: inline-block;
+    		width: 100%;
+    		.homepage-block-title {
+    			font-size: 36px;
+			    font-family: myriad-pro;
+			    text-transform: uppercase;
+			    font-weight: bold;
+			    float: left;
+    			width: 24.2%;
+    			margin-top: -8px;
+    			color: #43BFEF;
+			    a {
+			    	color: #43BFEF;
+			    	text-decoration: none;
+			    }
+    		}
+    		.homepage-body {
+			    font-size: 16px;
+			    font-family: myriad-pro;
+			    color: #6a6a6a;
+			    width: 55%;
+    			float: left;
+    			p {
+    				padding: 0 40px 0 9px;
+    			}
+			    a {
+					color: #43BFEF;
+			    	text-decoration: none;
+			    }
+			}
+			.awards-video {
+				display: inline-block;
+				position: relative;
+				a {
+					
+					display: inline-block;
+					&:before {
+						content: "";
+					    position: absolute;
+					    background-image: url("../images/youicon.png");
+					    height: 100%;
+					    width: 100%;
+					    background-position: 35px 9px;
+					    background-repeat: no-repeat;
+					}
+				}
+			}
+		}
+	}
+
+	#block-views-awards-slider-block-1 {
+		padding: 14px 40px 40px;
+    	display: inline-block;
+    	width: 100%;
+    	h2 {
+	    	font-size: 19px;
+		    font-family: helvetica;
+		    color: #7b7c7c;
+		    font-weight: bold;
+		    width: 26%;
+		    position: relative;
+		    float: left;
+		    &:before {
+			    content: "";
+			    position: absolute;
+			    background-color: #aaacaf;
+			    height: 16px;
+			    width: 157px;
+			    top: 23px;
+		    }
+	    }
+	    .content {
+	    	width: 74%;
+	    	float: left;
+	    	display: inline-block;
+	    	margin-top: 10px;
+	    	.view-content {
+	    		.views-row {
+	    			float: left;
+	    			padding-right: 3.5%;
+	    			&:nth-child(2) {
+	    				margin-top: 9px;
+	    			}
+	    			&:nth-child(3) {
+	    				margin-top: 19px;
+	    			}
+	    			&:nth-child(4) {
+	    				margin-top: -4px;
+	    			}
+	    			&:nth-child(5) {
+	    				margin-top: 11px;
+	    			}
+	    		}
+	    	}
+	    }
+	}
+}
+/*css ends for awards-block*/
