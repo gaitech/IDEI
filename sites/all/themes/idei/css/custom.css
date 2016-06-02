@@ -761,60 +761,89 @@ h2 {
 /*css ends for impact-block*/
 /*css for approach-block*/
 /* line 348, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach {
+.blockqueue-homepage-approach, .blockqueue-homepage-water {
   display: inline-block;
   width: 100%;
 }
 /* line 353, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach .homepage-impact-wrapper .homepage-image img {
+.blockqueue-homepage-approach .homepage-impact-wrapper .homepage-image img, .blockqueue-homepage-water .homepage-impact-wrapper .homepage-image img {
   width: 100%;
 }
 /* line 357, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper {
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper {
   padding: 11px 40px 0px;
   display: inline-block;
   width: 100%;
 }
 /* line 361, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
   font-size: 36px;
-  font-family: myraid-pro;
+  font-family: myriad-pro;
   text-transform: uppercase;
   font-weight: bold;
   float: left;
   width: 24.2%;
   margin-top: -8px;
+  color: #43BFEF;
 }
-/* line 369, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title a {
+/* line 370, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title a, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title a {
   color: #43BFEF;
   text-decoration: none;
 }
-/* line 374, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body {
+/* line 375, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .homepage-body {
   font-size: 16px;
   font-family: myraid-pro;
   color: #6a6a6a;
   width: 60%;
   float: left;
 }
-/* line 380, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body p {
+/* line 381, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body p, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .homepage-body p {
   padding: 0 15px;
 }
-/* line 383, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body a {
+/* line 384, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body a, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .homepage-body a {
   color: #43BFEF;
   text-decoration: none;
 }
-/* line 390, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach #block-menu-menu-approach {
+/* line 389, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links {
+  width: 8%;
+  float: left;
+  margin-left: 4%;
+}
+/* line 393, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links ul {
+  list-style: none;
+  padding: 0;
+}
+/* line 396, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul li, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links ul li {
+  border-bottom: 2px solid #43BFEF;
+  padding-top: 2px;
+}
+/* line 399, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a {
+  text-decoration: none;
+  color: #1C1C1B;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: helvetica;
+}
+/* line 406, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child {
+  border-bottom: none;
+}
+/* line 414, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach, .blockqueue-homepage-approach #block-menu-menu-water, .blockqueue-homepage-water #block-menu-menu-approach, .blockqueue-homepage-water #block-menu-menu-water {
   padding: 0 40px 48px;
   display: inline-block;
   width: 100%;
 }
-/* line 394, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach #block-menu-menu-approach h2 {
+/* line 418, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach h2, .blockqueue-homepage-approach #block-menu-menu-water h2, .blockqueue-homepage-water #block-menu-menu-approach h2, .blockqueue-homepage-water #block-menu-menu-water h2 {
   font-size: 19px;
   font-family: helvetica;
   color: #7b7c7c;
@@ -823,8 +852,8 @@ h2 {
   position: relative;
   float: left;
 }
-/* line 402, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach #block-menu-menu-approach h2:before {
+/* line 426, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach h2:before, .blockqueue-homepage-approach #block-menu-menu-water h2:before, .blockqueue-homepage-water #block-menu-menu-approach h2:before, .blockqueue-homepage-water #block-menu-menu-water h2:before {
   content: "";
   position: absolute;
   background-color: #aaacaf;
@@ -832,23 +861,23 @@ h2 {
   width: 205px;
   top: 23px;
 }
-/* line 411, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach #block-menu-menu-approach .content {
+/* line 435, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach .content, .blockqueue-homepage-approach #block-menu-menu-water .content, .blockqueue-homepage-water #block-menu-menu-approach .content, .blockqueue-homepage-water #block-menu-menu-water .content {
   width: 74%;
   float: left;
   display: inline-block;
   margin-top: 34px;
 }
-/* line 416, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach #block-menu-menu-approach .content li {
+/* line 440, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach .content li, .blockqueue-homepage-approach #block-menu-menu-water .content li, .blockqueue-homepage-water #block-menu-menu-approach .content li, .blockqueue-homepage-water #block-menu-menu-water .content li {
   float: left;
   background-image: url("../images/approach-1.jpg");
   background-repeat: no-repeat;
   background-position: 0% 63%;
   padding-right: 32px;
 }
-/* line 422, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach #block-menu-menu-approach .content li a {
+/* line 446, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach .content li a, .blockqueue-homepage-approach #block-menu-menu-water .content li a, .blockqueue-homepage-water #block-menu-menu-approach .content li a, .blockqueue-homepage-water #block-menu-menu-water .content li a {
   font-size: 21px;
   font-family: bebas-neue;
   text-decoration: none;
@@ -857,29 +886,29 @@ h2 {
   margin-left: 60px;
   padding: 0;
 }
-/* line 430, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach #block-menu-menu-approach .content li a:hover {
+/* line 454, ../sass/custom/_project.scss */
+.blockqueue-homepage-approach #block-menu-menu-approach .content li a:hover, .blockqueue-homepage-approach #block-menu-menu-water .content li a:hover, .blockqueue-homepage-water #block-menu-menu-approach .content li a:hover, .blockqueue-homepage-water #block-menu-menu-water .content li a:hover {
   background-color: transparent;
 }
 
 /*css ends for approach-block*/
 /*css for program-block*/
-/* line 441, ../sass/custom/_project.scss */
+/* line 465, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs {
   display: inline-block;
   width: 100%;
 }
-/* line 446, ../sass/custom/_project.scss */
+/* line 470, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .homepage-image img {
   width: 100%;
 }
-/* line 450, ../sass/custom/_project.scss */
+/* line 474, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper {
   padding: 11px 0px 0px 40px;
   display: inline-block;
   width: 100%;
 }
-/* line 454, ../sass/custom/_project.scss */
+/* line 478, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
   font-size: 36px;
   font-family: myriad-pro;
@@ -890,12 +919,12 @@ h2 {
   margin-top: -8px;
   color: #43BFEF;
 }
-/* line 463, ../sass/custom/_project.scss */
+/* line 487, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title a {
   color: #43BFEF;
   text-decoration: none;
 }
-/* line 468, ../sass/custom/_project.scss */
+/* line 492, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-body {
   font-size: 16px;
   font-family: myraid-pro;
@@ -903,31 +932,31 @@ h2 {
   width: 60%;
   float: left;
 }
-/* line 474, ../sass/custom/_project.scss */
+/* line 498, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-body p {
   padding: 0 15px;
 }
-/* line 477, ../sass/custom/_project.scss */
+/* line 501, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-body a {
   color: #43BFEF;
   text-decoration: none;
 }
-/* line 482, ../sass/custom/_project.scss */
+/* line 506, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links {
   width: 12%;
   float: left;
 }
-/* line 485, ../sass/custom/_project.scss */
+/* line 509, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul {
   list-style: none;
   padding: 0;
 }
-/* line 488, ../sass/custom/_project.scss */
+/* line 512, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li {
   border-bottom: 2px solid #43BFEF;
   padding-top: 2px;
 }
-/* line 491, ../sass/custom/_project.scss */
+/* line 515, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a {
   text-decoration: none;
   color: #1C1C1B;
@@ -935,28 +964,28 @@ h2 {
   text-transform: uppercase;
   font-family: helvetica;
 }
-/* line 498, ../sass/custom/_project.scss */
+/* line 522, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child {
   border-bottom: none;
 }
-/* line 506, ../sass/custom/_project.scss */
+/* line 530, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .main-krishak {
   display: inline-block;
   width: 100%;
   margin-top: -18px;
 }
-/* line 510, ../sass/custom/_project.scss */
+/* line 534, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .main-krishak .krishak-logo {
   width: 28.6%;
   float: left;
 }
-/* line 513, ../sass/custom/_project.scss */
+/* line 537, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .main-krishak .krishak-logo img {
   float: right;
   margin-right: 66px;
   margin-top: -34px;
 }
-/* line 519, ../sass/custom/_project.scss */
+/* line 543, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .main-krishak .krishak-body {
   width: 50%;
   float: left;
@@ -964,7 +993,7 @@ h2 {
   font-family: myriad-pro;
   color: #6a6a6a;
 }
-/* line 525, ../sass/custom/_project.scss */
+/* line 549, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .main-krishak .krishak-body .krishak-title {
   float: left;
   font-size: 21px;
@@ -974,13 +1003,13 @@ h2 {
   padding-right: 8px;
   margin-top: -4px;
 }
-/* line 536, ../sass/custom/_project.scss */
+/* line 560, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs {
   padding: 0 0px 46px 40px;
   display: inline-block;
   width: 100%;
 }
-/* line 540, ../sass/custom/_project.scss */
+/* line 564, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs h2 {
   font-size: 19px;
   font-family: helvetica;
@@ -990,7 +1019,7 @@ h2 {
   position: relative;
   float: left;
 }
-/* line 548, ../sass/custom/_project.scss */
+/* line 572, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs h2:before {
   content: "";
   position: absolute;
@@ -999,7 +1028,7 @@ h2 {
   width: 90px;
   top: 42px;
 }
-/* line 557, ../sass/custom/_project.scss */
+/* line 581, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content {
   width: 82%;
   float: left;
@@ -1008,7 +1037,7 @@ h2 {
   position: relative;
   left: 83px;
 }
-/* line 564, ../sass/custom/_project.scss */
+/* line 588, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li {
   float: left;
   background-image: url("../images/programs-1.jpg");
@@ -1017,7 +1046,7 @@ h2 {
   height: 38px;
   padding-right: 24px;
 }
-/* line 571, ../sass/custom/_project.scss */
+/* line 595, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li a {
   font-size: 21px;
   font-family: bebas-neue;
@@ -1029,19 +1058,19 @@ h2 {
   line-height: 1em;
   margin-top: 10px;
 }
-/* line 581, ../sass/custom/_project.scss */
+/* line 605, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li a:hover, .blockqueue-homepage-programs #block-menu-menu-programs .content li a:focus {
   background-color: transparent;
 }
-/* line 585, ../sass/custom/_project.scss */
+/* line 609, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li:nth-child(4) {
   width: 18%;
 }
-/* line 587, ../sass/custom/_project.scss */
+/* line 611, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li:nth-child(4) a {
   width: 46%;
 }
-/* line 592, ../sass/custom/_project.scss */
+/* line 616, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs #block-menu-menu-programs .content li:nth-child(5) a {
   width: 46%;
 }

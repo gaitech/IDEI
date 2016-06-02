@@ -345,7 +345,7 @@
 /*css ends for impact-block*/
 
 /*css for approach-block*/
-.blockqueue-homepage-approach {
+.blockqueue-homepage-approach, .blockqueue-homepage-water {
 	display: inline-block;
     width: 100%;
     .homepage-impact-wrapper {
@@ -360,12 +360,13 @@
     		width: 100%;
     		.homepage-block-title {
     			font-size: 36px;
-			    font-family: myraid-pro;
+			    font-family: myriad-pro;
 			    text-transform: uppercase;
 			    font-weight: bold;
 			    float: left;
     			width: 24.2%;
     			margin-top: -8px;
+    			color: #43BFEF;
 			    a {
 			    	color: #43BFEF;
 			    	text-decoration: none;
@@ -385,9 +386,32 @@
 			    	text-decoration: none;
 			    }
 			}
+			.more-links {
+			    width: 8%;
+			    float: left;
+			    margin-left: 4%;
+			    ul {
+					list-style: none;
+					padding: 0;
+					li {
+						border-bottom: 2px solid #43BFEF;
+						padding-top: 2px;
+						a {
+							text-decoration: none;
+						    color: #1C1C1B;
+						    font-size: 13px;
+						    text-transform: uppercase;
+						    font-family: helvetica;
+						}
+						&:last-child {
+							border-bottom: none;
+						}
+					}	
+				}
+			}
     	}
     }
-    #block-menu-menu-approach {
+    #block-menu-menu-approach, #block-menu-menu-water {
     	padding: 0 40px 48px;
     	display: inline-block;
     	width: 100%;
