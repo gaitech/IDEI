@@ -5,14 +5,7 @@
 		   jQuery('#block-search-form').animate({
 		      width: "toggle"
 		    });
-		}); 
-
-		/*js for footer change color of particular word*/
-		jQuery('.copyright p:nth-of-type(2):contains("GAI")').each(function(){
-      jQuery(this).html(
-        jQuery(this).html().replace(/GAI/g,'<span style="color:#43bfef">GAI</span>')
-      );
-    }); 
+		});  
 
     /*js for ticker to change particular word bold*/
     jQuery('#block-views-ticker-block h2:contains("IDEI")').each(function(){
@@ -21,11 +14,11 @@
       );
     });
 
-    /*js for program-block to change particular word italic*/
-    jQuery('.krishak-body p:contains("Farmer’s Friend")').each(function(){
-      jQuery(this).html(
-          jQuery(this).html().replace(/Farmer’s Friend/g,'<em>Farmer’s Friend</em>')
-      );
-    });
+    // jQuery('#block-menu-menu-programs h2:contains("IDEI\'s")').each(function(){
+    //   jQuery(this).html(
+    //       jQuery(this).html().replace(/IDEI's/g,'<div>IDEI\'s</div>')
+    //   );
+    // });
+
   })
 })(jQuery);
