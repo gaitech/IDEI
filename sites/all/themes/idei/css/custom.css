@@ -1148,7 +1148,11 @@ h2 {
   background-image: url("../images/active1.jpg") !important;
   background-position: 0 0;
 }
-/* line 703, ../sass/custom/_project.scss */
+/* line 702, ../sass/custom/_project.scss */
+#block-views-awards-slider-block .jcarousel-skin-default .jcarousel-prev-horizontal:focus {
+  outline: none;
+}
+/* line 706, ../sass/custom/_project.scss */
 #block-views-awards-slider-block .jcarousel-skin-default .jcarousel-next-horizontal {
   top: 103%;
   position: absolute;
@@ -1160,20 +1164,24 @@ h2 {
   background-position: 2px 0;
   z-index: 9;
 }
-/* line 713, ../sass/custom/_project.scss */
+/* line 716, ../sass/custom/_project.scss */
 #block-views-awards-slider-block .jcarousel-skin-default .jcarousel-next-horizontal:hover {
   background-image: url("../images/active1.jpg") !important;
+}
+/* line 719, ../sass/custom/_project.scss */
+#block-views-awards-slider-block .jcarousel-skin-default .jcarousel-next-horizontal:focus {
+  outline: none;
 }
 
 /*css ends for logo-slider-block*/
 /*css for awards-block*/
-/* line 724, ../sass/custom/_project.scss */
+/* line 730, ../sass/custom/_project.scss */
 .blockqueue-partners .view-homepage-content .homepage-impact-wrapper {
   padding: 32px 0px 0px 40px;
   display: inline-block;
   width: 100%;
 }
-/* line 728, ../sass/custom/_project.scss */
+/* line 734, ../sass/custom/_project.scss */
 .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-block-title {
   font-size: 36px;
   font-family: myriad-pro;
@@ -1184,12 +1192,12 @@ h2 {
   margin-top: -8px;
   color: #43BFEF;
 }
-/* line 737, ../sass/custom/_project.scss */
+/* line 743, ../sass/custom/_project.scss */
 .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-block-title a {
   color: #43BFEF;
   text-decoration: none;
 }
-/* line 742, ../sass/custom/_project.scss */
+/* line 748, ../sass/custom/_project.scss */
 .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-body {
   font-size: 16px;
   font-family: myriad-pro;
@@ -1197,25 +1205,25 @@ h2 {
   width: 55%;
   float: left;
 }
-/* line 748, ../sass/custom/_project.scss */
+/* line 754, ../sass/custom/_project.scss */
 .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-body p {
   padding: 0 40px 0 9px;
 }
-/* line 751, ../sass/custom/_project.scss */
+/* line 757, ../sass/custom/_project.scss */
 .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-body a {
   color: #43BFEF;
   text-decoration: none;
 }
-/* line 756, ../sass/custom/_project.scss */
+/* line 762, ../sass/custom/_project.scss */
 .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .awards-video {
   display: inline-block;
   position: relative;
 }
-/* line 759, ../sass/custom/_project.scss */
+/* line 765, ../sass/custom/_project.scss */
 .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .awards-video a {
   display: inline-block;
 }
-/* line 762, ../sass/custom/_project.scss */
+/* line 768, ../sass/custom/_project.scss */
 .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .awards-video a:before {
   content: "";
   position: absolute;
@@ -1225,13 +1233,13 @@ h2 {
   background-position: 35px 9px;
   background-repeat: no-repeat;
 }
-/* line 776, ../sass/custom/_project.scss */
+/* line 782, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 {
   padding: 14px 40px 40px;
   display: inline-block;
   width: 100%;
 }
-/* line 780, ../sass/custom/_project.scss */
+/* line 786, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 h2 {
   font-size: 19px;
   font-family: helvetica;
@@ -1241,7 +1249,7 @@ h2 {
   position: relative;
   float: left;
 }
-/* line 788, ../sass/custom/_project.scss */
+/* line 794, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 h2:before {
   content: "";
   position: absolute;
@@ -1250,44 +1258,44 @@ h2 {
   width: 157px;
   top: 23px;
 }
-/* line 797, ../sass/custom/_project.scss */
+/* line 803, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .content {
   width: 74%;
   float: left;
   display: inline-block;
   margin-top: 10px;
 }
-/* line 803, ../sass/custom/_project.scss */
+/* line 809, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row {
   float: left;
   padding-right: 2.2%;
 }
-/* line 806, ../sass/custom/_project.scss */
+/* line 812, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row:nth-child(2) {
   margin-top: 9px;
 }
-/* line 809, ../sass/custom/_project.scss */
+/* line 815, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row:nth-child(3) {
   margin-top: 19px;
 }
-/* line 812, ../sass/custom/_project.scss */
+/* line 818, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row:nth-child(4) {
   margin-top: -4px;
 }
-/* line 815, ../sass/custom/_project.scss */
+/* line 821, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row:nth-child(5) {
   margin-top: 11px;
 }
-/* line 821, ../sass/custom/_project.scss */
+/* line 827, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .view-footer {
   display: inline-block;
 }
-/* line 823, ../sass/custom/_project.scss */
+/* line 829, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .view-footer .footer-link {
   display: inline-block;
   margin-top: 23px;
 }
-/* line 826, ../sass/custom/_project.scss */
+/* line 832, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .view-footer .footer-link a {
   color: #43bfef;
   font-family: myriad-pro;

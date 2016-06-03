@@ -699,6 +699,9 @@
 	 			background-image: url("../images/active1.jpg") !important;
 	 			background-position: 0 0;
 	 		}
+	 		&:focus {
+		    	outline: none;
+		    }
 	 	} 
 	 	.jcarousel-next-horizontal {
 		    top: 103%;
@@ -712,6 +715,9 @@
 		    z-index: 9;
 		    &:hover {
 		    	background-image: url("../images/active1.jpg") !important;
+		    }
+		    &:focus {
+		    	outline: none;
 		    }
 	 	}
 	}
