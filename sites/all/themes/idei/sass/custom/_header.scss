@@ -119,6 +119,19 @@
 	}
 }
 
+/*css for ie */
+.ie {
+	.navbar {
+		.container {
+			.navbar-header {
+				.logo {
+					padding: 0 0 0 55px;
+				}
+			}
+		}
+	}
+}
+
 
 #home-block-block-2:before,
 #home-block-block-3:before,

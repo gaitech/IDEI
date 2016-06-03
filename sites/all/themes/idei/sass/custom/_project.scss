@@ -70,6 +70,20 @@
 		}
 	}
 }
+
+/*css for ie*/
+.ie {
+	#block-views-ticker-block {
+		h2 {
+			width: 21.8%;
+		    word-spacing: 0.2px;
+		    padding: 4.3px 0px 3px 14px;
+		}
+		.liScroll-container {
+	    	width: 78.2%;
+	    }
+	}
+}
 /*css ends for ticker-section*/
 
 /*css for water-block*/
