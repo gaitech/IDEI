@@ -26,6 +26,7 @@
 			}
 			.social-links {
  				float: right;
+ 				padding-right: 29px;
  				#block-search-form {
 					float: left;
 				}
@@ -89,14 +90,17 @@
 		}
 		.navbar-collapse {
 		  padding: 0;
+		  .region-navigation {
+		  	padding-right: 28px;
+		  }
 		}
 		.custom-navigation {
 		  li {
 				border-right: 1px solid #6a6a6a;
 				display: inline-block;
 				float: left;
-				padding-left: 10px;
-				padding-right: 10px;
+				padding-left: 11px;
+				padding-right: 11px;
 				font-size: 13px;
 				font-family: myriad-pro;
  				&:last-child {

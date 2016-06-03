@@ -768,7 +768,7 @@
 	    	.view-content {
 	    		.views-row {
 	    			float: left;
-	    			padding-right: 3.5%;
+	    			padding-right: 2.2%;
 	    			&:nth-child(2) {
 	    				margin-top: 9px;
 	    			}
@@ -781,6 +781,19 @@
 	    			&:nth-child(5) {
 	    				margin-top: 11px;
 	    			}
+	    		}
+	    	}
+	    }
+	    .view-footer {
+	    	display: inline-block;
+	    	.footer-link {
+	    		display: inline-block;
+	    		margin-top: 23px;
+	    		a {
+	    			color: #43bfef;
+				    font-family: myriad-pro;
+				    font-size: 16px;
+				    text-decoration: none;
 	    		}
 	    	}
 	    }
