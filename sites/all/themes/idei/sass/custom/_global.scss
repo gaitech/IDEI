@@ -19,6 +19,10 @@
   src: url("../fonts/MyriadPro-Regular.otf");
 }
 @font-face {
+  font-family:myriad-pro;
+  src: url("../fonts/MyriadPro-Regular.woff");
+}
+@font-face {
   font-family:myriad-pro-semibold;
   src: url("../fonts/MyriadPro-Semibold.ttf");
 }
@@ -34,6 +38,7 @@
   font-family:rockwell;
   src: url("../fonts/rockwell.woff");
 }
+
 body{
 	background: #ccc;
 }
