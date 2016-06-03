@@ -101,20 +101,21 @@ h2 {
 /* line 27, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links {
   float: right;
+  padding-right: 29px;
 }
-/* line 29, ../sass/custom/_header.scss */
+/* line 30, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form {
   float: left;
 }
-/* line 32, ../sass/custom/_header.scss */
+/* line 33, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form {
   display: none;
 }
-/* line 34, ../sass/custom/_header.scss */
+/* line 35, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group-btn {
   display: none !important;
 }
-/* line 38, ../sass/custom/_header.scss */
+/* line 39, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group .form-control {
   height: 25px;
   border-radius: 12px !important;
@@ -127,77 +128,81 @@ h2 {
   font-family: myriad-pro;
   margin-top: 3px;
 }
-/* line 50, ../sass/custom/_header.scss */
+/* line 51, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group ::-webkit-input-placeholder {
   color: #43bfef;
 }
-/* line 53, ../sass/custom/_header.scss */
+/* line 54, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group :-moz-placeholder {
   color: #43bfef;
 }
-/* line 56, ../sass/custom/_header.scss */
+/* line 57, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group ::-moz-placeholder {
   color: #43bfef;
 }
-/* line 59, ../sass/custom/_header.scss */
+/* line 60, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form .input-group :-ms-input-placeholder {
   color: #43bfef;
 }
-/* line 64, ../sass/custom/_header.scss */
+/* line 65, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .search-logo {
   position: relative;
   z-index: 20;
 }
-/* line 68, ../sass/custom/_header.scss */
+/* line 69, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links {
   float: left;
   margin-top: 8px;
   padding-right: 8px;
 }
-/* line 72, ../sass/custom/_header.scss */
+/* line 73, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links .search-logo {
   cursor: pointer;
 }
-/* line 75, ../sass/custom/_header.scss */
+/* line 76, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links img {
   height: 25px !important;
   width: 25px !important;
   margin-right: 6px;
 }
-/* line 82, ../sass/custom/_header.scss */
+/* line 83, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links p a:last-of-type img {
   margin-right: 0;
 }
-/* line 90, ../sass/custom/_header.scss */
+/* line 91, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse {
   padding: 0;
 }
-/* line 94, ../sass/custom/_header.scss */
+/* line 93, ../sass/custom/_header.scss */
+.navbar .container .navbar-collapse .region-navigation {
+  padding-right: 28px;
+}
+/* line 98, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
   float: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 11px;
+  padding-right: 11px;
   font-size: 13px;
   font-family: myriad-pro;
 }
-/* line 102, ../sass/custom/_header.scss */
+/* line 106, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li:last-child {
   padding-right: 0 !important;
   border: none;
 }
-/* line 106, ../sass/custom/_header.scss */
+/* line 110, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a {
   color: #6a6a6a;
   text-decoration: none;
 }
-/* line 109, ../sass/custom/_header.scss */
+/* line 113, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a:hover {
   color: #43bfef;
 }
 
-/* line 119, ../sass/custom/_header.scss */
+/* line 123, ../sass/custom/_header.scss */
 #home-block-block-2:before,
 #home-block-block-3:before,
 #home-block-block-4:before,
@@ -1233,7 +1238,7 @@ h2 {
 /* line 769, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row {
   float: left;
-  padding-right: 3.5%;
+  padding-right: 2.2%;
 }
 /* line 772, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row:nth-child(2) {
@@ -1250,6 +1255,22 @@ h2 {
 /* line 781, ../sass/custom/_project.scss */
 .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row:nth-child(5) {
   margin-top: 11px;
+}
+/* line 787, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 .view-footer {
+  display: inline-block;
+}
+/* line 789, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 .view-footer .footer-link {
+  display: inline-block;
+  margin-top: 23px;
+}
+/* line 792, ../sass/custom/_project.scss */
+.blockqueue-partners #block-views-awards-slider-block-1 .view-footer .footer-link a {
+  color: #43bfef;
+  font-family: myriad-pro;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 /*css ends for awards-block*/
