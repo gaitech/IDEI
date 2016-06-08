@@ -31,7 +31,6 @@ features[menu_links][] = menu-approach_social-context:<front>
 features[menu_links][] = menu-programs_brand:<front>
 features[menu_links][] = menu-programs_introduction:<front>
 features[menu_links][] = menu-programs_market-developmnet:<front>
-features[menu_links][] = menu-programs_research-and-development:<front>
 features[menu_links][] = menu-programs_technology:<front>
 features[menu_links][] = menu-water_india-facts:<front>
 features[menu_links][] = menu-water_introduction:<front>
