@@ -17,7 +17,7 @@ $header_image_path = image_style_url($header_style, $header_image);
 ?>
 <div class="header-wrap">
   <div class="header-image"> <img src="<?php echo $header_image_path; ?>"> </div>
-  <div class="header-title"><?php echo "header-title"; ?></div>
+  <div class="header-title"><?php echo $header_text; ?></div>
 </div>
 <div class="wrap-title">
   <div class="title"><?php echo $title; ?></div>
