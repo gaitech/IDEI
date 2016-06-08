@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Also read block feature.
+ */
+
+include_once 'also_read_block.features.inc';
