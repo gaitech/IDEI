@@ -1304,3 +1304,225 @@ h2 {
 }
 
 /*css ends for awards-block*/
+/*responsive css for tab*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  /* line 5, ../sass/custom/_responsive.scss */
+  .main-container .row {
+    margin: 0;
+  }
+  /* line 7, ../sass/custom/_responsive.scss */
+  .main-container .row .col-sm-12 {
+    padding: 0;
+  }
+
+  /* line 15, ../sass/custom/_responsive.scss */
+  .navbar .container .navbar-header .logo {
+    padding: 0 0 0 5px;
+  }
+  /* line 18, ../sass/custom/_responsive.scss */
+  .navbar .container .navbar-header .social-links {
+    padding: 0;
+  }
+  /* line 23, ../sass/custom/_responsive.scss */
+  .navbar .container .navbar-collapse .region-navigation {
+    padding: 0;
+  }
+  /* line 28, ../sass/custom/_responsive.scss */
+  .navbar .container .custom-navigation li {
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 11px;
+    letter-spacing: 0.8px;
+  }
+
+  /*css for slider*/
+  /* line 39, ../sass/custom/_responsive.scss */
+  #block-views-homepage-slideshow-block .views-slideshow-cycle-main-frame {
+    width: 100% !important;
+  }
+  /* line 41, ../sass/custom/_responsive.scss */
+  #block-views-homepage-slideshow-block .views-slideshow-cycle-main-frame .views-slideshow-cycle-main-frame-row {
+    width: 100% !important;
+  }
+
+  /*css ends for slider*/
+  /*css for ticker*/
+  /* line 50, ../sass/custom/_responsive.scss */
+  #block-views-ticker-block h2 {
+    width: 23.8%;
+    word-spacing: 0.2px;
+    padding: 4.3px 0px 2.5px 8px;
+  }
+  /* line 55, ../sass/custom/_responsive.scss */
+  #block-views-ticker-block .liScroll-container {
+    width: 76.2%;
+  }
+
+  /*css ends for ticker*/
+  /*css for water-section*/
+  /* line 64, ../sass/custom/_responsive.scss */
+  #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics {
+    width: 83%;
+  }
+  /* line 67, ../sass/custom/_responsive.scss */
+  #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li {
+    background-size: 103%;
+    height: 138px;
+  }
+  /* line 74, ../sass/custom/_responsive.scss */
+  #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(1) p {
+    font-size: 40px;
+  }
+  /* line 79, ../sass/custom/_responsive.scss */
+  #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(2) p {
+    font-size: 20px;
+  }
+  /* line 84, ../sass/custom/_responsive.scss */
+  #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(3) p {
+    font-size: 10px;
+  }
+
+  /*css ends for water-section*/
+  /*css for impact-section*/
+  /* line 102, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
+    font-size: 30px;
+  }
+  /* line 108, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 h2 {
+    font-size: 18px;
+    width: 273px;
+    margin-top: 25px;
+  }
+  /* line 113, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics {
+    width: 83%;
+  }
+  /* line 115, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul {
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  /* line 118, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li {
+    width: 24%;
+    margin-right: 1.3%;
+  }
+  /* line 126, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) p {
+    font-size: 28px;
+  }
+  /* line 131, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) p {
+    font-size: 18px;
+  }
+  /* line 140, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics {
+    width: 83%;
+  }
+  /* line 143, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li {
+    background-size: 103%;
+    height: 138px;
+  }
+  /* line 150, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item p:nth-child(1) {
+    font-size: 40px;
+  }
+  /* line 155, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(2) p {
+    font-size: 20px;
+  }
+  /* line 160, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(3) p {
+    font-size: 10px;
+  }
+
+  /*css ends for impact-section*/
+  /*css for approach-section*/
+  /* line 178, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
+    font-size: 30px;
+  }
+  /* line 184, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-approach #block-menu-menu-approach h2, .blockqueue-homepage-programs #block-menu-menu-approach h2 {
+    font-size: 18px;
+    width: 30%;
+  }
+  /* line 187, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-approach #block-menu-menu-approach h2:before, .blockqueue-homepage-programs #block-menu-menu-approach h2:before {
+    width: 190px;
+  }
+  /* line 191, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-approach #block-menu-menu-approach .content, .blockqueue-homepage-programs #block-menu-menu-approach .content {
+    width: 70%;
+  }
+
+  /*css ends for approach-section*/
+  /*css for program-section*/
+  /* line 201, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-programs #block-menu-menu-programs h2 {
+    width: 23%;
+  }
+  /* line 204, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-programs #block-menu-menu-programs .content {
+    width: 71%;
+    left: 21px;
+  }
+
+  /* line 213, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-water #block-menu-menu-water h2 {
+    font-size: 18px;
+    width: 30%;
+  }
+  /* line 216, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-water #block-menu-menu-water h2:before {
+    width: 212px;
+  }
+  /* line 220, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-water #block-menu-menu-water .content {
+    width: 70%;
+    padding-left: 20px;
+  }
+  /* line 223, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-water #block-menu-menu-water .content li {
+    width: 40%;
+  }
+
+  /* line 232, ../sass/custom/_responsive.scss */
+  #block-views-awards-slider-block .jcarousel-skin-default .jcarousel-item {
+    width: 192px;
+  }
+
+  /* line 241, ../sass/custom/_responsive.scss */
+  .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-block-title {
+    font-size: 30px;
+  }
+  /* line 244, ../sass/custom/_responsive.scss */
+  .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-body {
+    width: 54%;
+  }
+
+  /* line 253, ../sass/custom/_responsive.scss */
+  .blockqueue-partners #block-views-awards-slider-block-1 h2 {
+    font-size: 18px;
+    width: 25%;
+  }
+  /* line 256, ../sass/custom/_responsive.scss */
+  .blockqueue-partners #block-views-awards-slider-block-1 h2:before {
+    width: 150px;
+  }
+  /* line 260, ../sass/custom/_responsive.scss */
+  .blockqueue-partners #block-views-awards-slider-block-1 .content {
+    width: 75%;
+  }
+  /* line 263, ../sass/custom/_responsive.scss */
+  .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row {
+    width: 16%;
+    padding-right: 1%;
+  }
+  /* line 270, ../sass/custom/_responsive.scss */
+  .blockqueue-partners #block-views-awards-slider-block-1 .view-footer .footer-link {
+    margin-top: 12px;
+  }
+}
