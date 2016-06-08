@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Impact Overview Page feature.
+ */
+
+include_once 'impact_overview_page.features.inc';
