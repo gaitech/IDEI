@@ -310,26 +310,6 @@ function paralax_menubar_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-programs_research-and-development:<front>.
-  $menu_links['menu-programs_research-and-development:<front>'] = array(
-    'menu_name' => 'menu-programs',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'RESEARCH AND DEVELOPMENT',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-programs_research-and-development:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
-    'customized' => 1,
-  );
   // Exported menu link: menu-programs_technology:<front>.
   $menu_links['menu-programs_technology:<front>'] = array(
     'menu_name' => 'menu-programs',
@@ -448,7 +428,6 @@ function paralax_menubar_menu_default_menu_links() {
   t('PARTNERS');
   t('PROGRAMS');
   t('RED FLAGS');
-  t('RESEARCH AND DEVELOPMENT');
   t('TECHNOLOGY');
   t('WATER');
   t('WORLD FACTS');

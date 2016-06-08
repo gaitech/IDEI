@@ -39,7 +39,7 @@ function paralax_menubar_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'idei',
-        'weight' => 0,
+        'weight' => -24,
       ),
       'seven' => array(
         'region' => '',
@@ -85,7 +85,7 @@ function paralax_menubar_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'idei',
-        'weight' => 0,
+        'weight' => -15,
       ),
       'seven' => array(
         'region' => '',
@@ -131,7 +131,7 @@ function paralax_menubar_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'idei',
-        'weight' => 0,
+        'weight' => 8,
       ),
       'seven' => array(
         'region' => '',
@@ -157,8 +157,8 @@ function paralax_menubar_default_fe_block_settings() {
     'delta' => 'main-menu',
     'module' => 'system',
     'node_types' => array(),
-    'options' => NULL,
-    'pages' => '',
+    'options' => 'a:0:{}',
+    'pages' => 'node/23',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -174,10 +174,10 @@ function paralax_menubar_default_fe_block_settings() {
         'weight' => 0,
       ),
       'idei' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'navigation',
+        'status' => 1,
         'theme' => 'idei',
-        'weight' => -6,
+        'weight' => -26,
       ),
       'seven' => array(
         'region' => '',
@@ -192,8 +192,8 @@ function paralax_menubar_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
-    'visibility' => 0,
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   return $export;
