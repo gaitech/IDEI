@@ -33,7 +33,8 @@ $header_image_path = image_style_url($header_style, $header_image);
   <div class="heighlight-body"><?php echo $heighlighted_text; ?></div>
   <div class="content-body"><?php echo $body_after_heighlited; ?></div>
 </div>
-<div class="also-read">
- <?php print views_embed_view('also_read_block','block'); ?>
+<div class="also-read-wrap">
+  <div class="also-read-title">ALSO READ:</div>
+  <div class="also-content"><?php print views_embed_view('also_read_block','block'); ?></div>
 </div>
 
