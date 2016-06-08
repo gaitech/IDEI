@@ -33,10 +33,10 @@ function also_read_block_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Relationship: Entity Reference: Referenced Entity */
-  $handler->display->display_options['relationships']['field_node_refrence_target_id']['id'] = 'field_node_refrence_target_id';
-  $handler->display->display_options['relationships']['field_node_refrence_target_id']['table'] = 'field_data_field_node_refrence';
-  $handler->display->display_options['relationships']['field_node_refrence_target_id']['field'] = 'field_node_refrence_target_id';
+  /* Relationship: Entity Reference: Referencing entity */
+  $handler->display->display_options['relationships']['reverse_field_also_read_node']['id'] = 'reverse_field_also_read_node';
+  $handler->display->display_options['relationships']['reverse_field_also_read_node']['table'] = 'node';
+  $handler->display->display_options['relationships']['reverse_field_also_read_node']['field'] = 'reverse_field_also_read_node';
   /* Field: Content: Read Also image */
   $handler->display->display_options['fields']['field_read_also_image']['id'] = 'field_read_also_image';
   $handler->display->display_options['fields']['field_read_also_image']['table'] = 'field_data_field_read_also_image';
@@ -48,32 +48,32 @@ function also_read_block_views_default_views() {
     'image_style' => 'also_read_image',
     'image_link' => '',
   );
-  /* Field: Content: Read Also link */
-  $handler->display->display_options['fields']['field_read_also_link']['id'] = 'field_read_also_link';
-  $handler->display->display_options['fields']['field_read_also_link']['table'] = 'field_data_field_read_also_link';
-  $handler->display->display_options['fields']['field_read_also_link']['field'] = 'field_read_also_link';
-  $handler->display->display_options['fields']['field_read_also_link']['label'] = '';
-  $handler->display->display_options['fields']['field_read_also_link']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_read_also_link']['click_sort_column'] = 'url';
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
   $handler->display->display_options['sorts']['created']['field'] = 'created';
   $handler->display->display_options['sorts']['created']['order'] = 'DESC';
-  /* Contextual filter: Content: Node Refrence (field_node_refrence) */
-  $handler->display->display_options['arguments']['field_node_refrence_target_id']['id'] = 'field_node_refrence_target_id';
-  $handler->display->display_options['arguments']['field_node_refrence_target_id']['table'] = 'field_data_field_node_refrence';
-  $handler->display->display_options['arguments']['field_node_refrence_target_id']['field'] = 'field_node_refrence_target_id';
-  $handler->display->display_options['arguments']['field_node_refrence_target_id']['default_action'] = 'default';
-  $handler->display->display_options['arguments']['field_node_refrence_target_id']['default_argument_type'] = 'node';
-  $handler->display->display_options['arguments']['field_node_refrence_target_id']['summary']['number_of_records'] = '0';
-  $handler->display->display_options['arguments']['field_node_refrence_target_id']['summary']['format'] = 'default_summary';
-  $handler->display->display_options['arguments']['field_node_refrence_target_id']['summary_options']['items_per_page'] = '25';
+  /* Contextual filter: Content: Nid */
+  $handler->display->display_options['arguments']['nid']['id'] = 'nid';
+  $handler->display->display_options['arguments']['nid']['table'] = 'node';
+  $handler->display->display_options['arguments']['nid']['field'] = 'nid';
+  $handler->display->display_options['arguments']['nid']['relationship'] = 'reverse_field_also_read_node';
+  $handler->display->display_options['arguments']['nid']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['nid']['default_argument_type'] = 'node';
+  $handler->display->display_options['arguments']['nid']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['nid']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['nid']['summary_options']['items_per_page'] = '25';
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
-  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['value'] = '1';
   $handler->display->display_options['filters']['status']['group'] = 1;
   $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
   /* Filter criterion: Content: Type */
@@ -86,6 +86,10 @@ function also_read_block_views_default_views() {
 
   /* Display: Also Read Block */
   $handler = $view->new_display('block', 'Also Read Block', 'block');
+
+  /* Display: Page */
+  $handler = $view->new_display('page', 'Page', 'page_1');
+  $handler->display->display_options['path'] = 'also_read';
   $export['also_read_block'] = $view;
 
   return $export;
