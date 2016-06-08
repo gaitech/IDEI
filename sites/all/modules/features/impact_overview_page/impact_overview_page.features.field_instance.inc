@@ -96,6 +96,45 @@ function impact_overview_page_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-overview-field_also_read'.
+  $field_instances['node-overview-field_also_read'] = array(
+    'bundle' => 'overview',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'entityreference',
+        'settings' => array(
+          'link' => FALSE,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 9,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_also_read',
+    'label' => 'Also Read',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 10,
+    ),
+  );
+
   // Exported field_instance: 'node-overview-field_header_image'.
   $field_instances['node-overview-field_header_image'] = array(
     'bundle' => 'overview',
@@ -401,6 +440,7 @@ function impact_overview_page_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('After highlighted Text');
+  t('Also Read');
   t('Body');
   t('Header Image');
   t('Header title');
