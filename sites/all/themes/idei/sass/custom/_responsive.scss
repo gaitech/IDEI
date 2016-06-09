@@ -34,6 +34,8 @@
 			}
 		}
 	}
+
+	/*----------------------------css for homepage*--------------------------/
 	/*css for slider*/
 	#block-views-homepage-slideshow-block {
 		.views-slideshow-cycle-main-frame {
@@ -207,7 +209,9 @@
 			}
 		}
 	}
+	/*css ends for program-section*/
 
+	/*css for water-section*/
 	.blockqueue-homepage-water {
 		#block-menu-menu-water {
 			h2 {
@@ -226,7 +230,9 @@
 			}
 		}
 	}
+	/*css ends for water-section*/
 
+	/*css for-logo-slider-section*/
 	#block-views-awards-slider-block {
 		.jcarousel-skin-default {
 			.jcarousel-item {
@@ -234,7 +240,9 @@
 			}
 		}
 	}
+	/*css ends for logo-slider-section*/
 
+	/*css for partner-section*/
 	.blockqueue-partners {
 		.view-homepage-content {
 			.homepage-impact-wrapper {
@@ -246,9 +254,6 @@
 				}
 			}
 		}
-	}
-
-	.blockqueue-partners {
 		#block-views-awards-slider-block-1 {
 			h2 {
 				font-size: 18px;
@@ -273,4 +278,6 @@
 			}
 		}
 	}
+	/*css ends for partner-section*/	
+	/*----------------------------css ends for homepage*--------------------------*/	
 }
