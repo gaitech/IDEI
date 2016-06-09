@@ -15,4 +15,9 @@ $header_image_path = image_style_url($header_style, $header_image);
 
   <div class="inner-title"><?php echo $page_title; ?></div>
   <div class="inner-content"><?php print views_embed_view('impact_inner_page','block'); ?></div>
+  <div class="also-read-wrap">
+    <div class="also-read-title">ALSO READ:</div>
+    <div class="also-content"><?php print views_embed_view('also_read_block','block'); ?></div>
+</div>
+
 </div>
