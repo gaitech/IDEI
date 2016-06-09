@@ -199,6 +199,45 @@ function impact_enviromental_page__field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-impact_inner_pages-field_also_read'.
+  $field_instances['node-impact_inner_pages-field_also_read'] = array(
+    'bundle' => 'impact_inner_pages',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'entityreference',
+        'settings' => array(
+          'link' => FALSE,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 5,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_also_read',
+    'label' => 'Also Read',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 33,
+    ),
+  );
+
   // Exported field_instance: 'node-impact_inner_pages-field_content'.
   $field_instances['node-impact_inner_pages-field_content'] = array(
     'bundle' => 'impact_inner_pages',
@@ -375,6 +414,7 @@ function impact_enviromental_page__field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Also Read');
   t('Content');
   t('Graph Body');
   t('Graph Description');
