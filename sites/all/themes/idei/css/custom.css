@@ -223,7 +223,7 @@ h2 {
   left: 0;
   top: 71px;
   border-top: 1px solid #9d9d9d;
-  box-shadow: 0 1px 11px #9d9d9d;
+  box-shadow: 0 5px 11px #9d9d9d;
 }
 /* line 135, ../sass/custom/_header.scss */
 .navbar .container #block-menu-menu-impact ul {
