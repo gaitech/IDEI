@@ -121,6 +121,11 @@
 					&:focus {
 						background-color: transparent;
 					}
+					&.active {
+						color: #43bfef;
+						border-bottom: 2px solid #43bfef;
+    					padding-bottom: 0.7px;
+					}
 				}
 			}
 		}
@@ -161,6 +166,10 @@
 						}
 						&:focus {
 							background-color: transparent;
+						}
+						&.active {
+							color: #43bfef;
+							border-bottom: 2px solid #43bfef;
 						}
 					}
 			    }
