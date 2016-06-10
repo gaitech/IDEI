@@ -19,19 +19,23 @@ $header_image_path = image_style_url($header_style, $header_image);
   <div class="header-image"> <img src="<?php echo $header_image_path; ?>"> </div>
   <div class="header-title"><?php echo $header_text; ?></div>
 </div>
-<div class="wrap-title">
-  <div class="title"><?php echo $title; ?></div>
-  <div class="percentage-wrap">
-    <div class="progress-image"> <img src="<?php echo $image_path; ?>"> </div>
-    <div class="progress-title"><?php echo $progress_percentage; ?></div>
-    <div class="progress-description"><?php echo $progress_description; ?></div>
+<div class="title-body-wrapper">
+  <div class="wrap-title">
+    <div class="title"><?php echo $title; ?></div>
+    <div class="percentage-wrap">
+      <div class="progress-image"> <img src="<?php echo $image_path; ?>"> </div>
+      <div class="progress-content-wrapper">
+        <div class="progress-title"><?php echo $progress_percentage; ?></div>
+        <div class="progress-description"><?php echo $progress_description; ?></div>
+      </div>
+    </div>
   </div>
-</div>
 
-<div class="wrap-body">
-  <div class="content-body"><?php echo $body_1; ?></div>
-  <div class="heighlight-body"><?php echo $heighlighted_text; ?></div>
-  <div class="content-body"><?php echo $body_after_heighlited; ?></div>
+  <div class="wrap-body">
+    <div class="content-body"><?php echo $body_1; ?></div>
+    <div class="highlight-body"><?php echo $heighlighted_text; ?></div>
+    <div class="content-body"><?php echo $body_after_heighlited; ?></div>
+  </div>
 </div>
 <div class="also-read-wrap">
   <div class="also-read-title">ALSO READ:</div>

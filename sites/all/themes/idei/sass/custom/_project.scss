@@ -107,6 +107,7 @@
 		    color: #6a6a6a;
 		    font-family: myraid-pro;
 		    margin-top: -5px;
+		    line-height: 1.2em;
     	}
     }
     #block-views-infographics-block {
@@ -205,6 +206,7 @@
     			float: left;
     			p {
     				padding: 0 15px;
+    				line-height: 1.2em;
     			}
 			    a {
 					color: #43BFEF;
@@ -415,6 +417,7 @@
     			float: left;
     			p {
     				padding: 0 15px;
+    				line-height: 1.2em;
     			}
 			    a {
 					color: #43BFEF;
@@ -539,6 +542,7 @@
     			float: left;
     			p {
     				padding: 0 15px;
+    				line-height: 1.2em;
     			}
 			    a {
 					color: #43BFEF;
@@ -588,6 +592,7 @@
     		font-size: 16px;
     		font-family: myriad-pro;
     		color: #6a6a6a;
+    		line-height: 1.2em;
     		.krishak-title {
     			float: left;
     			font-size: 21px;
@@ -754,6 +759,7 @@
     			float: left;
     			p {
     				padding: 0 40px 0 9px;
+    				line-height: 1.2em;
     			}
 			    a {
 					color: #43BFEF;
@@ -843,6 +849,185 @@
 /*css ends for awards-block*/
 /*---------------------------------css ends for homepage---------------------------------*/
 
+
+/*css for impact-overview-page*/
 .page-header {
 	display: none;
 }
+.not-front {
+	.main-container {
+		padding: 99px 0 0
+	}
+}
+.header-wrap {
+	position: relative;
+	.header-title {
+		position: absolute;
+	    bottom: 0;
+	    color: #fff;
+	    font-size: 40px;
+	    font-family: myriad-pro;
+	    font-style: italic;
+	    background: rgba(0, 0 ,0, 0.3);
+	    left: 5%;
+	    width: 90%;
+	    text-align: center;
+	}
+}
+.title-body-wrapper {
+	width: 100%;
+    display: inline-block;
+    padding: 11px 40px 30px;
+    .wrap-title {
+    	width: 40%;
+    	float: left;
+    	.title {
+    		font-size: 36px;
+		    font-family: myriad-pro;
+		    font-weight: bold;
+		    color: #43bfef;
+		    text-transform: uppercase;
+		    margin-top: -8px;
+    	}
+    	.percentage-wrap {
+    		position: relative;
+    		top: 160px;
+    		.progress-image {
+    			float: right;
+			    width: 100%;
+			    padding-right: 34px;
+			    img {
+			    	float: right;
+			    }
+    		}
+    		.progress-content-wrapper {
+    			display: inline-block;
+			    width: 32%;
+			    float: right;
+			    margin-right: 34px;
+			    margin-top: 10px;
+			    border-top: 1px solid #aaacaf;
+			    border-right: 1px solid #aaacaf;
+			    height: 106px;
+   				overflow: visible;
+			    .progress-title {
+			    	font-size: 70px;
+				    font-family: bebas-neue;
+				    color: #aaacaf;
+				    float: right;
+				    padding-right: 20px;
+				    margin-top: -12px;
+			    }
+			    .progress-description {
+			    	clear: both;
+				    font-size: 12px;
+				    font-family: myriad-pro;
+				    color: #aaacaf;
+				    padding-right: 6px;
+				    line-height: 1.2em;
+				    position: relative;
+				    top: -21px;
+			    }
+    		}
+    	}
+    }
+    .wrap-body {
+    	width: 60%;
+    	float: left;
+    	p {
+    		font-size: 16px;
+		    color: #6a6a6a;
+		    width: 100%;
+		    line-height: 1.2em;
+		    margin-bottom: 20px;
+		    a {
+		    	color: #43bfef;
+		    	text-decoration: none;
+		    }
+    	}
+    	ul {
+    		list-style: none;
+    		padding: 0;
+    		margin-bottom: 20px;
+    		li {
+    			font-size: 16px;
+			    color: #43bfef;
+			    font-family: myriad-pro;
+			    position: relative;
+			    padding-left: 20px;
+			    line-height: 1.2em;
+			    &:before {
+			    	content: "";
+				    position: absolute;
+				    background-color: #6a6a6a;
+				    height: 6px;
+				    width: 6px;
+				    border-radius: 100%;
+				    left: 0;
+				    top: 7px;
+			    }
+			}	
+    	}
+    	.highlight-body {
+    		position: relative;
+    		&:before {
+    			position: absolute;
+			    content: "";
+			    background-image: url("../images/highlight.png");
+			    height: 70px;
+			    width: 57px;
+			    left: -70px;
+			    top: -2px;
+    		}
+    		p {
+    			font-size: 22px;
+			    color: #2a569b;
+			    font-family: myriad-pro;
+			    font-weight: bold;
+			    line-height: 1.2em;
+    		}
+    	}
+    }
+}
+.also-read-wrap {
+	width: 100%;
+    display: inline-block;
+    background-color: #27579c;
+    padding: 20px;
+    .also-read-title {
+		text-align: center;
+	    font-size: 16px;
+	    color: #fff;
+	    font-family: myriad-pro;
+	    font-weight: bold;
+	    letter-spacing: 1px;
+	    margin-bottom: 13px;
+    }
+    .also-content {
+    	display: inline-block;
+    	width: 100%;
+    	.views-row {
+		    width: 33%;
+		    float: left;
+		    img {
+		    	margin-left: auto;
+		    	margin-right: auto;
+		    	display: block;
+		    }
+		    .views-field-title {
+		    	text-align: center;
+			    font-size: 14px;
+			    font-family: myriad-pro;
+			    margin-top: 10px;
+			    a {
+			    	color: #43bfef;
+			    	text-decoration: none;
+			    	&:focus {
+			    		outline: none;
+			    	}
+			    }
+		    }
+		}
+    }
+}
+/*css ends for impact-overview-page*/
