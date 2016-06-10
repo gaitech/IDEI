@@ -20,11 +20,19 @@
       );
     });
 
-    // jQuery('#block-menu-menu-programs h2:contains("IDEI\'s")').each(function(){
-    //   jQuery(this).html(
-    //       jQuery(this).html().replace(/IDEI's/g,'<div>IDEI\'s</div>')
-    //   );
-    // });
+// homepage menu add active class
+  $('.custom-navigation li a').click(function(e) {
+    e.preventDefault(); 
+    $('.custom-navigation li a').removeClass('active');
+    $(this).addClass('active');
+  });
 
-  })
+  var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
+  $(".custom-navigation li a").each(function() {
+    $(this).removeClass("active");
+    if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
+    $(this).addClass("active");
+  });
+
+ })
 })(jQuery);
