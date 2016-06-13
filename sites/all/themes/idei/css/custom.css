@@ -1598,6 +1598,84 @@ h2 {
 }
 
 /*css ends for impact-overview-page*/
+/*css for impact-economic-page*/
+/* line 1037, ../sass/custom/_project.scss */
+.economic-inner-title {
+  font-size: 36px;
+  font-family: myriad-pro;
+  font-weight: bold;
+  color: #43bfef;
+  text-transform: uppercase;
+}
+
+/* line 1045, ../sass/custom/_project.scss */
+.economic-inner-content ul {
+  padding: 0;
+  list-style: none;
+}
+/* line 1049, ../sass/custom/_project.scss */
+.economic-inner-content .field-name-field-graph-image {
+  width: 50%;
+  float: left;
+  border: 18px solid #43bfef;
+}
+/* line 1053, ../sass/custom/_project.scss */
+.economic-inner-content .field-name-field-graph-image img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 12px;
+}
+/* line 1060, ../sass/custom/_project.scss */
+.economic-inner-content .field-name-field-graph-title {
+  float: right;
+  width: 50%;
+  border-right: 2px solid #43bfef;
+  border-top: 2px solid #43bfef;
+  padding: 25px 20px 0;
+  font-size: 16px;
+  color: #6a6a6a;
+  font-family: myriad-pro;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 1072, ../sass/custom/_project.scss */
+.economic-inner-content .field-name-field-graph-body-title {
+  clear: both;
+  font-size: 16px;
+  color: #6a6a6a;
+  font-weight: bold;
+  font-family: myriad-pro;
+  text-transform: uppercase;
+  padding: 28px 0 14px;
+}
+/* line 1081, ../sass/custom/_project.scss */
+.economic-inner-content .field-name-field-graph-description {
+  display: inline-block;
+  width: 50%;
+  border-right: 2px solid #43bfef;
+  border-bottom: 2px solid #43bfef;
+  padding: 10px 20px 18px;
+}
+/* line 1087, ../sass/custom/_project.scss */
+.economic-inner-content .field-name-field-graph-description p {
+  font-size: 16px;
+  color: #6a6a6a;
+  line-height: 1.2em;
+  width: 90%;
+}
+/* line 1094, ../sass/custom/_project.scss */
+.economic-inner-content .field-name-field-graph-body {
+  font-size: 16px;
+  font-family: myriad-pro;
+  color: #6a6a6a;
+}
+/* line 1098, ../sass/custom/_project.scss */
+.economic-inner-content .field-name-field-graph-body a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
 /*responsive css for tab*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
   /* line 5, ../sass/custom/_responsive.scss */
