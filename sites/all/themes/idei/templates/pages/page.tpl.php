@@ -117,6 +117,9 @@
       </div>
     <?php endif; ?>
   </div>
+  <div class="secondry-menu">
+    <?php print render($page['header']); ?>
+  </div>
 </header>
 
 <div class="main-container container">
@@ -126,7 +129,7 @@
       <p class="lead"><?php print $site_slogan; ?></p>
     <?php endif; ?>
 
-    <?php print render($page['header']); ?>
+    
   </header> <!-- /#page-header -->
 
   <div class="row">
