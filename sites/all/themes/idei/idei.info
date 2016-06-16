@@ -10,6 +10,7 @@ base theme = bootstrap
 
 regions[social_links]    = 'social Links'
 regions[navigation]     = 'Navigation'
+region[secondry_menu]   = 'Second Menu'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
@@ -17,6 +18,7 @@ regions[content]        = 'Content'
 regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;
