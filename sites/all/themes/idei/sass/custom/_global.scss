@@ -1,6 +1,6 @@
 @font-face {
     font-family:Bebas-Neue;
-    src: url("../fonts/BebasNeuewebfont.ttf");
+    src: url("../fonts/BebasNeuewebfont.ttf"), url("../fonts/BebasNeuewebfont.woff")
 }
 @font-face {
     font-family:helvetica-bold;
@@ -8,47 +8,25 @@
 }
 @font-face {
     font-family:helvetica;
-    src: url("../fonts/helvetica.ttf");
-}
-@font-face {
-    font-family:helvetica;
-    src: url("../fonts/helvetica.woff");
+    src: url("../fonts/helvetica.ttf"), url("../fonts/helvetica.woff");
 }
 @font-face {
   font-family:myriad-pro;
-  src: url("../fonts/MyriadPro-Regular.otf");
-}
-@font-face {
-  font-family:myriad-pro;
-  src: url("../fonts/MyriadPro-Regular.woff");
+  src: url("../fonts/MyriadPro-Regular.otf"), url("../fonts/MyriadPro-Regular.woff");
 }
 @font-face {
   font-family:myriad-pro-semibold;
-  src: url("../fonts/MyriadPro-Semibold.ttf");
-}
-@font-face {
-  font-family:myriad-pro-semibold;
-  src: url("../fonts/MyriadPro-Semibold.woff");
+  src: url("../fonts/MyriadPro-Semibold.ttf"), url("../fonts/MyriadPro-Semibold.woff");
 }
 @font-face {
   font-family:rockwell;
-  src: url("../fonts/rockwell.ttf");
-}
-@font-face {
-  font-family:rockwell;
-  src: url("../fonts/rockwell.woff");
+  src: url("../fonts/rockwell.ttf"), url("../fonts/rockwell.woff");
 }
 
 body{
 	background: #ccc;
 }
-a{
-	font-family: myriad-pro;
-}
-p{
-	font-family: myriad-pro;
-}
-h2{
+a, p, h2 {
 	font-family: myriad-pro;
 }
 .main-container {
