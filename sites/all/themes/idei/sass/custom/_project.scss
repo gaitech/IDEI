@@ -1049,7 +1049,7 @@
     .field-name-field-graph-image {
     	width: 50%;
 	    float: left;
-	    border: 18px solid #27579c;
+	    border: 16px solid #27579c;
 	    img {
 	    	margin-left: auto;
 		    margin-right: auto;
@@ -1057,11 +1057,13 @@
 		    padding-top: 12px;
 	    }
     }
+    .impact-wrap-new {
+    	border: 2px solid #27579c;
+    	height: 297px;
+    }
     .field-name-field-graph-title {
     	float: right;
     	width: 50%;
-    	border-right: 2px solid #27579c;
-    	border-top: 2px solid #27579c;
     	padding: 25px 20px 0;
     	font-size: 16px;
 	    color: #6a6a6a;
@@ -1081,8 +1083,6 @@
     .field-name-field-graph-description {
     	display: inline-block;
 	    width: 50%;
-	    border-right: 2px solid #27579c;
-	    border-bottom: 2px solid #27579c;
 	    padding: 10px 20px 18px;
 	    p {
 	    	font-size: 16px;
