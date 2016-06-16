@@ -20,6 +20,9 @@
       );
     });
 
+    /*js for wrap the fields in class*/
+    jQuery(".field-name-field-graph-description,.field-name-field-graph-title , .field-name-field-graph-image").wrapAll( "<div class='impact-wrap-new' />");
+
 // homepage menu add active class
   $('.custom-navigation li a').click(function(e) {
     e.preventDefault(); 

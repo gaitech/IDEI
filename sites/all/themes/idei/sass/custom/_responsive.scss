@@ -1,3 +1,64 @@
+@media all and (max-width: 767px) {
+	.main-container {
+		.row {
+			margin: 0;
+			.col-sm-12 {
+				padding: 0;
+			}
+		}
+	}
+	.navbar {
+		.container {
+			.navbar-header {
+				.logo {
+					padding: 0 0 0 20px;
+					img {
+						height: 60px;
+    					width: 71px;
+					}
+				}
+			}
+			.navbar-collapse.collapse {
+			    position: absolute;
+			    right: auto;
+			    background: #fff;
+			    box-shadow: 0 4px 11px #ccc;
+			    width: 100%;
+			    top: auto;
+			    .custom-navigation {
+			    	list-style: none;
+    				padding-top: 10px;
+    				li {
+    					display: block;
+    					border-right: none;
+    					float: none;
+    					padding: 0;
+    				}
+			    }	   
+			}
+		}
+	}
+
+	/*----------------------------css for homepage*--------------------------/
+	/*css for slider*/
+	.slide-wrapper {
+		.slide-title {
+			font-size: 20px;
+			left: 4.4%;
+		}
+	}
+	/*css for ticker*/
+	#block-views-ticker-block {
+		h2 {
+			width: 49.8%;
+		   	font-size: 13px;
+		    padding: 5.3px 0px 5.5px 12px;
+		}
+		.liScroll-container {
+			width: 50.2%;
+		}
+	}
+}
 /*responsive css for tab*/
 @media all and (min-width:768px) and (max-width: 1024px) {
 
