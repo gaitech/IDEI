@@ -82,16 +82,46 @@
 				width: 100%;
 			    margin: 0;
 			    padding: 0 10px;
+			    max-width: 320px;
+				width: 100%;
+				margin: 0 auto;
 			    ul {
 			    	display: inline-block;
 				    width: 100%;
 				    padding: 0;
+				    li {
+					    width: 47%;
+					    height: 135px;
+					    background-size: 103%;
+					    line-height: 41px;
+					    .content {
+					    	.field-items {
+					    		.field-item {
+					    			&:nth-child(1) {
+					    				p {
+											font-size: 35px;
+										}
+									}
+									&:nth-child(2) {
+										p {
+											font-size: 22px;
+										}
+									}
+									&:nth-child(3) {
+										p {
+											font-size: 10px;
+										}
+									}
+								}
+							}
+						}
+				    }
 			    }
 			}
 		}
 	}
 	/*css for impact-section*/
-	.blockqueue-homepage-impact {
+	.blockqueue-homepage-impact, .blockqueue-homepage-approach {
 		.homepage-impact-wrapper {
 			.impact-content-wrapper {
 				padding: 11px 10px 0px;
@@ -135,7 +165,7 @@
 		    display: inline-block;
 		    width: 100%;
 		    margin-top: 0px;
-		    padding: 10px;
+		    padding: 20px 10px;
 		    h2 {
 		    	font-size: 17px;
 		    	width: 100%;
@@ -150,21 +180,109 @@
 				    top: 0;
 		    	}
 		    }
-		}
-		#block-views-infographics-block-2 {
-			margin-top: 0;
-			padding-bottom: 0;
-			.view-infographics {
-			    width: 100%;
-			    margin: 0;
-			    padding: 0 10px;
+		    .view-infographics {
+				width: 100%;
+			    margin: 0 auto;
+			    max-width: 320px;
+			    padding-left: 18px;
+			    padding-top: 10px;
 			    ul {
-			    	display: inline-block;
-			    	padding: 0;
 			    	width: 100%;
-
+			    	display: inline-block;
+			    	margin: 0;
+			    	li {
+			    		width: 47%;
+			    		margin-right: 3%;
+			    		.bottom-wrap {
+			    			background-size: 103% auto;
+			    			.field-item {
+			    				&:nth-child(1) {
+			    					p {
+			    						font-size: 35px;
+			    					}
+			    				}
+			    				&:nth-child(2) {
+			    					p {
+			    						font-size: 22px;
+			    					}
+			    				}
+			    				&:nth-child(3) {
+			    					p {
+			    						font-size: 10px;
+			    					}
+			    				}
+			    			}
+			    		}
+			    	}
 			    }
+			    .field-items {
+			    	.field-item {
+			    		&:nth-child(1) {
+			    			p {
+    							font-size: 12px;
+    						}
+    					}
+    					&:nth-child(2) {
+    						p {
+    							font-size: 25px;
+    						}
+    					}
+    					&:nth-child(3) {
+    						p {
+    							font-size: 18px;
+    							margin-top: 0;
+    						}
+    					}
+    					&:nth-child(4) {
+    						p {
+    							font-size: 9px;
+    							margin-top: 8.5px;
+    						}
+    					}
+    				}
+    			}
 			}
+		}
+	}
+
+	/*css for approach-block*/
+	.blockqueue-homepage-approach {
+		#block-menu-menu-approach {
+			display: inline-block;
+		    width: 100%;
+		    margin-top: 0px;
+		    padding: 20px 0px 25px;
+		    h2 {
+		    	font-size: 17px;
+		    	width: 100%;
+		    	text-align: center;
+		    	padding: 0 10px 10px;
+		    	&:before {
+		    		content: "";
+				    position: absolute;
+				    background-color: transparent;
+				    height: 0;
+				    width: 0;
+				    top: 0;
+		    	}
+		    }
+		    .content {
+		    	width: 100%;
+		    	max-width: 320px;
+		    	margin: 0 auto;
+		    	display: block;
+		    	float: none;
+		    	li {
+				    background-position: 4% 18%;
+				    padding-right: 4px;
+				    background-size: 45px;
+				    height: 29px;
+				    a {
+				    	margin-left: 52px;
+				    	font-size: 16px;
+				    }
+		    	}
+		    }
 		}
 	}
 }
@@ -252,12 +370,7 @@
 									}
 									&:nth-child(2) {
 										p {
-											font-size: 20px;
-										}
-									}
-									&:nth-child(3) {
-										p {
-											font-size: 10px;
+											font-size: 22px;
 										}
 									}
 								}
@@ -305,12 +418,11 @@
     							}
     							&:nth-child(2) {
     								p {
-    									font-size: 20px;
+    									font-size: 22px;
     								}
     							}
     							&:nth-child(3) {
     								p {
-    									font-size: 10px;
     									margin: 4px 0 0;
     								}
     							}
@@ -480,110 +592,5 @@
 
 
 @media  (max-width: 480px) {
-	/*css for water-section*/
-	#block-blockqueue-homepage-its-all-about-water {
-		#block-views-infographics-block {
-			.view-infographics {
-				ul {
-					li {
-					    width: 47%;
-					    height: 175px;
-					    background-size: 100%;
-					    line-height: 45px;
-					    .content {
-					    	.field-items {
-					    		.field-item {
-					    			&:nth-child(1) {
-					    				p {
-											font-size: 35px;
-										}
-									}
-									&:nth-child(2) {
-										p {
-											font-size: 22px;
-										}
-									}
-								}
-							}
-						}
-				    }
-				}
-			}
-		}
-	}
-
-	.blockqueue-homepage-impact {
-		#block-views-infographics-block-1 {
-			.view-infographics {
-				width: 100%;
-			    margin: 0 auto;
-			    max-width: 320px;
-			    padding-left: 18px;
-			    padding-top: 15px;
-			    ul {
-			    	width: 100%;
-			    	display: inline-block;
-			    	margin: 0;
-			    	li {
-			    		width: 47%;
-			    	}
-			    }
-			    .field-items {
-			    	.field-item {
-			    		&:nth-child(1) {
-			    			p {
-    							font-size: 12px;
-    						}
-    					}
-    					&:nth-child(2) {
-    						p {
-    							font-size: 25px;
-    						}
-    					}
-    					&:nth-child(3) {
-    						p {
-    							font-size: 18px;
-    							margin-top: 0;
-    						}
-    					}
-    					&:nth-child(4) {
-    						p {
-    							font-size: 9px;
-    							margin-top: 8.5px;
-    						}
-    					}
-    				}
-    			}
-			}
-		}
-		#block-views-infographics-block-2 {
-			.view-infographics {
-			    ul {
-					li {
-					    width: 47%;
-					    height: 175px;
-					    background-size: 100%;
-					    line-height: 45px;
-					    .content {
-					    	.field-items {
-					    		.field-item {
-					    			&:nth-child(1) {
-					    				p {
-											font-size: 35px;
-										}
-									}
-									&:nth-child(2) {
-										p {
-											font-size: 22px;
-										}
-									}
-								}
-							}
-						}
-				    }
-			    }
-			}
-		}
-	}
-
+	
 }
