@@ -272,11 +272,51 @@
     			margin-top: -9px;
 			    li {
 			    	float: left;
-    				width: 22%;
-    				margin-right: 3%;
+    				width: 20.4%;
+    				margin-right: 4.6%;
     				&:last-child {
     					margin-right: 0;
     				}
+    				.bottom-wrap {
+					    display: inline-block;
+					    width: 100%;
+					    background-image: url("../images/water.jpg");
+					    height: 129px;
+					    background-repeat: no-repeat;
+					    .field-item{
+							&:nth-child(1) {
+								p {
+									font-size: 50px;
+								    font-family: bebas-neue;
+								    color: #45C0F0;
+								    text-align: center;
+								    margin-top: 5px;
+								}
+							}
+							&:nth-child(2) {
+								p {
+									font-size: 25px;
+								    font-family: bebas-neue;
+								    color: #45C0F0;
+								    width: 100%;
+								    text-align: center;
+								    margin: -18px 0;
+								}
+							}
+							&:nth-child(3) {
+								p {
+									font-size: 12px;
+								    font-family: myriad-pro-semibold;
+								    color: #6a6a6a;
+								    width: 75px;
+								    margin: 8px auto;
+								    display: inline-block;
+								    width: 100%;
+								    text-align: center;
+								}
+							}
+						}
+					}
 			    }
     		}
     		.field-items {

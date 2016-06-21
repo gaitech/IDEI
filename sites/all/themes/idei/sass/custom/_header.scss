@@ -131,9 +131,8 @@
 	#block-menu-menu-impact {
 			width: 100%;
 		    background-color: #fff;
-		    position: fixed;
-		    left: 0;
-		    top: 71px;
+		    position: relative;
+		    top: -2px;
 		    border-top: 1px solid #9d9d9d;
 		    box-shadow: 0 4px 11px #ccc;
 		    ul {
