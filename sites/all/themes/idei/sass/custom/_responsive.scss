@@ -10,11 +10,40 @@
 	.navbar {
 		.container {
 			.navbar-header {
+				margin: 0;
 				.logo {
-					padding: 0 0 0 20px;
+					padding: 0 0 0 5px;
+					width: 25%;
 					img {
 						height: 60px;
     					width: 71px;
+					}
+				}
+				.social-links {
+					width: 75%;
+					padding-right: 0;
+					text-align: right;
+					.region-social-links {
+						display: inline-block;
+					}
+					.input-group {
+						.form-control {
+							width: 75px;
+						}
+					}
+					#block-search-form  {
+						margin-bottom: 0px;
+						height: 10px;
+					}
+				}
+				.navbar-toggle {
+					border: none;
+					padding: 5px;
+					background-color: #45C0F0;
+					margin-top: 0;
+					margin-right: 8px;
+					span {
+						background-color: #fff;
 					}
 				}
 			}
@@ -24,19 +53,29 @@
 			.navbar-collapse.collapse {
 			    position: absolute;
 			    right: auto;
-			    background: #fff;
+			    background: #27579c url('../images/logo.png') no-repeat scroll center right 15px;
 			    box-shadow: 0 4px 11px #ccc;
 			    width: 100%;
+			    // display: inline-block;
 			    top: auto;
+			    margin: -3px 0 0;
 			    .custom-navigation {
 			    	list-style: none;
-    				padding-top: 10px;
+    				padding: 10px 119px 0 10px;
     				li {
     					display: block;
     					border-right: none;
     					float: none;
-    					padding: 0;
+    					padding: 0 0 0 5px;
+    					background: #45C0F0;
+    					margin: 10px 0;
+    					  a {
+    					  	color: #fff;
+    					  }
     				}
+			    }
+			    .region-navigation {
+			    	padding-right: 0;
 			    }	   
 			}
 		}
