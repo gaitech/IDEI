@@ -318,7 +318,7 @@
 
 	/*css for approach-block, water-block*/
 	.blockqueue-homepage-approach, .blockqueue-homepage-water {
-		#block-menu-menu-approach, #block-menu-menu-water  {
+		#block-menu-menu-approach, #block-menu-menu-water {
 			display: inline-block;
 		    width: 100%;
 		    margin-top: 0px;
@@ -372,6 +372,86 @@
 			ul {
 				padding-left: 40px;
 			}
+		}
+	}
+
+	/*css for awards-slider*/
+	#block-views-awards-slider-block {
+		.jcarousel-skin-default {
+			.jcarousel-item {
+				height: 160px;
+				width: 160px;
+			}
+		}
+	}
+
+	.blockqueue-partners {
+		.view-homepage-content {
+			.homepage-impact-wrapper {
+				padding: 55px 10px 0px;
+				.homepage-block-title {
+					font-size: 25px;
+					width: 100%;
+					text-align: center;
+				}
+				.homepage-body {
+					font-size: 14px;
+					width: 100%;
+					p {
+						padding: 0;
+					}
+				}
+				.awards-video {
+					width: 100%;
+					text-align: center;
+					margin-top: 30px;
+					a {
+						&:before {
+						    height: 93%;
+						    width: 50%;
+						    background-position: center;
+						    background-size: 60px;
+						    left: 25%
+						}
+					}
+				}
+			}
+		}
+		#block-views-awards-slider-block-1 {
+			display: inline-block;
+		    width: 100%;
+		    margin-top: 0px;
+		    padding: 20px 0px 25px;
+		    h2 {
+		    	font-size: 17px;
+		    	width: 100%;
+		    	text-align: center;
+		    	padding: 0 10px 10px;
+		    	&:before {
+		    		content: "";
+				    position: absolute;
+				    background-color: transparent;
+				    height: 0;
+				    width: 0;
+				    top: 0;
+		    	}
+		    }
+		    .content {
+		    	width: 100%;
+		    	max-width: 320px;
+		    	margin: 0 auto;
+		    	display: block;
+		    	float: none;
+		    	.view-content {
+		    		.views-row {
+		    			padding: 0;
+		    			width: 50%;
+		    			img {
+		    				margin: auto;
+		    			}
+		    		}
+		    	}
+		    }
 		}
 	}
 }
@@ -680,6 +760,22 @@
 }
 
 
-@media  (max-width: 480px) {
+@media  (max-width: 520px) {
+	#block-views-awards-slider-block {
+		.jcarousel-skin-default {
+			.jcarousel-prev-horizontal {
+				left: 42%;
+			}
+		}
+	}
 	
+}
+@media all and (min-width:521px) and (max-width: 767px) {
+	#block-views-awards-slider-block {
+		.jcarousel-skin-default {
+			.jcarousel-next-horizontal {
+				left: 52%;
+			}
+		}
+	}
 }
