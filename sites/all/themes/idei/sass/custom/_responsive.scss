@@ -53,7 +53,7 @@
 	/*css for ticker*/
 	#block-views-ticker-block {
 		h2 {
-			width: 49.8%;
+			width: 155px;
 		   	font-size: 13px;
 		    padding: 5.3px 0px 5.5px 12px;
 		}
@@ -120,8 +120,8 @@
 			}
 		}
 	}
-	/*css for impact-section*/
-	.blockqueue-homepage-impact, .blockqueue-homepage-approach {
+	/*css for impact-section, approach, programs*/
+	.blockqueue-homepage-impact, .blockqueue-homepage-approach, .blockqueue-homepage-programs {
 		.homepage-impact-wrapper {
 			.impact-content-wrapper {
 				padding: 11px 10px 0px;
@@ -245,9 +245,79 @@
 		}
 	}
 
+	/*css for programme block*/
+	.blockqueue-homepage-programs {
+		#block-menu-menu-programs {
+			margin-top: 0px;
+    		padding: 15px 0px 40px;
+    		display: inline-block;
+    		h2 {
+		    	font-size: 17px;
+		    	width: 100%;
+		    	text-align: center;
+		    	padding: 0 10px 10px;
+		    	margin: 0;
+		    	&:before {
+		    		content: "";
+				    position: absolute;
+				    background-color: transparent;
+				    height: 0;
+				    width: 0;
+				    top: 0;
+		    	}
+		    }
+    		.content {
+    			width: 100%;
+			    max-width: 320px;
+			    margin: 0 auto;
+			    display: block;
+			    float: none;
+			    left: auto;
+			    padding: 0 0 0 46px;
+			    li {
+			    	background-position: 4% center;
+				    padding-right: 4px;
+				    background-size: 18px;
+				    height: 29px;
+				    width: 33%;
+				    display: inline-block;
+				    vertical-align: top;
+				    a {
+				    	margin-left: 21px;
+    					font-size: 16px;
+				    }
+				    &:nth-child(4) {
+				    	width: 32%;
+				    }
+			    }
+    		}
+		}
+		.main-krishak {
+			margin-top: 0;
+    		padding: 20px 10px;
+    		.krishak-logo  {
+    			width: 22%;
+    			img {
+    				float: right;
+				    margin-right: 2px;
+				    margin-top: -8px;
+    			}
+    		}
+    		.krishak-body {
+    			width: 78%;
+    			font-size: 14px;
+    			.krishak-title {
+    				font-size: 18px;
+    				margin-top: 0;
+    				height: 16px;
+    			}
+    		}
+		}
+	}
+
 	/*css for approach-block*/
 	.blockqueue-homepage-approach {
-		#block-menu-menu-approach {
+		#block-menu-menu-approach  {
 			display: inline-block;
 		    width: 100%;
 		    margin-top: 0px;
@@ -339,9 +409,9 @@
 	/*css for ticker*/
 	#block-views-ticker-block {
 		h2 {
-			width: 23.8%;
+			width: 178px;
 		    word-spacing: 0.2px;
-		    padding: 4.3px 0px 2.5px 8px;
+		    padding: 4.3px 0px 2.5px 5px;
 		}
 		.liScroll-container {
 			width: 76.2%;
