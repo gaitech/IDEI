@@ -2169,31 +2169,79 @@ a, p, h2 {
   .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row img {
     margin: auto;
   }
+
+  /* line 458, ../sass/custom/_responsive.scss */
+  .footer .region-footer {
+    padding: 0;
+  }
+  /* line 461, ../sass/custom/_responsive.scss */
+  .footer .facebook-block {
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0 0 0 58px;
+  }
+  /* line 465, ../sass/custom/_responsive.scss */
+  .footer .facebook-block .facebook-wrapper {
+    width: 100%;
+  }
+  /* line 467, ../sass/custom/_responsive.scss */
+  .footer .facebook-block .facebook-wrapper ul {
+    margin-top: 20px;
+  }
+  /* line 472, ../sass/custom/_responsive.scss */
+  .footer .connect-wrapper {
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* line 475, ../sass/custom/_responsive.scss */
+  .footer .connect-wrapper h2 {
+    padding-top: 0;
+    margin: 0;
+  }
+  /* line 480, ../sass/custom/_responsive.scss */
+  .footer #block-menu-menu-footer-about-us, .footer #block-menu-menu-footer-resources,
+  .footer #block-menu-menu-footer-get-involved {
+    width: 100%;
+    padding: 20px 0 0 58px;
+  }
+  /* line 485, ../sass/custom/_responsive.scss */
+  .footer .block-title {
+    margin: 0;
+  }
+  /* line 488, ../sass/custom/_responsive.scss */
+  .footer .copyright {
+    width: 100%;
+    padding: 10px;
+  }
+  /* line 492, ../sass/custom/_responsive.scss */
+  .footer .copyright p:nth-of-type(1), .footer .copyright p:nth-of-type(2) {
+    width: 100%;
+  }
 }
 /*responsive css for tab*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  /* line 463, ../sass/custom/_responsive.scss */
+  /* line 504, ../sass/custom/_responsive.scss */
   .main-container .row {
     margin: 0;
   }
-  /* line 465, ../sass/custom/_responsive.scss */
+  /* line 506, ../sass/custom/_responsive.scss */
   .main-container .row .col-sm-12 {
     padding: 0;
   }
 
-  /* line 473, ../sass/custom/_responsive.scss */
+  /* line 514, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-header .logo {
     padding: 0 0 0 5px;
   }
-  /* line 476, ../sass/custom/_responsive.scss */
+  /* line 517, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-header .social-links {
     padding: 0;
   }
-  /* line 481, ../sass/custom/_responsive.scss */
+  /* line 522, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-collapse .region-navigation {
     padding: 0;
   }
-  /* line 486, ../sass/custom/_responsive.scss */
+  /* line 527, ../sass/custom/_responsive.scss */
   .navbar .container .custom-navigation li {
     padding-left: 6px;
     padding-right: 6px;
@@ -2203,151 +2251,151 @@ a, p, h2 {
 
   /*----------------------------css for homepage*--------------------------/
   /*css for slider*/
-  /* line 499, ../sass/custom/_responsive.scss */
+  /* line 540, ../sass/custom/_responsive.scss */
   #block-views-homepage-slideshow-block .views-slideshow-cycle-main-frame {
     width: 100% !important;
   }
-  /* line 501, ../sass/custom/_responsive.scss */
+  /* line 542, ../sass/custom/_responsive.scss */
   #block-views-homepage-slideshow-block .views-slideshow-cycle-main-frame .views-slideshow-cycle-main-frame-row {
     width: 100% !important;
   }
 
   /*css ends for slider*/
   /*css for ticker*/
-  /* line 510, ../sass/custom/_responsive.scss */
+  /* line 551, ../sass/custom/_responsive.scss */
   #block-views-ticker-block h2 {
     width: 178px;
     word-spacing: 0.2px;
     padding: 4.3px 0px 2.5px 5px;
   }
-  /* line 515, ../sass/custom/_responsive.scss */
+  /* line 556, ../sass/custom/_responsive.scss */
   #block-views-ticker-block .liScroll-container {
     width: 76.2%;
   }
 
   /*css ends for ticker*/
   /*css for water-section*/
-  /* line 524, ../sass/custom/_responsive.scss */
+  /* line 565, ../sass/custom/_responsive.scss */
   #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics {
     width: 84%;
   }
-  /* line 527, ../sass/custom/_responsive.scss */
+  /* line 568, ../sass/custom/_responsive.scss */
   #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li {
     background-size: 103% auto;
     height: 154px;
     width: 24%;
     margin-right: 1%;
   }
-  /* line 536, ../sass/custom/_responsive.scss */
+  /* line 577, ../sass/custom/_responsive.scss */
   #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(1) p {
     font-size: 40px;
   }
-  /* line 541, ../sass/custom/_responsive.scss */
+  /* line 582, ../sass/custom/_responsive.scss */
   #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(2) p {
     font-size: 22px;
   }
 
   /*css ends for water-section*/
   /*css for impact-section*/
-  /* line 559, ../sass/custom/_responsive.scss */
+  /* line 600, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
     font-size: 30px;
   }
-  /* line 565, ../sass/custom/_responsive.scss */
+  /* line 606, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 h2 {
     font-size: 18px;
     width: 273px;
     margin-top: 25px;
   }
-  /* line 570, ../sass/custom/_responsive.scss */
+  /* line 611, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics {
     width: 84%;
     padding-bottom: 22px;
   }
-  /* line 573, ../sass/custom/_responsive.scss */
+  /* line 614, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul {
     margin-left: 40px;
     margin-top: 30px;
   }
-  /* line 576, ../sass/custom/_responsive.scss */
+  /* line 617, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li {
     width: 24%;
     margin-right: 1%;
   }
-  /* line 579, ../sass/custom/_responsive.scss */
+  /* line 620, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap {
     background-size: 100% auto;
     height: 154px;
   }
-  /* line 584, ../sass/custom/_responsive.scss */
+  /* line 625, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(1) p {
     font-size: 40px;
   }
-  /* line 589, ../sass/custom/_responsive.scss */
+  /* line 630, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(2) p {
     font-size: 22px;
   }
-  /* line 594, ../sass/custom/_responsive.scss */
+  /* line 635, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(3) p {
     margin: 4px 0 0;
   }
-  /* line 605, ../sass/custom/_responsive.scss */
+  /* line 646, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) p {
     font-size: 28px;
   }
-  /* line 610, ../sass/custom/_responsive.scss */
+  /* line 651, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) p {
     font-size: 18px;
   }
-  /* line 619, ../sass/custom/_responsive.scss */
+  /* line 660, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics {
     width: 83%;
   }
-  /* line 622, ../sass/custom/_responsive.scss */
+  /* line 663, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li {
     background-size: 103%;
     height: 138px;
   }
-  /* line 629, ../sass/custom/_responsive.scss */
+  /* line 670, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item p:nth-child(1) {
     font-size: 40px;
   }
-  /* line 634, ../sass/custom/_responsive.scss */
+  /* line 675, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(2) p {
     font-size: 20px;
   }
-  /* line 639, ../sass/custom/_responsive.scss */
+  /* line 680, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(3) p {
     font-size: 10px;
   }
 
   /*css ends for impact-section*/
   /*css for approach-section*/
-  /* line 657, ../sass/custom/_responsive.scss */
+  /* line 698, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
     font-size: 30px;
   }
-  /* line 663, ../sass/custom/_responsive.scss */
+  /* line 704, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach #block-menu-menu-approach h2, .blockqueue-homepage-programs #block-menu-menu-approach h2 {
     font-size: 18px;
     width: 30%;
   }
-  /* line 666, ../sass/custom/_responsive.scss */
+  /* line 707, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach #block-menu-menu-approach h2:before, .blockqueue-homepage-programs #block-menu-menu-approach h2:before {
     width: 190px;
   }
-  /* line 670, ../sass/custom/_responsive.scss */
+  /* line 711, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach #block-menu-menu-approach .content, .blockqueue-homepage-programs #block-menu-menu-approach .content {
     width: 70%;
   }
 
   /*css ends for approach-section*/
   /*css for program-section*/
-  /* line 680, ../sass/custom/_responsive.scss */
+  /* line 721, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs h2 {
     width: 23%;
   }
-  /* line 683, ../sass/custom/_responsive.scss */
+  /* line 724, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs .content {
     width: 71%;
     left: 21px;
@@ -2355,61 +2403,61 @@ a, p, h2 {
 
   /*css ends for program-section*/
   /*css for water-section*/
-  /* line 694, ../sass/custom/_responsive.scss */
+  /* line 735, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water h2 {
     font-size: 18px;
     width: 30%;
   }
-  /* line 697, ../sass/custom/_responsive.scss */
+  /* line 738, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water h2:before {
     width: 212px;
   }
-  /* line 701, ../sass/custom/_responsive.scss */
+  /* line 742, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water .content {
     width: 70%;
     padding-left: 20px;
   }
-  /* line 704, ../sass/custom/_responsive.scss */
+  /* line 745, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water .content li {
     width: 40%;
   }
 
   /*css ends for water-section*/
   /*css for-logo-slider-section*/
-  /* line 715, ../sass/custom/_responsive.scss */
+  /* line 756, ../sass/custom/_responsive.scss */
   #block-views-awards-slider-block .jcarousel-skin-default .jcarousel-item {
     width: 192px;
   }
 
   /*css ends for logo-slider-section*/
   /*css for partner-section*/
-  /* line 726, ../sass/custom/_responsive.scss */
+  /* line 767, ../sass/custom/_responsive.scss */
   .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-block-title {
     font-size: 30px;
   }
-  /* line 729, ../sass/custom/_responsive.scss */
+  /* line 770, ../sass/custom/_responsive.scss */
   .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-body {
     width: 54%;
   }
-  /* line 735, ../sass/custom/_responsive.scss */
+  /* line 776, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 h2 {
     font-size: 18px;
     width: 25%;
   }
-  /* line 738, ../sass/custom/_responsive.scss */
+  /* line 779, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 h2:before {
     width: 150px;
   }
-  /* line 742, ../sass/custom/_responsive.scss */
+  /* line 783, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 .content {
     width: 75%;
   }
-  /* line 745, ../sass/custom/_responsive.scss */
+  /* line 786, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row {
     width: 16%;
     padding-right: 1%;
   }
-  /* line 752, ../sass/custom/_responsive.scss */
+  /* line 793, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 .view-footer .footer-link {
     margin-top: 12px;
   }
@@ -2418,13 +2466,13 @@ a, p, h2 {
   /*----------------------------css ends for homepage*--------------------------*/
 }
 @media (max-width: 520px) {
-  /* line 766, ../sass/custom/_responsive.scss */
+  /* line 807, ../sass/custom/_responsive.scss */
   #block-views-awards-slider-block .jcarousel-skin-default .jcarousel-prev-horizontal {
     left: 42%;
   }
 }
 @media all and (min-width: 521px) and (max-width: 767px) {
-  /* line 776, ../sass/custom/_responsive.scss */
+  /* line 817, ../sass/custom/_responsive.scss */
   #block-views-awards-slider-block .jcarousel-skin-default .jcarousel-next-horizontal {
     left: 52%;
   }
