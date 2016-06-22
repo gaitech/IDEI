@@ -1748,7 +1748,7 @@ a, p, h2 {
     width: 50.2%;
   }
 
-  /*css for water-section*/
+  /*css for its-all-about-water-section*/
   /* line 65, ../sass/custom/_responsive.scss */
   #block-blockqueue-homepage-its-all-about-water {
     padding-bottom: 0;
@@ -1807,69 +1807,81 @@ a, p, h2 {
     font-size: 10px;
   }
 
-  /*css for impact-section, approach, programs*/
-  /* line 126, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper {
+  /*css for impact-section, approach, programs, water*/
+  /* line 127, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper,
+  .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper {
     padding: 11px 10px 0px;
   }
-  /* line 128, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
+  /* line 129, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title,
+  .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
     font-size: 25px;
     width: 100%;
     text-align: center;
   }
-  /* line 133, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-body, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-body {
+  /* line 134, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-body, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body,
+  .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-body, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .homepage-body {
     font-size: 14px;
     width: 100%;
   }
-  /* line 136, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-body p, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body p, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-body p {
+  /* line 137, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-body p, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-body p,
+  .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-body p, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .homepage-body p {
     padding: 0;
   }
-  /* line 140, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links {
+  /* line 141, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links,
+  .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links {
     width: 100%;
     float: left;
     margin-left: 0;
     padding-top: 10px;
   }
-  /* line 145, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul {
+  /* line 146, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul,
+  .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links ul {
     max-width: 320px;
     width: 100%;
     margin: 0 auto;
   }
-  /* line 149, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul li, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li {
+  /* line 150, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul li,
+  .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links ul li {
     float: left;
     margin-right: 3%;
   }
-  /* line 152, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child {
+  /* line 153, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child,
+  .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child {
     border-bottom: 2px solid #43BFEF;
     margin-right: 0;
   }
-  /* line 156, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a {
+  /* line 157, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a, .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a,
+  .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links ul li a {
     font-size: 12px;
   }
-  /* line 164, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1, .blockqueue-homepage-approach #block-views-infographics-block-1, .blockqueue-homepage-programs #block-views-infographics-block-1 {
+  /* line 165, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1, .blockqueue-homepage-approach #block-views-infographics-block-1,
+  .blockqueue-homepage-programs #block-views-infographics-block-1, .blockqueue-homepage-water #block-views-infographics-block-1 {
     display: inline-block;
     width: 100%;
     margin-top: 0px;
     padding: 20px 10px;
   }
-  /* line 169, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 h2, .blockqueue-homepage-approach #block-views-infographics-block-1 h2, .blockqueue-homepage-programs #block-views-infographics-block-1 h2 {
+  /* line 170, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 h2, .blockqueue-homepage-approach #block-views-infographics-block-1 h2,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 h2, .blockqueue-homepage-water #block-views-infographics-block-1 h2 {
     font-size: 17px;
     width: 100%;
     text-align: center;
     padding: 0 10px;
   }
-  /* line 174, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 h2:before, .blockqueue-homepage-approach #block-views-infographics-block-1 h2:before, .blockqueue-homepage-programs #block-views-infographics-block-1 h2:before {
+  /* line 175, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 h2:before, .blockqueue-homepage-approach #block-views-infographics-block-1 h2:before,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 h2:before, .blockqueue-homepage-water #block-views-infographics-block-1 h2:before {
     content: "";
     position: absolute;
     background-color: transparent;
@@ -1877,68 +1889,79 @@ a, p, h2 {
     width: 0;
     top: 0;
   }
-  /* line 183, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics, .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics {
+  /* line 184, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics, .blockqueue-homepage-water #block-views-infographics-block-1 .view-infographics {
     width: 100%;
     margin: 0 auto;
     max-width: 320px;
     padding-left: 18px;
     padding-top: 10px;
   }
-  /* line 189, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul, .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul {
+  /* line 190, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul, .blockqueue-homepage-water #block-views-infographics-block-1 .view-infographics ul {
     width: 100%;
     display: inline-block;
     margin: 0;
   }
-  /* line 193, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul li, .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul li {
+  /* line 194, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul li,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul li, .blockqueue-homepage-water #block-views-infographics-block-1 .view-infographics ul li {
     width: 47%;
     margin-right: 3%;
   }
-  /* line 196, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap, .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap {
+  /* line 197, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap, .blockqueue-homepage-water #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap {
     background-size: 103% auto;
   }
-  /* line 200, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(1) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(1) p, .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(1) p {
+  /* line 201, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(1) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(1) p,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(1) p, .blockqueue-homepage-water #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(1) p {
     font-size: 35px;
   }
-  /* line 205, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(2) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(2) p, .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(2) p {
+  /* line 206, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(2) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(2) p,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(2) p, .blockqueue-homepage-water #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(2) p {
     font-size: 22px;
   }
-  /* line 210, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(3) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(3) p, .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(3) p {
+  /* line 211, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(3) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(3) p,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(3) p, .blockqueue-homepage-water #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(3) p {
     font-size: 10px;
   }
-  /* line 221, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(1) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(1) p, .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(1) p {
+  /* line 222, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(1) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(1) p,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(1) p, .blockqueue-homepage-water #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(1) p {
     font-size: 12px;
   }
-  /* line 226, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) p, .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) p {
+  /* line 227, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) p,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) p, .blockqueue-homepage-water #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) p {
     font-size: 25px;
   }
-  /* line 231, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) p, .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) p {
+  /* line 232, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) p,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) p, .blockqueue-homepage-water #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) p {
     font-size: 18px;
     margin-top: 0;
   }
-  /* line 237, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(4) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(4) p, .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(4) p {
+  /* line 238, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(4) p, .blockqueue-homepage-approach #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(4) p,
+  .blockqueue-homepage-programs #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(4) p, .blockqueue-homepage-water #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(4) p {
     font-size: 9px;
     margin-top: 8.5px;
   }
 
   /*css for programme block*/
-  /* line 250, ../sass/custom/_responsive.scss */
+  /* line 251, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs {
     margin-top: 0px;
     padding: 15px 0px 40px;
     display: inline-block;
   }
-  /* line 254, ../sass/custom/_responsive.scss */
+  /* line 255, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs h2 {
     font-size: 17px;
     width: 100%;
@@ -1946,7 +1969,7 @@ a, p, h2 {
     padding: 0 10px 10px;
     margin: 0;
   }
-  /* line 260, ../sass/custom/_responsive.scss */
+  /* line 261, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs h2:before {
     content: "";
     position: absolute;
@@ -1955,7 +1978,7 @@ a, p, h2 {
     width: 0;
     top: 0;
   }
-  /* line 269, ../sass/custom/_responsive.scss */
+  /* line 270, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs .content {
     width: 100%;
     max-width: 320px;
@@ -1965,7 +1988,7 @@ a, p, h2 {
     left: auto;
     padding: 0 0 0 46px;
   }
-  /* line 277, ../sass/custom/_responsive.scss */
+  /* line 278, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs .content li {
     background-position: 4% center;
     padding-right: 4px;
@@ -1975,59 +1998,59 @@ a, p, h2 {
     display: inline-block;
     vertical-align: top;
   }
-  /* line 285, ../sass/custom/_responsive.scss */
+  /* line 286, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs .content li a {
     margin-left: 21px;
     font-size: 16px;
   }
-  /* line 289, ../sass/custom/_responsive.scss */
+  /* line 290, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs .content li:nth-child(4) {
     width: 32%;
   }
-  /* line 295, ../sass/custom/_responsive.scss */
+  /* line 296, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs .main-krishak {
     margin-top: 0;
     padding: 20px 10px;
   }
-  /* line 298, ../sass/custom/_responsive.scss */
+  /* line 299, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs .main-krishak .krishak-logo {
     width: 22%;
   }
-  /* line 300, ../sass/custom/_responsive.scss */
+  /* line 301, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs .main-krishak .krishak-logo img {
     float: right;
     margin-right: 2px;
     margin-top: -8px;
   }
-  /* line 306, ../sass/custom/_responsive.scss */
+  /* line 307, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs .main-krishak .krishak-body {
     width: 78%;
     font-size: 14px;
   }
-  /* line 309, ../sass/custom/_responsive.scss */
+  /* line 310, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs .main-krishak .krishak-body .krishak-title {
     font-size: 18px;
     margin-top: 0;
     height: 16px;
   }
 
-  /*css for approach-block*/
-  /* line 320, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-approach #block-menu-menu-approach {
+  /*css for approach-block, water-block*/
+  /* line 321, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-approach #block-menu-menu-approach, .blockqueue-homepage-approach #block-menu-menu-water, .blockqueue-homepage-water #block-menu-menu-approach, .blockqueue-homepage-water #block-menu-menu-water {
     display: inline-block;
     width: 100%;
     margin-top: 0px;
     padding: 20px 0px 25px;
   }
-  /* line 325, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-approach #block-menu-menu-approach h2 {
+  /* line 326, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-approach #block-menu-menu-approach h2, .blockqueue-homepage-approach #block-menu-menu-water h2, .blockqueue-homepage-water #block-menu-menu-approach h2, .blockqueue-homepage-water #block-menu-menu-water h2 {
     font-size: 17px;
     width: 100%;
     text-align: center;
     padding: 0 10px 10px;
   }
-  /* line 330, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-approach #block-menu-menu-approach h2:before {
+  /* line 331, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-approach #block-menu-menu-approach h2:before, .blockqueue-homepage-approach #block-menu-menu-water h2:before, .blockqueue-homepage-water #block-menu-menu-approach h2:before, .blockqueue-homepage-water #block-menu-menu-water h2:before {
     content: "";
     position: absolute;
     background-color: transparent;
@@ -2035,51 +2058,61 @@ a, p, h2 {
     width: 0;
     top: 0;
   }
-  /* line 339, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-approach #block-menu-menu-approach .content {
+  /* line 340, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-approach #block-menu-menu-approach .content, .blockqueue-homepage-approach #block-menu-menu-water .content, .blockqueue-homepage-water #block-menu-menu-approach .content, .blockqueue-homepage-water #block-menu-menu-water .content {
     width: 100%;
     max-width: 320px;
     margin: 0 auto;
     display: block;
     float: none;
   }
-  /* line 345, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-approach #block-menu-menu-approach .content li {
+  /* line 346, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-approach #block-menu-menu-approach .content li, .blockqueue-homepage-approach #block-menu-menu-water .content li, .blockqueue-homepage-water #block-menu-menu-approach .content li, .blockqueue-homepage-water #block-menu-menu-water .content li {
     background-position: 4% 18%;
     padding-right: 4px;
     background-size: 45px;
     height: 29px;
   }
-  /* line 350, ../sass/custom/_responsive.scss */
-  .blockqueue-homepage-approach #block-menu-menu-approach .content li a {
+  /* line 351, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-approach #block-menu-menu-approach .content li a, .blockqueue-homepage-approach #block-menu-menu-water .content li a, .blockqueue-homepage-water #block-menu-menu-approach .content li a, .blockqueue-homepage-water #block-menu-menu-water .content li a {
     margin-left: 52px;
     font-size: 16px;
+  }
+
+  /*css for water-block*/
+  /* line 365, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links ul {
+    padding-left: 80px;
+  }
+  /* line 372, ../sass/custom/_responsive.scss */
+  .blockqueue-homepage-water #block-menu-menu-water ul {
+    padding-left: 40px;
   }
 }
 /*responsive css for tab*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  /* line 364, ../sass/custom/_responsive.scss */
+  /* line 383, ../sass/custom/_responsive.scss */
   .main-container .row {
     margin: 0;
   }
-  /* line 366, ../sass/custom/_responsive.scss */
+  /* line 385, ../sass/custom/_responsive.scss */
   .main-container .row .col-sm-12 {
     padding: 0;
   }
 
-  /* line 374, ../sass/custom/_responsive.scss */
+  /* line 393, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-header .logo {
     padding: 0 0 0 5px;
   }
-  /* line 377, ../sass/custom/_responsive.scss */
+  /* line 396, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-header .social-links {
     padding: 0;
   }
-  /* line 382, ../sass/custom/_responsive.scss */
+  /* line 401, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-collapse .region-navigation {
     padding: 0;
   }
-  /* line 387, ../sass/custom/_responsive.scss */
+  /* line 406, ../sass/custom/_responsive.scss */
   .navbar .container .custom-navigation li {
     padding-left: 6px;
     padding-right: 6px;
@@ -2089,151 +2122,151 @@ a, p, h2 {
 
   /*----------------------------css for homepage*--------------------------/
   /*css for slider*/
-  /* line 400, ../sass/custom/_responsive.scss */
+  /* line 419, ../sass/custom/_responsive.scss */
   #block-views-homepage-slideshow-block .views-slideshow-cycle-main-frame {
     width: 100% !important;
   }
-  /* line 402, ../sass/custom/_responsive.scss */
+  /* line 421, ../sass/custom/_responsive.scss */
   #block-views-homepage-slideshow-block .views-slideshow-cycle-main-frame .views-slideshow-cycle-main-frame-row {
     width: 100% !important;
   }
 
   /*css ends for slider*/
   /*css for ticker*/
-  /* line 411, ../sass/custom/_responsive.scss */
+  /* line 430, ../sass/custom/_responsive.scss */
   #block-views-ticker-block h2 {
     width: 178px;
     word-spacing: 0.2px;
     padding: 4.3px 0px 2.5px 5px;
   }
-  /* line 416, ../sass/custom/_responsive.scss */
+  /* line 435, ../sass/custom/_responsive.scss */
   #block-views-ticker-block .liScroll-container {
     width: 76.2%;
   }
 
   /*css ends for ticker*/
   /*css for water-section*/
-  /* line 425, ../sass/custom/_responsive.scss */
+  /* line 444, ../sass/custom/_responsive.scss */
   #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics {
     width: 84%;
   }
-  /* line 428, ../sass/custom/_responsive.scss */
+  /* line 447, ../sass/custom/_responsive.scss */
   #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li {
     background-size: 103% auto;
     height: 154px;
     width: 24%;
     margin-right: 1%;
   }
-  /* line 437, ../sass/custom/_responsive.scss */
+  /* line 456, ../sass/custom/_responsive.scss */
   #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(1) p {
     font-size: 40px;
   }
-  /* line 442, ../sass/custom/_responsive.scss */
+  /* line 461, ../sass/custom/_responsive.scss */
   #block-blockqueue-homepage-its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(2) p {
     font-size: 22px;
   }
 
   /*css ends for water-section*/
   /*css for impact-section*/
-  /* line 460, ../sass/custom/_responsive.scss */
+  /* line 479, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
     font-size: 30px;
   }
-  /* line 466, ../sass/custom/_responsive.scss */
+  /* line 485, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 h2 {
     font-size: 18px;
     width: 273px;
     margin-top: 25px;
   }
-  /* line 471, ../sass/custom/_responsive.scss */
+  /* line 490, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics {
     width: 84%;
     padding-bottom: 22px;
   }
-  /* line 474, ../sass/custom/_responsive.scss */
+  /* line 493, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul {
     margin-left: 40px;
     margin-top: 30px;
   }
-  /* line 477, ../sass/custom/_responsive.scss */
+  /* line 496, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li {
     width: 24%;
     margin-right: 1%;
   }
-  /* line 480, ../sass/custom/_responsive.scss */
+  /* line 499, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap {
     background-size: 100% auto;
     height: 154px;
   }
-  /* line 485, ../sass/custom/_responsive.scss */
+  /* line 504, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(1) p {
     font-size: 40px;
   }
-  /* line 490, ../sass/custom/_responsive.scss */
+  /* line 509, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(2) p {
     font-size: 22px;
   }
-  /* line 495, ../sass/custom/_responsive.scss */
+  /* line 514, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(3) p {
     margin: 4px 0 0;
   }
-  /* line 506, ../sass/custom/_responsive.scss */
+  /* line 525, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) p {
     font-size: 28px;
   }
-  /* line 511, ../sass/custom/_responsive.scss */
+  /* line 530, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) p {
     font-size: 18px;
   }
-  /* line 520, ../sass/custom/_responsive.scss */
+  /* line 539, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics {
     width: 83%;
   }
-  /* line 523, ../sass/custom/_responsive.scss */
+  /* line 542, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li {
     background-size: 103%;
     height: 138px;
   }
-  /* line 530, ../sass/custom/_responsive.scss */
+  /* line 549, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item p:nth-child(1) {
     font-size: 40px;
   }
-  /* line 535, ../sass/custom/_responsive.scss */
+  /* line 554, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(2) p {
     font-size: 20px;
   }
-  /* line 540, ../sass/custom/_responsive.scss */
+  /* line 559, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(3) p {
     font-size: 10px;
   }
 
   /*css ends for impact-section*/
   /*css for approach-section*/
-  /* line 558, ../sass/custom/_responsive.scss */
+  /* line 577, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
     font-size: 30px;
   }
-  /* line 564, ../sass/custom/_responsive.scss */
+  /* line 583, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach #block-menu-menu-approach h2, .blockqueue-homepage-programs #block-menu-menu-approach h2 {
     font-size: 18px;
     width: 30%;
   }
-  /* line 567, ../sass/custom/_responsive.scss */
+  /* line 586, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach #block-menu-menu-approach h2:before, .blockqueue-homepage-programs #block-menu-menu-approach h2:before {
     width: 190px;
   }
-  /* line 571, ../sass/custom/_responsive.scss */
+  /* line 590, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach #block-menu-menu-approach .content, .blockqueue-homepage-programs #block-menu-menu-approach .content {
     width: 70%;
   }
 
   /*css ends for approach-section*/
   /*css for program-section*/
-  /* line 581, ../sass/custom/_responsive.scss */
+  /* line 600, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs h2 {
     width: 23%;
   }
-  /* line 584, ../sass/custom/_responsive.scss */
+  /* line 603, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs .content {
     width: 71%;
     left: 21px;
@@ -2241,61 +2274,61 @@ a, p, h2 {
 
   /*css ends for program-section*/
   /*css for water-section*/
-  /* line 595, ../sass/custom/_responsive.scss */
+  /* line 614, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water h2 {
     font-size: 18px;
     width: 30%;
   }
-  /* line 598, ../sass/custom/_responsive.scss */
+  /* line 617, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water h2:before {
     width: 212px;
   }
-  /* line 602, ../sass/custom/_responsive.scss */
+  /* line 621, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water .content {
     width: 70%;
     padding-left: 20px;
   }
-  /* line 605, ../sass/custom/_responsive.scss */
+  /* line 624, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water .content li {
     width: 40%;
   }
 
   /*css ends for water-section*/
   /*css for-logo-slider-section*/
-  /* line 616, ../sass/custom/_responsive.scss */
+  /* line 635, ../sass/custom/_responsive.scss */
   #block-views-awards-slider-block .jcarousel-skin-default .jcarousel-item {
     width: 192px;
   }
 
   /*css ends for logo-slider-section*/
   /*css for partner-section*/
-  /* line 627, ../sass/custom/_responsive.scss */
+  /* line 646, ../sass/custom/_responsive.scss */
   .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-block-title {
     font-size: 30px;
   }
-  /* line 630, ../sass/custom/_responsive.scss */
+  /* line 649, ../sass/custom/_responsive.scss */
   .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-body {
     width: 54%;
   }
-  /* line 636, ../sass/custom/_responsive.scss */
+  /* line 655, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 h2 {
     font-size: 18px;
     width: 25%;
   }
-  /* line 639, ../sass/custom/_responsive.scss */
+  /* line 658, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 h2:before {
     width: 150px;
   }
-  /* line 643, ../sass/custom/_responsive.scss */
+  /* line 662, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 .content {
     width: 75%;
   }
-  /* line 646, ../sass/custom/_responsive.scss */
+  /* line 665, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row {
     width: 16%;
     padding-right: 1%;
   }
-  /* line 653, ../sass/custom/_responsive.scss */
+  /* line 672, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 .view-footer .footer-link {
     margin-top: 12px;
   }

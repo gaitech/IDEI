@@ -61,7 +61,7 @@
 			width: 50.2%;
 		}
 	}
-	/*css for water-section*/
+	/*css for its-all-about-water-section*/
 	#block-blockqueue-homepage-its-all-about-water {
 		padding-bottom: 0;
 		.view-homepage-content {
@@ -120,8 +120,9 @@
 			}
 		}
 	}
-	/*css for impact-section, approach, programs*/
-	.blockqueue-homepage-impact, .blockqueue-homepage-approach, .blockqueue-homepage-programs {
+	/*css for impact-section, approach, programs, water*/
+	.blockqueue-homepage-impact, .blockqueue-homepage-approach, 
+	.blockqueue-homepage-programs, .blockqueue-homepage-water {
 		.homepage-impact-wrapper {
 			.impact-content-wrapper {
 				padding: 11px 10px 0px;
@@ -315,9 +316,9 @@
 		}
 	}
 
-	/*css for approach-block*/
-	.blockqueue-homepage-approach {
-		#block-menu-menu-approach  {
+	/*css for approach-block, water-block*/
+	.blockqueue-homepage-approach, .blockqueue-homepage-water {
+		#block-menu-menu-approach, #block-menu-menu-water  {
 			display: inline-block;
 		    width: 100%;
 		    margin-top: 0px;
@@ -353,6 +354,24 @@
 				    }
 		    	}
 		    }
+		}
+	}
+
+	/*css for water-block*/
+	.blockqueue-homepage-water {
+		.homepage-impact-wrapper {
+			.impact-content-wrapper {
+				.more-links {
+					ul {
+						padding-left: 80px;
+					}
+				}
+			}
+		}
+		#block-menu-menu-water {
+			ul {
+				padding-left: 40px;
+			}
 		}
 	}
 }
