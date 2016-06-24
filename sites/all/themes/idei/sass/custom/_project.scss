@@ -1034,6 +1034,7 @@
     display: inline-block;
     background-color: #27579c;
     padding: 20px;
+    border-bottom: 6px solid #333232;
     .also-read-title {
 		text-align: center;
 	    font-size: 16px;
@@ -1089,7 +1090,8 @@
     .field-name-field-graph-image {
     	width: 50%;
 	    float: left;
-	    border: 16px solid #27579c;
+	   	border: 2px solid #27579c;
+    	height: 405px;
 	    img {
 	    	margin-left: auto;
 		    margin-right: auto;
@@ -1110,6 +1112,9 @@
 	    font-family: myriad-pro;
 	    text-transform: uppercase;
 	    font-weight: bold;
+	    border-top: 2px solid #27579c;
+	    border-right: 2px solid #27579c;
+	    height: 46px;
     }
     .field-name-field-graph-body-title {
     	clear: both;
@@ -1124,6 +1129,9 @@
     	display: inline-block;
 	    width: 50%;
 	    padding: 10px 20px 18px;
+	    border-bottom: 2px solid #27579c;
+	    border-right: 2px solid #27579c;
+	    height: 359px;
 	    p {
 	    	font-size: 16px;
 	    	color: #6a6a6a;
@@ -1139,5 +1147,11 @@
     		text-decoration: none;
     		font-size: 16px;
     	}
+    }
+    .field-name-field-graph-full-description {
+    	font-size: 16px;
+    	font-family: myriad-pro;
+    	color: #6a6a6a;
+    	padding-top: 28px;
     }
 }
