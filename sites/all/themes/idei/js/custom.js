@@ -17,6 +17,11 @@
     $(".social-links").click(function(e) {
       e.stopPropagation();
     });
+     if($( document ).width() <= 767) {
+   $('#block-idei-custom-home-custom-menu .anchorLink').click(function() {
+    $('.navbar-collapse').removeClass('in');
+  });
+}
 
     /*js for ticker to change particular word bold*/
     $('#block-views-ticker-block h2:contains("IDEI")').each(function(){
@@ -24,9 +29,6 @@
           $(this).html().replace(/IDEI/g,'<strong>IDEI</strong>')
       );
     });
-
-    /*js for wrap the fields in class*/
-    jQuery(".field-name-field-graph-description,.field-name-field-graph-title , .field-name-field-graph-image").wrapAll( "<div class='impact-wrap-new' />");
 
 // homepage menu add active class
   $('.custom-navigation li a').click(function(e) {
