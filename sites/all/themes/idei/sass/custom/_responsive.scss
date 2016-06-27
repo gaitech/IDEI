@@ -562,7 +562,17 @@
 					padding: 0;
 				}
 			}
-			.custom-navigation {
+			.custom-navigation, #block-system-main-menu {
+				li {
+					padding-left: 6px;
+				    padding-right: 6px;
+				    font-size: 11px;
+				    letter-spacing: 0.8px;
+				}
+			}
+		}
+		#block-menu-menu-impact {
+			ul {
 				li {
 					padding-left: 6px;
 				    padding-right: 6px;
