@@ -270,26 +270,6 @@ function paralax_menubar_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-programs_introduction:<front>.
-  $menu_links['menu-programs_introduction:<front>'] = array(
-    'menu_name' => 'menu-programs',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'INTRODUCTION',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-programs_introduction:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-  );
   // Exported menu link: menu-programs_market-developmnet:<front>.
   $menu_links['menu-programs_market-developmnet:<front>'] = array(
     'menu_name' => 'menu-programs',

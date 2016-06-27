@@ -4,9 +4,7 @@
  * Implements hook_init().
  */
 function idei_custom_init() {
-
   drupal_add_js(drupal_get_path('module', 'idei_custom') . '/js/jquery.anchor.js');
-
 }
 /**
 * Implements hook_block_info().
@@ -16,6 +14,9 @@ function idei_custom_block_info() {
 
   $blocks['home_custom_menu'] = array(
     'info' => t('Home custom menu'),
+  );
+  $blocks['programs_custom_menu'] = array(
+    'info' => t('Programs custom menu'),
   );
 
   return $blocks;
@@ -32,11 +33,18 @@ function idei_custom_block_view($delta = '') {
       $block['subject'] = '';
       $block['content'] = idei_main_custom_navigation();
       break;
+    case 'programs_custom_menu':
+      $block['subject'] = '';
+      $block['content'] = idei_program_navigation();
+      break;
   }
 
   return $block;
 }
 
+function idei_program_navigation(){
+  return theme('idei_program');
+}
 
 /*
  * Implementation of hook_theme().
@@ -45,6 +53,9 @@ function idei_custom_theme(){
   $templates = array(
     'idei_custom_block' => array(     
       'template' => 'templates/idei-custom-menu-new',
+    ),
+    'idei_program' => array(     
+     'template' => 'templates/idei-programs-menu',
     ),
   );
   return $templates;
