@@ -10,6 +10,48 @@
 function products_content_type_image_style_product_listing__field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'node-products-field_product_applications'.
+  $field_instances['node-products-field_product_applications'] = array(
+    'bundle' => 'products',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 6,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_product_applications',
+    'label' => 'Product Applications',
+    'required' => 0,
+    'settings' => array(
+      'display_summary' => 0,
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 20,
+        'summary_rows' => 5,
+      ),
+      'type' => 'text_textarea_with_summary',
+      'weight' => 3,
+    ),
+  );
+
   // Exported field_instance: 'node-products-field_product_category'.
   $field_instances['node-products-field_product_category'] = array(
     'bundle' => 'products',
@@ -45,7 +87,7 @@ function products_content_type_image_style_product_listing__field_default_field_
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_select',
-      'weight' => 36,
+      'weight' => 8,
     ),
   );
 
@@ -87,7 +129,7 @@ function products_content_type_image_style_product_listing__field_default_field_
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 31,
+      'weight' => 2,
     ),
   );
 
@@ -137,7 +179,7 @@ function products_content_type_image_style_product_listing__field_default_field_
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 33,
+      'weight' => 5,
     ),
   );
 
@@ -187,7 +229,7 @@ function products_content_type_image_style_product_listing__field_default_field_
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 34,
+      'weight' => 6,
     ),
   );
 
@@ -229,7 +271,7 @@ function products_content_type_image_style_product_listing__field_default_field_
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 32,
+      'weight' => 4,
     ),
   );
 
@@ -276,13 +318,14 @@ function products_content_type_image_style_product_listing__field_default_field_
       'module' => 'video_embed_field',
       'settings' => array(),
       'type' => 'video_embed_field_video',
-      'weight' => 35,
+      'weight' => 7,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Product  Slider Images');
+  t('Product Applications');
   t('Product Descriptiption');
   t('Product Image');
   t('Product Specification');
