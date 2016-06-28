@@ -566,7 +566,7 @@
 			border: none;
 			height: auto;
 			width: 100%;
-			padding: 25px 10px 0;
+			padding: 25px 0 0;
 			p {
 				font-size: 14px;
 			}
@@ -577,7 +577,7 @@
 		.field-name-field-graph-body-title {
 			padding-bottom: 10px;
 		}
-		.field-name-field-graph-body {
+		.field-name-field-graph-body, .field-name-field-graph-full-description {
 			p {
 				font-size: 14px;
 			}
