@@ -22,10 +22,10 @@
      $('.navbar-collapse').removeClass('in');
    });
   }
-   var size = $(window).width();
-   if( size <='767'){
-    $(".secondry-menu").insertAfter('#block-system-main-menu')
-   }
+   // var size = $(window).width();
+   // if( size <='767'){
+   //  $(".secondry-menu").insertAfter('#block-system-main-menu')
+   // }
     /*js for ticker to change particular word bold*/
     $('#block-views-ticker-block h2:contains("IDEI")').each(function(){
       $(this).html(

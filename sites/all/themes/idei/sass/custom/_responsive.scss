@@ -59,7 +59,8 @@
 			    // display: inline-block;
 			    top: auto;
 			    margin: -3px 0 0;
-			    .custom-navigation {
+			    z-index: 1;
+			    .custom-navigation, #block-system-main-menu {
 			    	list-style: none;
     				padding: 10px 119px 0 10px;
     				li {
@@ -77,6 +78,14 @@
 			    .region-navigation {
 			    	padding-right: 0;
 			    }	   
+			}
+		}
+		#block-menu-menu-impact {
+			ul {
+				li {
+					padding: 0 6px;
+					font-size: 10px;
+				}
 			}
 		}
 	}
@@ -493,6 +502,7 @@
 		    }
 		}
 	}
+	/*-------css for footer-----*/
 	.footer {
 		.region-footer {
 			padding: 0;
@@ -534,8 +544,61 @@
 			}			
 		}
 	}
-}
 
+	/*---------css for inner pages---------*/
+	.title-body-wrapper {
+		padding: 11px 10px 10px;
+	}
+	.economic-inner-title {
+		text-align: center;
+		font-size: 25px;
+	}
+	.economic-inner-content {
+		.field-name-field-graph-image {
+			width: 100%;
+			height: auto;
+			border: none;
+			img {
+				padding: 0;
+			}
+		}
+		.field-name-field-graph-title, .field-name-field-graph-description {
+			border: none;
+			height: auto;
+			width: 100%;
+			padding: 25px 0 0;
+			p {
+				font-size: 14px;
+			}
+		}
+		.field-name-field-graph-description {
+			padding-top: 10px;
+		}
+		.field-name-field-graph-body-title {
+			padding-bottom: 10px;
+		}
+		.field-name-field-graph-body, .field-name-field-graph-full-description {
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+	.also-read-wrap {
+		padding: 20px 10px 20px 15px;
+		.also-content {
+			.views-row {
+				width: 32%;
+				margin-right: 1%;
+				&:last-child {
+					margin-right: 0;
+				}
+				.views-field-title {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}
 /*responsive css for tab*/
 @media all and (min-width:768px) and (max-width: 1024px) {
 
