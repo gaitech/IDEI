@@ -2321,7 +2321,7 @@ a, p, h2 {
     border: none;
     height: auto;
     width: 100%;
-    padding: 25px 10px 0;
+    padding: 25px 0 0;
   }
   /* line 570, ../sass/custom/_responsive.scss */
   .economic-inner-content .field-name-field-graph-title p, .economic-inner-content .field-name-field-graph-description p {
@@ -2336,7 +2336,7 @@ a, p, h2 {
     padding-bottom: 10px;
   }
   /* line 581, ../sass/custom/_responsive.scss */
-  .economic-inner-content .field-name-field-graph-body p {
+  .economic-inner-content .field-name-field-graph-body p, .economic-inner-content .field-name-field-graph-full-description p {
     font-size: 14px;
   }
 
