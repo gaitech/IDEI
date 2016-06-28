@@ -15,6 +15,5 @@ features[field_instance][] = node-programms-body
 features[field_instance][] = node-programms-field_program_category
 features[field_instance][] = node-programms-field_programms_image
 features[node][] = programms
-features[taxonomy][] = products_category
 features[taxonomy][] = programs
 project path = sites/all/modules/features

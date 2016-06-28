@@ -46,6 +46,10 @@
     if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
     $(this).addClass("active");
   });
+  
+  $(".views-field.views-field-nothing").click(function() {
+  $(this).next().slideToggle();
+  });
 
  })
 })(jQuery);
