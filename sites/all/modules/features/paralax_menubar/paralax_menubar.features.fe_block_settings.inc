@@ -39,7 +39,7 @@ function paralax_menubar_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'idei',
-        'weight' => -24,
+        'weight' => -33,
       ),
       'seven' => array(
         'region' => '',
@@ -54,7 +54,7 @@ function paralax_menubar_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'IDEI\'s APPROACH',
+    'title' => 'IDEI\'s APPROACH:',
     'visibility' => 0,
   );
 
@@ -85,7 +85,7 @@ function paralax_menubar_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'idei',
-        'weight' => -15,
+        'weight' => -24,
       ),
       'seven' => array(
         'region' => '',
@@ -100,7 +100,7 @@ function paralax_menubar_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'IDEI\'s AREA OF WORK',
+    'title' => 'IDEI\'s AREA OF WORK:',
     'visibility' => 0,
   );
 
@@ -131,7 +131,7 @@ function paralax_menubar_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'idei',
-        'weight' => 8,
+        'weight' => 11,
       ),
       'seven' => array(
         'region' => '',
@@ -146,7 +146,7 @@ function paralax_menubar_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'IDEI\'s TECHNOLOGY',
+    'title' => 'IDEI\'s TECHNOLOGY:',
     'visibility' => 0,
   );
 
@@ -158,7 +158,7 @@ function paralax_menubar_default_fe_block_settings() {
     'module' => 'system',
     'node_types' => array(),
     'options' => 'a:0:{}',
-    'pages' => 'node/23',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -177,7 +177,7 @@ function paralax_menubar_default_fe_block_settings() {
         'region' => 'navigation',
         'status' => 1,
         'theme' => 'idei',
-        'weight' => -26,
+        'weight' => -27,
       ),
       'seven' => array(
         'region' => '',
@@ -193,7 +193,7 @@ function paralax_menubar_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   return $export;

@@ -270,24 +270,24 @@ function paralax_menubar_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-programs_introduction:<front>.
-  $menu_links['menu-programs_introduction:<front>'] = array(
+  // Exported menu link: menu-programs_ipmas:<front>.
+  $menu_links['menu-programs_ipmas:<front>'] = array(
     'menu_name' => 'menu-programs',
     'link_path' => '<front>',
     'router_path' => '',
-    'link_title' => 'INTRODUCTION',
+    'link_title' => 'IPMAS',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-programs_introduction:<front>',
+      'identifier' => 'menu-programs_ipmas:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -50,
+    'weight' => -46,
     'customized' => 1,
   );
   // Exported menu link: menu-programs_market-developmnet:<front>.
@@ -423,6 +423,7 @@ function paralax_menubar_menu_default_menu_links() {
   t('IMPACT');
   t('INDIA FACTS');
   t('INTRODUCTION');
+  t('IPMAS');
   t('MARKET DEVELOPMNET');
   t('Market Based Approach');
   t('PARTNERS');
