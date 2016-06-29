@@ -896,7 +896,7 @@
 }
 .not-front {
 	.main-container {
-		padding: 99px 0 0
+		padding: 98px 0 0
 	}
 }
 .header-wrap {
@@ -1162,5 +1162,32 @@
     	color: #6a6a6a;
     	padding-top: 28px;
     	line-height: 1.2em;
+    }
+}
+
+/*-----------------css for programmes-page----------------*/
+.program-wraps {
+	position: relative;
+	.program-titles {
+		position: absolute;
+	    bottom: 0;
+	    text-align: center;
+	    width: 100%;
+	    color: #fff;
+	    background: rgba(0,0,0,0.4);
+	    font-size: 36px;
+	    text-transform: uppercase;
+	    font-family: myriad-pro;
+	}
+}
+.programs-body {
+	width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+    p {
+    	font-size: 16px;
+	    color: #6a6a6a;
+	    line-height: 1.2em;
     }
 }

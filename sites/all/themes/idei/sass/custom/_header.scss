@@ -128,7 +128,7 @@
 			}
 		}
 	}
-	#block-menu-menu-impact {
+	#block-menu-menu-impact, #block-idei-custom-programs-custom-menu {
 			width: 100%;
 		    background-color: #fff;
 		    position: relative;
@@ -138,6 +138,7 @@
 		    ul {
 			    text-align: center; 
 			    padding: 3px 0;
+			    margin-bottom: 0;
 			    li {
 			    	border-right: 1px solid #6a6a6a;
 					display: inline-block;
