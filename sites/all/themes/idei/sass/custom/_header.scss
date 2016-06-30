@@ -128,7 +128,7 @@
 			}
 		}
 	}
-	#block-menu-menu-impact {
+	#block-menu-menu-impact, #block-idei-custom-programs-custom-menu {
 			width: 100%;
 		    background-color: #fff;
 		    position: relative;
@@ -138,6 +138,7 @@
 		    ul {
 			    text-align: center; 
 			    padding: 3px 0;
+			    margin-bottom: 0;
 			    li {
 			    	border-right: 1px solid #6a6a6a;
 					display: inline-block;
@@ -168,6 +169,12 @@
 						&.active {
 							color: #43bfef;
 							border-bottom: 2px solid #43bfef;
+						}
+					}
+					&:first-child {
+						font-size: 15px;
+						a {
+							color: #43bfef;
 						}
 					}
 			    }
