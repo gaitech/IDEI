@@ -32,6 +32,8 @@
           $(this).html().replace(/IDEI/g,'<strong>IDEI</strong>')
       );
     });
+    //change text of products
+    jQuery('.read-more-complex a').text('Read more');
 
 // homepage menu add active class
   $('.custom-navigation li a').click(function(e) {
@@ -49,6 +51,7 @@
   
   $(".views-field.views-field-nothing").click(function() {
   $(this).next().slideToggle();
+  $(this).find('.more').slideToggle();
   });
 
  })
