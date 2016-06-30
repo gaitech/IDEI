@@ -171,6 +171,12 @@
 							border-bottom: 2px solid #43bfef;
 						}
 					}
+					&:first-child {
+						font-size: 15px;
+						a {
+							color: #43bfef;
+						}
+					}
 			    }
 			}
 		}
