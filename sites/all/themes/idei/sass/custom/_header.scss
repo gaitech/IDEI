@@ -93,6 +93,9 @@
 		 	}
 		}
 		.custom-navigation, #block-system-main-menu {
+			ul {
+				margin-bottom: 0;
+			}
 		  	li {
 				border-right: 1px solid #6a6a6a;
 				display: inline-block;
