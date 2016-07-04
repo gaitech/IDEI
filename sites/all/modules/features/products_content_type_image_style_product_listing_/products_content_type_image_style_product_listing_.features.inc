@@ -10,6 +10,21 @@
 function products_content_type_image_style_product_listing__image_default_styles() {
   $styles = array();
 
+  // Exported image style: prodect_landing_image.
+  $styles['prodect_landing_image'] = array(
+    'label' => 'Prodect landing image',
+    'effects' => array(
+      9 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 200,
+          'height' => 200,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: product_listing.
   $styles['product_listing'] = array(
     'label' => 'product listing',
@@ -17,8 +32,8 @@ function products_content_type_image_style_product_listing__image_default_styles
       8 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 70,
-          'height' => 70,
+          'width' => 120,
+          'height' => 120,
         ),
         'weight' => 1,
       ),

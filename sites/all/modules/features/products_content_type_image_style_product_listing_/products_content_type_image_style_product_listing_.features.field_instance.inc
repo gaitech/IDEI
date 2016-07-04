@@ -133,6 +133,56 @@ function products_content_type_image_style_product_listing__field_default_field_
     ),
   );
 
+  // Exported field_instance: 'node-products-field_product_header_image'.
+  $field_instances['node-products-field_product_header_image'] = array(
+    'bundle' => 'products',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 7,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_product_header_image',
+    'label' => 'Product Header Image',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 0,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 1,
+    ),
+  );
+
   // Exported field_instance: 'node-products-field_product_image'.
   $field_instances['node-products-field_product_image'] = array(
     'bundle' => 'products',
@@ -327,6 +377,7 @@ function products_content_type_image_style_product_listing__field_default_field_
   t('Product  Slider Images');
   t('Product Applications');
   t('Product Descriptiption');
+  t('Product Header Image');
   t('Product Image');
   t('Product Specification');
   t('Product Video');
