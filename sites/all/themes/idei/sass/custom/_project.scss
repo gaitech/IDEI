@@ -1221,7 +1221,6 @@
 #block-views-programs-list-block-6, #block-views-programs-list-block-8,
 #block-views-programs-list-block-10, #block-views-programs-list-block-11 {
 	.views-row {
-		padding: 40px 40px 0;
 		display: inline-block;
 		&.views-row-odd {
 			.technology-image {
@@ -1235,6 +1234,10 @@
 			.views-field-nothing-1 {
 				display: inline-block;
 				width: 100%;
+				background: #f1f1f1;
+			    padding: 70px 40px 40px;
+			    margin-top: -41px;
+			    min-height: 305px;
 			}
 		}
 		&.views-row-even {
@@ -1249,6 +1252,10 @@
 			.views-field-nothing-1 {
 				display: inline-block;
 				width: 100%;
+				background: #f1f1f1;
+			    padding: 70px 40px 40px;
+			    margin-top: -41px;
+			    min-height: 305px;
 			}
 		}
 		.technology-title {
@@ -1277,7 +1284,72 @@
 		    vertical-align: middle;
 		    cursor: pointer;
 		    box-shadow: 0px 4px 11px #6a6a6a;
+		    -moz-box-shadow: 0px 4px 7px #6a6a6a;
+		    -webkit-box-shadow: 0px 4px 11px #6a6a6a;
 		    font-family: myriad-pro;
+		}
+		.views-field-nothing {
+			 padding: 40px 40px 0;
+		}
+		.views-field-nothing-2 {
+			display: inline-block;
+			width: 100%;
+			position: relative;
+    		top: 16px;
+    		.prod-title {
+    			text-align: center;
+			    font-size: 30px;
+			    text-transform: uppercase;
+			    font-family: myriad-pro;
+			    text-shadow: 0px 4px 4px #27579c;
+			    color: #43bfef;
+    		}
+		}
+		.products-wrapper {
+		    float: left;
+		    width: 19%;
+		    background: #fff;
+		    margin-right: 1%;
+		    border-radius: 7px;
+		    margin-bottom: 1%;
+		    img {
+		    	border-top-left-radius: 7px;
+		    	border-top-right-radius: 7px;
+		    }
+		    .p-title {
+			    padding: 10px 10px 5px;
+			    border-bottom: 1px solid #27579c;
+			    &:empty {
+			    	display: none;
+			    }
+			}
+			.p-desc {
+    			padding: 0 10px;
+    			&:empty {
+    				display: none;
+    			}
+			}
+			.read-more-complex {
+    			padding: 10px;
+    			&:empty {
+    				display: none;
+    			}
+    		}
+    	}
+	}
+}
+
+/*css for firefox*/
+.ff {
+	#block-views-programs-list-block-2, #block-views-programs-list-block-4,
+	#block-views-programs-list-block-6, #block-views-programs-list-block-8,
+	#block-views-programs-list-block-10, #block-views-programs-list-block-11 {
+		.views-row {
+			.views-field-nothing-2 {
+				.prod-title {
+					text-shadow: 0px 4px 3px #27579c;
+				}
+			}
 		}
 	}
 }
