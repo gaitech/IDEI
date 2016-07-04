@@ -65,7 +65,7 @@
 
   $(".views-field.views-field-nothing").click(function() {
   $(this).next().slideToggle();
-  $(this).find('.prod-title').slideToggle();
+  $(this).next().next().slideToggle();
   });
 
  })
