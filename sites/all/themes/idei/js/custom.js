@@ -68,5 +68,17 @@
   $(this).next().next().slideToggle();
   });
 
+  $(".pr-photo").click(function() {
+    $(".product-video-gallery").hide();
+    $(".product-img-gallery").show();
+  });
+  
+  $(".pr-video").click(function() {
+    $(".product-img-gallery").hide();
+    $(".product-video-gallery").show();
+  });
+
+
+
  })
 })(jQuery);

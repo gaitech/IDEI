@@ -18,6 +18,9 @@ function idei_custom_block_info() {
   $blocks['programs_custom_menu'] = array(
     'info' => t('Programs custom menu'),
   );
+  $blocks['Products_gallery_tab_block'] = array(
+    'info' => t('Product Tab Block'),
+  );
 
   return $blocks;
 }
@@ -37,10 +40,21 @@ function idei_custom_block_view($delta = '') {
       $block['subject'] = '';
       $block['content'] = idei_program_navigation();
       break;
+    case 'Products_gallery_tab_block':
+      $block['subject'] = '';
+      $block['content'] = program_tab_block();
   }
 
   return $block;
 }
+
+function program_tab_block() {
+  drupal_add_js( drupal_get_path('module', 'idei_custom') . '/js/easyResponsiveTabs.js');
+  drupal_add_js( drupal_get_path('module', 'idei_custom') . '/js/responsiveTabs.js');
+  drupal_add_css( drupal_get_path('module', 'idei_custom') . '/css/easy-responsive-tabs.css');
+  return theme('program_tabs');
+}
+
 
 function idei_program_navigation(){
   return theme('idei_program');
@@ -56,6 +70,9 @@ function idei_custom_theme(){
     ),
     'idei_program' => array(     
      'template' => 'templates/idei-programs-menu',
+    ),
+    'program_tabs' => array(
+     'template' =>'templates/program-tab-block',
     ),
   );
   return $templates;
