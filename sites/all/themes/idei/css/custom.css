@@ -271,6 +271,7 @@ a, p, h2 {
 #home-block-block-3:before,
 #home-block-block-4:before,
 #home-block-block-5:before,
+#home-block-block-6:before,
 #home-block-block-8:before {
   display: block;
   content: " ";
@@ -279,7 +280,7 @@ a, p, h2 {
   visibility: hidden;
 }
 
-/* line 213, ../sass/custom/_header.scss */
+/* line 214, ../sass/custom/_header.scss */
 #program-1:before, #program-2:before,
 #program-3:before, #program-4:before,
 #program-5:before, #program-6:before,
