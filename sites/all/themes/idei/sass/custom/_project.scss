@@ -1235,8 +1235,7 @@
 				display: inline-block;
 				width: 100%;
 				background: #f1f1f1;
-			    padding: 70px 40px 40px;
-			    margin-top: -41px;
+			    padding: 40px;
 			    min-height: 305px;
 			}
 		}
@@ -1253,8 +1252,7 @@
 				display: inline-block;
 				width: 100%;
 				background: #f1f1f1;
-			    padding: 70px 40px 40px;
-			    margin-top: -41px;
+			    padding: 40px;
 			    min-height: 305px;
 			}
 		}
@@ -1274,12 +1272,13 @@
 		}
 		.more {
 		    border: 2px solid #43bfef;
-		    width: 30%;
+		    max-width:260px;
+		    width: 100%;
 		    text-align: center;
-		    font-size: 18px;
+		    font-size: 16px;
 		    text-transform: uppercase;
 		    color: #43bfef;
-		    padding: 8px 10px 7px;
+		    padding: 8px 1px 7px;
 		    display: inline-block;
 		    vertical-align: middle;
 		    cursor: pointer;
@@ -1287,6 +1286,11 @@
 		    -moz-box-shadow: 0px 4px 7px #6a6a6a;
 		    -webkit-box-shadow: 0px 4px 11px #6a6a6a;
 		    font-family: myriad-pro;
+		    &:hover {
+		    	background-color: #43bfef;
+		    	color: #fff;
+		    	border: 2px solid #fff;
+		    }
 		}
 		.views-field-nothing {
 			 padding: 40px 40px 0;
@@ -1296,14 +1300,6 @@
 			width: 100%;
 			position: relative;
     		top: 16px;
-    		.prod-title {
-    			text-align: center;
-			    font-size: 30px;
-			    text-transform: uppercase;
-			    font-family: myriad-pro;
-			    text-shadow: 0px 4px 4px #27579c;
-			    color: #43bfef;
-    		}
 		}
 		.products-wrapper {
 		    float: left;
@@ -1319,37 +1315,47 @@
 		    .p-title {
 			    padding: 10px 10px 5px;
 			    border-bottom: 1px solid #27579c;
+			    font-size: 16px;
+			    margin-bottom: 5px;
+			    line-height: 1.2em;
 			    &:empty {
 			    	display: none;
+			    }
+			    a {
+			    	color: #27579c;
 			    }
 			}
 			.p-desc {
     			padding: 0 10px;
+    			color: #43bfef;
+    			font-family: myriad-pro;
+    			line-height: 1.2em;
     			&:empty {
     				display: none;
     			}
 			}
 			.read-more-complex {
     			padding: 10px;
+    			font-size: 14px;
+    			text-transform: uppercase;
+    			a {
+    				color: #27579c;
+    			}
     			&:empty {
     				display: none;
     			}
     		}
     	}
-	}
-}
-
-/*css for firefox*/
-.ff {
-	#block-views-programs-list-block-2, #block-views-programs-list-block-4,
-	#block-views-programs-list-block-6, #block-views-programs-list-block-8,
-	#block-views-programs-list-block-10, #block-views-programs-list-block-11 {
-		.views-row {
-			.views-field-nothing-2 {
-				.prod-title {
-					text-shadow: 0px 4px 3px #27579c;
-				}
-			}
+    	.product-empty {
+		    font-size: 40px;
+		    display: inline-block;
+		    width: 100%;
+		    text-align: center;
+		    vertical-align: middle;
+		    color: #43bfef;
+		    font-family: myriad-pro;
+		    text-transform: uppercase;
 		}
 	}
 }
+
