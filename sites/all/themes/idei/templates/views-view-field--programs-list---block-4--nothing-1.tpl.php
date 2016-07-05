@@ -22,7 +22,6 @@
  * the view is modified.
  */
 ?>
-
 <?php
 print $output;
 $status = $row->field_field_product_image;
