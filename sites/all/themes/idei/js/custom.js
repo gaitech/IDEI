@@ -62,10 +62,9 @@
     if($(this).attr("href") == ac_url) {
     $(this).addClass("active");}
   });
-
-  $(".views-field.views-field-nothing").click(function() {
+  $(".view-programs-list- .views-field-nothing-1").hide();
+  $(".view-programs-list- .views-field.views-field-nothing").click(function() {
   $(this).next().slideToggle();
-  $(this).next().next().slideToggle();
   });
 
   $(".pr-photo").click(function() {

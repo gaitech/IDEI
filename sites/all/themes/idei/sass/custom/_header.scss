@@ -210,3 +210,13 @@
   height: 73px; 
   visibility: hidden; 
 }
+#program-1:before, #program-2:before, 
+#program-3:before, #program-4:before, 
+#program-5:before, #program-6:before, 
+#program-7:before {
+	display: block; 
+  	content: " "; 
+  	margin-top: -78px; 
+  	height: 99px; 
+  	visibility: hidden;
+}
