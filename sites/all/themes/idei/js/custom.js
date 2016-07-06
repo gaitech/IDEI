@@ -1,6 +1,13 @@
 (function($) {
+
 	$(window).ready(function() {
 
+  // move to particular part of the page on load
+  var type = window.location.hash.substr(1);
+  if(type.length > 0){
+   var divPosition = $('#'+type).offset(); 
+   $('html, body').animate({scrollTop: divPosition.top}, "fast");
+  }
 		$(".search-logo").click(function(){
 		   $('#block-search-form').animate({
 		      width: "toggle"
@@ -77,7 +84,16 @@
     $(".product-video-gallery").show();
   });
 
+ });
 
 
- })
+  $(window).load(function() {
+  // move to particular part of the page on load
+  var type = window.location.hash.substr(1);
+  if(type.length > 0){
+   var divPosition = $('#'+type).offset(); 
+   $('html, body').animate({scrollTop: divPosition.top}, "fast");
+  }
+  });
+
 })(jQuery);

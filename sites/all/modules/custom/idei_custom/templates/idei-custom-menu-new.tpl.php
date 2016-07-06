@@ -35,7 +35,7 @@ else { ?>
       print '<li><a href="'.$base_url.'/'.$url_alias.'" >'.$title.'</a></li>';
      }
      else {
-      print '<li><a href="'.$base_url.'/#home-block-block-'.$i.'" >'.$title.'</a></li>';
+      print '<li><a href="'.$base_url.'#home-block-block-'.$i.'" >'.$title.'</a></li>';
       $i++;
     }  
   }
