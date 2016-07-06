@@ -23,10 +23,10 @@
  */
 ?>
 <?php
-print $output;
 $status = $row->field_field_product_image;
 if(empty($status)) {
-	 echo '<div class="product-empty">Product will listed soon ...</div>';
+	 echo '<div class="product-empty">Products will be listed soon ...</div>';
 }
+print $output;
  ?>
   
