@@ -1,45 +1,7 @@
 (function($) {
 	$(window).ready(function() {
+  
   // automatically active paralax on scroll
-  $(document).on('scroll', function() {
-    if($(this).scrollTop()>=$('#home-block-block-2').position().top){
-      $(".custom-navigation li a").each(function() {
-        $(this).removeClass("active");
-        if($(this).attr("href") == '#home-block-block-2' )
-        $(this).addClass("active");
-      });
-    }
-    if($(this).scrollTop()>=$('#home-block-block-3').position().top){
-      $(".custom-navigation li a").each(function() {
-        $(this).removeClass("active");
-        if($(this).attr("href") == '#home-block-block-3' )
-        $(this).addClass("active");
-      });
-    }
-    if($(this).scrollTop()>=$('#home-block-block-4').position().top){
-      $(".custom-navigation li a").each(function() {
-        $(this).removeClass("active");
-        if($(this).attr("href") == '#home-block-block-4' )
-        $(this).addClass("active");
-      });
-    }
-    if($(this).scrollTop()>=$('#home-block-block-5').position().top){
-      $(".custom-navigation li a").each(function() {
-        $(this).removeClass("active");
-        if($(this).attr("href") == '#home-block-block-5' )
-        $(this).addClass("active");
-      });
-    }
-    if($(this).scrollTop()>=$('#home-block-block-6').position().top){
-      $(".custom-navigation li a").each(function() {
-        $(this).removeClass("active");
-        if($(this).attr("href") == '#home-block-block-6' )
-        $(this).addClass("active");
-      });
-    }
-  })
-
-  // move to particular part of the page in paralax on load
   var type = window.location.hash.substr(1);
   if(type.length > 0){
    var divPosition = $('#'+type).offset(); 
