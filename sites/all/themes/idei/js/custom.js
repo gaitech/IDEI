@@ -82,6 +82,9 @@
     $(this).next().slideToggle();
   });
 
+  // hide container if empty
+  $('.product-empty').next().hide();
+
 });
 
 
