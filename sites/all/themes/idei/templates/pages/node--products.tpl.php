@@ -1,5 +1,6 @@
 <?php
 $product_title = $node->title;
+$product_caption = $node->field_product_header_image_capti['und'][0]['value'];
 $product_description = $node->field_product_descriptiption['und'][0]['value'];
 $product_image = $node->field_product_image['und'][0]['uri'];
 $header_image = $node->field_product_header_image['und'][0]['uri'];
@@ -16,7 +17,9 @@ $product_full_image = '<img src="'.$product_img_path.'"/>';
 
 
 ?>
-<div class="detail-header-image"><?php print $header_full_image; ?> </div>
+<div class="detail-header-image"><?php print $header_full_image; ?> 
+<div class="haeder-caption"><?php print $product_caption; ?></div>
+</div>
 <div class="detail-product-title"> <?php print $product_title; ?> </div>
 <div class="detail-product-desc">	<?php print $product_description; ?> </div>
 <div class="detail-product-tabs">  
@@ -31,8 +34,10 @@ $product_full_image = '<img src="'.$product_img_path.'"/>';
   </div>
   <div class="product-images"><?php print $product_full_image; ?> </div>
 </div>
+
 <div class="detail-sp-wrapper">
 	<div class="detail-sp-label">Specifications</div>
   <div class="detail-product-specification"><?php print $product_specification; ?> </div>
 </div>
-<div class="detail-product-image"><?php ?> </div>
+<div class="case-study"><?php print views_embed_view('case_study_for_products','block'); ?></div>
+

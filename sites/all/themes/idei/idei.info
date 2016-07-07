@@ -25,11 +25,13 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
-stylesheets[all][] = css/style.css
-stylesheets[all][] = css/custom.css
+stylesheets[all][] = 'css/style.css'
+stylesheets[all][] = 'css/custom.css'
+
 
 ; ;;;;;;;;;;;;;;;;;;;;;
 ; ;; Scripts
 ; ;;;;;;;;;;;;;;;;;;;;;
 ;
   scripts[] = 'js/custom.js'
+  scripts[] = 'js/active_paralax_scroll.js'
