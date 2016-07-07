@@ -2191,21 +2191,20 @@ a, p, h2 {
   font-size: 16px;
   font-family: myriad-pro;
   color: #6a6a6a;
-  border-right: 2px solid #43bfef;
 }
-/* line 1469, ../sass/custom/_project.scss */
+/* line 1468, ../sass/custom/_project.scss */
 .detail-product-specification table tbody tr td:last-child {
-  border-right: none;
+  border-left: 2px solid #43bfef;
 }
 
-/* line 1479, ../sass/custom/_project.scss */
+/* line 1478, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-list {
   display: table;
   margin: auto;
   width: auto;
   position: relative;
 }
-/* line 1484, ../sass/custom/_project.scss */
+/* line 1483, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-list li {
   align-items: center;
   border-right: 1px solid #dedede !important;
@@ -2227,7 +2226,7 @@ a, p, h2 {
   font-family: myriad-pro;
   color: #43bfef !important;
 }
-/* line 1504, ../sass/custom/_project.scss */
+/* line 1503, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-list li.resp-tab-active {
   color: #fff !important;
   background-color: #43bfef !important;
@@ -2237,7 +2236,7 @@ a, p, h2 {
   z-index: 1;
   position: relative;
 }
-/* line 1512, ../sass/custom/_project.scss */
+/* line 1511, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-list li.resp-tab-active:before {
   width: 0;
   height: 0;
@@ -2250,12 +2249,12 @@ a, p, h2 {
   border-top: 12px solid #43bfef;
   left: 36%;
 }
-/* line 1527, ../sass/custom/_project.scss */
+/* line 1526, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container {
   display: inline-block;
   width: 100%;
 }
-/* line 1531, ../sass/custom/_project.scss */
+/* line 1530, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-container-horizontal {
   width: 100%;
   height: auto;
@@ -2263,17 +2262,17 @@ a, p, h2 {
   border: none;
   background-color: transparent;
 }
-/* line 1538, ../sass/custom/_project.scss */
+/* line 1537, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-clip-horizontal {
   width: 100%;
   background: #E6E6FA;
   padding-top: 35px;
 }
-/* line 1542, ../sass/custom/_project.scss */
+/* line 1541, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-clip-horizontal .full-width {
   width: 1024px !important;
 }
-/* line 1546, ../sass/custom/_project.scss */
+/* line 1545, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item {
   width: 450px !important;
   margin: 0;
@@ -2282,30 +2281,30 @@ a, p, h2 {
   margin-left: 42px;
   background: #E6E6FA;
 }
-/* line 1553, ../sass/custom/_project.scss */
+/* line 1552, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item.height {
   height: 91px;
   width: 1024px !important;
   margin-left: 0;
 }
-/* line 1560, ../sass/custom/_project.scss */
+/* line 1559, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .product-no-result {
   font-size: 36px;
   font-family: myriad-pro;
   color: #43bfef;
 }
-/* line 1565, ../sass/custom/_project.scss */
+/* line 1564, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-prev {
   background-image: url("../images/left.png");
   height: 40px;
   width: 40px;
   top: 45%;
 }
-/* line 1570, ../sass/custom/_project.scss */
+/* line 1569, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-prev:hover {
   background-position: 0;
 }
-/* line 1574, ../sass/custom/_project.scss */
+/* line 1573, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-next {
   background-image: url("../images/right.png");
   height: 40px;
@@ -2313,20 +2312,20 @@ a, p, h2 {
   top: 45%;
   background-position: 0;
 }
-/* line 1580, ../sass/custom/_project.scss */
+/* line 1579, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-next:hover {
   background-position: 0;
 }
-/* line 1585, ../sass/custom/_project.scss */
+/* line 1584, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video {
   display: inline-block;
   position: relative;
 }
-/* line 1588, ../sass/custom/_project.scss */
+/* line 1587, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video a {
   display: inline-block;
 }
-/* line 1590, ../sass/custom/_project.scss */
+/* line 1589, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video a:before {
   content: "";
   position: absolute;
@@ -2338,7 +2337,7 @@ a, p, h2 {
   z-index: 1;
   left: 44%;
 }
-/* line 1601, ../sass/custom/_project.scss */
+/* line 1600, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video a:after {
   content: " ";
   background-color: #000;
@@ -2351,11 +2350,11 @@ a, p, h2 {
   opacity: .7;
 }
 
-/* line 1616, ../sass/custom/_project.scss */
+/* line 1615, ../sass/custom/_project.scss */
 .view-case-study-for-products {
   padding: 0 40px 40px;
 }
-/* line 1618, ../sass/custom/_project.scss */
+/* line 1617, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-title {
   font-size: 30px;
   color: #43bfef;
@@ -2364,14 +2363,14 @@ a, p, h2 {
   line-height: 1.2em;
   padding-bottom: 5px;
 }
-/* line 1626, ../sass/custom/_project.scss */
+/* line 1625, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-description {
   font-size: 16px;
   font-family: myriad-pro;
   color: #6a6a6a;
   padding-bottom: 15px;
 }
-/* line 1632, ../sass/custom/_project.scss */
+/* line 1631, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -2389,16 +2388,16 @@ a, p, h2 {
   -webkit-box-shadow: 0px 4px 11px #6a6a6a;
   font-family: myriad-pro;
 }
-/* line 1648, ../sass/custom/_project.scss */
+/* line 1647, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 1651, ../sass/custom/_project.scss */
+/* line 1650, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf:hover a {
   color: #fff;
 }
-/* line 1655, ../sass/custom/_project.scss */
+/* line 1654, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf a {
   color: #43bfef;
 }

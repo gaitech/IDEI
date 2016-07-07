@@ -1465,9 +1465,8 @@
 				    font-size: 16px;
 				    font-family: myriad-pro;
 				    color: #6a6a6a;
-				    border-right: 2px solid #43bfef;
 				    &:last-child {
-				    	border-right: none;
+				    	border-left: 2px solid #43bfef;
 				    }
 			    }
 			}

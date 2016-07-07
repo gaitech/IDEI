@@ -89,6 +89,30 @@
 
 
 $(window).load(function() {
+  //js for hiding case study//
+  var chk_pdf =  jQuery(".case-study .views-field-field-case-study-upload-pdf .field-content").text();
+  if(chk_pdf.length<=0){
+  jQuery(".case-study .views-field-field-case-study-upload-pdf").hide();
+  }
+
+  //js for hiding pagination from no result behaviour in product slider//
+  var ch_photo = $(".product-img-gallery .product-no-result").text(); 
+  if(ch_photo.length>0) {
+    $(".product-img-gallery .jcarousel-prev").hide();
+    $(".product-img-gallery .jcarousel-next").hide();
+  }
+
+  var ch_video = $(".product-video-gallery .product-no-result").text(); 
+  if(ch_photo.length>0) {
+    $(".product-video-gallery .jcarousel-prev").hide();
+    $(".product-video-gallery .jcarousel-next").hide();
+  }
+  /////////////////////////////////////////////////////////////////////
+  
+  //add class to product slider//
+  $('.product-no-result').parent().parent().parent().parent().addClass('full-width');
+  $('.product-no-result').parent().parent().parent().addClass('height');
+
   // move to particular part of the page on load
   var type = window.location.hash.substr(1);
   if(type.length > 0){
