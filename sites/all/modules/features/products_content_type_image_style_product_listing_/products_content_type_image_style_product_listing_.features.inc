@@ -29,13 +29,13 @@ function products_content_type_image_style_product_listing__image_default_styles
   $styles['product_listing'] = array(
     'label' => 'product listing',
     'effects' => array(
-      8 => array(
-        'name' => 'image_scale_and_crop',
+      10 => array(
+        'name' => 'image_resize',
         'data' => array(
-          'width' => 120,
+          'width' => 194,
           'height' => 120,
         ),
-        'weight' => 1,
+        'weight' => 2,
       ),
     ),
   );
