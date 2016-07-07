@@ -24,7 +24,7 @@
 }
 
 body{
-	background: #ccc;
+	background: #F0F0F0;
 }
 a, p, h2 {
 	font-family: myriad-pro;
@@ -35,5 +35,10 @@ a, p, h2 {
 	max-width: 1025px;
 	padding: 71px 0 0;
 	width: 100%;
+}
+#backtotop {
+    background: url(../images/back-to-top.png) no-repeat center center !important;
+    height: 60px !important;
+    width: 60px !important;
 }
 

@@ -25,7 +25,7 @@
 }
 /* line 26, ../sass/custom/_global.scss */
 body {
-  background: #ccc;
+  background: #F0F0F0;
 }
 
 /* line 29, ../sass/custom/_global.scss */
@@ -40,6 +40,13 @@ a, p, h2 {
   max-width: 1025px;
   padding: 71px 0 0;
   width: 100%;
+}
+
+/* line 39, ../sass/custom/_global.scss */
+#backtotop {
+  background: url(../images/back-to-top.png) no-repeat center center !important;
+  height: 60px !important;
+  width: 60px !important;
 }
 
 /* line 1, ../sass/custom/_header.scss */
@@ -259,14 +266,67 @@ a, p, h2 {
 .navbar #block-menu-menu-impact ul li:first-child a, .navbar #block-idei-custom-programs-custom-menu ul li:first-child a {
   color: #43bfef;
 }
+/* line 186, ../sass/custom/_header.scss */
+.navbar #block-views-product-menu-block {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  top: -2px;
+  border-top: 1px solid #9d9d9d;
+  box-shadow: 0 4px 11px #ccc;
+}
+/* line 193, ../sass/custom/_header.scss */
+.navbar #block-views-product-menu-block .view-product-menu {
+  width: 100%;
+  display: inline-block;
+  padding: 3px 0;
+}
+/* line 197, ../sass/custom/_header.scss */
+.navbar #block-views-product-menu-block .view-product-menu .view-content {
+  text-align: center;
+}
+/* line 199, ../sass/custom/_header.scss */
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row {
+  display: inline-block;
+  border-right: 1px solid #6a6a6a;
+  padding-left: 11px;
+  padding-right: 11px;
+  font-size: 13px;
+  font-family: myriad-pro;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+/* line 208, ../sass/custom/_header.scss */
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row:last-child {
+  border-right: none;
+}
+/* line 211, ../sass/custom/_header.scss */
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a {
+  color: #6a6a6a;
+  text-decoration: none;
+}
+/* line 214, ../sass/custom/_header.scss */
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:hover {
+  color: #43bfef;
+  background-color: transparent;
+}
+/* line 218, ../sass/custom/_header.scss */
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:focus {
+  background-color: transparent;
+}
+/* line 221, ../sass/custom/_header.scss */
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a.active {
+  color: #43bfef;
+  border-bottom: 2px solid #43bfef;
+}
 
 /*css for ie */
-/* line 193, ../sass/custom/_header.scss */
+/* line 237, ../sass/custom/_header.scss */
 .ie .navbar .container .navbar-header .logo {
   padding: 0 0 0 75px;
 }
 
-/* line 202, ../sass/custom/_header.scss */
+/* line 246, ../sass/custom/_header.scss */
 #home-block-block-2:before,
 #home-block-block-3:before,
 #home-block-block-4:before,
@@ -280,7 +340,7 @@ a, p, h2 {
   visibility: hidden;
 }
 
-/* line 214, ../sass/custom/_header.scss */
+/* line 258, ../sass/custom/_header.scss */
 #program-1:before, #program-2:before,
 #program-3:before, #program-4:before,
 #program-5:before, #program-6:before,
@@ -1819,7 +1879,7 @@ a, p, h2 {
 #block-views-programs-list-block-10 .views-row.views-row-odd .views-field-nothing-1, #block-views-programs-list-block-11 .views-row.views-row-odd .views-field-nothing-1 {
   display: inline-block;
   width: 100%;
-  background: #f1f1f1;
+  background: #E6E6FA;
   padding: 40px;
 }
 /* line 1242, ../sass/custom/_project.scss */
@@ -1842,7 +1902,7 @@ a, p, h2 {
 #block-views-programs-list-block-10 .views-row.views-row-even .views-field-nothing-1, #block-views-programs-list-block-11 .views-row.views-row-even .views-field-nothing-1 {
   display: inline-block;
   width: 100%;
-  background: #f1f1f1;
+  background: #E6E6FA;
   padding: 40px;
 }
 /* line 1257, ../sass/custom/_project.scss */
@@ -1918,15 +1978,16 @@ a, p, h2 {
   margin-right: 1%;
   border-radius: 7px;
   margin-bottom: 1%;
+  height: 245px;
 }
-/* line 1309, ../sass/custom/_project.scss */
+/* line 1310, ../sass/custom/_project.scss */
 #block-views-programs-list-block-2 .views-row .products-wrapper img, #block-views-programs-list-block-4 .views-row .products-wrapper img,
 #block-views-programs-list-block-6 .views-row .products-wrapper img, #block-views-programs-list-block-8 .views-row .products-wrapper img,
 #block-views-programs-list-block-10 .views-row .products-wrapper img, #block-views-programs-list-block-11 .views-row .products-wrapper img {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
-/* line 1313, ../sass/custom/_project.scss */
+/* line 1314, ../sass/custom/_project.scss */
 #block-views-programs-list-block-2 .views-row .products-wrapper .p-title, #block-views-programs-list-block-4 .views-row .products-wrapper .p-title,
 #block-views-programs-list-block-6 .views-row .products-wrapper .p-title, #block-views-programs-list-block-8 .views-row .products-wrapper .p-title,
 #block-views-programs-list-block-10 .views-row .products-wrapper .p-title, #block-views-programs-list-block-11 .views-row .products-wrapper .p-title {
@@ -1936,19 +1997,19 @@ a, p, h2 {
   margin-bottom: 5px;
   line-height: 1.2em;
 }
-/* line 1319, ../sass/custom/_project.scss */
+/* line 1320, ../sass/custom/_project.scss */
 #block-views-programs-list-block-2 .views-row .products-wrapper .p-title:empty, #block-views-programs-list-block-4 .views-row .products-wrapper .p-title:empty,
 #block-views-programs-list-block-6 .views-row .products-wrapper .p-title:empty, #block-views-programs-list-block-8 .views-row .products-wrapper .p-title:empty,
 #block-views-programs-list-block-10 .views-row .products-wrapper .p-title:empty, #block-views-programs-list-block-11 .views-row .products-wrapper .p-title:empty {
   display: none;
 }
-/* line 1322, ../sass/custom/_project.scss */
+/* line 1323, ../sass/custom/_project.scss */
 #block-views-programs-list-block-2 .views-row .products-wrapper .p-title a, #block-views-programs-list-block-4 .views-row .products-wrapper .p-title a,
 #block-views-programs-list-block-6 .views-row .products-wrapper .p-title a, #block-views-programs-list-block-8 .views-row .products-wrapper .p-title a,
 #block-views-programs-list-block-10 .views-row .products-wrapper .p-title a, #block-views-programs-list-block-11 .views-row .products-wrapper .p-title a {
   color: #27579c;
 }
-/* line 1326, ../sass/custom/_project.scss */
+/* line 1327, ../sass/custom/_project.scss */
 #block-views-programs-list-block-2 .views-row .products-wrapper .p-desc, #block-views-programs-list-block-4 .views-row .products-wrapper .p-desc,
 #block-views-programs-list-block-6 .views-row .products-wrapper .p-desc, #block-views-programs-list-block-8 .views-row .products-wrapper .p-desc,
 #block-views-programs-list-block-10 .views-row .products-wrapper .p-desc, #block-views-programs-list-block-11 .views-row .products-wrapper .p-desc {
@@ -1957,13 +2018,13 @@ a, p, h2 {
   font-family: myriad-pro;
   line-height: 1.2em;
 }
-/* line 1331, ../sass/custom/_project.scss */
+/* line 1332, ../sass/custom/_project.scss */
 #block-views-programs-list-block-2 .views-row .products-wrapper .p-desc:empty, #block-views-programs-list-block-4 .views-row .products-wrapper .p-desc:empty,
 #block-views-programs-list-block-6 .views-row .products-wrapper .p-desc:empty, #block-views-programs-list-block-8 .views-row .products-wrapper .p-desc:empty,
 #block-views-programs-list-block-10 .views-row .products-wrapper .p-desc:empty, #block-views-programs-list-block-11 .views-row .products-wrapper .p-desc:empty {
   display: none;
 }
-/* line 1335, ../sass/custom/_project.scss */
+/* line 1336, ../sass/custom/_project.scss */
 #block-views-programs-list-block-2 .views-row .products-wrapper .read-more-complex, #block-views-programs-list-block-4 .views-row .products-wrapper .read-more-complex,
 #block-views-programs-list-block-6 .views-row .products-wrapper .read-more-complex, #block-views-programs-list-block-8 .views-row .products-wrapper .read-more-complex,
 #block-views-programs-list-block-10 .views-row .products-wrapper .read-more-complex, #block-views-programs-list-block-11 .views-row .products-wrapper .read-more-complex {
@@ -1971,30 +2032,375 @@ a, p, h2 {
   font-size: 14px;
   text-transform: uppercase;
 }
-/* line 1339, ../sass/custom/_project.scss */
+/* line 1340, ../sass/custom/_project.scss */
 #block-views-programs-list-block-2 .views-row .products-wrapper .read-more-complex a, #block-views-programs-list-block-4 .views-row .products-wrapper .read-more-complex a,
 #block-views-programs-list-block-6 .views-row .products-wrapper .read-more-complex a, #block-views-programs-list-block-8 .views-row .products-wrapper .read-more-complex a,
 #block-views-programs-list-block-10 .views-row .products-wrapper .read-more-complex a, #block-views-programs-list-block-11 .views-row .products-wrapper .read-more-complex a {
   color: #27579c;
 }
-/* line 1342, ../sass/custom/_project.scss */
+/* line 1343, ../sass/custom/_project.scss */
 #block-views-programs-list-block-2 .views-row .products-wrapper .read-more-complex:empty, #block-views-programs-list-block-4 .views-row .products-wrapper .read-more-complex:empty,
 #block-views-programs-list-block-6 .views-row .products-wrapper .read-more-complex:empty, #block-views-programs-list-block-8 .views-row .products-wrapper .read-more-complex:empty,
 #block-views-programs-list-block-10 .views-row .products-wrapper .read-more-complex:empty, #block-views-programs-list-block-11 .views-row .products-wrapper .read-more-complex:empty {
   display: none;
 }
-/* line 1347, ../sass/custom/_project.scss */
+/* line 1348, ../sass/custom/_project.scss */
 #block-views-programs-list-block-2 .views-row .product-empty, #block-views-programs-list-block-4 .views-row .product-empty,
 #block-views-programs-list-block-6 .views-row .product-empty, #block-views-programs-list-block-8 .views-row .product-empty,
 #block-views-programs-list-block-10 .views-row .product-empty, #block-views-programs-list-block-11 .views-row .product-empty {
-  font-size: 40px;
+  font-size: 36px;
   display: inline-block;
   width: 100%;
   text-align: center;
   vertical-align: middle;
   color: #43bfef;
   font-family: myriad-pro;
+  text-transform: capitalize;
+}
+
+/*-----------------css ends for programmes-page----------------*/
+/*-----------------css for product-page----------------*/
+/* line 1365, ../sass/custom/_project.scss */
+.node-type-products .main-container {
+  padding: 97px 0 0;
+}
+
+/* line 1369, ../sass/custom/_project.scss */
+.detail-header-image {
+  position: relative;
+}
+/* line 1371, ../sass/custom/_project.scss */
+.detail-header-image img {
+  width: 100%;
+}
+/* line 1374, ../sass/custom/_project.scss */
+.detail-header-image .haeder-caption {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 36px;
   text-transform: uppercase;
+  font-family: myriad-pro;
+}
+
+/* line 1386, ../sass/custom/_project.scss */
+.detail-product-tabs {
+  padding-top: 30px;
+}
+
+/* line 1389, ../sass/custom/_project.scss */
+.detail-product-title {
+  font-size: 36px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0 5px;
+  line-height: 1.2em;
+  color: #43bfef;
+  font-family: myriad-pro;
+  text-transform: uppercase;
+}
+
+/* line 1400, ../sass/custom/_project.scss */
+.detail-product-desc {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  font-family: myriad-pro;
+  color: #6a6a6a;
+  line-height: 1.2em;
+  padding-bottom: 40px;
+}
+
+/* line 1410, ../sass/custom/_project.scss */
+.detail-product-applications-wrap {
+  display: inline-block;
+  width: 100%;
+  padding: 50px 40px 40px;
+}
+/* line 1414, ../sass/custom/_project.scss */
+.detail-product-applications-wrap .product-applications {
+  width: 60%;
+  float: left;
+}
+/* line 1417, ../sass/custom/_project.scss */
+.detail-product-applications-wrap .product-applications .application-label {
+  font-size: 30px;
+  font-family: myriad-pro;
+  color: #43bfef;
+  line-height: 1.2em;
+  margin-top: -13px;
+  padding-bottom: 5px;
+}
+/* line 1425, ../sass/custom/_project.scss */
+.detail-product-applications-wrap .product-applications .application-detail {
+  font-size: 16px;
+  color: #6a6a6a;
+  font-family: myriad-pro;
+  line-height: 1.2em;
+}
+
+/* line 1433, ../sass/custom/_project.scss */
+.product-images {
+  float: right;
+  width: 25%;
+}
+
+/* line 1437, ../sass/custom/_project.scss */
+.detail-sp-label {
+  padding: 0 0 20px 40px;
+  font-size: 30px;
+  color: #43bfef;
+  font-family: myriad-pro;
+  line-height: 1.2em;
+}
+
+/* line 1444, ../sass/custom/_project.scss */
+.detail-product-specification {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+/* line 1448, ../sass/custom/_project.scss */
+.detail-product-specification table {
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 40px;
+  border: 1px solid #43bfef;
+}
+/* line 1453, ../sass/custom/_project.scss */
+.detail-product-specification table tbody {
+  display: inline-block;
+  width: 100%;
+}
+/* line 1457, ../sass/custom/_project.scss */
+.detail-product-specification table tbody tr {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #43bfef;
+}
+/* line 1461, ../sass/custom/_project.scss */
+.detail-product-specification table tbody tr td {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  font-size: 16px;
+  font-family: myriad-pro;
+  color: #6a6a6a;
+  border-right: 2px solid #43bfef;
+}
+/* line 1469, ../sass/custom/_project.scss */
+.detail-product-specification table tbody tr td:last-child {
+  border-right: none;
+}
+
+/* line 1479, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-list {
+  display: table;
+  margin: auto;
+  width: auto;
+  position: relative;
+}
+/* line 1484, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-list li {
+  align-items: center;
+  border-right: 1px solid #dedede !important;
+  border-top: medium none !important;
+  color: #00355f;
+  cursor: pointer;
+  display: flex;
+  float: left;
+  font-family: arbah;
+  font-size: 19px;
+  font-weight: normal;
+  height: 50px;
+  line-height: 20px;
+  list-style: outside none none;
+  margin: 0;
+  padding: 13px 18px !important;
+  width: 150px;
+  font-size: 20px;
+  font-family: myriad-pro;
+  color: #43bfef !important;
+}
+/* line 1504, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-list li.resp-tab-active {
+  color: #fff !important;
+  background-color: #43bfef !important;
+  font-size: 22px;
+  height: 60px;
+  width: 140px;
+  z-index: 1;
+  position: relative;
+}
+/* line 1512, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-list li.resp-tab-active:before {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  bottom: -12px;
+  border-top: 12px solid #43bfef;
+  left: 36%;
+}
+/* line 1527, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container {
+  display: inline-block;
+  width: 100%;
+}
+/* line 1531, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-container-horizontal {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+/* line 1538, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-clip-horizontal {
+  width: 100%;
+  background: #E6E6FA;
+  padding-top: 35px;
+}
+/* line 1542, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-clip-horizontal .full-width {
+  width: 1024px !important;
+}
+/* line 1546, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item {
+  width: 450px !important;
+  margin: 0;
+  height: 336px;
+  border: none;
+  margin-left: 42px;
+  background: #E6E6FA;
+}
+/* line 1553, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item.height {
+  height: 91px;
+  width: 1024px !important;
+  margin-left: 0;
+}
+/* line 1560, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .product-no-result {
+  font-size: 36px;
+  font-family: myriad-pro;
+  color: #43bfef;
+}
+/* line 1565, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-prev {
+  background-image: url("../images/left.png");
+  height: 40px;
+  width: 40px;
+  top: 45%;
+}
+/* line 1570, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-prev:hover {
+  background-position: 0;
+}
+/* line 1574, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-next {
+  background-image: url("../images/right.png");
+  height: 40px;
+  width: 40px;
+  top: 45%;
+  background-position: 0;
+}
+/* line 1580, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-next:hover {
+  background-position: 0;
+}
+/* line 1585, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video {
+  display: inline-block;
+  position: relative;
+}
+/* line 1588, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video a {
+  display: inline-block;
+}
+/* line 1590, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video a:before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/youicon.png");
+  height: 100%;
+  width: 100%;
+  background-position: -7px 50%;
+  background-repeat: no-repeat;
+  z-index: 1;
+  left: 44%;
+}
+/* line 1601, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video a:after {
+  content: " ";
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  top: -6px;
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  opacity: .7;
+}
+
+/* line 1616, ../sass/custom/_project.scss */
+.view-case-study-for-products {
+  padding: 0 40px 40px;
+}
+/* line 1618, ../sass/custom/_project.scss */
+.view-case-study-for-products .views-field-field-case-study-title {
+  font-size: 30px;
+  color: #43bfef;
+  font-family: myriad-pro;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  padding-bottom: 5px;
+}
+/* line 1626, ../sass/custom/_project.scss */
+.view-case-study-for-products .views-field-field-case-study-description {
+  font-size: 16px;
+  font-family: myriad-pro;
+  color: #6a6a6a;
+  padding-bottom: 15px;
+}
+/* line 1632, ../sass/custom/_project.scss */
+.view-case-study-for-products .views-field-field-case-study-upload-pdf {
+  border: 2px solid #43bfef;
+  max-width: 180px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #43bfef;
+  padding: 8px 1px 7px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  box-shadow: 0px 4px 11px #6a6a6a;
+  -moz-box-shadow: 0px 4px 7px #6a6a6a;
+  -webkit-box-shadow: 0px 4px 11px #6a6a6a;
+  font-family: myriad-pro;
+}
+/* line 1648, ../sass/custom/_project.scss */
+.view-case-study-for-products .views-field-field-case-study-upload-pdf:hover {
+  background-color: #43bfef;
+  border: 2px solid #fff;
+}
+/* line 1651, ../sass/custom/_project.scss */
+.view-case-study-for-products .views-field-field-case-study-upload-pdf:hover a {
+  color: #fff;
+}
+/* line 1655, ../sass/custom/_project.scss */
+.view-case-study-for-products .views-field-field-case-study-upload-pdf a {
+  color: #43bfef;
 }
 
 @media all and (max-width: 767px) {
