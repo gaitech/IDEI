@@ -10,6 +10,130 @@
 function products_content_type_image_style_product_listing__field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'node-products-field_case_study_description'.
+  $field_instances['node-products-field_case_study_description'] = array(
+    'bundle' => 'products',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 10,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_case_study_description',
+    'label' => 'Case Study description',
+    'required' => 0,
+    'settings' => array(
+      'display_summary' => 0,
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 20,
+        'summary_rows' => 5,
+      ),
+      'type' => 'text_textarea_with_summary',
+      'weight' => 11,
+    ),
+  );
+
+  // Exported field_instance: 'node-products-field_case_study_title'.
+  $field_instances['node-products-field_case_study_title'] = array(
+    'bundle' => 'products',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 9,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_case_study_title',
+    'label' => 'Case study title',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 10,
+    ),
+  );
+
+  // Exported field_instance: 'node-products-field_case_study_upload_pdf'.
+  $field_instances['node-products-field_case_study_upload_pdf'] = array(
+    'bundle' => 'products',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'file',
+        'settings' => array(),
+        'type' => 'file_default',
+        'weight' => 11,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_case_study_upload_pdf',
+    'label' => 'Case study Upload PDF',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'pdf',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'file',
+      'settings' => array(
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'file_generic',
+      'weight' => 12,
+    ),
+  );
+
   // Exported field_instance: 'node-products-field_product_applications'.
   $field_instances['node-products-field_product_applications'] = array(
     'bundle' => 'products',
@@ -48,7 +172,7 @@ function products_content_type_image_style_product_listing__field_default_field_
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 3,
+      'weight' => 4,
     ),
   );
 
@@ -78,7 +202,7 @@ function products_content_type_image_style_product_listing__field_default_field_
     'entity_type' => 'node',
     'field_name' => 'field_product_category',
     'label' => 'Product category',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -87,7 +211,7 @@ function products_content_type_image_style_product_listing__field_default_field_
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_select',
-      'weight' => 8,
+      'weight' => 13,
     ),
   );
 
@@ -129,7 +253,7 @@ function products_content_type_image_style_product_listing__field_default_field_
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 2,
+      'weight' => 3,
     ),
   );
 
@@ -183,6 +307,46 @@ function products_content_type_image_style_product_listing__field_default_field_
     ),
   );
 
+  // Exported field_instance: 'node-products-field_product_header_image_capti'.
+  $field_instances['node-products-field_product_header_image_capti'] = array(
+    'bundle' => 'products',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 8,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_product_header_image_capti',
+    'label' => 'Product header image caption',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 2,
+    ),
+  );
+
   // Exported field_instance: 'node-products-field_product_image'.
   $field_instances['node-products-field_product_image'] = array(
     'bundle' => 'products',
@@ -229,7 +393,7 @@ function products_content_type_image_style_product_listing__field_default_field_
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 5,
+      'weight' => 6,
     ),
   );
 
@@ -279,7 +443,7 @@ function products_content_type_image_style_product_listing__field_default_field_
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 6,
+      'weight' => 7,
     ),
   );
 
@@ -321,7 +485,7 @@ function products_content_type_image_style_product_listing__field_default_field_
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 4,
+      'weight' => 5,
     ),
   );
 
@@ -368,12 +532,15 @@ function products_content_type_image_style_product_listing__field_default_field_
       'module' => 'video_embed_field',
       'settings' => array(),
       'type' => 'video_embed_field_video',
-      'weight' => 7,
+      'weight' => 8,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Case Study description');
+  t('Case study Upload PDF');
+  t('Case study title');
   t('Product  Slider Images');
   t('Product Applications');
   t('Product Descriptiption');
@@ -382,6 +549,7 @@ function products_content_type_image_style_product_listing__field_default_field_
   t('Product Specification');
   t('Product Video');
   t('Product category');
+  t('Product header image caption');
 
   return $field_instances;
 }
