@@ -78,8 +78,10 @@
   // toggle on program landing page
   $(".view-programs-list- .views-field-nothing-1").hide();
   
-  $(".view-programs-list- .views-field.views-field-nothing").click(function() {
-    $(this).next().slideToggle();
+ 
+
+  $(".technology-main-wrapper .more").click(function() {
+     $(this).parent().parent().parent().next().slideToggle();
   });
 
   // hide container if empty
