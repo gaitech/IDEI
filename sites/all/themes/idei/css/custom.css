@@ -2351,10 +2351,18 @@ a, p, h2 {
 }
 
 /* line 1615, ../sass/custom/_project.scss */
+.case-study {
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 1619, ../sass/custom/_project.scss */
 .view-case-study-for-products {
   padding: 0 40px 40px;
+  display: inline-block;
+  width: 100%;
 }
-/* line 1617, ../sass/custom/_project.scss */
+/* line 1623, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-title {
   font-size: 30px;
   color: #43bfef;
@@ -2363,14 +2371,14 @@ a, p, h2 {
   line-height: 1.2em;
   padding-bottom: 5px;
 }
-/* line 1625, ../sass/custom/_project.scss */
+/* line 1631, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-description {
   font-size: 16px;
   font-family: myriad-pro;
   color: #6a6a6a;
   padding-bottom: 15px;
 }
-/* line 1631, ../sass/custom/_project.scss */
+/* line 1637, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -2388,20 +2396,21 @@ a, p, h2 {
   -webkit-box-shadow: 0px 4px 11px #6a6a6a;
   font-family: myriad-pro;
 }
-/* line 1647, ../sass/custom/_project.scss */
+/* line 1653, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 1650, ../sass/custom/_project.scss */
+/* line 1656, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf:hover a {
   color: #fff;
 }
-/* line 1654, ../sass/custom/_project.scss */
+/* line 1660, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf a {
   color: #43bfef;
 }
 
+/*-----------------css ends for product-page----------------*/
 @media all and (max-width: 767px) {
   /* line 3, ../sass/custom/_responsive.scss */
   .main-container .row {
