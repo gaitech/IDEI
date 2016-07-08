@@ -1612,8 +1612,14 @@
 		}
 	}
 }
+.case-study {
+	display: inline-block;
+	width: 100%;
+}
 .view-case-study-for-products {
     padding: 0 40px 40px;
+    display: inline-block;
+    width: 100%;
     .views-field-field-case-study-title {
         font-size: 30px;
         color: #43bfef;
@@ -1656,3 +1662,4 @@
 	    }
 	}
 }
+/*-----------------css ends for product-page----------------*/
