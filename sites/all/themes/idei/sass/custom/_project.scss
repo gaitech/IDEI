@@ -181,7 +181,7 @@
     		}
     	}
     	.impact-content-wrapper {
-    		padding: 11px 40px 0px;
+    		padding: 33px 40px 0px;
     		display: inline-block;
     		width: 100%;
     		.homepage-block-title {
@@ -432,7 +432,7 @@
     		}
     	}
     	.impact-content-wrapper {
-    		padding: 11px 40px 0px;
+    		padding: 33px 40px 0px;
     		display: inline-block;
     		width: 100%;
     		.homepage-block-title {
@@ -774,7 +774,7 @@
 .blockqueue-partners {
 	.view-homepage-content {
 		.homepage-impact-wrapper {
-			padding: 32px 0px 0px 40px;
+			padding: 70px 0px 0px 40px;
     		display: inline-block;
     		width: 100%;
     		.homepage-block-title {
@@ -1103,7 +1103,6 @@
 	    	margin-left: auto;
 		    margin-right: auto;
 		    display: block;
-		    padding-top: 12px;
 	    }
     }
     .impact-wrap-new {
@@ -1114,14 +1113,16 @@
     	float: right;
     	width: 50%;
     	padding: 25px 20px 0;
-    	font-size: 16px;
-	    color: #6a6a6a;
+    	font-size: 36px;
+	    color: #43bfef;
 	    font-family: myriad-pro;
 	    text-transform: uppercase;
 	    font-weight: bold;
 	    border-top: 2px solid #27579c;
 	    border-right: 2px solid #27579c;
-	    height: 46px;
+	    height: 110px;
+	    text-align: center;
+	    line-height: 1.2em;
     }
     .field-name-field-graph-body-title {
     	clear: both;
@@ -1138,12 +1139,16 @@
 	    padding: 10px 20px 18px;
 	    border-bottom: 2px solid #27579c;
 	    border-right: 2px solid #27579c;
-	    height: 359px;
+	    height: 295px;
+	    background-image: url("../images/impact-drop.png");
+	    background-repeat: no-repeat;
+	    background-position: center 80%;
+	    background-size: 85px;
 	    p {
-	    	font-size: 16px;
+	    	font-size: 28px;
 	    	color: #6a6a6a;
 	    	line-height: 1.2em;
-	    	width: 90%;
+	    	text-align: center;
 	    }
     }
     .field-name-field-graph-body {
