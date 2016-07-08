@@ -562,17 +562,23 @@
 				padding: 0;
 			}
 		}
-		.field-name-field-graph-title, .field-name-field-graph-description {
+		.field-name-field-graph-title{
 			border: none;
 			height: auto;
 			width: 100%;
 			padding: 25px 0 0;
+			font-size: 25px;		
+		}
+			
+		.field-name-field-graph-description {
+			padding: 10px 0 0;
+			border: none;
+			height: 150px;;
+			width: 100%;
+			background-size: 50px;
 			p {
 				font-size: 14px;
 			}
-		}
-		.field-name-field-graph-description {
-			padding-top: 10px;
 		}
 		.field-name-field-graph-body-title {
 			padding-bottom: 10px;
@@ -909,7 +915,18 @@
 		}
 	}
 	/*css ends for partner-section*/	
-	/*----------------------------css ends for homepage*--------------------------*/	
+	/*----------------------------css ends for homepage*--------------------------*/
+
+	.economic-inner-content {
+		.field-name-field-graph-title {
+			font-size: 30px;
+		}
+		.field-name-field-graph-description {
+			p {
+				font-size: 22px;
+			}
+		}
+	}	
 }
 
 
