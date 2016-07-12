@@ -70,12 +70,12 @@
     					display: block;
     					border-right: none;
     					float: none;
-    					padding: 0 0 0 5px;
+    					padding: 7px 0 2px 5px;
     					background: #45C0F0;
     					margin: 10px 0;
-    					  a {
+    					a {
     					  	color: #fff;
-    					  }
+    					}
     				}
 			    }
 			    .region-navigation {
@@ -102,14 +102,25 @@
 		}
 	}
 	/*css for ticker*/
+	/*css for iphone-mobile*/
+	.iphone {
+		#block-views-ticker-block {
+			h2 {
+			    padding: 6.3px 4px 4.5px 5px;
+			}
+		}
+	}
+	/*-----------------------*/
 	#block-views-ticker-block {
 		h2 {
 			width: 155px;
 		   	font-size: 13px;
-		    padding: 5.3px 0px 5.5px 12px;
+		    padding: 7.3px 0px 3.5px 12px;
 		}
 		.liScroll-container {
 			width: 50.2%;
+			height: 19px;
+			overflow: hidden;
 		}
 	}
 	/*css for its-all-about-water-section*/
