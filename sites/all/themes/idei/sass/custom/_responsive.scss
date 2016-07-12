@@ -1,4 +1,7 @@
 @media all and (max-width: 767px) {
+	#backtotop {
+		display: none;
+	}
 	.main-container {
 		.row {
 			margin: 0;
@@ -67,12 +70,12 @@
     					display: block;
     					border-right: none;
     					float: none;
-    					padding: 0 0 0 5px;
+    					padding: 7px 0 2px 5px;
     					background: #45C0F0;
     					margin: 10px 0;
-    					  a {
+    					a {
     					  	color: #fff;
-    					  }
+    					}
     				}
 			    }
 			    .region-navigation {
@@ -99,14 +102,25 @@
 		}
 	}
 	/*css for ticker*/
+	/*css for iphone-mobile*/
+	.iphone {
+		#block-views-ticker-block {
+			h2 {
+			    padding: 6.3px 4px 4.5px 5px;
+			}
+		}
+	}
+	/*-----------------------*/
 	#block-views-ticker-block {
 		h2 {
 			width: 155px;
 		   	font-size: 13px;
-		    padding: 5.3px 0px 5.5px 12px;
+		    padding: 7.3px 0px 3.5px 12px;
 		}
 		.liScroll-container {
 			width: 50.2%;
+			height: 19px;
+			overflow: hidden;
 		}
 	}
 	/*css for its-all-about-water-section*/
@@ -562,17 +576,23 @@
 				padding: 0;
 			}
 		}
-		.field-name-field-graph-title, .field-name-field-graph-description {
+		.field-name-field-graph-title{
 			border: none;
 			height: auto;
 			width: 100%;
 			padding: 25px 0 0;
+			font-size: 25px;		
+		}
+			
+		.field-name-field-graph-description {
+			padding: 10px 0 0;
+			border: none;
+			height: 150px;;
+			width: 100%;
+			background-size: 50px;
 			p {
 				font-size: 14px;
 			}
-		}
-		.field-name-field-graph-description {
-			padding-top: 10px;
 		}
 		.field-name-field-graph-body-title {
 			padding-bottom: 10px;
@@ -909,7 +929,18 @@
 		}
 	}
 	/*css ends for partner-section*/	
-	/*----------------------------css ends for homepage*--------------------------*/	
+	/*----------------------------css ends for homepage*--------------------------*/
+
+	.economic-inner-content {
+		.field-name-field-graph-title {
+			font-size: 30px;
+		}
+		.field-name-field-graph-description {
+			p {
+				font-size: 22px;
+			}
+		}
+	}	
 }
 
 
