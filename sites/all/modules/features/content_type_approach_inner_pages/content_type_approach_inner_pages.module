@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content Type : Approach Inner Pages feature.
+ */
+
+include_once 'content_type_approach_inner_pages.features.inc';
