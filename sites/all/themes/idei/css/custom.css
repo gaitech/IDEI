@@ -267,7 +267,7 @@ a, p, h2 {
   color: #43bfef;
 }
 /* line 186, ../sass/custom/_header.scss */
-.navbar #block-views-product-menu-block {
+.navbar #block-views-product-menu-block, .navbar .second-views-menu {
   width: 100%;
   background-color: #fff;
   position: relative;
@@ -276,17 +276,17 @@ a, p, h2 {
   box-shadow: 0 4px 11px #ccc;
 }
 /* line 193, ../sass/custom/_header.scss */
-.navbar #block-views-product-menu-block .view-product-menu {
+.navbar #block-views-product-menu-block .view-product-menu, .navbar #block-views-product-menu-block .view, .navbar .second-views-menu .view-product-menu, .navbar .second-views-menu .view {
   width: 100%;
   display: inline-block;
   padding: 3px 0;
 }
 /* line 197, ../sass/custom/_header.scss */
-.navbar #block-views-product-menu-block .view-product-menu .view-content {
+.navbar #block-views-product-menu-block .view-product-menu .view-content, .navbar #block-views-product-menu-block .view .view-content, .navbar .second-views-menu .view-product-menu .view-content, .navbar .second-views-menu .view .view-content {
   text-align: center;
 }
 /* line 199, ../sass/custom/_header.scss */
-.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row {
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row, .navbar #block-views-product-menu-block .view .view-content .views-row, .navbar .second-views-menu .view-product-menu .view-content .views-row, .navbar .second-views-menu .view .view-content .views-row {
   display: inline-block;
   border-right: 1px solid #6a6a6a;
   padding-left: 11px;
@@ -297,36 +297,50 @@ a, p, h2 {
   vertical-align: middle;
 }
 /* line 208, ../sass/custom/_header.scss */
-.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row:last-child {
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row:last-child, .navbar #block-views-product-menu-block .view .view-content .views-row:last-child, .navbar .second-views-menu .view-product-menu .view-content .views-row:last-child, .navbar .second-views-menu .view .view-content .views-row:last-child {
   border-right: none;
 }
 /* line 211, ../sass/custom/_header.scss */
-.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a {
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a, .navbar #block-views-product-menu-block .view .view-content .views-row a, .navbar .second-views-menu .view-product-menu .view-content .views-row a, .navbar .second-views-menu .view .view-content .views-row a {
   color: #6a6a6a;
   text-decoration: none;
 }
 /* line 214, ../sass/custom/_header.scss */
-.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:hover {
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:hover, .navbar #block-views-product-menu-block .view .view-content .views-row a:hover, .navbar .second-views-menu .view-product-menu .view-content .views-row a:hover, .navbar .second-views-menu .view .view-content .views-row a:hover {
   color: #43bfef;
   background-color: transparent;
 }
 /* line 218, ../sass/custom/_header.scss */
-.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:focus {
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:focus, .navbar #block-views-product-menu-block .view .view-content .views-row a:focus, .navbar .second-views-menu .view-product-menu .view-content .views-row a:focus, .navbar .second-views-menu .view .view-content .views-row a:focus {
   background-color: transparent;
 }
 /* line 221, ../sass/custom/_header.scss */
-.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a.active {
+.navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a.active, .navbar #block-views-product-menu-block .view .view-content .views-row a.active, .navbar .second-views-menu .view-product-menu .view-content .views-row a.active, .navbar .second-views-menu .view .view-content .views-row a.active {
   color: #43bfef;
   border-bottom: 2px solid #43bfef;
 }
+/* line 227, ../sass/custom/_header.scss */
+.navbar #block-views-product-menu-block .view-product-menu .view-content .block-title, .navbar #block-views-product-menu-block .view .view-content .block-title, .navbar .second-views-menu .view-product-menu .view-content .block-title, .navbar .second-views-menu .view .view-content .block-title {
+  display: inline-block;
+  border-right: 1px solid #6a6a6a;
+  padding-left: 11px;
+  padding-right: 11px;
+  font-size: 15px;
+  font-family: myriad-pro;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #43bfef;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
 
 /*css for ie */
-/* line 237, ../sass/custom/_header.scss */
+/* line 250, ../sass/custom/_header.scss */
 .ie .navbar .container .navbar-header .logo {
   padding: 0 0 0 75px;
 }
 
-/* line 246, ../sass/custom/_header.scss */
+/* line 259, ../sass/custom/_header.scss */
 #home-block-block-2:before,
 #home-block-block-3:before,
 #home-block-block-4:before,
@@ -340,7 +354,7 @@ a, p, h2 {
   visibility: hidden;
 }
 
-/* line 258, ../sass/custom/_header.scss */
+/* line 271, ../sass/custom/_header.scss */
 #program-1:before, #program-2:before,
 #program-3:before, #program-4:before,
 #program-5:before, #program-6:before,
@@ -2419,6 +2433,27 @@ a, p, h2 {
 }
 
 /*-----------------css ends for product-page----------------*/
+/*-----------------css ends for approach-inner-pages----------------*/
+/* line 1675, ../sass/custom/_project.scss */
+.approach-content-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+/* line 1678, ../sass/custom/_project.scss */
+.approach-content-wrapper .shift-image {
+  display: inline-block;
+  float: left;
+  padding: 20px 23px 60px 0;
+}
+/* line 1683, ../sass/custom/_project.scss */
+.approach-content-wrapper .approach-content {
+  font-size: 16px;
+  color: #6a6a6a;
+  line-height: 1.2em;
+  padding-top: 18px;
+  text-align: justify;
+}
+
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {

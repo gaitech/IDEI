@@ -21,9 +21,12 @@ $body_image_path = image_style_url($body_style,$body_image);
 
 	<div class="title-body-wrapper">
 	  <div class="economic-inner-title approach-title"><?php echo $page_title; ?></div>
-	  <div class="economic-inner-content approach-content">
-	  	<span class="shift-image"><img src="<?php echo $body_image_path; ?>"></span>
-	  	<?php print $page_body; ?></div>
+	  <div class="economic-inner-content approach-content-wrapper">
+		  	<span class="shift-image"><img src="<?php echo $body_image_path; ?>"></span>
+		  	<div class="approach-content">
+		  		<?php print $page_body; ?>
+		  	</div>
+		</div>
 	</div>
 
 </div>

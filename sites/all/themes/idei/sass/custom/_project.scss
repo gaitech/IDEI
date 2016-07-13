@@ -1670,3 +1670,21 @@
 	}
 }
 /*-----------------css ends for product-page----------------*/
+
+/*-----------------css ends for approach-inner-pages----------------*/
+.approach-content-wrapper {
+    display: inline-block;
+    width: 100%;
+    .shift-image {
+	    display: inline-block;
+	    float: left;
+	    padding: 20px 23px 60px 0;
+	}
+	.approach-content {
+	    font-size: 16px;
+	    color: #6a6a6a;
+	    line-height: 1.2em;
+	    padding-top: 18px;
+	    text-align: justify;
+	}
+}
