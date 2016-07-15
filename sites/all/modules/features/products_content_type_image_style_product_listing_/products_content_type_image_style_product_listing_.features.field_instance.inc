@@ -728,7 +728,7 @@ function products_content_type_image_style_product_listing__field_default_field_
     'entity_type' => 'node',
     'field_name' => 'field_product_image',
     'label' => 'Product Image',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
