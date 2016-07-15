@@ -34,27 +34,19 @@ function view_product_slider_views_default_views() {
   $handler->display->display_options['style_plugin'] = 'jcarousel';
   $handler->display->display_options['style_options']['wrap'] = 'circular';
   $handler->display->display_options['style_options']['skin'] = 'tango';
-  $handler->display->display_options['style_options']['visible'] = '1';
+  $handler->display->display_options['style_options']['visible'] = '2';
+  $handler->display->display_options['style_options']['scroll'] = '2';
   $handler->display->display_options['style_options']['auto'] = '2';
   $handler->display->display_options['style_options']['autoPause'] = 1;
   $handler->display->display_options['style_options']['easing'] = '';
   $handler->display->display_options['style_options']['vertical'] = 0;
-  $handler->display->display_options['style_options']['ajax'] = 1;
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Content: Product  Slider Images */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_product_slider_images']['id'] = 'field_product_slider_images';
   $handler->display->display_options['fields']['field_product_slider_images']['table'] = 'field_data_field_product_slider_images';
   $handler->display->display_options['fields']['field_product_slider_images']['field'] = 'field_product_slider_images';
   $handler->display->display_options['fields']['field_product_slider_images']['label'] = '';
   $handler->display->display_options['fields']['field_product_slider_images']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_product_slider_images']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_product_slider_images']['settings'] = array(
-    'image_style' => 'product_gallery',
-    'image_link' => '',
-  );
-  $handler->display->display_options['fields']['field_product_slider_images']['group_rows'] = FALSE;
-  $handler->display->display_options['fields']['field_product_slider_images']['delta_offset'] = '0';
-  $handler->display->display_options['fields']['field_product_slider_images']['multi_type'] = 'ol';
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
@@ -86,25 +78,55 @@ function view_product_slider_views_default_views() {
 
   /* Display: Product Image Style */
   $handler = $view->new_display('block', 'Product Image Style', 'block');
+  $handler->display->display_options['defaults']['relationships'] = FALSE;
+  /* Relationship: Content: Product Image Gallery (field_product_image_gallery) */
+  $handler->display->display_options['relationships']['field_product_image_gallery_value']['id'] = 'field_product_image_gallery_value';
+  $handler->display->display_options['relationships']['field_product_image_gallery_value']['table'] = 'field_data_field_product_image_gallery';
+  $handler->display->display_options['relationships']['field_product_image_gallery_value']['field'] = 'field_product_image_gallery_value';
+  $handler->display->display_options['relationships']['field_product_image_gallery_value']['delta'] = '-1';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Product Image Gallery */
+  $handler->display->display_options['fields']['field_product_image_gallery']['id'] = 'field_product_image_gallery';
+  $handler->display->display_options['fields']['field_product_image_gallery']['table'] = 'field_data_field_product_image_gallery';
+  $handler->display->display_options['fields']['field_product_image_gallery']['field'] = 'field_product_image_gallery';
+  $handler->display->display_options['fields']['field_product_image_gallery']['label'] = '';
+  $handler->display->display_options['fields']['field_product_image_gallery']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_product_image_gallery']['empty'] = '<div class="product-no-result">Currently No Images...</div>';
+  $handler->display->display_options['fields']['field_product_image_gallery']['settings'] = array(
+    'edit' => 'Edit',
+    'delete' => 'Delete',
+    'add' => 'Add',
+    'description' => 1,
+    'view_mode' => 'full',
+  );
+  $handler->display->display_options['fields']['field_product_image_gallery']['group_rows'] = FALSE;
+  $handler->display->display_options['fields']['field_product_image_gallery']['delta_offset'] = '0';
 
   /* Display: Product Video Slider */
   $handler = $view->new_display('block', 'Product Video Slider', 'block_1');
+  $handler->display->display_options['defaults']['relationships'] = FALSE;
+  /* Relationship: Content: Product Video Gallery (field_product_video_gallery) */
+  $handler->display->display_options['relationships']['field_product_video_gallery_value']['id'] = 'field_product_video_gallery_value';
+  $handler->display->display_options['relationships']['field_product_video_gallery_value']['table'] = 'field_data_field_product_video_gallery';
+  $handler->display->display_options['relationships']['field_product_video_gallery_value']['field'] = 'field_product_video_gallery_value';
+  $handler->display->display_options['relationships']['field_product_video_gallery_value']['delta'] = '-1';
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Product Video */
-  $handler->display->display_options['fields']['field_product_video']['id'] = 'field_product_video';
-  $handler->display->display_options['fields']['field_product_video']['table'] = 'field_data_field_product_video';
-  $handler->display->display_options['fields']['field_product_video']['field'] = 'field_product_video';
-  $handler->display->display_options['fields']['field_product_video']['label'] = '';
-  $handler->display->display_options['fields']['field_product_video']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_product_video']['click_sort_column'] = 'video_url';
-  $handler->display->display_options['fields']['field_product_video']['type'] = 'video_embed_field_thumbnail_colorbox';
-  $handler->display->display_options['fields']['field_product_video']['settings'] = array(
-    'video_style' => 'normal',
-    'image_style' => 'product_gallery',
+  /* Field: Content: Product Video Gallery */
+  $handler->display->display_options['fields']['field_product_video_gallery']['id'] = 'field_product_video_gallery';
+  $handler->display->display_options['fields']['field_product_video_gallery']['table'] = 'field_data_field_product_video_gallery';
+  $handler->display->display_options['fields']['field_product_video_gallery']['field'] = 'field_product_video_gallery';
+  $handler->display->display_options['fields']['field_product_video_gallery']['label'] = '';
+  $handler->display->display_options['fields']['field_product_video_gallery']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_product_video_gallery']['empty'] = '<div class="product-no-result">Currently No Images...</div>';
+  $handler->display->display_options['fields']['field_product_video_gallery']['settings'] = array(
+    'edit' => 'Edit',
+    'delete' => 'Delete',
+    'add' => 'Add',
+    'description' => 0,
+    'view_mode' => 'full',
   );
-  $handler->display->display_options['fields']['field_product_video']['group_rows'] = FALSE;
-  $handler->display->display_options['fields']['field_product_video']['delta_offset'] = '0';
-  $handler->display->display_options['fields']['field_product_video']['multi_type'] = 'ul';
+  $handler->display->display_options['fields']['field_product_video_gallery']['group_rows'] = FALSE;
+  $handler->display->display_options['fields']['field_product_video_gallery']['delta_offset'] = '0';
   $export['product_slider'] = $view;
 
   return $export;
