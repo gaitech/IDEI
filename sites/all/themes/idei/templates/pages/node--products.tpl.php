@@ -29,14 +29,22 @@ $product_full_image = '<img src="'.$product_img_path.'"/>';
   </div>
 <div class="detail-product-applications-wrap">
   <div class="product-applications">
-  	<div class="application-label">Applications</div>
+  	<div class="application-label">
+      <?php if($product_applications){
+        print "Applications";
+      } ?>
+    </div>
     <div class="application-detail"><?php print $product_applications; ?> </div>
   </div>
-  <div class="product-images"><?php print $product_full_image; ?> </div>
+  <div class="product-images"><?php if($product_image){print $product_full_image;} ?> </div>
 </div>
 
 <div class="detail-sp-wrapper">
-	<div class="detail-sp-label">Specifications</div>
+	<div class="detail-sp-label">
+    <?php if($product_specification){
+      print "Specifications";
+    } ?>
+  </div>
   <div class="detail-product-specification"><?php print $product_specification; ?> </div>
 </div>
 <div class="case-study"><?php print views_embed_view('case_study_for_products','block'); ?></div>
