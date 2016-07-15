@@ -50,26 +50,6 @@ function paralax_menubar_menu_default_menu_links() {
     'weight' => -44,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_approach:<front>.
-  $menu_links['main-menu_approach:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'APPROACH',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'main-menu_approach:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-  );
   // Exported menu link: main-menu_archives:<front>.
   $menu_links['main-menu_archives:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -128,26 +108,6 @@ function paralax_menubar_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -41,
-    'customized' => 1,
-  );
-  // Exported menu link: main-menu_impact:<front>.
-  $menu_links['main-menu_impact:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'IMPACT',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'main-menu_impact:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
     'customized' => 1,
   );
   // Exported menu link: main-menu_partners:<front>.
@@ -210,124 +170,149 @@ function paralax_menubar_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-approach_market-based-approach:<front>.
-  $menu_links['menu-approach_market-based-approach:<front>'] = array(
+  // Exported menu link: menu-approach_idei-approach:node/57.
+  $menu_links['menu-approach_idei-approach:node/57'] = array(
     'menu_name' => 'menu-approach',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Market Based Approach',
+    'link_path' => 'node/57',
+    'router_path' => 'node/%',
+    'link_title' => 'IDEI Approach',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-approach_market-based-approach:<front>',
+      'identifier' => 'menu-approach_idei-approach:node/57',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-approach_social-context:<front>.
-  $menu_links['menu-approach_social-context:<front>'] = array(
-    'menu_name' => 'menu-approach',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'social context',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-approach_social-context:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-programs_brand:<front>.
-  $menu_links['menu-programs_brand:<front>'] = array(
-    'menu_name' => 'menu-programs',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'BRAND',
+  // Exported menu link: menu-approach_the-context:node/58.
+  $menu_links['menu-approach_the-context:node/58'] = array(
+    'menu_name' => 'menu-approach',
+    'link_path' => 'node/58',
+    'router_path' => 'node/%',
+    'link_title' => 'The Context',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-programs_brand:<front>',
+      'identifier' => 'menu-approach_the-context:node/58',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-programs_climate-smart-agriculture-:node/37.
+  $menu_links['menu-programs_climate-smart-agriculture-:node/37'] = array(
+    'menu_name' => 'menu-programs',
+    'link_path' => 'node/37',
+    'router_path' => 'node/%',
+    'link_title' => 'CLIMATE SMART AGRICULTURE ',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-programs_climate-smart-agriculture-:node/37',
+      'fragment' => 'program-2',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-programs_ipmas:<front>.
-  $menu_links['menu-programs_ipmas:<front>'] = array(
+  // Exported menu link: menu-programs_income-enhancement-:node/37.
+  $menu_links['menu-programs_income-enhancement-:node/37'] = array(
     'menu_name' => 'menu-programs',
-    'link_path' => '<front>',
-    'router_path' => '',
+    'link_path' => 'node/37',
+    'router_path' => 'node/%',
+    'link_title' => 'INCOME ENHANCEMENT ',
+    'options' => array(
+      'fragment' => 'program-6',
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-programs_income-enhancement-:node/37',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-programs_ipmas:node/37.
+  $menu_links['menu-programs_ipmas:node/37'] = array(
+    'menu_name' => 'menu-programs',
+    'link_path' => 'node/37',
+    'router_path' => 'node/%',
     'link_title' => 'IPMAS',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-programs_ipmas:<front>',
+      'identifier' => 'menu-programs_ipmas:node/37',
+      'fragment' => 'program-4',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-programs_market-developmnet:<front>.
-  $menu_links['menu-programs_market-developmnet:<front>'] = array(
+  // Exported menu link: menu-programs_market-developmnet:node/37.
+  $menu_links['menu-programs_market-developmnet:node/37'] = array(
     'menu_name' => 'menu-programs',
-    'link_path' => '<front>',
-    'router_path' => '',
+    'link_path' => 'node/37',
+    'router_path' => 'node/%',
     'link_title' => 'MARKET DEVELOPMNET',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-programs_market-developmnet:<front>',
+      'identifier' => 'menu-programs_market-developmnet:node/37',
+      'fragment' => 'program-3',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-programs_technology:<front>.
-  $menu_links['menu-programs_technology:<front>'] = array(
+  // Exported menu link: menu-programs_sustainable-agriculture:node/37.
+  $menu_links['menu-programs_sustainable-agriculture:node/37'] = array(
     'menu_name' => 'menu-programs',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'TECHNOLOGY',
+    'link_path' => 'node/37',
+    'router_path' => 'node/%',
+    'link_title' => 'SUSTAINABLE AGRICULTURE',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-programs_technology:<front>',
+      'identifier' => 'menu-programs_sustainable-agriculture:node/37',
+      'fragment' => 'program-1',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => -50,
     'customized' => 1,
   );
   // Exported menu link: menu-water_india-facts:<front>.
@@ -415,24 +400,23 @@ function paralax_menubar_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('ABOUT US');
   t('ANNUAL REPORTS');
-  t('APPROACH');
   t('ARCHIVES');
   t('AWARDS');
-  t('BRAND');
+  t('CLIMATE SMART AGRICULTURE ');
   t('ENGAGE');
-  t('IMPACT');
+  t('IDEI Approach');
+  t('INCOME ENHANCEMENT ');
   t('INDIA FACTS');
   t('INTRODUCTION');
   t('IPMAS');
   t('MARKET DEVELOPMNET');
-  t('Market Based Approach');
   t('PARTNERS');
   t('PROGRAMS');
   t('RED FLAGS');
-  t('TECHNOLOGY');
+  t('SUSTAINABLE AGRICULTURE');
+  t('The Context');
   t('WATER');
   t('WORLD FACTS');
-  t('social context');
 
   return $menu_links;
 }

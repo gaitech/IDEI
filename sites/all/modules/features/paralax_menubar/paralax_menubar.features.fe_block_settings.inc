@@ -174,8 +174,8 @@ function paralax_menubar_default_fe_block_settings() {
         'weight' => 0,
       ),
       'idei' => array(
-        'region' => 'navigation',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'idei',
         'weight' => -27,
       ),
