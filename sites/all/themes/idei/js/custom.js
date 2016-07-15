@@ -86,6 +86,9 @@
 
   // hide container if empty
   $('.product-empty').next().hide();
+  
+  /*..........js for aaproach submenu................*/
+  $(".second-views-menu .block-title").insertBefore(".second-views-menu .view .views-row-1");
 
 });
 

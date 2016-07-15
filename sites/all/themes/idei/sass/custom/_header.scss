@@ -183,14 +183,14 @@
 		    }
 		}
 	}
-	#block-views-product-menu-block {
+	#block-views-product-menu-block, .second-views-menu {
 		width: 100%;
 	    background-color: #fff;
 	    position: relative;
 	    top: -2px;
 	    border-top: 1px solid #9d9d9d;
 	    box-shadow: 0 4px 11px #ccc;
-	    .view-product-menu {
+	    .view-product-menu, .view {
 	    	width: 100%;
 	    	display: inline-block;
 	    	padding: 3px 0;
@@ -223,6 +223,19 @@
 							border-bottom: 2px solid #43bfef;
 					    }
 					}
+    			}
+    			.block-title {
+    				display: inline-block;
+    				border-right: 1px solid #6a6a6a;
+				    padding-left: 11px;
+				    padding-right: 11px;
+				    font-size: 15px;
+				    font-family: myriad-pro;
+				    text-transform: uppercase;
+				    vertical-align: middle;
+				    color: #43bfef;
+				    margin-bottom: 0;
+				    text-transform: uppercase;
     			}
     		}
 	    }
