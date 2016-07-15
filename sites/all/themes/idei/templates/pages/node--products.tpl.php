@@ -27,6 +27,7 @@ $product_full_image = '<img src="'.$product_img_path.'"/>';
     $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block)))); 
     print $output; ?>
   </div>
+  <!-- applications block -->
 <div class="detail-product-applications-wrap">
   <div class="product-applications">
   	<div class="application-label">
@@ -38,7 +39,12 @@ $product_full_image = '<img src="'.$product_img_path.'"/>';
   </div>
   <div class="product-images"><?php if($product_image){print $product_full_image;} ?> </div>
 </div>
+<!-- static and Dyamic Promotional Activites -->
 
+<div class="promotional-wrapper">
+<div class="promotional-block"><?php print views_embed_view('static_and_dynamic_promotional_activities_block','block'); ?></div>
+</div>
+<!-- specifications block -->
 <div class="detail-sp-wrapper">
 	<div class="detail-sp-label">
     <?php if($product_specification){
@@ -48,4 +54,3 @@ $product_full_image = '<img src="'.$product_img_path.'"/>';
   <div class="detail-product-specification"><?php print $product_specification; ?> </div>
 </div>
 <div class="case-study"><?php print views_embed_view('case_study_for_products','block'); ?></div>
-
