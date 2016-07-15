@@ -1,0 +1,11 @@
+name = view :Static and Dynamic promotional Activity
+description = view :Static and Dynamic promotional Activity
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = static_and_dynamic_promotional_activities_block
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules/features

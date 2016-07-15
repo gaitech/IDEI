@@ -50,7 +50,7 @@ function view_product_menu_view_case_study_for_products_views_default_views() {
   $handler->display->display_options['fields']['field_case_study_upload_pdf']['field'] = 'field_case_study_upload_pdf';
   $handler->display->display_options['fields']['field_case_study_upload_pdf']['label'] = '';
   $handler->display->display_options['fields']['field_case_study_upload_pdf']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_case_study_upload_pdf']['alter']['text'] = '<a href="[field_case_study_upload_pdf]">PDF</div>';
+  $handler->display->display_options['fields']['field_case_study_upload_pdf']['alter']['text'] = '<a href="[field_case_study_upload_pdf]">Download PDF</div>';
   $handler->display->display_options['fields']['field_case_study_upload_pdf']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_case_study_upload_pdf']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_case_study_upload_pdf']['type'] = 'file_url_plain';
