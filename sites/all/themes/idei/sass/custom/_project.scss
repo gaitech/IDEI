@@ -1170,6 +1170,12 @@
     	line-height: 1.2em;
     	text-align: justify;
     }
+    .field-name-field-description-image {
+    	padding-bottom: 30px;
+    	img {
+    		width: 100%;
+    	}	
+    }
 }
 
 /*-----------------css for programmes-page----------------*/
@@ -1671,7 +1677,7 @@
 }
 /*-----------------css ends for product-page----------------*/
 
-/*-----------------css ends for approach-inner-pages----------------*/
+/*-----------------css for approach-inner-pages----------------*/
 .approach-content-wrapper {
     display: inline-block;
     width: 100%;
@@ -1688,3 +1694,4 @@
 	    text-align: justify;
 	}
 }
+/*-----------------css ends for approach-inner-pages----------------*/
