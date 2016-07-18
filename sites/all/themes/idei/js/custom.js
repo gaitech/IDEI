@@ -77,11 +77,9 @@
 
   // toggle on program landing page
   $(".view-programs-list- .views-field-nothing-1").hide();
-  
- 
 
   $(".technology-main-wrapper .more").click(function() {
-     $(this).parent().parent().parent().next().slideToggle();
+    $(this).parent().parent().parent().next().slideToggle();
   });
 
   // hide container if empty
@@ -90,6 +88,15 @@
   /*..........js for aaproach submenu................*/
   $(".second-views-menu .block-title").insertBefore(".second-views-menu .view .views-row-1");
 
+  
+  //hide applications block in static and dynamic avtivity page
+  if( $( ".promotional-hide-label" ).is( ":visible" ) ) {
+    $('.detail-product-applications-wrap').show();
+   }
+   else {
+    $('.detail-product-applications-wrap').hide();
+   }
+   
 });
 
 
