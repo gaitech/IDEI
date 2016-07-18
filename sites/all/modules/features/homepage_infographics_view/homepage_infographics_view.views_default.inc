@@ -74,7 +74,7 @@ function homepage_infographics_view_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'infographics' => 'infographics',
   );
-  /* Filter criterion: Content: Impact Block (field_impact) */
+  /* Filter criterion: Broken/missing handler */
   $handler->display->display_options['filters']['field_impact_value']['id'] = 'field_impact_value';
   $handler->display->display_options['filters']['field_impact_value']['table'] = 'field_data_field_impact';
   $handler->display->display_options['filters']['field_impact_value']['field'] = 'field_impact_value';
@@ -109,13 +109,6 @@ function homepage_infographics_view_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'infographics' => 'infographics',
   );
-  /* Filter criterion: Content: Impact Block (field_impact) */
-  $handler->display->display_options['filters']['field_impact_value']['id'] = 'field_impact_value';
-  $handler->display->display_options['filters']['field_impact_value']['table'] = 'field_data_field_impact';
-  $handler->display->display_options['filters']['field_impact_value']['field'] = 'field_impact_value';
-  $handler->display->display_options['filters']['field_impact_value']['value'] = array(
-    'impact_bottom' => 'impact_bottom',
-  );
   /* Filter criterion: Taxonomy term: Name */
   $handler->display->display_options['filters']['name']['id'] = 'name';
   $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
@@ -140,45 +133,6 @@ function homepage_infographics_view_views_default_views() {
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
     'infographics' => 'infographics',
-  );
-  /* Filter criterion: Content: Impact Block (field_impact) */
-  $handler->display->display_options['filters']['field_impact_value']['id'] = 'field_impact_value';
-  $handler->display->display_options['filters']['field_impact_value']['table'] = 'field_data_field_impact';
-  $handler->display->display_options['filters']['field_impact_value']['field'] = 'field_impact_value';
-  $handler->display->display_options['filters']['field_impact_value']['value'] = array(
-    'impact_top' => 'impact_top',
-  );
-  /* Filter criterion: Taxonomy term: Name */
-  $handler->display->display_options['filters']['name']['id'] = 'name';
-  $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
-  $handler->display->display_options['filters']['name']['field'] = 'name';
-  $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
-  $handler->display->display_options['filters']['name']['value'] = 'impact';
-
-  /* Display: Impact second Infographics */
-  $handler = $view->new_display('block', 'Impact second Infographics', 'block_2');
-  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
-  $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: Content: Published */
-  $handler->display->display_options['filters']['status']['id'] = 'status';
-  $handler->display->display_options['filters']['status']['table'] = 'node';
-  $handler->display->display_options['filters']['status']['field'] = 'status';
-  $handler->display->display_options['filters']['status']['value'] = 1;
-  $handler->display->display_options['filters']['status']['group'] = 1;
-  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
-  /* Filter criterion: Content: Type */
-  $handler->display->display_options['filters']['type']['id'] = 'type';
-  $handler->display->display_options['filters']['type']['table'] = 'node';
-  $handler->display->display_options['filters']['type']['field'] = 'type';
-  $handler->display->display_options['filters']['type']['value'] = array(
-    'infographics' => 'infographics',
-  );
-  /* Filter criterion: Content: Impact Block (field_impact) */
-  $handler->display->display_options['filters']['field_impact_value']['id'] = 'field_impact_value';
-  $handler->display->display_options['filters']['field_impact_value']['table'] = 'field_data_field_impact';
-  $handler->display->display_options['filters']['field_impact_value']['field'] = 'field_impact_value';
-  $handler->display->display_options['filters']['field_impact_value']['value'] = array(
-    'impact_bottom' => 'impact_bottom',
   );
   /* Filter criterion: Taxonomy term: Name */
   $handler->display->display_options['filters']['name']['id'] = 'name';
