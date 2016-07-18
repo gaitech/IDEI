@@ -83,7 +83,7 @@ function view_publication_listing_views_default_views() {
 <div class="pub-wrap">
 <div class="pub-title">[title] </div>
 <div class="pub-desc">[field_publication_description] </div>
-<div class="pub-download"><a href="[field_publication_pdf]">Download PDF</a></div></div>
+<div class="pub-download"><a href="[field_publication_pdf]" target="_blank" >Download PDF</a></div></div>
 </div>
 </div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;

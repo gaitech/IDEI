@@ -88,7 +88,7 @@ echo \'<div class="economic-inner-title">Annual Reports</div>\';
 <div class="pub-wrap">
 <div class="pub-title">[title] </div>
 <div class="pub-desc">[body] </div>
-<div class="pub-download"><a href="[field_report_pdf] ">Download PDF</a></div></div>
+<div class="pub-download"><a href="[field_report_pdf] " target="_blank">Download PDF</a></div></div>
 </div>
 </div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
