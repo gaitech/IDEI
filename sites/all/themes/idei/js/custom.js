@@ -1,5 +1,15 @@
 (function($) {
 	$(window).ready(function() {
+
+  //hide applications block in static and dynamic avtivity page
+  if( $( ".promotional-hide-label" ).is( ":visible" ) ) {
+    $('.detail-product-applications-wrap').show();
+    $('.promotional-wrapper').hide();
+   }
+   else {
+    $('.detail-product-applications-wrap').hide();
+   }
+
   
   // automatically active paralax on scroll
   var type = window.location.hash.substr(1);
@@ -96,20 +106,12 @@
   /*..........js for aaproach submenu................*/
   $(".second-views-menu .block-title").insertBefore(".second-views-menu .view .views-row-1");
 
-  
-  //hide applications block in static and dynamic avtivity page
-  if( $( ".promotional-hide-label" ).is( ":visible" ) ) {
-    $('.detail-product-applications-wrap').show();
-
-   }
-   else {
-    $('.detail-product-applications-wrap').hide();
-   }
-
-});
+  });
 
 
 $(window).load(function() {
+
+
   //js for hiding case study//
   var chk_pdf =  jQuery(".case-study .views-field-field-case-study-upload-pdf .field-content").text();
   if(chk_pdf.length<=0){
