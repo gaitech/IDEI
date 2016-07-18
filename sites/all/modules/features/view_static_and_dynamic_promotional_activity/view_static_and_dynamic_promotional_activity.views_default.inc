@@ -73,9 +73,12 @@ function view_static_and_dynamic_promotional_activity_views_default_views() {
   $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="activity-wrap">
+<div class="activity-img">[field_activity_image] </div>
+<div class="activity-title-wrap">
 <div class="activity-title">[field_activity_title]</div>
 <div class="activity-description">[field_activity_description]</div>
-<div class="activity-img">[field_activity_image] </div>
+</div>
+
 </div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   /* Sort criterion: Content: Post date */
