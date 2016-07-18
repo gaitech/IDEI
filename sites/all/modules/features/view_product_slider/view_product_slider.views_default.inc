@@ -117,7 +117,7 @@ function view_product_slider_views_default_views() {
   $handler->display->display_options['fields']['field_product_video_gallery']['field'] = 'field_product_video_gallery';
   $handler->display->display_options['fields']['field_product_video_gallery']['label'] = '';
   $handler->display->display_options['fields']['field_product_video_gallery']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_product_video_gallery']['empty'] = '<div class="product-no-result">Currently No Images...</div>';
+  $handler->display->display_options['fields']['field_product_video_gallery']['empty'] = '<div class="product-no-result">Currently No Videos...</div>';
   $handler->display->display_options['fields']['field_product_video_gallery']['settings'] = array(
     'edit' => 'Edit',
     'delete' => 'Delete',
