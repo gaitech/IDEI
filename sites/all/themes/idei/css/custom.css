@@ -1955,7 +1955,7 @@ a, p, h2 {
 #block-views-programs-list-block-6 .views-row .more, #block-views-programs-list-block-8 .views-row .more,
 #block-views-programs-list-block-10 .views-row .more, #block-views-programs-list-block-11 .views-row .more {
   border: 2px solid #43bfef;
-  max-width: 260px;
+  max-width: 280px;
   width: 100%;
   text-align: center;
   font-size: 16px;
@@ -2305,31 +2305,74 @@ a, p, h2 {
   border: none;
   margin-left: 42px;
   background: #E6E6FA;
+  position: relative;
 }
-/* line 1572, ../sass/custom/_project.scss */
+/* line 1573, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item.height {
   height: 91px;
   width: 1024px !important;
   margin-left: 0;
 }
-/* line 1579, ../sass/custom/_project.scss */
+/* line 1578, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-title {
+  position: absolute;
+  bottom: 20%;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-family: myriad-pro;
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 1588, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-description {
+  position: absolute;
+  bottom: 10%;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: myriad-pro;
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 1598, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-video-title {
+  position: absolute;
+  bottom: 20%;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-family: myriad-pro;
+}
+/* line 1607, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-video-description {
+  position: absolute;
+  bottom: 10%;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: myriad-pro;
+}
+/* line 1618, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .product-no-result {
   font-size: 36px;
   font-family: myriad-pro;
   color: #43bfef;
 }
-/* line 1584, ../sass/custom/_project.scss */
+/* line 1623, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-prev {
   background-image: url("../images/left.png");
   height: 40px;
   width: 40px;
   top: 45%;
 }
-/* line 1589, ../sass/custom/_project.scss */
+/* line 1628, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-prev:hover {
   background-position: 0;
 }
-/* line 1593, ../sass/custom/_project.scss */
+/* line 1632, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-next {
   background-image: url("../images/right.png");
   height: 40px;
@@ -2337,21 +2380,21 @@ a, p, h2 {
   top: 45%;
   background-position: 0;
 }
-/* line 1599, ../sass/custom/_project.scss */
+/* line 1638, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-next:hover {
   background-position: 0;
 }
-/* line 1604, ../sass/custom/_project.scss */
-#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video {
+/* line 1643, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video-gallery {
   display: inline-block;
   position: relative;
 }
-/* line 1607, ../sass/custom/_project.scss */
-#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video a {
+/* line 1646, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video-gallery a {
   display: inline-block;
 }
-/* line 1609, ../sass/custom/_project.scss */
-#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video a:before {
+/* line 1648, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video-gallery a:before {
   content: "";
   position: absolute;
   background-image: url("../images/youicon.png");
@@ -2362,8 +2405,8 @@ a, p, h2 {
   z-index: 1;
   left: 44%;
 }
-/* line 1620, ../sass/custom/_project.scss */
-#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video a:after {
+/* line 1659, ../sass/custom/_project.scss */
+#block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video-gallery a:after {
   content: " ";
   background-color: #000;
   height: 100%;
@@ -2375,19 +2418,19 @@ a, p, h2 {
   opacity: .7;
 }
 
-/* line 1635, ../sass/custom/_project.scss */
+/* line 1674, ../sass/custom/_project.scss */
 .case-study {
   display: inline-block;
   width: 100%;
 }
 
-/* line 1639, ../sass/custom/_project.scss */
+/* line 1678, ../sass/custom/_project.scss */
 .view-case-study-for-products {
   padding: 0 40px 40px;
   display: inline-block;
   width: 100%;
 }
-/* line 1643, ../sass/custom/_project.scss */
+/* line 1682, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-title {
   font-size: 30px;
   color: #43bfef;
@@ -2396,14 +2439,14 @@ a, p, h2 {
   line-height: 1.2em;
   padding-bottom: 5px;
 }
-/* line 1651, ../sass/custom/_project.scss */
+/* line 1690, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-description {
   font-size: 16px;
   font-family: myriad-pro;
   color: #6a6a6a;
   padding-bottom: 15px;
 }
-/* line 1657, ../sass/custom/_project.scss */
+/* line 1696, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -2421,34 +2464,39 @@ a, p, h2 {
   -webkit-box-shadow: 0px 4px 11px #6a6a6a;
   font-family: myriad-pro;
 }
-/* line 1673, ../sass/custom/_project.scss */
+/* line 1712, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 1676, ../sass/custom/_project.scss */
+/* line 1715, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf:hover a {
   color: #fff;
 }
-/* line 1680, ../sass/custom/_project.scss */
+/* line 1719, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf a {
   color: #43bfef;
 }
 
+/* line 1729, ../sass/custom/_project.scss */
+.ff #block-idei-custom-products-gallery-tab-block .resp-tabs-list li.resp-tab-active:before {
+  bottom: -11px;
+}
+
 /*-----------------css ends for product-page----------------*/
 /*-----------------css for approach-inner-pages----------------*/
-/* line 1688, ../sass/custom/_project.scss */
+/* line 1740, ../sass/custom/_project.scss */
 .approach-content-wrapper {
   display: inline-block;
   width: 100%;
 }
-/* line 1691, ../sass/custom/_project.scss */
+/* line 1743, ../sass/custom/_project.scss */
 .approach-content-wrapper .shift-image {
   display: inline-block;
   float: left;
   padding: 20px 23px 20px 0;
 }
-/* line 1696, ../sass/custom/_project.scss */
+/* line 1748, ../sass/custom/_project.scss */
 .approach-content-wrapper .approach-content {
   font-size: 16px;
   color: #6a6a6a;
@@ -2458,6 +2506,48 @@ a, p, h2 {
 }
 
 /*-----------------css ends for approach-inner-pages----------------*/
+/*-----------------css for product-promotional-activity-page----------------*/
+/* line 1759, ../sass/custom/_project.scss */
+.promotional-wrapper {
+  width: 100%;
+  display: inline-block;
+  padding: 40px 40px 0;
+}
+/* line 1763, ../sass/custom/_project.scss */
+.promotional-wrapper .promotional-block {
+  width: 70%;
+  margin: 0 auto;
+}
+/* line 1766, ../sass/custom/_project.scss */
+.promotional-wrapper .promotional-block .activity-wrap {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 30px;
+}
+/* line 1771, ../sass/custom/_project.scss */
+.promotional-wrapper .promotional-block .activity-img {
+  float: left;
+  width: 50%;
+}
+/* line 1775, ../sass/custom/_project.scss */
+.promotional-wrapper .promotional-block .activity-title-wrap {
+  float: right;
+  width: 50%;
+  font-family: myriad-pro;
+  margin-top: -9px;
+}
+/* line 1781, ../sass/custom/_project.scss */
+.promotional-wrapper .promotional-block .activity-title {
+  font-size: 30px;
+  color: #43bfef;
+}
+/* line 1785, ../sass/custom/_project.scss */
+.promotional-wrapper .promotional-block .activity-description {
+  font-size: 16px;
+  color: #6a6a6a;
+}
+
+/*-----------------css ends for product-promotional-activity-page----------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {

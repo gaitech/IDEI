@@ -1290,7 +1290,7 @@
 		}
 		.more {
 		    border: 2px solid #43bfef;
-		    max-width:260px;
+		    max-width:280px;
 		    width: 100%;
 		    text-align: center;
 		    font-size: 16px;
@@ -1569,10 +1569,49 @@
     			border: none;
     			margin-left: 42px;
     			background: #E6E6FA;
+    			position: relative;
     			&.height {
     				height: 91px;
     				width: 1024px !important;
     				margin-left: 0; 
+    			}
+    			.field-name-field-title {
+    				position: absolute;
+				    bottom: 20%;
+				    font-size: 30px;
+				    color: #fff;
+				    text-align: center;
+				    width: 100%;
+				    font-family: myriad-pro;
+				    background: rgba(0, 0, 0, 0.4);
+    			}
+    			.field-name-field-description {
+    				position: absolute;
+				    bottom: 10%;
+				    font-size: 25px;
+				    width: 100%;
+				    text-align: center;
+				    color: #fff;
+				    font-family: myriad-pro;
+				    background: rgba(0, 0, 0, 0.4);
+    			}
+    			.field-name-field-video-title {
+    				position: absolute;
+				    bottom: 20%;
+				    font-size: 30px;
+				    color: #fff;
+				    text-align: center;
+				    width: 100%;
+				    font-family: myriad-pro;
+    			}
+    			.field-name-field-video-description {
+    				position: absolute;
+				    bottom: 10%;
+				    font-size: 25px;
+				    width: 100%;
+				    text-align: center;
+				    color: #fff;
+				    font-family: myriad-pro;
     			}
 
     		}
@@ -1601,7 +1640,7 @@
 				}
 			}
 		}
-		.views-field-field-product-video {
+		.views-field-field-product-video-gallery {
 			display: inline-block;
 			position: relative;
 			a {
@@ -1682,6 +1721,19 @@
 	    }
 	}
 }
+.ff {
+	#block-idei-custom-products-gallery-tab-block {
+		.resp-tabs-list {
+			li {
+				&.resp-tab-active {
+					&:before {
+						bottom: -11px;
+					}
+				}
+			}
+		}
+	}
+}
 /*-----------------css ends for product-page----------------*/
 
 /*-----------------css for approach-inner-pages----------------*/
@@ -1702,3 +1754,38 @@
 	}
 }
 /*-----------------css ends for approach-inner-pages----------------*/
+
+/*-----------------css for product-promotional-activity-page----------------*/
+.promotional-wrapper {
+	width: 100%;
+	display: inline-block;
+	padding: 40px 40px 0;
+	.promotional-block {
+		width: 70%;
+		margin: 0 auto;
+		.activity-wrap {
+		    display: inline-block;
+		    width: 100%;
+		    padding-bottom: 30px;
+		}
+		.activity-img {
+		    float: left;
+		    width: 50%;
+		}
+		.activity-title-wrap {
+		    float: right;
+		    width: 50%;
+		    font-family: myriad-pro;
+		    margin-top: -9px;
+		}
+		.activity-title {
+		    font-size: 30px;
+		    color: #43bfef;
+		}
+		.activity-description {
+		    font-size: 16px;
+		    color: #6a6a6a;
+		}
+	}
+}
+/*-----------------css ends for product-promotional-activity-page----------------*/
