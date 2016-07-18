@@ -45,6 +45,7 @@ function view_static_and_dynamic_promotional_activity_views_default_views() {
   $handler->display->display_options['fields']['field_activity_title']['label'] = '';
   $handler->display->display_options['fields']['field_activity_title']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_activity_title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_activity_title']['empty'] = '<div class="promotional-hide-label"></div>';
   /* Field: Field collection item: Activity Description */
   $handler->display->display_options['fields']['field_activity_description']['id'] = 'field_activity_description';
   $handler->display->display_options['fields']['field_activity_description']['table'] = 'field_data_field_activity_description';

@@ -8,9 +8,22 @@
      $url_alias = drupal_get_path_alias($child['link']['link_path']);
      $link = $child['link']['title'];
      $link = trim(strtolower($link));
+ 
      if( $link == 'about us')
      {
       print '<li><a href="'.$base_url.'/'.$url_alias.'" >'.$title.'</a></li>';
+     }
+     else if ( $link == 'annual reports'){
+       print '<li><a href="'.$base_url.'/'.$url_alias.'" >'.$title.'</a></li>';
+     }
+     else if ( $link == 'archives'){
+       print '<li><a href="'.$base_url.'/'.$url_alias.'" >'.$title.'</a></li>';
+     }
+     else if ( $link == 'partners'){
+       print '<li><a href="'.$base_url.'/'.$url_alias.'" >'.$title.'</a></li>';
+     }
+     else if ( $link == 'engage'){
+       print '<li><a href="'.$base_url.'/'.$url_alias.'" >'.$title.'</a></li>';
      }
      else {
       print '<li><a href="#home-block-block-'.$i.'" rel="" id="anchor1" class="anchorLink">'.$title.'</a></li>';
