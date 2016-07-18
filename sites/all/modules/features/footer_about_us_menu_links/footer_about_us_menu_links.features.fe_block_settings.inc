@@ -19,6 +19,7 @@ function footer_about_us_menu_links_default_fe_block_settings() {
     'delta' => 'menu-footer-about-us',
     'module' => 'menu',
     'node_types' => array(),
+    'options' => NULL,
     'pages' => '',
     'roles' => array(),
     'themes' => array(
@@ -26,6 +27,12 @@ function footer_about_us_menu_links_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bootstrap' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bootstrap',
         'weight' => 0,
       ),
       'idei' => array(
@@ -40,8 +47,14 @@ function footer_about_us_menu_links_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'stark' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'stark',
+        'weight' => 0,
+      ),
     ),
-    'title' => '',
+    'title' => 'about us',
     'visibility' => 0,
   );
 
