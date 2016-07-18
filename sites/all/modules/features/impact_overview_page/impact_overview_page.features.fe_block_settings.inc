@@ -18,9 +18,11 @@ function impact_overview_page_default_fe_block_settings() {
     'custom' => 0,
     'delta' => 'menu-impact',
     'module' => 'menu',
-    'node_types' => array(),
+    'node_types' => array(
+      0 => 'impact_inner_pages',
+    ),
     'options' => 'a:0:{}',
-    'pages' => 'node/23',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -36,10 +38,10 @@ function impact_overview_page_default_fe_block_settings() {
         'weight' => 0,
       ),
       'idei' => array(
-        'region' => 'navigation',
+        'region' => 'header',
         'status' => 1,
         'theme' => 'idei',
-        'weight' => -24,
+        'weight' => -40,
       ),
       'seven' => array(
         'region' => '',
@@ -55,7 +57,7 @@ function impact_overview_page_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   return $export;
