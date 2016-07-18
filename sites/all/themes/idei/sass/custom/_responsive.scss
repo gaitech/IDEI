@@ -338,19 +338,18 @@
 			    left: auto;
 			    padding: 0 0 0 46px;
 			    li {
-			    	background-position: 4% center;
+			    	background-position: 1% center;
 				    padding-right: 4px;
 				    background-size: 18px;
 				    height: 29px;
-				    width: 33%;
+				    max-width: 120px;
+				    width: 100%;
 				    display: inline-block;
 				    vertical-align: top;
+				    margin-bottom: 12px;
 				    a {
 				    	margin-left: 21px;
     					font-size: 16px;
-				    }
-				    &:nth-child(4) {
-				    	width: 32%;
 				    }
 			    }
     		}
@@ -856,6 +855,11 @@
 			.content {
 				width: 71%;
 				left: 21px;
+				li {
+					max-width: 246px;
+					width: 100%;
+					margin-bottom: 10px;
+				}
 			}
 		}
 	}
