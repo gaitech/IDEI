@@ -101,6 +101,7 @@
 		    color: #43BFEF;
 		    font-family: helvetica;
 		    font-weight: bold;
+		    padding-bottom: 10px;
     	}
     	.views-field-body {
     		font-size: 16px;
@@ -683,6 +684,8 @@
 			    background-position: 0% 63%;
 			    height: 38px;
 			    padding-right: 24px;
+			    max-width: 160px;
+			    width: 100%;
 			    a {
 	    			font-size: 21px;
 				    font-family: bebas-neue;
@@ -697,17 +700,17 @@
 				    	background-color: transparent;
 				    }
 	    		}
-	    		&:nth-child(4) {
-	    			width: 18%;
-	    			a {
-	    				width: 46%;
-	    			}
-	    		}
-	    		&:nth-child(5) {
-	    			a {
-	    				width: 46%;
-	    			}
-	    		}
+	    		// &:nth-child(4) {
+	    		// 	width: 18%;
+	    		// 	a {
+	    		// 		width: 46%;
+	    		// 	}
+	    		// }
+	    		// &:nth-child(5) {
+	    		// 	a {
+	    		// 		width: 46%;
+	    		// 	}
+	    		// }
 	    	}
 	    }
     }
@@ -1092,6 +1095,8 @@
     font-weight: bold;
     color: #43bfef;
     text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
 }
 .economic-inner-content {
 	ul {
@@ -1103,6 +1108,7 @@
 	    float: left;
 	   	border: 2px solid #27579c;
     	height: 405px;
+    	margin-top: 20px;
 	    img {
 	    	margin-left: auto;
 		    margin-right: auto;
@@ -1127,6 +1133,7 @@
 	    height: 110px;
 	    text-align: center;
 	    line-height: 1.2em;
+	    margin-top: 20px;
     }
     .field-name-field-graph-body-title {
     	clear: both;
@@ -1684,7 +1691,7 @@
     .shift-image {
 	    display: inline-block;
 	    float: left;
-	    padding: 20px 23px 60px 0;
+	    padding: 20px 23px 20px 0;
 	}
 	.approach-content {
 	    font-size: 16px;
