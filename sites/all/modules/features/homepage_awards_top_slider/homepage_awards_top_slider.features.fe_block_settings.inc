@@ -19,7 +19,7 @@ function homepage_awards_top_slider_default_fe_block_settings() {
     'delta' => 'partners',
     'module' => 'blockqueue',
     'node_types' => array(),
-    'options' => 'a:1:{s:10:"attributes";a:1:{s:2:"id";s:18:"home-block-block-8";}}',
+    'options' => 'a:1:{s:10:"attributes";a:1:{s:2:"id";s:18:"home-block-block-6";}}',
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
@@ -39,7 +39,7 @@ function homepage_awards_top_slider_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'idei',
-        'weight' => -18,
+        'weight' => -35,
       ),
       'seven' => array(
         'region' => '',
@@ -146,7 +146,7 @@ function homepage_awards_top_slider_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => 'IDEI IN MEDIA:',
     'visibility' => 0,
   );
 
