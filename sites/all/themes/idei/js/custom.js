@@ -69,8 +69,16 @@
     if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
     $(this).addClass("active");
   });
-  
-  //add active class on clic paralex inner page
+
+  //add active class for non paralax items in main custom menu
+  var chk_url = window.location.href;
+  $("#block-idei-custom-home-custom-menu li a").each(function() {
+    $(this).removeClass("active");
+    if($(this).attr("href") == chk_url)
+    $(this).addClass("active");
+  });
+
+  //add active class on click paralex inner page
   $('.program-menu-navigation li a').click(function(e) {
     e.preventDefault(); 
     $('.program-menu-navigation li a').removeClass('active');
@@ -98,10 +106,7 @@
   /*..........js for aaproach submenu................*/
   $(".second-views-menu .block-title").insertBefore(".second-views-menu .view .views-row-1");
 
-  
-
-   
-});
+  });
 
 
 $(window).load(function() {
