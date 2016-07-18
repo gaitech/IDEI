@@ -11,6 +11,57 @@ function impact_enviromental_page__field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance:
+  // 'field_collection_item-field_content-field_description_image'.
+  $field_instances['field_collection_item-field_content-field_description_image'] = array(
+    'bundle' => 'field_content',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'colorbox',
+        'settings' => array(
+          'colorbox_caption' => 'none',
+          'colorbox_caption_custom' => '',
+          'colorbox_gallery' => 'post',
+          'colorbox_gallery_custom' => '',
+          'colorbox_image_style' => '',
+          'colorbox_multivalue_index' => NULL,
+          'colorbox_node_style' => '',
+          'colorbox_node_style_first' => '',
+        ),
+        'type' => 'colorbox',
+        'weight' => 5,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_description_image',
+    'label' => 'Description Image',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 0,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 6,
+    ),
+  );
+
+  // Exported field_instance:
   // 'field_collection_item-field_content-field_graph_body'.
   $field_instances['field_collection_item-field_content-field_graph_body'] = array(
     'bundle' => 'field_content',
@@ -23,7 +74,7 @@ function impact_enviromental_page__field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 4,
+        'weight' => 6,
       ),
       'token' => array(
         'label' => 'hidden',
@@ -67,7 +118,7 @@ function impact_enviromental_page__field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 3,
+        'weight' => 4,
       ),
       'token' => array(
         'label' => 'hidden',
@@ -149,11 +200,11 @@ function impact_enviromental_page__field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 5,
+        'weight' => 3,
       ),
       'token' => array(
         'label' => 'above',
@@ -327,7 +378,7 @@ function impact_enviromental_page__field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_select',
-      'weight' => 33,
+      'weight' => 6,
     ),
   );
 
@@ -429,7 +480,7 @@ function impact_enviromental_page__field_default_field_instances() {
           'image_style' => '',
         ),
         'type' => 'image',
-        'weight' => 2,
+        'weight' => 6,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -465,10 +516,52 @@ function impact_enviromental_page__field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance:
+  // 'node-impact_inner_pages-field_impact_header_image_captio'.
+  $field_instances['node-impact_inner_pages-field_impact_header_image_captio'] = array(
+    'bundle' => 'impact_inner_pages',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 7,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_impact_header_image_captio',
+    'label' => 'Impact header image caption',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 3,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Also Read');
   t('Content');
+  t('Description Image');
   t('Graph Body');
   t('Graph Description');
   t('Graph Full Description');
@@ -477,6 +570,7 @@ function impact_enviromental_page__field_default_field_instances() {
   t('Graph image');
   t('Graph title');
   t('Impact Header Image');
+  t('Impact header image caption');
 
   return $field_instances;
 }
