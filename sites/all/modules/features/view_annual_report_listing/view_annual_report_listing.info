@@ -1,11 +1,11 @@
-name = View : Header Banner
-description = View : Header Banner
+name = View : Annual report Listing
+description = View : Annual report Listing
 core = 7.x
 package = Features
 version = 7.x-1.0
-dependencies[] = ctools
 dependencies[] = views
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
-features[views_view][] = header_banner
+features[views_view][] = annual_report_page
+features_exclude[dependencies][ctools] = ctools
 project path = sites/all/modules/features
