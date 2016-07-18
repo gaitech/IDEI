@@ -96,7 +96,7 @@ function view_product_slider_views_default_views() {
     'edit' => 'Edit',
     'delete' => 'Delete',
     'add' => 'Add',
-    'description' => 1,
+    'description' => 0,
     'view_mode' => 'full',
   );
   $handler->display->display_options['fields']['field_product_image_gallery']['group_rows'] = FALSE;
