@@ -131,6 +131,7 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
   /* Field: Content: Body */
   $handler->display->display_options['fields']['body']['id'] = 'body';
   $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
@@ -171,8 +172,7 @@ function homepage_paralax_blocks_views_default_views() {
 <div class="homepage-block-title">[title] </div>
 <div class="homepage-body">[body]</div>
 <div class="more-links">[field_more_links] </div>
-</div>
-</div>
+</div></div>
 ';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
@@ -210,6 +210,7 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
   /* Field: Content: Body */
   $handler->display->display_options['fields']['body']['id'] = 'body';
   $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
@@ -398,8 +399,8 @@ function homepage_paralax_blocks_views_default_views() {
 <div class="homepage-block-title">[title] </div>
 <div class="homepage-body">[body]</div>
 <div class="more-links">[field_more_links] </div>
-</div>
-</div>';
+</div></div>
+';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
@@ -455,7 +456,7 @@ function homepage_paralax_blocks_views_default_views() {
   $handler->display->display_options['fields']['field_video']['type'] = 'video_embed_field_thumbnail_colorbox';
   $handler->display->display_options['fields']['field_video']['settings'] = array(
     'video_style' => 'normal',
-    'image_style' => 'thumbnail',
+    'image_style' => 'youtube',
   );
   /* Field: Global: Custom text */
   $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
