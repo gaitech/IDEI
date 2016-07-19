@@ -104,7 +104,7 @@ function view_publication_listing_views_default_views() {
   $handler->display->display_options['fields']['php']['use_php_setup'] = 0;
   $handler->display->display_options['fields']['php']['php_output'] = '<?php
 global $base_url;
-print \'<div class="pub-download"><a class="colorbox-node" href="\'.$base_url.\'/node/67?width=350&height=400&nid=\'.$row->nid.\'">Download PDF</a></div></div></div></div>\';
+print \'<div class="pub-download"><a class="colorbox-node" href="\'.$base_url.\'/node/68?width=350&height=400&nid=\'.$row->nid.\'">Download PDF</a></div></div></div></div>\';
 ?>';
   $handler->display->display_options['fields']['php']['use_php_click_sortable'] = '0';
   $handler->display->display_options['fields']['php']['php_click_sortable'] = '';
