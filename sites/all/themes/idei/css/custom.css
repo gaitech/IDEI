@@ -2552,26 +2552,32 @@ a:focus, p:focus, h2:focus {
 
 /*-----------------css ends for product-promotional-activity-page----------------*/
 /*-----------------css for publication and annual-report-page----------------*/
-/* line 1808, ../sass/custom/_project.scss */
-.page-annual-report-page {
+/* line 1809, ../sass/custom/_project.scss */
+.page-annual-report-page .main-container {
   padding: 71px 0 0;
 }
+/* line 1812, ../sass/custom/_project.scss */
+.page-annual-report-page .view-content {
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
 
-/* line 1811, ../sass/custom/_project.scss */
+/* line 1818, ../sass/custom/_project.scss */
 .publication-listing {
   width: 70%;
   margin: 0 auto;
   padding: 40px 0;
 }
 
-/* line 1816, ../sass/custom/_project.scss */
+/* line 1823, ../sass/custom/_project.scss */
 .pub-main-wrap {
   display: inline-block;
   width: 100%;
   padding-bottom: 40px;
 }
 
-/* line 1821, ../sass/custom/_project.scss */
+/* line 1828, ../sass/custom/_project.scss */
 .pub-img {
   float: left;
   width: 15%;
@@ -2579,14 +2585,14 @@ a:focus, p:focus, h2:focus {
   vertical-align: top;
 }
 
-/* line 1827, ../sass/custom/_project.scss */
+/* line 1834, ../sass/custom/_project.scss */
 .pub-wrap {
   float: left;
   width: 85%;
   border-top: 1px solid #6a6a6a;
   padding-top: 10px;
 }
-/* line 1832, ../sass/custom/_project.scss */
+/* line 1839, ../sass/custom/_project.scss */
 .pub-wrap .pub-title {
   font-size: 28px;
   font-family: myriad-pro;
@@ -2595,14 +2601,14 @@ a:focus, p:focus, h2:focus {
   line-height: 1.2em;
   padding-bottom: 20px;
 }
-/* line 1840, ../sass/custom/_project.scss */
+/* line 1847, ../sass/custom/_project.scss */
 .pub-wrap .pub-desc {
   font-size: 16px;
   font-family: myriad-pro;
   color: #6a6a6a;
   padding-bottom: 30px;
 }
-/* line 1846, ../sass/custom/_project.scss */
+/* line 1853, ../sass/custom/_project.scss */
 .pub-wrap .pub-download {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -2620,16 +2626,16 @@ a:focus, p:focus, h2:focus {
   -webkit-box-shadow: 0px 4px 11px #6a6a6a;
   font-family: myriad-pro;
 }
-/* line 1862, ../sass/custom/_project.scss */
+/* line 1869, ../sass/custom/_project.scss */
 .pub-wrap .pub-download a {
   color: #43bfef;
 }
-/* line 1865, ../sass/custom/_project.scss */
+/* line 1872, ../sass/custom/_project.scss */
 .pub-wrap .pub-download:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 1868, ../sass/custom/_project.scss */
+/* line 1875, ../sass/custom/_project.scss */
 .pub-wrap .pub-download:hover a {
   color: #fff;
 }

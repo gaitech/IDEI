@@ -1806,7 +1806,14 @@
 
 /*-----------------css for publication and annual-report-page----------------*/
 .page-annual-report-page {
-	padding: 71px 0 0;
+	.main-container {
+		padding: 71px 0 0;
+	}
+	.view-content {
+		width: 70%;
+	    margin: 0 auto;
+	    padding: 40px 0;
+	}
 }
 .publication-listing {
     width: 70%;
