@@ -1,8 +1,6 @@
 
 .footer {
-	margin: 0 auto;
   padding: 0;
-  max-width: 1025px;
   width: 100%;
   background: #333232;
   min-height: 250px;
@@ -15,6 +13,9 @@
   }
   .region-footer {
     padding: 0 0 0 58px;
+    max-width: 1025px;
+    width: 100%;
+    margin: 0 auto;
   }
   .block-title {
    	color: #fff;
