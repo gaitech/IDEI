@@ -84,13 +84,14 @@ echo \'<div class="economic-inner-title">Annual Reports</div>\';
   $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="pub-main-wrap">
-<div class="pub-img">[field_report_image] </div>
-<div class="pub-wrap">
-<div class="pub-title">[title] </div>
-<div class="pub-desc">[body] </div>
-<div class="pub-download"><a href="[field_report_pdf] " target="_blank">Download PDF</a></div></div>
-</div>
-</div>';
+   <div class="pub-img">[field_report_image] </div>
+   <div class="pub-wrap">
+     <div class="pub-title">[title] </div>
+     <div class="pub-desc">[body] </div>
+     <div class="pub-download"><a href="[field_report_pdf] " target="_blank">Download PDF</a></div>
+   </div>
+ </div>
+';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
