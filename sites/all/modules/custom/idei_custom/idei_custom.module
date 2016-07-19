@@ -81,3 +81,21 @@ function idei_custom_theme(){
 function idei_main_custom_navigation() {
   return theme('idei_custom_block'); 
 }
+
+function idei_custom_form_alter(&$form, &$form_state, $form_id) {
+
+  if($form_id == 'webform_client_form_67') {
+    $argument = $_REQUEST['nid'];
+    $node = node_load($argument);
+    $pdf_name = $node->field_publication_pdf['und'][0]['uri'];
+    $pdf_name = explode("//",$pdf_name);
+    $pdf = $pdf_name[1];
+    global $base_url;
+    $pdf_file_url = $base_url.'/sites/default/files/'.$pdf;
+    $form['submitted']['url_path']['#default_value']= $pdf_file_url;
+ }
+}
+
+
+
+
