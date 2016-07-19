@@ -354,6 +354,10 @@ function impact_enviromental_page__field_default_field_instances() {
         'label' => 'above',
         'module' => 'entityreference',
         'settings' => array(
+          'colorbox_node_classes' => '',
+          'colorbox_node_height' => 600,
+          'colorbox_node_link' => FALSE,
+          'colorbox_node_width' => 600,
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
