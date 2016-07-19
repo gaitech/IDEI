@@ -73,6 +73,16 @@ function view_publication_listing_views_default_views() {
   $handler->display->display_options['fields']['field_publication_pdf']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_publication_pdf']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_publication_pdf']['type'] = 'file_url_plain';
+  /* Field: Content: Nid */
+  $handler->display->display_options['fields']['nid']['id'] = 'nid';
+  $handler->display->display_options['fields']['nid']['table'] = 'node';
+  $handler->display->display_options['fields']['nid']['field'] = 'nid';
+  $handler->display->display_options['fields']['nid']['label'] = '';
+  $handler->display->display_options['fields']['nid']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['nid']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['nid']['node_in_colorbox_width'] = '600';
+  $handler->display->display_options['fields']['nid']['node_in_colorbox_height'] = '600';
+  $handler->display->display_options['fields']['nid']['node_in_colorbox_rel'] = '';
   /* Field: Global: Custom text */
   $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['table'] = 'views';
@@ -83,10 +93,21 @@ function view_publication_listing_views_default_views() {
 <div class="pub-wrap">
 <div class="pub-title">[title] </div>
 <div class="pub-desc">[field_publication_description] </div>
-<div class="pub-download"><a href="[field_publication_pdf]" target="_blank" >Download PDF</a></div></div>
-</div>
-</div>';
+';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
+  /* Field: Global: PHP */
+  $handler->display->display_options['fields']['php']['id'] = 'php';
+  $handler->display->display_options['fields']['php']['table'] = 'views';
+  $handler->display->display_options['fields']['php']['field'] = 'php';
+  $handler->display->display_options['fields']['php']['label'] = '';
+  $handler->display->display_options['fields']['php']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['php']['use_php_setup'] = 0;
+  $handler->display->display_options['fields']['php']['php_output'] = '<?php
+global $base_url;
+print \'<div class="pub-download"><a class="colorbox-node" href="\'.$base_url.\'/node/67?width=350&height=400&nid=\'.$row->nid.\'">Download PDF</a></div></div></div></div>\';
+?>';
+  $handler->display->display_options['fields']['php']['use_php_click_sortable'] = '0';
+  $handler->display->display_options['fields']['php']['php_click_sortable'] = '';
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';

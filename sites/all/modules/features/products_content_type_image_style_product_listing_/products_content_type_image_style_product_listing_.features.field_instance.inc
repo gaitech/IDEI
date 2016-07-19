@@ -542,6 +542,10 @@ function products_content_type_image_style_product_listing__field_default_field_
         'label' => 'above',
         'module' => 'entityreference',
         'settings' => array(
+          'colorbox_node_classes' => '',
+          'colorbox_node_height' => 600,
+          'colorbox_node_link' => FALSE,
+          'colorbox_node_width' => 600,
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
