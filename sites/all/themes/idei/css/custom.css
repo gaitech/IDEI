@@ -31,9 +31,14 @@ body {
 /* line 29, ../sass/custom/_global.scss */
 a, p, h2 {
   font-family: myriad-pro;
+  text-decoration: none !important;
+}
+/* line 32, ../sass/custom/_global.scss */
+a:focus, p:focus, h2:focus {
+  outline: none !important;
 }
 
-/* line 33, ../sass/custom/_global.scss */
+/* line 37, ../sass/custom/_global.scss */
 .main-container {
   background: #fff none repeat scroll 0 0;
   margin: 0 auto;
@@ -42,7 +47,7 @@ a, p, h2 {
   width: 100%;
 }
 
-/* line 40, ../sass/custom/_global.scss */
+/* line 44, ../sass/custom/_global.scss */
 #backtotop {
   background: url(../images/back-to-top.png) no-repeat center center !important;
   height: 60px !important;
@@ -368,24 +373,25 @@ a, p, h2 {
 
 /* line 2, ../sass/custom/_footer.scss */
 .footer {
-  margin: 0 auto;
   padding: 0;
-  max-width: 1025px;
   width: 100%;
   background: #333232;
   min-height: 250px;
   margin-top: -1px;
   padding-top: 6px;
 }
-/* line 12, ../sass/custom/_footer.scss */
+/* line 10, ../sass/custom/_footer.scss */
 .footer a:hover {
   background: transparent !important;
 }
-/* line 16, ../sass/custom/_footer.scss */
+/* line 14, ../sass/custom/_footer.scss */
 .footer .region-footer {
   padding: 0 0 0 58px;
+  max-width: 1025px;
+  width: 100%;
+  margin: 0 auto;
 }
-/* line 19, ../sass/custom/_footer.scss */
+/* line 20, ../sass/custom/_footer.scss */
 .footer .block-title {
   color: #fff;
   font-size: 15px;
@@ -393,16 +399,16 @@ a, p, h2 {
   font-weight: bold;
   padding-bottom: 5px;
 }
-/* line 26, ../sass/custom/_footer.scss */
+/* line 27, ../sass/custom/_footer.scss */
 .footer .menu {
   margin-bottom: 10px;
   margin-top: 13px;
 }
-/* line 29, ../sass/custom/_footer.scss */
+/* line 30, ../sass/custom/_footer.scss */
 .footer .menu li {
   margin-bottom: 5px;
 }
-/* line 31, ../sass/custom/_footer.scss */
+/* line 32, ../sass/custom/_footer.scss */
 .footer .menu li a {
   color: #71716C;
   font-family: myriad-pro;
@@ -410,64 +416,64 @@ a, p, h2 {
   padding: 0 !important;
   font-weight: bold;
 }
-/* line 41, ../sass/custom/_footer.scss */
+/* line 42, ../sass/custom/_footer.scss */
 .footer .facebook-block {
   float: left;
   width: 40%;
   margin-bottom: 20px;
 }
-/* line 45, ../sass/custom/_footer.scss */
+/* line 46, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper {
   float: left;
   width: 54%;
 }
-/* line 50, ../sass/custom/_footer.scss */
+/* line 51, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper .footer-logo img {
   height: 65px !important;
   width: 72px !important;
 }
-/* line 55, ../sass/custom/_footer.scss */
+/* line 56, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul {
   padding: 0;
   margin-top: 7px;
 }
-/* line 58, ../sass/custom/_footer.scss */
+/* line 59, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li {
   padding-bottom: 5px;
   list-style: none;
   font-family: myriad-pro;
 }
-/* line 62, ../sass/custom/_footer.scss */
+/* line 63, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li a {
   color: #71716C;
   font-weight: bold;
   font-family: myriad-pro;
   font-size: 15px;
 }
-/* line 69, ../sass/custom/_footer.scss */
+/* line 70, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li:nth-of-type(1) img {
   height: 15px !important;
   width: 12px !important;
   margin-right: 7px;
 }
-/* line 76, ../sass/custom/_footer.scss */
+/* line 77, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li:nth-of-type(2) img {
   height: 15px !important;
   width: 10px !important;
   margin-right: 8px;
 }
-/* line 83, ../sass/custom/_footer.scss */
+/* line 84, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li:nth-of-type(3) img {
   height: 13px !important;
   width: 13px !important;
   margin-right: 6px;
 }
-/* line 93, ../sass/custom/_footer.scss */
+/* line 94, ../sass/custom/_footer.scss */
 .footer .connect-wrapper {
   float: left;
   width: 46%;
 }
-/* line 97, ../sass/custom/_footer.scss */
+/* line 98, ../sass/custom/_footer.scss */
 .footer .connect-wrapper h2 {
   color: #fff;
   font-size: 15px;
@@ -476,14 +482,14 @@ a, p, h2 {
   font-weight: bold;
   padding-bottom: 5px;
 }
-/* line 105, ../sass/custom/_footer.scss */
+/* line 106, ../sass/custom/_footer.scss */
 .footer .connect-wrapper ul {
   padding: 0;
   list-style: none;
   color: #fff;
   margin-top: 13px;
 }
-/* line 110, ../sass/custom/_footer.scss */
+/* line 111, ../sass/custom/_footer.scss */
 .footer .connect-wrapper ul li {
   font-size: 14px;
   margin-bottom: 5px;
@@ -491,30 +497,30 @@ a, p, h2 {
   color: #71716C;
   font-weight: bold;
 }
-/* line 119, ../sass/custom/_footer.scss */
+/* line 120, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-about-us {
   float: left;
   width: 20%;
 }
-/* line 124, ../sass/custom/_footer.scss */
+/* line 125, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-resources {
   float: left;
   width: 21.5%;
 }
-/* line 129, ../sass/custom/_footer.scss */
+/* line 130, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-get-involved {
   float: left;
   width: 18%;
 }
 
-/* line 136, ../sass/custom/_footer.scss */
+/* line 137, ../sass/custom/_footer.scss */
 .copyright {
   clear: both;
   border-top: 1px solid  #71716C;
   width: 90.3%;
   padding-top: 8px;
 }
-/* line 142, ../sass/custom/_footer.scss */
+/* line 143, ../sass/custom/_footer.scss */
 .copyright p:nth-of-type(1) {
   color: #43bfef;
   width: 62%;
@@ -523,7 +529,7 @@ a, p, h2 {
   text-transform: uppercase;
   float: left;
 }
-/* line 150, ../sass/custom/_footer.scss */
+/* line 151, ../sass/custom/_footer.scss */
 .copyright p:nth-of-type(2) {
   color: #fff;
   width: 36%;
@@ -790,10 +796,6 @@ a, p, h2 {
   text-transform: uppercase;
   font-family: helvetica;
 }
-/* line 235, ../sass/custom/_project.scss */
-.blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child {
-  border-bottom: none;
-}
 /* line 243, ../sass/custom/_project.scss */
 .blockqueue-homepage-impact #block-views-infographics-block-1 {
   display: inline-block;
@@ -1045,10 +1047,6 @@ a, p, h2 {
   text-transform: uppercase;
   font-family: helvetica;
 }
-/* line 487, ../sass/custom/_project.scss */
-.blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child, .blockqueue-homepage-water .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child {
-  border-bottom: none;
-}
 /* line 495, ../sass/custom/_project.scss */
 .blockqueue-homepage-approach #block-menu-menu-approach, .blockqueue-homepage-approach #block-menu-menu-water, .blockqueue-homepage-water #block-menu-menu-approach, .blockqueue-homepage-water #block-menu-menu-water {
   padding: 0 40px 48px;
@@ -1183,10 +1181,6 @@ a, p, h2 {
   font-size: 13px;
   text-transform: uppercase;
   font-family: helvetica;
-}
-/* line 612, ../sass/custom/_project.scss */
-.blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .more-links ul li:last-child {
-  border-bottom: none;
 }
 /* line 620, ../sass/custom/_project.scss */
 .blockqueue-homepage-programs .main-krishak {
@@ -2316,7 +2310,7 @@ a, p, h2 {
 /* line 1578, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-title {
   position: absolute;
-  bottom: 20%;
+  bottom: 20.7%;
   font-size: 30px;
   color: #fff;
   text-align: center;
@@ -2327,7 +2321,7 @@ a, p, h2 {
 /* line 1588, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-description {
   position: absolute;
-  bottom: 10%;
+  bottom: 10.3%;
   font-size: 25px;
   width: 100%;
   text-align: center;
@@ -2478,25 +2472,34 @@ a, p, h2 {
   color: #43bfef;
 }
 
-/* line 1729, ../sass/custom/_project.scss */
+/*css for firefox for product page*/
+/* line 1731, ../sass/custom/_project.scss */
 .ff #block-idei-custom-products-gallery-tab-block .resp-tabs-list li.resp-tab-active:before {
   bottom: -11px;
+}
+/* line 1740, ../sass/custom/_project.scss */
+.ff #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-title {
+  bottom: 21%;
+}
+/* line 1743, ../sass/custom/_project.scss */
+.ff #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-description {
+  bottom: 10.4%;
 }
 
 /*-----------------css ends for product-page----------------*/
 /*-----------------css for approach-inner-pages----------------*/
-/* line 1740, ../sass/custom/_project.scss */
+/* line 1754, ../sass/custom/_project.scss */
 .approach-content-wrapper {
   display: inline-block;
   width: 100%;
 }
-/* line 1743, ../sass/custom/_project.scss */
+/* line 1757, ../sass/custom/_project.scss */
 .approach-content-wrapper .shift-image {
   display: inline-block;
   float: left;
   padding: 20px 23px 20px 0;
 }
-/* line 1748, ../sass/custom/_project.scss */
+/* line 1762, ../sass/custom/_project.scss */
 .approach-content-wrapper .approach-content {
   font-size: 16px;
   color: #6a6a6a;
@@ -2507,47 +2510,130 @@ a, p, h2 {
 
 /*-----------------css ends for approach-inner-pages----------------*/
 /*-----------------css for product-promotional-activity-page----------------*/
-/* line 1759, ../sass/custom/_project.scss */
+/* line 1773, ../sass/custom/_project.scss */
 .promotional-wrapper {
   width: 100%;
   display: inline-block;
   padding: 40px 40px 0;
 }
-/* line 1763, ../sass/custom/_project.scss */
+/* line 1777, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block {
   width: 70%;
   margin: 0 auto;
 }
-/* line 1766, ../sass/custom/_project.scss */
+/* line 1780, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block .activity-wrap {
   display: inline-block;
   width: 100%;
   padding-bottom: 30px;
 }
-/* line 1771, ../sass/custom/_project.scss */
+/* line 1785, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block .activity-img {
   float: left;
   width: 50%;
 }
-/* line 1775, ../sass/custom/_project.scss */
+/* line 1789, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block .activity-title-wrap {
   float: right;
   width: 50%;
   font-family: myriad-pro;
   margin-top: -9px;
 }
-/* line 1781, ../sass/custom/_project.scss */
+/* line 1795, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block .activity-title {
   font-size: 30px;
   color: #43bfef;
 }
-/* line 1785, ../sass/custom/_project.scss */
+/* line 1799, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block .activity-description {
   font-size: 16px;
   color: #6a6a6a;
 }
 
 /*-----------------css ends for product-promotional-activity-page----------------*/
+/*-----------------css for publication and annual-report-page----------------*/
+/* line 1808, ../sass/custom/_project.scss */
+.page-annual-report-page {
+  padding: 71px 0 0;
+}
+
+/* line 1811, ../sass/custom/_project.scss */
+.publication-listing {
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+/* line 1816, ../sass/custom/_project.scss */
+.pub-main-wrap {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+/* line 1821, ../sass/custom/_project.scss */
+.pub-img {
+  float: left;
+  width: 15%;
+  margin-top: -4px;
+  vertical-align: top;
+}
+
+/* line 1827, ../sass/custom/_project.scss */
+.pub-wrap {
+  float: left;
+  width: 85%;
+  border-top: 1px solid #6a6a6a;
+  padding-top: 10px;
+}
+/* line 1832, ../sass/custom/_project.scss */
+.pub-wrap .pub-title {
+  font-size: 28px;
+  font-family: myriad-pro;
+  color: #27579c;
+  font-weight: bold;
+  line-height: 1.2em;
+  padding-bottom: 20px;
+}
+/* line 1840, ../sass/custom/_project.scss */
+.pub-wrap .pub-desc {
+  font-size: 16px;
+  font-family: myriad-pro;
+  color: #6a6a6a;
+  padding-bottom: 30px;
+}
+/* line 1846, ../sass/custom/_project.scss */
+.pub-wrap .pub-download {
+  border: 2px solid #43bfef;
+  max-width: 180px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #43bfef;
+  padding: 8px 1px 7px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  box-shadow: 0px 4px 11px #6a6a6a;
+  -moz-box-shadow: 0px 4px 7px #6a6a6a;
+  -webkit-box-shadow: 0px 4px 11px #6a6a6a;
+  font-family: myriad-pro;
+}
+/* line 1862, ../sass/custom/_project.scss */
+.pub-wrap .pub-download a {
+  color: #43bfef;
+}
+/* line 1865, ../sass/custom/_project.scss */
+.pub-wrap .pub-download:hover {
+  background-color: #43bfef;
+  border: 2px solid #fff;
+}
+/* line 1868, ../sass/custom/_project.scss */
+.pub-wrap .pub-download:hover a {
+  color: #fff;
+}
+
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {
