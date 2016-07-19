@@ -84,7 +84,7 @@ function idei_main_custom_navigation() {
 
 function idei_custom_form_alter(&$form, &$form_state, $form_id) {
 
-  if($form_id == 'webform_client_form_67') {
+  if($form_id == 'webform_client_form_68') {
     $argument = $_REQUEST['nid'];
     $node = node_load($argument);
     $pdf_name = $node->field_publication_pdf['und'][0]['uri'];
