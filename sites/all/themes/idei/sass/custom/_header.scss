@@ -12,11 +12,14 @@
 		position: relative;
 		width: 100% !important;
 		margin: 0 auto !important;
-		max-width: 1025px !important;
 		.navbar-collapse.collapse {
- 			position: absolute;
-  			top: 46px;
-  			right: 10px;
+		left: 0;
+		margin: 0 auto;
+		max-width: 850px;
+		position: absolute;
+		right: 0;
+		top: 46px;
+		width: 100%;
 		}
 	  	.navbar-header{
 			width: 100% !important;
@@ -88,9 +91,6 @@
 		}
 		.navbar-collapse {
 		  padding: 0;
-		  .region-navigation {
-		  		padding-right: 28px;
-		 	}
 		}
 		.custom-navigation, #block-system-main-menu {
 			ul {

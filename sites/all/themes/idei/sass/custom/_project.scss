@@ -923,9 +923,11 @@
 	}
 }
 .title-body-wrapper {
+    display: block;
+	margin: 0 auto;
+	max-width: 1025px;
+	padding: 11px 40px 30px;
 	width: 100%;
-    display: inline-block;
-    padding: 11px 40px 30px;
     .wrap-title {
     	width: 40%;
     	float: left;
@@ -1052,8 +1054,10 @@
 	    margin-bottom: 13px;
     }
     .also-content {
-    	display: inline-block;
-    	width: 100%;
+		display: block;
+		margin: 0 auto;
+		max-width: 1025px;
+		width: 100%;
     	.views-row {
 		    width: 33%;
 		    float: left;
