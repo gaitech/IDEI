@@ -2582,8 +2582,45 @@ a:focus, p:focus, h2:focus {
   width: 100%;
   padding-bottom: 40px;
 }
+/* line 1834, ../sass/custom/_project.scss */
+.pub-main-wrap .views-field.views-field-php {
+  display: inline-block;
+  width: 85%;
+  float: right;
+}
+/* line 1838, ../sass/custom/_project.scss */
+.pub-main-wrap .views-field.views-field-php .pub-download {
+  border: 2px solid #43bfef;
+  max-width: 180px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #43bfef;
+  padding: 8px 1px 7px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  box-shadow: 0px 4px 11px #6a6a6a;
+  -moz-box-shadow: 0px 4px 7px #6a6a6a;
+  -webkit-box-shadow: 0px 4px 11px #6a6a6a;
+  font-family: myriad-pro;
+}
+/* line 1854, ../sass/custom/_project.scss */
+.pub-main-wrap .views-field.views-field-php .pub-download a {
+  color: #43bfef;
+}
+/* line 1857, ../sass/custom/_project.scss */
+.pub-main-wrap .views-field.views-field-php .pub-download:hover {
+  background-color: #43bfef;
+  border: 2px solid #fff;
+}
+/* line 1860, ../sass/custom/_project.scss */
+.pub-main-wrap .views-field.views-field-php .pub-download:hover a {
+  color: #fff;
+}
 
-/* line 1835, ../sass/custom/_project.scss */
+/* line 1867, ../sass/custom/_project.scss */
 .pub-img {
   float: left;
   width: 15%;
@@ -2591,14 +2628,14 @@ a:focus, p:focus, h2:focus {
   vertical-align: top;
 }
 
-/* line 1841, ../sass/custom/_project.scss */
+/* line 1873, ../sass/custom/_project.scss */
 .pub-wrap {
   float: left;
   width: 85%;
   border-top: 1px solid #6a6a6a;
   padding-top: 10px;
 }
-/* line 1846, ../sass/custom/_project.scss */
+/* line 1878, ../sass/custom/_project.scss */
 .pub-wrap .pub-title {
   font-size: 28px;
   font-family: myriad-pro;
@@ -2607,14 +2644,14 @@ a:focus, p:focus, h2:focus {
   line-height: 1.2em;
   padding-bottom: 20px;
 }
-/* line 1854, ../sass/custom/_project.scss */
+/* line 1886, ../sass/custom/_project.scss */
 .pub-wrap .pub-desc {
   font-size: 16px;
   font-family: myriad-pro;
   color: #6a6a6a;
   padding-bottom: 30px;
 }
-/* line 1860, ../sass/custom/_project.scss */
+/* line 1892, ../sass/custom/_project.scss */
 .pub-wrap .pub-download {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -2632,20 +2669,123 @@ a:focus, p:focus, h2:focus {
   -webkit-box-shadow: 0px 4px 11px #6a6a6a;
   font-family: myriad-pro;
 }
-/* line 1876, ../sass/custom/_project.scss */
+/* line 1908, ../sass/custom/_project.scss */
 .pub-wrap .pub-download a {
   color: #43bfef;
 }
-/* line 1879, ../sass/custom/_project.scss */
+/* line 1911, ../sass/custom/_project.scss */
 .pub-wrap .pub-download:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 1882, ../sass/custom/_project.scss */
+/* line 1914, ../sass/custom/_project.scss */
 .pub-wrap .pub-download:hover a {
   color: #fff;
 }
 
+/* line 1920, ../sass/custom/_project.scss */
+.pagination {
+  padding-bottom: 30px;
+}
+/* line 1922, ../sass/custom/_project.scss */
+.pagination .pager-first, .pagination .pager-last {
+  display: none;
+}
+/* line 1926, ../sass/custom/_project.scss */
+.pagination li a {
+  border: 1px solid #43bfef;
+  font-size: 16px;
+  color: #27579c;
+}
+/* line 1930, ../sass/custom/_project.scss */
+.pagination li a:hover, .pagination li a:focus {
+  background-color: #43bfef;
+  color: #fff;
+  border-color: #43bfef;
+}
+/* line 1936, ../sass/custom/_project.scss */
+.pagination li span {
+  border: 1px solid #43bfef;
+}
+/* line 1940, ../sass/custom/_project.scss */
+.pagination li.active span {
+  background-color: #43bfef;
+  color: #fff;
+  font-size: 18px;
+  padding: 4.5px 12px;
+  border-color: #43bfef;
+}
+/* line 1946, ../sass/custom/_project.scss */
+.pagination li.active span:hover {
+  background-color: #27579c;
+}
+
+/* line 1954, ../sass/custom/_project.scss */
+.webform-client-form-68 .webform-component {
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+}
+/* line 1958, ../sass/custom/_project.scss */
+.webform-client-form-68 .webform-component input.error {
+  border: 1.5px solid red !important;
+}
+/* line 1963, ../sass/custom/_project.scss */
+.webform-client-form-68 .webform-component.webform-component--email .control-label, .webform-client-form-68 .webform-component.webform-component--occupation .control-label {
+  height: 40px;
+}
+/* line 1967, ../sass/custom/_project.scss */
+.webform-client-form-68 .webform-component label {
+  color: #fff;
+}
+/* line 1969, ../sass/custom/_project.scss */
+.webform-client-form-68 .webform-component label .form-required {
+  color: red;
+}
+/* line 1974, ../sass/custom/_project.scss */
+.webform-client-form-68 .form-actions {
+  margin: 0 auto;
+  width: 107px;
+  margin-bottom: 10px;
+}
+/* line 1978, ../sass/custom/_project.scss */
+.webform-client-form-68 .form-actions .btn-default {
+  color: #27579c;
+  background-color: #fff;
+  font-family: myriad-pro;
+  font-size: 16px;
+}
+
+/* line 1987, ../sass/custom/_project.scss */
+.node-type-publications .alert-block {
+  display: none;
+}
+
+/* line 1991, ../sass/custom/_project.scss */
+article#node-68 {
+  background: #27579c;
+  border-radius: 5px;
+}
+/* line 1994, ../sass/custom/_project.scss */
+article#node-68 h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+/* line 1997, ../sass/custom/_project.scss */
+article#node-68 h2 a {
+  color: #fff;
+  pointer-events: none;
+}
+
+/* line 2003, ../sass/custom/_project.scss */
+#cboxClose {
+  background: url("../images/cross.png") no-repeat !important;
+  height: 37px !important;
+  width: 45px !important;
+  top: 6px;
+  right: 3px;
+}
+
+/*-----------------css ends for publication and annual-report-page----------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {
