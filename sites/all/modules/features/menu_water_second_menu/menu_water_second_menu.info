@@ -1,0 +1,12 @@
+name = Menu : Water second menu
+description = Menu : Water second menu
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = menu-water-second-menu
+features[menu_links][] = menu-water-second-menu_media:<front>
+features[menu_links][] = menu-water-second-menu_publications:node/62
+project path = sites/all/modules/features
