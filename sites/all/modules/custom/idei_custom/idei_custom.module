@@ -21,6 +21,9 @@ function idei_custom_block_info() {
   $blocks['Products_gallery_tab_block'] = array(
     'info' => t('Product Tab Block'),
   );
+  $blocks['water_inner_menu'] = array(
+    'info' => t('Water inner page custom menu'),
+  );
 
   return $blocks;
 }
@@ -43,9 +46,18 @@ function idei_custom_block_view($delta = '') {
     case 'Products_gallery_tab_block':
       $block['subject'] = '';
       $block['content'] = program_tab_block();
+      break;
+    case 'water_inner_menu':
+      $block['subject'] = '';
+      $block['content'] = water_inner_page_menu();
+      break;
   }
 
   return $block;
+}
+//function for water inner page menu
+function water_inner_page_menu(){
+  return theme('water_inner_menu');
 }
 
 function program_tab_block() {
@@ -74,6 +86,10 @@ function idei_custom_theme(){
     'program_tabs' => array(
      'template' =>'templates/program-tab-block',
     ),
+    'water_inner_menu' => array(
+     'template' =>'templates/water-inner-menu',
+    ),
+    
   );
   return $templates;
 }
