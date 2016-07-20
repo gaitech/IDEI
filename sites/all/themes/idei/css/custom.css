@@ -179,15 +179,11 @@ a:focus, p:focus, h2:focus {
 .navbar .container .navbar-collapse {
   padding: 0;
 }
-/* line 94, ../sass/custom/_header.scss */
-.navbar .container .navbar-collapse .region-navigation {
-  padding-right: 28px;
-}
-/* line 99, ../sass/custom/_header.scss */
+/* line 96, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation ul, .navbar .container #block-system-main-menu ul {
   margin-bottom: 0;
 }
-/* line 102, ../sass/custom/_header.scss */
+/* line 99, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li, .navbar .container #block-system-main-menu li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
@@ -197,37 +193,37 @@ a:focus, p:focus, h2:focus {
   font-size: 13px;
   font-family: myriad-pro;
 }
-/* line 110, ../sass/custom/_header.scss */
+/* line 107, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li:last-child, .navbar .container #block-system-main-menu li:last-child {
   padding-right: 0 !important;
   border: none;
 }
-/* line 114, ../sass/custom/_header.scss */
+/* line 111, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li:focus, .navbar .container #block-system-main-menu li:focus {
   outline: none;
 }
-/* line 117, ../sass/custom/_header.scss */
+/* line 114, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a, .navbar .container #block-system-main-menu li a {
   color: #6a6a6a;
   text-decoration: none;
   padding: 0;
 }
-/* line 121, ../sass/custom/_header.scss */
+/* line 118, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a:hover, .navbar .container #block-system-main-menu li a:hover {
   color: #43bfef;
   background-color: transparent;
 }
-/* line 125, ../sass/custom/_header.scss */
+/* line 122, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a:focus, .navbar .container #block-system-main-menu li a:focus {
   background-color: transparent;
 }
-/* line 128, ../sass/custom/_header.scss */
+/* line 125, ../sass/custom/_header.scss */
 .navbar .container .custom-navigation li a.active, .navbar .container #block-system-main-menu li a.active {
   color: #43bfef;
   border-bottom: 2px solid #43bfef;
   padding-bottom: 0.7px;
 }
-/* line 138, ../sass/custom/_header.scss */
+/* line 135, ../sass/custom/_header.scss */
 .navbar #block-menu-menu-impact, .navbar #block-idei-custom-programs-custom-menu,
 .navbar #block-idei-custom-water-inner-menu {
   width: 100%;
@@ -237,14 +233,14 @@ a:focus, p:focus, h2:focus {
   border-top: 1px solid #9d9d9d;
   box-shadow: 0 4px 11px #ccc;
 }
-/* line 145, ../sass/custom/_header.scss */
+/* line 142, ../sass/custom/_header.scss */
 .navbar #block-menu-menu-impact ul, .navbar #block-idei-custom-programs-custom-menu ul,
 .navbar #block-idei-custom-water-inner-menu ul {
   text-align: center;
   padding: 3px 0;
   margin-bottom: 0;
 }
-/* line 149, ../sass/custom/_header.scss */
+/* line 146, ../sass/custom/_header.scss */
 .navbar #block-menu-menu-impact ul li, .navbar #block-idei-custom-programs-custom-menu ul li,
 .navbar #block-idei-custom-water-inner-menu ul li {
   border-right: 1px solid #6a6a6a;
@@ -256,52 +252,52 @@ a:focus, p:focus, h2:focus {
   text-transform: uppercase;
   vertical-align: middle;
 }
-/* line 158, ../sass/custom/_header.scss */
+/* line 155, ../sass/custom/_header.scss */
 .navbar #block-menu-menu-impact ul li:focus, .navbar #block-idei-custom-programs-custom-menu ul li:focus,
 .navbar #block-idei-custom-water-inner-menu ul li:focus {
   outline: none;
 }
-/* line 161, ../sass/custom/_header.scss */
+/* line 158, ../sass/custom/_header.scss */
 .navbar #block-menu-menu-impact ul li:last-child, .navbar #block-idei-custom-programs-custom-menu ul li:last-child,
 .navbar #block-idei-custom-water-inner-menu ul li:last-child {
   border-right: none;
   padding-right: 0;
 }
-/* line 165, ../sass/custom/_header.scss */
+/* line 162, ../sass/custom/_header.scss */
 .navbar #block-menu-menu-impact ul li a, .navbar #block-idei-custom-programs-custom-menu ul li a,
 .navbar #block-idei-custom-water-inner-menu ul li a {
   color: #6a6a6a;
   text-decoration: none;
   padding: 0;
 }
-/* line 169, ../sass/custom/_header.scss */
+/* line 166, ../sass/custom/_header.scss */
 .navbar #block-menu-menu-impact ul li a:hover, .navbar #block-idei-custom-programs-custom-menu ul li a:hover,
 .navbar #block-idei-custom-water-inner-menu ul li a:hover {
   color: #43bfef;
   background-color: transparent;
 }
-/* line 173, ../sass/custom/_header.scss */
+/* line 170, ../sass/custom/_header.scss */
 .navbar #block-menu-menu-impact ul li a:focus, .navbar #block-idei-custom-programs-custom-menu ul li a:focus,
 .navbar #block-idei-custom-water-inner-menu ul li a:focus {
   background-color: transparent;
 }
-/* line 176, ../sass/custom/_header.scss */
+/* line 173, ../sass/custom/_header.scss */
 .navbar #block-menu-menu-impact ul li a.active, .navbar #block-idei-custom-programs-custom-menu ul li a.active,
 .navbar #block-idei-custom-water-inner-menu ul li a.active {
   color: #43bfef;
   border-bottom: 2px solid #43bfef;
 }
-/* line 181, ../sass/custom/_header.scss */
+/* line 178, ../sass/custom/_header.scss */
 .navbar #block-menu-menu-impact ul li:first-child, .navbar #block-idei-custom-programs-custom-menu ul li:first-child,
 .navbar #block-idei-custom-water-inner-menu ul li:first-child {
   font-size: 15px;
 }
-/* line 183, ../sass/custom/_header.scss */
+/* line 180, ../sass/custom/_header.scss */
 .navbar #block-menu-menu-impact ul li:first-child a, .navbar #block-idei-custom-programs-custom-menu ul li:first-child a,
 .navbar #block-idei-custom-water-inner-menu ul li:first-child a {
   color: #43bfef;
 }
-/* line 190, ../sass/custom/_header.scss */
+/* line 187, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block, .navbar .second-views-menu {
   width: 100%;
   background-color: #fff;
@@ -310,17 +306,17 @@ a:focus, p:focus, h2:focus {
   border-top: 1px solid #9d9d9d;
   box-shadow: 0 4px 11px #ccc;
 }
-/* line 197, ../sass/custom/_header.scss */
+/* line 194, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu, .navbar #block-views-product-menu-block .view, .navbar .second-views-menu .view-product-menu, .navbar .second-views-menu .view {
   width: 100%;
   display: inline-block;
   padding: 3px 0;
 }
-/* line 201, ../sass/custom/_header.scss */
+/* line 198, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content, .navbar #block-views-product-menu-block .view .view-content, .navbar .second-views-menu .view-product-menu .view-content, .navbar .second-views-menu .view .view-content {
   text-align: center;
 }
-/* line 203, ../sass/custom/_header.scss */
+/* line 200, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row, .navbar #block-views-product-menu-block .view .view-content .views-row, .navbar .second-views-menu .view-product-menu .view-content .views-row, .navbar .second-views-menu .view .view-content .views-row {
   display: inline-block;
   border-right: 1px solid #6a6a6a;
@@ -331,30 +327,30 @@ a:focus, p:focus, h2:focus {
   text-transform: uppercase;
   vertical-align: middle;
 }
-/* line 212, ../sass/custom/_header.scss */
+/* line 209, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row:last-child, .navbar #block-views-product-menu-block .view .view-content .views-row:last-child, .navbar .second-views-menu .view-product-menu .view-content .views-row:last-child, .navbar .second-views-menu .view .view-content .views-row:last-child {
   border-right: none;
 }
-/* line 215, ../sass/custom/_header.scss */
+/* line 212, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a, .navbar #block-views-product-menu-block .view .view-content .views-row a, .navbar .second-views-menu .view-product-menu .view-content .views-row a, .navbar .second-views-menu .view .view-content .views-row a {
   color: #6a6a6a;
   text-decoration: none;
 }
-/* line 218, ../sass/custom/_header.scss */
+/* line 215, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:hover, .navbar #block-views-product-menu-block .view .view-content .views-row a:hover, .navbar .second-views-menu .view-product-menu .view-content .views-row a:hover, .navbar .second-views-menu .view .view-content .views-row a:hover {
   color: #43bfef;
   background-color: transparent;
 }
-/* line 222, ../sass/custom/_header.scss */
+/* line 219, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:focus, .navbar #block-views-product-menu-block .view .view-content .views-row a:focus, .navbar .second-views-menu .view-product-menu .view-content .views-row a:focus, .navbar .second-views-menu .view .view-content .views-row a:focus {
   background-color: transparent;
 }
-/* line 225, ../sass/custom/_header.scss */
+/* line 222, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a.active, .navbar #block-views-product-menu-block .view .view-content .views-row a.active, .navbar .second-views-menu .view-product-menu .view-content .views-row a.active, .navbar .second-views-menu .view .view-content .views-row a.active {
   color: #43bfef;
   border-bottom: 2px solid #43bfef;
 }
-/* line 231, ../sass/custom/_header.scss */
+/* line 228, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .block-title, .navbar #block-views-product-menu-block .view .view-content .block-title, .navbar .second-views-menu .view-product-menu .view-content .block-title, .navbar .second-views-menu .view .view-content .block-title {
   display: inline-block;
   border-right: 1px solid #6a6a6a;
@@ -370,12 +366,12 @@ a:focus, p:focus, h2:focus {
 }
 
 /*css for ie */
-/* line 254, ../sass/custom/_header.scss */
+/* line 251, ../sass/custom/_header.scss */
 .ie .navbar .container .navbar-header .logo {
   padding: 0 0 0 75px;
 }
 
-/* line 268, ../sass/custom/_header.scss */
+/* line 265, ../sass/custom/_header.scss */
 #home-block-block-2:before,
 #home-block-block-3:before,
 #home-block-block-4:before,
@@ -389,7 +385,7 @@ a:focus, p:focus, h2:focus {
   visibility: hidden;
 }
 
-/* line 278, ../sass/custom/_header.scss */
+/* line 275, ../sass/custom/_header.scss */
 #program-1:before, #program-2:before,
 #program-3:before, #program-4:before,
 #program-5:before, #program-6:before,
