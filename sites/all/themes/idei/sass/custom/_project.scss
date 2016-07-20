@@ -232,9 +232,9 @@
 						    text-transform: uppercase;
 						    font-family: helvetica;
 						}
-						&:last-child {
-							border-bottom: none;
-						}
+						// &:last-child {
+						// 	border-bottom: none;
+						// }
 					}	
 				}
 			}
@@ -484,9 +484,9 @@
 						    text-transform: uppercase;
 						    font-family: helvetica;
 						}
-						&:last-child {
-							border-bottom: none;
-						}
+						// &:last-child {
+						// 	border-bottom: none;
+						// }
 					}	
 				}
 			}
@@ -609,9 +609,9 @@
 						    text-transform: uppercase;
 						    font-family: helvetica;
 						}
-						&:last-child {
-							border-bottom: none;
-						}
+						// &:last-child {
+						// 	border-bottom: none;
+						// }
 					}	
 				}
 			}
@@ -1577,7 +1577,7 @@
     			}
     			.field-name-field-title {
     				position: absolute;
-				    bottom: 20%;
+				    bottom: 20.7%;
 				    font-size: 30px;
 				    color: #fff;
 				    text-align: center;
@@ -1587,7 +1587,7 @@
     			}
     			.field-name-field-description {
     				position: absolute;
-				    bottom: 10%;
+				    bottom: 10.3%;
 				    font-size: 25px;
 				    width: 100%;
 				    text-align: center;
@@ -1721,6 +1721,8 @@
 	    }
 	}
 }
+
+/*css for firefox for product page*/
 .ff {
 	#block-idei-custom-products-gallery-tab-block {
 		.resp-tabs-list {
@@ -1728,6 +1730,18 @@
 				&.resp-tab-active {
 					&:before {
 						bottom: -11px;
+					}
+				}
+			}
+		}
+		.resp-tabs-container {
+			.jcarousel-skin-tango {
+				.jcarousel-item {
+					.field-name-field-title {
+						bottom: 21%;
+					}
+					.field-name-field-description {
+						bottom: 10.4%;
 					}
 				}
 			}
@@ -1789,3 +1803,85 @@
 	}
 }
 /*-----------------css ends for product-promotional-activity-page----------------*/
+
+/*-----------------css for publication and annual-report-page----------------*/
+.page-annual-report-page {
+	.main-container {
+		padding: 71px 0 0;
+	}
+	.view-header-banner {
+		.view-content {
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.view-content {
+		width: 70%;
+	    margin: 0 auto;
+	    padding: 40px 0;
+	}
+}
+.publication-listing {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.pub-main-wrap {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.pub-img {
+    float: left;
+    width: 15%;
+    margin-top: -4px;
+    vertical-align: top;
+}
+.pub-wrap {
+    float: left;
+    width: 85%;
+    border-top: 1px solid #6a6a6a;
+    padding-top: 10px;
+    .pub-title {
+        font-size: 28px;
+        font-family: myriad-pro;
+        color: #27579c;
+        font-weight: bold;
+        line-height: 1.2em;
+        padding-bottom: 20px;
+    }
+    .pub-desc {
+        font-size: 16px;
+        font-family: myriad-pro;
+        color: #6a6a6a;
+        padding-bottom: 30px;
+    }
+    .pub-download {
+	    border: 2px solid #43bfef;
+	    max-width: 180px;
+	    width: 100%;
+	    text-align: center;
+	    font-size: 16px;
+	    text-transform: uppercase;
+	    color: #43bfef;
+	    padding: 8px 1px 7px;
+	    display: inline-block;
+	    vertical-align: middle;
+	    cursor: pointer;
+	    box-shadow: 0px 4px 11px #6a6a6a;
+	    -moz-box-shadow: 0px 4px 7px #6a6a6a;
+	    -webkit-box-shadow: 0px 4px 11px #6a6a6a;
+	    font-family: myriad-pro;
+	    a {
+	    	color: #43bfef;
+	    }
+	    &:hover {
+    	    background-color: #43bfef;
+			border: 2px solid #fff;
+			a {
+				color: #fff;
+			}
+	    }
+	}
+}

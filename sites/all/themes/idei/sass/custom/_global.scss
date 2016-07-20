@@ -28,6 +28,10 @@ body{
 }
 a, p, h2 {
 	font-family: myriad-pro;
+  text-decoration: none !important;
+  &:focus {
+    outline: none !important
+  }
 }
 
 .main-container {
