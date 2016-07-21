@@ -1813,23 +1813,28 @@
 	.main-container {
 		padding: 71px 0 0;
 	}
-	.view-header-banner {
-		.view-content {
-			width: 100%;
-			margin: 0;
-			padding: 0;
-		}
-	}
-	.view-content {
-		width: 70%;
+
+	.view-annual-report-page {
+	  .view-header-banner {
+	    .view-content {
+	      width: 100%;
+	      max-width: 100% !important;
+	      margin: 0 auto;
+	    }
+	  }
+	  .view-content {
+	    width: 100%;
+	    max-width: 1025px;
 	    margin: 0 auto;
-	    padding: 40px 0;
+	  }
 	}
+
 }
 .publication-listing {
-    width: 70%;
-    margin: 0 auto;
-    padding: 40px 0;
+	margin: 0 auto;
+	max-width: 1025px;
+	padding: 40px 0;
+	width: 100%;
 }
 .pub-main-wrap {
     display: inline-block;
