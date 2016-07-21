@@ -1,6 +1,13 @@
 /*---------------------------------css for homepage---------------------------------*/
 /*css for homepage-slider*/
-
+.view-homepage-slideshow {
+	.views_slideshow_cycle_teaser_section {
+		width: 100% !important;
+		.views-slideshow-cycle-main-frame-row {
+			width: 100% !important;
+		}
+	}
+}
 .slide-wrapper {
   position: relative;
   	.slide-image {
@@ -54,7 +61,7 @@
 			    padding-right: 8px;
 			    a {
 			    	color: #31343e;
-				    font-family: myraid-pro;
+				    font-family: sans-serif !important;
 				    font-size: 12px;
 				    margin: 0;
 				    text-decoration: none;
@@ -91,33 +98,38 @@
 #block-blockqueue-homepage-its-all-about-water {
 	display: inline-block;
     width: 100%;
-    padding: 36px 0 41px;
+    padding: 50px 0 60px;
     .view-homepage-content {
-    	width: 55%;
+    	width: 80%;
     	text-align: center;
     	margin: 0 auto;
     	.views-field-title {
-    		font-size: 23px;
+    		font-size: 36px;
 		    color: #43BFEF;
-		    font-family: helvetica;
+		    font-family: myriad-pro;
 		    font-weight: bold;
-		    padding-bottom: 10px;
+		    padding-bottom: 20px;
     	}
     	.views-field-body {
     		font-size: 16px;
 		    color: #6a6a6a;
-		    font-family: myraid-pro;
+		    font-family: myriad-pro;
 		    margin-top: -5px;
-		    line-height: 1.2em;
+		    line-height: 1.5em;
     	}
     }
     #block-views-infographics-block {
     	width: 100%;
-    	display: inline-block;
-    	padding-top: 21px;
+    	max-width: 850px;
+    	padding-top: 30px;
+    	margin: 0 auto;
 	    .view-infographics {
-	    	width: 80%;
-	        margin: 0 auto;
+	    	// width: 80%;
+	     //    margin: 0 auto;
+	        .view-content {
+	        	display: inline-block;
+	        	width: 100%;
+	        }
 	        ul {
 	        	list-style: none;
 	        	li {
@@ -127,6 +139,7 @@
    					height: 130px;
    					background-repeat: no-repeat;
    					margin-right: 3%;
+   					background-position: center;
    					&:last-child {
    						margin-right: 0;
    					}
@@ -182,7 +195,7 @@
     		}
     	}
     	.impact-content-wrapper {
-    		padding: 33px 40px 0px;
+    		padding: 65px 40px 0px;
     		display: inline-block;
     		width: 100%;
     		.homepage-block-title {
@@ -207,7 +220,7 @@
     			float: left;
     			p {
     				padding: 0 15px;
-    				line-height: 1.2em;
+    				line-height: 1.5em;
     				text-align: justify;
     			}
 			    a {
@@ -230,7 +243,8 @@
 						    color: #1C1C1B;
 						    font-size: 13px;
 						    text-transform: uppercase;
-						    font-family: helvetica;
+						    font-family: sans-serif;
+						    font-weight: 600;
 						}
 						// &:last-child {
 						// 	border-bottom: none;
@@ -242,15 +256,15 @@
     }
     #block-views-infographics-block-1 {
     	display: inline-block;
-	    width: 100%; 
-	    margin-top: -19px;  
+	    width: 100%;  
+	    padding-bottom: 53px;
 	    h2 {
 	    	font-size: 19px;
-		    font-family: helvetica;
+		    font-family: sans-serif;
 		    color: #7b7c7c;
 		    font-weight: bold;
 		    margin-top: 0;
-		    width: 30%;
+		    width: 290px;
 		    padding: 0 40px 0;
 		    position: relative;
 		    &:before {
@@ -258,20 +272,20 @@
 			    position: absolute;
 			    background-color: #aaacaf;
 			    height: 16px;
-			    width: 90px;
+			    width: 95px;
 			    top: 42px;
 		    }
 	    }
 	    .view-infographics {
-	    	width: 80%;
+	    	width: 100%;
     		margin: 0 auto;
+    		max-width: 850px;
     		ul {
     			list-style: none;
 			    padding: 0;
 			    display: inline-block;
 			    width: 100%;
 			    margin-left: 49px;
-    			margin-top: -9px;
 			    li {
 			    	float: left;
     				width: 20.4%;
@@ -285,6 +299,7 @@
 					    background-image: url("../images/water.jpg");
 					    height: 129px;
 					    background-repeat: no-repeat;
+					    background-position: center;
 					    .field-item{
 							&:nth-child(1) {
 								p {
@@ -434,7 +449,7 @@
     		}
     	}
     	.impact-content-wrapper {
-    		padding: 33px 40px 0px;
+    		padding: 65px 40px 0px;
     		display: inline-block;
     		width: 100%;
     		.homepage-block-title {
@@ -459,7 +474,7 @@
     			float: left;
     			p {
     				padding: 0 15px;
-    				line-height: 1.2em;
+    				line-height: 1.5em;
     				text-align: justify;
     			}
 			    a {
@@ -482,7 +497,8 @@
 						    color: #1C1C1B;
 						    font-size: 13px;
 						    text-transform: uppercase;
-						    font-family: helvetica;
+						    font-family: sans-serif;
+						    font-weight: 600;
 						}
 						// &:last-child {
 						// 	border-bottom: none;
@@ -493,12 +509,12 @@
     	}
     }
     #block-menu-menu-approach, #block-menu-menu-water {
-    	padding: 0 40px 48px;
+    	padding: 0 40px 58px;
     	display: inline-block;
     	width: 100%;
     	h2 {
 	    	font-size: 19px;
-		    font-family: helvetica;
+		    font-family: sans-serif;
 		    color: #7b7c7c;
 		    font-weight: bold;
 		    width: 26%;
@@ -560,7 +576,7 @@
     		}
     	}
     	.impact-content-wrapper {
-    		padding: 33px 0px 0px 40px;
+    		padding: 65px 0px 0px 40px;
     		display: inline-block;
     		width: 100%;
     		.homepage-block-title {
@@ -585,7 +601,7 @@
     			float: left;
     			p {
     				padding: 0 15px;
-    				line-height: 1.2em;
+    				line-height: 1.5em;
     				text-align: justify;
     			}
 			    a {
@@ -607,7 +623,8 @@
 						    color: #1C1C1B;
 						    font-size: 13px;
 						    text-transform: uppercase;
-						    font-family: helvetica;
+						    font-family: sans-serif;
+						    font-weight: 600;
 						}
 						// &:last-child {
 						// 	border-bottom: none;
@@ -620,14 +637,13 @@
     .main-krishak {
     	display: inline-block;
     	width: 100%;
-    	margin-top: -18px;
     	.krishak-logo {
     		width: 28.6%;
     		float: left;
     		img {
     			float: right;
-			    margin-right: 66px;
-			    margin-top: -34px;
+			    margin-right: 10px;
+			    margin-top: -8px;
     		}
     	}
     	.krishak-body {
@@ -636,7 +652,7 @@
     		font-size: 16px;
     		font-family: myriad-pro;
     		color: #6a6a6a;
-    		line-height: 1.2em;
+    		line-height: 1.5em;
     		text-align: justify;
     		.krishak-title {
     			float: left;
@@ -650,15 +666,15 @@
     	}
     }
     #block-menu-menu-programs {
-    	padding: 0 0px 46px 40px;
+    	padding: 0 0px 74px 40px;
     	display: inline-block;
     	width: 100%;
     	h2 {
 	    	font-size: 19px;
-		    font-family: helvetica;
+		    font-family: sans-serif;
 		    color: #7b7c7c;
 		    font-weight: bold;
-		    width: 17%;
+		    width: 210px;
 		    position: relative;
 		    float: left;
 		    &:before {
@@ -666,25 +682,27 @@
 			    position: absolute;
 			    background-color: #aaacaf;
 			    height: 16px;
-			    width: 82px;
+			    width: 92px;
 			    top: 42px;
 		    }
 	    }
 	    .content {
-	    	width: 82%;
-	    	float: left;
-	    	display: inline-block;
-	    	margin-top: 48px;
-	    	position: relative;
-	    	left: 83px;
+	    	// float: left;
+	    	// display: inline-block;
+	    	// margin-top: 48px;
+	    	// position: relative;
+	    	// left: 83px;
+	    	    max-width: 50%;
+			    margin: 48px auto 0;
+			    width: 100%;
 	    	li {
 	    		float: left;
 	    		background-image: url("../images/programs-1.jpg");
 			    background-repeat: no-repeat;
 			    background-position: 0% 63%;
 			    height: 38px;
-			    padding-right: 24px;
-			    max-width: 160px;
+			    // padding-right: 24px;
+			    max-width: 150px;
 			    width: 100%;
 			    a {
 	    			font-size: 21px;
@@ -722,6 +740,11 @@
 #block-views-awards-slider-block {
 	width: 100%;
 	display: inline-block;
+	background-color: #E6E6FA;
+	.view-awards-slider {
+		max-width: 1025px;
+		margin: 0 auto;
+	}
 	.jcarousel-skin-default {
 		.jcarousel-container-horizontal {
 		    width: 100% !important;
@@ -781,7 +804,7 @@
 .blockqueue-partners {
 	.view-homepage-content {
 		.homepage-impact-wrapper {
-			padding: 70px 0px 0px 40px;
+			padding: 85px 0px 0px 40px;
     		display: inline-block;
     		width: 100%;
     		.homepage-block-title {
@@ -806,7 +829,7 @@
     			float: left;
     			p {
     				padding: 0 40px 0 9px;
-    				line-height: 1.2em;
+    				line-height: 1.5em;
     				text-align: justify;
     			}
 			    a {
@@ -835,12 +858,12 @@
 	}
 
 	#block-views-awards-slider-block-1 {
-		padding: 14px 40px 40px;
+		padding: 14px 40px 57px;
     	display: inline-block;
     	width: 100%;
     	h2 {
 	    	font-size: 19px;
-		    font-family: helvetica;
+		    font-family: sans-serif;
 		    color: #7b7c7c;
 		    font-weight: bold;
 		    width: 26%;
@@ -974,7 +997,7 @@
 				    font-family: myriad-pro;
 				    color: #aaacaf;
 				    padding-right: 6px;
-				    line-height: 1.2em;
+				    line-height: 1.5em;
 				    position: relative;
 				    top: -21px;
 			    }
@@ -988,7 +1011,7 @@
     		font-size: 16px;
 		    color: #6a6a6a;
 		    width: 100%;
-		    line-height: 1.2em;
+		    line-height: 1.5em;
 		    margin-bottom: 20px;
 		    a {
 		    	color: #43bfef;
@@ -1005,7 +1028,7 @@
 			    font-family: myriad-pro;
 			    position: relative;
 			    padding-left: 20px;
-			    line-height: 1.2em;
+			    line-height: 1.5em;
 			    &:before {
 			    	content: "";
 				    position: absolute;
@@ -1034,7 +1057,7 @@
 			    color: #2a569b;
 			    font-family: myriad-pro;
 			    font-weight: bold;
-			    line-height: 1.2em;
+			    line-height: 1.5em;
     		}
     	}
     }
@@ -1136,7 +1159,7 @@
 	    border-right: 2px solid #27579c;
 	    height: 110px;
 	    text-align: center;
-	    line-height: 1.2em;
+	    line-height: 1.5em;
 	    margin-top: 20px;
     }
     .field-name-field-graph-body-title {
@@ -1158,7 +1181,7 @@
 	    p {
 	    	font-size: 34px;
 	    	color: #6a6a6a;
-	    	line-height: 1.2em;
+	    	line-height: 1.5em;
 	    	text-align: center;
 	    }
     }
@@ -1166,7 +1189,7 @@
     	font-size: 16px;
     	font-family: myriad-pro;
     	color: #6a6a6a;
-    	line-height: 1.2em;
+    	line-height: 1.5em;
     	text-align: justify;
     	a {
     		text-decoration: none;
@@ -1178,7 +1201,7 @@
     	font-family: myriad-pro;
     	color: #6a6a6a;
     	padding-top: 28px;
-    	line-height: 1.2em;
+    	line-height: 1.5em;
     	text-align: justify;
     }
     .field-name-field-description-image {
@@ -1217,7 +1240,7 @@
     p {
     	font-size: 16px;
 	    color: #6a6a6a;
-	    line-height: 1.2em;
+	    line-height: 1.5em;
     }
 }
 .program-text-wrap {
@@ -1238,7 +1261,7 @@
 	    margin: 0 auto;
 	    font-size: 16px;
 	    font-family: myriad-pro;
-	    line-height: 1.2em;
+	    line-height: 1.5em;
     }
 }
 #block-views-programs-list-block-2, #block-views-programs-list-block-4,
@@ -1288,7 +1311,7 @@
 		.technology-body {
 			font-size: 16px;
 		    color: #6a6a6a;
-		    line-height: 1.2em;
+		    line-height: 1.5em;
 		    font-family: myriad-pro;
 		    padding-bottom: 30px;
 		}
@@ -1340,7 +1363,7 @@
 			    border-bottom: 1px solid #27579c;
 			    font-size: 16px;
 			    margin-bottom: 5px;
-			    line-height: 1.2em;
+			    line-height: 1.5em;
 			    &:empty {
 			    	display: none;
 			    }
@@ -1352,7 +1375,7 @@
     			padding: 0 10px;
     			color: #43bfef;
     			font-family: myriad-pro;
-    			line-height: 1.2em;
+    			line-height: 1.5em;
     			&:empty {
     				display: none;
     			}
@@ -1416,7 +1439,7 @@
     margin: 0 auto;
     text-align: center;
     padding: 40px 0 5px;
-    line-height: 1.2em;
+    line-height: 1.5em;
     color: #43bfef;
     font-family: myriad-pro;
     text-transform: uppercase;
@@ -1428,7 +1451,7 @@
     font-size: 16px;
     font-family: myriad-pro;
     color: #6a6a6a;
-    line-height: 1.2em;
+    line-height: 1.5em;
     padding-bottom: 40px;
 }
 .detail-product-applications-wrap {
@@ -1442,7 +1465,7 @@
 		    font-size: 30px;
 		    font-family: myriad-pro;
 		    color: #43bfef;
-		    line-height: 1.2em;
+		    line-height: 1.5em;
     		margin-top: -13px;
     		padding-bottom: 5px;
 		}
@@ -1450,7 +1473,7 @@
 		    font-size: 16px;
 		    color: #6a6a6a;
 		    font-family: myriad-pro;
-		    line-height: 1.2em;
+		    line-height: 1.5em;
 		}
 	}
 }
@@ -1463,7 +1486,7 @@
     font-size: 30px;
     color: #43bfef;
     font-family: myriad-pro;
-    line-height: 1.2em;
+    line-height: 1.5em;
 }
 .detail-product-specification {
     width: 80%;
@@ -1766,7 +1789,7 @@
 	.approach-content {
 	    font-size: 16px;
 	    color: #6a6a6a;
-	    line-height: 1.2em;
+	    line-height: 1.5em;
 	    padding-top: 18px;
 	    text-align: justify;
 	}
@@ -1889,7 +1912,7 @@
         font-family: myriad-pro;
         color: #27579c;
         font-weight: bold;
-        line-height: 1.2em;
+        line-height: 1.5em;
         padding-bottom: 20px;
     }
     .pub-desc {
