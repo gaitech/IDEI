@@ -11,7 +11,7 @@
     src: url("../fonts/helvetica.ttf"), url("../fonts/helvetica.woff");
 }
 @font-face {
-  font-family:myriad-pro;
+  font-family:OpenSans;
   src: url("../fonts/OpenSans-Regular.ttf"), url("../fonts/OpenSans-Regular.woff");
 }
 @font-face {
@@ -27,7 +27,7 @@ body{
 	background: #F0F0F0;
 }
 a, p, h2 {
-	font-family: myriad-pro;
+	font-family: OpenSans;
   text-decoration: none !important;
   &:focus {
     outline: none !important

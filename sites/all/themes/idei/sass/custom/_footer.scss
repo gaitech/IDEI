@@ -13,7 +13,7 @@
   }
   .region-footer {
     padding: 0 0 0 58px;
-    max-width: 1025px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
   }
@@ -31,7 +31,7 @@
   		margin-bottom: 5px;
   		 a {
   	  	color: #71716C;
-  	  	font-family: myriad-pro;
+  	  	font-family: OpenSans;
   	  	font-size: 15px;
   	  	padding: 0 !important;
   	  	font-weight: bold;
@@ -59,11 +59,11 @@
   			li {
           padding-bottom: 5px;
           list-style: none;
-          font-family: myriad-pro;
+          font-family: OpenSans;
           a {
             color: #71716C;
             font-weight: bold;
-            font-family: myriad-pro;
+            font-family: OpenSans;
             font-size: 15px;
           }
  					&:nth-of-type(1){
@@ -99,7 +99,7 @@
 		  	color: #fff;
 			font-size: 15px;
 			padding-top: 18px;
-			font-family: myriad-pro;
+			font-family: OpenSans;
 			font-weight: bold;
 			padding-bottom: 5px;
 		}
@@ -111,7 +111,7 @@
 			li {
 				font-size: 14px;
 				margin-bottom: 5px;
-				font-family: myriad-pro;
+				font-family: OpenSans;
 				color:#71716C;
 				font-weight: bold;
 			}
@@ -143,7 +143,7 @@
   	&:nth-of-type(1) {
   		color: #43bfef;
   		width: 62%;
-  		font-family: myriad-pro;
+  		font-family: OpenSans;
   		font-size: 13px;
   		text-transform: uppercase;
   		float: left;
@@ -151,7 +151,7 @@
 		 &:nth-of-type(2) {
   		color: #fff;
   		width: 36%;
-  		font-family: myriad-pro;
+  		font-family: OpenSans;
   		font-size: 10px;
   		float: right;
 		}
