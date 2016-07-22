@@ -13,13 +13,13 @@
 		width: 100% !important;
 		margin: 0 auto !important;
 		.navbar-collapse.collapse {
-		left: 0;
-		margin: 0 auto;
-		max-width: 900px;
-		position: absolute;
-		right: 0;
-		top: 46px;
-		width: 100%;
+			// left: 0;
+			// margin: 0 auto;
+			// max-width: 900px;
+			position: absolute;
+			// right: 0;
+			top: 46px;
+			width: 100%;
 		}
 	  	.navbar-header{
 			width: 100% !important;
@@ -47,7 +47,7 @@
 					    border: 1px solid #43bfef;
 					    color: #43bfef;
 					    font-size: 12px;
-					    font-family: myriad-pro;
+					    font-family: OpenSans;
 					    margin-top: 3px;
 					}
 					::-webkit-input-placeholder {
@@ -92,9 +92,14 @@
 		.navbar-collapse {
 		  padding: 0;
 		}
+		#block-idei-custom-home-custom-menu {
+			display: table;
+			margin: 0 auto;
+		}
 		.custom-navigation, #block-system-main-menu {
 			ul {
 				margin-bottom: 0;
+				padding: 0;
 			}
 		  	li {
 				border-right: 1px solid #6a6a6a;
@@ -103,7 +108,7 @@
 				padding-left: 11px;
 				padding-right: 11px;
 				font-size: 13px;
-				font-family: myriad-pro;
+				font-family: OpenSans;
 				&:last-child {
 					padding-right: 0 !important;
 					border: none;
@@ -149,7 +154,7 @@
 				padding-left: 11px;
 				padding-right: 11px;
 				font-size: 13px;
-				font-family: myriad-pro;
+				font-family: OpenSans;
 				text-transform: uppercase;
 				vertical-align: middle;
 				&:focus {
@@ -203,7 +208,7 @@
 				    padding-left: 11px;
 				    padding-right: 11px;
 				    font-size: 13px;
-				    font-family: myriad-pro;
+				    font-family: OpenSans;
 				    text-transform: uppercase;
 				    vertical-align: middle;
 				    &:last-child {
@@ -231,7 +236,7 @@
 				    padding-left: 11px;
 				    padding-right: 11px;
 				    font-size: 15px;
-				    font-family: myriad-pro;
+				    font-family: OpenSans;
 				    text-transform: uppercase;
 				    vertical-align: middle;
 				    color: #43bfef;
