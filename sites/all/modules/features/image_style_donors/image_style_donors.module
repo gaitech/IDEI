@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Image style : Donors feature.
+ */
+
+include_once 'image_style_donors.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the content type : Donors feature.
+ */
+
+include_once 'content_type_donors.features.inc';

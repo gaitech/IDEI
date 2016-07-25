@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View: Donors feature.
+ */
+
+include_once 'view_donors.features.inc';
