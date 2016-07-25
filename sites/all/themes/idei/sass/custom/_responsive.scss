@@ -73,8 +73,12 @@
     					padding: 7px 0 2px 5px;
     					background: #45C0F0;
     					margin: 10px 0;
+    					width: 150px;
     					a {
     					  	color: #fff;
+    					  	&.active {
+    					  		border-bottom: none;
+    					  	}
     					}
     				}
 			    }
@@ -113,12 +117,12 @@
 	/*-----------------------*/
 	#block-views-ticker-block {
 		h2 {
-			width: 155px;
-		   	font-size: 13px;
-		    padding: 7.3px 0px 3.5px 12px;
+			width: 172px;
+			font-size: 13px;
+			padding: 7.3px 0px 3.5px 5px;
 		}
 		.liScroll-container {
-			width: 50.2%;
+			width: 45%;
 			height: 19px;
 			overflow: hidden;
 		}
@@ -154,7 +158,7 @@
 				    li {
 					    width: 47%;
 					    height: 135px;
-					    background-size: 103%;
+					    background-size: 100%;
 					    line-height: 41px;
 					    .content {
 					    	.field-items {
@@ -162,6 +166,7 @@
 					    			&:nth-child(1) {
 					    				p {
 											font-size: 35px;
+											margin-top: 20px;
 										}
 									}
 									&:nth-child(2) {
@@ -202,15 +207,15 @@
 				}
 				.more-links {
 					width: 100%;
-				    float: left;
 				    margin-left: 0;
 				    padding-top: 10px;
+				    display: table;
+				    margin: 0 auto;
 				    ul {
-				    	max-width: 320px;
 					    width: 100%;
-					    margin: 0 auto;
+					    text-align: center;
 				    	li {
-				    		float: left;
+				    		display: inline-block;
     						margin-right: 3%;
     						&:last-child {
     							border-bottom: 2px solid #43BFEF;
@@ -262,6 +267,7 @@
 			    				&:nth-child(1) {
 			    					p {
 			    						font-size: 35px;
+			    						margin-top: 20px;
 			    					}
 			    				}
 			    				&:nth-child(2) {
@@ -282,7 +288,7 @@
 			    	.field-item {
 			    		&:nth-child(1) {
 			    			p {
-    							font-size: 12px;
+    							font-size: 10px;
     						}
     					}
     					&:nth-child(2) {
@@ -400,39 +406,28 @@
 		    }
 		    .content {
 		    	width: 100%;
-		    	max-width: 320px;
+		    	display: table;
 		    	margin: 0 auto;
-		    	display: block;
 		    	float: none;
+		    	ul {
+		    		width: 100%;
+		    		text-align: center;
+		    	}
 		    	li {
-				    background-position: 4% 18%;
-				    padding-right: 4px;
+				    background-position: 0 18%;
+				    padding-right: 0;
 				    background-size: 45px;
 				    height: 29px;
+				    display: inline-block;
+				    float: none;
+				    width: 135px;
+				    text-align: left;
 				    a {
 				    	margin-left: 52px;
 				    	font-size: 16px;
 				    }
 		    	}
 		    }
-		}
-	}
-
-	/*css for water-block*/
-	.blockqueue-homepage-water {
-		.homepage-impact-wrapper {
-			.impact-content-wrapper {
-				.more-links {
-					ul {
-						padding-left: 80px;
-					}
-				}
-			}
-		}
-		#block-menu-menu-water {
-			ul {
-				padding-left: 40px;
-			}
 		}
 	}
 
@@ -633,7 +628,11 @@
 		.container {
 			.navbar-header {
 				.logo {
-					padding: 0 0 0 5px;
+					padding: 0 0 0 0px;
+					img {
+						width: 74px;
+    					height: 70px;
+					}
 				}
 				.social-links {
 					padding: 0;
@@ -646,10 +645,9 @@
 			}
 			.custom-navigation, #block-system-main-menu {
 				li {
-					padding-left: 6px;
-				    padding-right: 6px;
+					padding-left: 5px;
+				    padding-right: 5px;
 				    font-size: 11px;
-				    letter-spacing: 0.8px;
 				}
 			}
 		}
@@ -680,12 +678,12 @@
 	/*css for ticker*/
 	#block-views-ticker-block {
 		h2 {
-			width: 178px;
-		    word-spacing: 0.2px;
-		    padding: 4.3px 0px 2.5px 5px;
+			width: 197px;
+			padding: 3px 0px 4.5px 5px;
+			font-size: 15px;
 		}
 		.liScroll-container {
-			width: 76.2%;
+			width: 74%;
 		}
 	}
 	/*css ends for ticker*/
@@ -694,19 +692,19 @@
 	#block-blockqueue-homepage-its-all-about-water {
 		#block-views-infographics-block {
 			.view-infographics {
-				width: 84%;
 				ul {
 					li {
-						background-size: 103% auto;
 						height: 154px;
 						width: 24%;
 						margin-right: 1%;
+						background-size: 85%;
 						.content  {
 							.field-items {
 								.field-item{
 									&:nth-child(1) {
 										p {
 											font-size: 40px;
+											margin-top: 20px;
 										}
 									}
 									&:nth-child(2) {
@@ -740,21 +738,21 @@
 				margin-top: 25px;
 			}
 			.view-infographics {
-				width: 84%;
-				padding-bottom: 22px;
 				ul {
-					margin-left: 40px;
+					margin-left: 0;
     				margin-top: 30px;
+    				padding-left: 38px;
     				li {
     					width: 24%;
     					margin-right: 1%;
     					.bottom-wrap {
-    						background-size: 100% auto;
     						height: 154px;
+    						background-size: 85%;
     						.field-item {
     							&:nth-child(1) {
     								p {
     									font-size: 40px;
+    									margin-top: 20px;
     								}
     							}
     							&:nth-child(2) {
@@ -932,7 +930,14 @@
 			}
 		}
 	}
-	/*css ends for partner-section*/	
+	/*css ends for partner-section*/
+
+	/*css for footer*/	
+	.footer {
+		.region-footer {
+			padding: 0 0 0 40px;
+		} 
+	}
 	/*----------------------------css ends for homepage*--------------------------*/
 
 	.economic-inner-content {
