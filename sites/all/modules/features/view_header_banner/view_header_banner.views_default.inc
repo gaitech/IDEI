@@ -130,6 +130,9 @@ function view_header_banner_views_default_views() {
 
   /* Display: About us */
   $handler = $view->new_display('block', 'About us', 'block_2');
+
+  /* Display: Donors */
+  $handler = $view->new_display('block', 'Donors', 'block_3');
   $export['header_banner'] = $view;
 
   return $export;
