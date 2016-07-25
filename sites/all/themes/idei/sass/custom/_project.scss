@@ -166,7 +166,7 @@
 								&:nth-child(3) {
 									p {
 		        						font-size: 12px;
-									    font-family: OpenSans-semibold;
+									    font-family: myriad-pro-semibold;
 									    color: #6a6a6a;
 									    width: 75px;
 									    margin: -7px auto;
@@ -323,7 +323,7 @@
 							&:nth-child(3) {
 								p {
 									font-size: 12px;
-								    font-family: OpenSans-semibold;
+								    font-family: myriad-pro-semibold;
 								    color: #6a6a6a;
 								    width: 75px;
 								    margin: 8px auto;
@@ -421,7 +421,7 @@
 								&:nth-child(3) {
 									p {
 		        						font-size: 12px;
-									    font-family: OpenSans-semibold;
+									    font-family: myriad-pro-semibold;
 									    color: #6a6a6a;
 									    width: 75px;
 									    margin: -7px auto;
@@ -666,7 +666,7 @@
     	}
     }
     #block-menu-menu-programs {
-    	padding: 0 0px 74px 40px;
+    	padding: 0 0px 54px 40px;
     	display: inline-block;
     	width: 100%;
     	h2 {
@@ -704,6 +704,7 @@
 			    // padding-right: 24px;
 			    max-width: 150px;
 			    width: 100%;
+			    margin-bottom: 20px;
 			    a {
 	    			font-size: 21px;
 				    font-family: bebas-neue;
@@ -1878,6 +1879,9 @@
 	    max-width: 1200px;
 	    margin: 0 auto;
 	  }
+	  .economic-inner-title {
+	  	padding-top: 37px;
+	  }
 	}
 
 }
@@ -2047,6 +2051,9 @@
 	.alert-block{
 	  display: none;
 	}
+	.economic-inner-title {
+		padding-top: 37px;
+	}
 }
 article#node-68 {
     background: #27579c;
@@ -2060,12 +2067,6 @@ article#node-68 {
         }
     }
 }
-#cboxClose {
-	background: url("../images/cross.png") no-repeat !important;
-	height: 37px !important;
-	width: 45px !important;
-	top: 6px;
-	right: 3px;
-}
+
 
 /*-----------------css ends for publication and annual-report-page----------------*/
