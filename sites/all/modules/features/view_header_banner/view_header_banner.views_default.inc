@@ -127,6 +127,9 @@ function view_header_banner_views_default_views() {
   $handler->display->display_options['filters']['name']['field'] = 'name';
   $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
   $handler->display->display_options['filters']['name']['value'] = 'Annual reports';
+
+  /* Display: About us */
+  $handler = $view->new_display('block', 'About us', 'block_2');
   $export['header_banner'] = $view;
 
   return $export;
