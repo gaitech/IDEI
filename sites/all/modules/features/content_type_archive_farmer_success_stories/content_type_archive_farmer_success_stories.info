@@ -1,0 +1,17 @@
+name = Content type : Archive Farmer success stories
+description = Content type : Archive Farmer success stories
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = content_type_header_banners
+dependencies[] = features
+dependencies[] = options
+dependencies[] = taxonomy
+dependencies[] = video_embed_field
+features[features_api][] = api:2
+features[field_base][] = field_category_
+features[field_base][] = field_video_link
+features[field_instance][] = node-archive_farmers_success_stories-field_category_
+features[field_instance][] = node-archive_farmers_success_stories-field_video_link
+features[node][] = archive_farmers_success_stories
+project path = sites/all/modules/features
