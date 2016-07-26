@@ -9,10 +9,10 @@
  */
 function content_type_header_banners_taxonomy_default_vocabularies() {
   return array(
-    'header_banner_category' => array(
-      'name' => 'Header Banner Category',
-      'machine_name' => 'header_banner_category',
-      'description' => 'Select header banner category',
+    'archive_photo_gallery' => array(
+      'name' => 'Archive Photo Gallery',
+      'machine_name' => 'archive_photo_gallery',
+      'description' => '',
       'hierarchy' => 0,
       'module' => 'taxonomy',
       'weight' => 0,
