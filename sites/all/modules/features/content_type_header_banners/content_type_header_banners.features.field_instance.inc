@@ -33,7 +33,7 @@ function content_type_header_banners_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_archive_category',
-    'label' => 'Archive Category',
+    'label' => 'Select Category only for  " Archive : Photo Gallery "',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -83,7 +83,7 @@ function content_type_header_banners_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 4,
+      'weight' => 5,
     ),
   );
 
@@ -110,7 +110,7 @@ function content_type_header_banners_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_banner_category',
-    'label' => 'Banner Category',
+    'label' => 'Select Category Only for " Comman Header Banner "',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -170,14 +170,52 @@ function content_type_header_banners_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'node-header_banners-field_for_farmer_success_story'.
+  $field_instances['node-header_banners-field_for_farmer_success_story'] = array(
+    'bundle' => 'header_banners',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 5,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_for_farmer_success_story',
+    'label' => 'Select Category Only  For " Archive : Farmer Success Story"',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
       'weight' => 3,
     ),
   );
 
   // Exported field_instance:
-  // 'taxonomy_term-archive_photo_gallery-field_feature_image'.
-  $field_instances['taxonomy_term-archive_photo_gallery-field_feature_image'] = array(
-    'bundle' => 'archive_photo_gallery',
+  // 'taxonomy_term-farmer_success_stories-field_video_feature_image'.
+  $field_instances['taxonomy_term-farmer_success_stories-field_video_feature_image'] = array(
+    'bundle' => 'farmer_success_stories',
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -193,8 +231,8 @@ function content_type_header_banners_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'taxonomy_term',
-    'field_name' => 'field_feature_image',
-    'label' => 'Feature Image',
+    'field_name' => 'field_video_feature_image',
+    'label' => 'Video Feature Image',
     'required' => 0,
     'settings' => array(
       'alt_field' => 0,
@@ -221,11 +259,12 @@ function content_type_header_banners_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Archive Category');
   t('Banner Caption');
-  t('Banner Category');
   t('Banner Image');
-  t('Feature Image');
+  t('Select Category Only  For " Archive : Farmer Success Story"');
+  t('Select Category Only for " Comman Header Banner "');
+  t('Select Category only for  " Archive : Photo Gallery "');
+  t('Video Feature Image');
 
   return $field_instances;
 }

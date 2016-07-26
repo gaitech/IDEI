@@ -9,9 +9,9 @@
  */
 function content_type_header_banners_taxonomy_default_vocabularies() {
   return array(
-    'archive_photo_gallery' => array(
-      'name' => 'Archive Photo Gallery',
-      'machine_name' => 'archive_photo_gallery',
+    'farmer_success_stories' => array(
+      'name' => 'Farmer Success Stories',
+      'machine_name' => 'farmer_success_stories',
       'description' => '',
       'hierarchy' => 0,
       'module' => 'taxonomy',
