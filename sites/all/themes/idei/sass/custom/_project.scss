@@ -772,6 +772,8 @@
 	 		background-image: url("../images/non-active1.jpg");
 	 		background-repeat:no-repeat;
 	 		z-index: 9;
+	 		height: 21px;
+	 		width: 21px;
 	 		&:hover {
 	 			background-image: url("../images/active1.jpg") !important;
 	 			background-position: 0 0;
@@ -786,9 +788,9 @@
 		    left: 50%;
 		    background-image: url("../images/non-active1.jpg");
 		    background-repeat: no-repeat;
-		    height: 30px;
-		    width: 34px;
-		    background-position: 2px 0;
+		    height: 21px;
+		    width: 21px;
+		    background-position: 0px 0;
 		    z-index: 9;
 		    &:hover {
 		    	background-image: url("../images/active1.jpg") !important;
@@ -1262,6 +1264,7 @@
 	    text-transform: uppercase;
 	    font-family: OpenSans;
 	    padding-bottom: 8px;
+	    line-height: 1.2em;
     }
     .program-text-desc {
     	width: 80%;
@@ -1328,6 +1331,8 @@
 		    font-family: OpenSans;
 		    text-transform: uppercase;
 		    margin-top: -11px;
+		    line-height: 1.2em;
+		    padding-bottom: 10px;
 		}
 		.technology-body {
 			font-size: 16px;
@@ -1603,17 +1608,21 @@
 		display: inline-block;
 		width: 100%;
 		.jcarousel-skin-tango {
+			    background: #E6E6FA;
 			.jcarousel-container-horizontal {
 				width: 100%;
 				height: auto;
 				padding: 0;
 				border: none;
 				background-color: transparent;
+				border-radius: 0;
+				max-width: 1025px;
+    			margin: 0 auto;
 			}
 			.jcarousel-clip-horizontal {
     			width: 100%;
     			background: #E6E6FA;
-    			padding-top: 35px;
+    			padding-top: 35px;   			
     			.full-width {
     				width: 1024px !important;
     			}

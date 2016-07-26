@@ -87,11 +87,14 @@
 			    }	   
 			}
 		}
-		#block-menu-menu-impact {
+		#block-menu-menu-impact, #block-idei-custom-programs-custom-menu {
 			ul {
 				li {
-					padding: 0 6px;
+					padding: 0 4px;
 					font-size: 10px;
+					&:first-child {
+						font-size: 12px;
+					}
 				}
 			}
 		}
@@ -581,7 +584,7 @@
 		.field-name-field-graph-description {
 			padding: 10px 0 0;
 			border: none;
-			height: 150px;;
+			height: 70px;;
 			width: 100%;
 			background-size: 50px;
 			p {
@@ -593,6 +596,10 @@
 		}
 		.field-name-field-graph-body, .field-name-field-graph-full-description {
 			p {
+				font-size: 14px;
+			}
+			li {
+				word-break: break-all;
 				font-size: 14px;
 			}
 		}
@@ -608,6 +615,75 @@
 				}
 				.views-field-title {
 					font-size: 12px;
+				}
+			}
+		}
+	}
+
+	/*css for programme page*/
+	.node-type-programms {
+		.block-blockqueue {
+			padding-bottom: 35px;
+		}
+	}
+	.programs-body {
+		p {
+			font-size: 14px;
+		}
+	}
+	.program-wraps {
+		.program-titles {
+			font-size: 18px;
+		}
+	}
+	.program-text-wrap {
+		.program-text-name {
+			font-size: 25px;
+			width: 90%;
+		}
+		.program-text-desc {
+			font-size: 14px;
+			width: 90%;
+		}
+	}
+	#block-views-programs-list-block-2, #block-views-programs-list-block-4,
+	#block-views-programs-list-block-6, #block-views-programs-list-block-8,
+	#block-views-programs-list-block-10, #block-views-programs-list-block-11 {
+		.views-row {
+			.views-field-nothing {
+				padding: 40px 10px 0;
+			}
+			&.views-row-odd, &.views-row-even {
+				.technology-image {
+					width: 100%;
+					img {
+						margin: auto;
+						display: block;
+					}
+				}
+				.technology-main-wrapper {
+					width: 100%;
+				}
+				.views-field-nothing-1 {
+					padding: 40px 10px;
+				}
+			}
+			.technology-wrapper {
+			    padding-top: 30px;
+			}
+			.technology-title, .product-empty  {
+				font-size: 25px;
+			}
+			.technology-body, .more {
+				font-size: 14px;
+			}
+			.products-wrapper {
+				height: 240px;
+				.p-title, .read-more-complex {
+					font-size: 12px;
+				}
+				.p-desc {
+					font-size: 11px;
 				}
 			}
 		}
@@ -630,7 +706,7 @@
 				.logo {
 					padding: 0 0 0 0px;
 					img {
-						width: 74px;
+						width: 70px;
     					height: 70px;
 					}
 				}
@@ -645,19 +721,21 @@
 			}
 			.custom-navigation, #block-system-main-menu {
 				li {
-					padding-left: 5px;
-				    padding-right: 5px;
+					padding-left: 4px;
+				    padding-right: 4px;
 				    font-size: 11px;
 				}
 			}
 		}
-		#block-menu-menu-impact {
+		#block-menu-menu-impact, #block-idei-custom-programs-custom-menu {
 			ul {
 				li {
-					padding-left: 6px;
-				    padding-right: 6px;
-				    font-size: 11px;
-				    letter-spacing: 0.8px;
+					padding-left: 4px;
+				    padding-right: 4px;
+				    font-size: 10px;
+				    &:first-child {
+				    	font-size: 13px;
+				    }
 				}
 			}
 		}
@@ -940,6 +1018,7 @@
 	}
 	/*----------------------------css ends for homepage*--------------------------*/
 
+	/*css for impact pages*/
 	.economic-inner-content {
 		.field-name-field-graph-title {
 			font-size: 30px;
@@ -950,9 +1029,30 @@
 			}
 		}
 	}	
+
+	/*css for programme page */
+	#block-views-programs-list-block-2, #block-views-programs-list-block-4,
+	#block-views-programs-list-block-6, #block-views-programs-list-block-8,
+	#block-views-programs-list-block-10, #block-views-programs-list-block-11 {
+		.views-row {
+			&.views-row-odd {
+				.technology-image {
+					width: 42%;
+					margin-right: 4%;
+				}
+			}
+			.products-wrapper {
+				height: 250px;
+				.p-title, .p-desc  {
+					font-size: 14px;
+				}
+			}
+		}
+	}
 }
 
 
+/*-------media query for homepage awards slider--------*/
 @media  (max-width: 520px) {
 	#block-views-awards-slider-block {
 		.jcarousel-skin-default {
@@ -972,3 +1072,22 @@
 		}
 	}
 }
+/*-------------------------------------------------------*/
+
+
+/*-----media query for submenu's of programme page-------*/
+@media all and (min-width:320px) and (max-width: 392px) {
+	.node-type-programms {
+		.main-container {
+			padding: 139px 0 0;
+		}
+	}
+}
+@media all and (min-width:393px) and (max-width: 739px) {
+	.node-type-programms {
+		.main-container {
+			padding: 119px 0 0;
+		}
+	}
+}
+/*-------------------------------------------------------*/
