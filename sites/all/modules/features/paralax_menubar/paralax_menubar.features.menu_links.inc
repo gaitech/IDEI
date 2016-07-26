@@ -10,26 +10,6 @@
 function paralax_menubar_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_about-us:node/21.
-  $menu_links['main-menu_about-us:node/21'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/21',
-    'router_path' => 'node/%',
-    'link_title' => 'ABOUT US',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'main-menu_about-us:node/21',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-  );
   // Exported menu link: main-menu_archives:<front>.
   $menu_links['main-menu_archives:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -378,7 +358,6 @@ function paralax_menubar_menu_default_menu_links() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('ABOUT US');
   t('ARCHIVES');
   t('AWARDS');
   t('CLIMATE SMART AGRICULTURE ');

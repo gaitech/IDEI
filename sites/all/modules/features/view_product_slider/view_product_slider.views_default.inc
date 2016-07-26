@@ -35,11 +35,13 @@ function view_product_slider_views_default_views() {
   $handler->display->display_options['style_options']['wrap'] = 'circular';
   $handler->display->display_options['style_options']['skin'] = 'tango';
   $handler->display->display_options['style_options']['visible'] = '2';
-  $handler->display->display_options['style_options']['scroll'] = '2';
+  $handler->display->display_options['style_options']['responsive'] = 1;
+  $handler->display->display_options['style_options']['scroll'] = '1';
   $handler->display->display_options['style_options']['auto'] = '2';
   $handler->display->display_options['style_options']['autoPause'] = 1;
   $handler->display->display_options['style_options']['easing'] = '';
   $handler->display->display_options['style_options']['vertical'] = 0;
+  $handler->display->display_options['style_options']['ajax'] = 1;
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_product_slider_images']['id'] = 'field_product_slider_images';
