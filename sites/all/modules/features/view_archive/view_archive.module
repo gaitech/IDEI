@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View : archive feature.
+ */
+
+include_once 'view_archive.features.inc';
