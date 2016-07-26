@@ -67,7 +67,7 @@ print \'<div class="photograph-warp-title">Photographs</div>\';
   $handler->display->display_options['fields']['field_feature_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_feature_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_feature_image']['settings'] = array(
-    'image_style' => 'gallery_images_listing',
+    'image_style' => 'archive__300_200_',
     'image_link' => '',
   );
   /* Field: Global: PHP */
