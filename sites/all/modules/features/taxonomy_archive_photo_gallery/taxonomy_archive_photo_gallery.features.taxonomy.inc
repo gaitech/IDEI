@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * content_type_header_banners.features.taxonomy.inc
+ * taxonomy_archive_photo_gallery.features.taxonomy.inc
  */
 
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function content_type_header_banners_taxonomy_default_vocabularies() {
+function taxonomy_archive_photo_gallery_taxonomy_default_vocabularies() {
   return array(
     'archive_photo_gallery' => array(
       'name' => 'Archive Photo Gallery',
