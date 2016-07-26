@@ -105,13 +105,39 @@ function content_type_header_banners_field_default_field_bases() {
     'type' => 'image',
   );
 
-  // Exported field_base: 'field_feature_image'.
-  $field_bases['field_feature_image'] = array(
+  // Exported field_base: 'field_for_farmer_success_story'.
+  $field_bases['field_for_farmer_success_story'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_feature_image',
+    'field_name' => 'field_for_farmer_success_story',
+    'indexes' => array(
+      'tid' => array(
+        0 => 'tid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'taxonomy',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => array(
+          'vocabulary' => 'farmer_success_stories',
+          'parent' => 0,
+        ),
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'taxonomy_term_reference',
+  );
+
+  // Exported field_base: 'field_video_feature_image'.
+  $field_bases['field_video_feature_image'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_video_feature_image',
     'indexes' => array(
       'fid' => array(
         0 => 'fid',
