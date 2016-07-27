@@ -2895,6 +2895,59 @@ article#node-68 h2 a {
 }
 
 /*-----------------css ends for publication and annual-report-page----------------*/
+/*---------------------css for about-us page-------------------------*/
+/* line 2088, ../sass/custom/_project.scss */
+.about-main-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+/* line 2093, ../sass/custom/_project.scss */
+.about-wrapper {
+  display: inline-block;
+  width: 100%;
+  padding: 52px 40px;
+}
+
+/* line 2098, ../sass/custom/_project.scss */
+.about-pic-wrapper {
+  width: 25%;
+  float: left;
+}
+
+/* line 2102, ../sass/custom/_project.scss */
+.about-text-wrapper {
+  width: 75%;
+  float: right;
+  font-family: OpenSans;
+}
+
+/* line 2107, ../sass/custom/_project.scss */
+.about-title {
+  font-size: 36px;
+  color: #43bfef;
+  line-height: 1.2em;
+  padding-bottom: 25px;
+  margin-top: -9px;
+  font-weight: bold;
+}
+
+/* line 2115, ../sass/custom/_project.scss */
+.about-designation {
+  font-size: 25px;
+  color: #27579c;
+  padding-bottom: 28px;
+}
+
+/* line 2120, ../sass/custom/_project.scss */
+.about-description {
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: justify;
+  width: 100%;
+}
+
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {

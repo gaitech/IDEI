@@ -2082,3 +2082,44 @@ article#node-68 {
 
 
 /*-----------------css ends for publication and annual-report-page----------------*/
+
+/*---------------------css for about-us page-------------------------*/
+
+.about-main-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.about-wrapper {
+    display: inline-block;
+    width: 100%;
+    padding: 52px 40px;
+}
+.about-pic-wrapper {
+    width: 25%;
+    float: left;
+}
+.about-text-wrapper {
+	width: 75%;
+    float: right;
+    font-family: OpenSans;
+}
+.about-title {
+    font-size: 36px;
+    color: #43bfef;
+    line-height: 1.2em;
+    padding-bottom: 25px;
+    margin-top: -9px;
+    font-weight: bold;
+}
+.about-designation {
+    font-size: 25px;
+    color: #27579c;
+    padding-bottom: 28px;
+}
+.about-description {
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: justify;
+    width: 100%;
+}
