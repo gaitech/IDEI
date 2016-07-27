@@ -2403,7 +2403,7 @@ a:focus, p:focus, h2:focus {
   margin: 0;
   height: 336px;
   border: none;
-  margin-left: 42px;
+  margin-left: 37.5px;
   background: #E6E6FA;
   position: relative;
 }
@@ -2638,12 +2638,12 @@ a:focus, p:focus, h2:focus {
 /* line 1852, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block .activity-img {
   float: left;
-  width: 50%;
+  width: 20%;
 }
 /* line 1856, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block .activity-title-wrap {
   float: right;
-  width: 50%;
+  width: 70%;
   font-family: OpenSans;
   margin-top: -9px;
 }
@@ -2656,32 +2656,33 @@ a:focus, p:focus, h2:focus {
 .promotional-wrapper .promotional-block .activity-description {
   font-size: 16px;
   color: #6a6a6a;
+  text-align: justify;
 }
 
 /*-----------------css ends for product-promotional-activity-page----------------*/
 /*-----------------css for publication and annual-report-page----------------*/
-/* line 1876, ../sass/custom/_project.scss */
+/* line 1877, ../sass/custom/_project.scss */
 .page-annual-report-page .main-container {
   padding: 71px 0 0;
 }
-/* line 1882, ../sass/custom/_project.scss */
+/* line 1883, ../sass/custom/_project.scss */
 .page-annual-report-page .view-annual-report-page .view-header-banner .view-content {
   width: 100%;
   max-width: 100% !important;
   margin: 0 auto;
 }
-/* line 1888, ../sass/custom/_project.scss */
+/* line 1889, ../sass/custom/_project.scss */
 .page-annual-report-page .view-annual-report-page .view-content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
-/* line 1893, ../sass/custom/_project.scss */
+/* line 1894, ../sass/custom/_project.scss */
 .page-annual-report-page .view-annual-report-page .economic-inner-title {
   padding-top: 37px;
 }
 
-/* line 1899, ../sass/custom/_project.scss */
+/* line 1900, ../sass/custom/_project.scss */
 .publication-listing {
   margin: 0 auto;
   max-width: 1200px;
@@ -2689,19 +2690,19 @@ a:focus, p:focus, h2:focus {
   width: 100%;
 }
 
-/* line 1905, ../sass/custom/_project.scss */
+/* line 1906, ../sass/custom/_project.scss */
 .pub-main-wrap {
   display: inline-block;
   width: 100%;
   padding-bottom: 40px;
 }
-/* line 1909, ../sass/custom/_project.scss */
+/* line 1910, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php {
   display: inline-block;
   width: 85%;
   float: right;
 }
-/* line 1913, ../sass/custom/_project.scss */
+/* line 1914, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php .pub-download {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -2719,21 +2720,21 @@ a:focus, p:focus, h2:focus {
   -webkit-box-shadow: 0px 4px 11px #6a6a6a;
   font-family: OpenSans;
 }
-/* line 1929, ../sass/custom/_project.scss */
+/* line 1930, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php .pub-download a {
   color: #43bfef;
 }
-/* line 1932, ../sass/custom/_project.scss */
+/* line 1933, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php .pub-download:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 1935, ../sass/custom/_project.scss */
+/* line 1936, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php .pub-download:hover a {
   color: #fff;
 }
 
-/* line 1942, ../sass/custom/_project.scss */
+/* line 1943, ../sass/custom/_project.scss */
 .pub-img {
   float: left;
   width: 15%;
@@ -2741,14 +2742,14 @@ a:focus, p:focus, h2:focus {
   vertical-align: top;
 }
 
-/* line 1948, ../sass/custom/_project.scss */
+/* line 1949, ../sass/custom/_project.scss */
 .pub-wrap {
   float: left;
   width: 85%;
   border-top: 1px solid #6a6a6a;
   padding-top: 10px;
 }
-/* line 1953, ../sass/custom/_project.scss */
+/* line 1954, ../sass/custom/_project.scss */
 .pub-wrap .pub-title {
   font-size: 28px;
   font-family: OpenSans;
@@ -2757,14 +2758,14 @@ a:focus, p:focus, h2:focus {
   line-height: 1.5em;
   padding-bottom: 20px;
 }
-/* line 1961, ../sass/custom/_project.scss */
+/* line 1962, ../sass/custom/_project.scss */
 .pub-wrap .pub-desc {
   font-size: 16px;
   font-family: OpenSans;
   color: #6a6a6a;
   padding-bottom: 30px;
 }
-/* line 1967, ../sass/custom/_project.scss */
+/* line 1968, ../sass/custom/_project.scss */
 .pub-wrap .pub-download {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -2782,45 +2783,45 @@ a:focus, p:focus, h2:focus {
   -webkit-box-shadow: 0px 4px 11px #6a6a6a;
   font-family: OpenSans;
 }
-/* line 1983, ../sass/custom/_project.scss */
+/* line 1984, ../sass/custom/_project.scss */
 .pub-wrap .pub-download a {
   color: #43bfef;
 }
-/* line 1986, ../sass/custom/_project.scss */
+/* line 1987, ../sass/custom/_project.scss */
 .pub-wrap .pub-download:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 1989, ../sass/custom/_project.scss */
+/* line 1990, ../sass/custom/_project.scss */
 .pub-wrap .pub-download:hover a {
   color: #fff;
 }
 
-/* line 1995, ../sass/custom/_project.scss */
+/* line 1996, ../sass/custom/_project.scss */
 .pagination {
   padding-bottom: 30px;
 }
-/* line 1997, ../sass/custom/_project.scss */
+/* line 1998, ../sass/custom/_project.scss */
 .pagination .pager-first, .pagination .pager-last {
   display: none;
 }
-/* line 2001, ../sass/custom/_project.scss */
+/* line 2002, ../sass/custom/_project.scss */
 .pagination li a {
   border: 1px solid #43bfef;
   font-size: 16px;
   color: #27579c;
 }
-/* line 2005, ../sass/custom/_project.scss */
+/* line 2006, ../sass/custom/_project.scss */
 .pagination li a:hover, .pagination li a:focus {
   background-color: #43bfef;
   color: #fff;
   border-color: #43bfef;
 }
-/* line 2011, ../sass/custom/_project.scss */
+/* line 2012, ../sass/custom/_project.scss */
 .pagination li span {
   border: 1px solid #43bfef;
 }
-/* line 2015, ../sass/custom/_project.scss */
+/* line 2016, ../sass/custom/_project.scss */
 .pagination li.active span {
   background-color: #43bfef;
   color: #fff;
@@ -2828,39 +2829,39 @@ a:focus, p:focus, h2:focus {
   padding: 4.5px 12px;
   border-color: #43bfef;
 }
-/* line 2021, ../sass/custom/_project.scss */
+/* line 2022, ../sass/custom/_project.scss */
 .pagination li.active span:hover {
   background-color: #27579c;
 }
 
-/* line 2029, ../sass/custom/_project.scss */
+/* line 2030, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component {
   margin-left: 6.5%;
   margin-right: 6.5%;
 }
-/* line 2033, ../sass/custom/_project.scss */
+/* line 2034, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component input.error {
   border: 1.5px solid red !important;
 }
-/* line 2038, ../sass/custom/_project.scss */
+/* line 2039, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component.webform-component--email .control-label, .webform-client-form-68 .webform-component.webform-component--occupation .control-label {
   height: 40px;
 }
-/* line 2042, ../sass/custom/_project.scss */
+/* line 2043, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component label {
   color: #fff;
 }
-/* line 2044, ../sass/custom/_project.scss */
+/* line 2045, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component label .form-required {
   color: red;
 }
-/* line 2049, ../sass/custom/_project.scss */
+/* line 2050, ../sass/custom/_project.scss */
 .webform-client-form-68 .form-actions {
   margin: 0 auto;
   width: 107px;
   margin-bottom: 10px;
 }
-/* line 2053, ../sass/custom/_project.scss */
+/* line 2054, ../sass/custom/_project.scss */
 .webform-client-form-68 .form-actions .btn-default {
   color: #27579c;
   background-color: #fff;
@@ -2868,26 +2869,26 @@ a:focus, p:focus, h2:focus {
   font-size: 16px;
 }
 
-/* line 2062, ../sass/custom/_project.scss */
+/* line 2063, ../sass/custom/_project.scss */
 .node-type-publications .alert-block {
   display: none;
 }
-/* line 2065, ../sass/custom/_project.scss */
+/* line 2066, ../sass/custom/_project.scss */
 .node-type-publications .economic-inner-title {
   padding-top: 37px;
 }
 
-/* line 2069, ../sass/custom/_project.scss */
+/* line 2070, ../sass/custom/_project.scss */
 article#node-68 {
   background: #27579c;
   border-radius: 5px;
 }
-/* line 2072, ../sass/custom/_project.scss */
+/* line 2073, ../sass/custom/_project.scss */
 article#node-68 h2 {
   text-align: center;
   margin-top: 10px;
 }
-/* line 2075, ../sass/custom/_project.scss */
+/* line 2076, ../sass/custom/_project.scss */
 article#node-68 h2 a {
   color: #fff;
   pointer-events: none;

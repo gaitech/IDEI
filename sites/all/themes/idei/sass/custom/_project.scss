@@ -1632,7 +1632,7 @@
     			margin: 0;
     			height: 336px;
     			border: none;
-    			margin-left: 42px;
+    			margin-left: 37.5px;
     			background: #E6E6FA;
     			position: relative;
     			&.height {
@@ -1851,11 +1851,11 @@
 		}
 		.activity-img {
 		    float: left;
-		    width: 50%;
+		    width: 20%;
 		}
 		.activity-title-wrap {
 		    float: right;
-		    width: 50%;
+		    width: 70%;
 		    font-family: OpenSans;
 		    margin-top: -9px;
 		}
@@ -1866,6 +1866,7 @@
 		.activity-description {
 		    font-size: 16px;
 		    color: #6a6a6a;
+		    text-align: justify;
 		}
 	}
 }
