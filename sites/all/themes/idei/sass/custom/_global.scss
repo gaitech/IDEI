@@ -30,7 +30,8 @@ a, p, h2 {
 	font-family: OpenSans;
   text-decoration: none !important;
   &:focus {
-    outline: none !important
+    outline: none !important;
+    background: transparent !important;
   }
 }
 
@@ -51,5 +52,14 @@ a, p, h2 {
     background: url(../images/back-to-top.png) no-repeat center center !important;
     height: 60px !important;
     width: 60px !important;
+}
+
+/*css for cross image over pop-up images*/
+#cboxClose {
+  background: url("../images/cross.png") no-repeat !important;
+  height: 37px !important;
+  width: 45px !important;
+  top: 6px;
+  right: 3px;
 }
 

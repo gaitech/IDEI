@@ -166,7 +166,7 @@
 								&:nth-child(3) {
 									p {
 		        						font-size: 12px;
-									    font-family: OpenSans-semibold;
+									    font-family: myriad-pro-semibold;
 									    color: #6a6a6a;
 									    width: 75px;
 									    margin: -7px auto;
@@ -323,7 +323,7 @@
 							&:nth-child(3) {
 								p {
 									font-size: 12px;
-								    font-family: OpenSans-semibold;
+								    font-family: myriad-pro-semibold;
 								    color: #6a6a6a;
 								    width: 75px;
 								    margin: 8px auto;
@@ -421,7 +421,7 @@
 								&:nth-child(3) {
 									p {
 		        						font-size: 12px;
-									    font-family: OpenSans-semibold;
+									    font-family: myriad-pro-semibold;
 									    color: #6a6a6a;
 									    width: 75px;
 									    margin: -7px auto;
@@ -666,7 +666,7 @@
     	}
     }
     #block-menu-menu-programs {
-    	padding: 0 0px 74px 40px;
+    	padding: 0 0px 54px 40px;
     	display: inline-block;
     	width: 100%;
     	h2 {
@@ -704,6 +704,7 @@
 			    // padding-right: 24px;
 			    max-width: 150px;
 			    width: 100%;
+			    margin-bottom: 20px;
 			    a {
 	    			font-size: 21px;
 				    font-family: bebas-neue;
@@ -771,6 +772,8 @@
 	 		background-image: url("../images/non-active1.jpg");
 	 		background-repeat:no-repeat;
 	 		z-index: 9;
+	 		height: 21px;
+	 		width: 21px;
 	 		&:hover {
 	 			background-image: url("../images/active1.jpg") !important;
 	 			background-position: 0 0;
@@ -785,9 +788,9 @@
 		    left: 50%;
 		    background-image: url("../images/non-active1.jpg");
 		    background-repeat: no-repeat;
-		    height: 30px;
-		    width: 34px;
-		    background-position: 2px 0;
+		    height: 21px;
+		    width: 21px;
+		    background-position: 0px 0;
 		    z-index: 9;
 		    &:hover {
 		    	background-image: url("../images/active1.jpg") !important;
@@ -1261,6 +1264,7 @@
 	    text-transform: uppercase;
 	    font-family: OpenSans;
 	    padding-bottom: 8px;
+	    line-height: 1.2em;
     }
     .program-text-desc {
     	width: 80%;
@@ -1327,6 +1331,8 @@
 		    font-family: OpenSans;
 		    text-transform: uppercase;
 		    margin-top: -11px;
+		    line-height: 1.2em;
+		    padding-bottom: 10px;
 		}
 		.technology-body {
 			font-size: 16px;
@@ -1602,17 +1608,21 @@
 		display: inline-block;
 		width: 100%;
 		.jcarousel-skin-tango {
+			    background: #E6E6FA;
 			.jcarousel-container-horizontal {
 				width: 100%;
 				height: auto;
 				padding: 0;
 				border: none;
 				background-color: transparent;
+				border-radius: 0;
+				max-width: 1025px;
+    			margin: 0 auto;
 			}
 			.jcarousel-clip-horizontal {
     			width: 100%;
     			background: #E6E6FA;
-    			padding-top: 35px;
+    			padding-top: 35px;   			
     			.full-width {
     				width: 1024px !important;
     			}
@@ -1878,6 +1888,9 @@
 	    max-width: 1200px;
 	    margin: 0 auto;
 	  }
+	  .economic-inner-title {
+	  	padding-top: 37px;
+	  }
 	}
 
 }
@@ -2047,6 +2060,9 @@
 	.alert-block{
 	  display: none;
 	}
+	.economic-inner-title {
+		padding-top: 37px;
+	}
 }
 article#node-68 {
     background: #27579c;
@@ -2060,12 +2076,6 @@ article#node-68 {
         }
     }
 }
-#cboxClose {
-	background: url("../images/cross.png") no-repeat !important;
-	height: 37px !important;
-	width: 45px !important;
-	top: 6px;
-	right: 3px;
-}
+
 
 /*-----------------css ends for publication and annual-report-page----------------*/
