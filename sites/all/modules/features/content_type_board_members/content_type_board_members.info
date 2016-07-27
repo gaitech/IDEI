@@ -1,0 +1,17 @@
+name = Content Type : Board Members
+description = Content Type : Board Members
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = image
+dependencies[] = news_content_type
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_member_designation
+features[field_base][] = field_member_image
+features[field_instance][] = node-board_members-body
+features[field_instance][] = node-board_members-field_member_designation
+features[field_instance][] = node-board_members-field_member_image
+features[node][] = board_members
+project path = sites/all/modules/features
