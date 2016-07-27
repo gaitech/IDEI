@@ -85,6 +85,14 @@
     $(this).addClass('active');
   });
 
+  $(".second-views-menu .views-field-php a").each(function() {
+    $(this).removeClass("active");
+    if($(this).attr("href") == chk_url)
+    $(this).addClass("active");
+  });
+  
+
+
   var pgurl2 = window.location.href.substr(window.location.href.lastIndexOf("#")+1);
   var ac_url = '#'+pgurl2;
   $(".program-menu-navigation li a").each(function() {
