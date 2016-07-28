@@ -2896,34 +2896,35 @@ article#node-68 h2 a {
 
 /*-----------------css ends for publication and annual-report-page----------------*/
 /*---------------------css for about-us page-------------------------*/
-/* line 2088, ../sass/custom/_project.scss */
+/*--------------------css for our team landing page-------------------*/
+/* line 2089, ../sass/custom/_project.scss */
 .about-main-wrapper {
   max-width: 1200px;
   width: 100%;
   margin: auto;
 }
 
-/* line 2093, ../sass/custom/_project.scss */
+/* line 2094, ../sass/custom/_project.scss */
 .about-wrapper {
   display: inline-block;
   width: 100%;
   padding: 52px 40px;
 }
 
-/* line 2098, ../sass/custom/_project.scss */
+/* line 2099, ../sass/custom/_project.scss */
 .about-pic-wrapper {
   width: 25%;
   float: left;
 }
 
-/* line 2102, ../sass/custom/_project.scss */
+/* line 2103, ../sass/custom/_project.scss */
 .about-text-wrapper {
   width: 75%;
   float: right;
   font-family: OpenSans;
 }
 
-/* line 2107, ../sass/custom/_project.scss */
+/* line 2108, ../sass/custom/_project.scss */
 .about-title {
   font-size: 36px;
   color: #43bfef;
@@ -2933,19 +2934,122 @@ article#node-68 h2 a {
   font-weight: bold;
 }
 
-/* line 2115, ../sass/custom/_project.scss */
+/* line 2116, ../sass/custom/_project.scss */
 .about-designation {
   font-size: 25px;
   color: #27579c;
   padding-bottom: 28px;
 }
 
-/* line 2120, ../sass/custom/_project.scss */
+/* line 2121, ../sass/custom/_project.scss */
 .about-description {
   font-size: 16px;
   line-height: 1.5em;
   text-align: justify;
   width: 100%;
+}
+
+/*--------------------css ends for our team landing page-------------------*/
+/*--------------------css for our team listing page-------------------*/
+/* line 2132, ../sass/custom/_project.scss */
+.view-about-us .view-header-banner .view-content {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 2137, ../sass/custom/_project.scss */
+.view-about-us .view-header-banner .view-content .views-row {
+  width: 100%;
+  float: none;
+  padding: 0;
+}
+/* line 2145, ../sass/custom/_project.scss */
+.view-about-us .view-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 22px 40px 23px;
+}
+/* line 2150, ../sass/custom/_project.scss */
+.view-about-us .view-content .views-row {
+  width: 49%;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+/* line 2155, ../sass/custom/_project.scss */
+.view-about-us .view-content .views-row .views-field.views-field-nothing {
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+/* line 2163, ../sass/custom/_project.scss */
+.view-about-us .profile-wrapper {
+  display: table;
+  width: 100%;
+  vertical-align: middle;
+}
+/* line 2167, ../sass/custom/_project.scss */
+.view-about-us .profile-wrapper .profile-pic {
+  width: 48%;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 2171, ../sass/custom/_project.scss */
+.view-about-us .profile-wrapper .profile-pic img {
+  width: 100%;
+}
+/* line 2176, ../sass/custom/_project.scss */
+.view-about-us .profile-title-wrap {
+  width: 52%;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+  text-align: center;
+  padding-right: 10px;
+}
+/* line 2184, ../sass/custom/_project.scss */
+.view-about-us .profile-title {
+  font-size: 25px;
+  font-family: OpenSans;
+  line-height: 1.2em;
+  padding-bottom: 7px;
+}
+/* line 2189, ../sass/custom/_project.scss */
+.view-about-us .profile-title a {
+  color: #43bfef;
+}
+/* line 2193, ../sass/custom/_project.scss */
+.view-about-us .profile-designation {
+  font-size: 16px;
+  font-family: OpenSans;
+  color: #27579c;
+  line-height: 1.3em;
+  padding-bottom: 7px;
+}
+/* line 2200, ../sass/custom/_project.scss */
+.view-about-us .profile-path {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: OpenSans;
+  padding-left: 15px;
+  background-image: url("../images/bio.png");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 100%;
+  background-position: 31% 0;
+  background-size: 20px;
+}
+/* line 2211, ../sass/custom/_project.scss */
+.view-about-us .profile-path a {
+  color: #27579c;
+}
+
+/* line 2216, ../sass/custom/_project.scss */
+.economic-inner-title.team {
+  padding-top: 10px;
 }
 
 @media all and (max-width: 767px) {
