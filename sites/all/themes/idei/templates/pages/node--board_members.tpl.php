@@ -11,10 +11,15 @@ $image = '<img src="'.$image_path.'">';
 <div class="banner-image">
 <?php print views_embed_view('header_banner','block_5'); ?>
 </div>
-
-<div class="pic-title"><?php print $title; ?></div>
-<div class="pic-designation"><?php print $designation; ?></div>
-<div class="pic-main-wrap">
-  <div class="pic-picture"><?php print $image; ?></div>
-  <div class="pic-description"><?php print $body; ?></div>
+<div class="about-main-wrapper">
+	<div class="about-wrapper">
+		<div class="about-pic-wrapper">
+		  <div class="about-picture"><?php print $image; ?></div>
+		</div>
+		<div class="about-text-wrapper">
+			<div class="about-title"><?php print $title; ?></div>
+			<div class="about-designation"><?php print $designation; ?></div>
+			<div class="about-description"><?php print $body; ?></div>
+		</div>
+	</div>
 </div>
