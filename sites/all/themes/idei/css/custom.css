@@ -2673,7 +2673,7 @@ a:focus, p:focus, h2:focus {
 }
 /* line 1888, ../sass/custom/_project.scss */
 .page-annual-report-page .view-annual-report-page .economic-inner-title {
-  padding-top: 37px;
+  padding: 37px 0 40px;
 }
 
 /* line 1893, ../sass/custom/_project.scss */
@@ -4125,7 +4125,7 @@ article#node-68 h2 a {
   }
 
   /*----------css ends for product page--------------*/
-  /*----------css for approach page page--------------*/
+  /*----------css for approach page--------------*/
   /* line 889, ../sass/custom/_responsive.scss */
   .approach-content-wrapper .shift-image {
     padding: 20px 0;
@@ -4138,53 +4138,74 @@ article#node-68 h2 a {
     width: 100%;
   }
 
-  /*----------css ends for approach page page--------------*/
+  /*----------css ends for approach page--------------*/
+  /*----------css for annual-report & publications page--------------*/
+  /* line 902, ../sass/custom/_responsive.scss */
+  .pub-main-wrap {
+    padding: 0 10px 40px;
+  }
+
+  /* line 905, ../sass/custom/_responsive.scss */
+  .pub-wrap {
+    width: 80%;
+    margin-left: 5%;
+  }
+  /* line 908, ../sass/custom/_responsive.scss */
+  .pub-wrap .pub-title {
+    font-size: 20px;
+    line-height: 1.2em;
+  }
+  /* line 912, ../sass/custom/_responsive.scss */
+  .pub-wrap .pub-desc, .pub-wrap .pub-download {
+    font-size: 14px;
+  }
 }
+/*----------css ends for annual-report & publications page--------------*/
 /*responsive css for tab*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  /* line 907, ../sass/custom/_responsive.scss */
+  /* line 924, ../sass/custom/_responsive.scss */
   .main-container .row {
     margin: 0;
   }
-  /* line 909, ../sass/custom/_responsive.scss */
+  /* line 926, ../sass/custom/_responsive.scss */
   .main-container .row .col-sm-12 {
     padding: 0;
   }
 
-  /* line 917, ../sass/custom/_responsive.scss */
+  /* line 934, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-header .logo {
     padding: 0 0 0 0px;
   }
-  /* line 919, ../sass/custom/_responsive.scss */
+  /* line 936, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-header .logo img {
     width: 70px;
     height: 70px;
   }
-  /* line 924, ../sass/custom/_responsive.scss */
+  /* line 941, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-header .social-links {
     padding: 0;
   }
-  /* line 929, ../sass/custom/_responsive.scss */
+  /* line 946, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-collapse .region-navigation {
     padding: 0;
   }
-  /* line 935, ../sass/custom/_responsive.scss */
+  /* line 952, ../sass/custom/_responsive.scss */
   .navbar .container .new-main-menu li {
     padding-left: 4px;
     padding-right: 4px;
     font-size: 11px;
   }
-  /* line 945, ../sass/custom/_responsive.scss */
+  /* line 962, ../sass/custom/_responsive.scss */
   .navbar .secondary-sub-menu ul li {
     padding-left: 4px;
     padding-right: 4px;
     font-size: 10px;
   }
-  /* line 949, ../sass/custom/_responsive.scss */
+  /* line 966, ../sass/custom/_responsive.scss */
   .navbar .secondary-sub-menu ul li:first-child {
     font-size: 13px;
   }
-  /* line 958, ../sass/custom/_responsive.scss */
+  /* line 975, ../sass/custom/_responsive.scss */
   .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row {
     font-size: 10px;
     padding: 0 4px;
@@ -4192,150 +4213,150 @@ article#node-68 h2 a {
 
   /*----------------------------css for homepage*--------------------------/
   /*css for slider*/
-  /* line 970, ../sass/custom/_responsive.scss */
+  /* line 987, ../sass/custom/_responsive.scss */
   #block-views-homepage-slideshow-block .views-slideshow-cycle-main-frame {
     width: 100% !important;
   }
-  /* line 972, ../sass/custom/_responsive.scss */
+  /* line 989, ../sass/custom/_responsive.scss */
   #block-views-homepage-slideshow-block .views-slideshow-cycle-main-frame .views-slideshow-cycle-main-frame-row {
     width: 100% !important;
   }
 
   /*css ends for slider*/
   /*css for ticker*/
-  /* line 981, ../sass/custom/_responsive.scss */
+  /* line 998, ../sass/custom/_responsive.scss */
   #block-views-ticker-block h2 {
     width: 197px;
     padding: 3px 0px 4.5px 5px;
     font-size: 15px;
   }
-  /* line 986, ../sass/custom/_responsive.scss */
+  /* line 1003, ../sass/custom/_responsive.scss */
   #block-views-ticker-block .liScroll-container {
     width: 74%;
   }
 
   /*css ends for ticker*/
   /*css for water-section*/
-  /* line 998, ../sass/custom/_responsive.scss */
+  /* line 1015, ../sass/custom/_responsive.scss */
   .its-all-about-water #block-views-infographics-block .view-infographics ul li {
     height: 154px;
     width: 24%;
     margin-right: 1%;
     background-size: 85%;
   }
-  /* line 1007, ../sass/custom/_responsive.scss */
+  /* line 1024, ../sass/custom/_responsive.scss */
   .its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(1) p {
     font-size: 40px;
     margin-top: 20px;
   }
-  /* line 1013, ../sass/custom/_responsive.scss */
+  /* line 1030, ../sass/custom/_responsive.scss */
   .its-all-about-water #block-views-infographics-block .view-infographics ul li .content .field-items .field-item:nth-child(2) p {
     font-size: 22px;
   }
 
   /*css ends for water-section*/
   /*css for impact-section*/
-  /* line 1031, ../sass/custom/_responsive.scss */
+  /* line 1048, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
     font-size: 30px;
   }
-  /* line 1037, ../sass/custom/_responsive.scss */
+  /* line 1054, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 h2 {
     font-size: 18px;
     width: 273px;
     margin-top: 25px;
   }
-  /* line 1043, ../sass/custom/_responsive.scss */
+  /* line 1060, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul {
     margin-left: 0;
     margin-top: 30px;
     padding-left: 38px;
   }
-  /* line 1047, ../sass/custom/_responsive.scss */
+  /* line 1064, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li {
     width: 24%;
     margin-right: 1%;
   }
-  /* line 1050, ../sass/custom/_responsive.scss */
+  /* line 1067, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap {
     height: 154px;
     background-size: 85%;
   }
-  /* line 1055, ../sass/custom/_responsive.scss */
+  /* line 1072, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(1) p {
     font-size: 40px;
     margin-top: 20px;
   }
-  /* line 1061, ../sass/custom/_responsive.scss */
+  /* line 1078, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(2) p {
     font-size: 22px;
   }
-  /* line 1066, ../sass/custom/_responsive.scss */
+  /* line 1083, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics ul li .bottom-wrap .field-item:nth-child(3) p {
     margin: 4px 0 0;
   }
-  /* line 1077, ../sass/custom/_responsive.scss */
+  /* line 1094, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(2) p {
     font-size: 28px;
   }
-  /* line 1082, ../sass/custom/_responsive.scss */
+  /* line 1099, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-1 .view-infographics .field-items .field-item:nth-child(3) p {
     font-size: 18px;
   }
-  /* line 1091, ../sass/custom/_responsive.scss */
+  /* line 1108, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics {
     width: 83%;
   }
-  /* line 1094, ../sass/custom/_responsive.scss */
+  /* line 1111, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li {
     background-size: 103%;
     height: 138px;
   }
-  /* line 1101, ../sass/custom/_responsive.scss */
+  /* line 1118, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item p:nth-child(1) {
     font-size: 40px;
   }
-  /* line 1106, ../sass/custom/_responsive.scss */
+  /* line 1123, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(2) p {
     font-size: 20px;
   }
-  /* line 1111, ../sass/custom/_responsive.scss */
+  /* line 1128, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-impact #block-views-infographics-block-2 .view-infographics ul li .content .field-items .field-item:nth-child(3) p {
     font-size: 10px;
   }
 
   /*css ends for impact-section*/
   /*css for approach-section*/
-  /* line 1129, ../sass/custom/_responsive.scss */
+  /* line 1146, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title, .blockqueue-homepage-programs .homepage-impact-wrapper .impact-content-wrapper .homepage-block-title {
     font-size: 30px;
   }
-  /* line 1135, ../sass/custom/_responsive.scss */
+  /* line 1152, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach #block-menu-menu-approach h2, .blockqueue-homepage-programs #block-menu-menu-approach h2 {
     font-size: 18px;
     width: 30%;
   }
-  /* line 1138, ../sass/custom/_responsive.scss */
+  /* line 1155, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach #block-menu-menu-approach h2:before, .blockqueue-homepage-programs #block-menu-menu-approach h2:before {
     width: 190px;
   }
-  /* line 1142, ../sass/custom/_responsive.scss */
+  /* line 1159, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-approach #block-menu-menu-approach .content, .blockqueue-homepage-programs #block-menu-menu-approach .content {
     width: 70%;
   }
 
   /*css ends for approach-section*/
   /*css for program-section*/
-  /* line 1152, ../sass/custom/_responsive.scss */
+  /* line 1169, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs h2 {
     width: 23%;
   }
-  /* line 1155, ../sass/custom/_responsive.scss */
+  /* line 1172, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs .content {
     width: 71%;
     left: 21px;
   }
-  /* line 1158, ../sass/custom/_responsive.scss */
+  /* line 1175, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-programs #block-menu-menu-programs .content li {
     max-width: 246px;
     width: 100%;
@@ -4344,105 +4365,105 @@ article#node-68 h2 a {
 
   /*css ends for program-section*/
   /*css for water-section*/
-  /* line 1171, ../sass/custom/_responsive.scss */
+  /* line 1188, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water h2 {
     font-size: 18px;
     width: 30%;
   }
-  /* line 1174, ../sass/custom/_responsive.scss */
+  /* line 1191, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water h2:before {
     width: 212px;
   }
-  /* line 1178, ../sass/custom/_responsive.scss */
+  /* line 1195, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water .content {
     width: 70%;
     padding-left: 20px;
   }
-  /* line 1181, ../sass/custom/_responsive.scss */
+  /* line 1198, ../sass/custom/_responsive.scss */
   .blockqueue-homepage-water #block-menu-menu-water .content li {
     width: 40%;
   }
 
   /*css ends for water-section*/
   /*css for-logo-slider-section*/
-  /* line 1192, ../sass/custom/_responsive.scss */
+  /* line 1209, ../sass/custom/_responsive.scss */
   #block-views-awards-slider-block .jcarousel-skin-default .jcarousel-item {
     width: 192px;
   }
 
   /*css ends for logo-slider-section*/
   /*css for partner-section*/
-  /* line 1203, ../sass/custom/_responsive.scss */
+  /* line 1220, ../sass/custom/_responsive.scss */
   .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-block-title {
     font-size: 30px;
   }
-  /* line 1206, ../sass/custom/_responsive.scss */
+  /* line 1223, ../sass/custom/_responsive.scss */
   .blockqueue-partners .view-homepage-content .homepage-impact-wrapper .homepage-body {
     width: 54%;
   }
-  /* line 1212, ../sass/custom/_responsive.scss */
+  /* line 1229, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 h2 {
     font-size: 18px;
     width: 25%;
   }
-  /* line 1215, ../sass/custom/_responsive.scss */
+  /* line 1232, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 h2:before {
     width: 150px;
   }
-  /* line 1219, ../sass/custom/_responsive.scss */
+  /* line 1236, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 .content {
     width: 75%;
   }
-  /* line 1222, ../sass/custom/_responsive.scss */
+  /* line 1239, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 .content .view-content .views-row {
     width: 16%;
     padding-right: 1%;
   }
-  /* line 1229, ../sass/custom/_responsive.scss */
+  /* line 1246, ../sass/custom/_responsive.scss */
   .blockqueue-partners #block-views-awards-slider-block-1 .view-footer .footer-link {
     margin-top: 12px;
   }
 
   /*css ends for partner-section*/
   /*css for footer*/
-  /* line 1239, ../sass/custom/_responsive.scss */
+  /* line 1256, ../sass/custom/_responsive.scss */
   .footer .region-footer {
     padding: 0 0 0 40px;
   }
 
   /*----------------------------css ends for homepage*--------------------------*/
   /*------------css for impact pages------------------*/
-  /* line 1247, ../sass/custom/_responsive.scss */
+  /* line 1264, ../sass/custom/_responsive.scss */
   .economic-inner-content .field-name-field-graph-title {
     font-size: 30px;
   }
-  /* line 1251, ../sass/custom/_responsive.scss */
+  /* line 1268, ../sass/custom/_responsive.scss */
   .economic-inner-content .field-name-field-graph-description p {
     font-size: 22px;
   }
 
   /*-------------css ends for impact pages=--------------*/
   /*------------css for programme page--------------- */
-  /* line 1264, ../sass/custom/_responsive.scss */
+  /* line 1281, ../sass/custom/_responsive.scss */
   #block-views-programs-list-block-2 .views-row.views-row-odd .technology-image, #block-views-programs-list-block-4 .views-row.views-row-odd .technology-image,
   #block-views-programs-list-block-6 .views-row.views-row-odd .technology-image, #block-views-programs-list-block-8 .views-row.views-row-odd .technology-image,
   #block-views-programs-list-block-10 .views-row.views-row-odd .technology-image, #block-views-programs-list-block-11 .views-row.views-row-odd .technology-image {
     width: 42%;
     margin-right: 4%;
   }
-  /* line 1269, ../sass/custom/_responsive.scss */
+  /* line 1286, ../sass/custom/_responsive.scss */
   #block-views-programs-list-block-2 .views-row .products-wrapper, #block-views-programs-list-block-4 .views-row .products-wrapper,
   #block-views-programs-list-block-6 .views-row .products-wrapper, #block-views-programs-list-block-8 .views-row .products-wrapper,
   #block-views-programs-list-block-10 .views-row .products-wrapper, #block-views-programs-list-block-11 .views-row .products-wrapper {
     height: 250px;
   }
-  /* line 1271, ../sass/custom/_responsive.scss */
+  /* line 1288, ../sass/custom/_responsive.scss */
   #block-views-programs-list-block-2 .views-row .products-wrapper .p-title, #block-views-programs-list-block-4 .views-row .products-wrapper .p-title,
   #block-views-programs-list-block-6 .views-row .products-wrapper .p-title, #block-views-programs-list-block-8 .views-row .products-wrapper .p-title,
   #block-views-programs-list-block-10 .views-row .products-wrapper .p-title, #block-views-programs-list-block-11 .views-row .products-wrapper .p-title {
     font-size: 14px;
   }
-  /* line 1274, ../sass/custom/_responsive.scss */
+  /* line 1291, ../sass/custom/_responsive.scss */
   #block-views-programs-list-block-2 .views-row .products-wrapper .p-desc, #block-views-programs-list-block-4 .views-row .products-wrapper .p-desc,
   #block-views-programs-list-block-6 .views-row .products-wrapper .p-desc, #block-views-programs-list-block-8 .views-row .products-wrapper .p-desc,
   #block-views-programs-list-block-10 .views-row .products-wrapper .p-desc, #block-views-programs-list-block-11 .views-row .products-wrapper .p-desc {
@@ -4451,49 +4472,67 @@ article#node-68 h2 a {
 
   /*----------css ends for programme page----------- */
   /*----------css for product page----------- */
-  /* line 1286, ../sass/custom/_responsive.scss */
+  /* line 1303, ../sass/custom/_responsive.scss */
   #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .product-no-result {
     font-size: 30px;
   }
-  /* line 1290, ../sass/custom/_responsive.scss */
+  /* line 1307, ../sass/custom/_responsive.scss */
   #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-clip-horizontal .full-width {
     width: 768px !important;
     margin: auto !important;
   }
-  /* line 1295, ../sass/custom/_responsive.scss */
+  /* line 1312, ../sass/custom/_responsive.scss */
   #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item {
     width: 340px !important;
     height: 253px;
     margin-left: 16px;
   }
-  /* line 1296, ../sass/custom/_responsive.scss */
+  /* line 1313, ../sass/custom/_responsive.scss */
   #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item.height {
     width: 100% !important;
   }
-  /* line 1302, ../sass/custom/_responsive.scss */
+  /* line 1319, ../sass/custom/_responsive.scss */
   #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-title {
     bottom: 24%;
   }
-  /* line 1306, ../sass/custom/_responsive.scss */
+  /* line 1323, ../sass/custom/_responsive.scss */
   #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-container-horizontal {
     max-width: 768px;
   }
-  /* line 1309, ../sass/custom/_responsive.scss */
+  /* line 1326, ../sass/custom/_responsive.scss */
   #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-next {
     right: -13px;
   }
 
   /*----------css ends for product page----------- */
+  /*----------css for annual-report page----------- */
+  /* line 1337, ../sass/custom/_responsive.scss */
+  .page-annual-report-page .view-annual-report-page .view-content {
+    padding: 0 20px;
+  }
+  /* line 1341, ../sass/custom/_responsive.scss */
+  .page-annual-report-page .view-annual-report-page .view-header .view-content {
+    padding: 0;
+  }
+
+  /*----------css ends for annual-report page----------- */
+  /*----------css for publication page----------- */
+  /* line 1350, ../sass/custom/_responsive.scss */
+  .publication-listing {
+    padding: 40px 20px;
+  }
+
+  /*----------css ends for publication page----------- */
 }
 /*-------media query for homepage awards slider--------*/
 @media (max-width: 520px) {
-  /* line 1323, ../sass/custom/_responsive.scss */
+  /* line 1361, ../sass/custom/_responsive.scss */
   #block-views-awards-slider-block .jcarousel-skin-default .jcarousel-prev-horizontal {
     left: 42%;
   }
 }
 @media all and (min-width: 521px) and (max-width: 767px) {
-  /* line 1333, ../sass/custom/_responsive.scss */
+  /* line 1371, ../sass/custom/_responsive.scss */
   #block-views-awards-slider-block .jcarousel-skin-default .jcarousel-next-horizontal {
     left: 52%;
   }
@@ -4501,13 +4540,13 @@ article#node-68 h2 a {
 /*-------------------------------------------------------*/
 /*-----media query for submenu's of programme page-------*/
 @media all and (min-width: 320px) and (max-width: 392px) {
-  /* line 1345, ../sass/custom/_responsive.scss */
+  /* line 1383, ../sass/custom/_responsive.scss */
   .node-type-programms .main-container {
     padding: 139px 0 0;
   }
 }
 @media all and (min-width: 393px) and (max-width: 739px) {
-  /* line 1352, ../sass/custom/_responsive.scss */
+  /* line 1390, ../sass/custom/_responsive.scss */
   .node-type-programms .main-container {
     padding: 119px 0 0;
   }
@@ -4515,13 +4554,13 @@ article#node-68 h2 a {
 /*-------------------------------------------------------*/
 /*-----media query for submenu's of product page-------*/
 @media all and (min-width: 320px) and (max-width: 439px) {
-  /* line 1362, ../sass/custom/_responsive.scss */
+  /* line 1400, ../sass/custom/_responsive.scss */
   .page-node-49 .main-container {
     padding: 119px 0 0;
   }
 }
 @media all and (min-width: 320px) and (max-width: 341px) {
-  /* line 1369, ../sass/custom/_responsive.scss */
+  /* line 1407, ../sass/custom/_responsive.scss */
   .page-node-59 .main-container {
     padding: 119px 0 0;
   }
