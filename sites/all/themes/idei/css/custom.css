@@ -3108,16 +3108,17 @@ article#node-68 h2 a {
   clear: both;
   border-bottom: 1px solid #6a6a6a;
   padding-bottom: 8px;
+  min-height: 60px;
 }
-/* line 2274, ../sass/custom/_project.scss */
+/* line 2275, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title {
   width: 65%;
   float: right;
-  padding-top: 48px;
+  padding-top: 43px;
   font-family: OpenSans;
   font-size: 16px;
 }
-/* line 2280, ../sass/custom/_project.scss */
+/* line 2281, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title a {
   color: #6a6a6a;
 }
