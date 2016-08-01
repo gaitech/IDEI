@@ -2957,45 +2957,46 @@ article#node-68 h2 a {
   width: 100%;
   float: none;
   padding: 0;
+  margin-bottom: 0;
 }
-/* line 2137, ../sass/custom/_project.scss */
+/* line 2138, ../sass/custom/_project.scss */
 .view-about-us .view-content {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 22px 40px 23px;
 }
-/* line 2142, ../sass/custom/_project.scss */
+/* line 2143, ../sass/custom/_project.scss */
 .view-about-us .view-content .views-row {
   width: 49%;
   display: inline-block;
   padding-left: 20px;
   margin-bottom: 20px;
 }
-/* line 2147, ../sass/custom/_project.scss */
+/* line 2148, ../sass/custom/_project.scss */
 .view-about-us .view-content .views-row .views-field.views-field-nothing {
   border: solid 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
 }
-/* line 2155, ../sass/custom/_project.scss */
+/* line 2156, ../sass/custom/_project.scss */
 .view-about-us .profile-wrapper {
   display: table;
   width: 100%;
   vertical-align: middle;
 }
-/* line 2159, ../sass/custom/_project.scss */
+/* line 2160, ../sass/custom/_project.scss */
 .view-about-us .profile-wrapper .profile-pic {
   width: 48%;
   display: table-cell;
   vertical-align: middle;
 }
-/* line 2163, ../sass/custom/_project.scss */
+/* line 2164, ../sass/custom/_project.scss */
 .view-about-us .profile-wrapper .profile-pic img {
   width: 100%;
 }
-/* line 2168, ../sass/custom/_project.scss */
+/* line 2169, ../sass/custom/_project.scss */
 .view-about-us .profile-title-wrap {
   width: 52%;
   display: table-cell;
@@ -3004,18 +3005,18 @@ article#node-68 h2 a {
   text-align: center;
   padding-right: 10px;
 }
-/* line 2176, ../sass/custom/_project.scss */
+/* line 2177, ../sass/custom/_project.scss */
 .view-about-us .profile-title {
   font-size: 25px;
   font-family: OpenSans;
   line-height: 1.2em;
   padding-bottom: 7px;
 }
-/* line 2181, ../sass/custom/_project.scss */
+/* line 2182, ../sass/custom/_project.scss */
 .view-about-us .profile-title a {
   color: #43bfef;
 }
-/* line 2185, ../sass/custom/_project.scss */
+/* line 2186, ../sass/custom/_project.scss */
 .view-about-us .profile-designation {
   font-size: 16px;
   font-family: OpenSans;
@@ -3023,7 +3024,7 @@ article#node-68 h2 a {
   line-height: 1.3em;
   padding-bottom: 7px;
 }
-/* line 2192, ../sass/custom/_project.scss */
+/* line 2193, ../sass/custom/_project.scss */
 .view-about-us .profile-path {
   font-size: 14px;
   text-transform: capitalize;
@@ -3036,32 +3037,32 @@ article#node-68 h2 a {
   background-position: 31% 0;
   background-size: 20px;
 }
-/* line 2203, ../sass/custom/_project.scss */
+/* line 2204, ../sass/custom/_project.scss */
 .view-about-us .profile-path a {
   color: #27579c;
 }
 
-/* line 2208, ../sass/custom/_project.scss */
+/* line 2209, ../sass/custom/_project.scss */
 .economic-inner-title.team {
-  padding-top: 10px;
+  padding-top: 37px;
 }
 
 /*--------------------css for our team listing page-------------------*/
 /*css for idei-capability-statement page */
-/* line 2215, ../sass/custom/_project.scss */
+/* line 2216, ../sass/custom/_project.scss */
 .node-type-about-idei table {
   width: 100%;
   margin: 25px 0;
 }
-/* line 2218, ../sass/custom/_project.scss */
+/* line 2219, ../sass/custom/_project.scss */
 .node-type-about-idei table td {
   border: 1px solid #6a6a6a;
 }
-/* line 2220, ../sass/custom/_project.scss */
+/* line 2221, ../sass/custom/_project.scss */
 .node-type-about-idei table td p {
   margin-bottom: 0;
 }
-/* line 2226, ../sass/custom/_project.scss */
+/* line 2227, ../sass/custom/_project.scss */
 .node-type-about-idei .approach-content img {
   width: 100% !important;
   max-width: 100%;
@@ -3072,6 +3073,56 @@ article#node-68 h2 a {
 
 /*css ends for idei-capability-statement page */
 /*---------------------css for about-us page-------------------------*/
+/*---------------------css for donors page----------------------------*/
+/* line 2244, ../sass/custom/_project.scss */
+.view-donors .view-header-banner .view-content {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 2249, ../sass/custom/_project.scss */
+.view-donors .view-header-banner .view-content .views-row {
+  width: 100%;
+  float: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+/* line 2257, ../sass/custom/_project.scss */
+.view-donors .view-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 22px 40px 23px;
+}
+/* line 2262, ../sass/custom/_project.scss */
+.view-donors .view-content .views-row {
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 100%;
+}
+/* line 2267, ../sass/custom/_project.scss */
+.view-donors .view-content .views-field-field-donor-logo {
+  width: 30%;
+  float: left;
+  clear: both;
+  border-bottom: 1px solid #6a6a6a;
+  padding-bottom: 8px;
+}
+/* line 2274, ../sass/custom/_project.scss */
+.view-donors .view-content .views-field-title {
+  width: 65%;
+  float: right;
+  padding-top: 48px;
+  font-family: OpenSans;
+  font-size: 16px;
+}
+/* line 2280, ../sass/custom/_project.scss */
+.view-donors .view-content .views-field-title a {
+  color: #6a6a6a;
+}
+
+/*---------------------css ends for donors page----------------------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {

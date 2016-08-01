@@ -2120,7 +2120,7 @@ article#node-68 {
  /*--------------------css ends for our team landing page-------------------*/
 
  /*--------------------css for our team listing page-------------------*/
-.view-about-us{
+.view-about-us {
 	.view-header-banner {
 		.view-content {
 			max-width: 100%;
@@ -2131,6 +2131,7 @@ article#node-68 {
 				width: 100%;
 				float: none;
 				padding: 0;
+				margin-bottom: 0;
 			}
 		}		
 	}
@@ -2206,7 +2207,7 @@ article#node-68 {
 	}
 }
 .economic-inner-title.team {
-  padding-top: 10px;
+  padding-top: 37px;
 }
 /*--------------------css for our team listing page-------------------*/
 
@@ -2235,3 +2236,52 @@ article#node-68 {
 /*css ends for idei-capability-statement page */
 
 /*---------------------css for about-us page-------------------------*/
+
+/*---------------------css for donors page----------------------------*/
+
+.view-donors {
+	.view-header-banner {
+		.view-content {
+			max-width: 100%;
+			width: 100%;
+			margin:0;
+			padding: 0;
+			.views-row {
+				width: 100%;
+				float: none;
+				padding: 0;
+				margin-bottom: 0;
+			}
+		}		
+	}
+	.view-content {
+		max-width: 1200px;
+		width: 100%;
+		margin: auto;
+		padding: 22px 40px 23px;
+		.views-row {
+	    margin-bottom: 25px;
+	    display: inline-block;
+	    width: 100%;
+		}
+		.views-field-field-donor-logo {
+	    width: 30%;
+	    float: left;
+	    clear: both;
+	    border-bottom: 1px solid #6a6a6a;
+	    padding-bottom: 8px;
+		}
+		.views-field-title {
+	    width: 65%;
+	    float: right;
+	    padding-top: 48px;
+	    font-family: OpenSans;
+	    font-size: 16px;
+	    a {
+	    	color: #6a6a6a;
+	    }
+		}
+	}
+}
+
+/*---------------------css ends for donors page----------------------------*/
