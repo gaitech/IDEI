@@ -110,6 +110,20 @@
 				}
 			}
 		}
+		.second-views-menu {
+			.view {
+				.view-content {
+					.block-title {
+						font-size: 12px;
+						padding: 0 4px;
+					}
+					.views-row {
+						font-size: 10px;
+						padding: 0 4px;
+					}
+				}
+			}
+		}
 	}
 
 	/*----------------------------css for homepage*--------------------------/
@@ -869,6 +883,20 @@
 		}
 	}
 	/*----------css ends for product page--------------*/
+
+	/*----------css for approach page page--------------*/
+	.approach-content-wrapper {
+		.shift-image {
+			padding: 20px 0;
+			width: 100%;
+		}
+		.approach-content {
+			font-size: 14px;
+			padding-bottom: 20px;
+			width: 100%;
+		}
+	}
+	/*----------css ends for approach page page--------------*/
 }
 
 
