@@ -884,7 +884,7 @@
 	}
 	/*----------css ends for product page--------------*/
 
-	/*----------css for approach page page--------------*/
+	/*----------css for approach page--------------*/
 	.approach-content-wrapper {
 		.shift-image {
 			padding: 20px 0;
@@ -896,8 +896,25 @@
 			width: 100%;
 		}
 	}
-	/*----------css ends for approach page page--------------*/
+	/*----------css ends for approach page--------------*/
+
+	/*----------css for annual-report & publications page--------------*/
+	.pub-main-wrap {
+		padding: 0 10px 40px;
+	}
+	.pub-wrap {
+		width: 80%;
+		margin-left: 5%;
+		.pub-title {
+			font-size: 20px;
+			line-height: 1.2em;
+		}
+		.pub-desc, .pub-download {
+			font-size: 14px;
+		}
+	}
 }
+/*----------css ends for annual-report & publications page--------------*/
 
 
 /*responsive css for tab*/
@@ -1313,6 +1330,27 @@
 		}
 	}
 	/*----------css ends for product page----------- */
+
+	/*----------css for annual-report page----------- */
+	.page-annual-report-page {
+		.view-annual-report-page {
+			.view-content {
+				padding: 0 20px;
+			}
+			.view-header {
+				.view-content {
+					padding: 0;
+				}
+			}
+		}
+	}
+	/*----------css ends for annual-report page----------- */
+
+	/*----------css for publication page----------- */
+	.publication-listing {
+		padding: 40px 20px;
+	}
+	/*----------css ends for publication page----------- */
 }
 
 
