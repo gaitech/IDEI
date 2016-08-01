@@ -3108,7 +3108,7 @@ article#node-68 h2 a {
   clear: both;
   border-bottom: 1px solid #6a6a6a;
   padding-bottom: 8px;
-  height: 60px;
+  min-height: 60px;
 }
 /* line 2275, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title {
