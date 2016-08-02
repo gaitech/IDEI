@@ -913,8 +913,22 @@
 			font-size: 14px;
 		}
 	}
+	/*----------css ends for annual-report & publications page--------------*/
+
+	/*----------css for programms block navigation on click of menu's--------------*/
+	#program-1:before, #program-2:before, 
+	#program-3:before, #program-4:before, 
+	#program-5:before, #program-6:before, 
+	#program-7:before {
+		display: block; 
+		content: " "; 
+		margin-top: -99px; 
+		height: 111px; 
+		visibility: hidden;
+	}
+	/*----------css ends for programms block navigation on click of menu's--------------*/
 }
-/*----------css ends for annual-report & publications page--------------*/
+
 
 
 /*responsive css for tab*/
