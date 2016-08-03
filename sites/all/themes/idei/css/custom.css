@@ -3072,38 +3072,48 @@ article#node-68 h2 a {
   margin-top: 25px;
 }
 
+/* line 2239, ../sass/custom/_project.scss */
+.page-node-107 .approach-content img {
+  width: 410px !important;
+  height: 320px !important;
+  float: left;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
 /*css ends for idei-capability-statement page */
 /*---------------------css for about-us page-------------------------*/
 /*---------------------css for donors page----------------------------*/
-/* line 2245, ../sass/custom/_project.scss */
-.view-donors .view-header-banner .view-content {
+/* line 2257, ../sass/custom/_project.scss */
+.view-donors .view-header-banner .view-content, .view-knowledge-partners .view-header-banner .view-content {
   max-width: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 2250, ../sass/custom/_project.scss */
-.view-donors .view-header-banner .view-content .views-row {
+/* line 2262, ../sass/custom/_project.scss */
+.view-donors .view-header-banner .view-content .views-row, .view-knowledge-partners .view-header-banner .view-content .views-row {
   width: 100%;
   float: none;
   padding: 0;
   margin-bottom: 0;
 }
-/* line 2258, ../sass/custom/_project.scss */
-.view-donors .view-content {
+/* line 2270, ../sass/custom/_project.scss */
+.view-donors .view-content, .view-knowledge-partners .view-content {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 22px 40px 23px;
 }
-/* line 2263, ../sass/custom/_project.scss */
-.view-donors .view-content .views-row {
+/* line 2275, ../sass/custom/_project.scss */
+.view-donors .view-content .views-row, .view-knowledge-partners .view-content .views-row {
   margin-bottom: 25px;
   display: inline-block;
   width: 100%;
 }
-/* line 2268, ../sass/custom/_project.scss */
-.view-donors .view-content .views-field-field-donor-logo {
+/* line 2280, ../sass/custom/_project.scss */
+.view-donors .view-content .views-field-field-donor-logo, .view-donors .view-content .views-field-field-knowledge-partner-logo, .view-knowledge-partners .view-content .views-field-field-donor-logo, .view-knowledge-partners .view-content .views-field-field-knowledge-partner-logo {
   width: 30%;
   float: left;
   clear: both;
@@ -3111,17 +3121,21 @@ article#node-68 h2 a {
   padding-bottom: 8px;
   min-height: 60px;
 }
-/* line 2276, ../sass/custom/_project.scss */
-.view-donors .view-content .views-field-title {
+/* line 2288, ../sass/custom/_project.scss */
+.view-donors .view-content .views-field-title, .view-knowledge-partners .view-content .views-field-title {
   width: 65%;
   float: right;
   padding-top: 43px;
   font-family: OpenSans;
   font-size: 16px;
 }
-/* line 2282, ../sass/custom/_project.scss */
-.view-donors .view-content .views-field-title a {
+/* line 2294, ../sass/custom/_project.scss */
+.view-donors .view-content .views-field-title a, .view-knowledge-partners .view-content .views-field-title a {
   color: #6a6a6a;
+}
+/* line 2296, ../sass/custom/_project.scss */
+.view-donors .view-content .views-field-title a:hover, .view-knowledge-partners .view-content .views-field-title a:hover {
+  color: #43bfef;
 }
 
 /*---------------------css ends for donors page----------------------------*/
