@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Knowledge Partners feature.
+ */
+
+include_once 'knowledge_partners.features.inc';

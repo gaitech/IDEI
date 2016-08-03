@@ -2234,13 +2234,25 @@ article#node-68 {
 		}
 	}
 }
+.page-node-107 {
+	.approach-content {
+		img {
+	    width: 410px !important;
+	    height: 320px !important;
+	    float: left;
+	    margin-top: 0;
+	    margin-right: 20px;
+	    margin-bottom: 10px;
+	  }
+	}
+}
 /*css ends for idei-capability-statement page */
 
 /*---------------------css for about-us page-------------------------*/
 
 /*---------------------css for donors page----------------------------*/
 
-.view-donors {
+.view-donors, .view-knowledge-partners {
 	.view-header-banner {
 		.view-content {
 			max-width: 100%;
@@ -2265,7 +2277,7 @@ article#node-68 {
 	    display: inline-block;
 	    width: 100%;
 		}
-		.views-field-field-donor-logo {
+		.views-field-field-donor-logo, .views-field-field-knowledge-partner-logo {
 	    width: 30%;
 	    float: left;
 	    clear: both;
@@ -2281,6 +2293,9 @@ article#node-68 {
 	    font-size: 16px;
 	    a {
 	    	color: #6a6a6a;
+	    	&:hover {
+	    		color: #43bfef;
+	    	}
 	    }
 		}
 	}
