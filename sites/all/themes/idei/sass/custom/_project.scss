@@ -2250,8 +2250,16 @@ article#node-68 {
 
 /*---------------------css for about-us page-------------------------*/
 
-/*---------------------css for donors page----------------------------*/
+/*---------------------css for donors and knowledge-partners page------------------*/
 
+.page-donors, .page-knowledge-partners {
+	.economic-inner-title.team {
+    background-image: url("../images/drop.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 71% 100%;
+	}
+}
 .view-donors, .view-knowledge-partners {
 	.view-header-banner {
 		.view-content {

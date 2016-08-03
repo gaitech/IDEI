@@ -3084,35 +3084,43 @@ article#node-68 h2 a {
 
 /*css ends for idei-capability-statement page */
 /*---------------------css for about-us page-------------------------*/
-/*---------------------css for donors page----------------------------*/
-/* line 2257, ../sass/custom/_project.scss */
+/*---------------------css for donors and knowledge-partners page------------------*/
+/* line 2256, ../sass/custom/_project.scss */
+.page-donors .economic-inner-title.team, .page-knowledge-partners .economic-inner-title.team {
+  background-image: url("../images/drop.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 71% 100%;
+}
+
+/* line 2265, ../sass/custom/_project.scss */
 .view-donors .view-header-banner .view-content, .view-knowledge-partners .view-header-banner .view-content {
   max-width: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 2262, ../sass/custom/_project.scss */
+/* line 2270, ../sass/custom/_project.scss */
 .view-donors .view-header-banner .view-content .views-row, .view-knowledge-partners .view-header-banner .view-content .views-row {
   width: 100%;
   float: none;
   padding: 0;
   margin-bottom: 0;
 }
-/* line 2270, ../sass/custom/_project.scss */
+/* line 2278, ../sass/custom/_project.scss */
 .view-donors .view-content, .view-knowledge-partners .view-content {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 22px 40px 23px;
 }
-/* line 2275, ../sass/custom/_project.scss */
+/* line 2283, ../sass/custom/_project.scss */
 .view-donors .view-content .views-row, .view-knowledge-partners .view-content .views-row {
   margin-bottom: 25px;
   display: inline-block;
   width: 100%;
 }
-/* line 2280, ../sass/custom/_project.scss */
+/* line 2288, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-field-donor-logo, .view-donors .view-content .views-field-field-knowledge-partner-logo, .view-knowledge-partners .view-content .views-field-field-donor-logo, .view-knowledge-partners .view-content .views-field-field-knowledge-partner-logo {
   width: 30%;
   float: left;
@@ -3121,7 +3129,7 @@ article#node-68 h2 a {
   padding-bottom: 8px;
   min-height: 60px;
 }
-/* line 2288, ../sass/custom/_project.scss */
+/* line 2296, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title, .view-knowledge-partners .view-content .views-field-title {
   width: 65%;
   float: right;
@@ -3129,11 +3137,11 @@ article#node-68 h2 a {
   font-family: OpenSans;
   font-size: 16px;
 }
-/* line 2294, ../sass/custom/_project.scss */
+/* line 2302, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title a, .view-knowledge-partners .view-content .views-field-title a {
   color: #6a6a6a;
 }
-/* line 2296, ../sass/custom/_project.scss */
+/* line 2304, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title a:hover, .view-knowledge-partners .view-content .views-field-title a:hover {
   color: #43bfef;
 }
