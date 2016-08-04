@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Global Networking Platforms feature.
+ */
+
+include_once 'global_networking_platforms.features.inc';

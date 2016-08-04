@@ -1158,8 +1158,8 @@
   }
   .field-name-field-graph-body-title {
   	clear: both;
-    font-size: 16px;
-    color: #6a6a6a;
+    font-size: 18px;
+    color: #27579c;
     font-weight: bold;
     font-family: OpenSans;
     text-transform: uppercase;
@@ -2246,13 +2246,21 @@ article#node-68 {
 	  }
 	}
 }
+.approach-content {
+	p {
+		strong {
+			color: #27579c;
+			font-size: 18px;
+		}
+	}
+}
 /*css ends for idei-capability-statement page */
 
 /*---------------------css for about-us page-------------------------*/
 
 /*---------------------css for donors and knowledge-partners page------------------*/
 
-.page-donors, .page-knowledge-partners {
+.page-donors, .page-knowledge-partners, .page-global-networking-platforms {
 	.economic-inner-title.team {
     background-image: url("../images/drop.png");
     background-repeat: no-repeat;
@@ -2260,7 +2268,28 @@ article#node-68 {
     background-position: 71% 100%;
 	}
 }
-.view-donors, .view-knowledge-partners {
+.page-global-networking-platforms {
+	.economic-inner-title.team {
+		background-position: 79% 100%;
+	}
+}
+.page-donors {
+	.economic-inner-title.team {
+		background-position: 67% 100%;
+	}
+}
+.view-donors, .view-knowledge-partners, .view-global-networking-platforms {
+	.view-header {
+		p {
+			color: #6a6a6a;
+	    font-size: 16px;
+	    line-height: 1.5em;
+	    margin: auto;
+	    padding-top: 6px;
+	    text-align: center;
+	    width: 80%;
+		}
+	}
 	.view-header-banner {
 		.view-content {
 			max-width: 100%;
@@ -2282,16 +2311,17 @@ article#node-68 {
 		padding: 22px 40px 23px;
 		.views-row {
 	    margin-bottom: 25px;
-	    display: inline-block;
+	    display: table;
 	    width: 100%;
 		}
-		.views-field-field-donor-logo, .views-field-field-knowledge-partner-logo {
+		.views-field-field-donor-logo, .views-field-field-knowledge-partner-logo,
+		.views-field-field-global-networking-logo {
 	    width: 30%;
-	    float: left;
 	    clear: both;
 	    border-bottom: 1px solid #6a6a6a;
 	    padding-bottom: 8px;
 	    min-height: 60px;
+	    display: table-cell;
 		}
 		.views-field-title {
 	    width: 65%;
@@ -2299,6 +2329,8 @@ article#node-68 {
 	    padding-top: 43px;
 	    font-family: OpenSans;
 	    font-size: 16px;
+	    display: table-cell;
+	    height: 100%;
 	    a {
 	    	color: #6a6a6a;
 	    	&:hover {
