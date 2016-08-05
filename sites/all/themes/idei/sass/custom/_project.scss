@@ -2342,3 +2342,118 @@ article#node-68 {
 }
 
 /*---------------------css ends for donors page----------------------------*/
+
+/*---------------------css for archive-listing page----------------------------*/
+.view-archive- {
+	.view-header {
+		.archive-title {
+			font-size: 36px;
+	    color: #43bfef;
+	    text-align: center;
+	    font-family: OpenSans;
+	    text-transform: uppercase;
+	    padding-top: 40px;
+	    font-weight: bold;
+		}
+		.view-content {
+			max-width: 100%;
+			margin: 0;
+			padding: 0;
+			.views-row {
+				width: 100%;
+				float: none;
+				margin: 0;
+				position: static;
+			}
+		}
+	}
+	.view-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 22px 40px 23px;
+    .views-row {
+    	width: 45%;
+    	float: left;
+    	margin-left: 3%;
+    	position: relative;
+    	margin-bottom: 3%;
+    }
+    .views-field-name {
+      position: absolute;
+      top: 45%;
+      text-align: center;
+      width: 100%;
+      font-size: 30px;
+      font-family: OpenSans;
+      line-height: 1.2em;
+    }
+	}
+	.view-footer {
+    display: inline-block;
+    width: 100%;
+	}
+	&.view-display-id-block_2, &.view-display-id-block_4, &.view-display-id-block_6 {
+    display: inline-block;
+    width: 100%;
+    padding-top: 30px;
+    .view-header {
+      width: 100%;
+      text-align: center;
+      font-size: 36px;
+      color: #43bfef;
+      font-family: OpenSans;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .view-content {
+    	.views-row {
+    		width: 27%;
+		    float: left;
+		    margin-left: 5%;
+		    position: relative;
+		    margin-bottom: 5%;
+    	}
+    	.views-field-name {
+    		top: 40%;
+    	}
+    	.views-field-field-promotional-feature-video {
+    		a {
+    			display: inline-block;
+    			&:before {
+    				content: "";
+				    position: absolute;
+				    background-image: url("../images/youicon.png");
+				    height: 100%;
+				    width: 100%;
+				    background-position: 50% 40%;
+				    background-repeat: no-repeat;
+				    z-index: 1;
+				    left: 0;
+    			}
+    		}
+    	}
+    }
+	}
+	&.view-display-id-block_4 {
+    .view-content {
+    	.views-row {
+    		width: 45%;
+    		float: left;
+    		margin-left: 3%;
+    		position: relative;
+    		margin-bottom: 3%;
+    	}
+    	.views-field-name {
+    		position: static;
+    		color: #27579c;
+    		padding-bottom: 10px;
+    		text-transform: uppercase
+    	}
+    }
+	}
+	&.view-display-id-block_2, &.view-display-id-block_6 {
+		padding-top: 52px;
+	}
+}
+/*---------------------css ends for archive-listing page--------------------------*/
