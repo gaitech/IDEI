@@ -2890,7 +2890,7 @@ article#node-68 h2 a {
 
 /*-----------------css ends for publication and annual-report-page----------------*/
 /*---------------------css for about-us page-------------------------*/
-/*--------------------css for our team landing page-------------------*/
+/*--------------------css for our team node page-------------------*/
 /* line 2082, ../sass/custom/_project.scss */
 .about-main-wrapper {
   max-width: 1200px;
@@ -2947,7 +2947,7 @@ article#node-68 h2 a {
   width: 100%;
 }
 
-/*--------------------css ends for our team landing page-------------------*/
+/*--------------------css ends for our team node page-------------------*/
 /*--------------------css for our team listing page-------------------*/
 /* line 2128, ../sass/custom/_project.scss */
 .view-about-us .view-header-banner .view-content {
@@ -3179,8 +3179,8 @@ article#node-68 h2 a {
 
 /*---------------------css ends for donors page----------------------------*/
 /*---------------------css for archive-listing page----------------------------*/
-/* line 2349, ../sass/custom/_project.scss */
-.view-archive- .view-header .archive-title {
+/* line 2350, ../sass/custom/_project.scss */
+.main-container .view-archive- .view-header .archive-title {
   font-size: 36px;
   color: #43bfef;
   text-align: center;
@@ -3189,36 +3189,36 @@ article#node-68 h2 a {
   padding-top: 40px;
   font-weight: bold;
 }
-/* line 2358, ../sass/custom/_project.scss */
-.view-archive- .view-header .view-content {
+/* line 2359, ../sass/custom/_project.scss */
+.main-container .view-archive- .view-header .view-content {
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 2362, ../sass/custom/_project.scss */
-.view-archive- .view-header .view-content .views-row {
+/* line 2363, ../sass/custom/_project.scss */
+.main-container .view-archive- .view-header .view-content .views-row {
   width: 100%;
   float: none;
   margin: 0;
   position: static;
 }
-/* line 2370, ../sass/custom/_project.scss */
-.view-archive- .view-content {
+/* line 2371, ../sass/custom/_project.scss */
+.main-container .view-archive- .view-content {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 22px 40px 23px;
 }
-/* line 2375, ../sass/custom/_project.scss */
-.view-archive- .view-content .views-row {
+/* line 2376, ../sass/custom/_project.scss */
+.main-container .view-archive- .view-content .views-row {
   width: 45%;
   float: left;
   margin-left: 3%;
   position: relative;
   margin-bottom: 3%;
 }
-/* line 2382, ../sass/custom/_project.scss */
-.view-archive- .view-content .views-field-name {
+/* line 2383, ../sass/custom/_project.scss */
+.main-container .view-archive- .view-content .views-field-name {
   position: absolute;
   top: 45%;
   text-align: center;
@@ -3227,19 +3227,19 @@ article#node-68 h2 a {
   font-family: OpenSans;
   line-height: 1.2em;
 }
-/* line 2392, ../sass/custom/_project.scss */
-.view-archive- .view-footer {
+/* line 2393, ../sass/custom/_project.scss */
+.main-container .view-archive- .view-footer {
   display: inline-block;
   width: 100%;
 }
-/* line 2396, ../sass/custom/_project.scss */
-.view-archive-.view-display-id-block_2, .view-archive-.view-display-id-block_4, .view-archive-.view-display-id-block_6 {
+/* line 2397, ../sass/custom/_project.scss */
+.main-container .view-archive-.view-display-id-block_2, .main-container .view-archive-.view-display-id-block_4, .main-container .view-archive-.view-display-id-block_6 {
   display: inline-block;
   width: 100%;
   padding-top: 30px;
 }
-/* line 2400, ../sass/custom/_project.scss */
-.view-archive-.view-display-id-block_2 .view-header, .view-archive-.view-display-id-block_4 .view-header, .view-archive-.view-display-id-block_6 .view-header {
+/* line 2401, ../sass/custom/_project.scss */
+.main-container .view-archive-.view-display-id-block_2 .view-header, .main-container .view-archive-.view-display-id-block_4 .view-header, .main-container .view-archive-.view-display-id-block_6 .view-header {
   width: 100%;
   text-align: center;
   font-size: 36px;
@@ -3248,24 +3248,24 @@ article#node-68 h2 a {
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 2410, ../sass/custom/_project.scss */
-.view-archive-.view-display-id-block_2 .view-content .views-row, .view-archive-.view-display-id-block_4 .view-content .views-row, .view-archive-.view-display-id-block_6 .view-content .views-row {
+/* line 2411, ../sass/custom/_project.scss */
+.main-container .view-archive-.view-display-id-block_2 .view-content .views-row, .main-container .view-archive-.view-display-id-block_4 .view-content .views-row, .main-container .view-archive-.view-display-id-block_6 .view-content .views-row {
   width: 27%;
   float: left;
   margin-left: 5%;
   position: relative;
   margin-bottom: 5%;
 }
-/* line 2417, ../sass/custom/_project.scss */
-.view-archive-.view-display-id-block_2 .view-content .views-field-name, .view-archive-.view-display-id-block_4 .view-content .views-field-name, .view-archive-.view-display-id-block_6 .view-content .views-field-name {
+/* line 2418, ../sass/custom/_project.scss */
+.main-container .view-archive-.view-display-id-block_2 .view-content .views-field-name, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-name, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-name {
   top: 40%;
 }
-/* line 2421, ../sass/custom/_project.scss */
-.view-archive-.view-display-id-block_2 .view-content .views-field-field-promotional-feature-video a, .view-archive-.view-display-id-block_4 .view-content .views-field-field-promotional-feature-video a, .view-archive-.view-display-id-block_6 .view-content .views-field-field-promotional-feature-video a {
+/* line 2422, ../sass/custom/_project.scss */
+.main-container .view-archive-.view-display-id-block_2 .view-content .views-field-field-promotional-feature-video a, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-field-promotional-feature-video a, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-field-promotional-feature-video a {
   display: inline-block;
 }
-/* line 2423, ../sass/custom/_project.scss */
-.view-archive-.view-display-id-block_2 .view-content .views-field-field-promotional-feature-video a:before, .view-archive-.view-display-id-block_4 .view-content .views-field-field-promotional-feature-video a:before, .view-archive-.view-display-id-block_6 .view-content .views-field-field-promotional-feature-video a:before {
+/* line 2424, ../sass/custom/_project.scss */
+.main-container .view-archive-.view-display-id-block_2 .view-content .views-field-field-promotional-feature-video a:before, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-field-promotional-feature-video a:before, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-field-promotional-feature-video a:before {
   content: "";
   position: absolute;
   background-image: url("../images/youicon.png");
@@ -3276,27 +3276,58 @@ article#node-68 h2 a {
   z-index: 1;
   left: 0;
 }
-/* line 2440, ../sass/custom/_project.scss */
-.view-archive-.view-display-id-block_4 .view-content .views-row {
+/* line 2441, ../sass/custom/_project.scss */
+.main-container .view-archive-.view-display-id-block_4 .view-content .views-row {
   width: 45%;
   float: left;
   margin-left: 3%;
   position: relative;
   margin-bottom: 3%;
 }
-/* line 2447, ../sass/custom/_project.scss */
-.view-archive-.view-display-id-block_4 .view-content .views-field-name {
+/* line 2448, ../sass/custom/_project.scss */
+.main-container .view-archive-.view-display-id-block_4 .view-content .views-field-name {
   position: static;
   color: #27579c;
   padding-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 2455, ../sass/custom/_project.scss */
-.view-archive-.view-display-id-block_2, .view-archive-.view-display-id-block_6 {
+/* line 2456, ../sass/custom/_project.scss */
+.main-container .view-archive-.view-display-id-block_2, .main-container .view-archive-.view-display-id-block_6 {
   padding-top: 52px;
 }
 
 /*---------------------css ends for archive-listing page--------------------------*/
+/*---------------------css for archive-node page--------------------------*/
+/* line 2466, ../sass/custom/_project.scss */
+.view-photo-gallery-archive- .node-title {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 36px;
+  color: #43bfef;
+  font-family: OpenSans;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 2476, ../sass/custom/_project.scss */
+.view-photo-gallery-archive- .view-header .view-content {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 2482, ../sass/custom/_project.scss */
+.view-photo-gallery-archive- .view-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 22px 40px 51px;
+  display: table;
+}
+/* line 2488, ../sass/custom/_project.scss */
+.view-photo-gallery-archive- .view-content .views-row {
+  display: table-cell;
+}
+
+/*---------------------css ends for archive-node page--------------------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {
