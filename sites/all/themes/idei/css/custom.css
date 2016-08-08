@@ -3328,6 +3328,45 @@ article#node-68 h2 a {
 }
 
 /*---------------------css ends for archive-node page--------------------------*/
+/*---------------------css for contact-us page--------------------------*/
+/* line 2498, ../sass/custom/_project.scss */
+.view-contact-us-page .view-footer {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 50px 40px 14px;
+}
+/* line 2504, ../sass/custom/_project.scss */
+.view-contact-us-page .address-wrap {
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 100%;
+}
+/* line 2509, ../sass/custom/_project.scss */
+.view-contact-us-page .address-block {
+  float: left;
+  width: 50%;
+}
+/* line 2513, ../sass/custom/_project.scss */
+.view-contact-us-page .map-block {
+  width: 50%;
+  float: left;
+}
+/* line 2518, ../sass/custom/_project.scss */
+.view-contact-us-page .delhi-address p {
+  font-family: OpenSans;
+  font-size: 16px;
+  color: #6a6a6a;
+}
+/* line 2522, ../sass/custom/_project.scss */
+.view-contact-us-page .delhi-address p:nth-child(1) {
+  font-size: 36px;
+  color: #43bfef;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*---------------------css ends for contact-us page--------------------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {

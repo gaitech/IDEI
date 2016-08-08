@@ -2491,3 +2491,41 @@ article#node-68 {
   }
 }
 /*---------------------css ends for archive-node page--------------------------*/
+
+
+/*---------------------css for contact-us page--------------------------*/
+.view-contact-us-page {
+	.view-footer {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 50px 40px 14px;
+  }
+  .address-wrap {
+    margin-bottom: 30px;
+    display:inline-block;
+    width: 100%;
+  }
+  .address-block {
+    float: left;
+    width: 50%;
+  }
+  .map-block {
+    width: 50%;
+    float: left;
+  }
+  .delhi-address {
+  	p {
+  		font-family: OpenSans;
+  		font-size: 16px;
+  		color: #6a6a6a;
+  		&:nth-child(1) {
+	      font-size: 36px;
+	      color: #43bfef;
+	      font-weight: bold;
+	      text-transform: uppercase;
+    	}
+  	}
+  }
+}
+/*---------------------css ends for contact-us page--------------------------*/
