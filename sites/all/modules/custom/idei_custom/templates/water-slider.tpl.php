@@ -34,8 +34,8 @@
         overflow:hidden;
       }
       #carousel img {
-        visibility:hidden; /* hide images until carousel can handle them */
-        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+        visibility:hidden; 
+        cursor:pointer; 
       }
     </style>
 <?php

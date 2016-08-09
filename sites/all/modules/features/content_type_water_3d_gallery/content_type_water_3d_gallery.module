@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the content type : Water 3d gallery feature.
  */
+
+include_once 'content_type_water_3d_gallery.features.inc';
