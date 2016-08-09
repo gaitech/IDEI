@@ -126,6 +126,19 @@
 		}
 	}
 
+	/*css for submenu of about section*/
+	.node-type-about-idei {
+		.navbar {
+			.secondary-sub-menu {
+				ul {
+					li {
+		  			padding: 0 3px;
+		  		}
+		  	}
+		  }
+		}
+	}
+
 	/*----------------------------css for homepage*--------------------------/
 	/*css for slider*/
 	.slide-wrapper {
@@ -895,6 +908,12 @@
 			font-size: 14px;
 			padding-bottom: 20px;
 			width: 100%;
+			p {
+				strong {
+					font-size: 15px;
+					word-break: break-all;
+				}
+			}
 		}
 	}
 	/*----------css ends for approach page--------------*/
@@ -928,6 +947,50 @@
 		visibility: hidden;
 	}
 	/*----------css ends for programms block navigation on click of menu's--------------*/
+
+	/*--------------css for about-page-----------------------------*/
+	.node-type-about-idei  {
+		table {
+			margin: 0;
+		}
+	}
+
+	/*--------------css for about-board-member-page-----------------------------*/
+	.view-about-us {
+		.view-content {
+			padding-left: 10px;
+			padding-right: 10px;
+			.views-row {
+				width: 100%;
+				padding-left: 0;
+			}
+			.profile-wrapper {
+		    display: inline-block;
+		    width: 100%;
+		    .profile-pic {
+	        width: 100%;
+	        display: inline-block;
+	      }
+	      .profile-title-wrap {
+          width: 100%;
+          display: inline-block;
+          padding-top: 10px;
+        }
+		  }
+		}
+		.profile-title {
+			font-size: 18px;
+		}
+		.profile-designation {
+			font-size: 14px;
+		}
+		.profile-path {
+			font-size: 13px;
+		}
+	}
+	/*--------------css ends for about-board-member-page-----------------------------*/
+
+	/*--------------css ends for about-page-----------------------------*/
 }
 
 
@@ -1366,6 +1429,17 @@
 		padding: 40px 20px;
 	}
 	/*----------css ends for publication page----------- */
+
+	/*----------css for about-us-board-members page----------- */
+	.view-about-us {
+		.profile-title {
+			font-size: 20px;
+		}
+		.profile-designation {
+			font-size: 15px;
+		}
+	}
+	/*----------css ends for about-us-board-members page----------- */
 }
 
 
@@ -1419,6 +1493,30 @@
 }
 @media all and (min-width:320px) and (max-width: 341px) {
 	.page-node-59 {
+		.main-container {
+			padding: 119px 0 0;
+		}
+	}
+}
+/*-------------------------------------------------------*/
+
+/*-----media query for submenu's of about pages-------*/
+@media all and (min-width:320px) and (max-width: 337px) {
+	.node-type-about-idei {
+		.main-container {
+			padding: 159px 0 0;
+		}
+	}
+}
+@media all and (min-width:338px) and (max-width: 474px) {
+	.node-type-about-idei {
+		.main-container {
+			padding: 139px 0 0;
+		}
+	}
+}
+@media all and (min-width:475px) and (max-width: 767px) {
+	.node-type-about-idei {
 		.main-container {
 			padding: 119px 0 0;
 		}
