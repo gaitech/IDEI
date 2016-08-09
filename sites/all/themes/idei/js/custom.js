@@ -93,6 +93,7 @@
   
 
 
+
   var pgurl2 = window.location.href.substr(window.location.href.lastIndexOf("#")+1);
   var ac_url = '#'+pgurl2;
   $(".program-menu-navigation li a").each(function() {
