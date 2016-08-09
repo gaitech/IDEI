@@ -24,6 +24,9 @@ function idei_custom_block_info() {
   $blocks['water_inner_menu'] = array(
     'info' => t('Water inner page custom menu'),
   );
+  $blocks['3d_slider'] = array(
+    'info' => t('Water section 3D slider'),
+  );
 
   return $blocks;
 }
@@ -38,6 +41,10 @@ function idei_custom_block_view($delta = '') {
     case 'home_custom_menu':
       $block['subject'] = '';
       $block['content'] = idei_main_custom_navigation();
+      break;
+    case '3d_slider':
+      $block['subject'] = '';
+      $block['content'] = idei_3d_slider();
       break;
     case 'programs_custom_menu':
       $block['subject'] = '';
@@ -54,6 +61,12 @@ function idei_custom_block_view($delta = '') {
   }
 
   return $block;
+}
+//3D slider block
+function idei_3d_slider(){
+  drupal_add_js( drupal_get_path('module', 'idei_custom') . '/js/jquery.waterwheelCarousel.js');
+ 
+  return theme('water_slider');
 }
 //function for water inner page menu
 function water_inner_page_menu(){
@@ -88,6 +101,9 @@ function idei_custom_theme(){
     ),
     'water_inner_menu' => array(
      'template' =>'templates/water-inner-menu',
+    ),
+    'water_slider' => array(
+     'template' =>'templates/water-slider',
     ),
     
   );
