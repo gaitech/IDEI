@@ -1118,6 +1118,7 @@
   text-transform: uppercase;
   text-align: center;
   padding-top: 10px;
+  line-height: 1.2em;
 }
 .economic-inner-content {
 	ul {
@@ -2228,7 +2229,7 @@ article#node-68 {
 		img {
 			width: 100% !important;
 			max-width: 100%;
-			height: auto;
+			height: auto !important;
 			display: block;
 			margin-top: 25px;
 		}
@@ -2478,15 +2479,18 @@ article#node-68 {
 			margin: 0;
 			padding: 0;
 		}
+		.views-row {
+			width: 100%;
+		}
 	}
 	.view-content {
     max-width: 1200px;
     width: 100%;
     margin: auto;
-    padding: 22px 40px 51px;
+    padding: 22px 40px 51px 50px;;
     display: table;
     .views-row {
-    	display: table-cell;
+    	float: left;
     }
   }
 }
