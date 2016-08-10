@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View : Media listing feature.
+ */
+
+include_once 'view_media_listing.features.inc';
