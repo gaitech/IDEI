@@ -127,7 +127,7 @@
 	}
 
 	/*css for submenu of about section*/
-	.node-type-about-idei {
+	.node-type-about-idei, .page-about-us, .page-board-members {
 		.navbar {
 			.secondary-sub-menu {
 				ul {
@@ -1502,23 +1502,24 @@
 
 /*-----media query for submenu's of about pages-------*/
 @media all and (min-width:320px) and (max-width: 337px) {
-	.node-type-about-idei {
+	.node-type-about-idei, .page-about-us, .page-board-members  {
 		.main-container {
 			padding: 159px 0 0;
 		}
 	}
 }
 @media all and (min-width:338px) and (max-width: 474px) {
-	.node-type-about-idei {
+	.node-type-about-idei, .page-about-us, .page-board-members  {
 		.main-container {
 			padding: 139px 0 0;
 		}
 	}
 }
 @media all and (min-width:475px) and (max-width: 767px) {
-	.node-type-about-idei {
+	.node-type-about-idei, .page-about-us, .page-board-members  {
 		.main-container {
 			padding: 119px 0 0;
 		}
 	}
 }
+/*--------------------------------------------------------------*/
