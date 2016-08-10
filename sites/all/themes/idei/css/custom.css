@@ -3501,7 +3501,7 @@ article#node-68 h2 a {
 
   /*css for submenu of about section*/
   /* line 134, ../sass/custom/_responsive.scss */
-  .node-type-about-idei .navbar .secondary-sub-menu ul li {
+  .node-type-about-idei .navbar .secondary-sub-menu ul li, .page-about-us .navbar .secondary-sub-menu ul li, .page-board-members .navbar .secondary-sub-menu ul li {
     padding: 0 3px;
   }
 
@@ -4899,19 +4899,20 @@ article#node-68 h2 a {
 /*-----media query for submenu's of about pages-------*/
 @media all and (min-width: 320px) and (max-width: 337px) {
   /* line 1506, ../sass/custom/_responsive.scss */
-  .node-type-about-idei .main-container {
+  .node-type-about-idei .main-container, .page-about-us .main-container, .page-board-members .main-container {
     padding: 159px 0 0;
   }
 }
 @media all and (min-width: 338px) and (max-width: 474px) {
   /* line 1513, ../sass/custom/_responsive.scss */
-  .node-type-about-idei .main-container {
+  .node-type-about-idei .main-container, .page-about-us .main-container, .page-board-members .main-container {
     padding: 139px 0 0;
   }
 }
 @media all and (min-width: 475px) and (max-width: 767px) {
   /* line 1520, ../sass/custom/_responsive.scss */
-  .node-type-about-idei .main-container {
+  .node-type-about-idei .main-container, .page-about-us .main-container, .page-board-members .main-container {
     padding: 119px 0 0;
   }
 }
+/*--------------------------------------------------------------*/
