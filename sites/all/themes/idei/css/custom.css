@@ -3372,6 +3372,53 @@ article#node-68 h2 a {
 }
 
 /*---------------------css ends for contact-us page--------------------------*/
+/*---------------------css for water-introduction page--------------------------*/
+/* line 2539, ../sass/custom/_project.scss */
+.node-type-water-inner-pages .economic-inner-title {
+  padding-top: 14px;
+}
+
+/* line 2543, ../sass/custom/_project.scss */
+.water-intro-slider {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0px 50px;
+}
+
+/* line 2549, ../sass/custom/_project.scss */
+.water-intro-content-wrap {
+  padding: 80px 40px 0;
+}
+
+/* line 2552, ../sass/custom/_project.scss */
+.water-intro-title {
+  font-size: 30px;
+  color: #43bfef;
+  font-family: OpenSans;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+/* line 2560, ../sass/custom/_project.scss */
+.measure {
+  font-size: 20px;
+  font-family: OpenSans;
+  color: #27579c;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+/* line 2567, ../sass/custom/_project.scss */
+.water-intro-description {
+  font-size: 16px;
+  color: #27579c;
+  text-transform: uppercase;
+  font-family: OpenSans;
+}
+
+/*---------------------css ends for water-introduction page--------------------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {

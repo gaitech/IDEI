@@ -57,7 +57,7 @@ print '<div id="carousel" class="3d-check">';
     print '<a href="#" class="3d-item-'.$i.'"><img src="'.$body_image_path.'" id="item-'.$i.'"  /></a>';
     }
     print '</div>';
-    print '<div class="3d-content-wrap">';
+    print '<div class="3d-content-wrap water-intro-content-wrap">';
     for($i=0; $i<=$count; $i++) {
     $nid1 = $result[$i]->nid;
     $node1 = node_load($nid1);
@@ -65,7 +65,7 @@ print '<div id="carousel" class="3d-check">';
     $description = $node1->body['und'][0]['value'];
     $text = $node1->field_global_water_foot_print_li['und'][0]['value'];
     print '<div class="3dd 3d-item-'.$i.'">
-    <div class="3d-title">'.$title.'</div><div class="measure">'.$text.'</div><div class="3d-description">'.$description.'</div>
+    <div class="3d-title water-intro-title">'.$title.'</div><div class="measure">'.$text.'</div><div class="3d-description water-intro-description">'.$description.'</div>
     </div>';
     }
     print "</div>";
