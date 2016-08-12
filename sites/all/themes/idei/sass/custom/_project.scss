@@ -1867,10 +1867,27 @@
 }
 /*-----------------css ends for product-promotional-activity-page----------------*/
 
-/*-----------------css for publication and annual-report-page----------------*/
+/*-----------------css for publication, annual-report-page and volunteers-page----------------*/
 .page-annual-report-page {
 	.main-container {
 		padding: 71px 0 0;
+	}
+}
+.page-volunteers-page {
+	.view-volunteers-page {
+		.economic-inner-title {
+			padding-bottom: 8px;
+		}
+		.view-header {
+		 	p {
+		    color: #6a6a6a;
+		    font-size: 16px;
+		    margin: auto;
+		    padding-bottom: 50px;
+		    text-align: center;
+		    width: 80%;
+		  }
+		}
 	}
 }
 .view-annual-report-page, .view-volunteers-page {
