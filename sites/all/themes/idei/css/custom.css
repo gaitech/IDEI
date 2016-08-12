@@ -2662,11 +2662,11 @@ a:focus, p:focus, h2:focus {
 }
 
 /* line 1878, ../sass/custom/_project.scss */
-.page-volunteers-page .view-volunteers-page .economic-inner-title {
+.page-volunteers .view-volunteers-page .economic-inner-title {
   padding-bottom: 8px;
 }
 /* line 1882, ../sass/custom/_project.scss */
-.page-volunteers-page .view-volunteers-page .view-header p {
+.page-volunteers .view-volunteers-page .view-header p {
   color: #6a6a6a;
   font-size: 16px;
   margin: auto;
