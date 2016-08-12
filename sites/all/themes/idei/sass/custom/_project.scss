@@ -1872,29 +1872,30 @@
 	.main-container {
 		padding: 71px 0 0;
 	}
-
-	.view-annual-report-page {
-	  .view-header-banner {
-	    .view-content {
-	      width: 100%;
-	      max-width: 100% !important;
-	      margin: 0 auto;
-	    }
-	  }
-	  .view-content {
-	    width: 100%;
-	    max-width: 1200px;
-	    margin: 0 auto;
-	  }
-	  .economic-inner-title {
-	  	padding: 37px 0 40px;
-	  }
-	}
+}
+.view-annual-report-page, .view-volunteers-page {
+  .view-header-banner {
+    .view-content {
+      width: 100%;
+      max-width: 100% !important;
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
+  .view-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  .economic-inner-title {
+  	padding: 37px 0 40px;
+  }
 }
 .publication-listing {
 	margin: 0 auto;
 	max-width: 1200px;
-	padding: 40px 0;
+	padding: 40px 40px;
 	width: 100%;
 }
 .pub-main-wrap {
