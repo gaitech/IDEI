@@ -127,7 +127,8 @@
 	}
 
 	/*css for submenu of about section*/
-	.node-type-about-idei, .page-about-us, .page-board-members {
+	.node-type-about-idei, .page-about-us, .page-board-members, 
+	.node-type-about-us, .node-type-board-members {
 		.navbar {
 			.secondary-sub-menu {
 				ul {
@@ -948,14 +949,14 @@
 	}
 	/*----------css ends for programms block navigation on click of menu's--------------*/
 
-	/*--------------css for about-page-----------------------------*/
+	/*--------------------------------css for about-page--------------------------------*/
 	.node-type-about-idei  {
 		table {
 			margin: 0;
 		}
 	}
 
-	/*--------------css for about-board-member-page-----------------------------*/
+	/*---------------------css for about-board-member-listing-page-----------------------*/
 	.view-about-us {
 		.view-content {
 			padding-left: 10px;
@@ -988,9 +989,39 @@
 			font-size: 13px;
 		}
 	}
-	/*--------------css ends for about-board-member-page-----------------------------*/
+	/*-----------------css ends for about-board-member-listing-page-------------------*/
 
-	/*--------------css ends for about-page-----------------------------*/
+	/*--------------css for about-board-member-node-page-----------------------------*/
+	.about-wrapper {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.about-pic-wrapper {
+		width: 100%;
+		img {
+			margin: auto;
+			display: block;
+		}
+	}
+	.about-text-wrapper {
+		width: 100%;
+		padding-top: 20px;
+	}
+	.about-title {
+		text-align: center;
+		font-size: 25px;
+		padding-bottom: 10px;
+	}
+	.about-designation {
+		font-size: 20px;
+		text-align: center;
+	}
+	.about-description {
+		font-size: 14px;
+	}
+	/*--------------css ends for about-board-member-node-page--------------------------*/
+
+	/*-----------------------css ends for about-page------------------------------------*/
 }
 
 
@@ -1430,7 +1461,7 @@
 	}
 	/*----------css ends for publication page----------- */
 
-	/*----------css for about-us-board-members page----------- */
+	/*----------css for about-us-board-members listing-page----------- */
 	.view-about-us {
 		.profile-title {
 			font-size: 20px;
@@ -1439,7 +1470,13 @@
 			font-size: 15px;
 		}
 	}
-	/*----------css ends for about-us-board-members page----------- */
+	/*----------css ends for about-us-board-members listing-page----------- */
+
+	/*----------css for about-us-board-members node-page--------------- */
+	.about-text-wrapper {
+		width: 60%;
+	}
+	/*----------css ends for about-us-board-members node-page------------- */
 }
 
 
@@ -1502,21 +1539,24 @@
 
 /*-----media query for submenu's of about pages-------*/
 @media all and (min-width:320px) and (max-width: 337px) {
-	.node-type-about-idei, .page-about-us, .page-board-members  {
+	.node-type-about-idei, .page-about-us, .page-board-members, 
+	.node-type-about-us, .node-type-board-members  {
 		.main-container {
 			padding: 159px 0 0;
 		}
 	}
 }
 @media all and (min-width:338px) and (max-width: 474px) {
-	.node-type-about-idei, .page-about-us, .page-board-members  {
+	.node-type-about-idei, .page-about-us, .page-board-members, 
+	.node-type-about-us, .node-type-board-members  {
 		.main-container {
 			padding: 139px 0 0;
 		}
 	}
 }
 @media all and (min-width:475px) and (max-width: 767px) {
-	.node-type-about-idei, .page-about-us, .page-board-members  {
+	.node-type-about-idei, .page-about-us, .page-board-members, 
+	.node-type-about-us,.node-type-board-members  {
 		.main-container {
 			padding: 119px 0 0;
 		}
