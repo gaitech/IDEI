@@ -2552,6 +2552,7 @@ article#node-68 {
 }
 /*---------------------css ends for contact-us page--------------------------*/
 
+/*---------------------------css for water-section----------------------------*/
 /*---------------------css for water-introduction page--------------------------*/
 .node-type-water-inner-pages {
 	.economic-inner-title {
@@ -2589,3 +2590,150 @@ article#node-68 {
   font-family: OpenSans;
 }
 /*---------------------css ends for water-introduction page--------------------------*/
+
+
+/*---------------------css for water-media page--------------------------*/
+.view-media-listing {
+  .view-header-banner {
+    .view-content {
+      width: 100%;
+      max-width: 100% !important;
+      margin: 0 auto;
+      padding: 0;
+      .views-row {
+      	width: 100%;
+      	float: none;
+      	margin: 0;
+      	background: transparent;
+      }
+    }
+  }
+  .view-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    .views-row {
+    	width: 23%;
+	    display: inline-block;
+	    margin-left: 15.4px;
+	    background: #43bfef;
+	    margin-bottom: 20px;
+			position: relative;
+	    .views-field-title {
+	    	position: absolute;
+	    	top: 0;
+  	    width: 100%;
+  	    text-align: center;
+  	    color: #fff;
+  	    background: rgba(0, 0, 0, 0.4);
+  	    padding: 14px 0 6px;
+  	    font-size: 20px;
+  	    font-family: OpenSans;
+	    }
+	    .views-field.views-field-nothing {
+	    	padding: 10px 5px;
+	    	display: inline-block;
+	    	width: 100%;
+	    }
+	    .social-media-wrapper {
+	    	display: inline-block;
+	    	float: right;
+	    }
+	    .share-this {
+	    	font-size: 14px;
+	    	text-transform: capitalize;
+	    	color: #fff;
+	    	font-family: OpenSans;
+	    	float: left;
+	    	padding-top: 3px;
+	    }
+	    .share-on-facebook {
+        float: left;
+        background-image: url("../images/facebook1.png");
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        height: 24px;
+        width: 30px;
+				-webkit-transition: all ease 0.3s;
+    		-moz-transition: all ease 0.3s;
+    		-o-transition: all ease 0.3s;
+    		-ms-transition: all ease 0.3s;
+    		transition: all ease 0.3s;
+        a {
+        	display: inline-block;
+        	overflow: hidden;
+        	width: 0;
+        	height: 24px;
+        	padding-left: 30px;
+        }
+        &:hover {
+        	-webkit-transform:rotate(360deg);
+      		-moz-transform:rotate(360deg);
+      		-o-transform:rotate(360deg);
+      		-ms-transform:rotate(360deg);
+      		transform:rotate(360deg);
+      		opacity: 0.7;
+        }
+	    }
+	    .twitter-link {
+        float: left;
+        background-image: url("../images/twitter1.png");
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        height: 24px;
+        width: 30px;
+        -webkit-transition: all ease 0.3s;
+    		-moz-transition: all ease 0.3s;
+    		-o-transition: all ease 0.3s;
+    		-ms-transition: all ease 0.3s;
+    		transition: all ease 0.3s;
+        a {
+        	display: inline-block;
+        	overflow: hidden;
+        	width: 0;
+        	height: 24px;
+        	padding-left: 30px;
+        }
+        &:hover {
+        	-webkit-transform:rotate(360deg);
+      		-moz-transform:rotate(360deg);
+      		-o-transform:rotate(360deg);
+      		-ms-transform:rotate(360deg);
+      		transform:rotate(360deg);
+      		opacity: 0.7;
+        }
+	    }
+	    .google-link {
+	    	float: left;
+	    	background-image: url("../images/google-plus1.png");
+	    	background-position: 50% 50%;
+	    	background-repeat: no-repeat;
+	    	height: 24px;
+	    	width: 30px;
+	    	-webkit-transition: all ease 0.3s;
+    		-moz-transition: all ease 0.3s;
+    		-o-transition: all ease 0.3s;
+    		-ms-transition: all ease 0.3s;
+    		transition: all ease 0.3s;
+	    	a {
+	    		display: inline-block;
+	    		overflow: hidden;
+	    		width: 0;
+	    		height: 24px;
+	    		padding-left: 30px;
+	    	}
+        &:hover {
+        	-webkit-transform:rotate(360deg);
+      		-moz-transform:rotate(360deg);
+      		-o-transform:rotate(360deg);
+      		-ms-transform:rotate(360deg);
+      		transform:rotate(360deg);
+      		opacity: 0.7;
+        }
+	    }
+    }
+  }
+}
+/*---------------------css ends for water-media page--------------------------*/
+/*---------------------------css ends for water-section-------------------------*/
