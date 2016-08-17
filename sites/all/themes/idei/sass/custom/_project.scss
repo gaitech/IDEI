@@ -2605,6 +2605,9 @@ article#node-68 {
       	float: none;
       	margin: 0;
       	background: transparent;
+      	box-shadow: none;
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
       }
     }
   }
@@ -2620,6 +2623,9 @@ article#node-68 {
 	    background: #43bfef;
 	    margin-bottom: 20px;
 			position: relative;
+			box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+			-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+			-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
 	    .views-field-title {
 	    	position: absolute;
 	    	top: 0;
@@ -2630,9 +2636,9 @@ article#node-68 {
   	    padding: 14px 0 6px;
   	    font-size: 20px;
   	    font-family: OpenSans;
-	    }
+  	  }
 	    .views-field.views-field-nothing {
-	    	padding: 10px 5px;
+	    	padding: 15px 5px 8px;
 	    	display: inline-block;
 	    	width: 100%;
 	    }
