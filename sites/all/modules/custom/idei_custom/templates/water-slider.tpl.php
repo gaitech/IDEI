@@ -2,31 +2,37 @@
  <?php global $base_url; 
  print '<script src="'.$base_url.'/sites/all/modules/custom/idei_custom/js/jquery.waterwheelCarousel.js"></script>';?>
  <script type="text/javascript">
-      $(document).ready(function () {
-        jQuery(".3d-content-wrap .3dd").hide();
-        jQuery(".3d-content-wrap .3dd.3d-item-0").show();
-          jQuery('.3d-check a').click(function() {
-            var a =jQuery(this).attr('class');
-            jQuery(".3d-content-wrap .3dd").fadeOut();
-            jQuery(".3d-content-wrap ."+a).fadeIn();
-          });
-
-        var carousel = $("#carousel").waterwheelCarousel({
-          flankingItems: 3,
-          movingToCenter: function ($item) {
-            $('#callback-output').append('test');
-          },
-        });
-        $('#reload').bind('click', function () {
-          newOptions = eval("(" + $('#newoptions').val() + ")");
-          carousel.reload(newOptions);
-          return false;
-        });
-
+    $(document).ready(function () {
+      jQuery(".3d-content-wrap .3dd").hide();
+      jQuery(".3d-content-wrap .3dd.3d-item-0").show();
+      jQuery('.3d-check a').click(function() {
+        var a =jQuery(this).attr('class');
+          jQuery(".3d-content-wrap .3dd").fadeOut();
+          jQuery(".3d-content-wrap ."+a).fadeIn();
       });
-    </script>
+      var carousel = $("#carousel").waterwheelCarousel({
+        flankingItems: 3,
+        movingToCenter: function ($item) {
+          $('#callback-output').append('test');
+        },
+      });
+      $('#reload').bind('click', function () {
+        newOptions = eval("(" + $('#newoptions').val() + ")");
+        carousel.reload(newOptions);
+        return false;
+      });
+      $('#prev').bind('click', function () {
+        carousel.prev();
+        return false
+      });
+      $('#next').bind('click', function () {
+        carousel.next();
+        return false;
+        });
+      });
+  </script>
 
-    <style type="text/css">
+  <style type="text/css">
       #carousel {
          height:300px;
         position:relative;
@@ -38,11 +44,15 @@
         cursor:pointer; 
       }
     </style>
+    <div class="navigation-button">
+      <div class="prev-button"><a href="#" id="prev">Prev</a></div>
+      <div class="next-button"> <a href="#" id="next">Next</a></div>
+    </div>
 <?php
 print '<div id="carousel" class="3d-check">';
   $result = db_select('node', 'n') 
     ->fields('n',array('nid'))  
-     ->condition('n.type', 'water_3d_gallery')
+    ->condition('n.type', 'water_3d_gallery')
     ->execute() 
     ->fetchAll();
     $count = count($result);
