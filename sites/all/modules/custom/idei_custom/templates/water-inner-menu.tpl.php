@@ -1,4 +1,4 @@
-<ul class="program-menu-navigation">
+<ul class="water-menu-navigation">
 <?php 
 global $base_url;
 $menuItems = menu_tree_all_data('menu-water');

@@ -137,7 +137,10 @@ function idei_custom_form_alter(&$form, &$form_state, $form_id) {
   if($form_id == 'webform_client_form_68') {
     $argument = $_REQUEST['nid'];
     $node = node_load($argument);
-    $pdf_name = $node->field_publication_pdf['und'][0]['uri'];
+    $type =$node->type;
+    if($type == 'archive_documents') {
+       $pdf_name = $node->field_pdf_file['und'][0]['uri'];
+    }
     $pdf_name = explode("//",$pdf_name);
     $pdf = $pdf_name[1];
     global $base_url;
