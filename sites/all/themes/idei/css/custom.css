@@ -3092,8 +3092,8 @@ article#node-68 h2 a {
 
 /* line 2258, ../sass/custom/_project.scss */
 .page-node-107 .approach-content img {
-  width: 410px !important;
-  height: 320px !important;
+  width: auto !important;
+  height: auto !important;
   float: left;
   margin-top: 0;
   margin-right: 20px;
