@@ -28,7 +28,7 @@ $body_popup_image_path = image_style_url($popup_style,$body_image);
 	  <div class="economic-inner-content approach-content-wrapper">
 		  	<span class="shift-image">
 		  	<?php if($body_image){?>  
-            <a class="colorbox-load" href="<?php echo $body_popup_image_path; ?>?iframe=true"><img src="<?php echo $body_image_path; ?>"></a>
+            <a class="colorbox-load" href="<?php echo $body_popup_image_path; ?>?iframe=true"><img src="<?php echo $body_popup_image_path; ?>"></a>
             <?php } ?>
 		  	</span>
 		  	<div class="approach-content">
