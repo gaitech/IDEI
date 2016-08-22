@@ -3402,14 +3402,73 @@ article#node-68 h2 a {
   width: 100%;
   margin: 0 auto;
   padding: 20px 0px 50px;
+  position: relative;
+}
+/* line 2569, ../sass/custom/_project.scss */
+.water-intro-slider #carousel img {
+  border: 2px solid rgba(2, 2, 2, 0.2);
+}
+/* line 2571, ../sass/custom/_project.scss */
+.water-intro-slider #carousel img.carousel-center {
+  height: 290px !important;
+  top: 10px !important;
+  border: 4px solid #27579c;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+/* line 2580, ../sass/custom/_project.scss */
+.water-intro-slider #carousel img.carousel-center:hover {
+  width: 390px !important;
+  height: 270px !important;
+}
+/* line 2592, ../sass/custom/_project.scss */
+.water-intro-slider .prev-button {
+  float: left;
+  background-image: url("../images/left.png");
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 165px;
+  z-index: 9;
+}
+/* line 2601, ../sass/custom/_project.scss */
+.water-intro-slider .prev-button a {
+  overflow: hidden;
+  display: inline-block;
+  width: 0;
+  height: 40px;
+  padding-left: 40px;
+}
+/* line 2609, ../sass/custom/_project.scss */
+.water-intro-slider .next-button {
+  float: right;
+  background-image: url("../images/right.png");
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 165px;
+  z-index: 9;
+}
+/* line 2618, ../sass/custom/_project.scss */
+.water-intro-slider .next-button a {
+  overflow: hidden;
+  display: inline-block;
+  width: 0;
+  height: 40px;
+  padding-left: 40px;
 }
 
-/* line 2568, ../sass/custom/_project.scss */
+/* line 2627, ../sass/custom/_project.scss */
 .water-intro-content-wrap {
   padding: 80px 40px 0;
 }
 
-/* line 2571, ../sass/custom/_project.scss */
+/* line 2630, ../sass/custom/_project.scss */
 .water-intro-title {
   font-size: 30px;
   color: #43bfef;
@@ -3419,7 +3478,7 @@ article#node-68 h2 a {
   font-weight: bold;
 }
 
-/* line 2579, ../sass/custom/_project.scss */
+/* line 2638, ../sass/custom/_project.scss */
 .measure {
   font-size: 20px;
   font-family: OpenSans;
@@ -3428,7 +3487,7 @@ article#node-68 h2 a {
   padding-bottom: 5px;
 }
 
-/* line 2586, ../sass/custom/_project.scss */
+/* line 2645, ../sass/custom/_project.scss */
 .water-intro-description {
   font-size: 16px;
   color: #27579c;
@@ -3438,14 +3497,14 @@ article#node-68 h2 a {
 
 /*---------------------css ends for water-introduction page--------------------------*/
 /*---------------------css for water-media page--------------------------*/
-/* line 2598, ../sass/custom/_project.scss */
+/* line 2657, ../sass/custom/_project.scss */
 .view-media-listing .view-header-banner .view-content {
   width: 100%;
   max-width: 100% !important;
   margin: 0 auto;
   padding: 0;
 }
-/* line 2603, ../sass/custom/_project.scss */
+/* line 2662, ../sass/custom/_project.scss */
 .view-media-listing .view-header-banner .view-content .views-row {
   width: 100%;
   float: none;
@@ -3455,14 +3514,14 @@ article#node-68 h2 a {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
 }
-/* line 2614, ../sass/custom/_project.scss */
+/* line 2673, ../sass/custom/_project.scss */
 .view-media-listing .view-content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px 40px;
 }
-/* line 2619, ../sass/custom/_project.scss */
+/* line 2678, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row {
   width: 23%;
   display: inline-block;
@@ -3474,7 +3533,7 @@ article#node-68 h2 a {
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
 }
-/* line 2629, ../sass/custom/_project.scss */
+/* line 2688, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .views-field-title {
   position: absolute;
   top: 0;
@@ -3486,18 +3545,18 @@ article#node-68 h2 a {
   font-size: 20px;
   font-family: OpenSans;
 }
-/* line 2640, ../sass/custom/_project.scss */
+/* line 2699, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .views-field.views-field-nothing {
   padding: 15px 5px 8px;
   display: inline-block;
   width: 100%;
 }
-/* line 2645, ../sass/custom/_project.scss */
+/* line 2704, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .social-media-wrapper {
   display: inline-block;
   float: right;
 }
-/* line 2649, ../sass/custom/_project.scss */
+/* line 2708, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-this {
   font-size: 14px;
   text-transform: capitalize;
@@ -3506,7 +3565,7 @@ article#node-68 h2 a {
   float: left;
   padding-top: 3px;
 }
-/* line 2657, ../sass/custom/_project.scss */
+/* line 2716, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook {
   float: left;
   background-image: url("../images/facebook1.png");
@@ -3520,7 +3579,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 2669, ../sass/custom/_project.scss */
+/* line 2728, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook a {
   display: inline-block;
   overflow: hidden;
@@ -3528,7 +3587,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 2676, ../sass/custom/_project.scss */
+/* line 2735, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -3537,7 +3596,7 @@ article#node-68 h2 a {
   transform: rotate(360deg);
   opacity: 0.7;
 }
-/* line 2685, ../sass/custom/_project.scss */
+/* line 2744, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link {
   float: left;
   background-image: url("../images/twitter1.png");
@@ -3551,7 +3610,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 2697, ../sass/custom/_project.scss */
+/* line 2756, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link a {
   display: inline-block;
   overflow: hidden;
@@ -3559,7 +3618,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 2704, ../sass/custom/_project.scss */
+/* line 2763, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -3568,7 +3627,7 @@ article#node-68 h2 a {
   transform: rotate(360deg);
   opacity: 0.7;
 }
-/* line 2713, ../sass/custom/_project.scss */
+/* line 2772, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link {
   float: left;
   background-image: url("../images/google-plus1.png");
@@ -3582,7 +3641,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 2725, ../sass/custom/_project.scss */
+/* line 2784, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link a {
   display: inline-block;
   overflow: hidden;
@@ -3590,7 +3649,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 2732, ../sass/custom/_project.scss */
+/* line 2791, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
