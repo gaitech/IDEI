@@ -16,7 +16,7 @@ $page_body = $node->body['und'][0]['value'];
     </div>
 
 	<div class="title-body-wrapper">
-	  <!-- <div class="economic-inner-title approach-title"><?php //echo $page_title; ?></div> -->
+	  <div class="economic-inner-title approach-title"><?php echo $page_title; ?></div>
 	  <div class="economic-inner-content approach-content-wrapper">
 		  	<div class="approach-content">
 		  		<?php print $page_body; ?>
