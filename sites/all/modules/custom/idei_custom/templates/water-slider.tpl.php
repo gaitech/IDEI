@@ -8,8 +8,8 @@
 
       $('.3d-check a').click(function() {
         var a =jQuery(this).attr('class');
-          $(".3d-content-wrap .3dd").slideUp();
-          $(".3d-content-wrap ."+a).slideDown();
+          $(".3d-content-wrap .3dd").hide();
+          $(".3d-content-wrap ."+a).show();
       });
       var carousel = $("#carousel").waterwheelCarousel({
         flankingItems: 3,
@@ -40,8 +40,8 @@
             var slider_class = $(this).children().attr("class");
             if(slider_class == 'carousel-center'){
               var cls =$(this).attr("class");
-              $(".3d-content-wrap .3dd").slideUp();
-              $(".3d-content-wrap .3dd."+cls).slideDown();
+              $(".3d-content-wrap .3dd").hide();
+              $(".3d-content-wrap .3dd."+cls).show();
             }
           });
         }, 300);
@@ -53,8 +53,8 @@
             var slider_class = $(this).children().attr("class");
             if(slider_class == 'carousel-center'){
               var cls =$(this).attr("class");
-              $(".3d-content-wrap .3dd").fadeOut();
-              $(".3d-content-wrap .3dd."+cls).fadeIn();
+              $(".3d-content-wrap .3dd").hide();
+              $(".3d-content-wrap .3dd."+cls).show();
             }
           });
         }, 300);
