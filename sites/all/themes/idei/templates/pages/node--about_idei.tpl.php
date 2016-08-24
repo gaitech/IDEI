@@ -38,4 +38,3 @@ $body_popup_image_path = image_style_url($popup_style,$body_image);
 	</div>
 
 </div>
-<a class="colorbox-inline" href="?width=500&amp;height=500&amp;inline=true#myid">link</a>

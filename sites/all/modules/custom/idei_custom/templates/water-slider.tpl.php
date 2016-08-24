@@ -5,10 +5,11 @@
     $(document).ready(function () {
       $(".3d-content-wrap .3dd").hide();
       $(".3d-content-wrap .3dd.3d-item-0").show();
+
       $('.3d-check a').click(function() {
         var a =jQuery(this).attr('class');
-          $(".3d-content-wrap .3dd").fadeOut();
-          $(".3d-content-wrap."+a).fadeIn();
+          $(".3d-content-wrap .3dd").hide();
+          $(".3d-content-wrap ."+a).show();
       });
       var carousel = $("#carousel").waterwheelCarousel({
         flankingItems: 3,
@@ -39,8 +40,8 @@
             var slider_class = $(this).children().attr("class");
             if(slider_class == 'carousel-center'){
               var cls =$(this).attr("class");
-              $(".3d-content-wrap .3dd").fadeOut();
-              $(".3d-content-wrap .3dd."+cls).fadeIn();
+              $(".3d-content-wrap .3dd").hide();
+              $(".3d-content-wrap .3dd."+cls).show();
             }
           });
         }, 300);
@@ -52,8 +53,8 @@
             var slider_class = $(this).children().attr("class");
             if(slider_class == 'carousel-center'){
               var cls =$(this).attr("class");
-              $(".3d-content-wrap .3dd").fadeOut();
-              $(".3d-content-wrap .3dd."+cls).fadeIn();
+              $(".3d-content-wrap .3dd").hide();
+              $(".3d-content-wrap .3dd."+cls).show();
             }
           });
         }, 300);
@@ -80,34 +81,33 @@
     </div>
 <?php
 print '<div id="carousel" class="3d-check">';
-  $result = db_select('node', 'n') 
-    ->fields('n',array('nid'))  
-    ->condition('n.type', 'water_3d_gallery')
-    ->execute() 
+  $query = db_select('field_data_field_water_image', 't');
+  $query->join('file_managed', 'n', 'n.fid = t.field_water_image_fid');
+  $result = $query
+    ->fields('n', array('uri'))
+    ->fields('t', array('entity_id'))
+    ->execute()
     ->fetchAll();
-    $count = count($result);
-    for($i=0; $i<=$count; $i++) {
-    $nid = $result[$i]->nid;
-    $node = node_load($nid);
-    $image = $node->field_water_image['und'][0]['uri'];
-
+    foreach ($result as $key => $value) {
+    $image =  $result[$key]->uri;
     $body_style = 'program_image_410___320_';
     $body_image_path = image_style_url($body_style,$image);
-
-    print '<a href="#" class="3d-item-'.$i.'"><img src="'.$body_image_path.'" id="item-'.$i.'" /></a>';
+    print '<a href="#" class="3d-item-'.$key.'"><img src="'.$body_image_path.'" id="item-'.$key.'" /></a>';
     }
+
+    
     print '</div>';
     print '<div class="3d-content-wrap water-intro-content-wrap">';
-    for($i=0; $i<=$count; $i++) {
-    $nid1 = $result[$i]->nid;
+    foreach ($result as $key => $value) {
+    $nid1 = $result[$key]->entity_id;
     $node1 = node_load($nid1);
     $title = $node1->title;
     $description = $node1->body['und'][0]['value'];
     $text = $node1->field_global_water_foot_print_li['und'][0]['value'];
-    print '<div class="3dd 3d-item-'.$i.'">
+    print '<div class="3dd 3d-item-'.$key.'">
     <div class="3d-title water-intro-title">'.$title.'</div><div class="measure">'.$text.'</div><div class="3d-description water-intro-description">'.$description.'</div>
     </div>';
     }
     print "</div>";
-?> 
+ 
 
