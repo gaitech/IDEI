@@ -2541,12 +2541,15 @@ article#node-68 {
   		font-family: OpenSans;
   		font-size: 16px;
   		color: #6a6a6a;
-  		&:nth-child(1) {
+  		&:first-of-type {
 	      font-size: 36px;
 	      color: #43bfef;
 	      font-weight: bold;
 	      text-transform: uppercase;
     	}
+  	}
+  	&.odisha-address {
+  		padding-left: 60px;
   	}
   }
 }

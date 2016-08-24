@@ -1022,6 +1022,42 @@
 	/*--------------css ends for about-board-member-node-page--------------------------*/
 
 	/*-----------------------css ends for about-page------------------------------------*/
+
+	/*-------------------------css for contact-us-page-----------------------------*/
+
+	.view-contact-us-page {
+		.view-footer {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.address-wrap {
+			text-align: center;
+			border-bottom: 3px solid #27579c;
+    	&:first-of-type {
+    		padding-bottom: 40px;
+    	}
+    	&:last-of-type {
+    		border-bottom: none;
+    	}
+		}
+		.address-block, .map-block {
+			width: 100%;
+		}
+		.delhi-address {
+			padding-bottom: 30px;
+			p {
+				font-size: 14px;
+				&:first-of-type {
+					font-size: 25px;
+				}
+			}
+			&.odisha-address {
+				padding-left: 0;
+				padding-top: 30px;
+			}
+		}
+	}
+	/*-----------------------css ends for contact-us-page-----------------------------*/
 }
 
 
