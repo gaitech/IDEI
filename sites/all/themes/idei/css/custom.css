@@ -3665,6 +3665,71 @@ article#node-68 h2 a {
 
 /*---------------------css ends for water-media page--------------------------*/
 /*---------------------------css ends for water-section-------------------------*/
+/*---------------------------css for awards listing-page------------------------*/
+/* line 2811, ../sass/custom/_project.scss */
+.item-list.simple_timeline {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 40px;
+}
+
+/* line 2817, ../sass/custom/_project.scss */
+.timeline-content {
+  width: 100%;
+}
+
+/* line 2821, ../sass/custom/_project.scss */
+.timeline-image img {
+  width: 100%;
+}
+
+/* line 2825, ../sass/custom/_project.scss */
+.timeline-date {
+  font-family: OpenSans;
+  font-size: 25px;
+  color: #43bfef;
+  font-weight: bold;
+}
+
+/* line 2831, ../sass/custom/_project.scss */
+.timeline-text {
+  margin-top: 20px;
+  font-family: OpenSans;
+  font-size: 22px !important;
+  color: #27579c;
+  font-weight: bold;
+}
+/* line 2837, ../sass/custom/_project.scss */
+.timeline-text p {
+  font-size: 16px;
+  color: #6a6a6a;
+  font-weight: normal;
+  margin-top: 10px;
+}
+/* line 2843, ../sass/custom/_project.scss */
+.timeline-text a {
+  color: #27579c;
+  font-size: 16px;
+}
+/* line 2846, ../sass/custom/_project.scss */
+.timeline-text a:hover {
+  color: #43bfef;
+}
+/* line 2849, ../sass/custom/_project.scss */
+.timeline-text a.visit-story {
+  width: 100%;
+  display: inline-block;
+  font-size: 18px;
+  color: #27579c;
+  margin-top: 10px;
+}
+/* line 2855, ../sass/custom/_project.scss */
+.timeline-text a.visit-story:hover {
+  color: #43bfef;
+}
+
+/*---------------------------css ends for awards listing-page------------------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {
