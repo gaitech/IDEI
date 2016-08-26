@@ -2541,12 +2541,15 @@ article#node-68 {
   		font-family: OpenSans;
   		font-size: 16px;
   		color: #6a6a6a;
-  		&:nth-child(1) {
+  		&:first-of-type {
 	      font-size: 36px;
 	      color: #43bfef;
 	      font-weight: bold;
 	      text-transform: uppercase;
     	}
+  	}
+  	&.odisha-address {
+  		padding-left: 60px;
   	}
   }
 }
@@ -2802,3 +2805,57 @@ article#node-68 {
 }
 /*---------------------css ends for water-media page--------------------------*/
 /*---------------------------css ends for water-section-------------------------*/
+
+/*---------------------------css for awards listing-page------------------------*/
+
+.item-list.simple_timeline {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 40px;
+}
+.timeline-content {
+	width: 100%;
+}
+.timeline-image {
+	img {
+		width: 100%;
+	}
+}
+.timeline-date {
+  font-family: OpenSans;
+  font-size: 25px;
+  color: #43bfef;
+  font-weight: bold;
+}
+.timeline-text {
+  margin-top: 20px;
+  font-family: OpenSans;
+  font-size: 22px !important;
+  color: #27579c;
+  font-weight: bold;
+  p {
+  	font-size: 16px;
+    color: #6a6a6a;
+    font-weight: normal;
+    margin-top: 10px;
+  }
+  a {
+  	color: #27579c;
+    font-size: 16px;
+    &:hover {
+    	color: #43bfef;
+    }
+  	&.visit-story {
+	    width: 100%;
+	    display: inline-block;
+	    font-size: 18px;
+	    color: #27579c;
+	    margin-top: 10px;
+	    &:hover {
+	    	color: #43bfef;
+	    }
+	  }
+	}
+}
+/*---------------------------css ends for awards listing-page------------------------*/
