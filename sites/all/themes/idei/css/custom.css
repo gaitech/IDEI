@@ -3677,14 +3677,15 @@ article#node-68 h2 a {
 /* line 2817, ../sass/custom/_project.scss */
 .timeline-content {
   width: 100%;
+  padding-top: 10px;
 }
 
-/* line 2821, ../sass/custom/_project.scss */
+/* line 2822, ../sass/custom/_project.scss */
 .timeline-image img {
   width: 100%;
 }
 
-/* line 2825, ../sass/custom/_project.scss */
+/* line 2826, ../sass/custom/_project.scss */
 .timeline-date {
   font-family: OpenSans;
   font-size: 25px;
@@ -3692,7 +3693,7 @@ article#node-68 h2 a {
   font-weight: bold;
 }
 
-/* line 2831, ../sass/custom/_project.scss */
+/* line 2832, ../sass/custom/_project.scss */
 .timeline-text {
   margin-top: 20px;
   font-family: OpenSans;
@@ -3700,23 +3701,26 @@ article#node-68 h2 a {
   color: #27579c;
   font-weight: bold;
 }
-/* line 2837, ../sass/custom/_project.scss */
+/* line 2838, ../sass/custom/_project.scss */
 .timeline-text p {
   font-size: 16px;
   color: #6a6a6a;
   font-weight: normal;
   margin-top: 10px;
 }
-/* line 2843, ../sass/custom/_project.scss */
+/* line 2844, ../sass/custom/_project.scss */
 .timeline-text a {
   color: #27579c;
   font-size: 16px;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
 }
-/* line 2846, ../sass/custom/_project.scss */
+/* line 2850, ../sass/custom/_project.scss */
 .timeline-text a:hover {
   color: #43bfef;
 }
-/* line 2849, ../sass/custom/_project.scss */
+/* line 2853, ../sass/custom/_project.scss */
 .timeline-text a.visit-story {
   width: 100%;
   display: inline-block;
@@ -3724,12 +3728,132 @@ article#node-68 h2 a {
   color: #27579c;
   margin-top: 10px;
 }
-/* line 2855, ../sass/custom/_project.scss */
+/* line 2859, ../sass/custom/_project.scss */
 .timeline-text a.visit-story:hover {
   color: #43bfef;
 }
 
 /*---------------------------css ends for awards listing-page------------------------*/
+/*---------------------------css  for awards node-page------------------------*/
+/* line 2870, ../sass/custom/_project.scss */
+.node-type-awards-list .title-body-wrapper {
+  max-width: 100%;
+  padding: 50px 0;
+}
+/* line 2874, ../sass/custom/_project.scss */
+.node-type-awards-list .economic-inner-title, .node-type-awards-list .economic-inner-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0 40px;
+  display: block;
+}
+/* line 2881, ../sass/custom/_project.scss */
+.node-type-awards-list .approach-content {
+  padding-top: 40px;
+}
+/* line 2884, ../sass/custom/_project.scss */
+.node-type-awards-list .jcarousel-skin-tango {
+  background: #E6E6FA;
+  margin-top: 50px;
+}
+/* line 2887, ../sass/custom/_project.scss */
+.node-type-awards-list .jcarousel-skin-tango .jcarousel-container-horizontal {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* line 2897, ../sass/custom/_project.scss */
+.node-type-awards-list .jcarousel-skin-tango .jcarousel-clip-horizontal {
+  width: 100%;
+  background: #E6E6FA;
+  padding-top: 35px;
+}
+/* line 2901, ../sass/custom/_project.scss */
+.node-type-awards-list .jcarousel-skin-tango .jcarousel-clip-horizontal .full-width {
+  width: 1025px !important;
+}
+/* line 2905, ../sass/custom/_project.scss */
+.node-type-awards-list .jcarousel-skin-tango .jcarousel-item {
+  width: 450px !important;
+  margin: 0;
+  height: 336px;
+  border: none;
+  margin-left: 35px;
+  background: #E6E6FA;
+  position: relative;
+}
+/* line 2913, ../sass/custom/_project.scss */
+.node-type-awards-list .jcarousel-skin-tango .jcarousel-item.height {
+  height: 91px;
+  width: 1024px !important;
+  margin-left: 0;
+}
+/* line 2919, ../sass/custom/_project.scss */
+.node-type-awards-list .jcarousel-skin-tango .jcarousel-prev {
+  background-image: url("../images/left.png");
+  height: 40px;
+  width: 40px;
+  top: 45%;
+  background-repeat: no-repeat;
+}
+/* line 2925, ../sass/custom/_project.scss */
+.node-type-awards-list .jcarousel-skin-tango .jcarousel-prev:hover {
+  background-position: 0;
+}
+/* line 2929, ../sass/custom/_project.scss */
+.node-type-awards-list .jcarousel-skin-tango .jcarousel-next {
+  background-image: url("../images/right.png");
+  height: 40px;
+  width: 40px;
+  top: 45%;
+  background-position: 0;
+  background-repeat: no-repeat;
+  right: -3px;
+}
+/* line 2937, ../sass/custom/_project.scss */
+.node-type-awards-list .jcarousel-skin-tango .jcarousel-next:hover {
+  background-position: 0;
+}
+/* line 2942, ../sass/custom/_project.scss */
+.node-type-awards-list .external-link {
+  border: 2px solid #43bfef;
+  max-width: 180px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #43bfef;
+  padding: 8px 1px 7px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  box-shadow: 0px 4px 11px #6a6a6a;
+  -moz-box-shadow: 0px 4px 7px #6a6a6a;
+  -webkit-box-shadow: 0px 4px 11px #6a6a6a;
+  font-family: OpenSans;
+  margin-top: 25px;
+}
+/* line 2959, ../sass/custom/_project.scss */
+.node-type-awards-list .external-link:hover {
+  background-color: #43bfef;
+  border: 2px solid #fff;
+}
+/* line 2962, ../sass/custom/_project.scss */
+.node-type-awards-list .external-link:hover a {
+  color: #fff;
+}
+/* line 2966, ../sass/custom/_project.scss */
+.node-type-awards-list .external-link a {
+  color: #43bfef;
+}
+
+/*---------------------------css ends for awards node-page------------------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {
