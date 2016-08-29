@@ -2816,6 +2816,7 @@ article#node-68 {
 }
 .timeline-content {
 	width: 100%;
+	padding-top: 10px;
 }
 .timeline-image {
 	img {
@@ -2843,6 +2844,9 @@ article#node-68 {
   a {
   	color: #27579c;
     font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
     &:hover {
     	color: #43bfef;
     }
@@ -2859,3 +2863,109 @@ article#node-68 {
 	}
 }
 /*---------------------------css ends for awards listing-page------------------------*/
+
+
+/*---------------------------css  for awards node-page------------------------*/
+.node-type-awards-list {
+	.title-body-wrapper {
+		max-width: 100%;
+		padding: 50px 0;
+	}
+	.economic-inner-title, .economic-inner-content {
+		max-width: 1200px;
+		width: 100%;
+		margin: auto;
+		padding: 0 40px;
+		display: block;
+	}
+	.approach-content {
+		padding-top: 40px;
+	}
+	.jcarousel-skin-tango {
+		background: #E6E6FA;
+		margin-top: 50px;
+		.jcarousel-container-horizontal {
+			width: 100%;
+			height: auto;
+			padding: 0;
+			border: none;
+			background-color: transparent;
+			border-radius: 0;
+			max-width: 1000px;
+  		margin: 0 auto;
+		}
+		.jcarousel-clip-horizontal {
+			width: 100%;
+			background: #E6E6FA;
+			padding-top: 35px;   			
+			.full-width {
+				width: 1025px !important;
+			}
+  	}
+		.jcarousel-item {
+			width: 450px !important;
+			margin: 0;
+			height: 336px;
+			border: none;
+			margin-left: 35px;
+			background: #E6E6FA;
+			position: relative;
+			&.height {
+				height: 91px;
+				width: 1024px !important;
+				margin-left: 0; 
+			}
+		}
+		.jcarousel-prev {
+			background-image: url("../images/left.png");
+			height: 40px;
+			width: 40px;
+			top: 45%;
+			background-repeat: no-repeat;
+			&:hover {
+				background-position: 0;
+			}
+		}
+		.jcarousel-next {
+			background-image: url("../images/right.png");
+			height: 40px;
+			width: 40px;
+			top: 45%;
+			background-position: 0;
+			background-repeat: no-repeat;
+			right: -3px;
+			&:hover {
+				background-position: 0;
+			}
+		}
+	}
+	.external-link {
+		border: 2px solid #43bfef;
+    max-width: 180px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #43bfef;
+    padding: 8px 1px 7px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    box-shadow: 0px 4px 11px #6a6a6a;
+    -moz-box-shadow: 0px 4px 7px #6a6a6a;
+    -webkit-box-shadow: 0px 4px 11px #6a6a6a;
+    font-family: OpenSans;
+    margin-top: 25px;
+    &:hover {
+  	  background-color: #43bfef;
+			border: 2px solid #fff;
+			a {
+				color: #fff;
+			}
+    }
+    a {
+    	color: #43bfef;
+    }
+	}
+}
+/*---------------------------css ends for awards node-page------------------------*/
