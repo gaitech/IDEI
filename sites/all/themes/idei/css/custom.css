@@ -3518,14 +3518,18 @@ article#node-68 h2 a {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
 }
-/* line 2676, ../sass/custom/_project.scss */
+/* line 2673, ../sass/custom/_project.scss */
+.view-media-listing .view-header-banner .view-content .views-row .views-field.views-field-nothing {
+  padding: 0;
+}
+/* line 2679, ../sass/custom/_project.scss */
 .view-media-listing .view-content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px 40px;
 }
-/* line 2681, ../sass/custom/_project.scss */
+/* line 2684, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row {
   width: 23%;
   display: inline-block;
@@ -3537,7 +3541,7 @@ article#node-68 h2 a {
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
 }
-/* line 2691, ../sass/custom/_project.scss */
+/* line 2694, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .views-field-title {
   position: absolute;
   top: 0;
@@ -3549,18 +3553,18 @@ article#node-68 h2 a {
   font-size: 20px;
   font-family: OpenSans;
 }
-/* line 2702, ../sass/custom/_project.scss */
+/* line 2705, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .views-field.views-field-nothing {
   padding: 15px 5px 8px;
   display: inline-block;
   width: 100%;
 }
-/* line 2707, ../sass/custom/_project.scss */
+/* line 2710, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .social-media-wrapper {
   display: inline-block;
   float: right;
 }
-/* line 2711, ../sass/custom/_project.scss */
+/* line 2714, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-this {
   font-size: 14px;
   text-transform: capitalize;
@@ -3569,7 +3573,7 @@ article#node-68 h2 a {
   float: left;
   padding-top: 3px;
 }
-/* line 2719, ../sass/custom/_project.scss */
+/* line 2722, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook {
   float: left;
   background-image: url("../images/facebook1.png");
@@ -3583,7 +3587,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 2731, ../sass/custom/_project.scss */
+/* line 2734, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook a {
   display: inline-block;
   overflow: hidden;
@@ -3591,7 +3595,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 2738, ../sass/custom/_project.scss */
+/* line 2741, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -3600,7 +3604,7 @@ article#node-68 h2 a {
   transform: rotate(360deg);
   opacity: 0.7;
 }
-/* line 2747, ../sass/custom/_project.scss */
+/* line 2750, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link {
   float: left;
   background-image: url("../images/twitter1.png");
@@ -3614,7 +3618,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 2759, ../sass/custom/_project.scss */
+/* line 2762, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link a {
   display: inline-block;
   overflow: hidden;
@@ -3622,7 +3626,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 2766, ../sass/custom/_project.scss */
+/* line 2769, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -3631,7 +3635,7 @@ article#node-68 h2 a {
   transform: rotate(360deg);
   opacity: 0.7;
 }
-/* line 2775, ../sass/custom/_project.scss */
+/* line 2778, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link {
   float: left;
   background-image: url("../images/google-plus1.png");
@@ -3645,7 +3649,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 2787, ../sass/custom/_project.scss */
+/* line 2790, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link a {
   display: inline-block;
   overflow: hidden;
@@ -3653,7 +3657,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 2794, ../sass/custom/_project.scss */
+/* line 2797, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -3663,10 +3667,206 @@ article#node-68 h2 a {
   opacity: 0.7;
 }
 
+/* line 2810, ../sass/custom/_project.scss */
+.spinningTextG {
+  color: white;
+  font-family: OpenSans;
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: normal;
+  font-style: normal;
+  animation-name: bounce_inTurnFadingTextG;
+  -o-animation-name: bounce_inTurnFadingTextG;
+  -ms-animation-name: bounce_inTurnFadingTextG;
+  -webkit-animation-name: bounce_inTurnFadingTextG;
+  -moz-animation-name: bounce_inTurnFadingTextG;
+  animation-duration: 2.09s;
+  -o-animation-duration: 2.09s;
+  -ms-animation-duration: 2.09s;
+  -webkit-animation-duration: 2.09s;
+  -moz-animation-duration: 2.09s;
+  animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-animation-direction: normal;
+  -ms-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+}
+
+/* line 2841, ../sass/custom/_project.scss */
+#spinningTextG-0 {
+  animation-delay: 0.75s;
+  -o-animation-delay: 0.75s;
+  -ms-animation-delay: 0.75s;
+  -webkit-animation-delay: 0.75s;
+  -moz-animation-delay: 0.75s;
+}
+
+/* line 2848, ../sass/custom/_project.scss */
+#spinningTextG-1 {
+  animation-delay: 0.9s;
+  -o-animation-delay: 0.9s;
+  -ms-animation-delay: 0.9s;
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+}
+
+/* line 2855, ../sass/custom/_project.scss */
+#spinningTextG-2 {
+  animation-delay: 1.05s;
+  -o-animation-delay: 1.05s;
+  -ms-animation-delay: 1.05s;
+  -webkit-animation-delay: 1.05s;
+  -moz-animation-delay: 1.05s;
+}
+
+/* line 2862, ../sass/custom/_project.scss */
+#spinningTextG-3 {
+  animation-delay: 1.2s;
+  -o-animation-delay: 1.2s;
+  -ms-animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+}
+
+/* line 2869, ../sass/custom/_project.scss */
+#spinningTextG-5 {
+  animation-delay: 1.35s;
+  -o-animation-delay: 1.35s;
+  -ms-animation-delay: 1.35s;
+  -webkit-animation-delay: 1.35s;
+  -moz-animation-delay: 1.35s;
+}
+
+/* line 2876, ../sass/custom/_project.scss */
+#spinningTextG-6 {
+  animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  -ms-animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+}
+
+/* line 2883, ../sass/custom/_project.scss */
+#spinningTextG-8 {
+  animation-delay: 1.64s;
+  -o-animation-delay: 1.64s;
+  -ms-animation-delay: 1.64s;
+  -webkit-animation-delay: 1.64s;
+  -moz-animation-delay: 1.64s;
+}
+
+/* line 2890, ../sass/custom/_project.scss */
+#spinningTextG-9 {
+  animation-delay: 1.79s;
+  -o-animation-delay: 1.79s;
+  -ms-animation-delay: 1.79s;
+  -webkit-animation-delay: 1.79s;
+  -moz-animation-delay: 1.79s;
+}
+
+/* line 2897, ../sass/custom/_project.scss */
+#spinningTextG-10 {
+  animation-delay: 1.94s;
+  -o-animation-delay: 1.94s;
+  -ms-animation-delay: 1.94s;
+  -webkit-animation-delay: 1.94s;
+  -moz-animation-delay: 1.94s;
+}
+
+/* line 2904, ../sass/custom/_project.scss */
+#spinningTextG-12 {
+  animation-delay: 1.94s;
+  -o-animation-delay: 1.94s;
+  -ms-animation-delay: 1.94s;
+  -webkit-animation-delay: 1.94s;
+  -moz-animation-delay: 1.94s;
+}
+
+/* line 2911, ../sass/custom/_project.scss */
+#spinningTextG-13 {
+  animation-delay: 2.09s;
+  -o-animation-delay: 2.09s;
+  -ms-animation-delay: 2.09s;
+  -webkit-animation-delay: 2.09s;
+  -moz-animation-delay: 2.09s;
+}
+
+/* line 2918, ../sass/custom/_project.scss */
+#spinningTextG-14 {
+  animation-delay: 2.24s;
+  -o-animation-delay: 2.24s;
+  -ms-animation-delay: 2.24s;
+  -webkit-animation-delay: 2.24s;
+  -moz-animation-delay: 2.24s;
+}
+
+/* line 2925, ../sass/custom/_project.scss */
+#spinningTextG-15 {
+  animation-delay: 2.39s;
+  -o-animation-delay: 2.39s;
+  -ms-animation-delay: 2.39s;
+  -webkit-animation-delay: 2.39s;
+  -moz-animation-delay: 2.39s;
+}
+
+/* line 2932, ../sass/custom/_project.scss */
+#spinningTextG-16 {
+  animation-delay: 2.54s;
+  -o-animation-delay: 2.54s;
+  -ms-animation-delay: 2.54s;
+  -webkit-animation-delay: 2.54s;
+  -moz-animation-delay: 2.54s;
+}
+
+@keyframes bounce_inTurnFadingTextG {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+@-o-keyframes bounce_inTurnFadingTextG {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+@-ms-keyframes bounce_inTurnFadingTextG {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+@-webkit-keyframes bounce_inTurnFadingTextG {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+@-moz-keyframes bounce_inTurnFadingTextG {
+  0% {
+    color: #43bfef;
+  }
+  100% {
+    color: white;
+  }
+}
 /*---------------------css ends for water-media page--------------------------*/
 /*---------------------------css ends for water-section-------------------------*/
 /*---------------------------css for awards listing-page------------------------*/
-/* line 2811, ../sass/custom/_project.scss */
+/* line 2995, ../sass/custom/_project.scss */
 .item-list.simple_timeline {
   max-width: 1200px;
   width: 100%;
@@ -3674,18 +3874,18 @@ article#node-68 h2 a {
   padding: 50px 40px;
 }
 
-/* line 2817, ../sass/custom/_project.scss */
+/* line 3001, ../sass/custom/_project.scss */
 .timeline-content {
   width: 100%;
   padding-top: 10px;
 }
 
-/* line 2822, ../sass/custom/_project.scss */
+/* line 3006, ../sass/custom/_project.scss */
 .timeline-image img {
   width: 100%;
 }
 
-/* line 2826, ../sass/custom/_project.scss */
+/* line 3010, ../sass/custom/_project.scss */
 .timeline-date {
   font-family: OpenSans;
   font-size: 25px;
@@ -3693,7 +3893,7 @@ article#node-68 h2 a {
   font-weight: bold;
 }
 
-/* line 2832, ../sass/custom/_project.scss */
+/* line 3016, ../sass/custom/_project.scss */
 .timeline-text {
   margin-top: 20px;
   font-family: OpenSans;
@@ -3701,14 +3901,14 @@ article#node-68 h2 a {
   color: #27579c;
   font-weight: bold;
 }
-/* line 2838, ../sass/custom/_project.scss */
+/* line 3022, ../sass/custom/_project.scss */
 .timeline-text p {
   font-size: 16px;
   color: #6a6a6a;
   font-weight: normal;
   margin-top: 10px;
 }
-/* line 2844, ../sass/custom/_project.scss */
+/* line 3028, ../sass/custom/_project.scss */
 .timeline-text a {
   color: #27579c;
   font-size: 16px;
@@ -3716,11 +3916,11 @@ article#node-68 h2 a {
   margin-top: 10px;
   font-weight: bold;
 }
-/* line 2850, ../sass/custom/_project.scss */
+/* line 3034, ../sass/custom/_project.scss */
 .timeline-text a:hover {
   color: #43bfef;
 }
-/* line 2853, ../sass/custom/_project.scss */
+/* line 3037, ../sass/custom/_project.scss */
 .timeline-text a.visit-story {
   width: 100%;
   display: inline-block;
@@ -3728,19 +3928,19 @@ article#node-68 h2 a {
   color: #27579c;
   margin-top: 10px;
 }
-/* line 2859, ../sass/custom/_project.scss */
+/* line 3043, ../sass/custom/_project.scss */
 .timeline-text a.visit-story:hover {
   color: #43bfef;
 }
 
 /*---------------------------css ends for awards listing-page------------------------*/
 /*---------------------------css  for awards node-page------------------------*/
-/* line 2870, ../sass/custom/_project.scss */
+/* line 3054, ../sass/custom/_project.scss */
 .node-type-awards-list .title-body-wrapper {
   max-width: 100%;
   padding: 50px 0;
 }
-/* line 2874, ../sass/custom/_project.scss */
+/* line 3058, ../sass/custom/_project.scss */
 .node-type-awards-list .economic-inner-title, .node-type-awards-list .economic-inner-content {
   max-width: 1200px;
   width: 100%;
@@ -3748,16 +3948,16 @@ article#node-68 h2 a {
   padding: 0 40px;
   display: block;
 }
-/* line 2881, ../sass/custom/_project.scss */
+/* line 3065, ../sass/custom/_project.scss */
 .node-type-awards-list .approach-content {
   padding-top: 40px;
 }
-/* line 2884, ../sass/custom/_project.scss */
+/* line 3068, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango {
   background: #E6E6FA;
   margin-top: 50px;
 }
-/* line 2887, ../sass/custom/_project.scss */
+/* line 3071, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-container-horizontal {
   width: 100%;
   height: auto;
@@ -3768,17 +3968,17 @@ article#node-68 h2 a {
   max-width: 1000px;
   margin: 0 auto;
 }
-/* line 2897, ../sass/custom/_project.scss */
+/* line 3081, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-clip-horizontal {
   width: 100%;
   background: #E6E6FA;
   padding-top: 35px;
 }
-/* line 2901, ../sass/custom/_project.scss */
+/* line 3085, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-clip-horizontal .full-width {
   width: 1025px !important;
 }
-/* line 2905, ../sass/custom/_project.scss */
+/* line 3089, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-item {
   width: 450px !important;
   margin: 0;
@@ -3788,13 +3988,13 @@ article#node-68 h2 a {
   background: #E6E6FA;
   position: relative;
 }
-/* line 2913, ../sass/custom/_project.scss */
+/* line 3097, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-item.height {
   height: 91px;
   width: 1024px !important;
   margin-left: 0;
 }
-/* line 2919, ../sass/custom/_project.scss */
+/* line 3103, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-prev {
   background-image: url("../images/left.png");
   height: 40px;
@@ -3802,11 +4002,11 @@ article#node-68 h2 a {
   top: 45%;
   background-repeat: no-repeat;
 }
-/* line 2925, ../sass/custom/_project.scss */
+/* line 3109, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-prev:hover {
   background-position: 0;
 }
-/* line 2929, ../sass/custom/_project.scss */
+/* line 3113, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-next {
   background-image: url("../images/right.png");
   height: 40px;
@@ -3816,11 +4016,11 @@ article#node-68 h2 a {
   background-repeat: no-repeat;
   right: -3px;
 }
-/* line 2937, ../sass/custom/_project.scss */
+/* line 3121, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-next:hover {
   background-position: 0;
 }
-/* line 2942, ../sass/custom/_project.scss */
+/* line 3126, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -3839,16 +4039,16 @@ article#node-68 h2 a {
   font-family: OpenSans;
   margin-top: 25px;
 }
-/* line 2959, ../sass/custom/_project.scss */
+/* line 3143, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 2962, ../sass/custom/_project.scss */
+/* line 3146, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link:hover a {
   color: #fff;
 }
-/* line 2966, ../sass/custom/_project.scss */
+/* line 3150, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link a {
   color: #43bfef;
 }
