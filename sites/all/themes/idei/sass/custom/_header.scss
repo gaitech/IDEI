@@ -74,6 +74,10 @@
   					height: 25px !important;
   					width: 25px !important;
   					margin-right: 6px;
+  					transition: transform 0.3s ease-in-out;
+  					&:hover {
+  						transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+  					}
   				}
   				p {
   					a:last-of-type {
