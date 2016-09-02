@@ -1337,6 +1337,12 @@
 				width: 54%;
   			float: left;
   			text-align: justify;
+  			&.input-throughput {
+  				width: 100%;
+  				.technology-image {
+  					margin-bottom: 10px;
+  				}
+  			}
 			}
 			.views-field-nothing-1 {
 				display: inline-block;
@@ -1484,6 +1490,15 @@
 	    color: #43bfef;
 	    font-family: OpenSans;
 	    text-transform: capitalize;
+		}
+	}
+}
+#block-views-programs-list-block-4, #block-views-programs-list-block-10 {
+	.views-row-even {
+		.input-throughput {
+			.technology-image {
+				margin-left: 50px;
+			}
 		}
 	}
 }
@@ -2591,8 +2606,8 @@ article#node-68 {
 		    cursor: default;
 		    &:hover img {
 		    	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
-				  filter: grayscale(1) blur(3px);
-				  -webkit-filter: grayscale(1) blur(3px);
+				  filter: grayscale(1) blur(0.5px);
+				  -webkit-filter: grayscale(1) blur(0.5px);
 				  -webkit-transform: scale(1.2);
 				  -ms-transform: scale(1.2);
 				  transform: scale(1.2);
@@ -2905,6 +2920,7 @@ article#node-68 {
 
 .spinningTextG{
 	color:rgb(255,255,255);
+	text-shadow: 4px 3px 3px rgb(67,191,239);
 	font-family:OpenSans;
 	font-size:36px;
 	text-decoration:none;
@@ -3037,50 +3053,60 @@ article#node-68 {
 @keyframes bounce_inTurnFadingTextG{
 	0%{
 		color:rgb(0,0,0);
+		text-shadow: 4px 3px 3px #43bfef;
 	}
 
 	100%{
 		color:rgb(255,255,255);
+		text-shadow: 4px 3px 3px #27579c;
 	}
 }
 
 @-o-keyframes bounce_inTurnFadingTextG{
 	0%{
 		color:rgb(0,0,0);
+		text-shadow: 4px 3px 3px #43bfef;
 	}
 
 	100%{
 		color:rgb(255,255,255);
+		text-shadow: 4px 3px 3px #27579c;
 	}
 }
 
 @-ms-keyframes bounce_inTurnFadingTextG{
 	0%{
 		color:rgb(0,0,0);
+		text-shadow: 4px 3px 3px #43bfef;
 	}
 
 	100%{
 		color:rgb(255,255,255);
+		text-shadow: 4px 3px 3px #27579c;
 	}
 }
 
 @-webkit-keyframes bounce_inTurnFadingTextG{
 	0%{
 		color:rgb(0,0,0);
+		text-shadow: 4px 3px 3px #43bfef;
 	}
 
 	100%{
 		color:rgb(255,255,255);
+		text-shadow: 4px 3px 3px #27579c;
 	}
 }
 
 @-moz-keyframes bounce_inTurnFadingTextG{
 	0%{
 		color:rgb(67,191,239);
+		text-shadow: 4px 3px 3px #43bfef;
 	}
 
 	100%{
 		color:rgb(255,255,255);
+		text-shadow: 4px 3px 3px #27579c;
 	}
 }
 /*---------------------css ends for water-media page--------------------------*/
