@@ -193,6 +193,20 @@
   	.homepage-image {
   		img {
   			width: 100%;
+  			transition: all 1s ease;
+			  -moz-transition: all 1s ease;
+			  -ms-transition: all 1s ease;
+			  -webkit-transition: all 1s ease;
+			  -o-transition: all 1s ease;
+			  &:hover {
+			  	transform: scale(1.05);
+				  -moz-transform: scale(1.05);
+				  -webkit-transform: scale(1.05);
+				  -o-transform: scale(1.05);
+				  -ms-transform: scale(1.05); /* IE 9 */
+				  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.05, M12=0, M21=0, M22=1.02, SizingMethod='auto expand')"; /* IE8 */
+				  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.05, M12=0, M21=0, M22=1.02, SizingMethod='auto expand'); /* IE6 and 7 */ 
+			  }
   		}
   	}
   	.impact-content-wrapper {
@@ -444,6 +458,20 @@
   	.homepage-image {
   		img {
   			width: 100%;
+  			transition: all 1s ease;
+			  -moz-transition: all 1s ease;
+			  -ms-transition: all 1s ease;
+			  -webkit-transition: all 1s ease;
+			  -o-transition: all 1s ease;
+			  &:hover {
+			  	transform: scale(1.05);
+				  -moz-transform: scale(1.05);
+				  -webkit-transform: scale(1.05);
+				  -o-transform: scale(1.05);
+				  -ms-transform: scale(1.05); /* IE 9 */
+				  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.05, M12=0, M21=0, M22=1.02, SizingMethod='auto expand')"; /* IE8 */
+				  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.05, M12=0, M21=0, M22=1.02, SizingMethod='auto expand'); /* IE6 and 7 */ 
+			  }
   		}
   	}
   	.impact-content-wrapper {
@@ -568,6 +596,20 @@
   	.homepage-image {
   		img {
   			width: 100%;
+  			transition: all 1s ease;
+			  -moz-transition: all 1s ease;
+			  -ms-transition: all 1s ease;
+			  -webkit-transition: all 1s ease;
+			  -o-transition: all 1s ease;
+			  &:hover {
+			  	transform: scale(1.05);
+				  -moz-transform: scale(1.05);
+				  -webkit-transform: scale(1.05);
+				  -o-transform: scale(1.05);
+				  -ms-transform: scale(1.05); /* IE 9 */
+				  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.05, M12=0, M21=0, M22=1.02, SizingMethod='auto expand')"; /* IE8 */
+				  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.05, M12=0, M21=0, M22=1.02, SizingMethod='auto expand'); /* IE6 and 7 */ 
+			  }
   		}
   	}
   	.impact-content-wrapper {
@@ -1219,6 +1261,21 @@
 		width: 100%;
 		img {
 			width: 100%;
+			transition: all 1s ease;
+		  -moz-transition: all 1s ease;
+		  -ms-transition: all 1s ease;
+		  -webkit-transition: all 1s ease;
+		  -o-transition: all 1s ease;
+		  cursor: pointer;
+		  &:hover {
+		  	transform: scale(1.02);
+			  -moz-transform: scale(1.02);
+			  -webkit-transform: scale(1.02);
+			  -o-transform: scale(1.02);
+			  -ms-transform: scale(1.02); /* IE 9 */
+			  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
+			  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.02, M12=0, M21=0, M22=1.02, SizingMethod='auto expand'); /* IE6 and 7 */ 
+		  }
 		}
 	}
 	.program-titles {
@@ -1280,6 +1337,12 @@
 				width: 54%;
   			float: left;
   			text-align: justify;
+  			&.input-throughput {
+  				width: 100%;
+  				.technology-image {
+  					margin-bottom: 10px;
+  				}
+  			}
 			}
 			.views-field-nothing-1 {
 				display: inline-block;
@@ -1430,6 +1493,15 @@
 		}
 	}
 }
+#block-views-programs-list-block-4, #block-views-programs-list-block-10 {
+	.views-row-even {
+		.input-throughput {
+			.technology-image {
+				margin-left: 50px;
+			}
+		}
+	}
+}
 /*-----------------css ends for programmes-page----------------*/
 
 /*-----------------css for product-page----------------*/
@@ -1443,6 +1515,21 @@
 	position: relative;
 	img {
 		width: 100%;
+		transition: all 1s ease;
+	  -moz-transition: all 1s ease;
+	  -ms-transition: all 1s ease;
+	  -webkit-transition: all 1s ease;
+	  -o-transition: all 1s ease;
+	  cursor: pointer;
+	  &:hover {
+	  	transform: scale(1.02);
+		  -moz-transform: scale(1.02);
+		  -webkit-transform: scale(1.02);
+		  -o-transform: scale(1.02);
+		  -ms-transform: scale(1.02); /* IE 9 */
+		  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
+		  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.02, M12=0, M21=0, M22=1.02, SizingMethod='auto expand'); /* IE6 and 7 */ 
+	  }
 	}
 	.haeder-caption {
 		position: absolute;
@@ -2509,8 +2596,32 @@ article#node-68 {
     display: table;
     .views-row {
     	float: left;
+    	.views-field.views-field-field-photographs-gallery {
+		    width: 100%;
+		    height: 100%;
+		    float: left;
+		    overflow: hidden;
+		    position: relative;
+		    text-align: center;
+		    cursor: default;
+		    &:hover img {
+		    	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+				  filter: grayscale(1) blur(0.5px);
+				  -webkit-filter: grayscale(1) blur(0.5px);
+				  -webkit-transform: scale(1.2);
+				  -ms-transform: scale(1.2);
+				  transform: scale(1.2);
+		    }
+		    img {
+		    	display: block;
+				  position: relative;
+				  -webkit-transition: all 0.4s ease-in;
+				  transition: all 0.4s ease-in;
+		    }
+  		}
     }
   }
+
 }
 /*---------------------css ends for archive-node page--------------------------*/
 
@@ -2809,6 +2920,7 @@ article#node-68 {
 
 .spinningTextG{
 	color:rgb(255,255,255);
+	text-shadow: 4px 3px 3px rgb(67,191,239);
 	font-family:OpenSans;
 	font-size:36px;
 	text-decoration:none;
@@ -2941,50 +3053,60 @@ article#node-68 {
 @keyframes bounce_inTurnFadingTextG{
 	0%{
 		color:rgb(0,0,0);
+		text-shadow: 4px 3px 3px #43bfef;
 	}
 
 	100%{
 		color:rgb(255,255,255);
+		text-shadow: 4px 3px 3px #27579c;
 	}
 }
 
 @-o-keyframes bounce_inTurnFadingTextG{
 	0%{
 		color:rgb(0,0,0);
+		text-shadow: 4px 3px 3px #43bfef;
 	}
 
 	100%{
 		color:rgb(255,255,255);
+		text-shadow: 4px 3px 3px #27579c;
 	}
 }
 
 @-ms-keyframes bounce_inTurnFadingTextG{
 	0%{
 		color:rgb(0,0,0);
+		text-shadow: 4px 3px 3px #43bfef;
 	}
 
 	100%{
 		color:rgb(255,255,255);
+		text-shadow: 4px 3px 3px #27579c;
 	}
 }
 
 @-webkit-keyframes bounce_inTurnFadingTextG{
 	0%{
 		color:rgb(0,0,0);
+		text-shadow: 4px 3px 3px #43bfef;
 	}
 
 	100%{
 		color:rgb(255,255,255);
+		text-shadow: 4px 3px 3px #27579c;
 	}
 }
 
 @-moz-keyframes bounce_inTurnFadingTextG{
 	0%{
 		color:rgb(67,191,239);
+		text-shadow: 4px 3px 3px #43bfef;
 	}
 
 	100%{
 		color:rgb(255,255,255);
+		text-shadow: 4px 3px 3px #27579c;
 	}
 }
 /*---------------------css ends for water-media page--------------------------*/

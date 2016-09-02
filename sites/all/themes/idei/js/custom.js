@@ -116,7 +116,7 @@
   $(".second-views-menu .block-title").insertBefore(".second-views-menu .view .views-row-1");
 
   /*------------js for adding class to media caption each character------------*/
-  $('.page-media-listing .haeder-caption').each(function (index) {
+ /* $('.page-media-listing .haeder-caption').each(function (index) {
     var characters = $(this).text().split("");
     
     $this = jQuery(this);
@@ -124,7 +124,24 @@
     $.each(characters, function (i, el) {
       $this.append("<span id = spinningTextG-"+i+" class = spinningTextG>" + el +  "</span");
     });
-  });
+  });*/
+  function splitwords(splitclass) {
+    $('.'+splitclass+' .haeder-caption').each(function (index) {
+    var characters = $(this).text().split("");
+    
+      $this = jQuery(this);
+      $this.empty();
+      $.each(characters, function (i, el) {
+        $this.append("<span id = spinningTextG-"+i+" class = spinningTextG>" + el +  "</span");
+      });
+    });
+  }
+  if($('body.page-media-listing').length > 0) {
+    splitwords('page-media-listing');
+  }
+  else if($('body.page-awards-media').length > 0) {
+    splitwords('page-awards-media');
+  }
 });
 
 
