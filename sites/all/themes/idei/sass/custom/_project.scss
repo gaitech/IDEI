@@ -1366,6 +1366,12 @@
 				width: 54%;
   			float: left;
   			text-align: justify;
+  			&.input-throughput {
+  				width: 100%;
+  				.technology-image {
+  					margin-bottom: 10px;
+  				}
+  			}
 			}
 			.views-field-nothing-1 {
 				display: inline-block;
