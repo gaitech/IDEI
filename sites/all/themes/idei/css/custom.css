@@ -382,8 +382,8 @@ a:focus, p:focus, h2:focus {
 #home-block-block-8:before {
   display: block;
   content: " ";
-  margin-top: -73px;
-  height: 73px;
+  margin-top: -75px;
+  height: 72px;
   visibility: hidden;
 }
 
@@ -3382,6 +3382,11 @@ article#node-68 h2 a {
 }
 
 /* line 2508, ../sass/custom/_project.scss */
+.page-node-105 .approach-content-wrapper .shift-image {
+  display: none;
+}
+
+/* line 2515, ../sass/custom/_project.scss */
 .approach-content p strong {
   color: #27579c;
   font-size: 18px;
@@ -3390,7 +3395,7 @@ article#node-68 h2 a {
 /*css ends for idei-capability-statement page */
 /*---------------------css for about-us page-------------------------*/
 /*---------------------css for donors and knowledge-partners page------------------*/
-/* line 2521, ../sass/custom/_project.scss */
+/* line 2528, ../sass/custom/_project.scss */
 .page-donors .economic-inner-title.team, .page-knowledge-partners .economic-inner-title.team, .page-global-networking-platforms .economic-inner-title.team {
   background-image: url("../images/drop.png");
   background-repeat: no-repeat;
@@ -3398,17 +3403,17 @@ article#node-68 h2 a {
   background-position: 71% 100%;
 }
 
-/* line 2529, ../sass/custom/_project.scss */
+/* line 2536, ../sass/custom/_project.scss */
 .page-global-networking-platforms .economic-inner-title.team {
   background-position: 79% 100%;
 }
 
-/* line 2534, ../sass/custom/_project.scss */
+/* line 2541, ../sass/custom/_project.scss */
 .page-donors .economic-inner-title.team {
   background-position: 67% 100%;
 }
 
-/* line 2540, ../sass/custom/_project.scss */
+/* line 2547, ../sass/custom/_project.scss */
 .view-donors .view-header p, .view-knowledge-partners .view-header p, .view-global-networking-platforms .view-header p {
   color: #6a6a6a;
   font-size: 16px;
@@ -3418,34 +3423,34 @@ article#node-68 h2 a {
   text-align: center;
   width: 80%;
 }
-/* line 2551, ../sass/custom/_project.scss */
+/* line 2558, ../sass/custom/_project.scss */
 .view-donors .view-header-banner .view-content, .view-knowledge-partners .view-header-banner .view-content, .view-global-networking-platforms .view-header-banner .view-content {
   max-width: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 2556, ../sass/custom/_project.scss */
+/* line 2563, ../sass/custom/_project.scss */
 .view-donors .view-header-banner .view-content .views-row, .view-knowledge-partners .view-header-banner .view-content .views-row, .view-global-networking-platforms .view-header-banner .view-content .views-row {
   width: 100%;
   float: none;
   padding: 0;
   margin-bottom: 0;
 }
-/* line 2564, ../sass/custom/_project.scss */
+/* line 2571, ../sass/custom/_project.scss */
 .view-donors .view-content, .view-knowledge-partners .view-content, .view-global-networking-platforms .view-content {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 22px 40px 23px;
 }
-/* line 2569, ../sass/custom/_project.scss */
+/* line 2576, ../sass/custom/_project.scss */
 .view-donors .view-content .views-row, .view-knowledge-partners .view-content .views-row, .view-global-networking-platforms .view-content .views-row {
   margin-bottom: 25px;
   display: table;
   width: 100%;
 }
-/* line 2574, ../sass/custom/_project.scss */
+/* line 2581, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-field-donor-logo, .view-donors .view-content .views-field-field-knowledge-partner-logo,
 .view-donors .view-content .views-field-field-global-networking-logo, .view-knowledge-partners .view-content .views-field-field-donor-logo, .view-knowledge-partners .view-content .views-field-field-knowledge-partner-logo,
 .view-knowledge-partners .view-content .views-field-field-global-networking-logo, .view-global-networking-platforms .view-content .views-field-field-donor-logo, .view-global-networking-platforms .view-content .views-field-field-knowledge-partner-logo,
@@ -3457,7 +3462,7 @@ article#node-68 h2 a {
   min-height: 60px;
   display: table-cell;
 }
-/* line 2583, ../sass/custom/_project.scss */
+/* line 2590, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title, .view-knowledge-partners .view-content .views-field-title, .view-global-networking-platforms .view-content .views-field-title {
   width: 65%;
   float: right;
@@ -3467,18 +3472,18 @@ article#node-68 h2 a {
   display: table-cell;
   height: 100%;
 }
-/* line 2591, ../sass/custom/_project.scss */
+/* line 2598, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title a, .view-knowledge-partners .view-content .views-field-title a, .view-global-networking-platforms .view-content .views-field-title a {
   color: #6a6a6a;
 }
-/* line 2593, ../sass/custom/_project.scss */
+/* line 2600, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title a:hover, .view-knowledge-partners .view-content .views-field-title a:hover, .view-global-networking-platforms .view-content .views-field-title a:hover {
   color: #43bfef;
 }
 
 /*---------------------css ends for donors page----------------------------*/
 /*---------------------css for archive-listing page----------------------------*/
-/* line 2607, ../sass/custom/_project.scss */
+/* line 2614, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-header .archive-title {
   font-size: 36px;
   color: #43bfef;
@@ -3488,27 +3493,27 @@ article#node-68 h2 a {
   padding-top: 40px;
   font-weight: bold;
 }
-/* line 2616, ../sass/custom/_project.scss */
+/* line 2623, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-header .view-content {
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 2620, ../sass/custom/_project.scss */
+/* line 2627, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-header .view-content .views-row {
   width: 100%;
   float: none;
   margin: 0;
   position: static;
 }
-/* line 2628, ../sass/custom/_project.scss */
+/* line 2635, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-content {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 22px 40px 23px;
 }
-/* line 2633, ../sass/custom/_project.scss */
+/* line 2640, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-content .views-row {
   width: 45%;
   float: left;
@@ -3516,7 +3521,7 @@ article#node-68 h2 a {
   position: relative;
   margin-bottom: 3%;
 }
-/* line 2640, ../sass/custom/_project.scss */
+/* line 2647, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-content .views-field-name {
   position: absolute;
   top: 45%;
@@ -3526,18 +3531,18 @@ article#node-68 h2 a {
   font-family: OpenSans;
   line-height: 1.2em;
 }
-/* line 2650, ../sass/custom/_project.scss */
+/* line 2657, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-footer {
   display: inline-block;
   width: 100%;
 }
-/* line 2654, ../sass/custom/_project.scss */
+/* line 2661, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2, .main-container .view-archive-.view-display-id-block_4, .main-container .view-archive-.view-display-id-block_6 {
   display: inline-block;
   width: 100%;
   padding-top: 30px;
 }
-/* line 2658, ../sass/custom/_project.scss */
+/* line 2665, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-header, .main-container .view-archive-.view-display-id-block_4 .view-header, .main-container .view-archive-.view-display-id-block_6 .view-header {
   width: 100%;
   text-align: center;
@@ -3547,7 +3552,7 @@ article#node-68 h2 a {
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 2668, ../sass/custom/_project.scss */
+/* line 2675, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-content .views-row, .main-container .view-archive-.view-display-id-block_4 .view-content .views-row, .main-container .view-archive-.view-display-id-block_6 .view-content .views-row {
   width: 27%;
   float: left;
@@ -3555,15 +3560,15 @@ article#node-68 h2 a {
   position: relative;
   margin-bottom: 5%;
 }
-/* line 2675, ../sass/custom/_project.scss */
+/* line 2682, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-name, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-name, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-name {
   top: 40%;
 }
-/* line 2679, ../sass/custom/_project.scss */
+/* line 2686, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-field-promotional-feature-video a, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-field-promotional-feature-video a, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-field-promotional-feature-video a {
   display: inline-block;
 }
-/* line 2681, ../sass/custom/_project.scss */
+/* line 2688, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-field-promotional-feature-video a:before, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-field-promotional-feature-video a:before, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-field-promotional-feature-video a:before {
   content: "";
   position: absolute;
@@ -3575,7 +3580,7 @@ article#node-68 h2 a {
   z-index: 1;
   left: 0;
 }
-/* line 2698, ../sass/custom/_project.scss */
+/* line 2705, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_4 .view-content .views-row {
   width: 45%;
   float: left;
@@ -3583,21 +3588,21 @@ article#node-68 h2 a {
   position: relative;
   margin-bottom: 3%;
 }
-/* line 2705, ../sass/custom/_project.scss */
+/* line 2712, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-name {
   position: static;
   color: #27579c;
   padding-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 2713, ../sass/custom/_project.scss */
+/* line 2720, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2, .main-container .view-archive-.view-display-id-block_6 {
   padding-top: 52px;
 }
 
 /*---------------------css ends for archive-listing page--------------------------*/
 /*---------------------css for archive-node page--------------------------*/
-/* line 2723, ../sass/custom/_project.scss */
+/* line 2730, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .node-title {
   padding-top: 40px;
   text-align: center;
@@ -3607,17 +3612,17 @@ article#node-68 h2 a {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 2733, ../sass/custom/_project.scss */
+/* line 2740, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-header .view-content {
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 2738, ../sass/custom/_project.scss */
+/* line 2745, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-header .views-row {
   width: 100%;
 }
-/* line 2742, ../sass/custom/_project.scss */
+/* line 2749, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-content {
   max-width: 1200px;
   width: 100%;
@@ -3625,11 +3630,11 @@ article#node-68 h2 a {
   padding: 22px 40px 51px 50px;
   display: table;
 }
-/* line 2748, ../sass/custom/_project.scss */
+/* line 2755, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-content .views-row {
   float: left;
 }
-/* line 2750, ../sass/custom/_project.scss */
+/* line 2757, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-content .views-row .views-field.views-field-field-photographs-gallery {
   width: 100%;
   height: 100%;
@@ -3639,7 +3644,7 @@ article#node-68 h2 a {
   text-align: center;
   cursor: default;
 }
-/* line 2758, ../sass/custom/_project.scss */
+/* line 2765, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-content .views-row .views-field.views-field-field-photographs-gallery:hover img {
   filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
   filter: grayscale(1) blur(0.5px);
@@ -3648,7 +3653,7 @@ article#node-68 h2 a {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
-/* line 2766, ../sass/custom/_project.scss */
+/* line 2773, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-content .views-row .views-field.views-field-field-photographs-gallery img {
   display: block;
   position: relative;
@@ -3658,43 +3663,43 @@ article#node-68 h2 a {
 
 /*---------------------css ends for archive-node page--------------------------*/
 /*---------------------css for contact-us page--------------------------*/
-/* line 2782, ../sass/custom/_project.scss */
+/* line 2789, ../sass/custom/_project.scss */
 .view-contact-us-page .view-footer {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 50px 40px 14px;
 }
-/* line 2788, ../sass/custom/_project.scss */
+/* line 2795, ../sass/custom/_project.scss */
 .view-contact-us-page .address-wrap {
   margin-bottom: 30px;
   display: inline-block;
   width: 100%;
 }
-/* line 2793, ../sass/custom/_project.scss */
+/* line 2800, ../sass/custom/_project.scss */
 .view-contact-us-page .address-block {
   float: left;
   width: 50%;
 }
-/* line 2797, ../sass/custom/_project.scss */
+/* line 2804, ../sass/custom/_project.scss */
 .view-contact-us-page .map-block {
   width: 50%;
   float: left;
 }
-/* line 2802, ../sass/custom/_project.scss */
+/* line 2809, ../sass/custom/_project.scss */
 .view-contact-us-page .delhi-address p {
   font-family: OpenSans;
   font-size: 16px;
   color: #6a6a6a;
 }
-/* line 2806, ../sass/custom/_project.scss */
+/* line 2813, ../sass/custom/_project.scss */
 .view-contact-us-page .delhi-address p:first-of-type {
   font-size: 36px;
   color: #43bfef;
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 2813, ../sass/custom/_project.scss */
+/* line 2820, ../sass/custom/_project.scss */
 .view-contact-us-page .delhi-address.odisha-address {
   padding-left: 60px;
 }
@@ -3702,12 +3707,12 @@ article#node-68 h2 a {
 /*---------------------css ends for contact-us page--------------------------*/
 /*---------------------------css for water-section----------------------------*/
 /*---------------------css for water-introduction page--------------------------*/
-/* line 2823, ../sass/custom/_project.scss */
+/* line 2830, ../sass/custom/_project.scss */
 .node-type-water-inner-pages .economic-inner-title {
   padding-top: 14px;
 }
 
-/* line 2827, ../sass/custom/_project.scss */
+/* line 2834, ../sass/custom/_project.scss */
 .water-intro-slider {
   max-width: 1200px;
   width: 100%;
@@ -3715,11 +3720,11 @@ article#node-68 h2 a {
   padding: 20px 0px 50px;
   position: relative;
 }
-/* line 2834, ../sass/custom/_project.scss */
+/* line 2841, ../sass/custom/_project.scss */
 .water-intro-slider #carousel img {
   border: 2px solid rgba(2, 2, 2, 0.2);
 }
-/* line 2836, ../sass/custom/_project.scss */
+/* line 2843, ../sass/custom/_project.scss */
 .water-intro-slider #carousel img.carousel-center {
   height: 290px !important;
   top: 10px !important;
@@ -3730,12 +3735,12 @@ article#node-68 h2 a {
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
-/* line 2845, ../sass/custom/_project.scss */
+/* line 2852, ../sass/custom/_project.scss */
 .water-intro-slider #carousel img.carousel-center:hover {
   width: 390px !important;
   height: 270px !important;
 }
-/* line 2857, ../sass/custom/_project.scss */
+/* line 2864, ../sass/custom/_project.scss */
 .water-intro-slider .prev-button {
   float: left;
   background-image: url("../images/left.png");
@@ -3746,7 +3751,7 @@ article#node-68 h2 a {
   top: 165px;
   z-index: 9;
 }
-/* line 2866, ../sass/custom/_project.scss */
+/* line 2873, ../sass/custom/_project.scss */
 .water-intro-slider .prev-button a {
   overflow: hidden;
   display: inline-block;
@@ -3754,7 +3759,7 @@ article#node-68 h2 a {
   height: 40px;
   padding-left: 40px;
 }
-/* line 2874, ../sass/custom/_project.scss */
+/* line 2881, ../sass/custom/_project.scss */
 .water-intro-slider .next-button {
   float: right;
   background-image: url("../images/right.png");
@@ -3765,7 +3770,7 @@ article#node-68 h2 a {
   top: 165px;
   z-index: 9;
 }
-/* line 2883, ../sass/custom/_project.scss */
+/* line 2890, ../sass/custom/_project.scss */
 .water-intro-slider .next-button a {
   overflow: hidden;
   display: inline-block;
@@ -3774,12 +3779,12 @@ article#node-68 h2 a {
   padding-left: 40px;
 }
 
-/* line 2892, ../sass/custom/_project.scss */
+/* line 2899, ../sass/custom/_project.scss */
 .water-intro-content-wrap {
   padding: 80px 40px 0;
 }
 
-/* line 2895, ../sass/custom/_project.scss */
+/* line 2902, ../sass/custom/_project.scss */
 .water-intro-title {
   font-size: 30px;
   color: #43bfef;
@@ -3789,7 +3794,7 @@ article#node-68 h2 a {
   font-weight: bold;
 }
 
-/* line 2903, ../sass/custom/_project.scss */
+/* line 2910, ../sass/custom/_project.scss */
 .measure {
   font-size: 20px;
   font-family: OpenSans;
@@ -3798,7 +3803,7 @@ article#node-68 h2 a {
   padding-bottom: 5px;
 }
 
-/* line 2910, ../sass/custom/_project.scss */
+/* line 2917, ../sass/custom/_project.scss */
 .water-intro-description {
   font-size: 16px;
   color: #27579c;
@@ -3808,14 +3813,14 @@ article#node-68 h2 a {
 
 /*---------------------css ends for water-introduction page--------------------------*/
 /*---------------------css for water-media page--------------------------*/
-/* line 2922, ../sass/custom/_project.scss */
+/* line 2929, ../sass/custom/_project.scss */
 .view-media-listing .view-header-banner .view-content {
   width: 100%;
   max-width: 100% !important;
   margin: 0 auto;
   padding: 0;
 }
-/* line 2927, ../sass/custom/_project.scss */
+/* line 2934, ../sass/custom/_project.scss */
 .view-media-listing .view-header-banner .view-content .views-row {
   width: 100%;
   float: none;
@@ -3825,18 +3830,18 @@ article#node-68 h2 a {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
 }
-/* line 2935, ../sass/custom/_project.scss */
+/* line 2942, ../sass/custom/_project.scss */
 .view-media-listing .view-header-banner .view-content .views-row .views-field.views-field-nothing {
   padding: 0;
 }
-/* line 2941, ../sass/custom/_project.scss */
+/* line 2948, ../sass/custom/_project.scss */
 .view-media-listing .view-content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px 40px;
 }
-/* line 2946, ../sass/custom/_project.scss */
+/* line 2953, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row {
   width: 23%;
   display: inline-block;
@@ -3848,7 +3853,7 @@ article#node-68 h2 a {
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
 }
-/* line 2956, ../sass/custom/_project.scss */
+/* line 2963, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .views-field-title {
   position: absolute;
   top: 0;
@@ -3860,18 +3865,18 @@ article#node-68 h2 a {
   font-size: 20px;
   font-family: OpenSans;
 }
-/* line 2967, ../sass/custom/_project.scss */
+/* line 2974, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .views-field.views-field-nothing {
   padding: 15px 5px 8px;
   display: inline-block;
   width: 100%;
 }
-/* line 2972, ../sass/custom/_project.scss */
+/* line 2979, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .social-media-wrapper {
   display: inline-block;
   float: right;
 }
-/* line 2976, ../sass/custom/_project.scss */
+/* line 2983, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-this {
   font-size: 14px;
   text-transform: capitalize;
@@ -3880,7 +3885,7 @@ article#node-68 h2 a {
   float: left;
   padding-top: 3px;
 }
-/* line 2984, ../sass/custom/_project.scss */
+/* line 2991, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook {
   float: left;
   background-image: url("../images/facebook1.png");
@@ -3894,7 +3899,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 2996, ../sass/custom/_project.scss */
+/* line 3003, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook a {
   display: inline-block;
   overflow: hidden;
@@ -3902,7 +3907,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 3003, ../sass/custom/_project.scss */
+/* line 3010, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -3911,7 +3916,7 @@ article#node-68 h2 a {
   transform: rotate(360deg);
   opacity: 0.7;
 }
-/* line 3012, ../sass/custom/_project.scss */
+/* line 3019, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link {
   float: left;
   background-image: url("../images/twitter1.png");
@@ -3925,7 +3930,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 3024, ../sass/custom/_project.scss */
+/* line 3031, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link a {
   display: inline-block;
   overflow: hidden;
@@ -3933,7 +3938,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 3031, ../sass/custom/_project.scss */
+/* line 3038, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -3942,7 +3947,7 @@ article#node-68 h2 a {
   transform: rotate(360deg);
   opacity: 0.7;
 }
-/* line 3040, ../sass/custom/_project.scss */
+/* line 3047, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link {
   float: left;
   background-image: url("../images/google-plus1.png");
@@ -3956,7 +3961,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 3052, ../sass/custom/_project.scss */
+/* line 3059, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link a {
   display: inline-block;
   overflow: hidden;
@@ -3964,7 +3969,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 3059, ../sass/custom/_project.scss */
+/* line 3066, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -3974,7 +3979,7 @@ article#node-68 h2 a {
   opacity: 0.7;
 }
 
-/* line 3072, ../sass/custom/_project.scss */
+/* line 3079, ../sass/custom/_project.scss */
 .spinningTextG {
   color: white;
   text-shadow: 4px 3px 3px #43bfef;
@@ -4005,7 +4010,7 @@ article#node-68 h2 a {
   -moz-animation-direction: normal;
 }
 
-/* line 3104, ../sass/custom/_project.scss */
+/* line 3111, ../sass/custom/_project.scss */
 #spinningTextG-0 {
   animation-delay: 0.75s;
   -o-animation-delay: 0.75s;
@@ -4014,7 +4019,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 0.75s;
 }
 
-/* line 3111, ../sass/custom/_project.scss */
+/* line 3118, ../sass/custom/_project.scss */
 #spinningTextG-1 {
   animation-delay: 0.9s;
   -o-animation-delay: 0.9s;
@@ -4023,7 +4028,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 0.9s;
 }
 
-/* line 3118, ../sass/custom/_project.scss */
+/* line 3125, ../sass/custom/_project.scss */
 #spinningTextG-2 {
   animation-delay: 1.05s;
   -o-animation-delay: 1.05s;
@@ -4032,7 +4037,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 1.05s;
 }
 
-/* line 3125, ../sass/custom/_project.scss */
+/* line 3132, ../sass/custom/_project.scss */
 #spinningTextG-3 {
   animation-delay: 1.2s;
   -o-animation-delay: 1.2s;
@@ -4041,7 +4046,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 1.2s;
 }
 
-/* line 3132, ../sass/custom/_project.scss */
+/* line 3139, ../sass/custom/_project.scss */
 #spinningTextG-5 {
   animation-delay: 1.35s;
   -o-animation-delay: 1.35s;
@@ -4050,7 +4055,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 1.35s;
 }
 
-/* line 3139, ../sass/custom/_project.scss */
+/* line 3146, ../sass/custom/_project.scss */
 #spinningTextG-6 {
   animation-delay: 1.5s;
   -o-animation-delay: 1.5s;
@@ -4059,7 +4064,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 1.5s;
 }
 
-/* line 3146, ../sass/custom/_project.scss */
+/* line 3153, ../sass/custom/_project.scss */
 #spinningTextG-8 {
   animation-delay: 1.64s;
   -o-animation-delay: 1.64s;
@@ -4068,7 +4073,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 1.64s;
 }
 
-/* line 3153, ../sass/custom/_project.scss */
+/* line 3160, ../sass/custom/_project.scss */
 #spinningTextG-9 {
   animation-delay: 1.79s;
   -o-animation-delay: 1.79s;
@@ -4077,7 +4082,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 1.79s;
 }
 
-/* line 3160, ../sass/custom/_project.scss */
+/* line 3167, ../sass/custom/_project.scss */
 #spinningTextG-10 {
   animation-delay: 1.94s;
   -o-animation-delay: 1.94s;
@@ -4086,7 +4091,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 1.94s;
 }
 
-/* line 3167, ../sass/custom/_project.scss */
+/* line 3174, ../sass/custom/_project.scss */
 #spinningTextG-12 {
   animation-delay: 1.94s;
   -o-animation-delay: 1.94s;
@@ -4095,7 +4100,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 1.94s;
 }
 
-/* line 3174, ../sass/custom/_project.scss */
+/* line 3181, ../sass/custom/_project.scss */
 #spinningTextG-13 {
   animation-delay: 2.09s;
   -o-animation-delay: 2.09s;
@@ -4104,7 +4109,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 2.09s;
 }
 
-/* line 3181, ../sass/custom/_project.scss */
+/* line 3188, ../sass/custom/_project.scss */
 #spinningTextG-14 {
   animation-delay: 2.24s;
   -o-animation-delay: 2.24s;
@@ -4113,7 +4118,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 2.24s;
 }
 
-/* line 3188, ../sass/custom/_project.scss */
+/* line 3195, ../sass/custom/_project.scss */
 #spinningTextG-15 {
   animation-delay: 2.39s;
   -o-animation-delay: 2.39s;
@@ -4122,7 +4127,7 @@ article#node-68 h2 a {
   -moz-animation-delay: 2.39s;
 }
 
-/* line 3195, ../sass/custom/_project.scss */
+/* line 3202, ../sass/custom/_project.scss */
 #spinningTextG-16 {
   animation-delay: 2.54s;
   -o-animation-delay: 2.54s;
@@ -4184,7 +4189,7 @@ article#node-68 h2 a {
 /*---------------------css ends for water-media page--------------------------*/
 /*---------------------------css ends for water-section-------------------------*/
 /*---------------------------css for awards listing-page------------------------*/
-/* line 3268, ../sass/custom/_project.scss */
+/* line 3275, ../sass/custom/_project.scss */
 .item-list.simple_timeline {
   max-width: 1200px;
   width: 100%;
@@ -4192,18 +4197,18 @@ article#node-68 h2 a {
   padding: 50px 40px;
 }
 
-/* line 3274, ../sass/custom/_project.scss */
+/* line 3281, ../sass/custom/_project.scss */
 .timeline-content {
   width: 100%;
   padding-top: 10px;
 }
 
-/* line 3279, ../sass/custom/_project.scss */
+/* line 3286, ../sass/custom/_project.scss */
 .timeline-image img {
   width: 100%;
 }
 
-/* line 3283, ../sass/custom/_project.scss */
+/* line 3290, ../sass/custom/_project.scss */
 .timeline-date {
   font-family: OpenSans;
   font-size: 25px;
@@ -4211,7 +4216,7 @@ article#node-68 h2 a {
   font-weight: bold;
 }
 
-/* line 3289, ../sass/custom/_project.scss */
+/* line 3296, ../sass/custom/_project.scss */
 .timeline-text {
   margin-top: 20px;
   font-family: OpenSans;
@@ -4219,14 +4224,14 @@ article#node-68 h2 a {
   color: #27579c;
   font-weight: bold;
 }
-/* line 3295, ../sass/custom/_project.scss */
+/* line 3302, ../sass/custom/_project.scss */
 .timeline-text p {
   font-size: 16px;
   color: #6a6a6a;
   font-weight: normal;
   margin-top: 10px;
 }
-/* line 3301, ../sass/custom/_project.scss */
+/* line 3308, ../sass/custom/_project.scss */
 .timeline-text a {
   color: #27579c;
   font-size: 16px;
@@ -4234,11 +4239,11 @@ article#node-68 h2 a {
   margin-top: 10px;
   font-weight: bold;
 }
-/* line 3307, ../sass/custom/_project.scss */
+/* line 3314, ../sass/custom/_project.scss */
 .timeline-text a:hover {
   color: #43bfef;
 }
-/* line 3310, ../sass/custom/_project.scss */
+/* line 3317, ../sass/custom/_project.scss */
 .timeline-text a.visit-story {
   width: 100%;
   display: inline-block;
@@ -4246,19 +4251,19 @@ article#node-68 h2 a {
   color: #27579c;
   margin-top: 10px;
 }
-/* line 3316, ../sass/custom/_project.scss */
+/* line 3323, ../sass/custom/_project.scss */
 .timeline-text a.visit-story:hover {
   color: #43bfef;
 }
 
 /*---------------------------css ends for awards listing-page------------------------*/
 /*---------------------------css  for awards node-page------------------------*/
-/* line 3327, ../sass/custom/_project.scss */
+/* line 3334, ../sass/custom/_project.scss */
 .node-type-awards-list .title-body-wrapper {
   max-width: 100%;
   padding: 50px 0;
 }
-/* line 3331, ../sass/custom/_project.scss */
+/* line 3338, ../sass/custom/_project.scss */
 .node-type-awards-list .economic-inner-title, .node-type-awards-list .economic-inner-content {
   max-width: 1200px;
   width: 100%;
@@ -4266,16 +4271,16 @@ article#node-68 h2 a {
   padding: 0 40px;
   display: block;
 }
-/* line 3338, ../sass/custom/_project.scss */
+/* line 3345, ../sass/custom/_project.scss */
 .node-type-awards-list .approach-content {
   padding-top: 40px;
 }
-/* line 3341, ../sass/custom/_project.scss */
+/* line 3348, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango {
   background: #E6E6FA;
   margin-top: 50px;
 }
-/* line 3344, ../sass/custom/_project.scss */
+/* line 3351, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-container-horizontal {
   width: 100%;
   height: auto;
@@ -4286,17 +4291,17 @@ article#node-68 h2 a {
   max-width: 1000px;
   margin: 0 auto;
 }
-/* line 3354, ../sass/custom/_project.scss */
+/* line 3361, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-clip-horizontal {
   width: 100%;
   background: #E6E6FA;
   padding-top: 35px;
 }
-/* line 3358, ../sass/custom/_project.scss */
+/* line 3365, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-clip-horizontal .full-width {
   width: 1025px !important;
 }
-/* line 3362, ../sass/custom/_project.scss */
+/* line 3369, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-item {
   width: 450px !important;
   margin: 0;
@@ -4306,13 +4311,13 @@ article#node-68 h2 a {
   background: #E6E6FA;
   position: relative;
 }
-/* line 3370, ../sass/custom/_project.scss */
+/* line 3377, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-item.height {
   height: 91px;
   width: 1024px !important;
   margin-left: 0;
 }
-/* line 3376, ../sass/custom/_project.scss */
+/* line 3383, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-prev {
   background-image: url("../images/left.png");
   height: 40px;
@@ -4320,11 +4325,11 @@ article#node-68 h2 a {
   top: 45%;
   background-repeat: no-repeat;
 }
-/* line 3382, ../sass/custom/_project.scss */
+/* line 3389, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-prev:hover {
   background-position: 0;
 }
-/* line 3386, ../sass/custom/_project.scss */
+/* line 3393, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-next {
   background-image: url("../images/right.png");
   height: 40px;
@@ -4334,11 +4339,11 @@ article#node-68 h2 a {
   background-repeat: no-repeat;
   right: -3px;
 }
-/* line 3394, ../sass/custom/_project.scss */
+/* line 3401, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-next:hover {
   background-position: 0;
 }
-/* line 3399, ../sass/custom/_project.scss */
+/* line 3406, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -4357,16 +4362,16 @@ article#node-68 h2 a {
   font-family: OpenSans;
   margin-top: 25px;
 }
-/* line 3416, ../sass/custom/_project.scss */
+/* line 3423, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 3419, ../sass/custom/_project.scss */
+/* line 3426, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link:hover a {
   color: #fff;
 }
-/* line 3423, ../sass/custom/_project.scss */
+/* line 3430, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link a {
   color: #43bfef;
 }
