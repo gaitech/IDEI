@@ -1365,10 +1365,6 @@
     	color: #6a6a6a;
     	line-height: 1.2em;
     	text-align: center;
-    	
-animation-name: animationtext;
-animation-duration:4s;
-animation-iteration-count: infinite;
     }
   }
   .field-name-field-graph-body {
@@ -3204,24 +3200,7 @@ article#node-68 {
 		-moz-animation-delay:2.54s;
 }
 
-@keyframes animationtext {
-	0% {
-		text-shadow: rgb(255, 252, 168) 2px 2px 0px, #27579c 4px 4px 0px;
-	}
-	25% {
-		text-shadow: rgb(255, 252, 168) 2px 2px 0px, #43bfef 4px 4px 0px;
-	}
-	50% {
-		text-shadow: rgb(255, 252, 168) 2px 2px 0px, #27579c 4px 4px 0px;
-	}
-	75% {
-		text-shadow: rgb(255, 252, 168) 2px 2px 0px, #43bfef 4px 4px 0px;
-	}
-	100% {
-		text-shadow: rgb(255, 252, 168) 2px 2px 0px, #27579c 4px 4px 0px;
-	}
 
-}
 @keyframes bounce_inTurnFadingTextG{
 	0%{
 		color:rgb(0,0,0);
