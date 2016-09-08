@@ -2479,7 +2479,7 @@ article#node-68 {
 	  }
 	}
 	.twitter-link {
-		background-image: url("../images/twitter-icon.png");
+		background-image: url("../images/twitter-logo-blue.png");
 		background-repeat: no-repeat;
 		a {
 			color: #27579c;
@@ -2488,6 +2488,31 @@ article#node-68 {
 			}
 		}
 	}
+	.views-row-1 {
+		.twitter-link {
+    	background-position: 27% 0;
+    }
+  }
+  .views-row-2 {
+		.twitter-link {
+    	background-position: 22% 0;
+    }
+  }
+  .views-row-5 {
+		.twitter-link {
+    	background-position: 18% 0;
+    }
+  }
+  .views-row-6 {
+		.twitter-link {
+    	background-position: 30% 0;
+    }
+  }
+  .views-row-7 {
+		.twitter-link {
+    	background-position: 33% 0;
+    }
+  }
 }
 .economic-inner-title.team {
   padding-top: 37px;
