@@ -3860,7 +3860,7 @@ article#node-68 h2 a {
 }
 
 /*---------------------css ends for water-introduction page--------------------------*/
-/*---------------------css for water-media page--------------------------*/
+/*---------------------css for water-media and idei in media page--------------------------*/
 /* line 2980, ../sass/custom/_project.scss */
 .view-media-listing .view-header-banner .view-content {
   width: 100%;
@@ -4028,216 +4028,18 @@ article#node-68 h2 a {
 }
 
 /* line 3130, ../sass/custom/_project.scss */
-.spinningTextG {
-  color: white;
-  text-shadow: 4px 3px 3px #43bfef;
-  font-family: OpenSans;
-  font-size: 36px;
-  text-decoration: none;
-  font-weight: normal;
-  font-style: normal;
-  animation-name: bounce_inTurnFadingTextG;
-  -o-animation-name: bounce_inTurnFadingTextG;
-  -ms-animation-name: bounce_inTurnFadingTextG;
-  -webkit-animation-name: bounce_inTurnFadingTextG;
-  -moz-animation-name: bounce_inTurnFadingTextG;
-  animation-duration: 2.09s;
-  -o-animation-duration: 2.09s;
-  -ms-animation-duration: 2.09s;
-  -webkit-animation-duration: 2.09s;
-  -moz-animation-duration: 2.09s;
-  animation-iteration-count: infinite;
-  -o-animation-iteration-count: infinite;
-  -ms-animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  animation-direction: normal;
-  -o-animation-direction: normal;
-  -ms-animation-direction: normal;
-  -webkit-animation-direction: normal;
-  -moz-animation-direction: normal;
+.page-media-listing .haeder-caption, .page-awards-media .haeder-caption {
+  background: transparent;
+  bottom: 40%;
+  color: #000;
+  font-size: 50px;
+  font-weight: bold;
 }
 
-/* line 3162, ../sass/custom/_project.scss */
-#spinningTextG-0 {
-  animation-delay: 0.75s;
-  -o-animation-delay: 0.75s;
-  -ms-animation-delay: 0.75s;
-  -webkit-animation-delay: 0.75s;
-  -moz-animation-delay: 0.75s;
-}
-
-/* line 3169, ../sass/custom/_project.scss */
-#spinningTextG-1 {
-  animation-delay: 0.9s;
-  -o-animation-delay: 0.9s;
-  -ms-animation-delay: 0.9s;
-  -webkit-animation-delay: 0.9s;
-  -moz-animation-delay: 0.9s;
-}
-
-/* line 3176, ../sass/custom/_project.scss */
-#spinningTextG-2 {
-  animation-delay: 1.05s;
-  -o-animation-delay: 1.05s;
-  -ms-animation-delay: 1.05s;
-  -webkit-animation-delay: 1.05s;
-  -moz-animation-delay: 1.05s;
-}
-
-/* line 3183, ../sass/custom/_project.scss */
-#spinningTextG-3 {
-  animation-delay: 1.2s;
-  -o-animation-delay: 1.2s;
-  -ms-animation-delay: 1.2s;
-  -webkit-animation-delay: 1.2s;
-  -moz-animation-delay: 1.2s;
-}
-
-/* line 3190, ../sass/custom/_project.scss */
-#spinningTextG-5 {
-  animation-delay: 1.35s;
-  -o-animation-delay: 1.35s;
-  -ms-animation-delay: 1.35s;
-  -webkit-animation-delay: 1.35s;
-  -moz-animation-delay: 1.35s;
-}
-
-/* line 3197, ../sass/custom/_project.scss */
-#spinningTextG-6 {
-  animation-delay: 1.5s;
-  -o-animation-delay: 1.5s;
-  -ms-animation-delay: 1.5s;
-  -webkit-animation-delay: 1.5s;
-  -moz-animation-delay: 1.5s;
-}
-
-/* line 3204, ../sass/custom/_project.scss */
-#spinningTextG-8 {
-  animation-delay: 1.64s;
-  -o-animation-delay: 1.64s;
-  -ms-animation-delay: 1.64s;
-  -webkit-animation-delay: 1.64s;
-  -moz-animation-delay: 1.64s;
-}
-
-/* line 3211, ../sass/custom/_project.scss */
-#spinningTextG-9 {
-  animation-delay: 1.79s;
-  -o-animation-delay: 1.79s;
-  -ms-animation-delay: 1.79s;
-  -webkit-animation-delay: 1.79s;
-  -moz-animation-delay: 1.79s;
-}
-
-/* line 3218, ../sass/custom/_project.scss */
-#spinningTextG-10 {
-  animation-delay: 1.94s;
-  -o-animation-delay: 1.94s;
-  -ms-animation-delay: 1.94s;
-  -webkit-animation-delay: 1.94s;
-  -moz-animation-delay: 1.94s;
-}
-
-/* line 3225, ../sass/custom/_project.scss */
-#spinningTextG-12 {
-  animation-delay: 1.94s;
-  -o-animation-delay: 1.94s;
-  -ms-animation-delay: 1.94s;
-  -webkit-animation-delay: 1.94s;
-  -moz-animation-delay: 1.94s;
-}
-
-/* line 3232, ../sass/custom/_project.scss */
-#spinningTextG-13 {
-  animation-delay: 2.09s;
-  -o-animation-delay: 2.09s;
-  -ms-animation-delay: 2.09s;
-  -webkit-animation-delay: 2.09s;
-  -moz-animation-delay: 2.09s;
-}
-
-/* line 3239, ../sass/custom/_project.scss */
-#spinningTextG-14 {
-  animation-delay: 2.24s;
-  -o-animation-delay: 2.24s;
-  -ms-animation-delay: 2.24s;
-  -webkit-animation-delay: 2.24s;
-  -moz-animation-delay: 2.24s;
-}
-
-/* line 3246, ../sass/custom/_project.scss */
-#spinningTextG-15 {
-  animation-delay: 2.39s;
-  -o-animation-delay: 2.39s;
-  -ms-animation-delay: 2.39s;
-  -webkit-animation-delay: 2.39s;
-  -moz-animation-delay: 2.39s;
-}
-
-/* line 3253, ../sass/custom/_project.scss */
-#spinningTextG-16 {
-  animation-delay: 2.54s;
-  -o-animation-delay: 2.54s;
-  -ms-animation-delay: 2.54s;
-  -webkit-animation-delay: 2.54s;
-  -moz-animation-delay: 2.54s;
-}
-
-@keyframes bounce_inTurnFadingTextG {
-  0% {
-    color: black;
-    text-shadow: 4px 3px 3px #43bfef;
-  }
-  100% {
-    color: white;
-    text-shadow: 4px 3px 3px #27579c;
-  }
-}
-@-o-keyframes bounce_inTurnFadingTextG {
-  0% {
-    color: black;
-    text-shadow: 4px 3px 3px #43bfef;
-  }
-  100% {
-    color: white;
-    text-shadow: 4px 3px 3px #27579c;
-  }
-}
-@-ms-keyframes bounce_inTurnFadingTextG {
-  0% {
-    color: black;
-    text-shadow: 4px 3px 3px #43bfef;
-  }
-  100% {
-    color: white;
-    text-shadow: 4px 3px 3px #27579c;
-  }
-}
-@-webkit-keyframes bounce_inTurnFadingTextG {
-  0% {
-    color: black;
-    text-shadow: 4px 3px 3px #43bfef;
-  }
-  100% {
-    color: white;
-    text-shadow: 4px 3px 3px #27579c;
-  }
-}
-@-moz-keyframes bounce_inTurnFadingTextG {
-  0% {
-    color: #43bfef;
-    text-shadow: 4px 3px 3px #43bfef;
-  }
-  100% {
-    color: white;
-    text-shadow: 4px 3px 3px #27579c;
-  }
-}
 /*---------------------css ends for water-media page--------------------------*/
 /*---------------------------css ends for water-section-------------------------*/
 /*---------------------------css for awards listing-page------------------------*/
-/* line 3326, ../sass/custom/_project.scss */
+/* line 3144, ../sass/custom/_project.scss */
 .item-list.simple_timeline {
   max-width: 1200px;
   width: 100%;
@@ -4245,18 +4047,18 @@ article#node-68 h2 a {
   padding: 50px 40px;
 }
 
-/* line 3332, ../sass/custom/_project.scss */
+/* line 3150, ../sass/custom/_project.scss */
 .timeline-content {
   width: 100%;
   padding-top: 10px;
 }
 
-/* line 3337, ../sass/custom/_project.scss */
+/* line 3155, ../sass/custom/_project.scss */
 .timeline-image img {
   width: 100%;
 }
 
-/* line 3341, ../sass/custom/_project.scss */
+/* line 3159, ../sass/custom/_project.scss */
 .timeline-date {
   font-family: OpenSans;
   font-size: 25px;
@@ -4264,7 +4066,7 @@ article#node-68 h2 a {
   font-weight: bold;
 }
 
-/* line 3347, ../sass/custom/_project.scss */
+/* line 3165, ../sass/custom/_project.scss */
 .timeline-text {
   margin-top: 20px;
   font-family: OpenSans;
@@ -4272,14 +4074,14 @@ article#node-68 h2 a {
   color: #27579c;
   font-weight: bold;
 }
-/* line 3353, ../sass/custom/_project.scss */
+/* line 3171, ../sass/custom/_project.scss */
 .timeline-text p {
   font-size: 16px;
   color: #6a6a6a;
   font-weight: normal;
   margin-top: 10px;
 }
-/* line 3359, ../sass/custom/_project.scss */
+/* line 3177, ../sass/custom/_project.scss */
 .timeline-text a {
   color: #27579c;
   font-size: 16px;
@@ -4287,11 +4089,11 @@ article#node-68 h2 a {
   margin-top: 10px;
   font-weight: bold;
 }
-/* line 3365, ../sass/custom/_project.scss */
+/* line 3183, ../sass/custom/_project.scss */
 .timeline-text a:hover {
   color: #43bfef;
 }
-/* line 3368, ../sass/custom/_project.scss */
+/* line 3186, ../sass/custom/_project.scss */
 .timeline-text a.visit-story {
   width: 100%;
   display: inline-block;
@@ -4299,19 +4101,19 @@ article#node-68 h2 a {
   color: #27579c;
   margin-top: 10px;
 }
-/* line 3374, ../sass/custom/_project.scss */
+/* line 3192, ../sass/custom/_project.scss */
 .timeline-text a.visit-story:hover {
   color: #43bfef;
 }
 
 /*---------------------------css ends for awards listing-page------------------------*/
 /*---------------------------css  for awards node-page------------------------*/
-/* line 3385, ../sass/custom/_project.scss */
+/* line 3203, ../sass/custom/_project.scss */
 .node-type-awards-list .title-body-wrapper {
   max-width: 100%;
   padding: 50px 0;
 }
-/* line 3389, ../sass/custom/_project.scss */
+/* line 3207, ../sass/custom/_project.scss */
 .node-type-awards-list .economic-inner-title, .node-type-awards-list .economic-inner-content {
   max-width: 1200px;
   width: 100%;
@@ -4319,16 +4121,16 @@ article#node-68 h2 a {
   padding: 0 40px;
   display: block;
 }
-/* line 3396, ../sass/custom/_project.scss */
+/* line 3214, ../sass/custom/_project.scss */
 .node-type-awards-list .approach-content {
   padding-top: 40px;
 }
-/* line 3399, ../sass/custom/_project.scss */
+/* line 3217, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango {
   background: #E6E6FA;
   margin-top: 50px;
 }
-/* line 3402, ../sass/custom/_project.scss */
+/* line 3220, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-container-horizontal {
   width: 100%;
   height: auto;
@@ -4339,17 +4141,17 @@ article#node-68 h2 a {
   max-width: 1000px;
   margin: 0 auto;
 }
-/* line 3412, ../sass/custom/_project.scss */
+/* line 3230, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-clip-horizontal {
   width: 100%;
   background: #E6E6FA;
   padding-top: 35px;
 }
-/* line 3416, ../sass/custom/_project.scss */
+/* line 3234, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-clip-horizontal .full-width {
   width: 1025px !important;
 }
-/* line 3420, ../sass/custom/_project.scss */
+/* line 3238, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-item {
   width: 450px !important;
   margin: 0;
@@ -4359,13 +4161,13 @@ article#node-68 h2 a {
   background: #E6E6FA;
   position: relative;
 }
-/* line 3428, ../sass/custom/_project.scss */
+/* line 3246, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-item.height {
   height: 91px;
   width: 1024px !important;
   margin-left: 0;
 }
-/* line 3434, ../sass/custom/_project.scss */
+/* line 3252, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-prev {
   background-image: url("../images/left.png");
   height: 40px;
@@ -4373,11 +4175,11 @@ article#node-68 h2 a {
   top: 45%;
   background-repeat: no-repeat;
 }
-/* line 3440, ../sass/custom/_project.scss */
+/* line 3258, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-prev:hover {
   background-position: 0;
 }
-/* line 3444, ../sass/custom/_project.scss */
+/* line 3262, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-next {
   background-image: url("../images/right.png");
   height: 40px;
@@ -4387,11 +4189,11 @@ article#node-68 h2 a {
   background-repeat: no-repeat;
   right: -3px;
 }
-/* line 3452, ../sass/custom/_project.scss */
+/* line 3270, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-next:hover {
   background-position: 0;
 }
-/* line 3457, ../sass/custom/_project.scss */
+/* line 3275, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -4410,16 +4212,16 @@ article#node-68 h2 a {
   font-family: OpenSans;
   margin-top: 25px;
 }
-/* line 3474, ../sass/custom/_project.scss */
+/* line 3292, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 3477, ../sass/custom/_project.scss */
+/* line 3295, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link:hover a {
   color: #fff;
 }
-/* line 3481, ../sass/custom/_project.scss */
+/* line 3299, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link a {
   color: #43bfef;
 }
