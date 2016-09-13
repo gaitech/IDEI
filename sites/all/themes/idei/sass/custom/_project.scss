@@ -38,6 +38,7 @@
 	width: 100%;
 	border: 2px solid #22305b;
   height: 28px;
+  border-right: none;
 	h2 {
 		width: 20.8%;
     word-spacing: 1.2px;
@@ -309,8 +310,8 @@
 					    -o-transition:      all 0.12s ease-out;
 							transition:  all 0.12s ease-out;
 					    &:hover {
-					    	color: #27579c;
-					    	text-shadow: 1px 1px 1px #27579c;
+					    	color: #43bfef;
+					    	text-shadow: 0.3px 0.3px 0.3px #43bfef;
 					    	-webkit-transform: scale(1.1); 
 							  -moz-transform:    scale(1.1);
 							  -ms-transform:     scale(1.1); 
@@ -628,8 +629,8 @@
 					    -ms-transition:     all 0.12s ease-out;
 					    -o-transition:      all 0.12s ease-out;
 					    &:hover {
-					    	color: #27579c;
-					    	text-shadow: 1px 1px 1px #27579c;
+					    	color: #43bfef;
+					    	text-shadow: 0.3px 0.3px 0.3px #43bfef;
 					    	-webkit-transform: scale(1.1); 
 							  -moz-transform:    scale(1.1);
 							  -ms-transform:     scale(1.1); 
@@ -786,8 +787,8 @@
 					    -ms-transition:     all 0.12s ease-out;
 					    -o-transition:      all 0.12s ease-out;
 					    &:hover {
-					    	color: #27579c;
-					    	text-shadow: 1px 1px 1px #27579c;
+					    	color: #43bfef;
+					    	text-shadow: 0.3px 0.3px 0.3px #43bfef;
 					    	-webkit-transform: scale(1.1); 
 							  -moz-transform:    scale(1.1);
 							  -ms-transform:     scale(1.1); 
@@ -1267,6 +1268,17 @@
 	    	margin-left: auto;
 	    	margin-right: auto;
 	    	display: block;
+	    	-webkit-transition: all 0.7s ease;
+	    	-moz-transition: all 0.7s ease;
+	    	-ms-transition: all 0.7s ease;
+				-o-transition:  all 0.7s ease;
+    		transition: all 0.7s ease;
+    		&:hover {
+    			border-top-left-radius: 120px; 
+					border-bottom-right-radius: 120px;
+					border-top-right-radius: 15px;
+					border-bottom-left-radius: 15px;
+    		}
 	    }
 	    .views-field-title {
 	    	text-align: center;
@@ -1276,6 +1288,20 @@
 		    a {
 		    	color: #43bfef;
 		    	text-decoration: none;
+		    	-webkit-transition: all 0.12s ease-out;
+			    -moz-transition:    all 0.12s ease-out;
+			    -ms-transition:     all 0.12s ease-out;
+			    -o-transition:      all 0.12s ease-out;
+					transition:  all 0.12s ease-out;
+			    &:hover {
+			    	color: #fff;
+			    	text-shadow: 0.3px 0.3px 0.3px #fff;
+			    	-webkit-transform: scale(1.2); 
+					  -moz-transform:    scale(1.2);
+					  -ms-transform:     scale(1.2); 
+					  -o-transform:      scale(1.2); 
+					  transform: scale(1.1);
+					}
 		    	&:focus {
 		    		outline: none;
 			    }
