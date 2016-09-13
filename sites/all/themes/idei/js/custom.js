@@ -115,7 +115,10 @@
   /*..........js for aaproach submenu................*/
   $(".second-views-menu .block-title").insertBefore(".second-views-menu .view .views-row-1");
 
-  /*------------js for typewriter effect to media caption------------*/
+  /*---------------js added for impact graph description for adding class------------*/
+  $(".economic-inner-content .field-name-field-graph-description p").addClass("impact-split");
+
+  /*------------js for typewriter effect to media caption & impact graph desc.------------*/
  
   function splitwords(splitclass, divclass) {
     var text = document.querySelector('.'+splitclass+' .'+divclass).innerHTML;
@@ -140,7 +143,9 @@
   else if($('body.page-awards-media').length > 0) {
     splitwords('page-awards-media', 'haeder-caption');
   }
-
+  else if($('body.node-type-impact-inner-pages').length > 0) {
+    splitwords('field-name-field-graph-description', 'impact-split');
+  }
 });
 
 
