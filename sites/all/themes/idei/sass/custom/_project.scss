@@ -3162,7 +3162,11 @@ article#node-68 {
 /*---------------------------css ends for water-section-------------------------*/
 
 /*---------------------------css for awards listing-page------------------------*/
-
+.page-awards-timeline {
+	.main-container {
+    padding: 71px 0 0;
+	}	
+}
 .item-list.simple_timeline {
   max-width: 1200px;
   width: 100%;
@@ -3222,6 +3226,9 @@ article#node-68 {
 
 /*---------------------------css  for awards node-page------------------------*/
 .node-type-awards-list {
+	.main-container {
+    padding: 71px 0 0;
+	}	
 	.title-body-wrapper {
 		max-width: 100%;
 		padding: 50px 0;

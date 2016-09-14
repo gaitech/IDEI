@@ -1058,6 +1058,49 @@
 		}
 	}
 	/*-----------------------css ends for contact-us-page-----------------------------*/
+
+	/*----------------------css for awards-timeline-page----------------------------*/
+	.timeline-date {
+		font-size: 14px;
+	}
+	.timeline-text {
+		margin-top: 10px;
+		font-size: 15px !important;
+		p, a {
+			font-size: 13px;
+		}
+		a.visit-story {
+			font-size: 14px;
+		}
+	}
+	/*----------------------css ends for awards-timeline-page------------------------*/
+
+	/*-----------------------css for awards-timeline-node-page--------------------*/
+		.node-type-awards-list {
+			.economic-inner-title, .economic-inner-content {
+				padding: 0 10px;
+			}
+			.jcarousel-skin-tango {
+				.jcarousel-item {
+					width: 300px !important;
+					height: 224px;
+					margin-left: 10px;
+				}
+				.jcarousel-container-horizontal {
+					max-width: 320px;
+				}
+				.jcarousel-next-horizontal {
+					right: 4px;
+				}
+				.jcarousel-clip-horizontal {
+					padding-top: 25px;
+				}
+			}
+			.external-link {
+				font-size: 14px;
+			}
+		}
+	/*-----------------------css ends for awards-timeline-node-page-------------------*/
 }
 
 
@@ -1513,6 +1556,23 @@
 		width: 60%;
 	}
 	/*----------css ends for about-us-board-members node-page------------- */
+
+	/*---------------------css for timline node page---------------------*/
+	.node-type-awards-list {
+		.jcarousel-skin-tango {
+			.jcarousel-item {
+				width: 330px !important;
+				height: 254px;
+			}
+			.jcarousel-next {
+				right: 7px;
+			}
+			.jcarousel-container-horizontal {
+				max-width: 768px;
+			}
+		}
+	}
+	/*---------------------css ends for timline node page---------------------*/
 }
 
 
@@ -1599,3 +1659,10 @@
 	}
 }
 /*--------------------------------------------------------------*/
+
+/*--------------------media query for timline awards page---------------*/
+@media all and (min-width:320px) and (max-width: 349px) {
+	.timeline-date {
+	  font-weight: normal;
+	}
+}
