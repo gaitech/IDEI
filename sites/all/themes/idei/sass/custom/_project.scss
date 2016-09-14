@@ -3324,3 +3324,65 @@ article#node-68 {
 	}
 }
 /*---------------------------css ends for awards node-page------------------------*/
+
+/*------------------------css for search result page---------------------------*/
+
+.page-search {
+	.breadcrumb {
+    background: none;
+    padding: 8px 45px;
+    li {
+    	a {
+    		color: #27579c;
+    		&:hover {
+    			color: #27579c;
+    		}
+    	}
+    	&.active {
+    		color: #43bfef;
+    	}
+    }
+	}
+	.form-group {
+  	width: 40%;
+  	margin: auto;
+  	.form-control {
+  		border: 1px solid #43bfef;
+  		color: #43bfef;
+  		font-family: 	OpenSans;
+  		font-size: 15px;
+  	}
+  }
+  .region-content {
+	  h2 {
+	    text-align: center;
+	    padding-top: 40px;
+	    color: #43bfef;
+	    font-size: 36px;
+		}
+	}
+	.search-results {
+		max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-size: 22px;
+    color: #43bfef;
+    .title {
+    	margin-left: 5px;
+    	a {
+    		color: #27579c;
+    		&:hover {
+    			color: #27579c;
+    		}
+    	}
+    }
+	}
+	.search-snippet-info {
+    margin-left: 5px;
+    color: #6a6a6a;
+    font-size: 16px;
+    font-family: OpenSans;
+	}
+}
+/*------------------------css ends for search result page---------------------------*/

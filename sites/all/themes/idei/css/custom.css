@@ -4263,6 +4263,73 @@ article#node-68 h2 a {
 }
 
 /*---------------------------css ends for awards node-page------------------------*/
+/*------------------------css for search result page---------------------------*/
+/* line 3331, ../sass/custom/_project.scss */
+.page-search .breadcrumb {
+  background: none;
+  padding: 8px 45px;
+}
+/* line 3335, ../sass/custom/_project.scss */
+.page-search .breadcrumb li a {
+  color: #27579c;
+}
+/* line 3337, ../sass/custom/_project.scss */
+.page-search .breadcrumb li a:hover {
+  color: #27579c;
+}
+/* line 3341, ../sass/custom/_project.scss */
+.page-search .breadcrumb li.active {
+  color: #43bfef;
+}
+/* line 3346, ../sass/custom/_project.scss */
+.page-search .form-group {
+  width: 40%;
+  margin: auto;
+}
+/* line 3349, ../sass/custom/_project.scss */
+.page-search .form-group .form-control {
+  border: 1px solid #43bfef;
+  color: #43bfef;
+  font-family: OpenSans;
+  font-size: 15px;
+}
+/* line 3357, ../sass/custom/_project.scss */
+.page-search .region-content h2 {
+  text-align: center;
+  padding-top: 40px;
+  color: #43bfef;
+  font-size: 36px;
+}
+/* line 3364, ../sass/custom/_project.scss */
+.page-search .search-results {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 40px;
+  font-size: 22px;
+  color: #43bfef;
+}
+/* line 3371, ../sass/custom/_project.scss */
+.page-search .search-results .title {
+  margin-left: 5px;
+}
+/* line 3373, ../sass/custom/_project.scss */
+.page-search .search-results .title a {
+  color: #27579c;
+}
+/* line 3375, ../sass/custom/_project.scss */
+.page-search .search-results .title a:hover {
+  color: #27579c;
+}
+/* line 3381, ../sass/custom/_project.scss */
+.page-search .search-snippet-info {
+  margin-left: 5px;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-family: OpenSans;
+}
+
+/*------------------------css ends for search result page---------------------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {
