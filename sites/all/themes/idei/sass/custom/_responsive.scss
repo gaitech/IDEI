@@ -1023,41 +1023,62 @@
 
 	/*-----------------------css ends for about-page------------------------------------*/
 
-	/*-------------------------css for contact-us-page-----------------------------*/
+	/*---------------------------css for engage section-----------------------------*/
 
-	.view-contact-us-page {
-		.view-footer {
-			padding-left: 10px;
-			padding-right: 10px;
-		}
-		.address-wrap {
-			text-align: center;
-			border-bottom: 3px solid #27579c;
-    	&:first-of-type {
-    		padding-bottom: 40px;
-    	}
-    	&:last-of-type {
-    		border-bottom: none;
-    	}
-		}
-		.address-block, .map-block {
-			width: 100%;
-		}
-		.delhi-address {
-			padding-bottom: 30px;
-			p {
-				font-size: 14px;
-				&:first-of-type {
-					font-size: 25px;
+		/*-------------------------css for contact-us-page-----------------------------*/
+
+			.view-contact-us-page {
+				.view-footer {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+				.address-wrap {
+					text-align: center;
+					border-bottom: 3px solid #27579c;
+		    	&:first-of-type {
+		    		padding-bottom: 40px;
+		    	}
+		    	&:last-of-type {
+		    		border-bottom: none;
+		    	}
+				}
+				.address-block, .map-block {
+					width: 100%;
+				}
+				.delhi-address {
+					padding-bottom: 30px;
+					p {
+						font-size: 14px;
+						&:first-of-type {
+							font-size: 25px;
+						}
+					}
+					&.odisha-address {
+						padding-left: 0;
+						padding-top: 30px;
+					}
 				}
 			}
-			&.odisha-address {
-				padding-left: 0;
-				padding-top: 30px;
+		/*-----------------------css ends for contact-us-page-----------------------------*/
+		/*---------------------------css for volunteers-page-----------------------------*/
+			.page-volunteers {
+				.view-volunteers-page {
+					.view-header {
+						p {
+							font-size: 14px;
+							width: 90%;
+						}
+					}
+				}
 			}
-		}
-	}
-	/*-----------------------css ends for contact-us-page-----------------------------*/
+			.view-volunteers-page {
+				.view-content {
+					padding: 0;
+				}
+			}
+		/*--------------------------css ends for volunteers-page--------------------------*/
+
+	/*---------------------------css ends for engage section-----------------------------*/
 
 	/*----------------------css for awards-timeline-page----------------------------*/
 	.timeline-date {
