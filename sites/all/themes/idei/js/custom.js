@@ -77,6 +77,12 @@
     if($(this).attr("href") == chk_url)
     $(this).addClass("active");
   });
+ //add active class in water inner pages 
+  $("#block-idei-custom-water-inner-menu li a").each(function() {
+    $(this).removeClass("active");
+    if($(this).attr("href") == chk_url)
+    $(this).addClass("active");
+  });
 
   //add active class on click paralex inner page
   $('.program-menu-navigation li a').click(function(e) {
