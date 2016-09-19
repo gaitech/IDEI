@@ -27,7 +27,7 @@ regions[page_bottom]    = 'Page bottom'
 
 stylesheets[all][] = 'css/style.css'
 stylesheets[all][] = 'css/custom.css'
-
+stylesheets[all][] = 'css/animate.css'
 
 ; ;;;;;;;;;;;;;;;;;;;;;
 ; ;; Scripts
@@ -35,3 +35,5 @@ stylesheets[all][] = 'css/custom.css'
 ;
   scripts[] = 'js/custom.js'
   scripts[] = 'js/active_paralax_scroll.js'
+  scripts[] = 'js/wow.js'
+  scripts[] = 'js/wow.min.js'
