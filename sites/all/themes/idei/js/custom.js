@@ -1,6 +1,9 @@
 (function($) {
 	$(window).ready(function() {
 
+
+new WOW().init();
+
   //hide applications block in static and dynamic avtivity page
   if( $( ".promotional-hide-label" ).is( ":visible" ) ) {
     $('.detail-product-applications-wrap').show();
@@ -122,7 +125,7 @@
   $(".second-views-menu .block-title").insertBefore(".second-views-menu .view .views-row-1");
 
   /*---------------js added for impact graph description for adding class------------*/
-  $(".economic-inner-content .field-name-field-graph-description p").addClass("impact-split");
+  $(".economic-inner-content .field-name-field-graph-description p").addClass("animate fadeInUp");
 
   /*------------js for typewriter effect to media caption & impact graph desc.------------*/
  

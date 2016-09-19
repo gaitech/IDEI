@@ -1331,6 +1331,7 @@
   padding-top: 10px;
   line-height: 1.2em;
 }
+
 .economic-inner-content {
 	ul {
   	padding: 0;
@@ -2794,6 +2795,9 @@ article#node-68 {
 		&.view-display-id-block_2, &.view-display-id-block_6 {
 			padding-top: 52px;
 		}
+		&.view-display-id-block_6 {
+			padding-bottom: 21px;
+		}
 	}
 }
 /*---------------------css ends for archive-listing page--------------------------*/
@@ -3213,6 +3217,7 @@ article#node-68 {
     -ms-transition: 1;
   }
 }
+
 @-webkit-keyframes swing {
   15%
   {

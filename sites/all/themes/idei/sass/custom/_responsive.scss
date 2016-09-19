@@ -1204,6 +1204,57 @@
 			}
 		}	
 	/*---------------------------css ends for search-page-------------------------*/	
+
+	/*-------------------------css for archive listing page---------------------*/
+		.main-container {
+			.view-archive- {
+				.view-header {
+					.archive-title {
+						font-size: 25px;
+						padding-top: 20px;
+					}
+				}
+				.view-content {
+					padding-left: 10px;
+					padding-right: 10px;
+					.views-field-name {
+						font-size: 13px;
+					}
+				}
+				&.view-display-id-block_2, &.view-display-id-block_4, &.view-display-id-block_6 {
+					.view-header {
+						font-size: 25px;
+					}
+				}
+				&.view-display-id-block_2, &.view-display-id-block_6 {
+					padding-top: 30px;
+				}
+				&.view-display-id-block_4 {
+					.view-content {
+						.views-field-field-promotional-feature-video {
+							a {
+								&:before {
+									background-size: 40px;
+									background-position: 50% 37%;
+								}
+							}
+						}
+						.views-field-name {
+							font-size: 12px;
+							font-weight: bold;
+						}
+					}
+				}
+				&.view-display-id-block_6 {
+					.view-content {
+						.views-field-name {
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+	/*-------------------------css ends for archive listing page---------------------*/
 }
 
 
@@ -1714,6 +1765,25 @@
 		/*-----------------------css ends for global-networking-page------------------*/
 
 	/*-------------------------css ends for partners section---------------------*/
+
+	/*-------------------------css for archive listing page---------------------*/
+		.main-container {
+			.view-archive- {
+				.view-content {
+					.views-field-name {
+						font-size: 22px;
+					}
+				}
+				&.view-display-id-block_4 {
+					.view-content {
+						.views-field-name {
+							font-size: 30px;
+						}
+					}
+				}
+			}
+		}
+		/*-------------------------css ends for archive listing page---------------------*/
 }
 
 
