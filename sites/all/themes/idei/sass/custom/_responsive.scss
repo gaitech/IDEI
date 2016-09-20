@@ -1255,6 +1255,27 @@
 			}
 		}
 	/*-------------------------css ends for archive listing page---------------------*/
+
+	/*-------------------------css for archive node page---------------------*/
+		.view-photo-gallery-archive- {
+			.node-title {
+				font-size: 25px;
+			}
+		}
+		.page-documents {
+			.view-photo-gallery-archive- {
+				.view-content {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+				.view-header {
+					.view-content {
+						padding: 0;
+					}
+				}	
+			}
+		}
+	/*-------------------------css ends for archive node page---------------------*/
 }
 
 
@@ -1317,6 +1338,19 @@
 					.views-row {
 						font-size: 10px;
 						padding: 0 4px;
+					}
+				}
+			}
+		}
+		.second-views-menu {
+			.view {
+				.view-content {
+					.views-row {
+						font-size: 10px;
+						padding: 0 4px;
+					}
+					.block-title {
+						font-size: 13px;
 					}
 				}
 			}
@@ -1879,6 +1913,30 @@
 			}
 		}
 	}
+/*--------------------------------------------------------------*/
+
+/*-----media query for submenu's of archive node pages------------*/
+@media all and (min-width:320px) and (max-width: 334px) {
+	.page-gallery {
+		.main-container {
+			padding: 139px 0 0;
+		}
+	}
+}
+@media all and (min-width:320px) and (max-width: 378px) {
+	.page-success-stories {
+		.main-container {
+			padding: 119px 0 0;
+		}
+	}
+}
+@media all and (min-width:320px) and (max-width: 514px) {
+	.page-documents {
+		.main-container {
+			padding: 119px 0 0;
+		}
+	}
+}
 /*--------------------------------------------------------------*/
 
 /*--------------------media query for timline awards page---------------*/

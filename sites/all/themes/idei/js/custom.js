@@ -2,8 +2,7 @@
 	$(window).ready(function() {
 
 
-new WOW().init();
-
+ 
   //hide applications block in static and dynamic avtivity page
   if( $( ".promotional-hide-label" ).is( ":visible" ) ) {
     $('.detail-product-applications-wrap').show();
@@ -127,6 +126,10 @@ new WOW().init();
   /*---------------js added for impact graph description for adding class------------*/
   $(".economic-inner-content .field-name-field-graph-description p").addClass("animate fadeInUp");
 
+  /*-------------------js added for timline page--------------------------*/
+  $ ('.item-list.simple_timeline li:even').addClass('wow fadeInLeft');
+  $ ('.item-list.simple_timeline li:odd').addClass('wow fadeInRight');
+  
   /*------------js for typewriter effect to media caption & impact graph desc.------------*/
  
   function splitwords(splitclass, divclass) {
@@ -160,6 +163,7 @@ new WOW().init();
 
 $(window).load(function() {
 
+ new WOW().init();
 
   //js for hiding case study//
   var chk_pdf =  jQuery(".case-study .views-field-field-case-study-upload-pdf .field-content").text();

@@ -1306,9 +1306,31 @@
 		    		outline: none;
 			    }
 			  }
+			  .fadeInUp {
+					-webkit-animation-delay: 0.9s;
+			 		-moz-animation-delay: 0.9s;
+					animation-delay: 0.9s;
+					-webkit-animation-duration: 2s;
+			  	animation-duration: 2s;
+				}
 		  }
 		}
   }
+  
+	.fadeInUp {
+		-webkit-animation-delay: 0.3s;
+ 		-moz-animation-delay: 0.3s;
+		animation-delay: 0.3s;
+		-webkit-animation-duration: 2s;
+  	animation-duration: 2s;
+	}
+	.fadeInDown {
+		-webkit-animation-delay: 0.3s;
+ 		-moz-animation-delay: 0.3s;
+		animation-delay: 0.3s;
+		-webkit-animation-duration: 2s;
+  	animation-duration: 2s;
+	}
 }
 /*css ends for impact-overview-page*/
 
@@ -1330,6 +1352,13 @@
   text-align: center;
   padding-top: 10px;
   line-height: 1.2em;
+}
+.page-node-36 {
+	.economic-inner-content {
+		.field-name-field-graph-description {
+			padding-top: 35px;
+		}
+	}
 }
 
 .economic-inner-content {
@@ -1390,6 +1419,13 @@
     	color: #6a6a6a;
     	line-height: 1.2em;
     	text-align: center;
+    	&.fadeInUp {
+			  -webkit-animation-name: fadeInUp;
+			  animation-name: fadeInUp;
+			  -webkit-animation-delay: 1.5s;
+			  -moz-animation-delay: 1.5s;
+			  animation-delay: 1.5s;
+			}
     }
   }
   .field-name-field-graph-body {
@@ -3176,6 +3212,22 @@ article#node-68 {
   width: 100%;
   margin: 0 auto;
   padding: 50px 40px;
+  .fadeInLeft {
+  	-webkit-animation-delay: 1.0s;
+		-moz-animation-delay: 1.0s;
+		animation-delay: 1.0s;
+		-webkit-animation-duration: 2s;
+  	animation-duration: 2s;
+  	-moz-duration: 2s;
+  }
+  .fadeInRight {
+  	-webkit-animation-delay: 1.3s;
+		-moz-animation-delay: 1.3s;
+		animation-delay: 1.3s;
+		-webkit-animation-duration: 2s;
+  	animation-duration: 2s;
+  	-moz-duration: 2s;
+  }
 }
 .timeline-content {
 	width: 100%;
@@ -3205,83 +3257,6 @@ article#node-68 {
   font-size: 25px;
   color: #43bfef;
   font-weight: bold;
- 
-  &:hover {
-  	-webkit-animation: swing 1s ease;
-  	-moz-transition: swing 1s ease;
-    -ms-transition: swing 1s ease;
-    animation: swing 1s ease;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    -moz-transition: 1;
-    -ms-transition: 1;
-  }
-}
-
-@-webkit-keyframes swing {
-  15%
-  {
-    -webkit-transform: translateX(5px);
-    transform: translateX(5px);
-  }
-  30%
-  {
-   -webkit-transform: translateX(-5px);
-   transform: translateX(-5px);
-  } 
-  50%
-  {
-    -webkit-transform: translateX(3px);
-    transform: translateX(3px);
-  }
-  65%
-  {
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-  }
-  80%
-  {
-    -webkit-transform: translateX(2px);
-    transform: translateX(2px);
-  }
-  100%
-  {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-
-@keyframes swing {
-  15%
-  {
-    -webkit-transform: translateX(5px);
-    transform: translateX(5px);
-  }
-  30%
-  {
-    -webkit-transform: translateX(-5px);
-    transform: translateX(-5px);
-  }
-  50%
-  {
-    -webkit-transform: translateX(3px);
-    transform: translateX(3px);
-  }
-  65%
-  {
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-  }
-  80%
-  {
-    -webkit-transform: translateX(2px);
-    transform: translateX(2px);
-  }
-  100%
-  {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
 }
 .timeline-text {
   margin-top: 20px;
