@@ -7,7 +7,6 @@ dependencies[] = block
 dependencies[] = blockqueue
 dependencies[] = ctools
 dependencies[] = fe_block
-dependencies[] = features_extra
 dependencies[] = views
 features[blockqueue][] = idei_capability_statement
 features[ctools][] = blockqueue:default_blockqueues:1
