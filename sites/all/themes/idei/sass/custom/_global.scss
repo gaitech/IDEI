@@ -65,17 +65,10 @@ a, p, h2 {
 
 /*---------animations----------*/
 .animate {
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-}
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-  -webkit-animation-delay: 1.7s;
-  -moz-animation-delay: 1.7s;
-  animation-delay: 1.7s;
 }
 
 @-webkit-keyframes fadeInUp {
@@ -104,4 +97,3 @@ a, p, h2 {
     transform: none;
   }
 }
- 
