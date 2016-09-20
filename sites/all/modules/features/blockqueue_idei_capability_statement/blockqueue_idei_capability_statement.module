@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Blockqueue - idei capability statement feature.
+ */
+
+include_once 'blockqueue_idei_capability_statement.features.inc';
