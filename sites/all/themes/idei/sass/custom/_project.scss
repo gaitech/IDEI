@@ -944,6 +944,42 @@
     		// 		width: 46%;
     		// 	}
     		// }
+    		&:nth-child(1) {
+    			&.fadeIn {
+						-webkit-animation-delay: 0.2s;
+				 		-moz-animation-delay: 0.2s;
+						animation-delay: 0.2s;
+						-webkit-animation-duration: 2s;
+				  	animation-duration: 2s;
+					}
+    		}
+    		&:nth-child(2) {
+    			&.fadeIn {
+						-webkit-animation-delay: 0.6s;
+				 		-moz-animation-delay: 0.6s;
+						animation-delay: 0.6s;
+						-webkit-animation-duration: 2s;
+				  	animation-duration: 2s;
+					}
+    		}
+    		&:nth-child(3) {
+    			&.fadeIn {
+						-webkit-animation-delay: 1.0s;
+				 		-moz-animation-delay: 1.0s;
+						animation-delay: 1.0s;
+						-webkit-animation-duration: 2s;
+				  	animation-duration: 2s;
+					}
+    		}
+    		&:nth-child(4) {
+    			&.fadeIn {
+						-webkit-animation-delay: 1.4s;
+				 		-moz-animation-delay: 1.4s;
+						animation-delay: 1.4s;
+						-webkit-animation-duration: 2s;
+				  	animation-duration: 2s;
+					}
+    		}
     	}
     }
   }
@@ -1103,17 +1139,52 @@
     		.views-row {
     			float: left;
     			padding-right: 2.2%;
+    			.fadeIn {
+    				-webkit-animation-delay: 0.2s;
+				 		-moz-animation-delay: 0.2s;
+						animation-delay: 0.2s;
+						-webkit-animation-duration: 2s;
+				  	animation-duration: 2s;
+    			}
     			&:nth-child(2) {
     				margin-top: 9px;
+    				.fadeIn {
+    					-webkit-animation-delay: 0.6s;
+					 		-moz-animation-delay: 0.6s;
+							animation-delay: 0.6s;
+							-webkit-animation-duration: 2s;
+					  	animation-duration: 2s;
+    				}
     			}
     			&:nth-child(3) {
     				margin-top: 19px;
+    				.fadeIn {
+    					-webkit-animation-delay: 1.0s;
+					 		-moz-animation-delay: 1.0s;
+							animation-delay: 1.0s;
+							-webkit-animation-duration: 2s;
+					  	animation-duration: 2s;
+    				}
     			}
     			&:nth-child(4) {
     				margin-top: -4px;
+    				.fadeIn {
+    					-webkit-animation-delay: 1.4s;
+					 		-moz-animation-delay: 1.4s;
+							animation-delay: 1.4s;
+							-webkit-animation-duration: 2s;
+					  	animation-duration: 2s;
+    				}
     			}
     			&:nth-child(5) {
     				margin-top: 11px;
+    				.fadeIn {
+    					-webkit-animation-delay: 1.8s;
+					 		-moz-animation-delay: 1.8s;
+							animation-delay: 1.8s;
+							-webkit-animation-duration: 2s;
+					  	animation-duration: 2s;
+    				}
     			}
     		}
     	}
@@ -3521,12 +3592,14 @@ article#node-68 {
 }
 /*------------------------css ends for search result page---------------------------*/
 
+/*------------------css for new-page of-idei-capability-statement-------------*/
 .view-idei-capability-statement-banner {
 	img {
 		width: 100%;
 	}
 }
 #block-blockqueue-idei-capability-statement {
+	padding-bottom: 15px;
 	h2 {
 		max-width: 1200px;
     width: 100%;
@@ -3596,6 +3669,24 @@ article#node-68 {
   }
   table {
   	width: 100%;
+  	.table-head {
+	  	background: #5082bd;
+	    color: #fff;
+	    td {
+	    	padding: 10px;
+	    }
+	  }
+	  .table-body {
+	  	td {
+	  		padding: 10px;
+	  	}
+	  }
+	  tr.table-body:nth-child(odd) {
+	  	background-color: #d1d7e7;
+	  }
+	  tr.table-body:nth-child(even) {
+	  	background-color: #e9edf8;
+	  }
   	td {
   		border: 1px solid #6a6a6a;
   		p {
@@ -3604,3 +3695,110 @@ article#node-68 {
   	}
   }
 }
+.capability-main-wrapper {
+	position: relative;
+	.capability-main-image {
+		img {
+			width: 100%;
+		}
+	}
+}
+.capability-title-wrapper {
+	position: absolute;
+  top: 0;
+  width: 50%;
+  background: rgba(0,0,0,.5);
+  height: 100%;
+  color: #fff;
+}
+.capability-first-title {
+  width: 26%;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.1em;
+  text-align: center;
+  font-family: 	OpenSans;
+}
+.capability-description {
+  right: 0;
+  width: 33%;
+  position: absolute;
+  height: 100%;
+  background: rgba(0,0,0,.6);
+  padding: 12px;
+  font-size: 15px;
+  p {
+  	top: 20%;
+    position: absolute;
+  }
+}
+.capability-banner-section {
+    padding-bottom: 40px;
+}
+.accordion-block {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0 40px 40px;
+  .ui-state-default {
+  	border: none;
+  	background-color: rgb(245,245,245);
+  	font-size: 16px;
+  	color: #43bfef;
+  	font-family: OpenSans;
+  	background-image: none;
+  	line-height: 1.5em;
+  	border-radius: none;
+  	padding-left: 1.3em;
+  	a {
+  		color: #27579c;
+  	}
+  	.ui-accordion-header-icon {
+  		display: none;
+  	}
+  	&:before {
+  		content: "";
+  		width: 0;
+	    height: 0;
+	    border-left: 6px solid transparent;
+	    border-right: 6px solid transparent;
+	    border-top: 11px solid #27579c;
+	    float: right;
+	    margin-right: 15px;
+	    margin-top: 6px;
+  	}
+  }
+  .ui-accordion-header-active {
+  	background-color: #27579c;
+  	border-bottom-left-radius: 4px;
+  	border-bottom-right-radius: 4px;
+  	a {
+  		color: #fff;
+  	}
+  	.ui-accordion-header-icon {
+  		display: none;
+  	}
+  	&:before {
+  		content: "";
+	  	width: 0; 
+	  	height: 0; 
+	  	border-left: 6px solid transparent;
+	  	border-right: 6px solid transparent;
+	  	border-bottom: 11px solid #fff;
+	  	float: right;
+	    margin-right: 15px;
+	    margin-top: -4px;
+	  }
+  }
+  .ui-widget-content {
+  	border: none;
+  	font-size: 16px;
+    line-height: 1.5em;
+    color: #6a6a6a;
+    padding-left: 1.3em;
+  }
+}
+/*------------------css ends for new-page of-idei-capability-statement-------------*/
