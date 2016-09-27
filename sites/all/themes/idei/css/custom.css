@@ -4908,6 +4908,278 @@ article#node-68 h2 a {
 }
 
 /*------------------css ends for new-page of-idei-capability-statement-------------*/
+/*----------------------------css for water red flags---------------------------*/
+/* line 3886, ../sass/custom/_project.scss */
+.view-water-pages- {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 50px 40px 20px;
+}
+/* line 3891, ../sass/custom/_project.scss */
+.view-water-pages- .views-row {
+  padding-bottom: 40px;
+  display: inline-block;
+  width: 100%;
+}
+/* line 3896, ../sass/custom/_project.scss */
+.view-water-pages- .views-row.views-row-1 .views-field-field-water-description- {
+  display: inline-block;
+  width: 55%;
+  font-size: 25px;
+  color: #27579c;
+  font-family: OpenSans;
+  line-height: 1.5em;
+  margin-top: -8px;
+  font-style: italic;
+  font-weight: bold;
+}
+/* line 3910, ../sass/custom/_project.scss */
+.view-water-pages- .views-row.views-row-2 .views-field-field-water-description- p:nth-child(1) {
+  color: #27579c;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+/* line 3917, ../sass/custom/_project.scss */
+.view-water-pages- .views-row.views-row-2 .views-field-field-water-description- p:nth-child(2) {
+  font-size: 18px;
+  color: #27579c;
+  font-weight: bold;
+}
+/* line 3923, ../sass/custom/_project.scss */
+.view-water-pages- .views-row.views-row-2 .views-field-field-water-content-image {
+  display: none;
+}
+/* line 3928, ../sass/custom/_project.scss */
+.view-water-pages- .views-row.views-row-3 .views-field-field-water-content-image, .view-water-pages- .views-row.views-row-7 .views-field-field-water-content-image, .view-water-pages- .views-row.views-row-8 .views-field-field-water-content-image, .view-water-pages- .views-row.views-row-11 .views-field-field-water-content-image {
+  display: none;
+}
+/* line 3934, ../sass/custom/_project.scss */
+.view-water-pages- .views-row.views-row-4 .views-field-field-water-description- p:nth-child(1), .view-water-pages- .views-row.views-row-7 .views-field-field-water-description- p:nth-child(1), .view-water-pages- .views-row.views-row-10 .views-field-field-water-description- p:nth-child(1) {
+  font-size: 20px;
+  color: #27579c;
+  font-weight: bold;
+}
+/* line 3943, ../sass/custom/_project.scss */
+.view-water-pages- .views-row.views-row-5 .views-field-field-water-description- p:nth-child(3) {
+  font-size: 20px;
+  color: #27579c;
+  font-weight: bold;
+  padding-top: 25px;
+}
+/* line 3953, ../sass/custom/_project.scss */
+.view-water-pages- .views-row.views-row-6 .views-field-field-water-description- p:nth-child(2) {
+  font-size: 20px;
+  color: #27579c;
+  font-weight: bold;
+  padding-top: 25px;
+}
+/* line 3962, ../sass/custom/_project.scss */
+.view-water-pages- .views-row.views-row-8 .views-field-field-page-video-link {
+  display: none;
+}
+/* line 3967, ../sass/custom/_project.scss */
+.view-water-pages- .views-field-field-page-video-link {
+  width: 45%;
+  float: left;
+  position: relative;
+}
+/* line 3971, ../sass/custom/_project.scss */
+.view-water-pages- .views-field-field-page-video-link a {
+  display: inline-block;
+}
+/* line 3973, ../sass/custom/_project.scss */
+.view-water-pages- .views-field-field-page-video-link a:before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/youicon.png");
+  height: 100%;
+  width: 100%;
+  background-position: 50% 45%;
+  background-repeat: no-repeat;
+  z-index: 1;
+  left: 0;
+}
+/* line 3986, ../sass/custom/_project.scss */
+.view-water-pages- .views-field-field-water-content-image {
+  display: inline-block;
+  padding-top: 30px;
+  width: 100%;
+}
+/* line 3990, ../sass/custom/_project.scss */
+.view-water-pages- .views-field-field-water-content-image img {
+  width: 100%;
+}
+/* line 3994, ../sass/custom/_project.scss */
+.view-water-pages- .views-field.views-field-field-water-description- {
+  font-size: 16px;
+  color: #6a6a6a;
+  line-height: 1.5em;
+}
+/* line 3999, ../sass/custom/_project.scss */
+.view-water-pages- .views-field.views-field-field-water-description- p a {
+  color: #27579c;
+}
+/* line 4001, ../sass/custom/_project.scss */
+.view-water-pages- .views-field.views-field-field-water-description- p a:hover {
+  color: #27579c;
+}
+/* line 4007, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-sections {
+  width: 100%;
+  display: block;
+  position: relative;
+  padding-top: 30px;
+}
+/* line 4013, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-title {
+  position: absolute;
+  left: 8%;
+  top: 54%;
+  height: 14px;
+  transform: rotate(-90deg);
+  float: left;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-family: OpenSans;
+  font-weight: bold;
+}
+/* line 4024, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-title:before {
+  content: "";
+  width: 240px;
+  height: 50px;
+  background: url("../images/black-left-right-symbol-arrow-cartoon-shapes.png") no-repeat scroll;
+  position: absolute;
+  display: inline-block;
+  background-position: 86% 0%;
+  background-size: 30px;
+}
+/* line 4035, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-wrapper {
+  width: 100%;
+  display: block;
+  font-size: 12px;
+  font-family: sans-serif;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding-left: 2px;
+  font-style: italic;
+  max-width: 710px;
+}
+/* line 4047, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-wrapper img {
+  width: 100%;
+  border-radius: 50%;
+}
+/* line 4051, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-wrapper span {
+  padding-left: 16px;
+  margin-left: 2%;
+}
+/* line 4056, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_1 {
+  width: 100%;
+  float: left;
+  margin-top: 168px;
+  text-align: center;
+  max-width: 49px;
+}
+/* line 4062, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_1 .img_1 {
+  width: 60px;
+  height: 60px;
+}
+/* line 4067, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_2 {
+  width: 100%;
+  float: left;
+  margin-top: 148px;
+  text-align: center;
+  max-width: 69px;
+}
+/* line 4073, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_2 .img_2 {
+  width: 80px;
+  height: 80px;
+}
+/* line 4078, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_3 {
+  width: 100%;
+  float: left;
+  margin-top: 128px;
+  text-align: center;
+  max-width: 86px;
+}
+/* line 4084, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_3 .img_3 {
+  width: 100px;
+  height: 100px;
+}
+/* line 4089, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_4 {
+  width: 100%;
+  float: left;
+  margin-top: 89px;
+  text-align: center;
+  max-width: 115px;
+}
+/* line 4095, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_4 .img_4 {
+  width: 140px;
+  height: 140px;
+}
+/* line 4100, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_5 {
+  width: 100%;
+  float: left;
+  margin-top: 49px;
+  text-align: center;
+  max-width: 153px;
+}
+/* line 4106, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_5 .img_5 {
+  width: 180px;
+  height: 180px;
+}
+/* line 4111, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_6 {
+  width: 18%;
+  display: inline-block;
+  padding-top: 3px;
+  margin-top: 0%;
+  text-align: center;
+}
+/* line 4117, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-section_6 .img_6 {
+  width: 220px;
+  height: 220px;
+}
+/* line 4122, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-arrow {
+  width: 2.5%;
+  height: 1px;
+  margin-left: 49%;
+  margin-top: 1%;
+}
+/* line 4127, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-arrow img {
+  width: 100%;
+}
+/* line 4131, ../sass/custom/_project.scss */
+.view-water-pages- .red-globe-arrow_1 {
+  margin-left: 44%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6a6a6a;
+  font-family: OpenSans;
+}
+
+/*----------------------------css ends for water red flags---------------------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {
