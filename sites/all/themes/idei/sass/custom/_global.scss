@@ -52,6 +52,8 @@ a, p, h2 {
     background: url(../images/back-to-top.png) no-repeat center center !important;
     height: 60px !important;
     width: 60px !important;
+    box-shadow: 0px 0px 8px #ccc;
+    border-radius: 100%;
 }
 
 /*css for cross image over pop-up images*/
