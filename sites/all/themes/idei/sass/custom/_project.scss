@@ -57,6 +57,9 @@
 			width: 100%;
 			top: 2.5px;
 			position: relative;
+			.liScroll-container {
+				width: 100%;
+			}
 			.views-liScroll-item {
 				border-left: 1px solid #31343e;
 			  padding-left: 8px;
@@ -2875,6 +2878,23 @@ article#node-68 {
 					float: none;
 					margin: 0;
 					position: static;
+					&:hover {
+	    			.views-field-name {
+							transform: none;
+	    			}
+		    		&:before {
+		    			background: transparent;
+		    		}
+	    		}
+		    	&:before {
+				    position: static;
+				    top: 0;
+				    right: 0;
+				    bottom: 0;
+				    left: 0;
+				    background: transparent;
+				    transition: none;
+		    	}
 				}
 			}
 		}
@@ -2889,15 +2909,44 @@ article#node-68 {
 	    	margin-left: 3%;
 	    	position: relative;
 	    	margin-bottom: 3%;
+	    	overflow: hidden;
+	    	&:hover {
+	    		.views-field-name {
+							transform: translateY(0);
+	    		}
+	    		&:before {
+	    			background: rgba(0, 0, 0, .5);
+	    		}
+	    	}
+	    	&:before {
+	    		content: ' ';
+			    position: absolute;
+			    top: 0;
+			    right: 3px;
+			    bottom: 0;
+			    left: 0;
+			    background: transparent;
+			    transition: background .35s ease-out;
+	    	}
 	    }
 	    .views-field-name {
 	      position: absolute;
-	      top: 45%;
+	      top: 40%;
 	      text-align: center;
 	      width: 100%;
 	      font-size: 30px;
 	      font-family: OpenSans;
-	      line-height: 1.2em;
+	      line-height: 1em;
+		    right: 0;
+		    bottom: 0;
+		    left: 0;
+		    padding: 10px;
+		    color: white;
+		    transform: translateY(100%);
+		    transition: transform .35s ease-out;
+		    a {
+		    	color: #fff;
+		    }
 	    }
 		}
 		.view-footer {
@@ -2926,7 +2975,10 @@ article#node-68 {
 			    margin-bottom: 5%;
 	    	}
 	    	.views-field-name {
-	    		top: 40%;
+	    		top: 35%;
+	    		a {
+	    			color: #fff;
+	    		}
 	    	}
 	    	.views-field-field-promotional-feature-video {
 	    		a {
@@ -2954,12 +3006,31 @@ article#node-68 {
 	    		margin-left: 3%;
 	    		position: relative;
 	    		margin-bottom: 3%;
+	    		&:hover {
+		    		.views-field-name {
+								transform: none;
+		    		}
+		    		&:before {
+		    			background: transparent;
+		    		}
+	    		}
+		    	&:before {
+				    position: static;
+				    top: 0;
+				    right: 3px;
+				    bottom: 0;
+				    left: 0;
+				    background: transparent;
+				    transition: none;
+		    	}
 	    	}
 	    	.views-field-name {
 	    		position: static;
 	    		color: #27579c;
 	    		padding-bottom: 10px;
-	    		text-transform: uppercase
+	    		text-transform: uppercase;
+			    transform: none;
+			    transition: none;
 	    	}
 	    }
 		}
@@ -2968,6 +3039,11 @@ article#node-68 {
 		}
 		&.view-display-id-block_6 {
 			padding-bottom: 21px;
+			.view-content {
+	    	.views-field-name {
+	    		top: 30%;
+	    	}
+	    }
 		}
 	}
 }
@@ -3024,6 +3100,8 @@ article#node-68 {
 				  position: relative;
 				  -webkit-transition: all 0.4s ease-in;
 				  transition: all 0.4s ease-in;
+				  height: 146px;
+				  width: 220px;
 		    }
   		}
     }
