@@ -150,7 +150,7 @@
       var $firstItem = data.itemsContainer.find('img:first');
 
       data.calculations[0] = {
-        distance: 0,
+        distance: 10,
         offset:   0,
         opacity:  1
       }

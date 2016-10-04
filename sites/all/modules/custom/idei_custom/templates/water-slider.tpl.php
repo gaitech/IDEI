@@ -90,7 +90,7 @@ print '<div id="carousel" class="3d-check">';
     ->fetchAll();
     foreach ($result as $key => $value) {
     $image =  $result[$key]->uri;
-    $body_style = 'program_image_410___320_';
+    $body_style = 'three_d_gallery';
     $body_image_path = image_style_url($body_style,$image);
     print '<a href="#" class="3d-item-'.$key.'"><img src="'.$body_image_path.'" id="item-'.$key.'" /></a>';
     }
