@@ -30,13 +30,13 @@
   	li{
   		margin-bottom: 5px;
   		 a {
-  	  	color: #71716C;
+  	  	color: $light-grey;
   	  	font-family: OpenSans;
   	  	font-size: 15px;
   	  	padding: 0 !important;
   	  	font-weight: bold;
         &:hover {
-          color: #43bfef;
+          color: $light-blue;
         }
   		}
   	}
@@ -64,12 +64,12 @@
           list-style: none;
           font-family: OpenSans;
           a {
-            color: #71716C;
+            color: $light-grey;
             font-weight: bold;
             font-family: OpenSans;
             font-size: 15px;
             &:hover {
-              color: #43bfef;
+              color: $light-blue;
             }
           }
  					&:nth-of-type(1){
@@ -118,10 +118,10 @@
 				font-size: 14px;
 				margin-bottom: 5px;
 				font-family: OpenSans;
-				color:#71716C;
+				color:$light-grey;
 				font-weight: bold;
         &:hover {
-          color: #43bfef;
+          color: $light-blue;
         }
 			}
 		}
@@ -145,12 +145,12 @@
 }
 .copyright {
   clear: both;
-  border-top: 1px solid  #71716C;
+  border-top: 1px solid  $light-grey;
   width: 90.3%;
   padding-top: 8px;
   p {
   	&:nth-of-type(1) {
-  		color: #43bfef;
+  		color: $light-blue;
   		width: 62%;
   		font-family: OpenSans;
   		font-size: 13px;

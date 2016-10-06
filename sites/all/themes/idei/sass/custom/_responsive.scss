@@ -56,7 +56,7 @@
 			.navbar-collapse.collapse {
 		    position: absolute;
 		    right: auto;
-		    background: #27579c url('../images/logo.png') no-repeat scroll center right 15px;
+		    background: $dark-blue url('../images/logo.png') no-repeat scroll center right 15px;
 		    box-shadow: 0 4px 11px #ccc;
 		    width: 100%;
 		    // display: inline-block;
@@ -262,7 +262,7 @@
 			    		display: inline-block;
   						margin-right: 3%;
   						&:last-child {
-  							border-bottom: 2px solid #43BFEF;
+  							border-bottom: 2px solid $light-blue;
   							margin-right: 0;
   						}
   						a {
@@ -857,10 +857,10 @@
 		}
 	}
 	.resp-arrow {
-		border-top: 12px solid #43bfef;
+		border-top: 12px solid $light-blue;
 	}
 	h2.resp-tab-active {
-		background-color: #43bfef !important;
+		background-color: $light-blue !important;
 		color: #fff;
 		span.resp-arrow {
 			border-bottom: 12px solid #fff;
@@ -1034,7 +1034,7 @@
 				}
 				.address-wrap {
 					text-align: center;
-					border-bottom: 3px solid #27579c;
+					border-bottom: 3px solid $dark-blue;
 		    	&:first-of-type {
 		    		padding-bottom: 40px;
 		    	}
