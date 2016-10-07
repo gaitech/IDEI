@@ -33,6 +33,10 @@ function idei_custom_block_info() {
   $blocks['flip_slider'] = array(
     'info' => t('Water section flip slider'),
   );
+  $blocks['thumb_slider'] = array(
+    'info' => t('Water Thumbnail Slider'),
+  );
+
 
 
   return $blocks;
@@ -73,12 +77,22 @@ function idei_custom_block_view($delta = '') {
       $block['subject'] = '';
       $block['content'] = flip_slider();
       break;
-
+    case 'thumb_slider':
+      $block['subject'] = '';
+      $block['content'] = thumb_sliders();
+      break;
   }
+
   
 
 
   return $block;
+}
+/*
+* Thumb slider for water Introduction
+*/
+function thumb_sliders(){
+  return theme('water_thumb_slider');
 }
 /*
 *3D Flip SLider 
@@ -141,10 +155,9 @@ function idei_custom_theme(){
     'water_flip_slider' => array(
      'template' =>'templates/water-flip-slider',
     ),
-    
-
-    
-
+    'water_thumb_slider' => array(
+     'template' =>'templates/water-thumb-slider',
+    ),     
     
   );
   return $templates;
