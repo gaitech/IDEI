@@ -30,6 +30,9 @@ function idei_custom_block_info() {
   $blocks['archive_paralax'] = array(
     'info' => t('Archive paralax menu block'),
   );
+  $blocks['flip_slider'] = array(
+    'info' => t('Water section flip slider'),
+  );
 
 
   return $blocks;
@@ -66,10 +69,24 @@ function idei_custom_block_view($delta = '') {
       $block['subject'] = '';
       $block['content'] = archive_paralax();
       break;
+    case 'flip_slider':
+      $block['subject'] = '';
+      $block['content'] = flip_slider();
+      break;
+
   }
+  
+
 
   return $block;
 }
+/*
+*3D Flip SLider 
+*/
+function flip_slider(){
+return theme('water_flip_slider');
+}
+
 // archive_paralax
 function archive_paralax(){
   return theme('archive_paralax');
@@ -121,6 +138,11 @@ function idei_custom_theme(){
     'archive_paralax' => array(
      'template' =>'templates/archive-paralax-menu',
     ),
+    'water_flip_slider' => array(
+     'template' =>'templates/water-flip-slider',
+    ),
+    
+
     
 
     
