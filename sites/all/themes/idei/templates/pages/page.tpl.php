@@ -157,11 +157,21 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
+      
+
+ 
     </section>
 
 
   </div>
 </div>
+
+
 <footer class="footer container">
   <?php print render($page['footer']); ?>
+
+        <?php if (!empty($page['water_slider'])): ?>
+        <?php print render($page['water_slider']); ?>
+      <?php endif; ?>
+      
 </footer>

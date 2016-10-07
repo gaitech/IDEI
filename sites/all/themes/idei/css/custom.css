@@ -33,11 +33,7 @@ a, p, h2 {
   font-family: OpenSans;
   text-decoration: none !important;
 }
-/* line 32, ../sass/custom/_global.scss */
-a:focus, p:focus, h2:focus {
-  outline: none !important;
-  background: transparent !important;
-}
+
 
 /* line 38, ../sass/custom/_global.scss */
 .main-container {
