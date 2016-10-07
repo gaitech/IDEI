@@ -73,7 +73,8 @@
   max-width: 1000px;
   z-index: 10;
   position: relative;
-  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;  
+  overflow: hidden;
 }
 
 .cbImage {
@@ -122,6 +123,9 @@
   -O-transition: all .5s ease-out;
   transition: all .5s ease-out;
 }
+.clear{
+  clear:both;
+}
 
 .intro { color: #fff; }
 </style>
@@ -129,6 +133,7 @@
   <div class="controls">
     <div class="cbcontrol" id="cbControlRight"><</div>
     <div class="cbcontrol" id="cbControlLeft">></div>
+    <div class="clear"></div>
   </div>
 
 <?php
@@ -141,16 +146,22 @@ print '<div class="stage">';
     ->fields('t', array('entity_id'))
     ->execute()
     ->fetchAll();
+
+$count = explode(".", count($result)/2);
+$item_no = $count[0];
+
     foreach ($result as $key => $value) {
     $image =  $result[$key]->uri;
     $body_style = 'three_d_gallery';
     $body_image_path = image_style_url($body_style,$image);
-    print '<div class="cbImage"><img src="'.$body_image_path.'" id="item-'.$key.'" /></div>';
+    if($item_no == $key){
+      print '<div class="cbImage active"><img src="'.$body_image_path.'" /></div>';
+    } else {
+      print '<div class="cbImage"><img src="'.$body_image_path.'" /></div>';
+    }
     }
 
-
-    
-    print '</div>';
+    print '</div><div class="clear"></div>';
     // print '<div class="3d-content-wrap water-intro-content-wrap">';
     // foreach ($result as $key => $value) {
     // $nid1 = $result[$key]->entity_id;
@@ -165,6 +176,7 @@ print '<div class="stage">';
     // print "</div>";
  ?>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+ 
  <?php global $base_url; 
  print '<script src="'.$base_url.'/sites/all/modules/custom/idei_custom/js/coverflow-slideshow.js"></script>';?>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
