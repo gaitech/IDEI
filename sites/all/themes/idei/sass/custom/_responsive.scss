@@ -56,7 +56,7 @@
 			.navbar-collapse.collapse {
 		    position: absolute;
 		    right: auto;
-		    background: #27579c url('../images/logo.png') no-repeat scroll center right 15px;
+		    background: $dark-blue url('../images/logo.png') no-repeat scroll center right 15px;
 		    box-shadow: 0 4px 11px #ccc;
 		    width: 100%;
 		    // display: inline-block;
@@ -262,7 +262,7 @@
 			    		display: inline-block;
   						margin-right: 3%;
   						&:last-child {
-  							border-bottom: 2px solid #43BFEF;
+  							border-bottom: 2px solid $light-blue;
   							margin-right: 0;
   						}
   						a {
@@ -857,10 +857,10 @@
 		}
 	}
 	.resp-arrow {
-		border-top: 12px solid #43bfef;
+		border-top: 12px solid $light-blue;
 	}
 	h2.resp-tab-active {
-		background-color: #43bfef !important;
+		background-color: $light-blue !important;
 		color: #fff;
 		span.resp-arrow {
 			border-bottom: 12px solid #fff;
@@ -1023,41 +1023,259 @@
 
 	/*-----------------------css ends for about-page------------------------------------*/
 
-	/*-------------------------css for contact-us-page-----------------------------*/
+	/*---------------------------css for engage section-----------------------------*/
 
-	.view-contact-us-page {
-		.view-footer {
-			padding-left: 10px;
-			padding-right: 10px;
-		}
-		.address-wrap {
-			text-align: center;
-			border-bottom: 3px solid #27579c;
-    	&:first-of-type {
-    		padding-bottom: 40px;
-    	}
-    	&:last-of-type {
-    		border-bottom: none;
-    	}
-		}
-		.address-block, .map-block {
-			width: 100%;
-		}
-		.delhi-address {
-			padding-bottom: 30px;
-			p {
-				font-size: 14px;
-				&:first-of-type {
-					font-size: 25px;
+		/*-------------------------css for contact-us-page-----------------------------*/
+
+			.view-contact-us-page {
+				.view-footer {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+				.address-wrap {
+					text-align: center;
+					border-bottom: 3px solid $dark-blue;
+		    	&:first-of-type {
+		    		padding-bottom: 40px;
+		    	}
+		    	&:last-of-type {
+		    		border-bottom: none;
+		    	}
+				}
+				.address-block, .map-block {
+					width: 100%;
+				}
+				.delhi-address {
+					padding-bottom: 30px;
+					p {
+						font-size: 14px;
+						&:first-of-type {
+							font-size: 25px;
+						}
+					}
+					&.odisha-address {
+						padding-left: 0;
+						padding-top: 30px;
+					}
 				}
 			}
-			&.odisha-address {
-				padding-left: 0;
-				padding-top: 30px;
+		/*-----------------------css ends for contact-us-page-----------------------------*/
+		/*---------------------------css for volunteers-page-----------------------------*/
+			.page-volunteers {
+				.view-volunteers-page {
+					.view-header {
+						p {
+							font-size: 14px;
+							width: 90%;
+						}
+					}
+				}
 			}
+			.view-volunteers-page {
+				.view-content {
+					padding: 0;
+				}
+			}
+		/*--------------------------css ends for volunteers-page--------------------------*/
+
+	/*---------------------------css ends for engage section-----------------------------*/
+
+	/*----------------------css for awards-timeline-page----------------------------*/
+	.timeline-date {
+		font-size: 14px;
+	}
+	.timeline-text {
+		margin-top: 10px;
+		font-size: 15px !important;
+		p, a {
+			font-size: 13px;
+		}
+		a.visit-story {
+			font-size: 14px;
 		}
 	}
-	/*-----------------------css ends for contact-us-page-----------------------------*/
+	/*----------------------css ends for awards-timeline-page------------------------*/
+
+	/*-----------------------css for awards-timeline-node-page--------------------*/
+		.node-type-awards-list {
+			.economic-inner-title, .economic-inner-content {
+				padding: 0 10px;
+			}
+			.jcarousel-skin-tango {
+				.jcarousel-item {
+					width: 300px !important;
+					height: 224px;
+					margin-left: 10px;
+				}
+				.jcarousel-container-horizontal {
+					max-width: 320px;
+				}
+				.jcarousel-next-horizontal {
+					right: 4px;
+				}
+				.jcarousel-clip-horizontal {
+					padding-top: 25px;
+				}
+			}
+			.external-link {
+				font-size: 14px;
+			}
+		}
+	/*-----------------------css ends for awards-timeline-node-page-------------------*/
+
+	/*---------------------------css for partners-section-------------------------*/
+
+		/*------------------------------css for donors-page----------------------*/
+			.page-donors, .page-knowledge-partners, .page-global-networking-platforms {
+				.economic-inner-title.team {
+			    background-position: 50% 100%;
+			    background-size: 35px;
+			    padding-bottom: 50px;
+			  }
+			}
+			.view-donors {
+				.view-header {
+					p {
+						font-size: 14px;
+						width: 90%;
+					}
+				}
+				.view-content {
+					padding-left: 10px;
+					padding-right: 10px;
+					.views-field-title {
+						font-size: 14px;
+					}
+				}
+			}
+		/*------------------------------css ends for donors-page----------------------*/
+		/*---------------------------css for knowledge-partners-page-------------------*/
+			.view-knowledge-partners, .view-global-networking-platforms  {
+				.view-content {
+					padding: 0 10px 23px;
+					.views-field-title {
+						font-size: 14px;
+						word-break: break-all;
+					}
+				}
+			}
+		/*-----------------------css ends for knowledge-partners-page----------------*/
+
+	/*---------------------------css ends for partners-section-------------------------*/
+
+	/*-----------------------------css for pagination-------------------------*/
+		.pagination {
+			li {
+				a {
+					font-size: 14px;
+				}
+				&.active {
+					span {
+						font-size: 16px;
+						padding: 5.2px 12px;
+					}
+				}
+			}
+		}
+	/*---------------------------css ends for pagination-------------------------*/
+	
+	/*---------------------------css for search-page-------------------------*/
+		.page-search {
+			.region-content {
+				h2 {
+					font-size: 25px;
+					padding-top: 15px;
+				}
+			}
+			.form-group {
+				.form-control {
+					font-size: 14px;
+				}
+			}
+			.search-results {
+				font-size: 20px;
+				padding: 15px 40px;
+				.title {
+					font-size: 20px;
+				}
+			}
+			.search-snippet-info {
+				font-size: 14px;
+			}
+		}	
+	/*---------------------------css ends for search-page-------------------------*/	
+
+	/*-------------------------css for archive listing page---------------------*/
+		.main-container {
+			.view-archive- {
+				.view-header {
+					.archive-title {
+						font-size: 25px;
+						padding-top: 20px;
+					}
+				}
+				.view-content {
+					padding-left: 10px;
+					padding-right: 10px;
+					.views-field-name {
+						font-size: 13px;
+					}
+				}
+				&.view-display-id-block_2, &.view-display-id-block_4, &.view-display-id-block_6 {
+					.view-header {
+						font-size: 25px;
+					}
+				}
+				&.view-display-id-block_2, &.view-display-id-block_6 {
+					padding-top: 30px;
+				}
+				&.view-display-id-block_4 {
+					.view-content {
+						.views-field-field-promotional-feature-video {
+							a {
+								&:before {
+									background-size: 40px;
+									background-position: 50% 37%;
+								}
+							}
+						}
+						.views-field-name {
+							font-size: 12px;
+							font-weight: bold;
+						}
+					}
+				}
+				&.view-display-id-block_6 {
+					.view-content {
+						.views-field-name {
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+	/*-------------------------css ends for archive listing page---------------------*/
+
+	/*-------------------------css for archive node page---------------------*/
+		.view-photo-gallery-archive- {
+			.node-title {
+				font-size: 25px;
+			}
+		}
+		.page-documents {
+			.view-photo-gallery-archive- {
+				.view-content {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+				.view-header {
+					.view-content {
+						padding: 0;
+					}
+				}	
+			}
+		}
+	/*-------------------------css ends for archive node page---------------------*/
 }
 
 
@@ -1120,6 +1338,19 @@
 					.views-row {
 						font-size: 10px;
 						padding: 0 4px;
+					}
+				}
+			}
+		}
+		.second-views-menu {
+			.view {
+				.view-content {
+					.views-row {
+						font-size: 10px;
+						padding: 0 4px;
+					}
+					.block-title {
+						font-size: 13px;
 					}
 				}
 			}
@@ -1513,6 +1744,80 @@
 		width: 60%;
 	}
 	/*----------css ends for about-us-board-members node-page------------- */
+
+	/*---------------------css for timline node page---------------------*/
+	.node-type-awards-list {
+		.jcarousel-skin-tango {
+			.jcarousel-item {
+				width: 330px !important;
+				height: 254px;
+			}
+			.jcarousel-next {
+				right: 7px;
+			}
+			.jcarousel-container-horizontal {
+				max-width: 768px;
+			}
+		}
+	}
+	/*---------------------css ends for timline node page---------------------*/
+
+	/*-------------------------css for partners section---------------------*/
+
+		/*-----------------------css for donors-page-----------------------*/
+			.page-donors {
+				.economic-inner-title{
+					&.team {
+						background-position: 78% 100%;
+				    max-width: 768px;
+				    margin: auto;
+					}
+				}
+			}
+		/*-----------------------css ends for donors-page-----------------------*/
+		/*-----------------------css for knowledge-partners-page------------------*/
+			.page-knowledge-partners {
+				.economic-inner-title {
+					&.team {
+						background-position: 84% 100%;
+				    max-width: 768px;
+				    margin: auto;
+					}
+				}
+			}
+		/*-----------------------css ends for knowledge-partners-page------------------*/
+		/*-----------------------css for global-networking-page------------------*/
+		.page-global-networking-platforms {
+			.economic-inner-title {
+				&.team {
+					background-position: 98% 100%;
+					max-width: 768px;
+				  margin: auto;
+				}
+			}
+		}
+		/*-----------------------css ends for global-networking-page------------------*/
+
+	/*-------------------------css ends for partners section---------------------*/
+
+	/*-------------------------css for archive listing page---------------------*/
+		.main-container {
+			.view-archive- {
+				.view-content {
+					.views-field-name {
+						font-size: 22px;
+					}
+				}
+				&.view-display-id-block_4 {
+					.view-content {
+						.views-field-name {
+							font-size: 30px;
+						}
+					}
+				}
+			}
+		}
+		/*-------------------------css ends for archive listing page---------------------*/
 }
 
 
@@ -1599,3 +1904,44 @@
 	}
 }
 /*--------------------------------------------------------------*/
+
+/*-----media query for submenu's of partners pages------------*/
+	@media all and (min-width:320px) and (max-width: 430px) {
+		.page-donors, .page-knowledge-partners, .page-global-networking-platforms {
+			.main-container {
+				padding: 119px 0 0;
+			}
+		}
+	}
+/*--------------------------------------------------------------*/
+
+/*-----media query for submenu's of archive node pages------------*/
+@media all and (min-width:320px) and (max-width: 334px) {
+	.page-gallery {
+		.main-container {
+			padding: 139px 0 0;
+		}
+	}
+}
+@media all and (min-width:320px) and (max-width: 378px) {
+	.page-success-stories {
+		.main-container {
+			padding: 119px 0 0;
+		}
+	}
+}
+@media all and (min-width:320px) and (max-width: 514px) {
+	.page-documents {
+		.main-container {
+			padding: 119px 0 0;
+		}
+	}
+}
+/*--------------------------------------------------------------*/
+
+/*--------------------media query for timline awards page---------------*/
+@media all and (min-width:320px) and (max-width: 349px) {
+	.timeline-date {
+	  font-weight: normal;
+	}
+}

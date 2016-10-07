@@ -19,7 +19,7 @@ $header_image_caption = $node->field_impact_header_image_captio['und'][0]['value
 	</div>
 
   <div class="also-read-wrap">
-    <div class="also-read-title">ALSO READ:</div>
+    <div class="also-read-title wow fadeInDown">ALSO READ:</div>
     <div class="also-content"><?php print views_embed_view('also_read_block','block'); ?></div>
 </div>
 

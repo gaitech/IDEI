@@ -1,6 +1,8 @@
 (function($) {
 	$(window).ready(function() {
 
+
+ 
   //hide applications block in static and dynamic avtivity page
   if( $( ".promotional-hide-label" ).is( ":visible" ) ) {
     $('.detail-product-applications-wrap').show();
@@ -121,11 +123,47 @@
   /*..........js for aaproach submenu................*/
   $(".second-views-menu .block-title").insertBefore(".second-views-menu .view .views-row-1");
 
-  });
+  /*---------------js added for impact graph description for adding class------------*/
+  $(".economic-inner-content .field-name-field-graph-description p").addClass("animate fadeInUp");
+
+  /*-------------------js added for timline page--------------------------*/
+  $ ('.item-list.simple_timeline li:even').addClass('wow fadeInLeft');
+  $ ('.item-list.simple_timeline li:odd').addClass('wow fadeInRight');
+  
+  /*------------js for typewriter effect to media caption & impact graph desc.------------*/
+ 
+  function splitwords(splitclass, divclass) {
+    var text = document.querySelector('.'+splitclass+' .'+divclass).innerHTML;
+    var chars = text.split('');
+    var container = document.querySelector('.'+divclass);
+    var i = 0;
+    container.innerHTML = "";
+    setInterval(function () {
+      if (i < chars.length) {
+        container.innerHTML += chars[i++];
+      } 
+      else {
+        i = 0;
+          container.innerHTML = "";
+      }
+    }, 250);
+  }
+
+  if($('body.page-media-listing').length > 0) {
+    splitwords('page-media-listing', 'haeder-caption');
+  }
+  else if($('body.page-awards-media').length > 0) {
+    splitwords('page-awards-media', 'haeder-caption');
+  }
+  else if($('body.node-type-impact-inner-pages').length > 0) {
+    splitwords('field-name-field-graph-description', 'impact-split');
+  }
+});
 
 
 $(window).load(function() {
 
+ new WOW().init();
 
   //js for hiding case study//
   var chk_pdf =  jQuery(".case-study .views-field-field-case-study-upload-pdf .field-content").text();
