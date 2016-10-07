@@ -74,6 +74,7 @@
     position:absolute;
     font-size:0;
     cursor:inherit;
+    box-shadow:0 0 10px #ccc;
     -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(255,255,255,0.4)));
     transition:all linear 0.4s;
 }

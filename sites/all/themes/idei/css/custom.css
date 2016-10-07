@@ -34,7 +34,9 @@ a, p, h2 {
   text-decoration: none !important;
 }
 
-
+a:focus,a:hover{
+  outline:none !important;
+}
 /* line 38, ../sass/custom/_global.scss */
 .main-container {
   background: #fff none repeat scroll 0 0;
