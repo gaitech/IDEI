@@ -38,6 +38,9 @@
         &:hover {
           color: $light-blue;
         }
+        &:focus {
+          background: transparent;
+        }
   		}
   	}
   }
@@ -70,6 +73,9 @@
             font-size: 15px;
             &:hover {
               color: $light-blue;
+            }
+            &:focus {
+              background: transparent;
             }
           }
  					&:nth-of-type(1){
