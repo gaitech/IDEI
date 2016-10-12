@@ -33,11 +33,15 @@ a, p, h2 {
   font-family: OpenSans;
   text-decoration: none !important;
 }
+
 /* line 32, ../sass/custom/_global.scss */
 a:focus, p:focus, h2:focus {
   outline: none !important;
 }
 
+a:focus,a:hover{
+  outline:none !important;
+}
 /* line 38, ../sass/custom/_global.scss */
 .main-container {
   background: #fff none repeat scroll 0 0;
