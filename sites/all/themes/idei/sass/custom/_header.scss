@@ -1,5 +1,5 @@
 .navbar {
-	background: #fff none repeat scroll 0 0;
+	background: $white none repeat scroll 0 0;
 	box-shadow: 0 -4px 11px #000;
 	margin: 0 auto !important;
 	max-width: 100% !important;
@@ -140,11 +140,11 @@
 	// #block-idei-custom-water-inner-menu {
 	.secondary-sub-menu {
 		width: 100%;
-    background-color: #fff;
+    background-color: $white;
     position: relative;
     top: -2px;
     border-top: 1px solid #9d9d9d;
-    box-shadow: 0 4px 11px #ccc;
+    box-shadow: 0 4px 11px $grey;
     ul {
 	    text-align: center; 
 	    padding: 3px 0;
@@ -193,11 +193,11 @@
 	}
 	#block-views-product-menu-block, .second-views-menu {
 		width: 100%;
-    background-color: #fff;
+    background-color: $white;
     position: relative;
     top: -2px;
     border-top: 1px solid #9d9d9d;
-    box-shadow: 0 4px 11px #ccc;
+    box-shadow: 0 4px 11px $grey;
     .view-product-menu, .view {
     	width: 100%;
     	display: inline-block;

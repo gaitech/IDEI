@@ -46,7 +46,7 @@
 					margin-top: 0;
 					margin-right: 8px;
 					span {
-						background-color: #fff;
+						background-color: $white;
 					}
 				}
 			}
@@ -57,7 +57,7 @@
 		    position: absolute;
 		    right: auto;
 		    background: $dark-blue url('../images/logo.png') no-repeat scroll center right 15px;
-		    box-shadow: 0 4px 11px #ccc;
+		    box-shadow: 0 4px 11px $grey;
 		    width: 100%;
 		    // display: inline-block;
 		    top: auto;
@@ -76,7 +76,7 @@
   					margin: 10px 0;
   					width: 150px;
   					a {
-  					  	color: #fff;
+  					  	color: $white;
   					  	&.active {
   					  		border-bottom: none;
   					  	}
@@ -861,9 +861,9 @@
 	}
 	h2.resp-tab-active {
 		background-color: $light-blue !important;
-		color: #fff;
+		color: $white;
 		span.resp-arrow {
-			border-bottom: 12px solid #fff;
+			border-bottom: 12px solid $white;
 		}
 	}
 
@@ -1817,7 +1817,7 @@
 				}
 			}
 		}
-		/*-------------------------css ends for archive listing page---------------------*/
+	/*-------------------------css ends for archive listing page---------------------*/
 }
 
 
