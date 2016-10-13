@@ -1,86 +1,27 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
- <?php global $base_url; 
- print '<script src="'.$base_url.'/sites/all/modules/custom/idei_custom/js/jquery.waterwheelCarousel.js"></script>';?>
- <script type="text/javascript">
-    $(document).ready(function () {
+<?php global $base_url; 
+print  '<link href="'.$base_url.'/sites/all/modules/custom/idei_custom/css/jquery.Carousel3D.css" rel="stylesheet" type="text/css" />';
+print '<script src="'.$base_url.'/sites/all/modules/custom/idei_custom/js/jquery-1.8.3.min.js"></script>'; 
+print '<script src="'.$base_url.'/sites/all/modules/custom/idei_custom/js/modernizr.2.6.2.js"></script>';
+print '<script src="'.$base_url.'/sites/all/modules/custom/idei_custom/js/jquery.Carousel3D.js"></script>';
+
+?>
+  <script>
+  $(document).ready(function () {
+      $('#con').Carousel3D({
+        backfaceVisible:false,
+        width:200,
+        height:180
+      });
+
+
       $(".3d-content-wrap .3dd").hide();
       $(".3d-content-wrap .3dd.3d-item-0").show();
-
-      $('.3d-check a').click(function() {
-        var a =jQuery(this).attr('class');
-          $(".3d-content-wrap .3dd").hide();
-          $(".3d-content-wrap ."+a).show();
-      });
-      var carousel = $("#carousel").waterwheelCarousel({
-        flankingItems: 3,
-        movingToCenter: function ($item) {
-          $('#callback-output').append('test');
-        },
-      });
-
-      $('#reload').bind('click', function () {
-        newOptions = eval("(" + $('#newoptions').val() + ")");
-        carousel.reload(newOptions);
-        return false;
-      });
-
-      $('#prev').bind('click', function () {
-        carousel.prev();
-        return false
-      });
-
-      $('#next').bind('click', function () {
-        carousel.next();
-        return false;
-        });
-      
-      $('#prev').click(function() {      
-        setTimeout(function(){
-           $(".3d-check a").each(function() {
-            var slider_class = $(this).children().attr("class");
-            if(slider_class == 'carousel-center'){
-              var cls =$(this).attr("class");
-              $(".3d-content-wrap .3dd").hide();
-              $(".3d-content-wrap .3dd."+cls).show();
-            }
-          });
-        }, 300);
-      });
-
-      $('#next').click(function() {      
-        setTimeout(function(){
-           $(".3d-check a").each(function() {
-            var slider_class = $(this).children().attr("class");
-            if(slider_class == 'carousel-center'){
-              var cls =$(this).attr("class");
-              $(".3d-content-wrap .3dd").hide();
-              $(".3d-content-wrap .3dd."+cls).show();
-            }
-          });
-        }, 300);
-      });  
-    });
+   });
   </script>
-
-  <style type="text/css">
-      #carousel {
-         height:300px;
-        position:relative;
-        clear:both;
-        overflow:hidden;
-      }
-      #carousel img {
-        visibility:hidden; 
-        cursor:pointer; 
-      }
-    </style>
-    
-    <div class="navigation-button">
-      <div class="prev-button"><a href="#" id="prev">Prev</a></div>
-      <div class="next-button"> <a href="#" id="next">Next</a></div>
-    </div>
+  <div id="myCarousel1"><</div>
+  <div id="myCarousel2">></div>
 <?php
-print '<div id="carousel" class="3d-check">';
+print '<div id="con" class="thri"><ul>';
   $query = db_select('field_data_field_water_image', 't');
   $query->join('file_managed', 'n', 'n.fid = t.field_water_image_fid');
   $result = $query
@@ -92,11 +33,14 @@ print '<div id="carousel" class="3d-check">';
     $image =  $result[$key]->uri;
     $body_style = 'three_d_gallery';
     $body_image_path = image_style_url($body_style,$image);
-    print '<a href="#" class="3d-item-'.$key.'"><img src="'.$body_image_path.'" id="item-'.$key.'" /></a>';
+
+    if($key < 24){
+          print '<li> <img src="'.$body_image_path.'" /></li>';
+    }
     }
 
     
-    print '</div>';
+    print '</ul></div>';
     print '<div class="3d-content-wrap water-intro-content-wrap">';
     foreach ($result as $key => $value) {
     $nid1 = $result[$key]->entity_id;
@@ -109,5 +53,6 @@ print '<div id="carousel" class="3d-check">';
     </div>';
     }
     print "</div>";
- 
 
+
+?>
