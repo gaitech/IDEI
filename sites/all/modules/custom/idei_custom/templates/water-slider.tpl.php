@@ -10,7 +10,7 @@ print '<script src="'.$base_url.'/sites/all/modules/custom/idei_custom/js/jquery
       $('#con').Carousel3D({
         backfaceVisible:false,
         width:200,
-        height:180
+        height:200
       });
       $(".3d-content-wrap .3dd").hide();
       $(".3d-content-wrap .3dd.3d-item-0").show();
