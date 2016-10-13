@@ -12,14 +12,15 @@ print '<script src="'.$base_url.'/sites/all/modules/custom/idei_custom/js/jquery
         width:200,
         height:180
       });
-
-
       $(".3d-content-wrap .3dd").hide();
       $(".3d-content-wrap .3dd.3d-item-0").show();
    });
   </script>
-  <div id="myCarousel1"><</div>
-  <div id="myCarousel2">></div>
+      <div class="navigation-button">
+      <div class="prev-button"><span id="myCarousel1"> < </span></div>
+      <div class="next-button"> <span id="myCarousel2"> > </span></div>
+    </div>
+
 <?php
 print '<div id="con" class="thri"><ul>';
   $query = db_select('field_data_field_water_image', 't');
@@ -33,10 +34,7 @@ print '<div id="con" class="thri"><ul>';
     $image =  $result[$key]->uri;
     $body_style = 'three_d_gallery';
     $body_image_path = image_style_url($body_style,$image);
-
-    if($key < 24){
-          print '<li> <img src="'.$body_image_path.'" /></li>';
-    }
+      print '<li> <img src="'.$body_image_path.'" /></li>';
     }
 
     

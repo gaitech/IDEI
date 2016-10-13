@@ -67,7 +67,7 @@
             for(var i= 0,len=itemsCount;i<len;i++){
                 nav.append('<li data-increment="'+i+'"></li>');
             }
-            contrainer.append(nav);
+            // contrainer.append(nav);
 
             contrainer.addClass('contrainer');
             contrainer.width(options.width);
@@ -127,7 +127,7 @@
                 c = count;
             }
             console.log(test);
-console.log(length);
+            console.log(length);
             $(".3d-content-wrap .3dd").hide();
             $(".3d-content-wrap .3dd.3d-item-"+c).show();
 
