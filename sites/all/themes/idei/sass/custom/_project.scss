@@ -697,6 +697,9 @@
    					-ms-transform:     scale(1.1); 
    					-o-transform:      scale(1.1); 
 			    }
+			    &:focus {
+			    	background: transparent;
+			    }
     		}
     		&:nth-child(1) {
     			&.fadeIn {
@@ -2310,15 +2313,23 @@
 		}
 		.view-header {
 		 	p {
-		    color: $light-black;
-		    font-size: 16px;
+		    color: $dark-blue;
+		    font-size: 23px;
 		    margin: auto;
 		    padding-bottom: 50px;
 		    text-align: center;
 		    width: 80%;
+		    font-style: italic;
 		  }
 		}
 	}
+	.pub-wrap {
+		border-top: none;
+		.pub-title, .pub-download {
+			display: none;
+		}
+	}
+	
 }
 .view-annual-report-page, .view-volunteers-page {
   .view-header-banner {
@@ -3118,7 +3129,7 @@ article#node-68 {
 }
 /*---------------------css ends for archive-node page--------------------------*/
 
-
+/*---------------------css for Engage-section--------------------------*/
 /*---------------------css for contact-us page--------------------------*/
 .view-contact-us-page {
 	.view-footer {
@@ -3158,6 +3169,44 @@ article#node-68 {
   }
 }
 /*---------------------css ends for contact-us page--------------------------*/
+
+/*---------------------css for donate page--------------------------*/
+.donate-div {
+    position: relative;
+}
+.link-text {
+	cursor: pointer;
+}
+.donate-address {
+  width: 400px;
+  height: 127px;
+  padding: 16px 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,.3);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  position: absolute;
+  top: -126px;
+  right: 0;
+  z-index: 100;
+  background: $light-blue;
+  color: #fff;
+  &:before {
+  	content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid $light-blue;
+    position: relative;
+    top: 116px;
+    left: 75px;
+  }
+}
+/*---------------------css ends for donate page--------------------------*/
+/*---------------------css ends for Engage-section--------------------------*/
+
 
 /*---------------------------css for water-section----------------------------*/
 /*---------------------css for water-introduction page--------------------------*/
@@ -3764,9 +3813,9 @@ article#node-68 {
     		.fadeIn {
     			-webkit-animation-name: fadeIn;
 			  	animation-name: fadeIn;
-					-webkit-animation-delay: 0.2s;
-				 	-moz-animation-delay: 0.2s;
-					animation-delay: 0.2s;
+					-webkit-animation-delay: 0.3s;
+				 	-moz-animation-delay: 0.3s;
+					animation-delay: 0.3s;
 					-webkit-animation-duration: 8s;
   				animation-duration: 8s;
 				}
@@ -3775,9 +3824,9 @@ article#node-68 {
     		.fadeIn {
     			-webkit-animation-name: fadeIn;
 			  	animation-name: fadeIn;
-					-webkit-animation-delay: 0.7s;
-				 	-moz-animation-delay: 0.7s;
-					animation-delay: 0.7s;
+					-webkit-animation-delay: 1.3s;
+				 	-moz-animation-delay: 1.3s;
+					animation-delay: 1.3s;
 					-webkit-animation-duration: 8s;
   				animation-duration: 8s;
 				}
@@ -3786,9 +3835,9 @@ article#node-68 {
     		.fadeIn {
     			-webkit-animation-name: fadeIn;
 			  	animation-name: fadeIn;
-					-webkit-animation-delay: 1.1s;
-				 	-moz-animation-delay: 1.1s;
-					animation-delay: 1.1s;
+					-webkit-animation-delay: 2.3s;
+				 	-moz-animation-delay: 2.3s;
+					animation-delay: 2.3s;
 					-webkit-animation-duration: 8s;
   				animation-duration: 8s;
 				}
@@ -3797,9 +3846,9 @@ article#node-68 {
     		.fadeIn {
     			-webkit-animation-name: fadeIn;
 			  	animation-name: fadeIn;
-					-webkit-animation-delay: 1.5s;
-				 	-moz-animation-delay: 1.5s;
-					animation-delay: 1.5s;
+					-webkit-animation-delay: 3.3s;
+				 	-moz-animation-delay: 3.3s;
+					animation-delay: 3.3s;
 					-webkit-animation-duration: 8s;
   				animation-duration: 8s;
 				}
@@ -4091,7 +4140,6 @@ article#node-68 {
     line-height: 1.5em;
     p {
     	a {
-    		color: $dark-blue;
     		&:hover {
     			color: $dark-blue;
     		}
@@ -4243,4 +4291,69 @@ article#node-68 {
 
 	} 
 }
-/*----------------------------css ends for water red flags---------------------------*/
+/*----------------------------css ends for water-red-flags---------------------------*/
+/*------------------------------css for water-india-facts--------------------------*/
+.page-node-236 {
+	.view-water-pages- {
+		.views-row-1 {
+			.views-field-field-water-content-image {
+				display: none;
+			}
+			.views-field-field-water-description- {
+				font-style: normal;
+				ul {
+					font-size: 16px;
+			    color: $light-black;
+			    font-weight: normal;
+			    line-height: 1.8em;
+				}
+			}
+		}
+		.views-row-2 {
+			.views-field-field-water-description- {
+				ul {
+					font-size: 25px;
+					font-style: italic;
+					font-weight: bold;
+					color: $dark-blue;
+					font-family: OpenSans;
+					line-height: 1.5em;
+				}
+				p {
+					&:nth-child(1) {
+						font-size: 16px;
+						color: $light-black;
+						font-weight: normal;
+						font-style: normal;
+					}
+				}
+			}
+			.views-field-field-water-content-image {
+				display: block;
+			}
+		}
+		.views-row-3 {
+			.views-field-field-water-description- {
+				font-size: 17px;
+		    color: $dark-blue;
+		    font-weight: bold;
+			}
+		}
+		.views-row-4 {
+			.views-field-field-water-description- {
+				p {
+					&:nth-child(1) {
+						font-size: 16px;
+						color: $light-black;
+						font-weight: normal;
+						font-style: normal;
+					}
+				}
+			}
+			.views-field-field-water-content-image {
+				display: none;
+			}
+		}
+	}
+}
+/*------------------------------css ends for water-india-facts--------------------------*/
