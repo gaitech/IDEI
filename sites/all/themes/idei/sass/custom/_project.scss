@@ -3181,21 +3181,21 @@ article#node-68 {
 	font-weight: bold;
 }
 .donate-address {
-  width: 400px;
-  height: 127px;
-  padding: 16px 20px;
+  width: 390px;
+  height: 150px;
+  padding: 14px 27px;
   border: 1px solid $grey;
   box-shadow: 0 0 3px rgba(0,0,0,.3);
   -webkit-box-shadow: 0 0 3px rgba(0,0,0,.3);
   border-radius: 3px;
   -webkit-border-radius: 3px;
   position: absolute;
-  top: -126px;
+  top: -150px;
   right: 0;
   z-index: 100;
   background: $light-blue;
   color: $white;
-  &:before {
+  &:after {
   	content: "";
     width: 0;
     height: 0;
@@ -3203,8 +3203,8 @@ article#node-68 {
     border-right: 8px solid transparent;
     border-top: 10px solid $light-blue;
     position: relative;
-    top: 116px;
-    left: 75px;
+    top: 46px;
+    right: 60px;
   }
 }
 .page-node-140 {
@@ -3235,9 +3235,9 @@ article#node-68 {
   .carousel {
   	img {
   		vertical-align: middle;
-	    width: 95%;
+	    width: 100%;
 	    box-shadow: 0 0 12px $grey;
-	    border: 2px solid;
+	    border: 2px solid $grey;
   	}	 	
   }
 	.prev-button {
@@ -3286,7 +3286,8 @@ article#node-68 {
   }
 }
 .water-intro-content-wrap {
-  padding: 80px 40px 0;
+  padding: 0 40px 0;
+  text-align: center;
 }
 .water-intro-title {
   font-size: 30px;
