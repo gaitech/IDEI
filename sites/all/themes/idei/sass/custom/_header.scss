@@ -1,13 +1,15 @@
 .navbar {
-	background: $white none repeat scroll 0 0;
-	box-shadow: 0 -4px 11px #000;
-	margin: 0 auto !important;
-	max-width: 100% !important;
-	padding: 0;
-	position: fixed;
-	width: 100% !important;
-	z-index: 1000;
-	height: 71.4px;
+	&.container {
+		background: $white none repeat scroll 0 0;
+		box-shadow: 0 -4px 11px #000;
+		margin: 0 auto;
+		max-width: 100%;
+		padding: 0;
+		position: fixed;
+		width: 100%;
+		z-index: 1000;
+		height: 71.4px;
+	}
 	.container {
 		position: relative;
 		width: 100% !important;
@@ -50,9 +52,6 @@
 						color:$light-blue;
 					}
 					:-moz-placeholder { 
-					  color: $light-blue;  
-					}
-					::-moz-placeholder {  
 					  color: $light-blue;  
 					}
 					:-ms-input-placeholder {  
