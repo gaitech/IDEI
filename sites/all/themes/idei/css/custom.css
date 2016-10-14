@@ -109,54 +109,54 @@ a:focus, p:focus, h2:focus {
     transform: none;
   }
 }
-/* line 1, ../sass/custom/_header.scss */
-.navbar {
+/* line 2, ../sass/custom/_header.scss */
+.navbar.container {
   background: #fff none repeat scroll 0 0;
   box-shadow: 0 -4px 11px #000;
-  margin: 0 auto !important;
-  max-width: 100% !important;
+  margin: 0 auto;
+  max-width: 100%;
   padding: 0;
   position: fixed;
-  width: 100% !important;
+  width: 100%;
   z-index: 1000;
   height: 71.4px;
 }
-/* line 11, ../sass/custom/_header.scss */
+/* line 13, ../sass/custom/_header.scss */
 .navbar .container {
   position: relative;
   width: 100% !important;
   margin: 0 auto !important;
 }
-/* line 15, ../sass/custom/_header.scss */
+/* line 17, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse.collapse {
   position: absolute;
   top: 46px;
   width: 100%;
 }
-/* line 20, ../sass/custom/_header.scss */
+/* line 22, ../sass/custom/_header.scss */
 .navbar .container .navbar-header {
   width: 100% !important;
 }
-/* line 22, ../sass/custom/_header.scss */
+/* line 24, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .logo {
   margin: 0;
   padding: 0 0 0 45px;
 }
-/* line 26, ../sass/custom/_header.scss */
+/* line 28, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links {
   float: right;
   padding-right: 29px;
 }
-/* line 29, ../sass/custom/_header.scss */
+/* line 31, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form {
   float: left;
   display: none;
 }
-/* line 33, ../sass/custom/_header.scss */
+/* line 35, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .input-group-btn {
   display: none !important;
 }
-/* line 37, ../sass/custom/_header.scss */
+/* line 39, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .input-group .form-control {
   height: 25px;
   border-radius: 12px !important;
@@ -169,67 +169,63 @@ a:focus, p:focus, h2:focus {
   font-family: OpenSans;
   margin-top: 3px;
 }
-/* line 49, ../sass/custom/_header.scss */
+/* line 51, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .input-group ::-webkit-input-placeholder {
   color: #43bfef;
 }
-/* line 52, ../sass/custom/_header.scss */
+/* line 54, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .input-group :-moz-placeholder {
   color: #43bfef;
 }
-/* line 55, ../sass/custom/_header.scss */
-.navbar .container .navbar-header .social-links .input-group ::-moz-placeholder {
-  color: #43bfef;
-}
-/* line 58, ../sass/custom/_header.scss */
+/* line 57, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .input-group :-ms-input-placeholder {
   color: #43bfef;
 }
-/* line 62, ../sass/custom/_header.scss */
+/* line 61, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .search-logo {
   position: relative;
   z-index: 20;
 }
-/* line 66, ../sass/custom/_header.scss */
+/* line 65, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links {
   float: left;
   margin-top: 8px;
   padding-right: 8px;
 }
-/* line 70, ../sass/custom/_header.scss */
+/* line 69, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links .search-logo {
   cursor: pointer;
 }
-/* line 73, ../sass/custom/_header.scss */
+/* line 72, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links img {
   height: 25px !important;
   width: 25px !important;
   margin-right: 6px;
   transition: transform 0.3s ease-in-out;
 }
-/* line 78, ../sass/custom/_header.scss */
+/* line 77, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links img:hover {
   transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
 }
-/* line 84, ../sass/custom/_header.scss */
+/* line 83, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links p a:last-of-type img {
   margin-right: 0;
 }
-/* line 92, ../sass/custom/_header.scss */
+/* line 91, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse {
   padding: 0;
 }
-/* line 96, ../sass/custom/_header.scss */
+/* line 95, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu {
   display: table;
   margin: 0 auto;
 }
-/* line 100, ../sass/custom/_header.scss */
+/* line 99, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu ul {
   margin-bottom: 0;
   padding: 0;
 }
-/* line 104, ../sass/custom/_header.scss */
+/* line 103, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
@@ -239,37 +235,37 @@ a:focus, p:focus, h2:focus {
   font-size: 13px;
   font-family: OpenSans;
 }
-/* line 112, ../sass/custom/_header.scss */
+/* line 111, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li:last-child {
   padding-right: 0 !important;
   border: none;
 }
-/* line 116, ../sass/custom/_header.scss */
+/* line 115, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li:focus {
   outline: none;
 }
-/* line 119, ../sass/custom/_header.scss */
+/* line 118, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li a {
   color: #6a6a6a;
   text-decoration: none;
   padding: 0;
 }
-/* line 123, ../sass/custom/_header.scss */
+/* line 122, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li a:hover {
   color: #43bfef;
   background-color: transparent;
 }
-/* line 127, ../sass/custom/_header.scss */
+/* line 126, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li a:focus {
   background-color: transparent;
 }
-/* line 130, ../sass/custom/_header.scss */
+/* line 129, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li a.active {
   color: #43bfef;
   border-bottom: 2px solid #43bfef;
   padding-bottom: 0.7px;
 }
-/* line 141, ../sass/custom/_header.scss */
+/* line 140, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu {
   width: 100%;
   background-color: #fff;
@@ -278,13 +274,13 @@ a:focus, p:focus, h2:focus {
   border-top: 1px solid #9d9d9d;
   box-shadow: 0 4px 11px #ccc;
 }
-/* line 148, ../sass/custom/_header.scss */
+/* line 147, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul {
   text-align: center;
   padding: 3px 0;
   margin-bottom: 0;
 }
-/* line 152, ../sass/custom/_header.scss */
+/* line 151, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
@@ -295,45 +291,45 @@ a:focus, p:focus, h2:focus {
   text-transform: uppercase;
   vertical-align: middle;
 }
-/* line 161, ../sass/custom/_header.scss */
+/* line 160, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li:focus {
   outline: none;
 }
-/* line 164, ../sass/custom/_header.scss */
+/* line 163, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li:last-child {
   border-right: none;
   padding-right: 0;
 }
-/* line 168, ../sass/custom/_header.scss */
+/* line 167, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li a {
   color: #6a6a6a;
   text-decoration: none;
   padding: 0;
 }
-/* line 172, ../sass/custom/_header.scss */
+/* line 171, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li a:hover {
   color: #43bfef;
   background-color: transparent;
 }
-/* line 176, ../sass/custom/_header.scss */
+/* line 175, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li a:focus {
   background-color: transparent;
 }
-/* line 179, ../sass/custom/_header.scss */
+/* line 178, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li a.active {
   color: #43bfef;
   border-bottom: 2px solid #43bfef;
 }
-/* line 184, ../sass/custom/_header.scss */
+/* line 183, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li:first-child {
   font-size: 15px;
   border-right: none;
 }
-/* line 187, ../sass/custom/_header.scss */
+/* line 186, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li:first-child a {
   color: #43bfef;
 }
-/* line 194, ../sass/custom/_header.scss */
+/* line 193, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block, .navbar .second-views-menu {
   width: 100%;
   background-color: #fff;
@@ -342,17 +338,17 @@ a:focus, p:focus, h2:focus {
   border-top: 1px solid #9d9d9d;
   box-shadow: 0 4px 11px #ccc;
 }
-/* line 201, ../sass/custom/_header.scss */
+/* line 200, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu, .navbar #block-views-product-menu-block .view, .navbar .second-views-menu .view-product-menu, .navbar .second-views-menu .view {
   width: 100%;
   display: inline-block;
   padding: 3px 0;
 }
-/* line 205, ../sass/custom/_header.scss */
+/* line 204, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content, .navbar #block-views-product-menu-block .view .view-content, .navbar .second-views-menu .view-product-menu .view-content, .navbar .second-views-menu .view .view-content {
   text-align: center;
 }
-/* line 207, ../sass/custom/_header.scss */
+/* line 206, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row, .navbar #block-views-product-menu-block .view .view-content .views-row, .navbar .second-views-menu .view-product-menu .view-content .views-row, .navbar .second-views-menu .view .view-content .views-row {
   display: inline-block;
   border-right: 1px solid #6a6a6a;
@@ -363,30 +359,30 @@ a:focus, p:focus, h2:focus {
   text-transform: uppercase;
   vertical-align: middle;
 }
-/* line 216, ../sass/custom/_header.scss */
+/* line 215, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row:last-child, .navbar #block-views-product-menu-block .view .view-content .views-row:last-child, .navbar .second-views-menu .view-product-menu .view-content .views-row:last-child, .navbar .second-views-menu .view .view-content .views-row:last-child {
   border-right: none;
 }
-/* line 219, ../sass/custom/_header.scss */
+/* line 218, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a, .navbar #block-views-product-menu-block .view .view-content .views-row a, .navbar .second-views-menu .view-product-menu .view-content .views-row a, .navbar .second-views-menu .view .view-content .views-row a {
   color: #6a6a6a;
   text-decoration: none;
 }
-/* line 222, ../sass/custom/_header.scss */
+/* line 221, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:hover, .navbar #block-views-product-menu-block .view .view-content .views-row a:hover, .navbar .second-views-menu .view-product-menu .view-content .views-row a:hover, .navbar .second-views-menu .view .view-content .views-row a:hover {
   color: #43bfef;
   background-color: transparent;
 }
-/* line 226, ../sass/custom/_header.scss */
+/* line 225, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:focus, .navbar #block-views-product-menu-block .view .view-content .views-row a:focus, .navbar .second-views-menu .view-product-menu .view-content .views-row a:focus, .navbar .second-views-menu .view .view-content .views-row a:focus {
   background-color: transparent;
 }
-/* line 229, ../sass/custom/_header.scss */
+/* line 228, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a.active, .navbar #block-views-product-menu-block .view .view-content .views-row a.active, .navbar .second-views-menu .view-product-menu .view-content .views-row a.active, .navbar .second-views-menu .view .view-content .views-row a.active {
   color: #43bfef;
   border-bottom: 2px solid #43bfef;
 }
-/* line 235, ../sass/custom/_header.scss */
+/* line 234, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .block-title, .navbar #block-views-product-menu-block .view .view-content .block-title, .navbar .second-views-menu .view-product-menu .view-content .block-title, .navbar .second-views-menu .view .view-content .block-title {
   display: inline-block;
   border-right: 1px solid #6a6a6a;
@@ -402,12 +398,12 @@ a:focus, p:focus, h2:focus {
 }
 
 /*css for ie */
-/* line 258, ../sass/custom/_header.scss */
+/* line 257, ../sass/custom/_header.scss */
 .ie .navbar .container .navbar-header .logo {
   padding: 0 0 0 75px;
 }
 
-/* line 267, ../sass/custom/_header.scss */
+/* line 266, ../sass/custom/_header.scss */
 #home-block-block-2:before,
 #home-block-block-3:before,
 #home-block-block-4:before,
@@ -421,7 +417,7 @@ a:focus, p:focus, h2:focus {
   visibility: hidden;
 }
 
-/* line 279, ../sass/custom/_header.scss */
+/* line 278, ../sass/custom/_header.scss */
 #program-1:before, #program-2:before,
 #program-3:before, #program-4:before,
 #program-5:before, #program-6:before,
@@ -5087,7 +5083,7 @@ article#node-68 h2 a {
 }
 
 /*------------------css ends for new-page of-idei-capability-statement-------------*/
-/*----------------------------css for water red flags---------------------------*/
+/*----------------------------css for water-red-flags---------------------------*/
 /* line 4042, ../sass/custom/_project.scss */
 .view-water-pages- {
   max-width: 1200px;
@@ -5444,6 +5440,76 @@ article#node-68 h2 a {
 }
 
 /*------------------------------css ends for water-india-facts--------------------------*/
+/*-----------------------------css for water-best-practices--------------------------*/
+/* line 4398, ../sass/custom/_project.scss */
+.view-water-best-practices .view-header-banner .view-content {
+  width: 100%;
+  max-width: 100% !important;
+  margin: 0 auto;
+  padding: 0;
+}
+/* line 4406, ../sass/custom/_project.scss */
+.view-water-best-practices .view-header p {
+  color: #6a6a6a;
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 80%;
+}
+/* line 4413, ../sass/custom/_project.scss */
+.view-water-best-practices .view-header p:last-of-type {
+  margin-bottom: 50px;
+}
+/* line 4417, ../sass/custom/_project.scss */
+.view-water-best-practices .view-header p a:hover {
+  color: #27579c;
+}
+/* line 4423, ../sass/custom/_project.scss */
+.view-water-best-practices .view-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+/* line 4429, ../sass/custom/_project.scss */
+.view-water-best-practices .economic-inner-title {
+  padding: 37px 0 10px;
+}
+
+/* line 4433, ../sass/custom/_project.scss */
+.practices-wrapper {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 4439, ../sass/custom/_project.scss */
+.practices-video {
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+/* line 4443, ../sass/custom/_project.scss */
+.practices-video a {
+  display: inline-block;
+}
+/* line 4445, ../sass/custom/_project.scss */
+.practices-video a:before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/youicon.png");
+  height: 100%;
+  width: 100%;
+  background-position: 50% 45%;
+  background-repeat: no-repeat;
+  z-index: 1;
+  left: 0;
+  background-size: 60px;
+}
+
+/*-----------------------------css ends for water-best-practices------------------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {

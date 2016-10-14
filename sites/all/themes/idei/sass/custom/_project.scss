@@ -4038,7 +4038,7 @@ article#node-68 {
 }
 /*------------------css ends for new-page of-idei-capability-statement-------------*/
 
-/*----------------------------css for water red flags---------------------------*/
+/*----------------------------css for water-red-flags---------------------------*/
 .view-water-pages- {
 	max-width: 1200px;
   width: 100%;
@@ -4392,3 +4392,68 @@ article#node-68 {
 	}
 }
 /*------------------------------css ends for water-india-facts--------------------------*/
+/*-----------------------------css for water-best-practices--------------------------*/
+.view-water-best-practices {
+	.view-header-banner {
+    .view-content {
+      width: 100%;
+      max-width: 100% !important;
+      margin: 0 auto;
+      padding: 0;
+    }
+	}
+	.view-header {
+		p {
+			color: $light-black;
+	    font-size: 16px;
+	    margin: auto;
+	    margin-bottom: 10px;
+	    text-align: center;
+	    width: 80%;
+	    &:last-of-type {
+	    	margin-bottom: 50px;
+	    }
+	    a {
+	    	&:hover {
+	    		color: $dark-blue;
+	    	}
+	    }
+		}
+	}
+  .view-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  .economic-inner-title {
+  	padding: 37px 0 10px;
+  }
+}
+.practices-wrapper {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.practices-video {
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  a {
+  	display: inline-block;
+  	&:before {
+  		content: "";
+	    position: absolute;
+	    background-image: url("../images/youicon.png");
+	    height: 100%;
+	    width: 100%;
+	    background-position: 50% 45%;
+	    background-repeat: no-repeat;
+	    z-index: 1;
+	    left: 0;
+	    background-size: 60px;
+  	}
+  }
+}
+/*-----------------------------css ends for water-best-practices------------------------*/
