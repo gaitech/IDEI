@@ -1900,7 +1900,8 @@
   padding-bottom: 40px;
 }
 .detail-product-applications-wrap {
-  display: inline-block;
+  max-width: 1200px;
+  margin: auto;
   width: 100%;
   padding: 50px 40px 40px;
   .product-applications {
@@ -1922,9 +1923,18 @@
 		}
 	}
 }
+.product-application-wrapper {
+	display: inline-block;
+	width: 100%;
+}
 .product-images {
   float: right;
   width: 25%;
+}
+.detail-sp-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
 }
 .detail-sp-label {
 	padding: 0 0 20px 40px;
@@ -2155,7 +2165,8 @@
 }
 .view-case-study-for-products {
   padding: 0 40px 40px;
-  display: inline-block;
+  max-width: 1200px;
+  margin: auto;
   width: 100%;
   .views-field-field-case-study-title {
     font-size: 30px;
@@ -2726,7 +2737,17 @@ article#node-68 {
 .economic-inner-title.team {
   padding-top: 37px;
 }
-/*--------------------css for our team listing page-------------------*/
+/*--------------------css ends for our team listing page-------------------*/
+/*--------------------css for key-differntiators-------------------*/
+.page-node-108 {
+	.approach-content-wrapper {
+		.shift-image {
+	    max-width: 475px;
+	    width: 100%;
+	  }
+	}
+}
+/*--------------------css ends for key-differntiators-------------------*/
 
 /*css for idei-capability-statement page */
 .node-type-about-idei {
@@ -3223,6 +3244,13 @@ article#node-68 {
 .node-type-water-inner-pages {
 	.economic-inner-title {
 		padding-top: 14px;
+		display: none;
+	}
+	.approach-content {
+		img {
+			margin: auto;
+			display: block;
+		}
 	}
 }
 .water-intro-slider {
@@ -3693,7 +3721,11 @@ article#node-68 {
 /*---------------------------css ends for awards node-page------------------------*/
 
 /*------------------------css for search result page---------------------------*/
-
+.header-search {
+	.form-item-custom-search-types {
+		display: none;
+	}
+}
 .page-search {
 	.breadcrumb {
     background: none;
@@ -4004,6 +4036,12 @@ article#node-68 {
 	    margin-right: 15px;
 	    margin-top: 6px;
   	}
+  	&:hover {
+  		background-color: $light-blue;
+  		a {
+  			color: $white;
+  		}
+  	}
   }
   .ui-accordion-header-active {
   	background-color: $dark-blue;
@@ -4011,6 +4049,9 @@ article#node-68 {
   	border-bottom-right-radius: 4px;
   	a {
   		color: $white;
+  	}
+  	&:hover {
+  		background-color: $dark-blue;
   	}
   	.ui-accordion-header-icon {
   		display: none;
