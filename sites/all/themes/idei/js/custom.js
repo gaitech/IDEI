@@ -162,6 +162,25 @@
   jQuery('.donate-div .link-text').hover(function(){ 
     jQuery(this).next().toggle(); 
   });
+
+//autoplay youtube video
+function getId(url) {
+  var regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+  var match = url.match(regExp);
+
+  if (match && match[2].length == 11) {
+    return match[2];
+  } else {
+    return 'error';
+  }
+}
+
+  var myId = jQuery(".my-autoplay-youtube").html();
+  myId = getId(myId);
+
+  var myCode = '<iframe width="560" height="315" src="//www.youtube.com/embed/' 
+      + myId + '?autoplay=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>';
+  jQuery(".my-autoplay-youtube").html(myCode);
 });
 
 
