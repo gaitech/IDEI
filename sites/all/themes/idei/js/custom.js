@@ -180,7 +180,7 @@ function getId(url) {
   var myId = jQuery(".my-autoplay-youtube").html();
   myId = getId(myId);
 
-  var myCode = '<iframe width="560" height="315" src="//www.youtube.com/embed/' 
+  var myCode = '<iframe width="100%" height="auto" src="//www.youtube.com/embed/' 
       + myId + '?autoplay=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>';
   jQuery(".my-autoplay-youtube").html(myCode);
 });
