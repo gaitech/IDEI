@@ -166,23 +166,11 @@
   });
 
 //autoplay youtube video
-function getId(url) {
-  var regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
-  var match = url.match(regExp);
-
-  if (match && match[2].length == 11) {
-    return match[2];
-  } else {
-    return 'error';
-  }
-}
-
   var myId = jQuery(".my-tube-container").html();
-  myId = getId(myId);
-
-  var myCode = '<iframe width="100%" height="100%" src="//www.youtube.com/embed/' 
-      + myId + '?autoplay=1&showinfo=0&controls=0" frameborder="0" allowfullscreen class="video-class"></iframe>';
+  myId= myId.split("=");
+  var myCode = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/'+myId[1]+'?autoplay=1&showinfo=0&controls=0&loop=1&playlist='+myId[1]+' " frameborder="0" allowfullscreen class="video-class"></iframe>';
   jQuery(".my-tube-container").html(myCode);
+
 });
 
 
