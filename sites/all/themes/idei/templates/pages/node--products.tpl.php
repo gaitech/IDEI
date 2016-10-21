@@ -29,15 +29,17 @@ $product_full_image = '<img src="'.$product_img_path.'"/>';
   </div>
   <!-- applications block -->
 <div class="detail-product-applications-wrap">
-  <div class="product-applications">
-  	<div class="application-label">
-      <?php if($product_applications){
-        print "Applications";
-      } ?>
+  <div class="product-application-wrapper">
+    <div class="product-applications">
+    	<div class="application-label">
+        <?php if($product_applications){
+          print "Applications";
+        } ?>
+      </div>
+      <div class="application-detail"><?php print $product_applications; ?> </div>
     </div>
-    <div class="application-detail"><?php print $product_applications; ?> </div>
+    <div class="product-images"><?php if($product_image){print $product_full_image;} ?> </div>
   </div>
-  <div class="product-images"><?php if($product_image){print $product_full_image;} ?> </div>
 </div>
 <!-- static and Dyamic Promotional Activites -->
 

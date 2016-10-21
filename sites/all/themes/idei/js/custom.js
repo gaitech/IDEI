@@ -158,9 +158,11 @@
   else if($('body.node-type-impact-inner-pages').length > 0) {
     splitwords('field-name-field-graph-description', 'impact-split');
   }
-  jQuery('.donate-div .donate-address').hide(); 
-  jQuery('.donate-div .link-text').hover(function(){ 
-    jQuery(this).next().toggle(); 
+
+  /*----------------------js for donate tooltip for address--------------------*/
+  $('.donate-div .donate-address').hide(); 
+  $('.donate-div .link-text').hover(function(){ 
+    $(this).next().toggle(); 
   });
 
 //autoplay youtube video

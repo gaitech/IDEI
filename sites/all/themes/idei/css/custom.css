@@ -25,7 +25,7 @@
 }
 /* line 26, ../sass/custom/_global.scss */
 body {
-  background: #F0F0F0;
+  font-family: OpenSans;
 }
 
 /* line 29, ../sass/custom/_global.scss */
@@ -33,15 +33,11 @@ a, p, h2 {
   font-family: OpenSans;
   text-decoration: none !important;
 }
-
 /* line 32, ../sass/custom/_global.scss */
 a:focus, p:focus, h2:focus {
   outline: none !important;
 }
 
-a:focus,a:hover{
-  outline:none !important;
-}
 /* line 38, ../sass/custom/_global.scss */
 .main-container {
   background: #fff none repeat scroll 0 0;
@@ -113,54 +109,54 @@ a:focus,a:hover{
     transform: none;
   }
 }
-/* line 1, ../sass/custom/_header.scss */
-.navbar {
+/* line 2, ../sass/custom/_header.scss */
+.navbar.container {
   background: #fff none repeat scroll 0 0;
   box-shadow: 0 -4px 11px #000;
-  margin: 0 auto !important;
-  max-width: 100% !important;
+  margin: 0 auto;
+  max-width: 100%;
   padding: 0;
   position: fixed;
-  width: 100% !important;
+  width: 100%;
   z-index: 1000;
   height: 71.4px;
 }
-/* line 11, ../sass/custom/_header.scss */
+/* line 13, ../sass/custom/_header.scss */
 .navbar .container {
   position: relative;
   width: 100% !important;
   margin: 0 auto !important;
 }
-/* line 15, ../sass/custom/_header.scss */
+/* line 17, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse.collapse {
   position: absolute;
   top: 46px;
   width: 100%;
 }
-/* line 20, ../sass/custom/_header.scss */
+/* line 22, ../sass/custom/_header.scss */
 .navbar .container .navbar-header {
   width: 100% !important;
 }
-/* line 22, ../sass/custom/_header.scss */
+/* line 24, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .logo {
   margin: 0;
   padding: 0 0 0 45px;
 }
-/* line 26, ../sass/custom/_header.scss */
+/* line 28, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links {
   float: right;
   padding-right: 29px;
 }
-/* line 29, ../sass/custom/_header.scss */
+/* line 31, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links #block-search-form {
   float: left;
   display: none;
 }
-/* line 33, ../sass/custom/_header.scss */
+/* line 35, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .input-group-btn {
   display: none !important;
 }
-/* line 37, ../sass/custom/_header.scss */
+/* line 39, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .input-group .form-control {
   height: 25px;
   border-radius: 12px !important;
@@ -173,67 +169,63 @@ a:focus,a:hover{
   font-family: OpenSans;
   margin-top: 3px;
 }
-/* line 49, ../sass/custom/_header.scss */
+/* line 51, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .input-group ::-webkit-input-placeholder {
   color: #43bfef;
 }
-/* line 52, ../sass/custom/_header.scss */
+/* line 54, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .input-group :-moz-placeholder {
   color: #43bfef;
 }
-/* line 55, ../sass/custom/_header.scss */
-.navbar .container .navbar-header .social-links .input-group ::-moz-placeholder {
-  color: #43bfef;
-}
-/* line 58, ../sass/custom/_header.scss */
+/* line 57, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .input-group :-ms-input-placeholder {
   color: #43bfef;
 }
-/* line 62, ../sass/custom/_header.scss */
+/* line 61, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .search-logo {
   position: relative;
   z-index: 20;
 }
-/* line 66, ../sass/custom/_header.scss */
+/* line 65, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links {
   float: left;
   margin-top: 8px;
   padding-right: 8px;
 }
-/* line 70, ../sass/custom/_header.scss */
+/* line 69, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links .search-logo {
   cursor: pointer;
 }
-/* line 73, ../sass/custom/_header.scss */
+/* line 72, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links img {
   height: 25px !important;
   width: 25px !important;
   margin-right: 6px;
   transition: transform 0.3s ease-in-out;
 }
-/* line 78, ../sass/custom/_header.scss */
+/* line 77, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links img:hover {
   transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
 }
-/* line 84, ../sass/custom/_header.scss */
+/* line 83, ../sass/custom/_header.scss */
 .navbar .container .navbar-header .social-links .header-social-links p a:last-of-type img {
   margin-right: 0;
 }
-/* line 92, ../sass/custom/_header.scss */
+/* line 91, ../sass/custom/_header.scss */
 .navbar .container .navbar-collapse {
   padding: 0;
 }
-/* line 96, ../sass/custom/_header.scss */
+/* line 95, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu {
   display: table;
   margin: 0 auto;
 }
-/* line 100, ../sass/custom/_header.scss */
+/* line 99, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu ul {
   margin-bottom: 0;
   padding: 0;
 }
-/* line 104, ../sass/custom/_header.scss */
+/* line 103, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
@@ -243,37 +235,37 @@ a:focus,a:hover{
   font-size: 13px;
   font-family: OpenSans;
 }
-/* line 112, ../sass/custom/_header.scss */
+/* line 111, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li:last-child {
   padding-right: 0 !important;
   border: none;
 }
-/* line 116, ../sass/custom/_header.scss */
+/* line 115, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li:focus {
   outline: none;
 }
-/* line 119, ../sass/custom/_header.scss */
+/* line 118, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li a {
   color: #6a6a6a;
   text-decoration: none;
   padding: 0;
 }
-/* line 123, ../sass/custom/_header.scss */
+/* line 122, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li a:hover {
   color: #43bfef;
   background-color: transparent;
 }
-/* line 127, ../sass/custom/_header.scss */
+/* line 126, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li a:focus {
   background-color: transparent;
 }
-/* line 130, ../sass/custom/_header.scss */
+/* line 129, ../sass/custom/_header.scss */
 .navbar .container .new-main-menu li a.active {
   color: #43bfef;
   border-bottom: 2px solid #43bfef;
   padding-bottom: 0.7px;
 }
-/* line 141, ../sass/custom/_header.scss */
+/* line 140, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu {
   width: 100%;
   background-color: #fff;
@@ -282,13 +274,13 @@ a:focus,a:hover{
   border-top: 1px solid #9d9d9d;
   box-shadow: 0 4px 11px #ccc;
 }
-/* line 148, ../sass/custom/_header.scss */
+/* line 147, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul {
   text-align: center;
   padding: 3px 0;
   margin-bottom: 0;
 }
-/* line 152, ../sass/custom/_header.scss */
+/* line 151, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li {
   border-right: 1px solid #6a6a6a;
   display: inline-block;
@@ -299,45 +291,45 @@ a:focus,a:hover{
   text-transform: uppercase;
   vertical-align: middle;
 }
-/* line 161, ../sass/custom/_header.scss */
+/* line 160, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li:focus {
   outline: none;
 }
-/* line 164, ../sass/custom/_header.scss */
+/* line 163, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li:last-child {
   border-right: none;
   padding-right: 0;
 }
-/* line 168, ../sass/custom/_header.scss */
+/* line 167, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li a {
   color: #6a6a6a;
   text-decoration: none;
   padding: 0;
 }
-/* line 172, ../sass/custom/_header.scss */
+/* line 171, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li a:hover {
   color: #43bfef;
   background-color: transparent;
 }
-/* line 176, ../sass/custom/_header.scss */
+/* line 175, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li a:focus {
   background-color: transparent;
 }
-/* line 179, ../sass/custom/_header.scss */
+/* line 178, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li a.active {
   color: #43bfef;
   border-bottom: 2px solid #43bfef;
 }
-/* line 184, ../sass/custom/_header.scss */
+/* line 183, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li:first-child {
   font-size: 15px;
   border-right: none;
 }
-/* line 187, ../sass/custom/_header.scss */
+/* line 186, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul li:first-child a {
   color: #43bfef;
 }
-/* line 194, ../sass/custom/_header.scss */
+/* line 193, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block, .navbar .second-views-menu {
   width: 100%;
   background-color: #fff;
@@ -346,17 +338,17 @@ a:focus,a:hover{
   border-top: 1px solid #9d9d9d;
   box-shadow: 0 4px 11px #ccc;
 }
-/* line 201, ../sass/custom/_header.scss */
+/* line 200, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu, .navbar #block-views-product-menu-block .view, .navbar .second-views-menu .view-product-menu, .navbar .second-views-menu .view {
   width: 100%;
   display: inline-block;
   padding: 3px 0;
 }
-/* line 205, ../sass/custom/_header.scss */
+/* line 204, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content, .navbar #block-views-product-menu-block .view .view-content, .navbar .second-views-menu .view-product-menu .view-content, .navbar .second-views-menu .view .view-content {
   text-align: center;
 }
-/* line 207, ../sass/custom/_header.scss */
+/* line 206, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row, .navbar #block-views-product-menu-block .view .view-content .views-row, .navbar .second-views-menu .view-product-menu .view-content .views-row, .navbar .second-views-menu .view .view-content .views-row {
   display: inline-block;
   border-right: 1px solid #6a6a6a;
@@ -367,30 +359,30 @@ a:focus,a:hover{
   text-transform: uppercase;
   vertical-align: middle;
 }
-/* line 216, ../sass/custom/_header.scss */
+/* line 215, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row:last-child, .navbar #block-views-product-menu-block .view .view-content .views-row:last-child, .navbar .second-views-menu .view-product-menu .view-content .views-row:last-child, .navbar .second-views-menu .view .view-content .views-row:last-child {
   border-right: none;
 }
-/* line 219, ../sass/custom/_header.scss */
+/* line 218, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a, .navbar #block-views-product-menu-block .view .view-content .views-row a, .navbar .second-views-menu .view-product-menu .view-content .views-row a, .navbar .second-views-menu .view .view-content .views-row a {
   color: #6a6a6a;
   text-decoration: none;
 }
-/* line 222, ../sass/custom/_header.scss */
+/* line 221, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:hover, .navbar #block-views-product-menu-block .view .view-content .views-row a:hover, .navbar .second-views-menu .view-product-menu .view-content .views-row a:hover, .navbar .second-views-menu .view .view-content .views-row a:hover {
   color: #43bfef;
   background-color: transparent;
 }
-/* line 226, ../sass/custom/_header.scss */
+/* line 225, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a:focus, .navbar #block-views-product-menu-block .view .view-content .views-row a:focus, .navbar .second-views-menu .view-product-menu .view-content .views-row a:focus, .navbar .second-views-menu .view .view-content .views-row a:focus {
   background-color: transparent;
 }
-/* line 229, ../sass/custom/_header.scss */
+/* line 228, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .views-row a.active, .navbar #block-views-product-menu-block .view .view-content .views-row a.active, .navbar .second-views-menu .view-product-menu .view-content .views-row a.active, .navbar .second-views-menu .view .view-content .views-row a.active {
   color: #43bfef;
   border-bottom: 2px solid #43bfef;
 }
-/* line 235, ../sass/custom/_header.scss */
+/* line 234, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu .view-content .block-title, .navbar #block-views-product-menu-block .view .view-content .block-title, .navbar .second-views-menu .view-product-menu .view-content .block-title, .navbar .second-views-menu .view .view-content .block-title {
   display: inline-block;
   border-right: 1px solid #6a6a6a;
@@ -406,12 +398,12 @@ a:focus,a:hover{
 }
 
 /*css for ie */
-/* line 258, ../sass/custom/_header.scss */
+/* line 257, ../sass/custom/_header.scss */
 .ie .navbar .container .navbar-header .logo {
   padding: 0 0 0 75px;
 }
 
-/* line 267, ../sass/custom/_header.scss */
+/* line 266, ../sass/custom/_header.scss */
 #home-block-block-2:before,
 #home-block-block-3:before,
 #home-block-block-4:before,
@@ -425,7 +417,7 @@ a:focus,a:hover{
   visibility: hidden;
 }
 
-/* line 279, ../sass/custom/_header.scss */
+/* line 278, ../sass/custom/_header.scss */
 #program-1:before, #program-2:before,
 #program-3:before, #program-4:before,
 #program-5:before, #program-6:before,
@@ -2748,16 +2740,17 @@ a:focus,a:hover{
 
 /* line 1902, ../sass/custom/_project.scss */
 .detail-product-applications-wrap {
-  display: inline-block;
+  max-width: 1200px;
+  margin: auto;
   width: 100%;
   padding: 50px 40px 40px;
 }
-/* line 1906, ../sass/custom/_project.scss */
+/* line 1907, ../sass/custom/_project.scss */
 .detail-product-applications-wrap .product-applications {
   width: 60%;
   float: left;
 }
-/* line 1909, ../sass/custom/_project.scss */
+/* line 1910, ../sass/custom/_project.scss */
 .detail-product-applications-wrap .product-applications .application-label {
   font-size: 30px;
   font-family: OpenSans;
@@ -2766,7 +2759,7 @@ a:focus,a:hover{
   margin-top: -13px;
   padding-bottom: 5px;
 }
-/* line 1917, ../sass/custom/_project.scss */
+/* line 1918, ../sass/custom/_project.scss */
 .detail-product-applications-wrap .product-applications .application-detail {
   font-size: 16px;
   color: #6a6a6a;
@@ -2774,13 +2767,26 @@ a:focus,a:hover{
   line-height: 1.5em;
 }
 
-/* line 1925, ../sass/custom/_project.scss */
+/* line 1926, ../sass/custom/_project.scss */
+.product-application-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 1930, ../sass/custom/_project.scss */
 .product-images {
   float: right;
   width: 25%;
 }
 
-/* line 1929, ../sass/custom/_project.scss */
+/* line 1934, ../sass/custom/_project.scss */
+.detail-sp-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+/* line 1939, ../sass/custom/_project.scss */
 .detail-sp-label {
   padding: 0 0 20px 40px;
   font-size: 30px;
@@ -2789,31 +2795,31 @@ a:focus,a:hover{
   line-height: 1.5em;
 }
 
-/* line 1936, ../sass/custom/_project.scss */
+/* line 1946, ../sass/custom/_project.scss */
 .detail-product-specification {
   width: 80%;
   margin: 0 auto;
   padding-bottom: 40px;
 }
-/* line 1940, ../sass/custom/_project.scss */
+/* line 1950, ../sass/custom/_project.scss */
 .detail-product-specification table {
   background-color: transparent;
   width: 100%;
   margin-bottom: 40px;
   border: 1px solid #43bfef;
 }
-/* line 1945, ../sass/custom/_project.scss */
+/* line 1955, ../sass/custom/_project.scss */
 .detail-product-specification table tbody {
   display: inline-block;
   width: 100%;
 }
-/* line 1949, ../sass/custom/_project.scss */
+/* line 1959, ../sass/custom/_project.scss */
 .detail-product-specification table tbody tr {
   display: inline-block;
   width: 100%;
   border: 1px solid #43bfef;
 }
-/* line 1953, ../sass/custom/_project.scss */
+/* line 1963, ../sass/custom/_project.scss */
 .detail-product-specification table tbody tr td {
   width: 50%;
   float: left;
@@ -2822,19 +2828,19 @@ a:focus,a:hover{
   font-family: OpenSans;
   color: #6a6a6a;
 }
-/* line 1960, ../sass/custom/_project.scss */
+/* line 1970, ../sass/custom/_project.scss */
 .detail-product-specification table tbody tr td:last-child {
   border-left: 2px solid #43bfef;
 }
 
-/* line 1970, ../sass/custom/_project.scss */
+/* line 1980, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-list {
   display: table;
   margin: auto;
   width: auto;
   position: relative;
 }
-/* line 1975, ../sass/custom/_project.scss */
+/* line 1985, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-list li {
   align-items: center;
   border-right: 1px solid #dedede !important;
@@ -2856,7 +2862,7 @@ a:focus,a:hover{
   font-family: OpenSans;
   color: #43bfef !important;
 }
-/* line 1995, ../sass/custom/_project.scss */
+/* line 2005, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-list li.resp-tab-active {
   color: #fff !important;
   background-color: #43bfef !important;
@@ -2866,7 +2872,7 @@ a:focus,a:hover{
   z-index: 1;
   position: relative;
 }
-/* line 2003, ../sass/custom/_project.scss */
+/* line 2013, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-list li.resp-tab-active:before {
   width: 0;
   height: 0;
@@ -2879,16 +2885,16 @@ a:focus,a:hover{
   border-top: 12px solid #43bfef;
   left: 36%;
 }
-/* line 2018, ../sass/custom/_project.scss */
+/* line 2028, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container {
   display: inline-block;
   width: 100%;
 }
-/* line 2021, ../sass/custom/_project.scss */
+/* line 2031, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango {
   background: #E6E6FA;
 }
-/* line 2023, ../sass/custom/_project.scss */
+/* line 2033, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-container-horizontal {
   width: 100%;
   height: auto;
@@ -2899,17 +2905,17 @@ a:focus,a:hover{
   max-width: 1025px;
   margin: 0 auto;
 }
-/* line 2033, ../sass/custom/_project.scss */
+/* line 2043, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-clip-horizontal {
   width: 100%;
   background: #E6E6FA;
   padding-top: 35px;
 }
-/* line 2037, ../sass/custom/_project.scss */
+/* line 2047, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-clip-horizontal .full-width {
   width: 1024px !important;
 }
-/* line 2041, ../sass/custom/_project.scss */
+/* line 2051, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item {
   width: 450px !important;
   margin: 0;
@@ -2919,13 +2925,13 @@ a:focus,a:hover{
   background: #E6E6FA;
   position: relative;
 }
-/* line 2049, ../sass/custom/_project.scss */
+/* line 2059, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item.height {
   height: 91px;
   width: 1024px !important;
   margin-left: 0;
 }
-/* line 2054, ../sass/custom/_project.scss */
+/* line 2064, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-title {
   position: absolute;
   bottom: 20.7%;
@@ -2936,7 +2942,7 @@ a:focus,a:hover{
   font-family: OpenSans;
   background: rgba(0, 0, 0, 0.4);
 }
-/* line 2064, ../sass/custom/_project.scss */
+/* line 2074, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-description {
   position: absolute;
   bottom: 10.3%;
@@ -2947,7 +2953,7 @@ a:focus,a:hover{
   font-family: OpenSans;
   background: rgba(0, 0, 0, 0.4);
 }
-/* line 2074, ../sass/custom/_project.scss */
+/* line 2084, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-video-title {
   position: absolute;
   bottom: 20%;
@@ -2957,7 +2963,7 @@ a:focus,a:hover{
   width: 100%;
   font-family: OpenSans;
 }
-/* line 2083, ../sass/custom/_project.scss */
+/* line 2093, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-video-description {
   position: absolute;
   bottom: 10%;
@@ -2967,13 +2973,13 @@ a:focus,a:hover{
   color: #fff;
   font-family: OpenSans;
 }
-/* line 2093, ../sass/custom/_project.scss */
+/* line 2103, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .product-no-result {
   font-size: 36px;
   font-family: OpenSans;
   color: #43bfef;
 }
-/* line 2098, ../sass/custom/_project.scss */
+/* line 2108, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-prev {
   background-image: url("../images/left.png");
   height: 40px;
@@ -2981,11 +2987,11 @@ a:focus,a:hover{
   top: 45%;
   background-repeat: no-repeat;
 }
-/* line 2104, ../sass/custom/_project.scss */
+/* line 2114, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-prev:hover {
   background-position: 0;
 }
-/* line 2108, ../sass/custom/_project.scss */
+/* line 2118, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-next {
   background-image: url("../images/right.png");
   height: 40px;
@@ -2995,20 +3001,20 @@ a:focus,a:hover{
   background-repeat: no-repeat;
   right: -20px;
 }
-/* line 2116, ../sass/custom/_project.scss */
+/* line 2126, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-next:hover {
   background-position: 0;
 }
-/* line 2121, ../sass/custom/_project.scss */
+/* line 2131, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video-gallery {
   display: inline-block;
   position: relative;
 }
-/* line 2124, ../sass/custom/_project.scss */
+/* line 2134, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video-gallery a {
   display: inline-block;
 }
-/* line 2126, ../sass/custom/_project.scss */
+/* line 2136, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video-gallery a:before {
   content: "";
   position: absolute;
@@ -3020,7 +3026,7 @@ a:focus,a:hover{
   z-index: 1;
   left: 44%;
 }
-/* line 2137, ../sass/custom/_project.scss */
+/* line 2147, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-container .views-field-field-product-video-gallery a:after {
   content: " ";
   background-color: #000;
@@ -3033,19 +3039,20 @@ a:focus,a:hover{
   opacity: .7;
 }
 
-/* line 2152, ../sass/custom/_project.scss */
+/* line 2162, ../sass/custom/_project.scss */
 .case-study {
   display: inline-block;
   width: 100%;
 }
 
-/* line 2156, ../sass/custom/_project.scss */
+/* line 2166, ../sass/custom/_project.scss */
 .view-case-study-for-products {
   padding: 0 40px 40px;
-  display: inline-block;
+  max-width: 1200px;
+  margin: auto;
   width: 100%;
 }
-/* line 2160, ../sass/custom/_project.scss */
+/* line 2171, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-title {
   font-size: 30px;
   color: #43bfef;
@@ -3054,14 +3061,14 @@ a:focus,a:hover{
   line-height: 1.2em;
   padding-bottom: 5px;
 }
-/* line 2168, ../sass/custom/_project.scss */
+/* line 2179, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-description {
   font-size: 16px;
   font-family: OpenSans;
   color: #6a6a6a;
   padding-bottom: 15px;
 }
-/* line 2174, ../sass/custom/_project.scss */
+/* line 2185, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -3079,52 +3086,52 @@ a:focus,a:hover{
   -webkit-box-shadow: 0px 4px 11px #6a6a6a;
   font-family: OpenSans;
 }
-/* line 2190, ../sass/custom/_project.scss */
+/* line 2201, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 2193, ../sass/custom/_project.scss */
+/* line 2204, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf:hover a {
   color: #fff;
 }
-/* line 2197, ../sass/custom/_project.scss */
+/* line 2208, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf a {
   color: #43bfef;
 }
 
 /*css for firefox for product page*/
-/* line 2209, ../sass/custom/_project.scss */
+/* line 2220, ../sass/custom/_project.scss */
 .ff #block-idei-custom-products-gallery-tab-block .resp-tabs-list li.resp-tab-active:before {
   bottom: -11px;
 }
-/* line 2218, ../sass/custom/_project.scss */
+/* line 2229, ../sass/custom/_project.scss */
 .ff #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-title {
   bottom: 21%;
 }
-/* line 2221, ../sass/custom/_project.scss */
+/* line 2232, ../sass/custom/_project.scss */
 .ff #block-idei-custom-products-gallery-tab-block .resp-tabs-container .jcarousel-skin-tango .jcarousel-item .field-name-field-description {
   bottom: 10.4%;
 }
 
 /*-----------------css ends for product-page----------------*/
 /*-----------------css for approach-inner-pages----------------*/
-/* line 2232, ../sass/custom/_project.scss */
+/* line 2243, ../sass/custom/_project.scss */
 .approach-content-wrapper {
   display: inline-block;
   width: 100%;
 }
-/* line 2235, ../sass/custom/_project.scss */
+/* line 2246, ../sass/custom/_project.scss */
 .approach-content-wrapper .shift-image {
   display: inline-block;
   float: left;
   padding: 20px 23px 20px 0;
 }
-/* line 2239, ../sass/custom/_project.scss */
+/* line 2250, ../sass/custom/_project.scss */
 .approach-content-wrapper .shift-image img {
   width: 100%;
 }
-/* line 2243, ../sass/custom/_project.scss */
+/* line 2254, ../sass/custom/_project.scss */
 .approach-content-wrapper .approach-content {
   font-size: 16px;
   color: #6a6a6a;
@@ -3133,11 +3140,11 @@ a:focus,a:hover{
   text-align: justify;
 }
 
-/* line 2252, ../sass/custom/_project.scss */
+/* line 2263, ../sass/custom/_project.scss */
 .node-type-approach-inner-pages .title-body-wrapper {
   padding-top: 0;
 }
-/* line 2255, ../sass/custom/_project.scss */
+/* line 2266, ../sass/custom/_project.scss */
 .node-type-approach-inner-pages .approach-title {
   padding-top: 35px;
   background-image: url("../images/approachdrop.png");
@@ -3146,43 +3153,43 @@ a:focus,a:hover{
   background-position: 67% 100%;
   height: 76px;
 }
-/* line 2264, ../sass/custom/_project.scss */
+/* line 2275, ../sass/custom/_project.scss */
 .node-type-approach-inner-pages.page-node-58 .approach-title {
   background-position: 65% 100%;
 }
 
 /*-----------------css ends for approach-inner-pages----------------*/
 /*-----------------css for product-promotional-activity-page----------------*/
-/* line 2272, ../sass/custom/_project.scss */
+/* line 2283, ../sass/custom/_project.scss */
 .promotional-wrapper {
   width: 100%;
   display: inline-block;
   padding: 40px 40px 0;
 }
-/* line 2276, ../sass/custom/_project.scss */
+/* line 2287, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block {
   width: 70%;
   margin: 0 auto;
 }
-/* line 2279, ../sass/custom/_project.scss */
+/* line 2290, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block .activity-wrap {
   display: inline-block;
   width: 100%;
   padding-bottom: 30px;
 }
-/* line 2284, ../sass/custom/_project.scss */
+/* line 2295, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block .activity-title-wrap {
   float: right;
   width: 100%;
   font-family: OpenSans;
   margin-top: -9px;
 }
-/* line 2290, ../sass/custom/_project.scss */
+/* line 2301, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block .activity-title {
   font-size: 30px;
   color: #43bfef;
 }
-/* line 2294, ../sass/custom/_project.scss */
+/* line 2305, ../sass/custom/_project.scss */
 .promotional-wrapper .promotional-block .activity-description {
   font-size: 16px;
   color: #6a6a6a;
@@ -3191,16 +3198,16 @@ a:focus,a:hover{
 
 /*-----------------css ends for product-promotional-activity-page----------------*/
 /*--------css for publication, annual-report-page,archive-documents and volunteers-page------*/
-/* line 2305, ../sass/custom/_project.scss */
+/* line 2316, ../sass/custom/_project.scss */
 .page-annual-report-page .main-container {
   padding: 71px 0 0;
 }
 
-/* line 2311, ../sass/custom/_project.scss */
+/* line 2322, ../sass/custom/_project.scss */
 .page-volunteers .view-volunteers-page .economic-inner-title {
   padding-bottom: 8px;
 }
-/* line 2315, ../sass/custom/_project.scss */
+/* line 2326, ../sass/custom/_project.scss */
 .page-volunteers .view-volunteers-page .view-header p {
   color: #27579c;
   font-size: 23px;
@@ -3210,35 +3217,35 @@ a:focus,a:hover{
   width: 80%;
   font-style: italic;
 }
-/* line 2326, ../sass/custom/_project.scss */
+/* line 2337, ../sass/custom/_project.scss */
 .page-volunteers .pub-wrap {
   border-top: none;
 }
-/* line 2328, ../sass/custom/_project.scss */
+/* line 2339, ../sass/custom/_project.scss */
 .page-volunteers .pub-wrap .pub-title, .page-volunteers .pub-wrap .pub-download {
   display: none;
 }
 
-/* line 2336, ../sass/custom/_project.scss */
+/* line 2347, ../sass/custom/_project.scss */
 .view-annual-report-page .view-header-banner .view-content, .view-volunteers-page .view-header-banner .view-content {
   width: 100%;
   max-width: 100% !important;
   margin: 0 auto;
   padding: 0;
 }
-/* line 2343, ../sass/custom/_project.scss */
+/* line 2354, ../sass/custom/_project.scss */
 .view-annual-report-page .view-content, .view-volunteers-page .view-content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 40px;
 }
-/* line 2349, ../sass/custom/_project.scss */
+/* line 2360, ../sass/custom/_project.scss */
 .view-annual-report-page .economic-inner-title, .view-volunteers-page .economic-inner-title {
   padding: 37px 0 40px;
 }
 
-/* line 2353, ../sass/custom/_project.scss */
+/* line 2364, ../sass/custom/_project.scss */
 .publication-listing {
   margin: 0 auto;
   max-width: 1200px;
@@ -3246,19 +3253,19 @@ a:focus,a:hover{
   width: 100%;
 }
 
-/* line 2359, ../sass/custom/_project.scss */
+/* line 2370, ../sass/custom/_project.scss */
 .pub-main-wrap {
   display: inline-block;
   width: 100%;
   padding-bottom: 40px;
 }
-/* line 2363, ../sass/custom/_project.scss */
+/* line 2374, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php {
   display: inline-block;
   width: 85%;
   float: right;
 }
-/* line 2367, ../sass/custom/_project.scss */
+/* line 2378, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php .pub-download {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -3276,21 +3283,21 @@ a:focus,a:hover{
   -webkit-box-shadow: 0px 4px 11px #6a6a6a;
   font-family: OpenSans;
 }
-/* line 2383, ../sass/custom/_project.scss */
+/* line 2394, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php .pub-download a {
   color: #43bfef;
 }
-/* line 2386, ../sass/custom/_project.scss */
+/* line 2397, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php .pub-download:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 2389, ../sass/custom/_project.scss */
+/* line 2400, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php .pub-download:hover a {
   color: #fff;
 }
 
-/* line 2396, ../sass/custom/_project.scss */
+/* line 2407, ../sass/custom/_project.scss */
 .pub-img {
   float: left;
   width: 15%;
@@ -3298,14 +3305,14 @@ a:focus,a:hover{
   vertical-align: top;
 }
 
-/* line 2402, ../sass/custom/_project.scss */
+/* line 2413, ../sass/custom/_project.scss */
 .pub-wrap {
   float: left;
   width: 85%;
   border-top: 1px solid #6a6a6a;
   padding-top: 10px;
 }
-/* line 2407, ../sass/custom/_project.scss */
+/* line 2418, ../sass/custom/_project.scss */
 .pub-wrap .pub-title {
   font-size: 28px;
   font-family: OpenSans;
@@ -3314,14 +3321,14 @@ a:focus,a:hover{
   line-height: 1.5em;
   padding-bottom: 20px;
 }
-/* line 2415, ../sass/custom/_project.scss */
+/* line 2426, ../sass/custom/_project.scss */
 .pub-wrap .pub-desc {
   font-size: 16px;
   font-family: OpenSans;
   color: #6a6a6a;
   padding-bottom: 30px;
 }
-/* line 2421, ../sass/custom/_project.scss */
+/* line 2432, ../sass/custom/_project.scss */
 .pub-wrap .pub-download {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -3339,45 +3346,45 @@ a:focus,a:hover{
   -webkit-box-shadow: 0px 4px 11px #6a6a6a;
   font-family: OpenSans;
 }
-/* line 2437, ../sass/custom/_project.scss */
+/* line 2448, ../sass/custom/_project.scss */
 .pub-wrap .pub-download a {
   color: #43bfef;
 }
-/* line 2440, ../sass/custom/_project.scss */
+/* line 2451, ../sass/custom/_project.scss */
 .pub-wrap .pub-download:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 2443, ../sass/custom/_project.scss */
+/* line 2454, ../sass/custom/_project.scss */
 .pub-wrap .pub-download:hover a {
   color: #fff;
 }
 
-/* line 2449, ../sass/custom/_project.scss */
+/* line 2460, ../sass/custom/_project.scss */
 .pagination {
   padding-bottom: 30px;
 }
-/* line 2451, ../sass/custom/_project.scss */
+/* line 2462, ../sass/custom/_project.scss */
 .pagination .pager-first, .pagination .pager-last {
   display: none;
 }
-/* line 2455, ../sass/custom/_project.scss */
+/* line 2466, ../sass/custom/_project.scss */
 .pagination li a {
   border: 1px solid #43bfef;
   font-size: 16px;
   color: #27579c;
 }
-/* line 2459, ../sass/custom/_project.scss */
+/* line 2470, ../sass/custom/_project.scss */
 .pagination li a:hover, .pagination li a:focus {
   background-color: #43bfef;
   color: #fff;
   border-color: #43bfef;
 }
-/* line 2465, ../sass/custom/_project.scss */
+/* line 2476, ../sass/custom/_project.scss */
 .pagination li span {
   border: 1px solid #43bfef;
 }
-/* line 2469, ../sass/custom/_project.scss */
+/* line 2480, ../sass/custom/_project.scss */
 .pagination li.active span {
   background-color: #43bfef;
   color: #fff;
@@ -3385,39 +3392,39 @@ a:focus,a:hover{
   padding: 4.5px 12px;
   border-color: #43bfef;
 }
-/* line 2475, ../sass/custom/_project.scss */
+/* line 2486, ../sass/custom/_project.scss */
 .pagination li.active span:hover {
   background-color: #27579c;
 }
 
-/* line 2483, ../sass/custom/_project.scss */
+/* line 2494, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component {
   margin-left: 6.5%;
   margin-right: 6.5%;
 }
-/* line 2487, ../sass/custom/_project.scss */
+/* line 2498, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component input.error {
   border: 1.5px solid red !important;
 }
-/* line 2492, ../sass/custom/_project.scss */
+/* line 2503, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component.webform-component--email .control-label, .webform-client-form-68 .webform-component.webform-component--occupation .control-label {
   height: 40px;
 }
-/* line 2496, ../sass/custom/_project.scss */
+/* line 2507, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component label {
   color: #fff;
 }
-/* line 2498, ../sass/custom/_project.scss */
+/* line 2509, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component label .form-required {
   color: red;
 }
-/* line 2503, ../sass/custom/_project.scss */
+/* line 2514, ../sass/custom/_project.scss */
 .webform-client-form-68 .form-actions {
   margin: 0 auto;
   width: 107px;
   margin-bottom: 10px;
 }
-/* line 2507, ../sass/custom/_project.scss */
+/* line 2518, ../sass/custom/_project.scss */
 .webform-client-form-68 .form-actions .btn-default {
   color: #27579c;
   background-color: #fff;
@@ -3425,26 +3432,26 @@ a:focus,a:hover{
   font-size: 16px;
 }
 
-/* line 2516, ../sass/custom/_project.scss */
+/* line 2527, ../sass/custom/_project.scss */
 .node-type-publications .alert-block {
   display: none;
 }
-/* line 2519, ../sass/custom/_project.scss */
+/* line 2530, ../sass/custom/_project.scss */
 .node-type-publications .economic-inner-title {
   padding-top: 37px;
 }
 
-/* line 2523, ../sass/custom/_project.scss */
+/* line 2534, ../sass/custom/_project.scss */
 article#node-68 {
   background: #27579c;
   border-radius: 5px;
 }
-/* line 2526, ../sass/custom/_project.scss */
+/* line 2537, ../sass/custom/_project.scss */
 article#node-68 h2 {
   text-align: center;
   margin-top: 10px;
 }
-/* line 2529, ../sass/custom/_project.scss */
+/* line 2540, ../sass/custom/_project.scss */
 article#node-68 h2 a {
   color: #fff;
   pointer-events: none;
@@ -3453,38 +3460,38 @@ article#node-68 h2 a {
 /*----------css ends for publication,volunteers,archive-document annual-report-page-------*/
 /*---------------------css for about-us page-------------------------*/
 /*--------------------css for our team node page-------------------*/
-/* line 2541, ../sass/custom/_project.scss */
+/* line 2552, ../sass/custom/_project.scss */
 .about-main-wrapper {
   max-width: 1200px;
   width: 100%;
   margin: auto;
 }
 
-/* line 2546, ../sass/custom/_project.scss */
+/* line 2557, ../sass/custom/_project.scss */
 .about-wrapper {
   display: inline-block;
   width: 100%;
   padding: 52px 40px;
 }
 
-/* line 2551, ../sass/custom/_project.scss */
+/* line 2562, ../sass/custom/_project.scss */
 .about-pic-wrapper {
   width: 25%;
   float: left;
 }
-/* line 2554, ../sass/custom/_project.scss */
+/* line 2565, ../sass/custom/_project.scss */
 .about-pic-wrapper img {
   border-radius: 100%;
 }
 
-/* line 2558, ../sass/custom/_project.scss */
+/* line 2569, ../sass/custom/_project.scss */
 .about-text-wrapper {
   width: 75%;
   float: right;
   font-family: OpenSans;
 }
 
-/* line 2563, ../sass/custom/_project.scss */
+/* line 2574, ../sass/custom/_project.scss */
 .about-title {
   font-size: 36px;
   color: #43bfef;
@@ -3494,14 +3501,14 @@ article#node-68 h2 a {
   font-weight: bold;
 }
 
-/* line 2571, ../sass/custom/_project.scss */
+/* line 2582, ../sass/custom/_project.scss */
 .about-designation {
   font-size: 25px;
   color: #27579c;
   padding-bottom: 28px;
 }
 
-/* line 2576, ../sass/custom/_project.scss */
+/* line 2587, ../sass/custom/_project.scss */
 .about-description {
   font-size: 16px;
   line-height: 1.5em;
@@ -3511,21 +3518,21 @@ article#node-68 h2 a {
 
 /*--------------------css ends for our team node page-------------------*/
 /*--------------------css for our team listing page-------------------*/
-/* line 2587, ../sass/custom/_project.scss */
+/* line 2598, ../sass/custom/_project.scss */
 .view-about-us .view-header-banner .view-content {
   max-width: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 2592, ../sass/custom/_project.scss */
+/* line 2603, ../sass/custom/_project.scss */
 .view-about-us .view-header-banner .view-content .views-row {
   width: 100%;
   float: none;
   padding: 0;
   margin-bottom: 0;
 }
-/* line 2597, ../sass/custom/_project.scss */
+/* line 2608, ../sass/custom/_project.scss */
 .view-about-us .view-header-banner .view-content .views-row .views-field.views-field-nothing {
   box-shadow: none;
   border: none;
@@ -3533,28 +3540,28 @@ article#node-68 h2 a {
   -webkit-transition: none;
   -moz-transition: none;
 }
-/* line 2603, ../sass/custom/_project.scss */
+/* line 2614, ../sass/custom/_project.scss */
 .view-about-us .view-header-banner .view-content .views-row .views-field.views-field-nothing:hover {
   -webkit-transform: none;
   -moz-transform: none;
   transform: none;
   box-shadow: none;
 }
-/* line 2613, ../sass/custom/_project.scss */
+/* line 2624, ../sass/custom/_project.scss */
 .view-about-us .view-content {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 22px 40px 23px;
 }
-/* line 2618, ../sass/custom/_project.scss */
+/* line 2629, ../sass/custom/_project.scss */
 .view-about-us .view-content .views-row {
   width: 49%;
   display: inline-block;
   padding-left: 20px;
   margin-bottom: 20px;
 }
-/* line 2623, ../sass/custom/_project.scss */
+/* line 2634, ../sass/custom/_project.scss */
 .view-about-us .view-content .views-row .views-field.views-field-nothing {
   border: solid 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
@@ -3564,29 +3571,29 @@ article#node-68 h2 a {
   transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
 }
-/* line 2631, ../sass/custom/_project.scss */
+/* line 2642, ../sass/custom/_project.scss */
 .view-about-us .view-content .views-row .views-field.views-field-nothing:hover {
   webkit-transform: translateY(-1px);
   transform: translateY(-1px);
   box-shadow: 0 10px 20px 0 rgba(168, 182, 191, 0.6);
 }
-/* line 2639, ../sass/custom/_project.scss */
+/* line 2650, ../sass/custom/_project.scss */
 .view-about-us .profile-wrapper {
   display: table;
   width: 100%;
   vertical-align: middle;
 }
-/* line 2643, ../sass/custom/_project.scss */
+/* line 2654, ../sass/custom/_project.scss */
 .view-about-us .profile-wrapper .profile-pic {
   width: 48%;
   display: table-cell;
   vertical-align: middle;
 }
-/* line 2647, ../sass/custom/_project.scss */
+/* line 2658, ../sass/custom/_project.scss */
 .view-about-us .profile-wrapper .profile-pic img {
   width: 100%;
 }
-/* line 2652, ../sass/custom/_project.scss */
+/* line 2663, ../sass/custom/_project.scss */
 .view-about-us .profile-title-wrap {
   width: 52%;
   display: table-cell;
@@ -3595,7 +3602,7 @@ article#node-68 h2 a {
   text-align: center;
   padding-right: 10px;
 }
-/* line 2660, ../sass/custom/_project.scss */
+/* line 2671, ../sass/custom/_project.scss */
 .view-about-us .profile-title {
   font-size: 25px;
   font-family: OpenSans;
@@ -3603,7 +3610,7 @@ article#node-68 h2 a {
   padding-bottom: 7px;
   color: #43bfef;
 }
-/* line 2667, ../sass/custom/_project.scss */
+/* line 2678, ../sass/custom/_project.scss */
 .view-about-us .profile-designation {
   font-size: 16px;
   font-family: OpenSans;
@@ -3611,7 +3618,7 @@ article#node-68 h2 a {
   line-height: 1.3em;
   padding-bottom: 7px;
 }
-/* line 2674, ../sass/custom/_project.scss */
+/* line 2685, ../sass/custom/_project.scss */
 .view-about-us .profile-path {
   font-size: 14px;
   text-transform: capitalize;
@@ -3624,66 +3631,74 @@ article#node-68 h2 a {
   background-position: 31% 0;
   background-size: 20px;
 }
-/* line 2685, ../sass/custom/_project.scss */
+/* line 2696, ../sass/custom/_project.scss */
 .view-about-us .profile-path a {
   color: #27579c;
 }
-/* line 2689, ../sass/custom/_project.scss */
+/* line 2700, ../sass/custom/_project.scss */
 .view-about-us .twitter-link {
   background-image: url("../images/twitter-logo-blue.png");
   background-repeat: no-repeat;
   background-size: 25px;
 }
-/* line 2693, ../sass/custom/_project.scss */
+/* line 2704, ../sass/custom/_project.scss */
 .view-about-us .twitter-link a {
   color: #27579c;
 }
-/* line 2695, ../sass/custom/_project.scss */
+/* line 2706, ../sass/custom/_project.scss */
 .view-about-us .twitter-link a:hover {
   color: #27579c;
 }
-/* line 2701, ../sass/custom/_project.scss */
+/* line 2712, ../sass/custom/_project.scss */
 .view-about-us .views-row-1 .twitter-link {
   background-position: 27% 0;
 }
-/* line 2706, ../sass/custom/_project.scss */
+/* line 2717, ../sass/custom/_project.scss */
 .view-about-us .views-row-2 .twitter-link {
   background-position: 22% 0;
 }
-/* line 2711, ../sass/custom/_project.scss */
+/* line 2722, ../sass/custom/_project.scss */
 .view-about-us .views-row-5 .twitter-link {
   background-position: 18% 0;
 }
-/* line 2716, ../sass/custom/_project.scss */
+/* line 2727, ../sass/custom/_project.scss */
 .view-about-us .views-row-6 .twitter-link {
   background-position: 30% 0;
 }
-/* line 2721, ../sass/custom/_project.scss */
+/* line 2732, ../sass/custom/_project.scss */
 .view-about-us .views-row-7 .twitter-link {
   background-position: 33% 0;
 }
 
-/* line 2726, ../sass/custom/_project.scss */
+/* line 2737, ../sass/custom/_project.scss */
 .economic-inner-title.team {
   padding-top: 37px;
 }
 
-/*--------------------css for our team listing page-------------------*/
+/*--------------------css ends for our team listing page-------------------*/
+/*--------------------css for key-differntiators-------------------*/
+/* line 2744, ../sass/custom/_project.scss */
+.page-node-108 .approach-content-wrapper .shift-image {
+  max-width: 475px;
+  width: 100%;
+}
+
+/*--------------------css ends for key-differntiators-------------------*/
 /*css for idei-capability-statement page */
-/* line 2733, ../sass/custom/_project.scss */
+/* line 2754, ../sass/custom/_project.scss */
 .node-type-about-idei table {
   width: 100%;
   margin: 25px 0;
 }
-/* line 2736, ../sass/custom/_project.scss */
+/* line 2757, ../sass/custom/_project.scss */
 .node-type-about-idei table td {
   border: 1px solid #6a6a6a;
 }
-/* line 2738, ../sass/custom/_project.scss */
+/* line 2759, ../sass/custom/_project.scss */
 .node-type-about-idei table td p {
   margin-bottom: 0;
 }
-/* line 2744, ../sass/custom/_project.scss */
+/* line 2765, ../sass/custom/_project.scss */
 .node-type-about-idei .approach-content img {
   width: 100% !important;
   max-width: 100%;
@@ -3692,7 +3707,7 @@ article#node-68 h2 a {
   margin-top: 25px;
 }
 
-/* line 2755, ../sass/custom/_project.scss */
+/* line 2776, ../sass/custom/_project.scss */
 .page-node-107 .approach-content img {
   width: auto !important;
   height: auto !important;
@@ -3702,12 +3717,12 @@ article#node-68 h2 a {
   margin-bottom: 10px;
 }
 
-/* line 2767, ../sass/custom/_project.scss */
+/* line 2788, ../sass/custom/_project.scss */
 .page-node-105 .approach-content-wrapper .shift-image {
   display: none;
 }
 
-/* line 2774, ../sass/custom/_project.scss */
+/* line 2795, ../sass/custom/_project.scss */
 .approach-content p strong {
   color: #27579c;
   font-size: 18px;
@@ -3716,7 +3731,7 @@ article#node-68 h2 a {
 /*css ends for idei-capability-statement page */
 /*---------------------css for about-us page-------------------------*/
 /*---------------------css for donors and knowledge-partners page------------------*/
-/* line 2787, ../sass/custom/_project.scss */
+/* line 2808, ../sass/custom/_project.scss */
 .page-donors .economic-inner-title.team, .page-knowledge-partners .economic-inner-title.team, .page-global-networking-platforms .economic-inner-title.team {
   background-image: url("../images/drop.png");
   background-repeat: no-repeat;
@@ -3727,17 +3742,17 @@ article#node-68 h2 a {
   margin: auto;
 }
 
-/* line 2798, ../sass/custom/_project.scss */
+/* line 2819, ../sass/custom/_project.scss */
 .page-global-networking-platforms .economic-inner-title.team {
   background-position: 80.5% 100%;
 }
 
-/* line 2803, ../sass/custom/_project.scss */
+/* line 2824, ../sass/custom/_project.scss */
 .page-donors .economic-inner-title.team {
   background-position: 67.8% 100%;
 }
 
-/* line 2809, ../sass/custom/_project.scss */
+/* line 2830, ../sass/custom/_project.scss */
 .view-donors .view-header p, .view-knowledge-partners .view-header p, .view-global-networking-platforms .view-header p {
   color: #6a6a6a;
   font-size: 16px;
@@ -3747,34 +3762,34 @@ article#node-68 h2 a {
   text-align: center;
   width: 80%;
 }
-/* line 2820, ../sass/custom/_project.scss */
+/* line 2841, ../sass/custom/_project.scss */
 .view-donors .view-header-banner .view-content, .view-knowledge-partners .view-header-banner .view-content, .view-global-networking-platforms .view-header-banner .view-content {
   max-width: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 2825, ../sass/custom/_project.scss */
+/* line 2846, ../sass/custom/_project.scss */
 .view-donors .view-header-banner .view-content .views-row, .view-knowledge-partners .view-header-banner .view-content .views-row, .view-global-networking-platforms .view-header-banner .view-content .views-row {
   width: 100%;
   float: none;
   padding: 0;
   margin-bottom: 0;
 }
-/* line 2833, ../sass/custom/_project.scss */
+/* line 2854, ../sass/custom/_project.scss */
 .view-donors .view-content, .view-knowledge-partners .view-content, .view-global-networking-platforms .view-content {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 22px 40px 23px;
 }
-/* line 2838, ../sass/custom/_project.scss */
+/* line 2859, ../sass/custom/_project.scss */
 .view-donors .view-content .views-row, .view-knowledge-partners .view-content .views-row, .view-global-networking-platforms .view-content .views-row {
   margin-bottom: 25px;
   display: table;
   width: 100%;
 }
-/* line 2843, ../sass/custom/_project.scss */
+/* line 2864, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-field-donor-logo, .view-donors .view-content .views-field-field-knowledge-partner-logo,
 .view-donors .view-content .views-field-field-global-networking-logo, .view-knowledge-partners .view-content .views-field-field-donor-logo, .view-knowledge-partners .view-content .views-field-field-knowledge-partner-logo,
 .view-knowledge-partners .view-content .views-field-field-global-networking-logo, .view-global-networking-platforms .view-content .views-field-field-donor-logo, .view-global-networking-platforms .view-content .views-field-field-knowledge-partner-logo,
@@ -3786,7 +3801,7 @@ article#node-68 h2 a {
   min-height: 60px;
   display: table-cell;
 }
-/* line 2852, ../sass/custom/_project.scss */
+/* line 2873, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title, .view-knowledge-partners .view-content .views-field-title, .view-global-networking-platforms .view-content .views-field-title {
   width: 65%;
   float: right;
@@ -3796,18 +3811,18 @@ article#node-68 h2 a {
   display: table-cell;
   height: 100%;
 }
-/* line 2860, ../sass/custom/_project.scss */
+/* line 2881, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title a, .view-knowledge-partners .view-content .views-field-title a, .view-global-networking-platforms .view-content .views-field-title a {
   color: #6a6a6a;
 }
-/* line 2862, ../sass/custom/_project.scss */
+/* line 2883, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-title a:hover, .view-knowledge-partners .view-content .views-field-title a:hover, .view-global-networking-platforms .view-content .views-field-title a:hover {
   color: #43bfef;
 }
 
 /*---------------------css ends for donors page----------------------------*/
 /*---------------------css for archive-listing page----------------------------*/
-/* line 2876, ../sass/custom/_project.scss */
+/* line 2897, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-header .archive-title {
   font-size: 36px;
   color: #43bfef;
@@ -3817,28 +3832,28 @@ article#node-68 h2 a {
   padding-top: 40px;
   font-weight: bold;
 }
-/* line 2885, ../sass/custom/_project.scss */
+/* line 2906, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-header .view-content {
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 2889, ../sass/custom/_project.scss */
+/* line 2910, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-header .view-content .views-row {
   width: 100%;
   float: none;
   margin: 0;
   position: static;
 }
-/* line 2895, ../sass/custom/_project.scss */
+/* line 2916, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-header .view-content .views-row:hover .views-field-name {
   transform: none;
 }
-/* line 2898, ../sass/custom/_project.scss */
+/* line 2919, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-header .view-content .views-row:hover:before {
   background: transparent;
 }
-/* line 2902, ../sass/custom/_project.scss */
+/* line 2923, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-header .view-content .views-row:before {
   position: static;
   top: 0;
@@ -3848,14 +3863,14 @@ article#node-68 h2 a {
   background: transparent;
   transition: none;
 }
-/* line 2914, ../sass/custom/_project.scss */
+/* line 2935, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-content {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 22px 40px 23px;
 }
-/* line 2919, ../sass/custom/_project.scss */
+/* line 2940, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-content .views-row {
   width: 45%;
   float: left;
@@ -3864,15 +3879,15 @@ article#node-68 h2 a {
   margin-bottom: 3%;
   overflow: hidden;
 }
-/* line 2927, ../sass/custom/_project.scss */
+/* line 2948, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-content .views-row:hover .views-field-name {
   transform: translateY(0);
 }
-/* line 2930, ../sass/custom/_project.scss */
+/* line 2951, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-content .views-row:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 2934, ../sass/custom/_project.scss */
+/* line 2955, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-content .views-row:before {
   content: ' ';
   position: absolute;
@@ -3883,7 +3898,7 @@ article#node-68 h2 a {
   background: transparent;
   transition: background .35s ease-out;
 }
-/* line 2945, ../sass/custom/_project.scss */
+/* line 2966, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-content .views-field-name {
   position: absolute;
   top: 40%;
@@ -3900,22 +3915,22 @@ article#node-68 h2 a {
   transform: translateY(100%);
   transition: transform .35s ease-out;
 }
-/* line 2960, ../sass/custom/_project.scss */
+/* line 2981, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-content .views-field-name a {
   color: #fff;
 }
-/* line 2965, ../sass/custom/_project.scss */
+/* line 2986, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-footer {
   display: inline-block;
   width: 100%;
 }
-/* line 2969, ../sass/custom/_project.scss */
+/* line 2990, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2, .main-container .view-archive-.view-display-id-block_4, .main-container .view-archive-.view-display-id-block_6 {
   display: inline-block;
   width: 100%;
   padding-top: 30px;
 }
-/* line 2973, ../sass/custom/_project.scss */
+/* line 2994, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-header, .main-container .view-archive-.view-display-id-block_4 .view-header, .main-container .view-archive-.view-display-id-block_6 .view-header {
   width: 100%;
   text-align: center;
@@ -3925,7 +3940,7 @@ article#node-68 h2 a {
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 2983, ../sass/custom/_project.scss */
+/* line 3004, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-content .views-row, .main-container .view-archive-.view-display-id-block_4 .view-content .views-row, .main-container .view-archive-.view-display-id-block_6 .view-content .views-row {
   width: 27%;
   float: left;
@@ -3933,19 +3948,19 @@ article#node-68 h2 a {
   position: relative;
   margin-bottom: 5%;
 }
-/* line 2990, ../sass/custom/_project.scss */
+/* line 3011, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-name, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-name, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-name {
   top: 35%;
 }
-/* line 2992, ../sass/custom/_project.scss */
+/* line 3013, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-name a, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-name a, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-name a {
   color: #fff;
 }
-/* line 2997, ../sass/custom/_project.scss */
+/* line 3018, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-field-promotional-feature-video a, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-field-promotional-feature-video a, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-field-promotional-feature-video a {
   display: inline-block;
 }
-/* line 2999, ../sass/custom/_project.scss */
+/* line 3020, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-field-promotional-feature-video a:before, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-field-promotional-feature-video a:before, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-field-promotional-feature-video a:before {
   content: "";
   position: absolute;
@@ -3957,7 +3972,7 @@ article#node-68 h2 a {
   z-index: 1;
   left: 0;
 }
-/* line 3016, ../sass/custom/_project.scss */
+/* line 3037, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_4 .view-content .views-row {
   width: 45%;
   float: left;
@@ -3965,15 +3980,15 @@ article#node-68 h2 a {
   position: relative;
   margin-bottom: 3%;
 }
-/* line 3023, ../sass/custom/_project.scss */
+/* line 3044, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_4 .view-content .views-row:hover .views-field-name {
   transform: none;
 }
-/* line 3026, ../sass/custom/_project.scss */
+/* line 3047, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_4 .view-content .views-row:hover:before {
   background: transparent;
 }
-/* line 3030, ../sass/custom/_project.scss */
+/* line 3051, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_4 .view-content .views-row:before {
   position: static;
   top: 0;
@@ -3983,7 +3998,7 @@ article#node-68 h2 a {
   background: transparent;
   transition: none;
 }
-/* line 3040, ../sass/custom/_project.scss */
+/* line 3061, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-name {
   position: static;
   color: #27579c;
@@ -3992,22 +4007,22 @@ article#node-68 h2 a {
   transform: none;
   transition: none;
 }
-/* line 3050, ../sass/custom/_project.scss */
+/* line 3071, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2, .main-container .view-archive-.view-display-id-block_6 {
   padding-top: 52px;
 }
-/* line 3053, ../sass/custom/_project.scss */
+/* line 3074, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_6 {
   padding-bottom: 21px;
 }
-/* line 3056, ../sass/custom/_project.scss */
+/* line 3077, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-name {
   top: 30%;
 }
 
 /*---------------------css ends for archive-listing page--------------------------*/
 /*---------------------css for archive-node page--------------------------*/
-/* line 3068, ../sass/custom/_project.scss */
+/* line 3089, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .node-title {
   padding-top: 40px;
   text-align: center;
@@ -4017,17 +4032,17 @@ article#node-68 h2 a {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 3078, ../sass/custom/_project.scss */
+/* line 3099, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-header .view-content {
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 3083, ../sass/custom/_project.scss */
+/* line 3104, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-header .views-row {
   width: 100%;
 }
-/* line 3087, ../sass/custom/_project.scss */
+/* line 3108, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-content {
   max-width: 1200px;
   width: 100%;
@@ -4035,11 +4050,11 @@ article#node-68 h2 a {
   padding: 22px 40px 51px 50px;
   display: table;
 }
-/* line 3093, ../sass/custom/_project.scss */
+/* line 3114, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-content .views-row {
   float: left;
 }
-/* line 3095, ../sass/custom/_project.scss */
+/* line 3116, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-content .views-row .views-field.views-field-field-photographs-gallery {
   width: 100%;
   height: 100%;
@@ -4049,7 +4064,7 @@ article#node-68 h2 a {
   text-align: center;
   cursor: default;
 }
-/* line 3103, ../sass/custom/_project.scss */
+/* line 3124, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-content .views-row .views-field.views-field-field-photographs-gallery:hover img {
   -webkit-filter: grayscale(1) blur(0.5px);
   -moz-filter: grayscale(1) blur(0.5px);
@@ -4057,7 +4072,7 @@ article#node-68 h2 a {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
-/* line 3110, ../sass/custom/_project.scss */
+/* line 3131, ../sass/custom/_project.scss */
 .view-photo-gallery-archive- .view-content .views-row .views-field.views-field-field-photographs-gallery img {
   display: block;
   position: relative;
@@ -4066,7 +4081,7 @@ article#node-68 h2 a {
   height: 146px;
   width: 220px;
 }
-/* line 3123, ../sass/custom/_project.scss */
+/* line 3144, ../sass/custom/_project.scss */
 .view-photo-gallery-archive-.view-display-id-page_4 .view-content .views-row {
   float: none;
 }
@@ -4074,78 +4089,81 @@ article#node-68 h2 a {
 /*---------------------css ends for archive-node page--------------------------*/
 /*---------------------css for Engage-section--------------------------*/
 /*---------------------css for contact-us page--------------------------*/
-/* line 3135, ../sass/custom/_project.scss */
+/* line 3156, ../sass/custom/_project.scss */
 .view-contact-us-page .view-footer {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 50px 40px 14px;
 }
-/* line 3141, ../sass/custom/_project.scss */
+/* line 3162, ../sass/custom/_project.scss */
 .view-contact-us-page .address-wrap {
   margin-bottom: 30px;
   display: inline-block;
   width: 100%;
 }
-/* line 3146, ../sass/custom/_project.scss */
+/* line 3167, ../sass/custom/_project.scss */
 .view-contact-us-page .address-block {
   float: left;
   width: 50%;
 }
-/* line 3150, ../sass/custom/_project.scss */
+/* line 3171, ../sass/custom/_project.scss */
 .view-contact-us-page .map-block {
   width: 50%;
   float: left;
 }
-/* line 3155, ../sass/custom/_project.scss */
+/* line 3176, ../sass/custom/_project.scss */
 .view-contact-us-page .delhi-address p {
   font-family: OpenSans;
   font-size: 16px;
   color: #6a6a6a;
 }
-/* line 3159, ../sass/custom/_project.scss */
+/* line 3180, ../sass/custom/_project.scss */
 .view-contact-us-page .delhi-address p:first-of-type {
   font-size: 36px;
   color: #43bfef;
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 3166, ../sass/custom/_project.scss */
+/* line 3187, ../sass/custom/_project.scss */
 .view-contact-us-page .delhi-address.odisha-address {
   padding-left: 60px;
 }
 
 /*---------------------css ends for contact-us page--------------------------*/
 /*---------------------css for donate page--------------------------*/
-/* line 3174, ../sass/custom/_project.scss */
+/* line 3195, ../sass/custom/_project.scss */
 .donate-div {
   position: relative;
+  margin-bottom: 10px;
 }
 
-/* line 3177, ../sass/custom/_project.scss */
+/* line 3199, ../sass/custom/_project.scss */
 .link-text {
   cursor: pointer;
+  color: #27579c;
+  font-weight: bold;
 }
 
-/* line 3180, ../sass/custom/_project.scss */
+/* line 3204, ../sass/custom/_project.scss */
 .donate-address {
-  width: 400px;
-  height: 127px;
-  padding: 16px 20px;
+  width: 390px;
+  height: 150px;
+  padding: 14px 27px;
   border: 1px solid #ccc;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   border-radius: 3px;
   -webkit-border-radius: 3px;
   position: absolute;
-  top: -126px;
+  top: -150px;
   right: 0;
   z-index: 100;
   background: #43bfef;
   color: #fff;
 }
-/* line 3195, ../sass/custom/_project.scss */
-.donate-address:before {
+/* line 3219, ../sass/custom/_project.scss */
+.donate-address:after {
   content: "";
   width: 0;
   height: 0;
@@ -4153,33 +4171,47 @@ article#node-68 h2 a {
   border-right: 8px solid transparent;
   border-top: 10px solid #43bfef;
   position: relative;
-  top: 116px;
-  left: 75px;
+  top: 46px;
+  right: 60px;
+}
+
+/* line 3233, ../sass/custom/_project.scss */
+.page-node-140 .approach-content img {
+  border: 2px solid #6a6a6a;
 }
 
 /*---------------------css ends for donate page--------------------------*/
 /*---------------------css ends for Engage-section--------------------------*/
 /*---------------------------css for water-section----------------------------*/
 /*---------------------css for water-introduction page--------------------------*/
-/* line 3214, ../sass/custom/_project.scss */
+/* line 3245, ../sass/custom/_project.scss */
 .node-type-water-inner-pages .economic-inner-title {
   padding-top: 14px;
+  display: none;
+}
+/* line 3250, ../sass/custom/_project.scss */
+.node-type-water-inner-pages .approach-content img {
+  margin: auto;
+  display: block;
 }
 
-/* line 3218, ../sass/custom/_project.scss */
+/* line 3256, ../sass/custom/_project.scss */
 .water-intro-slider {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 20px 0px 50px;
   position: relative;
+  overflow: hidden;
 }
-/* line 3225, ../sass/custom/_project.scss */
-.water-intro-slider #carousel img {
-  opacity: 1 !important;
-  background: #fff;
+/* line 3264, ../sass/custom/_project.scss */
+.water-intro-slider .carousel img {
+  vertical-align: middle;
+  width: 100%;
+  box-shadow: 0 0 12px #ccc;
+  border: 2px solid #ccc;
 }
-/* line 3230, ../sass/custom/_project.scss */
+/* line 3271, ../sass/custom/_project.scss */
 .water-intro-slider .prev-button {
   float: left;
   background-image: url("../images/left.png");
@@ -4187,20 +4219,23 @@ article#node-68 h2 a {
   width: 40px;
   background-repeat: no-repeat;
   position: relative;
-  top: 165px;
+  top: 100px;
+  left: 3px;
   z-index: 9;
+  box-shadow: 0px 0px 8px #ccc;
+  border-radius: 100%;
+  cursor: pointer;
 }
-/* line 3239, ../sass/custom/_project.scss */
-.water-intro-slider .prev-button a {
+/* line 3284, ../sass/custom/_project.scss */
+.water-intro-slider .prev-button #myCarousel1 {
   overflow: hidden;
   display: inline-block;
   width: 0;
   height: 40px;
   padding-left: 40px;
-  box-shadow: 1px 1px 11px 0px #ccc;
   border-radius: 100%;
 }
-/* line 3249, ../sass/custom/_project.scss */
+/* line 3293, ../sass/custom/_project.scss */
 .water-intro-slider .next-button {
   float: right;
   background-image: url("../images/right.png");
@@ -4208,26 +4243,30 @@ article#node-68 h2 a {
   width: 40px;
   background-repeat: no-repeat;
   position: relative;
-  top: 165px;
+  top: 100px;
+  right: 3px;
   z-index: 9;
+  box-shadow: 0px 0px 8px #ccc;
+  border-radius: 100%;
+  cursor: pointer;
 }
-/* line 3258, ../sass/custom/_project.scss */
-.water-intro-slider .next-button a {
+/* line 3306, ../sass/custom/_project.scss */
+.water-intro-slider .next-button #myCarousel2 {
   overflow: hidden;
   display: inline-block;
   width: 0;
   height: 40px;
   padding-left: 40px;
-  box-shadow: 1px 1px 11px 0px #ccc;
   border-radius: 100%;
 }
 
-/* line 3269, ../sass/custom/_project.scss */
+/* line 3316, ../sass/custom/_project.scss */
 .water-intro-content-wrap {
-  padding: 80px 40px 0;
+  padding: 0 40px 0;
+  text-align: center;
 }
 
-/* line 3272, ../sass/custom/_project.scss */
+/* line 3320, ../sass/custom/_project.scss */
 .water-intro-title {
   font-size: 30px;
   color: #43bfef;
@@ -4237,7 +4276,7 @@ article#node-68 h2 a {
   font-weight: bold;
 }
 
-/* line 3280, ../sass/custom/_project.scss */
+/* line 3328, ../sass/custom/_project.scss */
 .measure {
   font-size: 20px;
   font-family: OpenSans;
@@ -4246,7 +4285,7 @@ article#node-68 h2 a {
   padding-bottom: 5px;
 }
 
-/* line 3287, ../sass/custom/_project.scss */
+/* line 3335, ../sass/custom/_project.scss */
 .water-intro-description {
   font-size: 16px;
   color: #27579c;
@@ -4256,14 +4295,14 @@ article#node-68 h2 a {
 
 /*---------------------css ends for water-introduction page--------------------------*/
 /*---------------------css for water-media and idei in media page-----------------*/
-/* line 3299, ../sass/custom/_project.scss */
+/* line 3347, ../sass/custom/_project.scss */
 .view-media-listing .view-header-banner .view-content {
   width: 100%;
   max-width: 100% !important;
   margin: 0 auto;
   padding: 0;
 }
-/* line 3304, ../sass/custom/_project.scss */
+/* line 3352, ../sass/custom/_project.scss */
 .view-media-listing .view-header-banner .view-content .views-row {
   width: 100%;
   float: none;
@@ -4274,23 +4313,23 @@ article#node-68 h2 a {
   -moz-box-shadow: none;
   transition: none;
 }
-/* line 3313, ../sass/custom/_project.scss */
+/* line 3361, ../sass/custom/_project.scss */
 .view-media-listing .view-header-banner .view-content .views-row:hover {
   transform: none;
   box-shadow: none;
 }
-/* line 3317, ../sass/custom/_project.scss */
+/* line 3365, ../sass/custom/_project.scss */
 .view-media-listing .view-header-banner .view-content .views-row .views-field.views-field-nothing {
   padding: 0;
 }
-/* line 3323, ../sass/custom/_project.scss */
+/* line 3371, ../sass/custom/_project.scss */
 .view-media-listing .view-content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px 40px;
 }
-/* line 3328, ../sass/custom/_project.scss */
+/* line 3376, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row {
   width: 23%;
   display: inline-block;
@@ -4305,14 +4344,14 @@ article#node-68 h2 a {
   transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
 }
-/* line 3341, ../sass/custom/_project.scss */
+/* line 3389, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row:hover {
   -webkit-transform: translateY(-1px);
   -moz-transform: translateY(-1px);
   transform: translateY(-1px);
   box-shadow: 0 10px 20px 0 rgba(168, 182, 191, 0.6);
 }
-/* line 3347, ../sass/custom/_project.scss */
+/* line 3395, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .views-field-title {
   position: absolute;
   top: 0;
@@ -4324,18 +4363,18 @@ article#node-68 h2 a {
   font-size: 20px;
   font-family: OpenSans;
 }
-/* line 3358, ../sass/custom/_project.scss */
+/* line 3406, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .views-field.views-field-nothing {
   padding: 15px 5px 8px;
   display: inline-block;
   width: 100%;
 }
-/* line 3363, ../sass/custom/_project.scss */
+/* line 3411, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .social-media-wrapper {
   display: inline-block;
   float: right;
 }
-/* line 3367, ../sass/custom/_project.scss */
+/* line 3415, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-this {
   font-size: 14px;
   text-transform: capitalize;
@@ -4344,7 +4383,7 @@ article#node-68 h2 a {
   float: left;
   padding-top: 3px;
 }
-/* line 3375, ../sass/custom/_project.scss */
+/* line 3423, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook {
   float: left;
   background-image: url("../images/facebook1.png");
@@ -4358,7 +4397,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 3387, ../sass/custom/_project.scss */
+/* line 3435, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook a {
   display: inline-block;
   overflow: hidden;
@@ -4366,7 +4405,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 3394, ../sass/custom/_project.scss */
+/* line 3442, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .share-on-facebook:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -4375,7 +4414,7 @@ article#node-68 h2 a {
   transform: rotate(360deg);
   opacity: 0.7;
 }
-/* line 3403, ../sass/custom/_project.scss */
+/* line 3451, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link {
   float: left;
   background-image: url("../images/twitter1.png");
@@ -4389,7 +4428,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 3415, ../sass/custom/_project.scss */
+/* line 3463, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link a {
   display: inline-block;
   overflow: hidden;
@@ -4397,7 +4436,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 3422, ../sass/custom/_project.scss */
+/* line 3470, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .twitter-link:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -4406,7 +4445,7 @@ article#node-68 h2 a {
   transform: rotate(360deg);
   opacity: 0.7;
 }
-/* line 3431, ../sass/custom/_project.scss */
+/* line 3479, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link {
   float: left;
   background-image: url("../images/google-plus1.png");
@@ -4420,7 +4459,7 @@ article#node-68 h2 a {
   -ms-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-/* line 3443, ../sass/custom/_project.scss */
+/* line 3491, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link a {
   display: inline-block;
   overflow: hidden;
@@ -4428,7 +4467,7 @@ article#node-68 h2 a {
   height: 24px;
   padding-left: 30px;
 }
-/* line 3450, ../sass/custom/_project.scss */
+/* line 3498, ../sass/custom/_project.scss */
 .view-media-listing .view-content .views-row .google-link:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -4438,7 +4477,7 @@ article#node-68 h2 a {
   opacity: 0.7;
 }
 
-/* line 3463, ../sass/custom/_project.scss */
+/* line 3511, ../sass/custom/_project.scss */
 .page-media-listing .haeder-caption, .page-awards-media .haeder-caption {
   background: transparent;
   bottom: 40%;
@@ -4449,19 +4488,19 @@ article#node-68 h2 a {
 /*---------------------css ends for water-media page--------------------------*/
 /*---------------------------css ends for water-section-------------------------*/
 /*---------------------------css for awards listing-page------------------------*/
-/* line 3476, ../sass/custom/_project.scss */
+/* line 3524, ../sass/custom/_project.scss */
 .page-awards-timeline .main-container {
   padding: 71px 0 0;
 }
 
-/* line 3480, ../sass/custom/_project.scss */
+/* line 3528, ../sass/custom/_project.scss */
 .item-list.simple_timeline {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 50px 40px;
 }
-/* line 3485, ../sass/custom/_project.scss */
+/* line 3533, ../sass/custom/_project.scss */
 .item-list.simple_timeline .fadeInLeft {
   -webkit-animation-delay: 0.7s;
   -moz-animation-delay: 0.7s;
@@ -4470,7 +4509,7 @@ article#node-68 h2 a {
   animation-duration: 2s;
   -moz-duration: 2s;
 }
-/* line 3493, ../sass/custom/_project.scss */
+/* line 3541, ../sass/custom/_project.scss */
 .item-list.simple_timeline .fadeInRight {
   -webkit-animation-delay: 1.0s;
   -moz-animation-delay: 1.0s;
@@ -4480,13 +4519,13 @@ article#node-68 h2 a {
   -moz-duration: 2s;
 }
 
-/* line 3502, ../sass/custom/_project.scss */
+/* line 3550, ../sass/custom/_project.scss */
 .timeline-content {
   width: 100%;
   padding-top: 10px;
 }
 
-/* line 3507, ../sass/custom/_project.scss */
+/* line 3555, ../sass/custom/_project.scss */
 .timeline-image:hover {
   -webkit-transform: rotateY(180deg);
   -webkit-transform-style: preserve-3d;
@@ -4497,7 +4536,7 @@ article#node-68 h2 a {
   -ms-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
-/* line 3517, ../sass/custom/_project.scss */
+/* line 3565, ../sass/custom/_project.scss */
 .timeline-image img {
   width: 100%;
   -webkit-transition: all 0.7s ease;
@@ -4506,7 +4545,7 @@ article#node-68 h2 a {
   -ms-transition: all 0.7s ease;
 }
 
-/* line 3525, ../sass/custom/_project.scss */
+/* line 3573, ../sass/custom/_project.scss */
 .timeline-date {
   font-family: OpenSans;
   font-size: 25px;
@@ -4514,7 +4553,7 @@ article#node-68 h2 a {
   font-weight: bold;
 }
 
-/* line 3531, ../sass/custom/_project.scss */
+/* line 3579, ../sass/custom/_project.scss */
 .timeline-text {
   margin-top: 20px;
   font-family: OpenSans;
@@ -4522,14 +4561,14 @@ article#node-68 h2 a {
   color: #27579c;
   font-weight: bold;
 }
-/* line 3537, ../sass/custom/_project.scss */
+/* line 3585, ../sass/custom/_project.scss */
 .timeline-text p {
   font-size: 16px;
   color: #6a6a6a;
   font-weight: normal;
   margin-top: 10px;
 }
-/* line 3543, ../sass/custom/_project.scss */
+/* line 3591, ../sass/custom/_project.scss */
 .timeline-text a {
   color: #27579c;
   font-size: 16px;
@@ -4537,11 +4576,11 @@ article#node-68 h2 a {
   margin-top: 10px;
   font-weight: bold;
 }
-/* line 3549, ../sass/custom/_project.scss */
+/* line 3597, ../sass/custom/_project.scss */
 .timeline-text a:hover {
   color: #43bfef;
 }
-/* line 3552, ../sass/custom/_project.scss */
+/* line 3600, ../sass/custom/_project.scss */
 .timeline-text a.visit-story {
   width: 100%;
   display: inline-block;
@@ -4549,23 +4588,23 @@ article#node-68 h2 a {
   color: #27579c;
   margin-top: 10px;
 }
-/* line 3558, ../sass/custom/_project.scss */
+/* line 3606, ../sass/custom/_project.scss */
 .timeline-text a.visit-story:hover {
   color: #43bfef;
 }
 
 /*---------------------------css ends for awards listing-page------------------------*/
 /*---------------------------css  for awards node-page------------------------*/
-/* line 3569, ../sass/custom/_project.scss */
+/* line 3617, ../sass/custom/_project.scss */
 .node-type-awards-list .main-container {
   padding: 71px 0 0;
 }
-/* line 3572, ../sass/custom/_project.scss */
+/* line 3620, ../sass/custom/_project.scss */
 .node-type-awards-list .title-body-wrapper {
   max-width: 100%;
   padding: 50px 0;
 }
-/* line 3576, ../sass/custom/_project.scss */
+/* line 3624, ../sass/custom/_project.scss */
 .node-type-awards-list .economic-inner-title, .node-type-awards-list .economic-inner-content {
   max-width: 1200px;
   width: 100%;
@@ -4573,16 +4612,16 @@ article#node-68 h2 a {
   padding: 0 40px;
   display: block;
 }
-/* line 3583, ../sass/custom/_project.scss */
+/* line 3631, ../sass/custom/_project.scss */
 .node-type-awards-list .approach-content {
   padding-top: 40px;
 }
-/* line 3586, ../sass/custom/_project.scss */
+/* line 3634, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango {
   background: #E6E6FA;
   margin-top: 50px;
 }
-/* line 3589, ../sass/custom/_project.scss */
+/* line 3637, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-container-horizontal {
   width: 100%;
   height: auto;
@@ -4593,17 +4632,17 @@ article#node-68 h2 a {
   max-width: 1000px;
   margin: 0 auto;
 }
-/* line 3599, ../sass/custom/_project.scss */
+/* line 3647, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-clip-horizontal {
   width: 100%;
   background: #E6E6FA;
   padding-top: 35px;
 }
-/* line 3603, ../sass/custom/_project.scss */
+/* line 3651, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-clip-horizontal .full-width {
   width: 1025px !important;
 }
-/* line 3607, ../sass/custom/_project.scss */
+/* line 3655, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-item {
   width: 450px !important;
   margin: 0;
@@ -4613,13 +4652,13 @@ article#node-68 h2 a {
   background: #E6E6FA;
   position: relative;
 }
-/* line 3615, ../sass/custom/_project.scss */
+/* line 3663, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-item.height {
   height: 91px;
   width: 1024px !important;
   margin-left: 0;
 }
-/* line 3621, ../sass/custom/_project.scss */
+/* line 3669, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-prev {
   background-image: url("../images/left.png");
   height: 40px;
@@ -4627,11 +4666,11 @@ article#node-68 h2 a {
   top: 45%;
   background-repeat: no-repeat;
 }
-/* line 3627, ../sass/custom/_project.scss */
+/* line 3675, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-prev:hover {
   background-position: 0;
 }
-/* line 3631, ../sass/custom/_project.scss */
+/* line 3679, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-next {
   background-image: url("../images/right.png");
   height: 40px;
@@ -4641,11 +4680,11 @@ article#node-68 h2 a {
   background-repeat: no-repeat;
   right: -3px;
 }
-/* line 3639, ../sass/custom/_project.scss */
+/* line 3687, ../sass/custom/_project.scss */
 .node-type-awards-list .jcarousel-skin-tango .jcarousel-next:hover {
   background-position: 0;
 }
-/* line 3644, ../sass/custom/_project.scss */
+/* line 3692, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link {
   border: 2px solid #43bfef;
   max-width: 180px;
@@ -4664,59 +4703,64 @@ article#node-68 h2 a {
   font-family: OpenSans;
   margin-top: 25px;
 }
-/* line 3661, ../sass/custom/_project.scss */
+/* line 3709, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link:hover {
   background-color: #43bfef;
   border: 2px solid #fff;
 }
-/* line 3664, ../sass/custom/_project.scss */
+/* line 3712, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link:hover a {
   color: #fff;
 }
-/* line 3668, ../sass/custom/_project.scss */
+/* line 3716, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link a {
   color: #43bfef;
 }
 
 /*---------------------------css ends for awards node-page------------------------*/
 /*------------------------css for search result page---------------------------*/
-/* line 3678, ../sass/custom/_project.scss */
+/* line 3725, ../sass/custom/_project.scss */
+.header-search .form-item-custom-search-types {
+  display: none;
+}
+
+/* line 3730, ../sass/custom/_project.scss */
 .page-search .breadcrumb {
   background: none;
   padding: 8px 45px;
 }
-/* line 3682, ../sass/custom/_project.scss */
+/* line 3734, ../sass/custom/_project.scss */
 .page-search .breadcrumb li a {
   color: #27579c;
 }
-/* line 3684, ../sass/custom/_project.scss */
+/* line 3736, ../sass/custom/_project.scss */
 .page-search .breadcrumb li a:hover {
   color: #27579c;
 }
-/* line 3688, ../sass/custom/_project.scss */
+/* line 3740, ../sass/custom/_project.scss */
 .page-search .breadcrumb li.active {
   color: #43bfef;
 }
-/* line 3693, ../sass/custom/_project.scss */
+/* line 3745, ../sass/custom/_project.scss */
 .page-search .form-group {
   width: 40%;
   margin: auto;
 }
-/* line 3696, ../sass/custom/_project.scss */
+/* line 3748, ../sass/custom/_project.scss */
 .page-search .form-group .form-control {
   border: 1px solid #43bfef;
   color: #43bfef;
   font-family: OpenSans;
   font-size: 15px;
 }
-/* line 3704, ../sass/custom/_project.scss */
+/* line 3756, ../sass/custom/_project.scss */
 .page-search .region-content h2 {
   text-align: center;
   padding-top: 40px;
   color: #43bfef;
   font-size: 36px;
 }
-/* line 3711, ../sass/custom/_project.scss */
+/* line 3763, ../sass/custom/_project.scss */
 .page-search .search-results {
   max-width: 1200px;
   width: 100%;
@@ -4725,19 +4769,19 @@ article#node-68 h2 a {
   font-size: 22px;
   color: #43bfef;
 }
-/* line 3718, ../sass/custom/_project.scss */
+/* line 3770, ../sass/custom/_project.scss */
 .page-search .search-results .title {
   margin-left: 5px;
 }
-/* line 3720, ../sass/custom/_project.scss */
+/* line 3772, ../sass/custom/_project.scss */
 .page-search .search-results .title a {
   color: #27579c;
 }
-/* line 3722, ../sass/custom/_project.scss */
+/* line 3774, ../sass/custom/_project.scss */
 .page-search .search-results .title a:hover {
   color: #27579c;
 }
-/* line 3728, ../sass/custom/_project.scss */
+/* line 3780, ../sass/custom/_project.scss */
 .page-search .search-snippet-info {
   margin-left: 5px;
   color: #6a6a6a;
@@ -4747,7 +4791,7 @@ article#node-68 h2 a {
 
 /*------------------------css ends for search result page---------------------------*/
 /*------------------css for new-page of-idei-capability-statement-------------*/
-/* line 3739, ../sass/custom/_project.scss */
+/* line 3791, ../sass/custom/_project.scss */
 .view-idei-capability-statement-banner img {
   width: 100%;
   transition: all 1s ease;
@@ -4756,7 +4800,7 @@ article#node-68 h2 a {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
 }
-/* line 3746, ../sass/custom/_project.scss */
+/* line 3798, ../sass/custom/_project.scss */
 .view-idei-capability-statement-banner img:hover {
   transform: scale(1.02);
   -moz-transform: scale(1.02);
@@ -4770,11 +4814,11 @@ article#node-68 h2 a {
   /* IE6 and 7 */
 }
 
-/* line 3757, ../sass/custom/_project.scss */
+/* line 3809, ../sass/custom/_project.scss */
 #block-blockqueue-idei-capability-statement {
   padding-bottom: 15px;
 }
-/* line 3759, ../sass/custom/_project.scss */
+/* line 3811, ../sass/custom/_project.scss */
 #block-blockqueue-idei-capability-statement h2 {
   max-width: 1200px;
   width: 100%;
@@ -4784,14 +4828,14 @@ article#node-68 h2 a {
   color: #43bfef;
   line-height: 1.2em;
 }
-/* line 3768, ../sass/custom/_project.scss */
+/* line 3820, ../sass/custom/_project.scss */
 #block-blockqueue-idei-capability-statement .view-awards {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 0 40px 40px;
 }
-/* line 3773, ../sass/custom/_project.scss */
+/* line 3825, ../sass/custom/_project.scss */
 #block-blockqueue-idei-capability-statement .view-awards .field-name-field-description {
   font-size: 16px;
   color: #6a6a6a;
@@ -4799,20 +4843,20 @@ article#node-68 h2 a {
   line-height: 1.5em;
   padding-bottom: 30px;
 }
-/* line 3781, ../sass/custom/_project.scss */
+/* line 3833, ../sass/custom/_project.scss */
 #block-blockqueue-idei-capability-statement .view-awards .field-name-field-image img {
   margin: auto;
   display: block;
   width: 100%;
 }
 
-/* line 3789, ../sass/custom/_project.scss */
+/* line 3841, ../sass/custom/_project.scss */
 #block-views-idei-capability-statement-block {
   padding: 40px 0 60px;
   width: 80%;
   margin: auto;
 }
-/* line 3793, ../sass/custom/_project.scss */
+/* line 3845, ../sass/custom/_project.scss */
 #block-views-idei-capability-statement-block h2 {
   margin-top: 0;
   text-align: center;
@@ -4822,22 +4866,22 @@ article#node-68 h2 a {
   margin-bottom: 15px;
   line-height: 1.2em;
 }
-/* line 3802, ../sass/custom/_project.scss */
+/* line 3854, ../sass/custom/_project.scss */
 #block-views-idei-capability-statement-block .capability-icons-test {
   width: 64%;
   margin: auto;
 }
-/* line 3805, ../sass/custom/_project.scss */
+/* line 3857, ../sass/custom/_project.scss */
 #block-views-idei-capability-statement-block .capability-icons-test .view-content {
   display: inline-block;
   width: 100%;
 }
-/* line 3809, ../sass/custom/_project.scss */
+/* line 3861, ../sass/custom/_project.scss */
 #block-views-idei-capability-statement-block .capability-icons-test .views-row {
   float: left;
   margin-left: 40px;
 }
-/* line 3813, ../sass/custom/_project.scss */
+/* line 3865, ../sass/custom/_project.scss */
 #block-views-idei-capability-statement-block .capability-icons-test .views-row.views-row-1 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -4847,7 +4891,7 @@ article#node-68 h2 a {
   -webkit-animation-duration: 8s;
   animation-duration: 8s;
 }
-/* line 3824, ../sass/custom/_project.scss */
+/* line 3876, ../sass/custom/_project.scss */
 #block-views-idei-capability-statement-block .capability-icons-test .views-row.views-row-2 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -4857,7 +4901,7 @@ article#node-68 h2 a {
   -webkit-animation-duration: 8s;
   animation-duration: 8s;
 }
-/* line 3835, ../sass/custom/_project.scss */
+/* line 3887, ../sass/custom/_project.scss */
 #block-views-idei-capability-statement-block .capability-icons-test .views-row.views-row-3 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -4867,7 +4911,7 @@ article#node-68 h2 a {
   -webkit-animation-duration: 8s;
   animation-duration: 8s;
 }
-/* line 3846, ../sass/custom/_project.scss */
+/* line 3898, ../sass/custom/_project.scss */
 #block-views-idei-capability-statement-block .capability-icons-test .views-row.views-row-4 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -4878,55 +4922,55 @@ article#node-68 h2 a {
   animation-duration: 8s;
 }
 
-/* line 3859, ../sass/custom/_project.scss */
+/* line 3911, ../sass/custom/_project.scss */
 .capability-text, .table-block {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 0 40px 40px;
 }
-/* line 3864, ../sass/custom/_project.scss */
+/* line 3916, ../sass/custom/_project.scss */
 .capability-text .field-name-field-body, .table-block .field-name-field-body {
   font-size: 16px;
   color: #6a6a6a;
   font-family: OpenSans;
   line-height: 1.5em;
 }
-/* line 3870, ../sass/custom/_project.scss */
+/* line 3922, ../sass/custom/_project.scss */
 .capability-text table, .table-block table {
   width: 100%;
 }
-/* line 3872, ../sass/custom/_project.scss */
+/* line 3924, ../sass/custom/_project.scss */
 .capability-text table .table-head, .table-block table .table-head {
   background: #5082bd;
   color: #fff;
 }
-/* line 3875, ../sass/custom/_project.scss */
+/* line 3927, ../sass/custom/_project.scss */
 .capability-text table .table-head td, .table-block table .table-head td {
   padding: 10px;
 }
-/* line 3880, ../sass/custom/_project.scss */
+/* line 3932, ../sass/custom/_project.scss */
 .capability-text table .table-body td, .table-block table .table-body td {
   padding: 10px;
 }
-/* line 3884, ../sass/custom/_project.scss */
+/* line 3936, ../sass/custom/_project.scss */
 .capability-text table tr.table-body:nth-child(odd), .table-block table tr.table-body:nth-child(odd) {
   background-color: #d1d7e7;
 }
-/* line 3887, ../sass/custom/_project.scss */
+/* line 3939, ../sass/custom/_project.scss */
 .capability-text table tr.table-body:nth-child(even), .table-block table tr.table-body:nth-child(even) {
   background-color: #e9edf8;
 }
-/* line 3890, ../sass/custom/_project.scss */
+/* line 3942, ../sass/custom/_project.scss */
 .capability-text table td, .table-block table td {
   border: 1px solid #6a6a6a;
 }
-/* line 3892, ../sass/custom/_project.scss */
+/* line 3944, ../sass/custom/_project.scss */
 .capability-text table td p, .table-block table td p {
   margin-bottom: 0;
 }
 
-/* line 3898, ../sass/custom/_project.scss */
+/* line 3950, ../sass/custom/_project.scss */
 .capability-main-wrapper {
   position: relative;
   transition: all 1s ease;
@@ -4935,7 +4979,7 @@ article#node-68 h2 a {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
 }
-/* line 3905, ../sass/custom/_project.scss */
+/* line 3957, ../sass/custom/_project.scss */
 .capability-main-wrapper:hover {
   transform: scale(1.03);
   -moz-transform: scale(1.03);
@@ -4948,12 +4992,12 @@ article#node-68 h2 a {
   filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.03, M12=0, M21=0, M22=1.03, SizingMethod='auto expand');
   /* IE6 and 7 */
 }
-/* line 3915, ../sass/custom/_project.scss */
+/* line 3967, ../sass/custom/_project.scss */
 .capability-main-wrapper .capability-main-image img {
   width: 100%;
 }
 
-/* line 3920, ../sass/custom/_project.scss */
+/* line 3972, ../sass/custom/_project.scss */
 .capability-title-wrapper {
   position: absolute;
   top: 0;
@@ -4963,7 +5007,7 @@ article#node-68 h2 a {
   color: #fff;
 }
 
-/* line 3928, ../sass/custom/_project.scss */
+/* line 3980, ../sass/custom/_project.scss */
 .capability-first-title {
   width: 26%;
   position: absolute;
@@ -4976,7 +5020,7 @@ article#node-68 h2 a {
   font-family: OpenSans;
 }
 
-/* line 3939, ../sass/custom/_project.scss */
+/* line 3991, ../sass/custom/_project.scss */
 .capability-description {
   right: 0;
   width: 33%;
@@ -4986,25 +5030,25 @@ article#node-68 h2 a {
   padding: 12px;
   font-size: 15px;
 }
-/* line 3947, ../sass/custom/_project.scss */
+/* line 3999, ../sass/custom/_project.scss */
 .capability-description p {
   top: 20%;
   position: absolute;
 }
 
-/* line 3952, ../sass/custom/_project.scss */
+/* line 4004, ../sass/custom/_project.scss */
 .capability-banner-section {
   padding-bottom: 40px;
 }
 
-/* line 3955, ../sass/custom/_project.scss */
+/* line 4007, ../sass/custom/_project.scss */
 .accordion-block {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 0 40px 40px;
 }
-/* line 3960, ../sass/custom/_project.scss */
+/* line 4012, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default {
   border: none;
   background-color: whitesmoke;
@@ -5016,15 +5060,15 @@ article#node-68 h2 a {
   border-radius: none;
   padding-left: 1.3em;
 }
-/* line 3970, ../sass/custom/_project.scss */
+/* line 4022, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default a {
   color: #27579c;
 }
-/* line 3973, ../sass/custom/_project.scss */
+/* line 4025, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default .ui-accordion-header-icon {
   display: none;
 }
-/* line 3976, ../sass/custom/_project.scss */
+/* line 4028, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default:before {
   content: "";
   width: 0;
@@ -5036,21 +5080,33 @@ article#node-68 h2 a {
   margin-right: 15px;
   margin-top: 6px;
 }
-/* line 3988, ../sass/custom/_project.scss */
+/* line 4039, ../sass/custom/_project.scss */
+.accordion-block .ui-state-default:hover {
+  background-color: #43bfef;
+}
+/* line 4041, ../sass/custom/_project.scss */
+.accordion-block .ui-state-default:hover a {
+  color: #fff;
+}
+/* line 4046, ../sass/custom/_project.scss */
 .accordion-block .ui-accordion-header-active {
   background-color: #27579c;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 3992, ../sass/custom/_project.scss */
+/* line 4050, ../sass/custom/_project.scss */
 .accordion-block .ui-accordion-header-active a {
   color: #fff;
 }
-/* line 3995, ../sass/custom/_project.scss */
+/* line 4053, ../sass/custom/_project.scss */
+.accordion-block .ui-accordion-header-active:hover {
+  background-color: #27579c;
+}
+/* line 4056, ../sass/custom/_project.scss */
 .accordion-block .ui-accordion-header-active .ui-accordion-header-icon {
   display: none;
 }
-/* line 3998, ../sass/custom/_project.scss */
+/* line 4059, ../sass/custom/_project.scss */
 .accordion-block .ui-accordion-header-active:before {
   content: "";
   width: 0;
@@ -5062,7 +5118,7 @@ article#node-68 h2 a {
   margin-right: 15px;
   margin-top: -4px;
 }
-/* line 4010, ../sass/custom/_project.scss */
+/* line 4071, ../sass/custom/_project.scss */
 .accordion-block .ui-widget-content {
   border: none;
   font-size: 16px;
@@ -5073,21 +5129,21 @@ article#node-68 h2 a {
 }
 
 /*------------------css ends for new-page of-idei-capability-statement-------------*/
-/*----------------------------css for water red flags---------------------------*/
-/* line 4022, ../sass/custom/_project.scss */
+/*----------------------------css for water-red-flags---------------------------*/
+/* line 4083, ../sass/custom/_project.scss */
 .view-water-pages- {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 50px 40px 20px;
 }
-/* line 4027, ../sass/custom/_project.scss */
+/* line 4088, ../sass/custom/_project.scss */
 .view-water-pages- .views-row {
   padding-bottom: 40px;
   display: inline-block;
   width: 100%;
 }
-/* line 4032, ../sass/custom/_project.scss */
+/* line 4093, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-1 .views-field-field-water-description- {
   display: inline-block;
   width: 55%;
@@ -5099,7 +5155,7 @@ article#node-68 h2 a {
   font-style: italic;
   font-weight: bold;
 }
-/* line 4046, ../sass/custom/_project.scss */
+/* line 4107, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-2 .views-field-field-water-description- p:nth-child(1) {
   color: #27579c;
   font-style: italic;
@@ -5107,61 +5163,61 @@ article#node-68 h2 a {
   font-size: 16px;
   line-height: 1.5em;
 }
-/* line 4053, ../sass/custom/_project.scss */
+/* line 4114, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-2 .views-field-field-water-description- p:nth-child(2) {
   font-size: 17px;
   color: #27579c;
   font-weight: bold;
 }
-/* line 4059, ../sass/custom/_project.scss */
+/* line 4120, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-2 .views-field-field-water-content-image {
   display: none;
 }
-/* line 4064, ../sass/custom/_project.scss */
+/* line 4125, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-3 .views-field-field-water-content-image, .view-water-pages- .views-row.views-row-7 .views-field-field-water-content-image, .view-water-pages- .views-row.views-row-8 .views-field-field-water-content-image, .view-water-pages- .views-row.views-row-11 .views-field-field-water-content-image {
   display: none;
 }
-/* line 4070, ../sass/custom/_project.scss */
+/* line 4131, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-4 .views-field-field-water-description- p:nth-child(1), .view-water-pages- .views-row.views-row-7 .views-field-field-water-description- p:nth-child(1), .view-water-pages- .views-row.views-row-10 .views-field-field-water-description- p:nth-child(1) {
   font-size: 20px;
   color: #27579c;
   font-weight: bold;
 }
-/* line 4079, ../sass/custom/_project.scss */
+/* line 4140, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-5 .views-field-field-water-description- p:nth-child(3) {
   font-size: 20px;
   color: #27579c;
   font-weight: bold;
   padding-top: 25px;
 }
-/* line 4089, ../sass/custom/_project.scss */
+/* line 4150, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-6 .views-field-field-water-description- p:nth-child(2) {
   font-size: 20px;
   color: #27579c;
   font-weight: bold;
   padding-top: 25px;
 }
-/* line 4097, ../sass/custom/_project.scss */
+/* line 4158, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-6 .views-field-field-water-content-image img {
   display: block;
   margin: auto;
   width: auto;
 }
-/* line 4105, ../sass/custom/_project.scss */
+/* line 4166, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-8 .views-field-field-page-video-link {
   display: none;
 }
-/* line 4110, ../sass/custom/_project.scss */
+/* line 4171, ../sass/custom/_project.scss */
 .view-water-pages- .views-field-field-page-video-link {
   width: 45%;
   float: left;
   position: relative;
 }
-/* line 4114, ../sass/custom/_project.scss */
+/* line 4175, ../sass/custom/_project.scss */
 .view-water-pages- .views-field-field-page-video-link a {
   display: inline-block;
 }
-/* line 4116, ../sass/custom/_project.scss */
+/* line 4177, ../sass/custom/_project.scss */
 .view-water-pages- .views-field-field-page-video-link a:before {
   content: "";
   position: absolute;
@@ -5173,34 +5229,34 @@ article#node-68 h2 a {
   z-index: 1;
   left: 0;
 }
-/* line 4129, ../sass/custom/_project.scss */
+/* line 4190, ../sass/custom/_project.scss */
 .view-water-pages- .views-field-field-water-content-image {
   display: inline-block;
   padding-top: 30px;
   width: 100%;
 }
-/* line 4133, ../sass/custom/_project.scss */
+/* line 4194, ../sass/custom/_project.scss */
 .view-water-pages- .views-field-field-water-content-image img {
   width: 100%;
 }
-/* line 4137, ../sass/custom/_project.scss */
+/* line 4198, ../sass/custom/_project.scss */
 .view-water-pages- .views-field.views-field-field-water-description- {
   font-size: 16px;
   color: #6a6a6a;
   line-height: 1.5em;
 }
-/* line 4143, ../sass/custom/_project.scss */
+/* line 4204, ../sass/custom/_project.scss */
 .view-water-pages- .views-field.views-field-field-water-description- p a:hover {
   color: #27579c;
 }
-/* line 4149, ../sass/custom/_project.scss */
+/* line 4210, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-sections {
   width: 100%;
   display: block;
   position: relative;
   padding-top: 30px;
 }
-/* line 4155, ../sass/custom/_project.scss */
+/* line 4216, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-title {
   position: absolute;
   left: 8%;
@@ -5213,7 +5269,7 @@ article#node-68 h2 a {
   font-family: OpenSans;
   font-weight: bold;
 }
-/* line 4166, ../sass/custom/_project.scss */
+/* line 4227, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-title:before {
   content: "";
   width: 240px;
@@ -5224,7 +5280,7 @@ article#node-68 h2 a {
   background-position: 90% 0%;
   background-size: 30px;
 }
-/* line 4177, ../sass/custom/_project.scss */
+/* line 4238, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-wrapper {
   width: 100%;
   display: block;
@@ -5238,17 +5294,17 @@ article#node-68 h2 a {
   font-style: italic;
   max-width: 710px;
 }
-/* line 4189, ../sass/custom/_project.scss */
+/* line 4250, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-wrapper img {
   width: 100%;
   border-radius: 50%;
 }
-/* line 4193, ../sass/custom/_project.scss */
+/* line 4254, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-wrapper span {
   padding-left: 16px;
   margin-left: 2%;
 }
-/* line 4198, ../sass/custom/_project.scss */
+/* line 4259, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_1 {
   width: 100%;
   float: left;
@@ -5258,12 +5314,12 @@ article#node-68 h2 a {
   color: #333;
   font-weight: bold;
 }
-/* line 4206, ../sass/custom/_project.scss */
+/* line 4267, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_1 .img_1 {
   width: 60px;
   height: 60px;
 }
-/* line 4211, ../sass/custom/_project.scss */
+/* line 4272, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_2 {
   width: 100%;
   float: left;
@@ -5273,12 +5329,12 @@ article#node-68 h2 a {
   color: #333;
   font-weight: bold;
 }
-/* line 4219, ../sass/custom/_project.scss */
+/* line 4280, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_2 .img_2 {
   width: 80px;
   height: 80px;
 }
-/* line 4224, ../sass/custom/_project.scss */
+/* line 4285, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_3 {
   width: 100%;
   float: left;
@@ -5288,12 +5344,12 @@ article#node-68 h2 a {
   color: #333;
   font-weight: bold;
 }
-/* line 4232, ../sass/custom/_project.scss */
+/* line 4293, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_3 .img_3 {
   width: 100px;
   height: 100px;
 }
-/* line 4237, ../sass/custom/_project.scss */
+/* line 4298, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_4 {
   width: 100%;
   float: left;
@@ -5303,12 +5359,12 @@ article#node-68 h2 a {
   color: #333;
   font-weight: bold;
 }
-/* line 4245, ../sass/custom/_project.scss */
+/* line 4306, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_4 .img_4 {
   width: 140px;
   height: 140px;
 }
-/* line 4250, ../sass/custom/_project.scss */
+/* line 4311, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_5 {
   width: 100%;
   float: left;
@@ -5318,12 +5374,12 @@ article#node-68 h2 a {
   color: #333;
   font-weight: bold;
 }
-/* line 4258, ../sass/custom/_project.scss */
+/* line 4319, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_5 .img_5 {
   width: 180px;
   height: 180px;
 }
-/* line 4263, ../sass/custom/_project.scss */
+/* line 4324, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_6 {
   width: 31%;
   display: inline-block;
@@ -5333,23 +5389,23 @@ article#node-68 h2 a {
   color: #333;
   font-weight: bold;
 }
-/* line 4271, ../sass/custom/_project.scss */
+/* line 4332, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_6 .img_6 {
   width: 220px;
   height: 220px;
 }
-/* line 4276, ../sass/custom/_project.scss */
+/* line 4337, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-arrow {
   width: 2.5%;
   height: 1px;
   margin-left: 49%;
   margin-top: 1%;
 }
-/* line 4281, ../sass/custom/_project.scss */
+/* line 4342, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-arrow img {
   width: 100%;
 }
-/* line 4285, ../sass/custom/_project.scss */
+/* line 4346, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-arrow_1 {
   margin-left: 44%;
   font-size: 16px;
@@ -5360,22 +5416,22 @@ article#node-68 h2 a {
 
 /*----------------------------css ends for water-red-flags---------------------------*/
 /*------------------------------css for water-india-facts--------------------------*/
-/* line 4299, ../sass/custom/_project.scss */
+/* line 4360, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-1 .views-field-field-water-content-image {
   display: none;
 }
-/* line 4302, ../sass/custom/_project.scss */
+/* line 4363, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-1 .views-field-field-water-description- {
   font-style: normal;
 }
-/* line 4304, ../sass/custom/_project.scss */
+/* line 4365, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-1 .views-field-field-water-description- ul {
   font-size: 16px;
   color: #6a6a6a;
   font-weight: normal;
   line-height: 1.8em;
 }
-/* line 4314, ../sass/custom/_project.scss */
+/* line 4375, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-2 .views-field-field-water-description- ul {
   font-size: 25px;
   font-style: italic;
@@ -5384,36 +5440,122 @@ article#node-68 h2 a {
   font-family: OpenSans;
   line-height: 1.5em;
 }
-/* line 4323, ../sass/custom/_project.scss */
+/* line 4384, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-2 .views-field-field-water-description- p:nth-child(1) {
   font-size: 16px;
   color: #6a6a6a;
   font-weight: normal;
   font-style: normal;
 }
-/* line 4331, ../sass/custom/_project.scss */
+/* line 4390, ../sass/custom/_project.scss */
+.page-node-236 .view-water-pages- .views-row-2 .views-field-field-water-description- p:nth-child(3) {
+  font-size: 17px;
+  color: #27579c;
+  font-weight: bold;
+}
+/* line 4397, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-2 .views-field-field-water-content-image {
   display: block;
+  padding-top: 10px;
 }
-/* line 4336, ../sass/custom/_project.scss */
+/* line 4400, ../sass/custom/_project.scss */
+.page-node-236 .view-water-pages- .views-row-2 .views-field-field-water-content-image img {
+  width: auto;
+  margin: auto;
+}
+/* line 4407, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-3 .views-field-field-water-description- {
   font-size: 17px;
   color: #27579c;
   font-weight: bold;
 }
-/* line 4345, ../sass/custom/_project.scss */
+/* line 4416, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-4 .views-field-field-water-description- p:nth-child(1) {
   font-size: 16px;
   color: #6a6a6a;
   font-weight: normal;
   font-style: normal;
 }
-/* line 4353, ../sass/custom/_project.scss */
+/* line 4424, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-4 .views-field-field-water-content-image {
+  display: none;
+}
+/* line 4429, ../sass/custom/_project.scss */
+.page-node-236 .view-water-pages- .views-row-5 .views-field-field-water-content-image {
   display: none;
 }
 
 /*------------------------------css ends for water-india-facts--------------------------*/
+/*-----------------------------css for water-best-practices--------------------------*/
+/* line 4439, ../sass/custom/_project.scss */
+.view-water-best-practices .view-header-banner .view-content {
+  width: 100%;
+  max-width: 100% !important;
+  margin: 0 auto;
+  padding: 0;
+}
+/* line 4447, ../sass/custom/_project.scss */
+.view-water-best-practices .view-header p {
+  color: #6a6a6a;
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 80%;
+}
+/* line 4454, ../sass/custom/_project.scss */
+.view-water-best-practices .view-header p:last-of-type {
+  margin-bottom: 50px;
+}
+/* line 4458, ../sass/custom/_project.scss */
+.view-water-best-practices .view-header p a:hover {
+  color: #27579c;
+}
+/* line 4464, ../sass/custom/_project.scss */
+.view-water-best-practices .view-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+/* line 4470, ../sass/custom/_project.scss */
+.view-water-best-practices .economic-inner-title {
+  padding: 37px 0 10px;
+}
+
+/* line 4474, ../sass/custom/_project.scss */
+.practices-wrapper {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 4480, ../sass/custom/_project.scss */
+.practices-video {
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+/* line 4484, ../sass/custom/_project.scss */
+.practices-video a {
+  display: inline-block;
+}
+/* line 4486, ../sass/custom/_project.scss */
+.practices-video a:before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/youicon.png");
+  height: 100%;
+  width: 100%;
+  background-position: 50% 45%;
+  background-repeat: no-repeat;
+  z-index: 1;
+  left: 0;
+  background-size: 60px;
+}
+
+/*-----------------------------css ends for water-best-practices------------------------*/
 @media all and (max-width: 767px) {
   /* line 2, ../sass/custom/_responsive.scss */
   #backtotop {
