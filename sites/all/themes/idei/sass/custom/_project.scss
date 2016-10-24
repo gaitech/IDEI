@@ -238,6 +238,7 @@
   width: 100%;
   .homepage-impact-wrapper {
   	.homepage-image {
+  		overflow: hidden;
   		img {
   			width: 100%;
   			transition: all 1s ease;
@@ -558,6 +559,7 @@
   width: 100%;
 	.homepage-impact-wrapper {
   	.homepage-image {
+  		overflow: hidden;
   		img {
   			width: 100%;
   			transition: all 1s ease;
@@ -756,6 +758,7 @@
   width: 100%;
   .homepage-impact-wrapper {
   	.homepage-image {
+  		overflow: hidden;
   		img {
   			width: 100%;
   			transition: all 1s ease;
@@ -1845,6 +1848,7 @@
 }
 .detail-header-image {
 	position: relative;
+	overflow: hidden;
 	img {
 		width: 100%;
 		transition: all 1s ease;
@@ -3113,6 +3117,7 @@ article#node-68 {
     display: table;
     .views-row {
     	float: left;
+    	margin: 0 2px 2px 0;
     	.views-field.views-field-field-photographs-gallery {
 		    width: 100%;
 		    height: 100%;
@@ -3214,24 +3219,61 @@ article#node-68 {
   top: -150px;
   right: 0;
   z-index: 100;
-  background: $light-blue;
-  color: $white;
+  background: $lighter-grey;
+  color: $light-black;
   &:after {
   	content: "";
     width: 0;
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-top: 10px solid $light-blue;
+    border-top: 10px solid $grey;
     position: relative;
     top: 46px;
     right: 60px;
   }
 }
+.donate-highlight-text {
+	background: $dark-blue;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  font-weight: bold;
+  width: 35%;
+  float: left;
+  margin-left: 12%;
+  &.second {
+  	float: right;
+  	margin-right: 12%;
+  	margin-left: 0;
+  }
+  &.fadeInLeft, &.fadeInRight {
+		-webkit-animation-delay: 0.8s;
+ 		-moz-animation-delay: 0.8s;
+		animation-delay: 0.8s;
+		-webkit-animation-duration: 2s;
+  	animation-duration: 2s;
+	}
+}
+.donate-thanku-text {
+	text-align: center;
+  margin-top: 50px;
+  display: inline-block;
+  width: 100%;
+}
 .page-node-140 {
  	.approach-content {
+ 		margin-bottom: 25px;
  		img {
  			border: 2px solid $light-black;
+ 		}
+ 		p {
+ 			strong {
+ 				color: $light-blue;
+ 				font-size: 20px;
+ 			}
  		}
  	}
 }
@@ -3530,6 +3572,7 @@ article#node-68 {
   width: 100%;
   margin: 0 auto;
   padding: 50px 40px;
+  overflow: hidden;
   .fadeInLeft {
   	-webkit-animation-delay: 0.7s;
 		-moz-animation-delay: 0.7s;
@@ -3788,6 +3831,7 @@ article#node-68 {
 
 /*------------------css for new-page of-idei-capability-statement-------------*/
 .view-idei-capability-statement-banner {
+	overflow: hidden;
 	img {
 		width: 100%;
 		transition: all 1s ease;
@@ -4002,7 +4046,8 @@ article#node-68 {
   }
 }
 .capability-banner-section {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
 }
 .accordion-block {
   max-width: 1200px;
@@ -4080,6 +4125,19 @@ article#node-68 {
 /*------------------css ends for new-page of-idei-capability-statement-------------*/
 
 /*----------------------------css for water-red-flags---------------------------*/
+.my-tube-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.video-class {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .view-water-pages- {
 	max-width: 1200px;
   width: 100%;
