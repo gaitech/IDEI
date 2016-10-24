@@ -12,6 +12,7 @@ print '<script src="'.$base_url.'/sites/all/modules/custom/idei_custom/js/jquery
         width:200,
         height:200
       });
+      $('.carousel.backface-invisible > li:nth-of-type(1) img').css("opacity","1");
       $(".3d-content-wrap .3dd").hide();
       $(".3d-content-wrap .3dd.3d-item-0").show();
    });
@@ -41,13 +42,14 @@ print '<div id="con" class="thri"><ul>';
     print '</ul></div>';
     print '<div class="3d-content-wrap water-intro-content-wrap">';
     foreach ($result as $key => $value) {
+      $count = $key+1;
     $nid1 = $result[$key]->entity_id;
     $node1 = node_load($nid1);
     $title = $node1->title;
     $description = $node1->body['und'][0]['value'];
     $text = $node1->field_global_water_foot_print_li['und'][0]['value'];
     print '<div class="3dd 3d-item-'.$key.'">
-    <div class="3d-title water-intro-title">'.$title.'</div><div class="measure">'.$text.'</div><div class="3d-description water-intro-description">'.$description.'</div>
+    <div class="3d-title water-intro-title">'.$count .')&nbsp'.$title.'</div><div class="measure">'.$text.'</div><div class="3d-description water-intro-description">'.$description.'</div>
     </div>';
     }
     print "</div>";
