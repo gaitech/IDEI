@@ -111,41 +111,42 @@
                 },options.speed);
             });
             var count =0;
-            var c=0;
             var length = $(".3dd").length;
-            var test =$("#backface-invisible").length;
+            var slider_count = 0;
 
             $("#myCarousel1").click(function(){
-            count -= 1;
-            carousel3D.rotation = carousel3D.theta * - count;
-            carousel3D.modify();
-            if(count < 0){
-            c = length + count;
-            } else if(count >= length)  {
-                c = count - length;
-            }else{
-                c = count;
-            }
-            console.log(test);
-            console.log(length);
-            $(".3d-content-wrap .3dd").hide();
-            $(".3d-content-wrap .3dd.3d-item-"+c).show();
+                count -= 1;
+                slider_count -= 1;
+                carousel3D.rotation = carousel3D.theta * - slider_count;
+                carousel3D.modify();
+                if(count < 0){
+                count = length;
+                }
+                if(count == length){
+                    count = length-1;
+                }
+                opacity_count=count+1;
+                $('.carousel.backface-invisible > li img').css("opacity",".3");
+                $('.carousel.backface-invisible > li:nth-of-type('+opacity_count+') img').css("opacity","1");
+                $(".3d-content-wrap .3dd").hide();
+                $(".3d-content-wrap .3dd.3d-item-"+count).show();
 
             });
             $("#myCarousel2").click(function(){
             count += 1;
-            carousel3D.rotation = carousel3D.theta * - count;
+            slider_count += 1;
+            carousel3D.rotation = carousel3D.theta * - slider_count;
             carousel3D.modify();
             if(count >= length){
-            c = count - length;
-            }else if(count < 0){
-                c = length + count;
-            } else {
-                c = count;
+            count = 0;
             }
-            console.log(c);
+            console.log(count);
+
+            opacity_count=count+1;
+            $('.carousel.backface-invisible > li img').css("opacity",".3");
+            $('.carousel.backface-invisible > li:nth-of-type('+opacity_count+') img').css("opacity","1");
             $(".3d-content-wrap .3dd").hide();
-            $(".3d-content-wrap .3dd.3d-item-"+c).show();
+            $(".3d-content-wrap .3dd.3d-item-"+count).show();
             });
 
         });
