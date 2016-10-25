@@ -12,6 +12,7 @@ print '<script src="'.$base_url.'/sites/all/modules/custom/idei_custom/js/jquery
         width:200,
         height:200
       });
+      $('.carousel.backface-invisible > li img').css("opacity",".3");
       $('.carousel.backface-invisible > li:nth-of-type(1) img').css("opacity","1");
       $(".3d-content-wrap .3dd").hide();
       $(".3d-content-wrap .3dd.3d-item-0").show();
