@@ -3216,7 +3216,7 @@ article#node-68 {
   border-radius: 3px;
   -webkit-border-radius: 3px;
   position: absolute;
-  top: -150px;
+  top: -154px;
   right: 0;
   z-index: 100;
   background: $lighter-grey;
@@ -3229,21 +3229,26 @@ article#node-68 {
     border-right: 8px solid transparent;
     border-top: 10px solid $grey;
     position: relative;
-    top: 46px;
+    top: 48px;
     right: 60px;
   }
+}
+.donate-highlight-wrapper {
+  display: inline-block;
+  overflow: hidden;
 }
 .donate-highlight-text {
 	background: $dark-blue;
   text-align: center;
   padding: 20px;
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
   display: inline-block;
   font-weight: bold;
   width: 35%;
   float: left;
   margin-left: 12%;
+  overflow: hidden;
   &.second {
   	float: right;
   	margin-right: 12%;
@@ -4056,7 +4061,7 @@ article#node-68 {
   padding: 0 40px 40px;
   .ui-state-default {
   	border: none;
-  	background-color: rgb(245,245,245);
+  	background-color: $lighter-grey;
   	font-size: 16px;
   	color: $light-blue;
   	font-family: OpenSans;
@@ -4139,110 +4144,67 @@ article#node-68 {
   height: 100%;
 }
 .view-water-pages- {
-	max-width: 1200px;
-  width: 100%;
-  margin: auto;
-  padding: 50px 40px 20px;
   .views-row {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     display: inline-block;
     width: 100%;
     &.views-row-1 {
+    	.views-field-field-content-title {
+		    text-align: center;
+		    font-size: 36px;
+		    color: $light-blue;
+		    font-weight: bold;
+		    line-height: 1.2em;
+		  }
     	.views-field-field-water-description- {
 		    display: inline-block;
-		    width: 55%;
+		    width: 100%;
 		    font-size: 25px;
-		    color: $dark-blue;
+		    color: $light-black;
 		    font-family: OpenSans;
 		    line-height: 1.5em;
 		    margin-top: -8px;
-		    font-style: italic;
-		    font-weight: bold;
+		    text-align: center;
 			}
     }
     &.views-row-2 {
     	.views-field-field-water-description- {
-    		p:nth-child(1) {
-    			color: $dark-blue;
-			    font-style: italic;
-			    font-weight: bold;
-			    font-size: 16px;
-			    line-height: 1.5em;
-    		}
-    		p:nth-child(2) {
-    			font-size: 17px;
-			    color: $dark-blue;
-			    font-weight: bold;
-    		}
+    		.panel-heading {
+	    		p:nth-child(1) {
+				    font-style: italic;
+				    font-size: 16px;
+				    line-height: 1.5em;
+	    		}
+	    		p:nth-child(2) {
+	    			font-size: 17px;
+				    font-weight: bold;
+	    		}
+	    	}
     	}
+    }
+    &.views-row-3, &.views-row-5, &.views-row-6, &.views-row-8, &.views-row-9 {
+    	.views-field-field-content-title {
+		    font-weight: bold;
+		    font-size: 25px;
+		    color: $dark-blue;
+		    line-height: 1.2em;
+		  }
+		  .views-field-field-water-content-image {
+		  	padding-top: 50px;
+		  }
+    }
+    &.views-row-4 {
     	.views-field-field-water-content-image {
-    		display: none;
-    	}
+		  	padding-top: 15px;
+		  }
     }
-    &.views-row-3, &.views-row-7, &.views-row-8, &.views-row-11 {
+    &.views-row-6, &.views-row-7 {
     	.views-field-field-water-content-image {
-    		display: none;
-    	}
-    }
-    &.views-row-4, &.views-row-7, &.views-row-10 {
-    	.views-field-field-water-description- {
-    		p:nth-child(1) {
-    			font-size: 20px;
-			    color: $dark-blue;
-			    font-weight: bold;
-    		}
-    	}
-    }
-    &.views-row-5 {
-    	.views-field-field-water-description- {
-    		p:nth-child(3) {
-    			font-size: 20px;
-			    color: $dark-blue;
-			    font-weight: bold;
-			    padding-top: 25px;
-    		}
-    	}
+		  	padding-top: 0;
+		  }
     }
     &.views-row-6 {
-    	.views-field-field-water-description- {
-    		p:nth-child(2) {
-    			font-size: 20px;
-			    color: $dark-blue;
-			    font-weight: bold;
-			    padding-top: 25px;
-    		}
-    	}
-    	.views-field-field-water-content-image {
-    		img {
-    			display: block;
-    			margin: auto;
-    			width: auto;
-    		}
-    	}
-    }
-    &.views-row-8 {
-    	.views-field-field-page-video-link {
-    		display: none;
-    	}
-    }
-	}
-	.views-field-field-page-video-link {
-    width: 45%;
-    float: left;
-    position: relative;
-    a {
-    	display: inline-block;
-    	&:before {
-    		content: "";
-		    position: absolute;
-		    background-image: url("../images/youicon.png");
-		    height: 100%;
-		    width: 100%;
-		    background-position: 50% 45%;
-		    background-repeat: no-repeat;
-		    z-index: 1;
-		    left: 0;
-    	}
+    	padding-bottom: 0;
     }
 	}
 	.views-field-field-water-content-image {
@@ -4253,7 +4215,7 @@ article#node-68 {
     	width: 100%;
     }
 	}
-	.views-field.views-field-field-water-description- {
+	.views-field-field-water-description- {
     font-size: 16px;
     color: $light-black;
     line-height: 1.5em;
@@ -4269,7 +4231,7 @@ article#node-68 {
 		width: 100%;
 		display: block;
 		position: relative;
-		padding-top: 30px;
+		padding-top: 40px;
 	}
 	.red-globe-title {
 		position: absolute;
@@ -4278,7 +4240,7 @@ article#node-68 {
 		height: 14px;
 		transform: rotate(-90deg);
 		float:left;
-		color: $light-black;
+		color: $dark-blue;
     font-size: 16px;
     font-family: OpenSans;
     font-weight: bold;
@@ -4320,7 +4282,7 @@ article#node-68 {
 		margin-top: 168px;
 		text-align: center;
 		max-width: 49px;
-		color: #333;
+		color: $dark-blue;
 		font-weight: bold;
 		.img_1 {
 			width: 60px;
@@ -4333,7 +4295,7 @@ article#node-68 {
 		margin-top: 148px;
 		text-align: center;
 		max-width: 69px;
-		color: #333;
+		color: $dark-blue;
 		font-weight: bold;
 		.img_2 {
 			width: 80px;
@@ -4346,7 +4308,7 @@ article#node-68 {
 		margin-top: 128px;
 		text-align: center;
 		max-width: 86px;
-		color: #333;
+		color: $dark-blue;
 		font-weight: bold;
 		.img_3 {
 			width: 100px;
@@ -4359,7 +4321,7 @@ article#node-68 {
 		margin-top: 89px;
 		text-align: center;
 		max-width: 115px;
-		color: #333;
+		color: $dark-blue;
 		font-weight: bold;
 		.img_4 {
 			width: 140px;
@@ -4372,7 +4334,7 @@ article#node-68 {
 		margin-top: 49px;
 		text-align: center;
 		max-width: 153px;
-		color: #333;
+		color: $dark-blue;
 		font-weight: bold;
 		.img_5 {
 			width: 180px;
@@ -4385,7 +4347,7 @@ article#node-68 {
 		padding-top: 3px;
 		margin-top: 0%;
 		text-align: center;
-		color: #333;
+		color: $dark-blue;
 		font-weight: bold;
 		.img_6 {
 			width: 220px;
@@ -4405,90 +4367,138 @@ article#node-68 {
 		margin-left:44%;
 		font-size: 16px;
     font-weight: bold;
-    color: $light-black;
+    color: $dark-blue;
     font-family: OpenSans;
 
 	} 
+}
+.water-field-collection-values {
+	max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0 40px 40px;
+  .panel-group {
+    margin-top: 60px;
+	}
+	.panel-default {
+		border: none;
+		cursor: pointer;
+		box-shadow: none;
+	}
+	.panel-group .panel-heading {
+	  & + .panel-collapse > .panel-body {
+	  	border-top: none;
+	  	text-align: justify;
+  	}
+  }
+	.panel-heading {
+		color: $dark-blue;
+		font-size: 16px;
+		position: relative;
+		&:before {
+			content: "";
+	    width: 0;
+	    height: 0;
+	    border-left: 6px solid transparent;
+	    border-right: 6px solid transparent;
+	    border-top: 11px solid $dark-blue;
+	    float: right;
+	    margin-right: 15px;
+	    margin-top: 7px;
+		}
+		&:hover {
+			background-color: $light-blue;
+			color: $white;
+			&:after { 
+		      content: "";
+			    width: 0;
+			    height: 0;
+			    border-left: 6px solid transparent;
+			    border-right: 6px solid transparent;
+			    border-top: 11px solid $white;
+			    float: right;
+			    margin-right: 15px;
+			    position: absolute;
+			    top: 17px;
+			    right: 15px;
+				}
+			}
+		
+		&.open {
+			background-color: $dark-blue;
+			color: $white;
+			&:hover {
+				&:after {
+					content: none !important;
+				}
+		  }
+			&:before {
+				content: "";
+		    width: 0;
+		    height: 0;
+		    border-left: 6px solid transparent;
+		    border-right: 6px solid transparent;
+		    border-bottom: 11px solid $white;
+		    float: right;
+		    margin-right: 15px;
+		    margin-top: -4px;
+			}
+		}
+	}
+	.panel-title {
+		line-height: 1.5em;
+	}
 }
 /*----------------------------css ends for water-red-flags---------------------------*/
 /*------------------------------css for water-india-facts--------------------------*/
 .page-node-236 {
 	.view-water-pages- {
 		.views-row-1 {
-			.views-field-field-water-content-image {
-				display: none;
-			}
 			.views-field-field-water-description- {
-				font-style: normal;
 				ul {
 					font-size: 16px;
 			    color: $light-black;
 			    font-weight: normal;
-			    line-height: 1.8em;
+			    line-height: 1.6em;
+			    padding-top: 10px;
+			    text-align: justify;
+				}
+				li {
+					margin-bottom: 5px;
 				}
 			}
 		}
 		.views-row-2 {
-			.views-field-field-water-description- {
-				ul {
-					font-size: 25px;
-					font-style: italic;
-					font-weight: bold;
-					color: $dark-blue;
-					font-family: OpenSans;
-					line-height: 1.5em;
-				}
-				p {
-					&:nth-child(1) {
-						font-size: 16px;
-						color: $light-black;
-						font-weight: normal;
-						font-style: normal;
-					}
-					&:nth-child(3) {
-						font-size: 17px;
-				    color: $dark-blue;
-				    font-weight: bold;
-					}
-				}
-			}
+			padding-bottom: 20px;
 			.views-field-field-water-content-image {
 				display: block;
-				padding-top: 10px;
+				padding-top: 40px;
 				img {
 					width: auto;
 					margin: auto;
 				}
 			}
-		}
-		.views-row-3 {
-			.views-field-field-water-description- {
-				font-size: 17px;
-		    color: $dark-blue;
+    	.views-field-field-content-title {
 		    font-weight: bold;
-			}
-		}
-		.views-row-4 {
-			.views-field-field-water-description- {
-				p {
-					&:nth-child(1) {
-						font-size: 16px;
-						color: $light-black;
-						font-weight: normal;
-						font-style: normal;
-					}
-				}
-			}
-			.views-field-field-water-content-image {
-				display: none;
-			}
-		}
-		.views-row-5 {
-			.views-field-field-water-content-image {
-				display: none;
-			}
+		    font-size: 25px;
+		    color: $dark-blue;
+		    line-height: 1.2em;
+		  }
 		}
 	}
+}
+.india-fact-title {
+  color: $dark-blue;
+  line-height: 1.2em;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.india-fact-description {
+	margin-top: 40px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 /*------------------------------css ends for water-india-facts--------------------------*/
 /*-----------------------------css for water-best-practices--------------------------*/
