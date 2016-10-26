@@ -5131,16 +5131,18 @@ article#node-68 h2 a {
   line-height: 1.5em;
   border-radius: none;
   padding-left: 1.3em;
+  position: relative;
+  margin-bottom: 5px;
 }
-/* line 4072, ../sass/custom/_project.scss */
+/* line 4074, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default a {
   color: #27579c;
 }
-/* line 4075, ../sass/custom/_project.scss */
+/* line 4077, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default .ui-accordion-header-icon {
   display: none;
 }
-/* line 4078, ../sass/custom/_project.scss */
+/* line 4080, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default:before {
   content: "";
   width: 0;
@@ -5152,33 +5154,51 @@ article#node-68 h2 a {
   margin-right: 15px;
   margin-top: 6px;
 }
-/* line 4089, ../sass/custom/_project.scss */
+/* line 4091, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default:hover {
   background-color: #43bfef;
 }
-/* line 4091, ../sass/custom/_project.scss */
+/* line 4093, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default:hover a {
   color: #fff;
 }
 /* line 4096, ../sass/custom/_project.scss */
+.accordion-block .ui-state-default:hover:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 11px solid #fff;
+  float: right;
+  margin-right: 15px;
+  position: absolute;
+  top: 14px;
+  right: 8px;
+}
+/* line 4111, ../sass/custom/_project.scss */
 .accordion-block .ui-accordion-header-active {
   background-color: #27579c;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 4100, ../sass/custom/_project.scss */
+/* line 4115, ../sass/custom/_project.scss */
 .accordion-block .ui-accordion-header-active a {
   color: #fff;
 }
-/* line 4103, ../sass/custom/_project.scss */
+/* line 4118, ../sass/custom/_project.scss */
 .accordion-block .ui-accordion-header-active:hover {
   background-color: #27579c;
 }
-/* line 4106, ../sass/custom/_project.scss */
+/* line 4120, ../sass/custom/_project.scss */
+.accordion-block .ui-accordion-header-active:hover:after {
+  content: none !important;
+}
+/* line 4124, ../sass/custom/_project.scss */
 .accordion-block .ui-accordion-header-active .ui-accordion-header-icon {
   display: none;
 }
-/* line 4109, ../sass/custom/_project.scss */
+/* line 4127, ../sass/custom/_project.scss */
 .accordion-block .ui-accordion-header-active:before {
   content: "";
   width: 0;
@@ -5190,7 +5210,7 @@ article#node-68 h2 a {
   margin-right: 15px;
   margin-top: -4px;
 }
-/* line 4121, ../sass/custom/_project.scss */
+/* line 4139, ../sass/custom/_project.scss */
 .accordion-block .ui-widget-content {
   border: none;
   font-size: 16px;
@@ -5198,11 +5218,12 @@ article#node-68 h2 a {
   color: #6a6a6a;
   padding-left: 1.3em;
   height: auto !important;
+  text-align: justify;
 }
 
 /*------------------css ends for new-page of-idei-capability-statement-------------*/
 /*----------------------------css for water-red-flags---------------------------*/
-/* line 4133, ../sass/custom/_project.scss */
+/* line 4152, ../sass/custom/_project.scss */
 .my-tube-container {
   position: relative;
   width: 100%;
@@ -5210,7 +5231,7 @@ article#node-68 h2 a {
   padding-bottom: 56.25%;
 }
 
-/* line 4139, ../sass/custom/_project.scss */
+/* line 4158, ../sass/custom/_project.scss */
 .video-class {
   position: absolute;
   top: 0;
@@ -5219,13 +5240,13 @@ article#node-68 h2 a {
   height: 100%;
 }
 
-/* line 4147, ../sass/custom/_project.scss */
+/* line 4166, ../sass/custom/_project.scss */
 .view-water-pages- .views-row {
   padding-bottom: 30px;
   display: inline-block;
   width: 100%;
 }
-/* line 4152, ../sass/custom/_project.scss */
+/* line 4171, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-1 .views-field-field-content-title {
   text-align: center;
   font-size: 36px;
@@ -5233,7 +5254,7 @@ article#node-68 h2 a {
   font-weight: bold;
   line-height: 1.2em;
 }
-/* line 4159, ../sass/custom/_project.scss */
+/* line 4178, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-1 .views-field-field-water-description- {
   display: inline-block;
   width: 100%;
@@ -5244,68 +5265,87 @@ article#node-68 h2 a {
   margin-top: -8px;
   text-align: center;
 }
-/* line 4173, ../sass/custom/_project.scss */
+/* line 4192, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-2 .views-field-field-water-description- .panel-heading p:nth-child(1) {
   font-style: italic;
   font-size: 16px;
   line-height: 1.5em;
 }
-/* line 4178, ../sass/custom/_project.scss */
+/* line 4197, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-2 .views-field-field-water-description- .panel-heading p:nth-child(2) {
   font-size: 17px;
   font-weight: bold;
 }
-/* line 4186, ../sass/custom/_project.scss */
+/* line 4205, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-3 .views-field-field-content-title, .view-water-pages- .views-row.views-row-5 .views-field-field-content-title, .view-water-pages- .views-row.views-row-6 .views-field-field-content-title, .view-water-pages- .views-row.views-row-8 .views-field-field-content-title, .view-water-pages- .views-row.views-row-9 .views-field-field-content-title {
   font-weight: bold;
   font-size: 25px;
   color: #27579c;
   line-height: 1.2em;
 }
-/* line 4192, ../sass/custom/_project.scss */
+/* line 4211, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-3 .views-field-field-water-content-image, .view-water-pages- .views-row.views-row-5 .views-field-field-water-content-image, .view-water-pages- .views-row.views-row-6 .views-field-field-water-content-image, .view-water-pages- .views-row.views-row-8 .views-field-field-water-content-image, .view-water-pages- .views-row.views-row-9 .views-field-field-water-content-image {
   padding-top: 50px;
 }
-/* line 4197, ../sass/custom/_project.scss */
+/* line 4216, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-4 .views-field-field-water-content-image {
   padding-top: 15px;
 }
-/* line 4202, ../sass/custom/_project.scss */
+/* line 4222, ../sass/custom/_project.scss */
+.view-water-pages- .views-row.views-row-5 .views-field-field-water-content-image img {
+  width: auto;
+  margin: auto;
+  display: block;
+}
+/* line 4230, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-6 .views-field-field-water-content-image, .view-water-pages- .views-row.views-row-7 .views-field-field-water-content-image {
   padding-top: 0;
 }
-/* line 4206, ../sass/custom/_project.scss */
+/* line 4234, ../sass/custom/_project.scss */
 .view-water-pages- .views-row.views-row-6 {
   padding-bottom: 0;
 }
-/* line 4210, ../sass/custom/_project.scss */
+/* line 4238, ../sass/custom/_project.scss */
 .view-water-pages- .views-field-field-water-content-image {
   display: inline-block;
   padding-top: 30px;
   width: 100%;
 }
-/* line 4214, ../sass/custom/_project.scss */
+/* line 4242, ../sass/custom/_project.scss */
 .view-water-pages- .views-field-field-water-content-image img {
   width: 100%;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
 }
-/* line 4218, ../sass/custom/_project.scss */
+/* line 4249, ../sass/custom/_project.scss */
+.view-water-pages- .views-field-field-water-content-image img:hover {
+  transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+}
+/* line 4258, ../sass/custom/_project.scss */
 .view-water-pages- .views-field-field-water-description- {
   font-size: 16px;
   color: #6a6a6a;
   line-height: 1.5em;
 }
-/* line 4224, ../sass/custom/_project.scss */
+/* line 4264, ../sass/custom/_project.scss */
 .view-water-pages- .views-field-field-water-description- p a:hover {
   color: #27579c;
 }
-/* line 4230, ../sass/custom/_project.scss */
+/* line 4270, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-sections {
   width: 100%;
   display: block;
   position: relative;
   padding-top: 40px;
 }
-/* line 4236, ../sass/custom/_project.scss */
+/* line 4276, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-title {
   position: absolute;
   left: 8%;
@@ -5318,7 +5358,7 @@ article#node-68 h2 a {
   font-family: OpenSans;
   font-weight: bold;
 }
-/* line 4247, ../sass/custom/_project.scss */
+/* line 4287, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-title:before {
   content: "";
   width: 240px;
@@ -5329,7 +5369,7 @@ article#node-68 h2 a {
   background-position: 90% 0%;
   background-size: 30px;
 }
-/* line 4258, ../sass/custom/_project.scss */
+/* line 4298, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-wrapper {
   width: 100%;
   display: block;
@@ -5343,17 +5383,17 @@ article#node-68 h2 a {
   font-style: italic;
   max-width: 710px;
 }
-/* line 4270, ../sass/custom/_project.scss */
+/* line 4310, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-wrapper img {
   width: 100%;
   border-radius: 50%;
 }
-/* line 4274, ../sass/custom/_project.scss */
+/* line 4314, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-wrapper span {
   padding-left: 16px;
   margin-left: 2%;
 }
-/* line 4279, ../sass/custom/_project.scss */
+/* line 4319, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_1 {
   width: 100%;
   float: left;
@@ -5363,12 +5403,12 @@ article#node-68 h2 a {
   color: #27579c;
   font-weight: bold;
 }
-/* line 4287, ../sass/custom/_project.scss */
+/* line 4327, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_1 .img_1 {
   width: 60px;
   height: 60px;
 }
-/* line 4292, ../sass/custom/_project.scss */
+/* line 4332, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_2 {
   width: 100%;
   float: left;
@@ -5378,12 +5418,12 @@ article#node-68 h2 a {
   color: #27579c;
   font-weight: bold;
 }
-/* line 4300, ../sass/custom/_project.scss */
+/* line 4340, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_2 .img_2 {
   width: 80px;
   height: 80px;
 }
-/* line 4305, ../sass/custom/_project.scss */
+/* line 4345, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_3 {
   width: 100%;
   float: left;
@@ -5393,12 +5433,12 @@ article#node-68 h2 a {
   color: #27579c;
   font-weight: bold;
 }
-/* line 4313, ../sass/custom/_project.scss */
+/* line 4353, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_3 .img_3 {
   width: 100px;
   height: 100px;
 }
-/* line 4318, ../sass/custom/_project.scss */
+/* line 4358, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_4 {
   width: 100%;
   float: left;
@@ -5408,12 +5448,12 @@ article#node-68 h2 a {
   color: #27579c;
   font-weight: bold;
 }
-/* line 4326, ../sass/custom/_project.scss */
+/* line 4366, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_4 .img_4 {
   width: 140px;
   height: 140px;
 }
-/* line 4331, ../sass/custom/_project.scss */
+/* line 4371, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_5 {
   width: 100%;
   float: left;
@@ -5423,12 +5463,12 @@ article#node-68 h2 a {
   color: #27579c;
   font-weight: bold;
 }
-/* line 4339, ../sass/custom/_project.scss */
+/* line 4379, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_5 .img_5 {
   width: 180px;
   height: 180px;
 }
-/* line 4344, ../sass/custom/_project.scss */
+/* line 4384, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_6 {
   width: 31%;
   display: inline-block;
@@ -5438,23 +5478,23 @@ article#node-68 h2 a {
   color: #27579c;
   font-weight: bold;
 }
-/* line 4352, ../sass/custom/_project.scss */
+/* line 4392, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-section_6 .img_6 {
   width: 220px;
   height: 220px;
 }
-/* line 4357, ../sass/custom/_project.scss */
+/* line 4397, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-arrow {
   width: 2.5%;
   height: 1px;
   margin-left: 49%;
   margin-top: 1%;
 }
-/* line 4362, ../sass/custom/_project.scss */
+/* line 4402, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-arrow img {
   width: 100%;
 }
-/* line 4366, ../sass/custom/_project.scss */
+/* line 4406, ../sass/custom/_project.scss */
 .view-water-pages- .red-globe-arrow_1 {
   margin-left: 44%;
   font-size: 16px;
@@ -5463,35 +5503,35 @@ article#node-68 h2 a {
   font-family: OpenSans;
 }
 
-/* line 4375, ../sass/custom/_project.scss */
+/* line 4415, ../sass/custom/_project.scss */
 .water-field-collection-values {
   max-width: 1200px;
   width: 100%;
   margin: auto;
   padding: 0 40px 40px;
 }
-/* line 4380, ../sass/custom/_project.scss */
+/* line 4420, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-group {
   margin-top: 60px;
 }
-/* line 4383, ../sass/custom/_project.scss */
+/* line 4423, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-default {
   border: none;
   cursor: pointer;
   box-shadow: none;
 }
-/* line 4389, ../sass/custom/_project.scss */
+/* line 4429, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-group .panel-heading + .panel-collapse > .panel-body {
   border-top: none;
   text-align: justify;
 }
-/* line 4394, ../sass/custom/_project.scss */
+/* line 4434, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-heading {
   color: #27579c;
   font-size: 16px;
   position: relative;
 }
-/* line 4398, ../sass/custom/_project.scss */
+/* line 4438, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-heading:before {
   content: "";
   width: 0;
@@ -5503,12 +5543,12 @@ article#node-68 h2 a {
   margin-right: 15px;
   margin-top: 7px;
 }
-/* line 4409, ../sass/custom/_project.scss */
+/* line 4449, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-heading:hover {
   background-color: #43bfef;
   color: #fff;
 }
-/* line 4412, ../sass/custom/_project.scss */
+/* line 4452, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-heading:hover:after {
   content: "";
   width: 0;
@@ -5522,16 +5562,16 @@ article#node-68 h2 a {
   top: 17px;
   right: 15px;
 }
-/* line 4427, ../sass/custom/_project.scss */
+/* line 4467, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-heading.open {
   background-color: #27579c;
   color: #fff;
 }
-/* line 4431, ../sass/custom/_project.scss */
+/* line 4471, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-heading.open:hover:after {
   content: none !important;
 }
-/* line 4435, ../sass/custom/_project.scss */
+/* line 4475, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-heading.open:before {
   content: "";
   width: 0;
@@ -5543,14 +5583,14 @@ article#node-68 h2 a {
   margin-right: 15px;
   margin-top: -4px;
 }
-/* line 4448, ../sass/custom/_project.scss */
+/* line 4488, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-title {
   line-height: 1.5em;
 }
 
 /*----------------------------css ends for water-red-flags---------------------------*/
 /*------------------------------css for water-india-facts--------------------------*/
-/* line 4458, ../sass/custom/_project.scss */
+/* line 4498, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-1 .views-field-field-water-description- ul {
   font-size: 16px;
   color: #6a6a6a;
@@ -5559,25 +5599,25 @@ article#node-68 h2 a {
   padding-top: 10px;
   text-align: justify;
 }
-/* line 4466, ../sass/custom/_project.scss */
+/* line 4506, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-1 .views-field-field-water-description- li {
   margin-bottom: 5px;
 }
-/* line 4471, ../sass/custom/_project.scss */
+/* line 4511, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-2 {
   padding-bottom: 20px;
 }
-/* line 4473, ../sass/custom/_project.scss */
+/* line 4513, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-2 .views-field-field-water-content-image {
   display: block;
   padding-top: 40px;
 }
-/* line 4476, ../sass/custom/_project.scss */
+/* line 4516, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-2 .views-field-field-water-content-image img {
   width: auto;
   margin: auto;
 }
-/* line 4481, ../sass/custom/_project.scss */
+/* line 4521, ../sass/custom/_project.scss */
 .page-node-236 .view-water-pages- .views-row-2 .views-field-field-content-title {
   font-weight: bold;
   font-size: 25px;
@@ -5585,7 +5625,7 @@ article#node-68 h2 a {
   line-height: 1.2em;
 }
 
-/* line 4490, ../sass/custom/_project.scss */
+/* line 4530, ../sass/custom/_project.scss */
 .india-fact-title {
   color: #27579c;
   line-height: 1.2em;
@@ -5594,7 +5634,7 @@ article#node-68 h2 a {
   font-weight: bold;
 }
 
-/* line 4497, ../sass/custom/_project.scss */
+/* line 4537, ../sass/custom/_project.scss */
 .india-fact-description {
   margin-top: 40px;
   text-align: justify;
@@ -5602,16 +5642,25 @@ article#node-68 h2 a {
   line-height: 1.5em;
 }
 
+/* line 4543, ../sass/custom/_project.scss */
+.india-fact-illustration {
+  font-size: 25px;
+  color: #27579c;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
 /*------------------------------css ends for water-india-facts--------------------------*/
 /*-----------------------------css for water-best-practices--------------------------*/
-/* line 4507, ../sass/custom/_project.scss */
+/* line 4554, ../sass/custom/_project.scss */
 .view-water-best-practices .view-header-banner .view-content {
   width: 100%;
   max-width: 100% !important;
   margin: 0 auto;
   padding: 0;
 }
-/* line 4515, ../sass/custom/_project.scss */
+/* line 4562, ../sass/custom/_project.scss */
 .view-water-best-practices .view-header p {
   color: #6a6a6a;
   font-size: 16px;
@@ -5620,27 +5669,27 @@ article#node-68 h2 a {
   text-align: center;
   width: 80%;
 }
-/* line 4522, ../sass/custom/_project.scss */
+/* line 4569, ../sass/custom/_project.scss */
 .view-water-best-practices .view-header p:last-of-type {
   margin-bottom: 50px;
 }
-/* line 4526, ../sass/custom/_project.scss */
+/* line 4573, ../sass/custom/_project.scss */
 .view-water-best-practices .view-header p a:hover {
   color: #27579c;
 }
-/* line 4532, ../sass/custom/_project.scss */
+/* line 4579, ../sass/custom/_project.scss */
 .view-water-best-practices .view-content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 40px;
 }
-/* line 4538, ../sass/custom/_project.scss */
+/* line 4585, ../sass/custom/_project.scss */
 .view-water-best-practices .economic-inner-title {
   padding: 37px 0 10px;
 }
 
-/* line 4542, ../sass/custom/_project.scss */
+/* line 4589, ../sass/custom/_project.scss */
 .practices-wrapper {
   display: inline-block;
   width: 100%;
@@ -5648,17 +5697,17 @@ article#node-68 h2 a {
   margin-bottom: 30px;
 }
 
-/* line 4548, ../sass/custom/_project.scss */
+/* line 4595, ../sass/custom/_project.scss */
 .practices-video {
   float: left;
   margin-right: 30px;
   position: relative;
 }
-/* line 4552, ../sass/custom/_project.scss */
+/* line 4599, ../sass/custom/_project.scss */
 .practices-video a {
   display: inline-block;
 }
-/* line 4554, ../sass/custom/_project.scss */
+/* line 4601, ../sass/custom/_project.scss */
 .practices-video a:before {
   content: "";
   position: absolute;

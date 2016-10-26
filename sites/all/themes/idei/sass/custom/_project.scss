@@ -4069,6 +4069,8 @@ article#node-68 {
   	line-height: 1.5em;
   	border-radius: none;
   	padding-left: 1.3em;
+  	position: relative;
+  	margin-bottom: 5px;
   	a {
   		color: $dark-blue;
   	}
@@ -4091,6 +4093,19 @@ article#node-68 {
   		a {
   			color: $white;
   		}
+  		&:after { 
+	      content: "";
+		    width: 0;
+		    height: 0;
+		    border-left: 6px solid transparent;
+		    border-right: 6px solid transparent;
+		    border-top: 11px solid $white;
+		    float: right;
+		    margin-right: 15px;
+		    position: absolute;
+		    top: 14px;
+		    right: 8px;
+			}
   	}
   }
   .ui-accordion-header-active {
@@ -4100,9 +4115,12 @@ article#node-68 {
   	a {
   		color: $white;
   	}
-  	&:hover {
-  		background-color: $dark-blue;
-  	}
+		&:hover {
+			background-color: $dark-blue;
+			&:after {
+				content: none !important;
+			}
+	  }
   	.ui-accordion-header-icon {
   		display: none;
   	}
@@ -4125,6 +4143,7 @@ article#node-68 {
     color: $light-black;
     padding-left: 1.3em;
     height: auto !important;
+    text-align: justify;
   }
 }
 /*------------------css ends for new-page of-idei-capability-statement-------------*/
@@ -4198,6 +4217,15 @@ article#node-68 {
 		  	padding-top: 15px;
 		  }
     }
+    &.views-row-5 {
+    	.views-field-field-water-content-image {
+    		img {
+    			width: auto;
+    			margin: auto;
+    			display: block;
+    		}
+    	}
+    }
     &.views-row-6, &.views-row-7 {
     	.views-field-field-water-content-image {
 		  	padding-top: 0;
@@ -4213,6 +4241,18 @@ article#node-68 {
     width: 100%;
     img {
     	width: 100%;
+	    transition: all 1s ease;
+	    -moz-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+	    -webkit-transition: all 1s ease;
+	    -o-transition: all 1s ease;
+	    &:hover {
+	    	transform: scale(1.02);
+		    -moz-transform: scale(1.02);
+		    -webkit-transform: scale(1.02);
+		    -o-transform: scale(1.02);
+		    -ms-transform: scale(1.02);
+	    }
     }
 	}
 	.views-field-field-water-description- {
@@ -4499,6 +4539,13 @@ article#node-68 {
   text-align: justify;
   font-size: 16px;
   line-height: 1.5em;
+}
+.india-fact-illustration {
+  font-size: 25px;
+  color: #27579c;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin-top: 40px;
 }
 /*------------------------------css ends for water-india-facts--------------------------*/
 /*-----------------------------css for water-best-practices--------------------------*/
