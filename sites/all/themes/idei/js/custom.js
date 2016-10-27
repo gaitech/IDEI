@@ -85,6 +85,13 @@
     if($(this).attr("href") == chk_url)
     $(this).addClass("active");
   });
+  //add active class in water introduction 
+  $(".water-menu-navigation li a").each(function() {
+    $(this).removeClass("active");
+    if($(this).attr("href") == chk_url)
+    $(this).addClass("active");
+  })
+
 
   //add active class on click paralex inner page
   $('.program-menu-navigation li a').click(function(e) {
