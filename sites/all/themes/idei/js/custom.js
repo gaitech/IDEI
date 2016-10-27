@@ -166,10 +166,12 @@
   });
 
 //autoplay youtube video
-  var myId = jQuery(".my-tube-container").html();
-  myId= myId.split("=");
-  var myCode = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/'+myId[1]+'?autoplay=1&showinfo=0&controls=0&loop=1&playlist='+myId[1]+' " frameborder="0" allowfullscreen class="video-class"></iframe>';
-  jQuery(".my-tube-container").html(myCode);
+  var myId = $(".my-tube-container").html();
+  if(myId) {
+    myId = myId.split("=");
+    var myCode = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/'+myId[1]+'?autoplay=1&showinfo=0&controls=0&loop=1&playlist='+myId[1]+' " frameborder="0" allowfullscreen class="video-class"></iframe>';
+    $(".my-tube-container").html(myCode);
+  }
 
   $('.panel-heading').click(function(){
     setTimeout(function(){ 
