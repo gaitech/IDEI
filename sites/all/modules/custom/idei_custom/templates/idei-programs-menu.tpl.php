@@ -10,6 +10,7 @@ foreach($menuItems as $child) {
     print '<li><a href="#program-'.$i.'" rel="" id="anchor1" class="anchorLink">'.$title.'</a></li>';
     $i++;
     }
+   print '<li><a href="#program-5" rel="" id="anchor1" class="anchorLink">MARKET DEVELOPMENT</a></li>';
    print '<li><a href="#program-7" rel="" id="anchor1" class="anchorLink">PAST PROJECTS</a></li>';
     
 echo "</ul>"; 
