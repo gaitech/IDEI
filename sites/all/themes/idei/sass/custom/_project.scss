@@ -812,8 +812,9 @@
 		    }
 			}
 			.more-links {
-				width: 12%;
+				width: 9%;
   			float: left;
+  			margin-left: 3%;
 				ul {
 					list-style: none;
 					padding: 0;
@@ -1494,7 +1495,7 @@
     float: left;
    	border: 2px solid $dark-blue;
   	height: 470px;
-  	margin-top: 20px;
+  	margin-top: 35px;
     img {
     	margin-left: auto;
 	    margin-right: auto;
@@ -1519,7 +1520,7 @@
     height: 120px;
     text-align: center;
     line-height: 1.5em;
-    margin-top: 20px;
+    margin-top: 35px;
   }
   .field-name-field-graph-body-title {
   	clear: both;
@@ -1887,7 +1888,7 @@
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding: 40px 0 5px;
+  padding: 40px 0 25px;
   line-height: 1.5em;
   color: $light-blue;
   font-family: OpenSans;
@@ -2250,7 +2251,7 @@
   .shift-image {
     display: inline-block;
     float: left;
-    padding: 20px 23px 20px 0;
+    padding: 35px 23px 20px 0;
     img {
     	width: 100%;
     }
@@ -2259,7 +2260,7 @@
     font-size: 16px;
     color: $light-black;
     line-height: 1.5em;
-    padding-top: 18px;
+    padding-top: 30px;
     text-align: justify;
 	}
 }
@@ -2286,10 +2287,11 @@
 /*-----------------css for product-promotional-activity-page----------------*/
 .promotional-wrapper {
 	width: 100%;
-	display: inline-block;
 	padding: 40px 40px 0;
+	max-width: 1200px;
+	margin: auto;
 	.promotional-block {
-		width: 70%;
+		width: 100%;
 		margin: 0 auto;
 		.activity-wrap {
 	    display: inline-block;
@@ -2313,6 +2315,11 @@
 		}
 	}
 }
+.page-node-60, .page-node-59 {
+	.detail-sp-wrapper {
+		display: none;
+	}
+}
 /*-----------------css ends for product-promotional-activity-page----------------*/
 
 /*--------css for publication, annual-report-page,archive-documents and volunteers-page------*/
@@ -2324,7 +2331,7 @@
 .page-volunteers {
 	.view-volunteers-page {
 		.economic-inner-title {
-			padding-bottom: 8px;
+			padding-bottom: 25px;
 		}
 		.view-header {
 		 	p {
@@ -2629,7 +2636,7 @@ article#node-68 {
 		max-width: 1200px;
 		width: 100%;
 		margin: auto;
-		padding: 22px 40px 23px;
+		padding: 35px 40px 23px;
 		.views-row {
 	    width: 49%;
 	    display: inline-block;
@@ -2739,14 +2746,14 @@ article#node-68 {
   }
 }
 .economic-inner-title.team {
-  padding-top: 37px;
+  padding-top: 35px;
 }
 /*--------------------css ends for our team listing page-------------------*/
 /*--------------------css for key-differntiators-------------------*/
 .page-node-108 {
 	.approach-content-wrapper {
 		.shift-image {
-	    max-width: 475px;
+	    max-width: 585px;
 	    width: 100%;
 	  }
 	}
@@ -2836,7 +2843,7 @@ article#node-68 {
 	    font-size: 16px;
 	    line-height: 1.5em;
 	    margin: auto;
-	    padding-top: 6px;
+	    padding-top: 25px;
 	    text-align: center;
 	    width: 80%;
 		}
@@ -3113,7 +3120,7 @@ article#node-68 {
     max-width: 1200px;
     width: 100%;
     margin: auto;
-    padding: 22px 40px 51px 50px;;
+    padding: 40px 40px 51px 50px;;
     display: table;
     .views-row {
     	float: left;
@@ -3264,7 +3271,7 @@ article#node-68 {
 }
 .donate-thanku-text {
 	text-align: center;
-  margin-top: 50px;
+  margin-top: 40px;
   display: inline-block;
   width: 100%;
 }
@@ -3294,6 +3301,7 @@ article#node-68 {
 		display: none;
 	}
 	.approach-content {
+		padding-top: 18px;
 		img {
 			margin: auto;
 			display: block;
@@ -3560,6 +3568,7 @@ article#node-68 {
 		bottom: 40%;
 		color: #000;
     font-size: 46px;
+    font-weight: bold;
 	}
 }
 
@@ -3877,6 +3886,7 @@ article#node-68 {
   		font-family: OpenSans;
   		line-height: 1.5em;
   		padding-bottom: 30px;
+  		text-align: justify;
 		}
 		.field-name-field-image {
 			img {
@@ -3889,7 +3899,8 @@ article#node-68 {
 }
 #block-views-idei-capability-statement-block {
 	padding: 40px 0 60px;
-  width: 80%;
+  width: 100%;
+  max-width: 1200px;
   margin: auto;
   h2 {
   	margin-top: 0;
@@ -3901,7 +3912,8 @@ article#node-68 {
     line-height: 1.2em;
   }
   .capability-icons-test {
-  	width: 64%;
+  	width: 100%;
+  	max-width: 566px;
     margin: auto;
     .view-content {
     	display: inline-block;
@@ -3920,6 +3932,7 @@ article#node-68 {
 					-webkit-animation-duration: 8s;
   				animation-duration: 8s;
 				}
+				margin-left: 0;
 			} 
 			&.views-row-2 {
     		.fadeIn {
@@ -3967,6 +3980,7 @@ article#node-68 {
   	color: $light-black;
   	font-family: OpenSans;
   	line-height: 1.5em;
+  	text-align: justify;
   }
   table {
   	width: 100%;
@@ -4583,7 +4597,7 @@ article#node-68 {
     padding: 0 40px;
   }
   .economic-inner-title {
-  	padding: 37px 0 10px;
+  	padding: 37px 0 25px;
   }
 }
 .practices-wrapper {
