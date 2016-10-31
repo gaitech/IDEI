@@ -1276,6 +1276,70 @@
 			}
 		}
 	/*-------------------------css ends for archive node page---------------------*/
+
+	/*-------------------------css for idei-capabilty-page-----------------------*/
+		#block-views-idei-capability-statement-block {
+			padding-bottom: 15px;
+			h2 {
+				font-size: 25px;
+				padding: 0 10px 30px;
+			}
+			.capability-icons-test {
+				max-width: 320px;
+				.views-row {
+					margin-left: 0;
+					margin-bottom: 40px;
+					width: 50%;
+					img {
+						margin: auto;
+					}
+				}
+			}
+		}
+		#block-blockqueue-idei-capability-statement {
+			h2 {
+				font-size: 22px;
+				padding: 0 10px 20px;
+				text-align: center;
+			}
+			.view-awards {
+				padding: 0 10px 40px;
+				.field-name-field-description {
+					font-size: 14px;
+				}
+			}
+		}
+		.capability-text, .table-block {
+			padding-left: 10px;
+			padding-right: 10px;
+			.field-name-field-body {
+				font-size: 14px;
+			}
+			table {
+				.table-head {
+					td {
+						line-height: 1.2em;
+					} 
+				}
+			}
+		}
+		.accordion-block {
+			padding: 0 10px 40px;
+			.ui-state-default {
+				font-size: 14px;
+			}
+			.ui-widget-content {
+				font-size: 14px;
+				padding: 10px;
+			}
+		}
+		.capability-first-title {
+			font-size: 10px;
+		}
+		.capability-description {
+			font-size: 1vw;
+		}
+	/*-------------------------css ends for idei-capabilty-page---------------------*/
 }
 
 
@@ -1818,6 +1882,40 @@
 			}
 		}
 	/*-------------------------css ends for archive listing page---------------------*/
+	/*------------------------css for about-idei-capability-page---------------------*/
+		.capability-first-title {
+			font-size: 25px;
+		}
+		.capability-description {
+			font-size: 1.4vw;
+			p {
+				top: 1%;
+			}
+		}
+	/*---------------------css ends for about-idei-capability-page---------------------*/
+}
+@media all and (min-width:1025px) and (max-width: 1199px) {
+	/*------------------------css for header---------------------*/
+		.navbar {
+			.container {
+				.navbar-header {
+					.logo {
+						padding: 0 0 0 6px;
+					}
+				}
+			}
+		}
+	/*------------------------css ends for header---------------------*/
+
+	/*------------------------css for about-idei-capability-page---------------------*/
+		.capability-first-title {
+			font-size: 32px;
+		}
+		.capability-description {
+			width: 35%;
+			font-size: 13px;
+		}
+	/*---------------------css ends for about-idei-capability-page---------------------*/
 }
 
 
@@ -1939,6 +2037,38 @@
 }
 /*--------------------------------------------------------------*/
 
+/*-----media query for submenu's of idei-capabilty-page------------*/
+@media all and (min-width:320px) and (max-width: 440px) {
+	.page-node-259 {
+		.navbar {
+			.secondary-sub-menu {
+				ul {
+					li {
+						font-size: 9px;
+					}
+				}
+			}
+		}
+		.main-container {
+			padding: 137px 0 0;
+		}
+	}
+}
+@media all and (min-width:441px) and (max-width: 478px) {
+	.page-node-259 {
+		.main-container {
+			padding: 137px 0 0;
+		}
+	}
+}
+@media all and (min-width:479px) and (max-width: 767px) {
+	.page-node-259 {
+		.main-container {
+			padding: 117px 0 0;
+		}
+	}
+}
+/*----------------------------------------------------------------*/
 /*--------------------media query for timline awards page---------------*/
 @media all and (min-width:320px) and (max-width: 349px) {
 	.timeline-date {
