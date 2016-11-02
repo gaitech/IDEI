@@ -50,7 +50,7 @@ print '<div id="con" class="thri"><ul>';
     $description = $node1->body['und'][0]['value'];
     $text = $node1->field_global_water_foot_print_li['und'][0]['value'];
     print '<div class="3dd 3d-item-'.$key.'">
-    <div class="3d-title water-intro-title">'.$count .')&nbsp'.$title.'</div><div class="measure">'.$text.'</div><div class="3d-description water-intro-description">'.$description.'</div>
+    <div class="3d-title water-intro-title">'.$title.'</div><div class="measure">'.$text.'</div><div class="3d-description water-intro-description">'.$description.'</div>
     </div>';
     }
     print "</div>";
