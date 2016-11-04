@@ -2,8 +2,8 @@
 
 $page_title = $node->field_graph_sub_title['und'][0]['value'];
 $header_image = $node->field_impact_header_image['und'][0]['uri'];
-$header_style = 'overview_header';
-$header_image_path = image_style_url($header_style, $header_image);
+$header_image_path = file_create_url($header_image);
+
 $header_image_caption = $node->field_impact_header_image_captio['und'][0]['value'];
 
 
