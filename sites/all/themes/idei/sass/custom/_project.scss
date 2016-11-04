@@ -1860,6 +1860,7 @@
 	position: relative;
 	overflow: hidden;
 	img {
+		height:280px;
 		width: 100%;
 		transition: all 1s ease;
 	  -moz-transition: all 1s ease;
@@ -1937,6 +1938,18 @@
 		}
 	}
 }
+
+.page-node-470 {
+	.detail-product-applications-wrap {
+	   display:none;
+	}
+	.detail-sp-wrapper {
+		.detail-sp-label {
+			display:none;
+		}
+	}
+}
+
 .product-application-wrapper {
 	display: inline-block;
 	width: 100%;
@@ -2121,6 +2134,7 @@
 			}
 			.jcarousel-prev {
 				background-image: url("../images/left.png");
+				background-position: 0 center;
 				height: 40px;
 				width: 40px;
 				top: 45%;
