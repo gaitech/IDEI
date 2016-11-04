@@ -1941,11 +1941,12 @@
 
 .page-node-470 {
 	.detail-product-applications-wrap {
-	   display:none;
+	   display:none !important;
 	}
 	.detail-sp-wrapper {
+		padding-top: 30px;
 		.detail-sp-label {
-			display:none;
+			display:none !important;
 		}
 	}
 }
