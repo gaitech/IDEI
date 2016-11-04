@@ -24,7 +24,7 @@ $header_image_path2 = file_create_url($body_image);
 	  <div class="economic-inner-content approach-content-wrapper">
 		  	<span class="shift-image">
 		  	<?php if($body_image){?>  
-            <a class="colorbox-load" href="<?php echo $header_image_path2; ?>?iframe=true"><img src="<?php echo $header_image_path2; ?>"></a>
+            <img src="<?php echo $header_image_path2; ?>">
             <?php } ?>
 		  	</span>
 		  	<div class="approach-content">
