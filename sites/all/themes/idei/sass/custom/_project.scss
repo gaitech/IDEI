@@ -1653,6 +1653,15 @@
     line-height: 1.5em;
   }
 }
+#block-views-programs-list-block-2 {
+   .views-row-1 {
+        .more {
+	       display:none !important;
+	    }   
+    }
+}
+
+
 #block-views-programs-list-block-2, #block-views-programs-list-block-4,
 #block-views-programs-list-block-6, #block-views-programs-list-block-8,
 #block-views-programs-list-block-10, #block-views-programs-list-block-11 {
@@ -4426,6 +4435,13 @@ article#node-68 {
 
 	} 
 }
+.page-node-468 {
+	.water-field-collection-values {
+    	display: none;
+	}
+}
+
+
 .water-field-collection-values {
 	max-width: 1200px;
   width: 100%;
