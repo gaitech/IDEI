@@ -2,11 +2,12 @@
 
 $page_title = $node->title;
 $header_image = $node->field_header_image_['und'][0]['uri'];
-$header_style = 'overview_header';
-$header_image_path = image_style_url($header_style, $header_image);
+$header_image_path = file_create_url($header_image);
 
 $header_image_caption = $node->field_water_caption['und'][0]['value'];
 $page_body = $node->body['und'][0]['value'];
+
+
 
 
 ?>
