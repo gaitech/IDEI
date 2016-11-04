@@ -11,11 +11,8 @@ $header_image_caption = $node->field_header_banner_caption['und'][0]['value'];
 $page_body = $node->body['und'][0]['value'];
 
 $body_image = $node->field_optional_image['und'][0]['uri'];
-$body_style = 'program_image_410___320_';
-$body_image_path = image_style_url($body_style,$body_image);
+$header_image_path2 = file_create_url($body_image);
 
-$popup_style = 'archive_gallery_orignal_image';
-$body_popup_image_path = image_style_url($popup_style,$body_image);
 ?>
 <div class="economic-inner-main-wrapper">
 	<div class="detail-header-image"><img src="<?php echo $header_image_path; ?>">
@@ -27,7 +24,7 @@ $body_popup_image_path = image_style_url($popup_style,$body_image);
 	  <div class="economic-inner-content approach-content-wrapper">
 		  	<span class="shift-image">
 		  	<?php if($body_image){?>  
-            <a class="colorbox-load" href="<?php echo $body_popup_image_path; ?>?iframe=true"><img src="<?php echo $body_popup_image_path; ?>"></a>
+            <a class="colorbox-load" href="<?php echo $header_image_path2; ?>?iframe=true"><img src="<?php echo $header_image_path2; ?>"></a>
             <?php } ?>
 		  	</span>
 		  	<div class="approach-content">
