@@ -7,8 +7,7 @@ $header_image = $node->field_product_header_image['und'][0]['uri'];
 $product_applications = $node->field_product_applications['und'][0]['value'];
 $product_specification = $node->field_product_specification['und'][0]['value'];
 
-$header_style = 'overview_header';
-$header_image_path = image_style_url($header_style, $header_image);
+$header_image_path = file_create_url($header_image);
 $header_full_image = '<img src="'.$header_image_path.'"/>';
 
 $product_image_style = 'prodect_landing_image';
