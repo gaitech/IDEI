@@ -1338,8 +1338,122 @@
 		}
 		.capability-description {
 			font-size: 1vw;
+			padding: 12px 12px 12px 6px;
 		}
 	/*-------------------------css ends for idei-capabilty-page---------------------*/
+
+	/*-------------------------css for water-red-flag-page---------------------*/
+		.water-field-collection-values {
+			padding: 0 10px 20px;
+			.panel-group .panel-heading {
+			  & + .panel-collapse > .panel-body {
+			  	font-size: 14px;
+		  	}
+		  }
+		  .panel-heading {
+		  	.panel-title {
+		  		font-size: 14px;
+		  	}
+		  }
+		  .panel-group {
+		  	margin-top: 50px;
+		  }
+		}
+		.view-water-pages- {
+			.views-row {
+				&.views-row-1 {
+					.views-field-field-content-title {
+						font-size: 22px;
+					}
+					.views-field-field-water-description- {
+						font-size: 14px;
+					}
+				}
+				&.views-row-2 {
+					.views-field-field-water-description- {
+						.panel-heading {
+							p {
+								&:nth-child(1) {
+									font-size: 16px;
+								}
+								&:nth-child(2) {
+									font-size: 15px;
+								}
+							}
+						}
+					}
+				}
+				&.views-row-3, &.views-row-5, &.views-row-6, &.views-row-8, &.views-row-9 {
+					.views-field-field-content-title {
+						font-size: 20px;
+					}
+				}
+				&.views-row-6 {
+					.views-field-field-water-description-, .views-field-field-water-content-image {
+						display: none;
+					}
+				}
+				&.views-row-7 {
+					.views-field-field-water-content-image, .views-field-field-page-video-link {
+						display: none;
+					}
+				}
+			}
+		}
+	/*-------------------------css ends for water-red-flag-page---------------------*/
+
+	/*-------------------------css for water-india-fact-page---------------------*/
+		.page-node-236 {
+			.view-water-pages- {
+				.views-row-1 {
+					.views-field-field-water-description- {
+						ul {
+							padding-left: 20px;
+							font-size: 14px;
+						}
+					}
+				}
+				.views-row-2 {
+					padding-bottom: 10px;
+					.views-field-field-content-title {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+		.india-fact-title {
+			font-size: 20px;
+		}
+		.india-fact-description {
+			font-size: 14px;
+		}
+	/*-------------------------css ends for water-india-fact-page---------------------*/
+	/*--------------------------css for water-introduction-page---------------------*/
+		.detail-header-image {
+			img {
+				height: auto;
+			}
+		}
+	 	.water-intro-slider {
+	 		padding-bottom: 30px;
+		 	.contrainer {
+		 		-webkit-perspective: 50px !important;
+		 		-moz-perspective: 50px !important;
+	    	-o-perspective: 50px !important;
+		 		perspective: 50px !important;
+		 	}
+	 	}
+	 	.water-intro-title {
+	 		font-size: 25px;
+	 	}
+	 	.measure {
+	 		font-size: 16px;
+	 	}
+	 	.water-intro-description {
+	 		font-size: 14px;
+	 	}
+	/*--------------------------css ends for water-introduction-page---------------------*/
+
 }
 
 
@@ -1882,6 +1996,7 @@
 			}
 		}
 	/*-------------------------css ends for archive listing page---------------------*/
+
 	/*------------------------css for about-idei-capability-page---------------------*/
 		.capability-first-title {
 			font-size: 25px;
@@ -1892,7 +2007,63 @@
 				top: 1%;
 			}
 		}
-	/*---------------------css ends for about-idei-capability-page---------------------*/
+	/*---------------------css ends for about-idei-capability-page-------------*/
+	/*--------------------------css for water-red-flag-page---------------------*/
+		.view-water-pages- {
+			.red-globe-section_6 {
+    		width: 27%;
+    	}
+    	.red-globe-arrow {
+    		margin-left: 50.6%;
+    	}
+    }
+	/*------------------------css ends for water-red-flag-page---------------------*/
+	/*--------------------------css for water-introduction-page---------------------*/
+		.detail-header-image {
+			img {
+				height: 200px;
+			}
+		}
+	 	.water-intro-slider {
+		 	.contrainer {
+		 		-webkit-perspective: 650px !important;
+		 		-moz-perspective: 650px !important;
+	    	-o-perspective: 650px !important;
+		 		perspective: 650px !important;
+		 	}
+	 	}
+	/*--------------------------css ends for water-introduction-page---------------------*/
+}
+
+@media all and (min-width:768px) and (max-width: 850px) {
+	/*--------------------------css for water-red-flag-page---------------------*/
+		.view-water-pages- {
+			.red-globe-title {
+				left: -108px;
+    		top: 60%;
+			}
+		}
+	/*------------------------css ends for water-red-flag-page---------------------*/
+}
+@media all and (min-width:851px) and (max-width: 920px) {
+	/*--------------------------css for water-red-flag-page---------------------*/
+		.view-water-pages- {
+			.red-globe-title {
+    		left: -83px;
+    		top: 60%;
+			}
+		}
+	/*------------------------css ends for water-red-flag-page---------------------*/
+}
+@media all and (min-width:921px) and (max-width: 1024px) {
+	/*--------------------------css for water-red-flag-page---------------------*/
+		.view-water-pages- {
+			.red-globe-title {
+    		left: -60px;
+    		top: 60%;
+			}
+		}
+	/*------------------------css ends for water-red-flag-page---------------------*/
 }
 @media all and (min-width:1025px) and (max-width: 1199px) {
 	/*------------------------css for header---------------------*/
@@ -1916,6 +2087,14 @@
 			font-size: 13px;
 		}
 	/*---------------------css ends for about-idei-capability-page---------------------*/
+
+	/*--------------------------css for water-red-flag-page---------------------*/
+		.view-water-pages- {
+			.red-globe-title {
+    		left: 0;
+			}
+		}
+	/*------------------------css ends for water-red-flag-page---------------------*/
 }
 
 
@@ -2069,6 +2248,24 @@
 	}
 }
 /*----------------------------------------------------------------*/
+
+/*-----media query for submenu's of water-pages------------*/
+@media all and (min-width:320px) and (max-width: 350px) {
+	.node-type-water-pages {
+		.main-container {
+	    padding: 137px 0 0;
+		}
+	}
+}
+@media all and (min-width:350px) and (max-width: 590px) {
+	.node-type-water-pages {
+		.main-container {
+	    padding: 117px 0 0;
+		}
+	}
+}
+/*----------------------------------------------------------------*/
+
 /*--------------------media query for timline awards page---------------*/
 @media all and (min-width:320px) and (max-width: 349px) {
 	.timeline-date {
