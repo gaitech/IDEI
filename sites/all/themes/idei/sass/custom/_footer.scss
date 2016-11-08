@@ -2,7 +2,7 @@
 .footer {
   padding: 0;
   width: 100%;
-  background: #333232;
+  background: #37474f;
   min-height: 250px;
   margin-top: -1px;
   padding-top: 6px;
@@ -24,19 +24,18 @@
     font-weight: bold;
     padding-bottom: 5px;
   }
-  .menu{
+  .menu {
   	margin-bottom: 10px;
     margin-top: 13px;
   	li{
   		margin-bottom: 5px;
   		 a {
-  	  	color: $light-grey;
+  	  	color: #fff !important;
   	  	font-family: OpenSans;
-  	  	font-size: 15px;
+  	  	font-size: 13px;
   	  	padding: 0 !important;
-  	  	font-weight: bold;
         &:hover {
-          color: $light-blue;
+          color: $light-blue !important;
         }
         &:focus {
           background: transparent;
@@ -44,14 +43,13 @@
   		}
   	}
   }
-
   .facebook-block {
   	float: left;
-  	width: 40%;
+  	width: 30%;
     margin-bottom: 20px;
   	.facebook-wrapper {
  		  float: left;
-  		width: 54%;
+  		width: 30%;
   		.footer-logo {
  				
  				img {
@@ -125,29 +123,50 @@
 				margin-bottom: 5px;
 				font-family: OpenSans;
 				color:$light-grey;
-				font-weight: bold;
         &:hover {
           color: $light-blue;
         }
-			}
+        a {
+          color : #fff !important;
+        }
+	    	img {
+          margin-right: 20px;
+          margin-bottom: 5px;
+          margin-top: 5px;
+          -webkit-transition: -webkit-transform .8s ease-in-out;
+          -ms-transition: -ms-transform .8s ease-in-out;
+          transition: transform .8s ease-in-out;
+          &:hover {
+            transform:rotate(360deg);
+            -ms-transform:rotate(360deg);
+            -webkit-transform:rotate(360deg);
+          }
+        }
+      }
 		}
 	}
 	#block-menu-menu-footer-about-us {
-  	float: left;
-  	width: 20%;
-
+    float: left;
+    width: 20%;
+    margin-right: 4%;
 	}
 	#block-menu-menu-footer-resources {
-  	float: left;
-  	width: 21.5%;
-
+    float: left;
+    margin-left: 4%;
+    width: 13%;
 	}
 	#block-menu-menu-footer-get-involved {
- 	  float: left;
-  	width: 18%;
-
+    float: left;
+    width: 15%;
+    margin-left: 5%;
+   .menu {
+      li {
+         a {
+          text-decoration: underline !important;
+        }
+      }
+    }
 	}
-
 }
 .copyright {
   clear: both;
