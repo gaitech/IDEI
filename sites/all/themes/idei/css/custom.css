@@ -447,7 +447,7 @@ a:focus, p:focus, h2:focus {
 .footer {
   padding: 0;
   width: 100%;
-  background: #333232;
+  background: #37474f;
   min-height: 250px;
   margin-top: -1px;
   padding-top: 6px;
@@ -472,7 +472,7 @@ a:focus, p:focus, h2:focus {
   padding-bottom: 5px;
 }
 /* line 31, ../sass/custom/_footer.scss */
-.footer .block-menu-menu-footer-get-involved .menu li a {
+.footer #block-menu-menu-footer-get-involved .menu li a {
   text-decoration: underline !important;
 }
 /* line 38, ../sass/custom/_footer.scss */
