@@ -489,7 +489,7 @@ a:focus, p:focus, h2:focus {
 }
 /* line 37, ../sass/custom/_footer.scss */
 .footer .menu li a:hover {
-  color: #43bfef;
+  color: #43bfef !important;
 }
 /* line 40, ../sass/custom/_footer.scss */
 .footer .menu li a:focus {
