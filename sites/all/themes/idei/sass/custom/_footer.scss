@@ -24,18 +24,7 @@
     font-weight: bold;
     padding-bottom: 5px;
   }
-
-  #block-menu-menu-footer-get-involved {
-    .menu {
-      li {
-         a {
-          text-decoration: underline !important;
-        }
-      }
-    }
-  }
-
-  .menu{
+  .menu {
   	margin-bottom: 10px;
     margin-top: 13px;
   	li{
@@ -163,6 +152,13 @@
     float: left;
     width: 15%;
     margin-left: 5%;
+   .menu {
+      li {
+         a {
+          text-decoration: underline !important;
+        }
+      }
+    }
 	}
 }
 .copyright {
