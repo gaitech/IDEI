@@ -24,17 +24,27 @@
     font-weight: bold;
     padding-bottom: 5px;
   }
+
+  .block-menu-menu-footer-get-involved {
+    .menu {
+      li {
+         a {
+          text-decoration: underline !important;
+        }
+      }
+    }
+  }
+
   .menu{
   	margin-bottom: 10px;
     margin-top: 13px;
   	li{
   		margin-bottom: 5px;
   		 a {
-  	  	color: $light-grey;
+  	  	color: #fff !important;
   	  	font-family: OpenSans;
-  	  	font-size: 15px;
+  	  	font-size: 13px;
   	  	padding: 0 !important;
-  	  	font-weight: bold;
         &:hover {
           color: $light-blue;
         }
@@ -141,21 +151,20 @@
 		}
 	}
 	#block-menu-menu-footer-about-us {
-  	float: left;
-  	width: 20%;
-
+    float: left;
+    width: 20%;
+    margin-right: 4%;
 	}
 	#block-menu-menu-footer-resources {
-  	float: left;
-  	width: 21.5%;
-
+    float: left;
+    margin-left: 4%;
+    width: 13%;
 	}
 	#block-menu-menu-footer-get-involved {
- 	  float: left;
-  	width: 18%;
-
+    float: left;
+    width: 15%;
+    margin-left: 5%;
 	}
-
 }
 .copyright {
   clear: both;
