@@ -2,7 +2,7 @@
 .footer {
   padding: 0;
   width: 100%;
-  background: #333232;
+  background: #37474f;
   min-height: 250px;
   margin-top: -1px;
   padding-top: 6px;
@@ -24,18 +24,7 @@
     font-weight: bold;
     padding-bottom: 5px;
   }
-
-  .block-menu-menu-footer-get-involved {
-    .menu {
-      li {
-         a {
-          text-decoration: underline !important;
-        }
-      }
-    }
-  }
-
-  .menu{
+  .menu {
   	margin-bottom: 10px;
     margin-top: 13px;
   	li{
@@ -144,9 +133,16 @@
           margin-right: 20px;
           margin-bottom: 5px;
           margin-top: 5px;
+          -webkit-transition: -webkit-transform .8s ease-in-out;
+          -ms-transition: -ms-transform .8s ease-in-out;
+          transition: transform .8s ease-in-out;
+          &:hover {
+            transform:rotate(360deg);
+            -ms-transform:rotate(360deg);
+            -webkit-transform:rotate(360deg);
+          }
         }
       }
-
 		}
 	}
 	#block-menu-menu-footer-about-us {
@@ -163,6 +159,13 @@
     float: left;
     width: 15%;
     margin-left: 5%;
+   .menu {
+      li {
+         a {
+          text-decoration: underline !important;
+        }
+      }
+    }
 	}
 }
 .copyright {
