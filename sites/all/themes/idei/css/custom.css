@@ -586,49 +586,48 @@ a:focus, p:focus, h2:focus {
   margin-bottom: 5px;
   font-family: OpenSans;
   color: #71716c;
-  font-weight: bold;
 }
-/* line 138, ../sass/custom/_footer.scss */
+/* line 137, ../sass/custom/_footer.scss */
 .footer .connect-wrapper ul li:hover {
   color: #43bfef;
 }
-/* line 141, ../sass/custom/_footer.scss */
+/* line 140, ../sass/custom/_footer.scss */
 .footer .connect-wrapper ul li a {
   color: #fff !important;
 }
-/* line 144, ../sass/custom/_footer.scss */
+/* line 143, ../sass/custom/_footer.scss */
 .footer .connect-wrapper ul li img {
   margin-right: 20px;
   margin-bottom: 5px;
   margin-top: 5px;
 }
-/* line 153, ../sass/custom/_footer.scss */
+/* line 152, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-about-us {
   float: left;
   width: 20%;
   margin-right: 4%;
 }
-/* line 158, ../sass/custom/_footer.scss */
+/* line 157, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-resources {
   float: left;
   margin-left: 4%;
   width: 13%;
 }
-/* line 163, ../sass/custom/_footer.scss */
+/* line 162, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-get-involved {
   float: left;
   width: 15%;
   margin-left: 5%;
 }
 
-/* line 169, ../sass/custom/_footer.scss */
+/* line 168, ../sass/custom/_footer.scss */
 .copyright {
   clear: both;
   border-top: 1px solid #71716c;
   width: 90.3%;
   padding-top: 8px;
 }
-/* line 175, ../sass/custom/_footer.scss */
+/* line 174, ../sass/custom/_footer.scss */
 .copyright p:nth-of-type(1) {
   color: #43bfef;
   width: 62%;
@@ -637,7 +636,7 @@ a:focus, p:focus, h2:focus {
   text-transform: uppercase;
   float: left;
 }
-/* line 183, ../sass/custom/_footer.scss */
+/* line 182, ../sass/custom/_footer.scss */
 .copyright p:nth-of-type(2) {
   color: white;
   width: 36%;
