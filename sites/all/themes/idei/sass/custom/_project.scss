@@ -1654,11 +1654,11 @@
   }
 }
 #block-views-programs-list-block-2 {
-   .views-row-1 {
-        .more {
-	       display:none !important;
-	    }   
-    }
+  .views-row-1 {
+    .more {
+	    display:none !important;
+	  }   
+  }
 }
 
 
@@ -3351,7 +3351,7 @@ article#node-68 {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 20px 0px 50px;
+  padding: 20px 0px 70px;
   position: relative;
   overflow: hidden;
   .carousel {
@@ -3608,6 +3608,16 @@ article#node-68 {
 		color: #000;
     font-size: 46px;
     font-weight: bold;
+	}
+}
+.page-awards-media {
+	.main-container {
+		padding: 70px 0 0;
+	}
+	.haeder-caption {
+		font-size: 85px;
+		color: #808080;
+		bottom: 32%;
 	}
 }
 
