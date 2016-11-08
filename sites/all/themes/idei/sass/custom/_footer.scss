@@ -44,14 +44,13 @@
   		}
   	}
   }
-
   .facebook-block {
   	float: left;
-  	width: 40%;
+  	width: 30%;
     margin-bottom: 20px;
   	.facebook-wrapper {
  		  float: left;
-  		width: 54%;
+  		width: 30%;
   		.footer-logo {
  				
  				img {
@@ -129,7 +128,16 @@
         &:hover {
           color: $light-blue;
         }
-			}
+        a {
+          color : #fff !important;
+        }
+	    	img {
+          margin-right: 20px;
+          margin-bottom: 5px;
+          margin-top: 5px;
+        }
+      }
+
 		}
 	}
 	#block-menu-menu-footer-about-us {

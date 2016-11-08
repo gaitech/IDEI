@@ -496,72 +496,72 @@ a:focus, p:focus, h2:focus {
 .footer .menu li a:focus {
   background: transparent;
 }
-/* line 48, ../sass/custom/_footer.scss */
+/* line 47, ../sass/custom/_footer.scss */
 .footer .facebook-block {
   float: left;
-  width: 40%;
+  width: 30%;
   margin-bottom: 20px;
 }
-/* line 52, ../sass/custom/_footer.scss */
+/* line 51, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper {
   float: left;
-  width: 54%;
+  width: 30%;
 }
-/* line 57, ../sass/custom/_footer.scss */
+/* line 56, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper .footer-logo img {
   height: 65px !important;
   width: 72px !important;
 }
-/* line 62, ../sass/custom/_footer.scss */
+/* line 61, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul {
   padding: 0;
   margin-top: 7px;
 }
-/* line 65, ../sass/custom/_footer.scss */
+/* line 64, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li {
   padding-bottom: 5px;
   list-style: none;
   font-family: OpenSans;
 }
-/* line 69, ../sass/custom/_footer.scss */
+/* line 68, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li a {
   color: #71716c;
   font-weight: bold;
   font-family: OpenSans;
   font-size: 15px;
 }
-/* line 74, ../sass/custom/_footer.scss */
+/* line 73, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li a:hover {
   color: #43bfef;
 }
-/* line 77, ../sass/custom/_footer.scss */
+/* line 76, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li a:focus {
   background: transparent;
 }
-/* line 82, ../sass/custom/_footer.scss */
+/* line 81, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li:nth-of-type(1) img {
   height: 15px !important;
   width: 12px !important;
   margin-right: 7px;
 }
-/* line 89, ../sass/custom/_footer.scss */
+/* line 88, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li:nth-of-type(2) img {
   height: 15px !important;
   width: 10px !important;
   margin-right: 8px;
 }
-/* line 96, ../sass/custom/_footer.scss */
+/* line 95, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li:nth-of-type(3) img {
   height: 13px !important;
   width: 13px !important;
   margin-right: 6px;
 }
-/* line 106, ../sass/custom/_footer.scss */
+/* line 105, ../sass/custom/_footer.scss */
 .footer .connect-wrapper {
   float: left;
   width: 46%;
 }
-/* line 110, ../sass/custom/_footer.scss */
+/* line 109, ../sass/custom/_footer.scss */
 .footer .connect-wrapper h2 {
   color: white;
   font-size: 15px;
@@ -570,14 +570,14 @@ a:focus, p:focus, h2:focus {
   font-weight: bold;
   padding-bottom: 5px;
 }
-/* line 118, ../sass/custom/_footer.scss */
+/* line 117, ../sass/custom/_footer.scss */
 .footer .connect-wrapper ul {
   padding: 0;
   list-style: none;
   color: white;
   margin-top: 13px;
 }
-/* line 123, ../sass/custom/_footer.scss */
+/* line 122, ../sass/custom/_footer.scss */
 .footer .connect-wrapper ul li {
   font-size: 14px;
   margin-bottom: 5px;
@@ -585,34 +585,44 @@ a:focus, p:focus, h2:focus {
   color: #71716c;
   font-weight: bold;
 }
-/* line 129, ../sass/custom/_footer.scss */
+/* line 128, ../sass/custom/_footer.scss */
 .footer .connect-wrapper ul li:hover {
   color: #43bfef;
 }
-/* line 135, ../sass/custom/_footer.scss */
+/* line 131, ../sass/custom/_footer.scss */
+.footer .connect-wrapper ul li a {
+  color: #fff !important;
+}
+/* line 134, ../sass/custom/_footer.scss */
+.footer .connect-wrapper ul li img {
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+/* line 143, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-about-us {
   float: left;
   width: 20%;
 }
-/* line 140, ../sass/custom/_footer.scss */
+/* line 148, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-resources {
   float: left;
   width: 21.5%;
 }
-/* line 145, ../sass/custom/_footer.scss */
+/* line 153, ../sass/custom/_footer.scss */
 .footer #block-menu-menu-footer-get-involved {
   float: left;
   width: 18%;
 }
 
-/* line 152, ../sass/custom/_footer.scss */
+/* line 160, ../sass/custom/_footer.scss */
 .copyright {
   clear: both;
   border-top: 1px solid #71716c;
   width: 90.3%;
   padding-top: 8px;
 }
-/* line 158, ../sass/custom/_footer.scss */
+/* line 166, ../sass/custom/_footer.scss */
 .copyright p:nth-of-type(1) {
   color: #43bfef;
   width: 62%;
@@ -621,7 +631,7 @@ a:focus, p:focus, h2:focus {
   text-transform: uppercase;
   float: left;
 }
-/* line 166, ../sass/custom/_footer.scss */
+/* line 174, ../sass/custom/_footer.scss */
 .copyright p:nth-of-type(2) {
   color: white;
   width: 36%;
