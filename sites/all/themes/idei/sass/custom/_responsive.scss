@@ -582,6 +582,7 @@
 		#block-menu-menu-footer-get-involved {
 			width: 100%;
 			padding: 20px 0 0 58px;
+			margin: 0;
 		}
 		.block-title {
 			margin: 0;
@@ -1495,6 +1496,36 @@
 		  }
 		}
 	/*---------------------------css ends for water-media-page-----------------------*/
+	/*--------------------------css for donate-page---------------------*/
+		.page-node-140, .page-node-141 {
+			.main-container {
+    		padding: 98px 0 0;
+			}
+			.approach-content-wrapper {
+				.approach-content {
+					padding-top: 0;
+				}
+				.shift-image {
+					padding-top: 0;
+				}
+			}
+		}
+		.donate-highlight-text {
+			width: 100%;
+			font-size: 14px;
+			margin-left: 0;
+			&.second {
+				margin-right: 0;
+			}
+		}
+		.donate-address {
+	    width: 270px;
+	    height: 172px;
+	    &:after {
+	    	display: none;
+	    }
+	  }
+	/*--------------------------css ends for donate-page---------------------*/
 }
 
 
@@ -2097,6 +2128,13 @@
 			}
 		}
 	/*----------------------------css ends for water-media-page-----------------------*/
+	/*--------------------------css for donate-page---------------------*/
+		.donate-address {
+	    &:after {
+	    	display: none;
+	    }
+	  }
+	/*--------------------------css ends for donate-page---------------------*/
 }
 
 @media all and (min-width:768px) and (max-width: 850px) {
@@ -2315,14 +2353,14 @@
 
 /*-----media query for submenu's of water-pages------------*/
 @media all and (min-width:320px) and (max-width: 350px) {
-	.node-type-water-pages, .node-type-water-inner-pages {
+	.node-type-water-pages, .node-type-water-inner-pages, .page-media-listing {
 		.main-container {
 	    padding: 137px 0 0;
 		}
 	}
 }
 @media all and (min-width:350px) and (max-width: 590px) {
-	.node-type-water-pages, .node-type-water-inner-pages {
+	.node-type-water-pages, .node-type-water-inner-pages, .page-media-listing {
 		.main-container {
 	    padding: 117px 0 0;
 		}
