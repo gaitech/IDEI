@@ -1339,6 +1339,9 @@
 		.capability-description {
 			font-size: 1vw;
 			padding: 12px 12px 12px 6px;
+			p {
+				top: 30%;
+			}
 		}
 	/*-------------------------css ends for idei-capabilty-page---------------------*/
 
@@ -1454,6 +1457,44 @@
 	 	}
 	/*--------------------------css ends for water-introduction-page---------------------*/
 
+	/*--------------------------css for water-best-practices-page---------------------*/
+	.view-water-best-practices {
+		.economic-inner-title {
+			padding: 9px 10px 30px;
+		}
+		.view-header {
+			p {
+				max-width: 95%;
+				font-size: 14px;
+			}
+		}
+		.view-content {
+			padding: 0;
+		}
+	}
+	/*--------------------------css ends for water-best-practices-page--------------------*/
+
+	/*-----------------------------css for water-media-page-----------------------*/
+		.view-media-listing {
+			.view-content {
+		    max-width: 320px;
+		    padding: 50px 10px;
+		    .views-row {
+		    	width: 100%;
+		    	margin-left: 0;
+		    	.views-field-title  {
+		    		font-size: 16px;
+		    	}
+		    	.share-this {
+		    		font-size: 14px;
+		    	}
+		    	.share-on-facebook, .twitter-link, .google-link {
+						background-size: 20px;
+					}
+		    }
+		  }
+		}
+	/*---------------------------css ends for water-media-page-----------------------*/
 }
 
 
@@ -2004,7 +2045,7 @@
 		.capability-description {
 			font-size: 1.4vw;
 			p {
-				top: 1%;
+				top: 10%;
 			}
 		}
 	/*---------------------css ends for about-idei-capability-page-------------*/
@@ -2033,6 +2074,29 @@
 		 	}
 	 	}
 	/*--------------------------css ends for water-introduction-page---------------------*/
+
+	/*----------------------------css for water-media-page-----------------------*/
+		.view-media-listing {
+			.view-content {
+				.views-row {
+					.views-field-title {
+						font-size: 16px;
+					}
+					.views-field {
+						&.views-field-nothing {
+							padding: 15px 3px 8px;
+						}
+					}
+					.share-this {
+						font-size: 13px;
+					}
+					.share-on-facebook, .twitter-link, .google-link {
+						background-size: 20px;
+					}
+				}
+			}
+		}
+	/*----------------------------css ends for water-media-page-----------------------*/
 }
 
 @media all and (min-width:768px) and (max-width: 850px) {
@@ -2251,14 +2315,14 @@
 
 /*-----media query for submenu's of water-pages------------*/
 @media all and (min-width:320px) and (max-width: 350px) {
-	.node-type-water-pages {
+	.node-type-water-pages, .node-type-water-inner-pages {
 		.main-container {
 	    padding: 137px 0 0;
 		}
 	}
 }
 @media all and (min-width:350px) and (max-width: 590px) {
-	.node-type-water-pages {
+	.node-type-water-pages, .node-type-water-inner-pages {
 		.main-container {
 	    padding: 117px 0 0;
 		}
