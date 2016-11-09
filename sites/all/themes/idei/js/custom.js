@@ -186,7 +186,9 @@
       $('.panel-collapse.in').prev().addClass("open");
     }, 500);
   });
-
+// disable footer links for address and phone number
+  $('#block-menu-menu-footer-about-us a').css("pointer-events","none");
+  $('#block-menu-menu-footer-resources a').css("pointer-events","none");
 
 });
 
