@@ -2457,7 +2457,7 @@
 .pub-img {
   float: left;
   width: 15%;
-  margin-top: -4px;
+  margin-top: -1px;
   vertical-align: top;
 }
 .pub-wrap {
@@ -4090,7 +4090,7 @@ article#node-68 {
   color: $white;
 }
 .capability-first-title {
-  width: 26%;
+  width: 45%;
   position: absolute;
   top: 35%;
   left: 15%;
@@ -4102,14 +4102,15 @@ article#node-68 {
 }
 .capability-description {
   right: 0;
-  width: 33%;
+  width: 32%;
   position: absolute;
   height: 100%;
   background: rgba(0,0,0,.6);
-  padding: 12px;
+  padding: 12px 4px;
   font-size: 15px;
+  text-align: center;
   p {
-  	top: 20%;
+  	top: 24%;
     position: absolute;
   }
 }
@@ -4653,7 +4654,7 @@ article#node-68 {
     padding: 0 40px;
   }
   .economic-inner-title {
-  	padding: 37px 0 25px;
+  	padding: 23px 0 30px;
   }
 }
 .practices-wrapper {
