@@ -7438,7 +7438,7 @@ article#node-68 h2 a {
   /*--------------------------css for donate-page---------------------*/
   /* line 1501, ../sass/custom/_responsive.scss */
   .page-node-140 .main-container, .page-node-141 .main-container {
-    padding: 98px 0 0;
+    padding: 98px 0 0 !important;
   }
   /* line 1505, ../sass/custom/_responsive.scss */
   .page-node-140 .approach-content-wrapper .approach-content, .page-node-141 .approach-content-wrapper .approach-content {
