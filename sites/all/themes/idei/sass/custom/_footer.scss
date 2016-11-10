@@ -102,9 +102,8 @@
 		}
 	}
 	.connect-wrapper {
-		  float: left;
+		float: left;
 		width: 46%;
-		
 		h2 {
 		  color: $white;
 			font-size: 15px;
@@ -123,11 +122,11 @@
 				margin-bottom: 5px;
 				font-family: OpenSans;
 				color:$light-grey;
-        &:hover {
-          color: $light-blue;
-        }
         a {
-          color : #fff !important;
+          color : $white;
+          &:hover {
+            color: $light-blue;
+          }
         }
 	    	img {
           margin-right: 20px;
