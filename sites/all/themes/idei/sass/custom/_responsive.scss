@@ -1068,8 +1068,13 @@
 						p {
 							font-size: 14px;
 							width: 90%;
+							padding-bottom: 30px;
 						}
 					}
+				}
+				.pub-wrap {
+				  width: 100%;
+				  margin-left: 0;
 				}
 			}
 			.view-volunteers-page {
@@ -2018,7 +2023,7 @@
 			.page-donors {
 				.economic-inner-title{
 					&.team {
-						background-position: 78% 100%;
+						background-position: 66% 100%;
 				    max-width: 768px;
 				    margin: auto;
 					}
@@ -2128,12 +2133,18 @@
 			}
 		}
 	/*----------------------------css ends for water-media-page-----------------------*/
-	/*--------------------------css for donate-page---------------------*/
+	/*--------------------------css for donate and volunteer page---------------------*/
 		.donate-address {
 	    &:after {
 	    	display: none;
 	    }
 	  }
+	  .page-volunteers {
+	  	.pub-wrap {
+    		border-top: none;
+    		width: 100%;
+    	}
+    }
 	/*--------------------------css ends for donate-page---------------------*/
 }
 
