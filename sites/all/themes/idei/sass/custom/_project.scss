@@ -1786,7 +1786,7 @@
 	    margin-right: 1%;
 	    border-radius: 7px;
 	    margin-bottom: 1%;
-	    height: 275px;
+	    height: 250px;
 	    img {
 	    	border-top-left-radius: 7px;
 	    	border-top-right-radius: 7px;
@@ -1954,6 +1954,11 @@
 			color: #27579c;
 		  	font-size: 20px;
 		}
+	}
+}
+.page-node-477 {
+	.detail-sp-wrapper, .case-study {
+		display: none;
 	}
 }
 
@@ -2277,9 +2282,9 @@
 /*-----------------css for approach-inner-pages----------------*/
 .page-node-106 {
 	.approach-content-wrapper {
-	  	.shift-image {
-	  		width:40%;
-	  	}
+  	.shift-image {
+  		width:40%;
+  	}
 	}
 }
 
@@ -2314,6 +2319,9 @@
     background-size: 50px;
     background-position: 67% 100%;
     height: 76px;
+    max-width: 1200px;
+    width: 100%;
+    margin-right: 0 auto;
 	}
 	&.page-node-58 {
 		.approach-title {
@@ -2386,6 +2394,7 @@
 	}
 	.pub-wrap {
 		border-top: none;
+		width: 100%;
 		.pub-title, .pub-download {
 			display: none;
 		}
@@ -2414,7 +2423,7 @@
 .publication-listing {
 	margin: 0 auto;
 	max-width: 1200px;
-	padding: 40px 40px;
+	padding: 40px;
 	width: 100%;
 }
 .pub-main-wrap {
@@ -2470,7 +2479,7 @@
     font-family: OpenSans;
     color: $dark-blue;
     font-weight: bold;
-    line-height: 1.5em;
+    line-height: 1.2em;
     padding-bottom: 20px;
   }
   .pub-desc {
@@ -2478,6 +2487,7 @@
     font-family: OpenSans;
     color: $light-black;
     padding-bottom: 30px;
+    text-align: justify;
   }
   .pub-download {
     border: 2px solid $light-blue;
@@ -3123,11 +3133,6 @@ article#node-68 {
 		}
 		&.view-display-id-block_6 {
 			padding-bottom: 21px;
-			.view-content {
-	    	.views-field-name {
-	    		top: 30%;
-	    	}
-	    }
 		}
 	}
 }
@@ -4589,6 +4594,7 @@ article#node-68 {
 		    font-size: 25px;
 		    color: $dark-blue;
 		    line-height: 1.2em;
+		    text-align: justify;
 		  }
 		}
 	}
@@ -4612,6 +4618,7 @@ article#node-68 {
   line-height: 1.2em;
   font-weight: bold;
   margin-top: 40px;
+  text-align: justify;
 }
 /*------------------------------css ends for water-india-facts--------------------------*/
 /*-----------------------------css for water-best-practices--------------------------*/

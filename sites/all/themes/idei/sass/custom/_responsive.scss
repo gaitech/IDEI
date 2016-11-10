@@ -716,13 +716,13 @@
 			  padding-top: 30px;
 			}
 			.technology-title, .product-empty  {
-				font-size: 25px;
+				font-size: 24px;
 			}
 			.technology-body, .more {
 				font-size: 14px;
 			}
 			.products-wrapper {
-				height: 240px;
+				height: 200px;
 				width: 146px;
 				.p-title, .read-more-complex {
 					font-size: 12px;
@@ -867,6 +867,11 @@
 			border-bottom: 12px solid $white;
 		}
 	}
+	.page-node-477,  .page-node-56, .page-node-55, .page-node-60, .page-node-59 {
+		.detail-product-desc {
+			display: none;
+		}
+	}
 
 	/*----------------css for promotional-pages-----------*/
 	.promotional-wrapper {
@@ -916,6 +921,14 @@
 					word-break: break-all;
 				}
 			}
+		}
+	}
+	.node-type-approach-inner-pages {
+		.approach-title {
+			background-position: 50% 100%;
+	    padding-bottom: 80px;
+	    background-size: 35px;
+	    max-width: 320px;
 		}
 	}
 	/*----------css ends for approach page--------------*/
@@ -1077,9 +1090,9 @@
 				  margin-left: 0;
 				}
 			}
-			.view-volunteers-page {
+			.view-volunteers-page, .view-annual-report-page {
 				.view-content {
-					padding: 0;
+					padding: 0 10px;;
 				}
 			}
 		/*--------------------------css ends for volunteers-page--------------------------*/
@@ -1224,7 +1237,13 @@
 					padding-left: 10px;
 					padding-right: 10px;
 					.views-field-name {
-						font-size: 13px;
+						font-size: 9px;
+						top: 36%;
+					}
+					.views-row {
+						&:before {
+							right: 0;
+						}
 					}
 				}
 				&.view-display-id-block_2, &.view-display-id-block_4, &.view-display-id-block_6 {
@@ -1246,16 +1265,12 @@
 							}
 						}
 						.views-field-name {
-							font-size: 12px;
 							font-weight: bold;
 						}
 					}
 				}
 				&.view-display-id-block_6 {
 					.view-content {
-						.views-field-name {
-							font-size: 12px;
-						}
 					}
 				}
 			}
@@ -1267,12 +1282,18 @@
 			.node-title {
 				font-size: 25px;
 			}
+			.view-content {
+				max-width: 320px;
+			}
 		}
 		.page-documents {
 			.view-photo-gallery-archive- {
 				.view-content {
 					padding-left: 10px;
 					padding-right: 10px;
+				}
+				.node-title {
+					padding-top: 70px;
 				}
 				.view-header {
 					.view-content {
@@ -1430,7 +1451,7 @@
 				}
 			}
 		}
-		.india-fact-title {
+		.india-fact-title, .india-fact-illustration {
 			font-size: 20px;
 		}
 		.india-fact-description {
@@ -1478,7 +1499,10 @@
 			padding: 0;
 		}
 	}
-	/*--------------------------css ends for water-best-practices-page--------------------*/
+	.publication-listing {
+		padding: 40px 0;
+	}
+	/*--------------------------css ends for water-best-practices-page-----------------*/
 
 	/*-----------------------------css for water-media-page-----------------------*/
 		.view-media-listing {
@@ -1568,8 +1592,8 @@
 			// .custom-navigation, #block-system-main-menu {
 			.new-main-menu {
 				li {
-					padding-left: 4px;
-			    padding-right: 4px;
+					padding-left: 3px;
+			    padding-right: 3px;
 			    font-size: 11px;
 				}
 			}
@@ -1677,7 +1701,16 @@
 		.homepage-impact-wrapper {
 			.impact-content-wrapper {
 				.homepage-block-title {
-					font-size: 30px;
+					font-size: 22px;
+				}
+				.more-links {
+					ul {
+						li {
+							a {
+								font-size: 12px;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -1775,7 +1808,16 @@
 		.homepage-impact-wrapper {
 			.impact-content-wrapper {
 				.homepage-block-title {
-					font-size: 30px;
+					font-size: 22px;
+				}
+				.more-links {
+					ul {
+						li {
+							a {
+								font-size: 12px;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -1825,9 +1867,9 @@
 			}
 			.content {
 				width: 70%;
-				padding-left: 20px;
+				padding-left: 25px;
 				li {
-					width: 40%;
+					width: 100%;
 				}
 			}
 		}
@@ -1849,7 +1891,7 @@
 		.view-homepage-content {
 			.homepage-impact-wrapper {
 				.homepage-block-title {
-					font-size: 30px;
+					font-size: 22px;
 				}
 				.homepage-body {
 					width: 54%;
@@ -1914,8 +1956,11 @@
 					margin-right: 4%;
 				}
 			}
+			.technology-title {
+				font-size: 28px;
+			}
 			.products-wrapper {
-				height: 250px;
+				height: 210px;
 				.p-title {
 					font-size: 14px;
 				}
@@ -2011,7 +2056,7 @@
 				right: 7px;
 			}
 			.jcarousel-container-horizontal {
-				max-width: 768px;
+				max-width: 765px;
 			}
 		}
 	}
@@ -2060,19 +2105,31 @@
 			.view-archive- {
 				.view-content {
 					.views-field-name {
-						font-size: 22px;
+						font-size: 18px;
+					}
+					.views-row {
+						&:before {
+							right: 0;
+						}
 					}
 				}
 				&.view-display-id-block_4 {
 					.view-content {
 						.views-field-name {
-							font-size: 30px;
+							font-size: 26px;
 						}
 					}
 				}
 			}
 		}
 	/*-------------------------css ends for archive listing page---------------------*/
+	/*----------------------------css for archive node page---------------------*/
+		.view-photo-gallery-archive-  {
+			.view-content {
+				max-width: 768px;
+			}
+		}
+	/*-------------------------css ends for archive node page---------------------*/ 
 
 	/*------------------------css for about-idei-capability-page---------------------*/
 		.capability-first-title {
@@ -2114,9 +2171,11 @@
 	/*----------------------------css for water-media-page-----------------------*/
 		.view-media-listing {
 			.view-content {
+				max-width: 768px;
 				.views-row {
+					width: 30%;
 					.views-field-title {
-						font-size: 16px;
+						font-size: 14px;
 					}
 					.views-field {
 						&.views-field-nothing {
@@ -2146,6 +2205,20 @@
     	}
     }
 	/*--------------------------css ends for donate-page---------------------*/
+
+ /*--------------------------css for approach-page---------------------*/
+	.page-node-57 {
+		.approach-title {
+			background-position: 78% 100%;
+	    max-width: 768px;
+	  }
+	}
+	.page-node-56 {
+		.approach-title {
+	    background-position: 75% 100%;
+	  }
+	}
+	/*--------------------------css ends for approach-page---------------------*/
 }
 
 @media all and (min-width:768px) and (max-width: 850px) {
@@ -2208,6 +2281,49 @@
 			}
 		}
 	/*------------------------css ends for water-red-flag-page---------------------*/
+
+	/*----------------------------css for archive node page---------------------*/
+		.view-photo-gallery-archive-  {
+			.view-content {
+				max-width: 1025px;
+			}
+		}
+	/*-------------------------css ends for archive node page---------------------*/ 
+
+	/*----------------------------css for partners-page-----------------------*/
+		.page-global-networking-platforms {
+			.economic-inner-title.team {
+	    	background-position: 85.5% 100%;
+	    	max-width: 1025px;
+	    }
+		}
+		.page-knowledge-partners {
+			.economic-inner-title.team {
+	    	background-position: 75.8% 100%;
+	    	max-width: 1025px;
+	    }
+		}
+		.page-donors {
+			.economic-inner-title.team {
+    		background-position: 61.6% 100%;
+    		max-width: 1025px;
+			}
+		}
+	/*----------------------------css ends for partners-page-----------------------*/
+
+	/*--------------------------css for approach-page---------------------*/
+	.page-node-57 {
+		.approach-title {
+			background-position: 69% 100%;
+	    max-width: 1025px;
+	  }
+	}
+	.page-node-56 {
+		.approach-title {
+	    background-position: 67% 100%;
+	  }
+	}
+	/*--------------------------css ends for approach-page---------------------*/
 }
 
 
@@ -2260,9 +2376,37 @@
 	}
 }
 @media all and (min-width:320px) and (max-width: 341px) {
-	.page-node-59 {
+	.page-node-59, .page-node-60 {
 		.main-container {
 			padding: 119px 0 0;
+		}
+	}
+}
+@media all and (min-width:320px) and (max-width: 424px) {
+	.page-node-477 {
+		.main-container {
+			padding: 119px 0 0;
+		}
+	}
+}
+@media all and (min-width:425px) and (max-width: 767px) {
+	.page-node-477 {
+		.main-container {
+			padding: 105px 0 0;
+		}
+	}
+}
+@media all and (min-width:320px) and (max-width: 503px) {
+	.page-node-50, .page-node-51, .page-node-52, .page-node-53, .page-node-54 {
+		.main-container {
+			padding: 117px 0 0;
+		}
+	}
+}
+@media all and (min-width:320px) and (max-width: 439px) {
+	.page-node-47, .page-node-48, .page-node-49 {
+		.main-container {
+			padding: 117px 0 0;
 		}
 	}
 }
@@ -2299,7 +2443,7 @@
 	@media all and (min-width:320px) and (max-width: 430px) {
 		.page-donors, .page-knowledge-partners, .page-global-networking-platforms {
 			.main-container {
-				padding: 119px 0 0;
+				padding: 117px 0 0;
 			}
 		}
 	}
@@ -2380,8 +2524,74 @@
 /*----------------------------------------------------------------*/
 
 /*--------------------media query for timline awards page---------------*/
-@media all and (min-width:320px) and (max-width: 349px) {
-	.timeline-date {
-	  font-weight: normal;
+	@media all and (min-width:320px) and (max-width: 349px) {
+		.timeline-date {
+		  font-weight: normal;
+		}
 	}
-}
+/*--------------------media query ends for timline awards page---------------*/
+
+/*--------------------media query for archive-page------------------*/
+	@media all and (min-width:320px) and (max-width: 460px) {
+		.main-container {
+			.view-archive-{
+				&.view-display-id-block_2 {
+					.view-content {
+						.views-field-name {
+							top: 25%;
+						}
+					}
+				}
+				&.view-display-id-block_6 {
+					.view-content {
+						.views-field-name {
+							top: 22%;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media all and (min-width:461px) and (max-width: 620px) {
+		.main-container {
+			.view-archive-{
+				&.view-display-id-block_2 {
+					.view-content {
+						.views-field-name {
+							top: 30%;
+						}
+					}
+				}
+				&.view-display-id-block_6 {
+					.view-content {
+						.views-field-name {
+							top: 34%;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media all and (min-width:621px) and (max-width: 767px) {
+		.main-container {
+			.view-archive-{
+				&.view-display-id-block_2 {
+					.view-content {
+						.views-field-name {
+							top: 35%;
+						}
+					}
+				}
+				&.view-display-id-block_6 {
+					.view-content {
+						.views-field-name {
+							top: 40%;
+						}
+					}
+				}
+			}
+		}
+	}
+/*--------------------media query ends for archive-page------------------*/
