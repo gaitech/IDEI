@@ -186,9 +186,7 @@
       $('.panel-collapse.in').prev().addClass("open");
     }, 500);
   });
-// disable footer links for address and phone number
-  $('#block-menu-menu-footer-about-us a').css("pointer-events","none");
-  $('#block-menu-menu-footer-resources a').css("pointer-events","none");
+
 
 });
 
@@ -221,6 +219,10 @@ $(window).load(function() {
   $('.product-no-result').parent().parent().parent().parent().addClass('full-width');
   $('.product-no-result').parent().parent().parent().addClass('height');
 
+// disable footer links for address and phone number
+  $('#block-menu-menu-footer-about-us a').css("pointer-events","none");
+  $('#block-menu-menu-footer-resources a').css("pointer-events","none");
+  
   // move to particular part of the page on load
   var type = window.location.hash.substr(1);
   if(type.length > 0){

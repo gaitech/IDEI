@@ -3,7 +3,7 @@
 global $base_url;
 $menuItems = menu_tree_all_data('menu-programs');
 
-print '<li><a href="'.$base_url.'/#home-block-block-4">PROGRAMS : </a></li>';
+print '<li><a href="'.$base_url.'/#home-block-block-4">PROGRAMMES : </a></li>';
 $i=1;
 foreach($menuItems as $child) {
    $title  = $child['link']['link_title'];
