@@ -396,10 +396,11 @@
 			    width: 100%;
 			    display: inline-block;
 			    vertical-align: top;
-			    margin-bottom: 12px;
+			    margin-bottom: 20px;
 			    a {
 			    	margin-left: 24px;
   					font-size: 16px;
+  					line-height: 1.2em;
 			    }
 		    }
   		}
@@ -471,6 +472,7 @@
 			    a {
 			    	margin-left: 52px;
 			    	font-size: 16px;
+			    	line-height: 1.2em;
 			    }
 	    	}
 	    }
@@ -1402,7 +1404,7 @@
 		}
 		.capability-description {
 			font-size: 1vw;
-			padding: 12px 12px 12px 6px;
+			padding: 12px 12px 12px 2px;
 			p {
 				top: 30%;
 			}
@@ -1915,7 +1917,7 @@
 				width: 70%;
 				padding-left: 25px;
 				li {
-					max-width: 246px;
+					max-width: 257px;
 					width: 100%;
 					margin-bottom: 15px;
 					a {
