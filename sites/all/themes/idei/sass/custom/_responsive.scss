@@ -31,7 +31,7 @@
 					}
 					.input-group {
 						.form-control {
-							width: 75px;
+							width: 66px;
 						}
 					}
 					#block-search-form  {
@@ -162,7 +162,7 @@
 		h2 {
 			width: 172px;
 			font-size: 13px;
-			padding: 7.3px 0px 3.5px 5px;
+			padding: 5.3px 0px 4.5px 5px;
 		}
 		.liScroll-container {
 			width: 45%;
@@ -946,6 +946,15 @@
 	/*----------css for annual-report & publications page--------------*/
 	.pub-main-wrap {
 		padding: 0 10px 40px;
+		.views-field {
+			&.views-field-php {
+				width: 80%;
+				margin-left: 5%;
+				.pub-download {
+					font-size: 14px;
+				}
+			}
+		}
 	}
 	.pub-wrap {
 		width: 80%;
@@ -954,7 +963,7 @@
 			font-size: 20px;
 			line-height: 1.2em;
 		}
-		.pub-desc, .pub-download {
+		.pub-desc {
 			font-size: 14px;
 		}
 	}
@@ -977,6 +986,13 @@
 	.node-type-about-idei  {
 		table {
 			margin: 0;
+		}
+	}
+	.page-node-106 {
+		.approach-content-wrapper {
+			.shift-image {
+				padding: 35px 10px 20px 0;
+			}
 		}
 	}
 
@@ -1241,7 +1257,6 @@
 			.region-content {
 				h2 {
 					font-size: 25px;
-					padding-top: 15px;
 				}
 			}
 			.form-group {
@@ -1341,6 +1356,9 @@
 				}	
 			}
 		}
+		.webform-client-form-68 {
+			padding-top: 25px;
+		}
 	/*-------------------------css ends for archive node page---------------------*/
 
 	/*-------------------------css for idei-capabilty-page-----------------------*/
@@ -1393,6 +1411,12 @@
 			padding: 0 10px 40px;
 			.ui-state-default {
 				font-size: 14px;
+				&:hover {
+					&:after {
+						top: 13px;
+    				right: 7px;
+					}
+				}
 			}
 			.ui-widget-content {
 				font-size: 14px;
@@ -2223,6 +2247,7 @@
 				}
 			}
 		}
+
 	/*-------------------------css ends for archive node page---------------------*/ 
 
 	/*------------------------css for about-idei-capability-page---------------------*/
