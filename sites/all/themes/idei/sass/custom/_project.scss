@@ -2500,6 +2500,13 @@
     color: $light-black;
     padding-bottom: 30px;
     text-align: justify;
+    img {
+    	max-width: 100%;
+    	width: 100%;
+    	display: block;
+    	height: auto;
+    	margin-top: 30px;
+    }
   }
   .pub-download {
     border: 2px solid $light-blue;
@@ -3846,19 +3853,7 @@ article#node-68 {
 }
 .page-search {
 	.breadcrumb {
-    background: none;
-    padding: 8px 45px;
-    li {
-    	a {
-    		color: $dark-blue;
-    		&:hover {
-    			color: $dark-blue;
-    		}
-    	}
-    	&.active {
-    		color: $light-blue;
-    	}
-    }
+    display: none;
 	}
 	.form-group {
   	width: 40%;
@@ -3873,7 +3868,6 @@ article#node-68 {
   .region-content {
 	  h2 {
 	    text-align: center;
-	    padding-top: 40px;
 	    color: $light-blue;
 	    font-size: 36px;
 		}
