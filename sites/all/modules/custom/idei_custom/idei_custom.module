@@ -7,6 +7,15 @@ function idei_custom_init() {
   drupal_add_js(drupal_get_path('module', 'idei_custom') . '/js/jquery.anchor.js');
 }
 /**
+* Implements hook_menu_alter().
+*/
+
+function idei_custom_menu_alter(&$items) {
+  // Disable user password page 
+  $items['user/password']['access callback'] = FALSE;
+}
+
+/**
 * Implements hook_block_info().
 */
 function idei_custom_block_info() {
