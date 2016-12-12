@@ -2636,14 +2636,16 @@
 
 /*-----media query for submenu's of water-pages------------*/
 @media all and (min-width:320px) and (max-width: 350px) {
-	.node-type-water-pages, .node-type-water-inner-pages, .page-media-listing {
+	.node-type-water-pages, .node-type-water-inner-pages, 
+	.page-media-listing, .node-type-publications {
 		.main-container {
 	    padding: 137px 0 0;
 		}
 	}
 }
 @media all and (min-width:350px) and (max-width: 590px) {
-	.node-type-water-pages, .node-type-water-inner-pages, .page-media-listing {
+	.node-type-water-pages, .node-type-water-inner-pages,
+	.page-media-listing, .node-type-publications {
 		.main-container {
 	    padding: 117px 0 0;
 		}
