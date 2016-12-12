@@ -8436,21 +8436,23 @@ article#node-68 h2 a {
 /*----------------------------------------------------------------*/
 /*-----media query for submenu's of water-pages------------*/
 @media all and (min-width: 320px) and (max-width: 350px) {
-  /* line 2640, ../sass/custom/_responsive.scss */
-  .node-type-water-pages .main-container, .node-type-water-inner-pages .main-container, .page-media-listing .main-container {
+  /* line 2641, ../sass/custom/_responsive.scss */
+  .node-type-water-pages .main-container, .node-type-water-inner-pages .main-container,
+  .page-media-listing .main-container, .node-type-publications .main-container {
     padding: 137px 0 0;
   }
 }
 @media all and (min-width: 350px) and (max-width: 590px) {
-  /* line 2647, ../sass/custom/_responsive.scss */
-  .node-type-water-pages .main-container, .node-type-water-inner-pages .main-container, .page-media-listing .main-container {
+  /* line 2649, ../sass/custom/_responsive.scss */
+  .node-type-water-pages .main-container, .node-type-water-inner-pages .main-container,
+  .page-media-listing .main-container, .node-type-publications .main-container {
     padding: 117px 0 0;
   }
 }
 /*----------------------------------------------------------------*/
 /*--------------------media query for timline awards page---------------*/
 @media all and (min-width: 320px) and (max-width: 349px) {
-  /* line 2656, ../sass/custom/_responsive.scss */
+  /* line 2658, ../sass/custom/_responsive.scss */
   .timeline-date {
     font-weight: normal;
   }
@@ -8458,31 +8460,31 @@ article#node-68 h2 a {
 /*--------------------media query ends for timline awards page---------------*/
 /*--------------------media query for archive-page------------------*/
 @media all and (min-width: 320px) and (max-width: 460px) {
-  /* line 2668, ../sass/custom/_responsive.scss */
+  /* line 2670, ../sass/custom/_responsive.scss */
   .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-name {
     top: 25%;
   }
-  /* line 2675, ../sass/custom/_responsive.scss */
+  /* line 2677, ../sass/custom/_responsive.scss */
   .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-name {
     top: 22%;
   }
 }
 @media all and (min-width: 461px) and (max-width: 620px) {
-  /* line 2689, ../sass/custom/_responsive.scss */
+  /* line 2691, ../sass/custom/_responsive.scss */
   .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-name {
     top: 30%;
   }
-  /* line 2696, ../sass/custom/_responsive.scss */
+  /* line 2698, ../sass/custom/_responsive.scss */
   .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-name {
     top: 34%;
   }
 }
 @media all and (min-width: 621px) and (max-width: 767px) {
-  /* line 2710, ../sass/custom/_responsive.scss */
+  /* line 2712, ../sass/custom/_responsive.scss */
   .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-name {
     top: 35%;
   }
-  /* line 2717, ../sass/custom/_responsive.scss */
+  /* line 2719, ../sass/custom/_responsive.scss */
   .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-name {
     top: 40%;
   }
