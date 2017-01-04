@@ -1,5 +1,52 @@
 <?php 
 
+function idei_custom_node_view($node, $view_mode, $langcode) {
+  $currentPath = current_path();
+  $explodePath = explode("/",$currentPath);
+  if($explodePath[0] != 'search') {
+    // annual page redirect
+    if($node->type == 'annual_reports') {
+      drupal_goto("/annual-report-page");
+    }
+    // media page redirect
+    if($node->type == 'media') {
+      if($node->field_media_category['und'][0]['tid'] == 45) {
+        drupal_goto("/awards-media");
+      } else {
+        drupal_goto("/media-listing");
+      }     
+    }
+    //programmes redirection
+    if($currentPath != 'node/37') {
+      if($node->type == 'programms') {
+        drupal_goto("/content/our-programmes");
+      }
+    }
+    // Knowledge partner 
+    if($node->type == 'knowledge_partners') {
+      drupal_goto("/knowledge-partners");
+    }
+    // Global networking platform
+    if($node->type == 'global_networking_platforms') {
+      drupal_goto("/global-networking-platforms");
+    }
+    // Awards list redirect
+    if($node->type == 'awards_list') {
+      drupal_goto("/awards-timeline");
+    }
+    // Awards list redirect
+    if($node->type == 'volunteers') {
+      drupal_goto("/volunteers");
+    }
+    //Redirect to homepage 
+    if($node->type == 'front_page_content') {
+      drupal_goto("/");
+    }
+
+  }
+}
+
+
 /**
  * Implements hook_init().
  */
