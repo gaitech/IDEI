@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the content type : water inner pages feature.
+ */
+
+include_once 'content_type_water_inner_pages.features.inc';

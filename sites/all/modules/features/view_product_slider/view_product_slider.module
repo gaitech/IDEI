@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View: Product slider feature.
+ */
+
+include_once 'view_product_slider.features.inc';

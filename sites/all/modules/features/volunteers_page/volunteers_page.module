@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Volunteers Page feature.
+ */
+
+include_once 'volunteers_page.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content Type: Header Banners feature.
+ */
+
+include_once 'content_type_header_banners.features.inc';

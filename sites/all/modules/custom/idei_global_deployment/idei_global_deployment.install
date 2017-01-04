@@ -1,0 +1,134 @@
+<?php 
+
+/**
+ * @file Install/Update file for deployment module which will be used for updating database settings
+ */
+
+
+/**
+ * Implements hook_install(). 
+ */
+
+function idei_global_deployment_install(){
+    for ($i = 7000; $i < 8000; $i++) {
+        $func = 'deployment_update_' . $i;
+        if (function_exists($func)) {
+            $func();
+        }
+    }
+}
+
+/**
+ * Implements hook_update_dependencies().
+ */
+function idei_global_deployment_update_dependencies() {
+  $dependencies = array();
+
+  return $dependencies;
+}
+
+
+/**
+ * Helper function to bulk enable modules.
+ *
+ * @param $modules
+ */
+function idei_global_deployment_module_enable($modules) {
+  return $modules_enabled = module_enable($modules, TRUE);
+}
+
+/**
+ * Helper function to bulk disable modules.
+ *
+ * @param $modules
+ */
+function idei_global_deployment_module_disable($modules) {
+  return $modules_enabled = module_disable($modules, TRUE);
+}
+
+/**
+ * Helper function to bulk uninstall modules.
+ *
+ * @param $modules
+ */
+function idei_global_deployment_module_uninstall($modules) {
+  module_disable($modules, true);
+  drupal_uninstall_modules($modules);
+  drupal_flush_all_caches();
+}
+
+/**
+ * Helper function to bulk revert features.
+ *
+ * @param $modules
+ */
+function idei_global_deployment_features_revert($features) {
+  drupal_flush_all_caches();
+  features_revert($features);
+  drupal_flush_all_caches();
+}
+
+
+/**
+ * Helper function to clear webform submissions.
+ *
+ * @param null $uuid
+ *   UUID of the webform to clear submissions for, NULL to clear all
+ *   submissions.
+ */
+function idei_global_deployment_webform_submission_clear($uuid = NULL) {
+  $query = new EntityFieldQuery();
+  $query->entityCondition('entity_type', 'node')
+    ->entityCondition('bundle', 'webform');
+
+  if ($uuid) {
+    $query->propertyCondition('uuid', $uuid, '=');
+  }
+
+  $results = $query->execute();
+
+  foreach ($results['node'] as $result) {
+    $nid = $result->nid;
+    db_delete('webform_submitted_data')
+      ->condition('nid', $nid)
+      ->execute();
+    db_delete('webform_submissions')
+      ->condition('nid', $nid)
+      ->execute();
+  }
+}
+
+/**
+ * Helper function to disable views.
+ */
+function idei_global_deployment_disable_views($viewnames) {
+  // grab list of views that are already disabled
+  $views_status = variable_get('views_defaults', array());
+  // add our views to be disabled to the list
+  foreach ($viewnames as $key => $viewname) {
+    $views_status[$viewname] = TRUE;
+  }
+  // reset the variable with the new list
+  variable_set('views_defaults', $views_status);
+  // empty cache now
+  if (function_exists('views_invalidate_cache')) {
+    views_invalidate_cache();
+  }
+}
+
+function idei_global_deployment_update_7031(&$sandbox){     
+  $modules = array('views', 'views_php', 'ctools' , 'backup_migrate', 'features', 'pathauto', 'token', 'admin_menu', 'admin_menu_toolbar', 'views_ui', 'module_filter', 'views_slideshow', 'views_slideshow_cycle', 'link', 'copyright_block');
+  $messages = array();
+  $modules_enabled = idei_global_deployment_module_enable($modules, TRUE);
+
+  $mod = array('overlay', 'toolbar');
+  idei_global_deployment_module_disable($mod);
+  
+  if($modules_enabled) {
+    $messages[] = implode(", ", $modules) . t(' modules have all been enabled.');
+  } else {
+    throw new DrupalUpdateException('Something went wrong; A dependency was missing.');
+  }
+
+  drupal_flush_all_caches();
+}

@@ -1,0 +1,17 @@
+name = content type : water inner pages
+description = content type : water inner pages
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = image
+dependencies[] = news_content_type
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_header_image_
+features[field_base][] = field_water_caption
+features[field_instance][] = node-water_inner_pages-body
+features[field_instance][] = node-water_inner_pages-field_header_image_
+features[field_instance][] = node-water_inner_pages-field_water_caption
+features[node][] = water_inner_pages
+project path = sites/all/modules/features

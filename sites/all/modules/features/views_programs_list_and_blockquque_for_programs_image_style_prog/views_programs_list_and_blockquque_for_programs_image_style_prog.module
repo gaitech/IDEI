@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the views: programs list and blockquque for programs , Image style: program image  feature.
+ */
+
+include_once 'views_programs_list_and_blockquque_for_programs_image_style_prog.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View: Product menu, View: Case study for products feature.
+ */
+
+include_once 'view_product_menu_view_case_study_for_products.features.inc';

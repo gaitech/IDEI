@@ -1,0 +1,14 @@
+name = menu : archive paralax
+description = menu : archive paralax
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = menu-archive-
+features[menu_links][] = menu-archive-_documents:<front>
+features[menu_links][] = menu-archive-_film:<front>
+features[menu_links][] = menu-archive-_photographs:<front>
+features[menu_links][] = menu-archive-_videos-:<front>
+project path = sites/all/modules/features

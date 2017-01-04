@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View : Annual report Listing feature.
+ */
+
+include_once 'view_annual_report_listing.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content type : Archive Photo Graph feature.
+ */
+
+include_once 'content_type_archive_photo_graph.features.inc';

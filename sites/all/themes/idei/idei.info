@@ -1,0 +1,40 @@
+name = IDEI
+description = Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[social_links]    = 'social Links'
+regions[navigation]     = 'Navigation'
+region[secondry_menu]   = 'Second Menu'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+regions[water_slider]  = 'water Slider'
+
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = 'css/style.css'
+stylesheets[all][] = 'css/custom.css'
+stylesheets[all][] = 'css/animate.css'
+
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+;
+  scripts[] = 'js/custom.js'
+  scripts[] = 'js/active_paralax_scroll.js'
+  scripts[] = 'js/wow.js'
+  scripts[] = 'js/wow.min.js'

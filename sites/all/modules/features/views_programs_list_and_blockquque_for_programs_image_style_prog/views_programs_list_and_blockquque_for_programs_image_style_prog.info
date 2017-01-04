@@ -1,0 +1,14 @@
+name = views: programs list and blockquque for programs , Image style: program image
+description = views: programs list and blockquque for programs
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = ctools
+dependencies[] = image
+dependencies[] = views
+features[ctools][] = blockqueue:default_blockqueues:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[image][] = program_image_410___320_
+features[views_view][] = programs_list_
+project path = sites/all/modules/features
