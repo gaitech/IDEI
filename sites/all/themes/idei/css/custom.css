@@ -3,26 +3,32 @@
   font-family: Bebas-Neue;
   src: url("../fonts/BebasNeuewebfont.ttf"), url("../fonts/BebasNeuewebfont.woff");
 }
+
 @font-face {
   font-family: helvetica-bold;
   src: url("../fonts/Helvetica-Bold.ttf");
 }
+
 @font-face {
   font-family: helvetica;
   src: url("../fonts/helvetica.ttf"), url("../fonts/helvetica.woff");
 }
+
 @font-face {
   font-family: OpenSans;
   src: url("../fonts/OpenSans-Regular.ttf"), url("../fonts/OpenSans-Regular.woff");
 }
+
 @font-face {
   font-family: myriad-pro-semibold;
   src: url("../fonts/MyriadPro-Semibold.ttf"), url("../fonts/MyriadPro-Semibold.woff");
 }
+
 @font-face {
   font-family: rockwell;
   src: url("../fonts/rockwell.ttf"), url("../fonts/rockwell.woff");
 }
+
 /* line 26, ../sass/custom/_global.scss */
 body {
   font-family: OpenSans;
@@ -40,7 +46,7 @@ a:focus, p:focus, h2:focus {
 
 /* line 38, ../sass/custom/_global.scss */
 .main-container {
-  background: #fff none repeat scroll 0 0;
+  background: white none repeat scroll 0 0;
   margin: 0 auto;
   max-width: 100%;
   padding: 71px 0 0;
@@ -62,7 +68,7 @@ a:focus, p:focus, h2:focus {
   background: url(../images/back-to-top.png) no-repeat center center !important;
   height: 60px !important;
   width: 60px !important;
-  box-shadow: 0px 0px 8px #ccc;
+  box-shadow: 0px 0px 8px #cccccc;
   border-radius: 100%;
 }
 
@@ -86,32 +92,40 @@ a:focus, p:focus, h2:focus {
 }
 
 @-webkit-keyframes fadeInUp {
+  /* line 77, ../sass/custom/_global.scss */
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
+
+  /* line 83, ../sass/custom/_global.scss */
   to {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
+
 @keyframes fadeInUp {
+  /* line 90, ../sass/custom/_global.scss */
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
+
+  /* line 96, ../sass/custom/_global.scss */
   to {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
+
 /* line 2, ../sass/custom/_header.scss */
 .navbar.container {
-  background: #fff none repeat scroll 0 0;
+  background: white none repeat scroll 0 0;
   box-shadow: 0 -4px 11px #000;
   margin: 0 auto;
   max-width: 100%;
@@ -268,11 +282,11 @@ a:focus, p:focus, h2:focus {
 /* line 140, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu {
   width: 100%;
-  background-color: #fff;
+  background-color: white;
   position: relative;
   top: -2px;
   border-top: 1px solid #9d9d9d;
-  box-shadow: 0 4px 11px #ccc;
+  box-shadow: 0 4px 11px #cccccc;
 }
 /* line 147, ../sass/custom/_header.scss */
 .navbar .secondary-sub-menu ul {
@@ -332,11 +346,11 @@ a:focus, p:focus, h2:focus {
 /* line 193, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block, .navbar .second-views-menu {
   width: 100%;
-  background-color: #fff;
+  background-color: white;
   position: relative;
   top: -2px;
   border-top: 1px solid #9d9d9d;
-  box-shadow: 0 4px 11px #ccc;
+  box-shadow: 0 4px 11px #cccccc;
 }
 /* line 200, ../sass/custom/_header.scss */
 .navbar #block-views-product-menu-block .view-product-menu, .navbar #block-views-product-menu-block .view, .navbar .second-views-menu .view-product-menu, .navbar .second-views-menu .view {
@@ -403,7 +417,7 @@ a:focus, p:focus, h2:focus {
   padding: 0 0 0 75px;
 }
 
-/* line 266, ../sass/custom/_header.scss */
+/* line 271, ../sass/custom/_header.scss */
 #home-block-block-2:before,
 #home-block-block-3:before,
 #home-block-block-4:before,
@@ -417,7 +431,7 @@ a:focus, p:focus, h2:focus {
   visibility: hidden;
 }
 
-/* line 278, ../sass/custom/_header.scss */
+/* line 281, ../sass/custom/_header.scss */
 #program-1:before, #program-2:before,
 #program-3:before, #program-4:before,
 #program-5:before, #program-6:before,
@@ -427,6 +441,57 @@ a:focus, p:focus, h2:focus {
   margin-top: -78px;
   height: 99px;
   visibility: hidden;
+}
+
+/* line 290, ../sass/custom/_header.scss */
+.custom-search-top {
+  display: none;
+  float: left;
+}
+/* line 293, ../sass/custom/_header.scss */
+.custom-search-top input {
+  border: 1px solid #43bfef;
+  border-radius: 12px !important;
+  box-shadow: 0 0 10px #43bfef;
+  color: #43bfef;
+  font-family: OpenSans;
+  font-size: 12px;
+  height: 25px;
+  margin-top: 3px;
+  width: 200px;
+}
+/* line 304, ../sass/custom/_header.scss */
+.custom-search-top .views-submit-button {
+  display: none;
+}
+
+/* line 312, ../sass/custom/_header.scss */
+.page-idei-search .page-title h2 {
+  color: #43bfef;
+  font-size: 36px;
+  text-align: center;
+}
+/* line 318, ../sass/custom/_header.scss */
+.page-idei-search .view-idei-search {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 322, ../sass/custom/_header.scss */
+.page-idei-search .view-idei-search .views-row {
+  margin-bottom: 10px;
+}
+/* line 325, ../sass/custom/_header.scss */
+.page-idei-search .view-idei-search .views-row .views-field-title a {
+  color: #27579c;
+  font-size: 20px;
+}
+/* line 331, ../sass/custom/_header.scss */
+.page-idei-search .view-idei-search .views-field.views-field-counter {
+  float: left;
+  font-size: 22px;
+  margin-left: -32px;
+  color: #43bfef;
 }
 
 /* line 2, ../sass/custom/_footer.scss */
@@ -451,7 +516,7 @@ a:focus, p:focus, h2:focus {
 }
 /* line 20, ../sass/custom/_footer.scss */
 .footer .block-title {
-  color: #fff;
+  color: white;
   font-size: 15px;
   margin-top: 38px;
   font-weight: bold;
@@ -510,7 +575,7 @@ a:focus, p:focus, h2:focus {
 }
 /* line 67, ../sass/custom/_footer.scss */
 .footer .facebook-block .facebook-wrapper ul li a {
-  color: #71716C;
+  color: #71716c;
   font-weight: bold;
   font-family: OpenSans;
   font-size: 15px;
@@ -548,7 +613,7 @@ a:focus, p:focus, h2:focus {
 }
 /* line 107, ../sass/custom/_footer.scss */
 .footer .connect-wrapper h2 {
-  color: #fff;
+  color: white;
   font-size: 15px;
   padding-top: 18px;
   font-family: OpenSans;
@@ -559,7 +624,7 @@ a:focus, p:focus, h2:focus {
 .footer .connect-wrapper ul {
   padding: 0;
   list-style: none;
-  color: #fff;
+  color: white;
   margin-top: 13px;
 }
 /* line 120, ../sass/custom/_footer.scss */
@@ -567,11 +632,11 @@ a:focus, p:focus, h2:focus {
   font-size: 14px;
   margin-bottom: 5px;
   font-family: OpenSans;
-  color: #71716C;
+  color: #71716c;
 }
 /* line 125, ../sass/custom/_footer.scss */
 .footer .connect-wrapper ul li a {
-  color: #fff;
+  color: white;
 }
 /* line 127, ../sass/custom/_footer.scss */
 .footer .connect-wrapper ul li a:hover {
@@ -618,7 +683,7 @@ a:focus, p:focus, h2:focus {
 /* line 170, ../sass/custom/_footer.scss */
 .copyright {
   clear: both;
-  border-top: 1px solid #71716C;
+  border-top: 1px solid #71716c;
   width: 90.3%;
   padding-top: 8px;
 }
@@ -633,7 +698,7 @@ a:focus, p:focus, h2:focus {
 }
 /* line 184, ../sass/custom/_footer.scss */
 .copyright p:nth-of-type(2) {
-  color: #fff;
+  color: white;
   width: 36%;
   font-family: OpenSans;
   font-size: 10px;
@@ -667,7 +732,7 @@ a:focus, p:focus, h2:focus {
 .slide-wrapper .slide-title {
   position: absolute;
   bottom: 40%;
-  color: #fff;
+  color: white;
   font-size: 40px;
   font-family: OpenSans;
   left: 5.4%;
@@ -676,7 +741,7 @@ a:focus, p:focus, h2:focus {
 /* line 27, ../sass/custom/_project.scss */
 .slide-wrapper .slide-title a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 /*css ends for homepage-slider*/
@@ -696,7 +761,7 @@ a:focus, p:focus, h2:focus {
   font-size: 16px;
   background-color: #22305b;
   margin: 0;
-  color: #fff;
+  color: white;
   padding: 3px 0px 4.5px 33px;
   font-family: OpenSans;
   float: left;
@@ -1976,7 +2041,7 @@ a:focus, p:focus, h2:focus {
 .header-wrap .header-title {
   position: absolute;
   bottom: 0;
-  color: #fff;
+  color: white;
   font-size: 40px;
   font-family: OpenSans;
   font-style: italic;
@@ -2133,7 +2198,7 @@ a:focus, p:focus, h2:focus {
 .also-read-wrap .also-read-title {
   text-align: center;
   font-size: 16px;
-  color: #fff;
+  color: white;
   font-family: OpenSans;
   font-weight: bold;
   letter-spacing: 1px;
@@ -2188,8 +2253,8 @@ a:focus, p:focus, h2:focus {
 }
 /* line 1431, ../sass/custom/_project.scss */
 .also-read-wrap .also-content .views-row .views-field-title a:hover {
-  color: #fff;
-  text-shadow: 0.3px 0.3px 0.3px #fff;
+  color: white;
+  text-shadow: 0.3px 0.3px 0.3px white;
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -2398,7 +2463,7 @@ a:focus, p:focus, h2:focus {
   bottom: 0;
   text-align: center;
   width: 100%;
-  color: #fff;
+  color: white;
   background: rgba(0, 0, 0, 0.4);
   font-size: 36px;
   text-transform: uppercase;
@@ -2422,7 +2487,7 @@ a:focus, p:focus, h2:focus {
 /* line 1645, ../sass/custom/_project.scss */
 .program-text-wrap {
   background-color: #43bfef;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 25px 0 35px;
 }
@@ -2593,8 +2658,8 @@ a:focus, p:focus, h2:focus {
 #block-views-programs-list-block-6 .views-row .more:hover, #block-views-programs-list-block-8 .views-row .more:hover,
 #block-views-programs-list-block-10 .views-row .more:hover, #block-views-programs-list-block-11 .views-row .more:hover {
   background-color: #43bfef;
-  color: #fff;
-  border: 2px solid #fff;
+  color: white;
+  border: 2px solid white;
 }
 /* line 1777, ../sass/custom/_project.scss */
 #block-views-programs-list-block-2 .views-row .views-field-nothing, #block-views-programs-list-block-4 .views-row .views-field-nothing,
@@ -2627,7 +2692,7 @@ a:focus, p:focus, h2:focus {
 #block-views-programs-list-block-10 .views-row .products-wrapper, #block-views-programs-list-block-11 .views-row .products-wrapper {
   float: left;
   width: 19%;
-  background: #fff;
+  background: white;
   margin-right: 1%;
   border-radius: 7px;
   margin-bottom: 1%;
@@ -2760,7 +2825,7 @@ a:focus, p:focus, h2:focus {
   bottom: 0;
   text-align: center;
   width: 100%;
-  color: #fff;
+  color: white;
   background: rgba(0, 0, 0, 0.4);
   font-size: 36px;
   text-transform: uppercase;
@@ -2946,7 +3011,7 @@ a:focus, p:focus, h2:focus {
 }
 /* line 2056, ../sass/custom/_project.scss */
 #block-idei-custom-products-gallery-tab-block .resp-tabs-list li.resp-tab-active {
-  color: #fff !important;
+  color: white !important;
   background-color: #43bfef !important;
   font-size: 22px;
   height: 60px;
@@ -3018,7 +3083,7 @@ a:focus, p:focus, h2:focus {
   position: absolute;
   bottom: 20.7%;
   font-size: 30px;
-  color: #fff;
+  color: white;
   text-align: center;
   width: 100%;
   font-family: OpenSans;
@@ -3031,7 +3096,7 @@ a:focus, p:focus, h2:focus {
   font-size: 25px;
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: white;
   font-family: OpenSans;
   background: rgba(0, 0, 0, 0.4);
 }
@@ -3040,7 +3105,7 @@ a:focus, p:focus, h2:focus {
   position: absolute;
   bottom: 20%;
   font-size: 30px;
-  color: #fff;
+  color: white;
   text-align: center;
   width: 100%;
   font-family: OpenSans;
@@ -3052,7 +3117,7 @@ a:focus, p:focus, h2:focus {
   font-size: 25px;
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: white;
   font-family: OpenSans;
 }
 /* line 2154, ../sass/custom/_project.scss */
@@ -3172,11 +3237,11 @@ a:focus, p:focus, h2:focus {
 /* line 2253, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf:hover {
   background-color: #43bfef;
-  border: 2px solid #fff;
+  border: 2px solid white;
 }
 /* line 2256, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf:hover a {
-  color: #fff;
+  color: white;
 }
 /* line 2260, ../sass/custom/_project.scss */
 .view-case-study-for-products .views-field-field-case-study-upload-pdf a {
@@ -3388,11 +3453,11 @@ a:focus, p:focus, h2:focus {
 /* line 2468, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php .pub-download:hover {
   background-color: #43bfef;
-  border: 2px solid #fff;
+  border: 2px solid white;
 }
 /* line 2471, ../sass/custom/_project.scss */
 .pub-main-wrap .views-field.views-field-php .pub-download:hover a {
-  color: #fff;
+  color: white;
 }
 
 /* line 2478, ../sass/custom/_project.scss */
@@ -3460,11 +3525,11 @@ a:focus, p:focus, h2:focus {
 /* line 2530, ../sass/custom/_project.scss */
 .pub-wrap .pub-download:hover {
   background-color: #43bfef;
-  border: 2px solid #fff;
+  border: 2px solid white;
 }
 /* line 2533, ../sass/custom/_project.scss */
 .pub-wrap .pub-download:hover a {
-  color: #fff;
+  color: white;
 }
 
 /* line 2539, ../sass/custom/_project.scss */
@@ -3484,7 +3549,7 @@ a:focus, p:focus, h2:focus {
 /* line 2549, ../sass/custom/_project.scss */
 .pagination li a:hover, .pagination li a:focus {
   background-color: #43bfef;
-  color: #fff;
+  color: white;
   border-color: #43bfef;
 }
 /* line 2555, ../sass/custom/_project.scss */
@@ -3494,7 +3559,7 @@ a:focus, p:focus, h2:focus {
 /* line 2559, ../sass/custom/_project.scss */
 .pagination li.active span {
   background-color: #43bfef;
-  color: #fff;
+  color: white;
   font-size: 18px;
   padding: 4.5px 12px;
   border-color: #43bfef;
@@ -3519,7 +3584,7 @@ a:focus, p:focus, h2:focus {
 }
 /* line 2586, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component label {
-  color: #fff;
+  color: white;
 }
 /* line 2588, ../sass/custom/_project.scss */
 .webform-client-form-68 .webform-component label .form-required {
@@ -3534,7 +3599,7 @@ a:focus, p:focus, h2:focus {
 /* line 2597, ../sass/custom/_project.scss */
 .webform-client-form-68 .form-actions .btn-default {
   color: #27579c;
-  background-color: #fff;
+  background-color: white;
   font-family: OpenSans;
   font-size: 16px;
 }
@@ -3560,7 +3625,7 @@ article#node-68 h2 {
 }
 /* line 2619, ../sass/custom/_project.scss */
 article#node-68 h2 a {
-  color: #fff;
+  color: white;
   pointer-events: none;
 }
 
@@ -3896,7 +3961,7 @@ article#node-68 h2 a {
   display: table;
   width: 100%;
 }
-/* line 2943, ../sass/custom/_project.scss */
+/* line 2944, ../sass/custom/_project.scss */
 .view-donors .view-content .views-field-field-donor-logo, .view-donors .view-content .views-field-field-knowledge-partner-logo,
 .view-donors .view-content .views-field-field-global-networking-logo, .view-knowledge-partners .view-content .views-field-field-donor-logo, .view-knowledge-partners .view-content .views-field-field-knowledge-partner-logo,
 .view-knowledge-partners .view-content .views-field-field-global-networking-logo, .view-global-networking-platforms .view-content .views-field-field-donor-logo, .view-global-networking-platforms .view-content .views-field-field-knowledge-partner-logo,
@@ -4024,7 +4089,7 @@ article#node-68 h2 a {
 }
 /* line 3060, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-content .views-field-name a {
-  color: #fff;
+  color: white;
 }
 /* line 3065, ../sass/custom/_project.scss */
 .main-container .view-archive- .view-footer {
@@ -4061,7 +4126,7 @@ article#node-68 h2 a {
 }
 /* line 3092, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-name a, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-name a, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-name a {
-  color: #fff;
+  color: white;
 }
 /* line 3097, ../sass/custom/_project.scss */
 .main-container .view-archive-.view-display-id-block_2 .view-content .views-field-field-promotional-feature-video a, .main-container .view-archive-.view-display-id-block_4 .view-content .views-field-field-promotional-feature-video a, .main-container .view-archive-.view-display-id-block_6 .view-content .views-field-field-promotional-feature-video a {
@@ -4254,7 +4319,7 @@ article#node-68 h2 a {
   width: 390px;
   height: 150px;
   padding: 14px 27px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   border-radius: 3px;
@@ -4263,7 +4328,7 @@ article#node-68 h2 a {
   top: -154px;
   right: 0;
   z-index: 100;
-  background: #f5f5f5;
+  background: whitesmoke;
   color: #6a6a6a;
 }
 /* line 3294, ../sass/custom/_project.scss */
@@ -4273,7 +4338,7 @@ article#node-68 h2 a {
   height: 0;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-top: 10px solid #ccc;
+  border-top: 10px solid #cccccc;
   position: relative;
   top: 48px;
   right: 60px;
@@ -4368,8 +4433,8 @@ article#node-68 h2 a {
 .water-intro-slider .carousel img {
   vertical-align: middle;
   width: 100%;
-  box-shadow: 0 0 12px #ccc;
-  border: 2px solid #ccc;
+  box-shadow: 0 0 12px #cccccc;
+  border: 2px solid #cccccc;
 }
 /* line 3389, ../sass/custom/_project.scss */
 .water-intro-slider .prev-button {
@@ -4382,7 +4447,7 @@ article#node-68 h2 a {
   top: 100px;
   left: 3px;
   z-index: 9;
-  box-shadow: 0px 0px 8px #ccc;
+  box-shadow: 0px 0px 8px #cccccc;
   border-radius: 100%;
   cursor: pointer;
 }
@@ -4406,7 +4471,7 @@ article#node-68 h2 a {
   top: 100px;
   right: 3px;
   z-index: 9;
-  box-shadow: 0px 0px 8px #ccc;
+  box-shadow: 0px 0px 8px #cccccc;
   border-radius: 100%;
   cursor: pointer;
 }
@@ -4517,7 +4582,7 @@ article#node-68 h2 a {
   top: 0;
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: white;
   background: rgba(0, 0, 0, 0.4);
   padding: 14px 0 6px;
   font-size: 20px;
@@ -4538,7 +4603,7 @@ article#node-68 h2 a {
 .view-media-listing .view-content .views-row .share-this {
   font-size: 14px;
   text-transform: capitalize;
-  color: #fff;
+  color: white;
   font-family: OpenSans;
   float: left;
   padding-top: 3px;
@@ -4873,11 +4938,11 @@ article#node-68 h2 a {
 /* line 3834, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link:hover {
   background-color: #43bfef;
-  border: 2px solid #fff;
+  border: 2px solid white;
 }
 /* line 3837, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link:hover a {
-  color: #fff;
+  color: white;
 }
 /* line 3841, ../sass/custom/_project.scss */
 .node-type-awards-list .external-link a {
@@ -5108,7 +5173,7 @@ article#node-68 h2 a {
 /* line 4042, ../sass/custom/_project.scss */
 .capability-text table .table-head, .table-block table .table-head {
   background: #5082bd;
-  color: #fff;
+  color: white;
 }
 /* line 4045, ../sass/custom/_project.scss */
 .capability-text table .table-head td, .table-block table .table-head td {
@@ -5169,7 +5234,7 @@ article#node-68 h2 a {
   width: 50%;
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
-  color: #fff;
+  color: white;
 }
 
 /* line 4098, ../sass/custom/_project.scss */
@@ -5218,7 +5283,7 @@ article#node-68 h2 a {
 /* line 4132, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default {
   border: none;
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
   font-size: 16px;
   color: #43bfef;
   font-family: OpenSans;
@@ -5255,7 +5320,7 @@ article#node-68 h2 a {
 }
 /* line 4163, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default:hover a {
-  color: #fff;
+  color: white;
 }
 /* line 4166, ../sass/custom/_project.scss */
 .accordion-block .ui-state-default:hover:after {
@@ -5264,7 +5329,7 @@ article#node-68 h2 a {
   height: 0;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-top: 11px solid #fff;
+  border-top: 11px solid white;
   float: right;
   margin-right: 15px;
   position: absolute;
@@ -5279,7 +5344,7 @@ article#node-68 h2 a {
 }
 /* line 4185, ../sass/custom/_project.scss */
 .accordion-block .ui-accordion-header-active a {
-  color: #fff;
+  color: white;
 }
 /* line 4188, ../sass/custom/_project.scss */
 .accordion-block .ui-accordion-header-active:hover {
@@ -5300,7 +5365,7 @@ article#node-68 h2 a {
   height: 0;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-bottom: 11px solid #fff;
+  border-bottom: 11px solid white;
   float: right;
   margin-right: 15px;
   margin-top: -4px;
@@ -5646,7 +5711,7 @@ article#node-68 h2 a {
 /* line 4526, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-heading:hover {
   background-color: #43bfef;
-  color: #fff;
+  color: white;
 }
 /* line 4529, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-heading:hover:after {
@@ -5655,7 +5720,7 @@ article#node-68 h2 a {
   height: 0;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-top: 11px solid #fff;
+  border-top: 11px solid white;
   float: right;
   margin-right: 15px;
   position: absolute;
@@ -5665,7 +5730,7 @@ article#node-68 h2 a {
 /* line 4544, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-heading.open {
   background-color: #27579c;
-  color: #fff;
+  color: white;
 }
 /* line 4548, ../sass/custom/_project.scss */
 .water-field-collection-values .panel-heading.open:hover:after {
@@ -5678,7 +5743,7 @@ article#node-68 h2 a {
   height: 0;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-bottom: 11px solid #fff;
+  border-bottom: 11px solid white;
   float: right;
   margin-right: 15px;
   margin-top: -4px;
@@ -5882,7 +5947,7 @@ article#node-68 h2 a {
   }
   /* line 48, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-header .navbar-toggle span {
-    background-color: #fff;
+    background-color: white;
   }
   /* line 53, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-collapse.collapsing {
@@ -5893,7 +5958,7 @@ article#node-68 h2 a {
     position: absolute;
     right: auto;
     background: #27579c url("../images/logo.png") no-repeat scroll center right 15px;
-    box-shadow: 0 4px 11px #ccc;
+    box-shadow: 0 4px 11px #cccccc;
     width: 100%;
     top: auto;
     margin: -3px 0 0;
@@ -5916,7 +5981,7 @@ article#node-68 h2 a {
   }
   /* line 78, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-collapse.collapse .new-main-menu li a {
-    color: #fff;
+    color: white;
   }
   /* line 80, ../sass/custom/_responsive.scss */
   .navbar .container .navbar-collapse.collapse .new-main-menu li a.active {
@@ -6440,7 +6505,7 @@ article#node-68 h2 a {
     padding-top: 0;
     margin: 0;
   }
-  /* line 585, ../sass/custom/_responsive.scss */
+  /* line 586, ../sass/custom/_responsive.scss */
   .footer #block-menu-menu-footer-about-us, .footer #block-menu-menu-footer-resources,
   .footer #block-menu-menu-footer-get-involved {
     width: 100%;
@@ -6806,11 +6871,11 @@ article#node-68 h2 a {
   /* line 867, ../sass/custom/_responsive.scss */
   h2.resp-tab-active {
     background-color: #43bfef !important;
-    color: #fff;
+    color: white;
   }
   /* line 870, ../sass/custom/_responsive.scss */
   h2.resp-tab-active span.resp-arrow {
-    border-bottom: 12px solid #fff;
+    border-bottom: 12px solid white;
   }
 
   /* line 875, ../sass/custom/_responsive.scss */
@@ -6903,7 +6968,7 @@ article#node-68 h2 a {
 
   /*----------css ends for annual-report & publications page--------------*/
   /*----------css for programms block navigation on click of menu's--------------*/
-  /* line 973, ../sass/custom/_responsive.scss */
+  /* line 976, ../sass/custom/_responsive.scss */
   #program-1:before, #program-2:before,
   #program-3:before, #program-4:before,
   #program-5:before, #program-6:before,
