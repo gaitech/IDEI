@@ -285,3 +285,54 @@
 	height: 99px; 
 	visibility: hidden;
 }
+
+
+.custom-search-top {
+	display: none;
+	float: left;
+	input {
+		border: 1px solid #43bfef;
+		border-radius: 12px !important;
+		box-shadow: 0 0 10px #43bfef;
+		color: #43bfef;
+		font-family: OpenSans;
+		font-size: 12px;
+		height: 25px;
+		margin-top: 3px;
+		width: 200px;
+	}
+	.views-submit-button {
+		display: none;
+	}
+}
+
+
+.page-idei-search {
+.page-title {
+	h2 {
+color: #43bfef;
+font-size: 36px;
+text-align: center;
+}
+}
+	 .view-idei-search {
+		max-width: 1000px;
+		width: 100%;
+		margin: 0 auto;
+		.views-row{
+			margin-bottom: 10px;
+			.views-field-title {
+				a{
+					color: #27579c;
+					font-size: 20px;
+				}
+		    }
+	    }
+		.views-field.views-field-counter {
+			float: left;
+			font-size: 22px;
+			margin-left: -32px;
+			color:#43bfef;
+		}
+	}
+}

@@ -3,7 +3,6 @@
 function idei_custom_node_view($node, $view_mode, $langcode) {
   $currentPath = current_path();
   $explodePath = explode("/",$currentPath);
-  if($explodePath[0] != 'search') {
     // annual page redirect
     if($node->type == 'annual_reports') {
       drupal_goto("/annual-report-page");
@@ -42,8 +41,6 @@ function idei_custom_node_view($node, $view_mode, $langcode) {
     if($node->type == 'front_page_content') {
       drupal_goto("/");
     }
-
-  }
 }
 
 
