@@ -33,6 +33,8 @@
     });
   }); 
 
+$(".custom-search-top input").attr("placeholder", "Search");
+
   $("body").click(function() {
     $('#block-search-form').hide("slow");
   });
