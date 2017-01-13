@@ -459,34 +459,35 @@ a:focus, p:focus, h2:focus {
   height: 25px;
   margin-top: 3px;
   width: 200px;
+  padding: 0 0 0 14px;
 }
-/* line 304, ../sass/custom/_header.scss */
+/* line 305, ../sass/custom/_header.scss */
 .custom-search-top .views-submit-button {
   display: none;
 }
 
-/* line 312, ../sass/custom/_header.scss */
+/* line 313, ../sass/custom/_header.scss */
 .page-idei-search .page-title h2 {
   color: #43bfef;
   font-size: 36px;
   text-align: center;
 }
-/* line 318, ../sass/custom/_header.scss */
+/* line 319, ../sass/custom/_header.scss */
 .page-idei-search .view-idei-search {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
-/* line 322, ../sass/custom/_header.scss */
+/* line 323, ../sass/custom/_header.scss */
 .page-idei-search .view-idei-search .views-row {
   margin-bottom: 10px;
 }
-/* line 325, ../sass/custom/_header.scss */
+/* line 326, ../sass/custom/_header.scss */
 .page-idei-search .view-idei-search .views-row .views-field-title a {
   color: #27579c;
   font-size: 20px;
 }
-/* line 331, ../sass/custom/_header.scss */
+/* line 332, ../sass/custom/_header.scss */
 .page-idei-search .view-idei-search .views-field.views-field-counter {
   float: left;
   font-size: 22px;
