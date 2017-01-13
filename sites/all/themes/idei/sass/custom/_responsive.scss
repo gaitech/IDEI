@@ -31,7 +31,7 @@
 					}
 					.input-group {
 						.form-control {
-							width: 75px;
+							width: 66px;
 						}
 					}
 					#block-search-form  {
@@ -162,7 +162,7 @@
 		h2 {
 			width: 172px;
 			font-size: 13px;
-			padding: 7.3px 0px 3.5px 5px;
+			padding: 5.3px 0px 4.5px 5px;
 		}
 		.liScroll-container {
 			width: 45%;
@@ -392,14 +392,15 @@
 			    padding-right: 4px;
 			    background-size: 18px;
 			    height: 29px;
-			    max-width: 120px;
+			    max-width: 125px;
 			    width: 100%;
 			    display: inline-block;
 			    vertical-align: top;
-			    margin-bottom: 12px;
+			    margin-bottom: 20px;
 			    a {
-			    	margin-left: 21px;
+			    	margin-left: 24px;
   					font-size: 16px;
+  					line-height: 1.2em;
 			    }
 		    }
   		}
@@ -453,6 +454,8 @@
 	    	display: table;
 	    	margin: 0 auto;
 	    	float: none;
+	    	padding-bottom: 0;
+	    	max-width: 320px;
 	    	ul {
 	    		width: 100%;
 	    		text-align: center;
@@ -464,11 +467,12 @@
 			    height: 29px;
 			    display: inline-block;
 			    float: none;
-			    width: 135px;
+			    width: 150px;
 			    text-align: left;
 			    a {
 			    	margin-left: 52px;
 			    	font-size: 16px;
+			    	line-height: 1.2em;
 			    }
 	    	}
 	    }
@@ -929,6 +933,12 @@
 	    padding-bottom: 80px;
 	    background-size: 35px;
 	    max-width: 320px;
+	    margin: auto;
+		}
+		&.page-node-58 {
+			.approach-title {
+				background-position: 50% 100%;
+			}
 		}
 	}
 	/*----------css ends for approach page--------------*/
@@ -936,6 +946,15 @@
 	/*----------css for annual-report & publications page--------------*/
 	.pub-main-wrap {
 		padding: 0 10px 40px;
+		.views-field {
+			&.views-field-php {
+				width: 80%;
+				margin-left: 5%;
+				.pub-download {
+					font-size: 14px;
+				}
+			}
+		}
 	}
 	.pub-wrap {
 		width: 80%;
@@ -944,7 +963,7 @@
 			font-size: 20px;
 			line-height: 1.2em;
 		}
-		.pub-desc, .pub-download {
+		.pub-desc {
 			font-size: 14px;
 		}
 	}
@@ -969,12 +988,20 @@
 			margin: 0;
 		}
 	}
+	.page-node-106 {
+		.approach-content-wrapper {
+			.shift-image {
+				padding: 35px 10px 20px 0;
+			}
+		}
+	}
 
 	/*---------------------css for about-board-member-listing-page-----------------------*/
 	.view-about-us {
 		.view-content {
 			padding-left: 10px;
 			padding-right: 10px;
+			max-width: 320px;
 			.views-row {
 				width: 100%;
 				padding-left: 0;
@@ -982,6 +1009,7 @@
 			.profile-wrapper {
 		    display: inline-block;
 		    width: 100%;
+		    padding-bottom: 15px;
 		    .profile-pic {
 	        width: 100%;
 	        display: inline-block;
@@ -1001,6 +1029,32 @@
 		}
 		.profile-path {
 			font-size: 13px;
+			background-position: 35% 0;
+		}
+		.views-row-1 {
+			.twitter-link {
+    		background-position: 29% 0;
+    	}
+		}
+		.views-row-2 {
+			.twitter-link {
+    		background-position: 24% 0;
+    	}
+		}
+		.views-row-5 {
+			.twitter-link {
+    		background-position: 21% 0;
+    	}
+		}
+		.views-row-6 {
+			.twitter-link {
+    		background-position: 32% 0;
+    	}
+		}
+		.views-row-7 {
+			.twitter-link {
+    		background-position: 34% 0;
+    	}
 		}
 	}
 	/*-----------------css ends for about-board-member-listing-page-------------------*/
@@ -1108,6 +1162,7 @@
 		font-size: 15px !important;
 		p, a {
 			font-size: 13px;
+			word-wrap: break-word;
 		}
 		a.visit-story {
 			font-size: 14px;
@@ -1203,7 +1258,6 @@
 			.region-content {
 				h2 {
 					font-size: 25px;
-					padding-top: 15px;
 				}
 			}
 			.form-group {
@@ -1291,6 +1345,7 @@
 				.view-content {
 					padding-left: 10px;
 					padding-right: 10px;
+					max-width: 100%;
 				}
 				.node-title {
 					padding-top: 70px;
@@ -1301,6 +1356,9 @@
 					}
 				}	
 			}
+		}
+		.webform-client-form-68 {
+			padding-top: 25px;
 		}
 	/*-------------------------css ends for archive node page---------------------*/
 
@@ -1354,6 +1412,12 @@
 			padding: 0 10px 40px;
 			.ui-state-default {
 				font-size: 14px;
+				&:hover {
+					&:after {
+						top: 13px;
+    				right: 7px;
+					}
+				}
 			}
 			.ui-widget-content {
 				font-size: 14px;
@@ -1365,7 +1429,7 @@
 		}
 		.capability-description {
 			font-size: 1vw;
-			padding: 12px 12px 12px 6px;
+			padding: 12px 12px 12px 2px;
 			p {
 				top: 30%;
 			}
@@ -1555,6 +1619,15 @@
 	    }
 	  }
 	/*--------------------------css ends for donate-page---------------------*/
+
+	/*----------------------------css for iframe responsive-------------------*/
+		.player {
+			iframe {
+    		width: 100%;
+    		height: auto;
+    	}
+		}
+	/*--------------------------css ends for iframe responsive-------------------*/
 }
 
 
@@ -1869,7 +1942,19 @@
 				width: 70%;
 				padding-left: 25px;
 				li {
+					max-width: 257px;
 					width: 100%;
+					margin-bottom: 15px;
+					a {
+						margin-left: 65px;
+					}
+				}
+			}
+		}
+		.homepage-impact-wrapper {
+			.impact-content-wrapper {
+				.homepage-block-title {
+					font-size: 25px;
 				}
 			}
 		}
@@ -2030,11 +2115,38 @@
 
 	/*----------css for about-us-board-members listing-page----------- */
 	.view-about-us {
+		.view-content {
+			max-width: 768px;
+			padding-right: 0;
+			padding-left: 0;
+		}
 		.profile-title {
 			font-size: 20px;
 		}
 		.profile-designation {
 			font-size: 15px;
+		}
+		.profile-path {
+			background-position: 22% 0;
+		}
+		.twitter-link {
+			background-size: 22px;
+	    padding-left: 30px;
+	  }
+		.views-row-1 {
+			.twitter-link {
+    		background-position: 25% 0;
+    	}
+		}
+		.views-row-2 {
+			.twitter-link {
+    		background-position: 17% 0;
+    	}
+		}
+		.views-row-5 {
+			.twitter-link {
+    		background-position: 10% 0;
+    	}
 		}
 	}
 	/*----------css ends for about-us-board-members listing-page----------- */
@@ -2129,6 +2241,14 @@
 				max-width: 768px;
 			}
 		}
+		.page-documents {
+			.view-photo-gallery-archive- {
+				.view-content {
+					max-width: 100%;
+				}
+			}
+		}
+
 	/*-------------------------css ends for archive node page---------------------*/ 
 
 	/*------------------------css for about-idei-capability-page---------------------*/
@@ -2213,9 +2333,10 @@
 	    max-width: 768px;
 	  }
 	}
-	.page-node-56 {
+	.page-node-58 {
 		.approach-title {
 	    background-position: 75% 100%;
+	    max-width: 768px;
 	  }
 	}
 	/*--------------------------css ends for approach-page---------------------*/
@@ -2286,6 +2407,13 @@
 		.view-photo-gallery-archive-  {
 			.view-content {
 				max-width: 1025px;
+			}
+		}
+		.page-documents {
+			.view-photo-gallery-archive- {
+				.view-content {
+					max-width: 100%;
+				}
 			}
 		}
 	/*-------------------------css ends for archive node page---------------------*/ 
@@ -2508,14 +2636,16 @@
 
 /*-----media query for submenu's of water-pages------------*/
 @media all and (min-width:320px) and (max-width: 350px) {
-	.node-type-water-pages, .node-type-water-inner-pages, .page-media-listing {
+	.node-type-water-pages, .node-type-water-inner-pages, 
+	.page-media-listing, .node-type-publications {
 		.main-container {
 	    padding: 137px 0 0;
 		}
 	}
 }
 @media all and (min-width:350px) and (max-width: 590px) {
-	.node-type-water-pages, .node-type-water-inner-pages, .page-media-listing {
+	.node-type-water-pages, .node-type-water-inner-pages,
+	.page-media-listing, .node-type-publications {
 		.main-container {
 	    padding: 117px 0 0;
 		}

@@ -232,7 +232,11 @@
 /*css ends for water-block*/
 
 /*css for impact-block*/
-
+.main-impact-content-wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
 .blockqueue-homepage-impact {
 	display: inline-block;
   width: 100%;
@@ -329,9 +333,10 @@
   	}
   }
   #block-views-infographics-block-1 {
-  	display: inline-block;
-    width: 100%;  
-    padding-bottom: 53px;
+  	padding-bottom: 53px;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
     h2 {
     	font-size: 19px;
 	    font-family: sans-serif;
@@ -649,8 +654,9 @@
   }
   #block-menu-menu-approach, #block-menu-menu-water {
   	padding: 0 40px 58px;
-  	display: inline-block;
   	width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
   	h2 {
     	font-size: 19px;
 	    font-family: sans-serif;
@@ -673,6 +679,7 @@
     	float: left;
     	display: inline-block;
     	margin-top: 34px;
+    	padding-bottom: 58px;
     	li {
     		float: left;
     		background-image: url("../images/approach-1.jpg");
@@ -879,8 +886,9 @@
   }
   #block-menu-menu-programs {
   	padding: 0 0px 54px 40px;
-  	display: inline-block;
   	width: 100%;
+    max-width: 1280px;
+    margin: auto;
   	h2 {
     	font-size: 19px;
 	    font-family: sans-serif;
@@ -889,6 +897,7 @@
 	    width: 210px;
 	    position: relative;
 	    float: left;
+	    top: -23px;
 	    &:before {
 		    content: "";
 		    position: absolute;
@@ -925,7 +934,7 @@
 			    color: $light-blue;
 			    margin-left: 35px;
 			    padding: 0;
-			    line-height: 1em;
+			    line-height: 1.2em;
 			    margin-top: 10px;
 			    -webkit-transition: all 0.12s ease-out;
 			   	-moz-transition:    all 0.12s ease-out;
@@ -1121,8 +1130,9 @@
 
 	#block-views-awards-slider-block-1 {
 		padding: 14px 40px 57px;
-		display: inline-block;
-  	width: 100%;
+		width: 100%;
+    max-width: 1280px;
+    margin: auto;
   	h2 {
     	font-size: 19px;
 	    font-family: sans-serif;
@@ -1145,6 +1155,7 @@
     	float: left;
     	display: inline-block;
     	margin-top: 10px;
+    	padding-bottom: 57px;
     	.view-content {
     		.views-row {
     			float: left;
@@ -1803,6 +1814,7 @@
 		    }
 		    a {
 		    	color: $dark-blue;
+		    	word-break: break-all;
 		    }
 			}
 			.p-desc {
@@ -2488,6 +2500,13 @@
     color: $light-black;
     padding-bottom: 30px;
     text-align: justify;
+    img {
+    	max-width: 100%;
+    	width: 100%;
+    	display: block;
+    	height: auto;
+    	margin-top: 30px;
+    }
   }
   .pub-download {
     border: 2px solid $light-blue;
@@ -3834,19 +3853,7 @@ article#node-68 {
 }
 .page-search {
 	.breadcrumb {
-    background: none;
-    padding: 8px 45px;
-    li {
-    	a {
-    		color: $dark-blue;
-    		&:hover {
-    			color: $dark-blue;
-    		}
-    	}
-    	&.active {
-    		color: $light-blue;
-    	}
-    }
+    display: none;
 	}
 	.form-group {
   	width: 40%;
@@ -3861,7 +3868,6 @@ article#node-68 {
   .region-content {
 	  h2 {
 	    text-align: center;
-	    padding-top: 40px;
 	    color: $light-blue;
 	    font-size: 36px;
 		}

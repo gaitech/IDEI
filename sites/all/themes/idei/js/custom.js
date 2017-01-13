@@ -28,10 +28,12 @@
 
   //Toggle search in header
   $(".search-logo").click(function(){
-    $('#block-search-form').animate({
+    $('.custom-search-top').animate({
       width: "toggle"
     });
   }); 
+
+$(".custom-search-top input").attr("placeholder", "Search");
 
   $("body").click(function() {
     $('#block-search-form').hide("slow");
