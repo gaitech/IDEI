@@ -1,0 +1,17 @@
+name = Content type : Archive Photo Graph
+description = Content type : Archive Photo Graph
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = content_type_header_banners
+dependencies[] = features
+dependencies[] = image
+dependencies[] = options
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[field_base][] = field_photograph_category
+features[field_base][] = field_photographs_gallery
+features[field_instance][] = node-archive_photographs-field_photograph_category
+features[field_instance][] = node-archive_photographs-field_photographs_gallery
+features[node][] = archive_photographs
+project path = sites/all/modules/features

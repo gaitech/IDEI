@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the idei capability banner view feature.
+ */
+
+include_once 'idei_capability_banner_view.features.inc';

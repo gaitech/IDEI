@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Conent Type: About IDEI feature.
+ */
+
+include_once 'conent_type_about_idei.features.inc';

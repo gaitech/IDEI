@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content Type : Board Members feature.
+ */
+
+include_once 'content_type_board_members.features.inc';

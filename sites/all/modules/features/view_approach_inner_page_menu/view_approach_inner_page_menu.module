@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the view: approach inner page menu feature.
+ */
+
+include_once 'view_approach_inner_page_menu.features.inc';

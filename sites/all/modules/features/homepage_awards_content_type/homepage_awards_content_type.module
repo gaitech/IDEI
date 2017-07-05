@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Homepage awards content type feature.
+ */
+
+include_once 'homepage_awards_content_type.features.inc';

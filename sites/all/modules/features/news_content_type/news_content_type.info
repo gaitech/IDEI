@@ -1,0 +1,12 @@
+name = News content type
+description = News content type
+core = 7.x
+package = IDEI Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_instance][] = node-news-body
+features[node][] = news
+project path = sites/all/modules/features

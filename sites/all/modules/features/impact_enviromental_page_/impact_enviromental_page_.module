@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Impact enviromental page  feature.
+ */
+
+include_once 'impact_enviromental_page_.features.inc';

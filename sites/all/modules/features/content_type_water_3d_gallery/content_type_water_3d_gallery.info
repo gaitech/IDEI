@@ -1,0 +1,17 @@
+name = content type : Water 3d gallery
+description = content type : Water 3d gallery
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = image
+dependencies[] = news_content_type
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_global_water_foot_print_li
+features[field_base][] = field_water_image
+features[field_instance][] = node-water_3d_gallery-body
+features[field_instance][] = node-water_3d_gallery-field_global_water_foot_print_li
+features[field_instance][] = node-water_3d_gallery-field_water_image
+features[node][] = water_3d_gallery
+project path = sites/all/modules/features

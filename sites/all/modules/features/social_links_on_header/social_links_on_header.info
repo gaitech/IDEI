@@ -1,0 +1,10 @@
+name = Social links on header
+description = Display social icons on header
+core = 7.x
+package = IDEI Features
+version = 7.x-1.0
+dependencies[] = fe_block
+features[fe_block_boxes][] = header_social_links
+features[fe_block_settings][] = block-header_social_links
+features[features_api][] = api:2
+project path = sites/all/modules/features
