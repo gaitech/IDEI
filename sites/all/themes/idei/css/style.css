@@ -6,16 +6,17 @@
 }
 .page-report-type .view-report-category .view-content,
 .view-financial-year-category .view-content {
- 	max-width: 1200px;
+ 	max-width: 1000px;
  	width: 100%;
  	margin:0 auto;
  	margin-top: 20px;
+ 	display: block;
  }
 
 .page-report-type .view-report-category .views-row,
 .view-financial-year-category .views-row {
   display:inline-block;
-  width: 30%;
+  width: 32%;
   margin: 0 auto 20px;
 }
 
