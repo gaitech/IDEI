@@ -1,3 +1,42 @@
 /**
  * Place your custom styles here.
  */
+.breadcrumb {
+  display:none;
+}
+.page-report-type .view-report-category .view-content,
+.view-financial-year-category .view-content {
+ 	max-width: 1200px;
+ 	width: 100%;
+ 	margin:0 auto;
+ 	margin-top: 20px;
+ }
+
+.page-report-type .view-report-category .views-row,
+.view-financial-year-category .views-row {
+  display:inline-block;
+  width: 30%;
+  margin: 0 auto 20px;
+}
+
+.page-report-type .view-report-category .views-field-php,
+.view-financial-year-category .views-field-field-financial-year {
+  text-align: center;
+  font-size: 20px;
+}
+
+.page-report-type .view-report-category  img,
+.view-financial-year-category  img{
+  margin: 0 auto;
+  width: 80%;
+  transition: all .2s ease-in-out;
+  border-radius: 15px 0px;
+}
+.page-report-type .view-report-category  img:hover,
+.view-financial-year-category  img:hover {
+  box-shadow: 0px 0px 22px #666;
+  border-radius: 10px;
+  transition: all .2s ease-in-out;
+  border-radius: 0px 15px;
+}
+
