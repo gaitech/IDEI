@@ -30,10 +30,6 @@ function idei_custom_node_view($node, $view_mode, $langcode) {
       drupal_goto("/global-networking-platforms");
     }
     // Awards list redirect
-    if($node->type == 'awards_list') {
-      drupal_goto("/awards-timeline");
-    }
-    // Awards list redirect
     if($node->type == 'volunteers') {
       drupal_goto("/volunteers");
     }
