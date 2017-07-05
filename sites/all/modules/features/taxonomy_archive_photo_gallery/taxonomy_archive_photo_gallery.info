@@ -1,0 +1,13 @@
+name = Taxonomy : Archive Photo Gallery
+description = Taxonomy : Archive Photo Gallery
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = image
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[field_base][] = field_feature_image
+features[field_instance][] = taxonomy_term-archive_photo_gallery-field_feature_image
+features[taxonomy][] = archive_photo_gallery
+project path = sites/all/modules/features

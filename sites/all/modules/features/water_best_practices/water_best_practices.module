@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Water - Best Practices feature.
+ */
+
+include_once 'water_best_practices.features.inc';

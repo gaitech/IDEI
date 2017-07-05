@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the IDEI CAPABILITY STATEMENT content type feature.
+ */
+
+include_once 'idei_capability_statement_content_type.features.inc';

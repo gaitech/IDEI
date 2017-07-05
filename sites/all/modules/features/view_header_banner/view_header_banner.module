@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View : Header Banner feature.
+ */
+
+include_once 'view_header_banner.features.inc';

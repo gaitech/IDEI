@@ -1,0 +1,17 @@
+name = Menu : About us
+description = Menu : About us
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = menu-about-us
+features[menu_links][] = menu-about-us_about-us:<front>
+features[menu_links][] = menu-about-us_board-members:<front>
+features[menu_links][] = menu-about-us_idei-capability-statement:<front>
+features[menu_links][] = menu-about-us_introduction:<front>
+features[menu_links][] = menu-about-us_key-differentiators-idei-vs-others:<front>
+features[menu_links][] = menu-about-us_our-team:<front>
+features[menu_links][] = menu-about-us_registration-and-legal-status:<front>
+project path = sites/all/modules/features

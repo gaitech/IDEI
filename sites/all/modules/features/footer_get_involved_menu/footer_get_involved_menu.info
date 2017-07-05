@@ -1,0 +1,15 @@
+name = Footer get involved menu
+description = display get involved menu in footer 
+core = 7.x
+package = IDEI Features
+version = 7.x-1.0
+dependencies[] = fe_block
+dependencies[] = features
+dependencies[] = menu
+features[fe_block_settings][] = menu-menu-footer-get-involved
+features[features_api][] = api:2
+features[menu_custom][] = menu-footer-get-involved
+features[menu_links][] = menu-footer-get-involved_donate:<front>
+features[menu_links][] = menu-footer-get-involved_fundraise:<front>
+features[menu_links][] = menu-footer-get-involved_volunteer:<front>
+project path = sites/all/modules/features

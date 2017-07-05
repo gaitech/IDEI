@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the lone of field collection view for accordions feature.
+ */
+
+include_once 'lone_of_field_collection_view_for_accordions.features.inc';

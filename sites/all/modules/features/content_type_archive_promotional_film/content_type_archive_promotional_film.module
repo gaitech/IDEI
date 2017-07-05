@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content type : Archive Promotional Film feature.
+ */
+
+include_once 'content_type_archive_promotional_film.features.inc';

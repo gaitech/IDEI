@@ -1,0 +1,15 @@
+name = content type : Donors
+description = content type : Donors
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = image
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_donor_logo
+features[field_base][] = field_donors_link
+features[field_instance][] = node-donors-field_donor_logo
+features[field_instance][] = node-donors-field_donors_link
+features[node][] = donors
+project path = sites/all/modules/features

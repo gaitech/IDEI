@@ -1,0 +1,5 @@
+name = IDEI Global Deployment
+description = Deployment module
+package = IDEI Custom
+core = 7.x
+version = "7.x"

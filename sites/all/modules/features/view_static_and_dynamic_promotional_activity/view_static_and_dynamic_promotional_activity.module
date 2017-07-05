@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the view :Static and Dynamic promotional Activity feature.
+ */
+
+include_once 'view_static_and_dynamic_promotional_activity.features.inc';

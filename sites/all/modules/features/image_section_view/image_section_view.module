@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Image section view feature.
+ */
+
+include_once 'image_section_view.features.inc';

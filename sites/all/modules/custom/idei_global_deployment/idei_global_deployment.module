@@ -1,0 +1,7 @@
+<?php 
+
+/**
+ * @file Deployment module which will be used to automate the release process
+ */
+
+?>
